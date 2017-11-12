@@ -1,0 +1,52 @@
+[
+    {
+        "name": "CHARGING_STATION_SMALL",
+        "categories": ["COMMAND_AND_CREW", "DRONE"],
+	    "required": "CEDRONE",
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 58,
+            "y": 6,
+            "w": 1,
+            "h": 1
+        },
+	"externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 58,
+                    "y": 7,
+		            "w": 1,
+		            "h": 1
+                },
+                "x": 0,
+                "y": 0
+            },
+		{
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 59,
+                    "y": 6,
+		    "w": 1,
+		    "h": 3
+                },
+                "x": 0,
+                "y": -2
+            }
+        ],
+        "hp": 35,
+        "fireHP": 15,
+        "moveDelay": 600,
+        "weight": 20,
+        "cost": 20,
+        "maintenanceCost": 4,
+        "command": 1,
+        "quarters": 4,
+        "quartersType": "droid",
+        "windows": [
+            { "x": 2, "y": 0 }
+        ]
+    }
+]

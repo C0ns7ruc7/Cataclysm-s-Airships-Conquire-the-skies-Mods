@@ -1,0 +1,42 @@
+[
+    {
+        "name": "DRONE_SMALL_COAL_STORE",
+        "categories": ["DRONE"],
+		"required": "CEDRONE",
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 120,
+            "frames": [
+                {"x": 60, "y": 9, "w": 1, "h": 1},
+                {"x": 61, "y": 9, "w": 1, "h": 1},
+				{"x": 62, "y": 9, "w": 1, "h": 1}
+            ]
+        },
+		"externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 63,
+                    "y": 9,
+                    "w": 1,
+                    "h": 1
+                }
+            }
+        ],
+        "hp": 450,
+	"destroyedHP": 0,
+	"maintenanceCost": 15,
+        "fireHP": 160,
+        "moveDelay": 600,
+        "weight": 100,
+        "cost": 300,
+	"command": -1,
+	"canOccupy": [],
+	"propulsion": 0.030,
+	"lift": 850,
+    }
+]

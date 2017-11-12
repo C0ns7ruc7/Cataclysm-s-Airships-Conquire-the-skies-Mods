@@ -1,0 +1,109 @@
+[
+    {
+        "name": "FLIPPED_DRONE_ORNI",
+        "flippedFrom": "DRONE_ORNI"
+    },
+    {
+        "name": "DRONE_ORNI",
+        "categories": ["DRONE"],
+        "availableFor": ["AIRSHIP"],
+	"required": "CEDRONE",
+        "w": 2,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 120,
+            "frames": [
+                {
+                    "x": 58,
+                    "y": 0,
+					"w": 2,
+					"h": 1,
+                },
+                {
+                    "x": 58,
+                    "y": 1,
+					"w": 2,
+					"h": 1,
+                },
+                {
+                    "x": 58,
+                    "y": 2,
+					"w": 2,
+					"h": 1,
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": -1,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "interval": 120,
+                    "frames": [
+                        {
+                            "x": 57,
+                            "y": 0
+                        },
+                        {
+                            "x": 57,
+                            "y": 1
+                        },
+                        {
+                            "x": 57,
+                            "y": 0
+                        },
+                        {
+                            "x": 57,
+                            "y": 2
+                        }
+                    ]
+                }
+            },
+			{
+                "x": 1,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 63,
+                    "y": 4,
+                    "w": 1,
+                    "h": 1
+                }
+            },
+			{
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+				"interval": 200,
+				"frames": [
+					{ "x": 63, "y": 2 },
+					{ "x": 63, "y": 3 },
+					{ "x": 63, "y": 2 },
+					{ "x": 63, "y": 2 },
+					{ "x": 63, "y": 3 },
+					{ "x": 63, "y": 3 },
+					{ "x": 63, "y": 3 }
+					]
+                }
+            }
+        ],
+        "hp": 250,
+	"destroyedHP": 0,
+        "fireHP": 50,
+	"explodeHP": 10,
+        "explodeDmg": 150,
+        "moveDelay": 800,
+        "weight": 75,
+        "cost": 100,
+	"command": -1,
+        "propulsion": 0.035,
+	"maintenanceCost": 15,
+        "backOnly": true,
+        "crew": 0,
+        "recommendedCrew": 0,
+	"canOccupy": []
+    }
+]

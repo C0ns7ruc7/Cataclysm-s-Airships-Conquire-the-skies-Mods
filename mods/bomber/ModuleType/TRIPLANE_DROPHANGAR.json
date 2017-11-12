@@ -1,0 +1,65 @@
+[
+    {
+        "name": "TRIPLANE_DROPHANGAR",
+        "categories": ["AIRCRAFT"],
+        "availableFor": [ "AIRSHIP", "LANDSHIP", "BUILDING" ],
+        "w": 6,
+        "h": 2,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 53,
+            "y": 16,
+            "w": 6,
+            "h": 2
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 53,
+                    "y": 16,
+                    "w": 6,
+                    "h": 2
+                }
+            },
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-plane-vabese",
+                    "x": 0,
+                    "y": 0,
+                    "w": 6,
+                    "h": 2
+                }
+            }
+        ],
+        "external": true,
+        "hp": 200,
+        "fireHP": 50,
+        "moveDelay": 400,
+        "weight": 100,
+        "cost": 200,
+        "maintenanceCost": 2,
+        "bottomOnly": true,
+        "recommendedCrew": 2,
+        "crew": 2,
+        "quarters": 1,
+        "quartersType": "triplane",
+        "leftDoors": [ 0 ],
+        "rightDoors": [ 0 ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 3, "y": 0 },
+            { "x": 4, "y": 0 },
+            { "x": 5, "y": 0 }
+        ],
+        "hangarPositions": [
+            { "x": 2, "y": 1 }
+        ]
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "name": "CAMPF",
+        "categories": ["ZARTDECO"],
+        "external": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-shape",
+            "x": 5,
+            "y": 4
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-shape",
+                    "x": 5,
+                    "y": 4
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+		"lights": [
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 45,
+                "x": 0.59375,
+                "y": 0.625
+            }
+        ],
+		"emitters": [
+            {
+                "x": 0.53125,
+                "y": 0.625,
+                "type": "smoke",
+                "emitProbability": 0.005
+            },
+            {
+                "x": 0.53125,
+                "y": 0.8125,
+                "type": "ember",
+                "emitProbability": 0.004
+            }],
+        "hp": 50,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 2,
+        "cost": 3,
+        "canOccupy": []
+    }
+]

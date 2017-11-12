@@ -1,0 +1,553 @@
+[
+    {
+        "name": "SQUID",
+        "categories": [],
+        "required": "MONSTERS",
+        "w": 39,
+        "h": 6,
+        "doesCreak": false,
+        "preventsBoarding": true,
+        "tentacleDeathSpasms": true,
+        "canParticlesStick": false,
+        "createsExceptionalCombatEventAfterMs": 3000,
+        "appearance": {
+            "src": "monsters",
+            "x": 7,
+            "y": 11,
+            "w": 39,
+            "h": 6
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": -1,
+                "appearance": {
+                    "src": "monsters",
+                    "interval": 2200,
+                    "frames": [
+                        {
+                            "x": 7,
+                            "y": 47,
+                            "w": 16,
+                            "h": 8
+                        },
+                        {
+                            "x": 7,
+                            "y": 47,
+                            "w": 16,
+                            "h": 8
+                        },
+                        {
+                            "x": 7,
+                            "y": 55,
+                            "w": 16,
+                            "h": 8
+                        },
+                        {
+                            "x": 24,
+                            "y": 47,
+                            "w": 16,
+                            "h": 8
+                        },
+                        {
+                            "x": 24,
+                            "y": 55,
+                            "w": 16,
+                            "h": 8
+                        },
+                        {
+                            "x": 24,
+                            "y": 47,
+                            "w": 16,
+                            "h": 8
+                        },
+                        {
+                            "x": 7,
+                            "y": 55,
+                            "w": 16,
+                            "h": 8
+                        }
+                    ]
+                }
+            },
+            {
+                "x": 0,
+                "y": -3,
+                "appearance": {
+                    "src": "monsters",
+                    "interval": 27900,
+                    "frames": [
+                        {
+                            "x": 7,
+                            "y": 20,
+                            "w": 55,
+                            "h": 12
+                        },
+                        {
+                            "x": 7,
+                            "y": 34,
+                            "w": 55,
+                            "h": 12
+                        }
+                    ]
+                }
+            }
+        ],
+        "damagedExternalAppearances": [
+            {
+                "x": 0,
+                "y": -1,
+                "appearance": {
+                    "src": "monsters4",
+                    "interval": 1650,
+                    "frames": [
+                        {
+                            "x": 7,
+                            "y": 47,
+                            "w": 16,
+                            "h": 8
+                        },
+                        {
+                            "x": 7,
+                            "y": 47,
+                            "w": 16,
+                            "h": 8
+                        },
+                        {
+                            "x": 7,
+                            "y": 55,
+                            "w": 16,
+                            "h": 8
+                        },
+                        {
+                            "x": 24,
+                            "y": 47,
+                            "w": 16,
+                            "h": 8
+                        },
+                        {
+                            "x": 24,
+                            "y": 55,
+                            "w": 16,
+                            "h": 8
+                        },
+                        {
+                            "x": 24,
+                            "y": 47,
+                            "w": 16,
+                            "h": 8
+                        },
+                        {
+                            "x": 7,
+                            "y": 55,
+                            "w": 16,
+                            "h": 8
+                        }
+                    ]
+                }
+            },
+            {
+                "x": 0,
+                "y": -3,
+                "appearance": {
+                    "src": "monsters4",
+                    "interval": 17900,
+                    "frames": [
+                        {
+                            "x": 7,
+                            "y": 20,
+                            "w": 55,
+                            "h": 12
+                        },
+                        {
+                            "x": 7,
+                            "y": 34,
+                            "w": 55,
+                            "h": 12
+                        }
+                    ]
+                }
+            }
+        ],
+        "destroyedExternalAppearances": [
+            {
+                "x": 0,
+                "y": -1,
+                "appearance": {
+                    "src": "monsters4",
+                    "interval": 1350,
+                    "frames": [
+                        {
+                            "x": 7,
+                            "y": 47,
+                            "w": 16,
+                            "h": 8
+                        },
+                        {
+                            "x": 42,
+                            "y": 47,
+                            "w": 16,
+                            "h": 8
+                        }
+                    ]
+                }
+            },
+            {
+                "x": 0,
+                "y": -3,
+                "appearance": {
+                    "src": "monsters4",
+                    "x": 7,
+                    "y": 20,
+                    "w": 55,
+                    "h": 12
+                }
+            }
+        ],
+        "damagedEmitters": [
+            {
+                "x": 14,
+                "y": 7.625,
+                "type": "squid_blood_drip",
+                "emitProbability": 0.001
+            },
+            {
+                "x": 6.56,
+                "y": 4.375,
+                "type": "squid_blood_drip",
+                "emitProbability": 0.002
+            },
+            {
+                "x": 23.1875,
+                "y": 2.875,
+                "type": "squid_blood_drip",
+                "emitProbability": 0.001
+            },
+            {
+                "x": 29.5625,
+                "y": 0.625,
+                "type": "squid_blood_drip",
+                "emitProbability": 0.001
+            },
+            {
+                "x": 38.875,
+                "y": 5,
+                "type": "squid_blood_drip",
+                "emitProbability": 0.001
+            },
+            {
+                "x": 46.125,
+                "y": 2.5,
+                "type": "squid_blood_drip",
+                "emitProbability": 0.001
+            }
+		],
+		"destroyedEmitters": [
+            {
+                "x": 14,
+                "y": 7.625,
+                "type": "squid_blood_spurt",
+                "emitProbability": 0.001,
+                "numParticles": 12,
+                "sound": {
+                    "layers": [
+                        {
+                            "variations": ["deathsplat"],
+                            "volume": { "min": 0.8, "max": 2.0 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+                        }
+                    ]
+                }
+            },
+            {
+                "x": 6.56,
+                "y": 4.375,
+                "type": "squid_blood_spurt",
+                "emitProbability": 0.001,
+                "numParticles": 12,
+                "sound": {
+                    "layers": [
+                        {
+                            "variations": ["deathsplat"],
+                            "volume": { "min": 0.8, "max": 2.0 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+                        }
+                    ]
+                }
+            },
+            {
+                "x": 23.1875,
+                "y": 2.875,
+                "type": "squid_blood_spurt",
+                "emitProbability": 0.001,
+                "numParticles": 12,
+                "sound": {
+                    "layers": [
+                        {
+                            "variations": ["deathsplat"],
+                            "volume": { "min": 0.8, "max": 2.0 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+                        }
+                    ]
+                }
+            },
+            {
+                "x": 29.5625,
+                "y": 0.625,
+                "type": "squid_blood_spurt",
+                "emitProbability": 0.001,
+                "numParticles": 12,
+                "sound": {
+                    "layers": [
+                        {
+                            "variations": ["deathsplat"],
+                            "volume": { "min": 0.8, "max": 2.0 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+                        }
+                    ]
+                }
+            },
+            {
+                "x": 38.875,
+                "y": 5,
+                "type": "squid_blood_spurt",
+                "emitProbability": 0.001,
+                "numParticles": 12,
+                "sound": {
+                    "layers": [
+                        {
+                            "variations": ["deathsplat"],
+                            "volume": { "min": 0.8, "max": 2.0 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+                        }
+                    ]
+                }
+            },
+            {
+                "x": 46.125,
+                "y": 2.5,
+                "type": "squid_blood_spurt",
+                "emitProbability": 0.001,
+                "numParticles": 12,
+                "sound": {
+                    "layers": [
+                        {
+                            "variations": ["deathsplat"],
+                            "volume": { "min": 0.8, "max": 2.0 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+                        }
+                    ]
+                }
+            }
+		],
+        "externalDrawPriority": true,
+        "external": true,
+        "armourType": "SQUID_SKIN",
+        "preventsSurrender": true,
+        "hp": 40000,
+        "destroyedHP": 0,
+        "destructionLength": 3000,
+        "hasGenericDestructionFragments": false,
+        "destructionParticle": "squid_ichor_death",
+		"destructionParticleDensity": 1.7,
+        "destructionSound": {
+            "layers": [
+                {
+                    "variations": [ "squid_death0" ],
+                    "volume": 8.0
+                }
+            ]
+        },
+        "hitParticle": "squid_ichor",
+		"fragmentsSpeedMult": 5.0,
+		"fragmentsFireMult": 0,
+		"fragmentsDensity": 1.0,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 10000,
+        "lift": 20000,
+        "propulsion": 0.5,
+        "cost": 800.0,
+        "command": 10,
+		"canOccupy": [],
+        "countsAsActiveCrew": true,
+        "tentacles": [
+            {
+                "numSegments": 29,
+                "baseAngle": 2.86,
+                "baseXOffset": 0.5,
+                "baseYOffset": 6,
+                "baseStiffness": 0.7,
+                "tipStiffness": 0.4,
+                "baseLength": 50,
+                "tipLength": 8,
+                "baseWidth": 50,
+                "tipWidth": 8,
+                "speed": 0.5,
+                "snatchesCrew": true,
+                "mouthXOffset": 0,
+                "mouthYOffset": 3,
+                "attacksHull": true,
+				"attackPenDmg": 60,
+				"attackBlastDmg": 30,
+                "wavesAround": true,
+                "suckerDirection": false,
+                "segmentImg": { "src": "monsters", "x": 5, "y": 346, "w": 70, "h": 56 },
+                "segmentImgVerticallyFlipped": { "src": "monsters", "x": 5, "y": 420, "w": 70, "h": 56 },
+                "imgLength": 60,
+                "minNextTargetPause": 300,
+                "maxNextTargetPause": 1200,
+				"snatchSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_grab0", "tentacle_grab1", "tentacle_grab2"],
+				            "volume": { "min": 1.2, "max": 1.5 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				},
+				"attackSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+				            "volume": { "min": 3, "max": 4 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				}
+            },
+            {
+                "numSegments": 30,
+                "baseAngle": 3.14,
+                "baseXOffset": 0.5,
+                "baseYOffset": 4.2,
+                "baseStiffness": 0.7,
+                "tipStiffness": 0.4,
+                "baseLength": 50,
+                "tipLength": 8,
+                "baseWidth": 50,
+                "tipWidth": 8,
+                "speed": 0.5,
+                "snatchesCrew": true,
+                "mouthXOffset": 0,
+                "mouthYOffset": 3,
+                "attacksHull": true,
+				"attackPenDmg": 60,
+				"attackBlastDmg": 30,
+                "wavesAround": true,
+                "suckerDirection": false,
+                "segmentImg": { "src": "monsters", "x": 5, "y": 346, "w": 70, "h": 56 },
+                "segmentImgVerticallyFlipped": { "src": "monsters", "x": 5, "y": 420, "w": 70, "h": 56 },
+                "imgLength": 60,
+                "minNextTargetPause": 300,
+                "maxNextTargetPause": 1200,
+				"snatchSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_grab0", "tentacle_grab1", "tentacle_grab2"],
+				            "volume": { "min": 1.2, "max": 1.5 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				},
+				"attackSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+				            "volume": { "min": 3, "max": 4 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				}
+            },
+            {
+                "numSegments": 30,
+                "baseAngle": 3.14,
+                "baseXOffset": 0.5,
+                "baseYOffset": 2.3,
+                "baseStiffness": 0.7,
+                "tipStiffness": 0.4,
+                "baseLength": 50,
+                "tipLength": 8,
+                "baseWidth": 50,
+                "tipWidth": 8,
+                "speed": 0.5,
+                "snatchesCrew": true,
+                "mouthXOffset": 0,
+                "mouthYOffset": 3,
+                "attacksHull": true,
+				"attackPenDmg": 60,
+				"attackBlastDmg": 30,
+                "wavesAround": true,
+                "suckerDirection": true,
+                "segmentImg": { "src": "monsters", "x": 5, "y": 420, "w": 70, "h": 56 },
+                "segmentImgVerticallyFlipped": { "src": "monsters", "x": 5, "y": 346, "w": 70, "h": 56 },
+                "imgLength": 60,
+                "minNextTargetPause": 300,
+                "maxNextTargetPause": 1200,
+				"snatchSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_grab0", "tentacle_grab1", "tentacle_grab2"],
+				            "volume": { "min": 1.2, "max": 1.5 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				},
+				"attackSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+				            "volume": { "min": 3, "max": 4 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				}
+            },
+            {
+                "numSegments": 29,
+                "baseAngle": 3.42,
+                "baseXOffset": 0.5,
+                "baseYOffset": 0.4,
+                "baseStiffness": 0.7,
+                "tipStiffness": 0.4,
+                "baseLength": 50,
+                "tipLength": 8,
+                "baseWidth": 50,
+                "tipWidth": 8,
+                "speed": 0.5,
+                "snatchesCrew": true,
+                "mouthXOffset": 0,
+                "mouthYOffset": 3,
+                "attacksHull": true,
+				"attackPenDmg": 60,
+				"attackBlastDmg": 30,
+                "wavesAround": true,
+                "suckerDirection": true,
+                "segmentImg": { "src": "monsters", "x": 5, "y": 420, "w": 70, "h": 56 },
+                "segmentImgVerticallyFlipped": { "src": "monsters", "x": 5, "y": 346, "w": 70, "h": 56 },
+                "imgLength": 60,
+                "minNextTargetPause": 300,
+                "maxNextTargetPause": 1200,
+				"snatchSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_grab0", "tentacle_grab1", "tentacle_grab2"],
+				            "volume": { "min": 1.2, "max": 1.5 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				},
+				"attackSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+				            "volume": { "min": 3, "max": 4 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				}
+            }
+        ]
+    }
+]

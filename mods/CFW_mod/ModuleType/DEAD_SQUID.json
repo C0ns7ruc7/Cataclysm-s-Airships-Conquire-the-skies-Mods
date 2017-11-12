@@ -1,0 +1,528 @@
+[
+    {
+        "name": "DEAD_SQUID",
+        "categories": [],
+        "required": "MONSTERS",
+        "w": 39,
+        "h": 6,
+        "doesCreak": false,
+        "preventsBoarding": true,
+        "appearance": {
+            "src": "monsters2",
+            "x": 7,
+            "y": 11,
+            "w": 39,
+            "h": 6
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": -3,
+                "appearance": {
+                    "src": "monsters2",
+                    "x": 7,
+                    "y": 34,
+                    "w": 55,
+                    "h": 12
+                }
+            }
+        ],
+        "emitters": [
+            {
+                "x": 2.9,
+                "y": 3,
+                "type": "magic",
+                "emitProbability": 0.0001
+            },
+            {
+                "x": 0.3,
+                "y": 3,
+                "type": "pus_drip",
+                "emitProbability": 0.0002
+            }
+		],
+        "externalDrawPriority": true,
+        "external": true,
+        "hp": 40000,
+        "preventsSurrender": true,
+        "destroyedHP": 0,
+        "instantlyDestroyed": true,
+        "hasGenericDestructionFragments": false,
+        "destructionParticle": "squid_ichor_death",
+		"destructionParticleDensity": 1.7,
+		"destructionSound": {
+            "layers": [
+                {
+                    "variations": [ "squid_death0" ],
+                    "volume": 8.0
+                }
+            ]
+        },
+        "hitParticle": "squid_ichor",
+		"fragmentsSpeedMult": 5.0,
+		"fragmentsFireMult": 0,
+		"fragmentsDensity": 1.0,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 10000,
+        "lift": 20000,
+        "propulsion": 0.5,
+        "cost": 0,
+        "command": 10,
+		"canOccupy": [],
+        "countsAsActiveCrew": true,
+        "tentacles": [
+            {
+                "numSegments": 8,
+                "baseAngle": 2.86,
+                "baseXOffset": 0.5,
+                "baseYOffset": 6,
+                "baseStiffness": 0.625,
+                "tipStiffness": 0.4,
+                "baseLength": 50,
+                "tipLength": 18.5,
+                "baseWidth": 50,
+                "tipWidth": 31.5,
+                "speed": 0.25,
+                "snatchesCrew": false,
+                "attacksHull": true,
+				"attackPenDmg": 100,
+				"attackBlastDmg": 30,
+                "wavesAround": true,
+                "suckerDirection": false,
+                "segmentImg": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+                "segmentImgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 },
+				"segmentImgOverrides": [
+					{
+						"index": 0,
+		                "img": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 1,
+		                "img": { "src": "monsters2", "x": 83, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 83, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 2,
+		                "img": { "src": "monsters2", "x": 161, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 3,
+		                "img": { "src": "monsters2", "x": 239, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 4,
+		                "img": { "src": "monsters2", "x": 83, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 83, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 5,
+		                "img": { "src": "monsters2", "x": 239, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 6,
+		                "img": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 7,
+		                "img": { "src": "monsters2", "x": 395, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 395, "y": 420, "w": 70, "h": 56 }
+					}
+				],
+                "imgLength": 60,
+                "minNextTargetPause": 800,
+                "maxNextTargetPause": 2000,
+				"attackSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+				            "volume": { "min": 3, "max": 4 },
+                            "pitch": { "min": 0.6, "max": 0.9 }
+				        }
+				    ]
+				},
+				"attackSprayParticle": "pus_drip",
+				"attackSprayP": 0.4,
+				"attackImpactParticle": "pus_spray",
+				"numAttackImpactParticles": 9
+            },
+            {
+                "numSegments": 30,
+                "baseAngle": 3.14,
+                "baseXOffset": 0.5,
+                "baseYOffset": 4.2,
+                "baseStiffness": 0.7,
+                "tipStiffness": 0.4,
+                "baseLength": 50,
+                "tipLength": 8,
+                "baseWidth": 50,
+                "tipWidth": 8,
+                "speed": 0.25,
+                "snatchesCrew": false,
+                "attacksHull": true,
+				"attackPenDmg": 100,
+				"attackBlastDmg": 30,
+                "wavesAround": true,
+                "suckerDirection": false,
+                "segmentImg": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+                "segmentImgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 },
+				"segmentImgOverrides": [
+					{
+						"index": 3,
+		                "img": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 2,
+		                "img": { "src": "monsters2", "x": 83, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 83, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 0,
+		                "img": { "src": "monsters2", "x": 161, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 4,
+		                "img": { "src": "monsters2", "x": 239, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 5,
+		                "img": { "src": "monsters2", "x": 83, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 83, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 6,
+		                "img": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 7,
+		                "img": { "src": "monsters2", "x": 161, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 8,
+		                "img": { "src": "monsters2", "x": 161, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 9,
+		                "img": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 10,
+		                "img": { "src": "monsters2", "x": 239, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 11,
+		                "img": { "src": "monsters2", "x": 83, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 83, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 12,
+		                "img": { "src": "monsters2", "x": 161, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 13,
+		                "img": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 14,
+		                "img": { "src": "monsters2", "x": 239, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 15,
+		                "img": { "src": "monsters2", "x": 161, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 16,
+		                "img": { "src": "monsters2", "x": 83, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 83, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 17,
+		                "img": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 18,
+		                "img": { "src": "monsters2", "x": 239, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 19,
+		                "img": { "src": "monsters2", "x": 161, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 20,
+		                "img": { "src": "monsters2", "x": 239, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 21,
+		                "img": { "src": "monsters2", "x": 83, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 83, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 22,
+		                "img": { "src": "monsters2", "x": 161, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 23,
+		                "img": { "src": "monsters2", "x": 239, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 24,
+		                "img": { "src": "monsters2", "x": 83, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 83, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 25,
+		                "img": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 26,
+		                "img": { "src": "monsters2", "x": 83, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 83, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 27,
+		                "img": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 28,
+		                "img": { "src": "monsters2", "x": 161, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 29,
+		                "img": { "src": "monsters2", "x": 239, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					}
+				],
+                "imgLength": 60,
+                "minNextTargetPause": 800,
+                "maxNextTargetPause": 2000,
+				"attackSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+				            "volume": { "min": 3, "max": 4 },
+                            "pitch": { "min": 0.6, "max": 0.9 }
+				        }
+				    ]
+				},
+				"attackSprayParticle": "pus_drip",
+				"attackSprayP": 0.3,
+				"attackImpactParticle": "pus_spray",
+				"numAttackImpactParticles": 9
+            },
+            {
+                "numSegments": 3,
+                "baseAngle": 3.14,
+                "baseXOffset": 0.5,
+                "baseYOffset": 2.3,
+                "baseStiffness": 0.7,
+                "tipStiffness": 0.67,
+                "baseLength": 50,
+                "tipLength": 8,
+                "baseWidth": 50,
+                "tipWidth": 45.5,
+                "speed": 0.25,
+                "snatchesCrew": false,
+                "attacksHull": true,
+				"attackPenDmg": 100,
+				"attackBlastDmg": 30,
+                "wavesAround": true,
+                "suckerDirection": true,
+                "segmentImg": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 },
+                "segmentImgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+				"segmentImgOverrides": [
+					{
+						"index": 0,
+		                "img": { "src": "monsters2", "x": 83, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 83, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 1,
+		                "img": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 2,
+		                "img": { "src": "monsters2", "x": 317, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 317, "y": 420, "w": 70, "h": 56 }
+					}
+				],
+                "imgLength": 60,
+                "minNextTargetPause": 800,
+                "maxNextTargetPause": 2000,
+				"attackSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+				            "volume": { "min": 3, "max": 4 },
+                            "pitch": { "min": 0.6, "max": 0.9 }
+				        }
+				    ]
+				},
+				"attackSprayParticle": "pus_drip",
+				"attackSprayP": 0.5,
+				"attackImpactParticle": "pus_spray",
+				"numAttackImpactParticles": 9
+            },
+            {
+                "numSegments": 20,
+                "baseAngle": 3.42,
+                "baseXOffset": 0.5,
+                "baseYOffset": 0.4,
+                "baseStiffness": 0.7,
+                "tipStiffness": 0.5,
+                "baseLength": 50,
+                "tipLength": 8,
+                "baseWidth": 50,
+                "tipWidth": 22,
+                "speed": 0.25,
+                "snatchesCrew": false,
+                "attacksHull": true,
+				"attackPenDmg": 100,
+				"attackBlastDmg": 30,
+                "wavesAround": true,
+                "suckerDirection": true,
+                "segmentImg": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 },
+                "segmentImgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+				"segmentImgOverrides": [
+					{
+						"index": 1,
+		                "img": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 3,
+		                "img": { "src": "monsters2", "x": 83, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 83, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 2,
+		                "img": { "src": "monsters2", "x": 161, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 0,
+		                "img": { "src": "monsters2", "x": 239, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 5,
+		                "img": { "src": "monsters2", "x": 83, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 83, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 6,
+		                "img": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 7,
+		                "img": { "src": "monsters2", "x": 161, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 8,
+		                "img": { "src": "monsters2", "x": 161, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 9,
+		                "img": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 10,
+		                "img": { "src": "monsters2", "x": 239, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 11,
+		                "img": { "src": "monsters2", "x": 83, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 83, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 12,
+		                "img": { "src": "monsters2", "x": 161, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 13,
+		                "img": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 14,
+		                "img": { "src": "monsters2", "x": 239, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 15,
+		                "img": { "src": "monsters2", "x": 161, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 16,
+		                "img": { "src": "monsters2", "x": 83, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 83, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 17,
+		                "img": { "src": "monsters2", "x": 5, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 5, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 18,
+		                "img": { "src": "monsters2", "x": 239, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 161, "y": 420, "w": 70, "h": 56 }
+					},
+					{
+						"index": 19,
+		                "img": { "src": "monsters2", "x": 473, "y": 346, "w": 70, "h": 56 },
+		                "imgVerticallyFlipped": { "src": "monsters2", "x": 473, "y": 420, "w": 70, "h": 56 }
+					}
+				],
+                "imgLength": 60,
+                "minNextTargetPause": 800,
+                "maxNextTargetPause": 2000,
+				"attackSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+				            "volume": { "min": 3, "max": 4 },
+                            "pitch": { "min": 0.6, "max": 0.9 }
+				        }
+				    ]
+				},
+				"attackSprayParticle": "pus_drip",
+				"attackSprayP": 0.3,
+				"attackImpactParticle": "pus_spray",
+				"numAttackImpactParticles": 9
+            }
+        ]
+    }
+]

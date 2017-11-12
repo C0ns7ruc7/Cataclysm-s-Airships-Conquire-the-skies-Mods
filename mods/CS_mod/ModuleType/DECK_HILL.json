@@ -1,0 +1,40 @@
+[
+    {
+        "name": "FLIPPED_DECK_HILL",
+        "flippedFrom": "DECK_HILL"
+    },
+    {
+        "name": "DECK_HILL",
+        "categories": ["ZDECKS"],
+        "external": true,
+        "drawDoors": false,
+        "w": 3,
+        "h": 1,
+        "framesAreVariants": true,
+        "appearance": {
+            "src": "sprite-shape",
+			"w": 3,
+			"h": 1,
+            "x": 20,
+            "y": 11
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-shape",
+					"w": 3,
+					"h": 1,
+					"x": 20,
+					"y": 11
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 60,
+        "fireHP": 15,
+        "moveDelay": 200,
+        "weight": 3,
+        "cost": 4
+    }
+]

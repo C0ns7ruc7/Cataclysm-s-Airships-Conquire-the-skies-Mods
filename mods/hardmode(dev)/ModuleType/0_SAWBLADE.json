@@ -1,0 +1,108 @@
+[
+    {
+        "name": "1_FLIPPED_SAWBLADE",
+        "flippedFrom": "1_SAWBLADE"
+    },
+    {
+        "name": "1_SAWBLADE",
+        "categories": ["1_WEAPONS"],
+        "isWeapon": true,
+        "w": 2,
+        "h": 3,
+        "appearance": {
+            "interval": 80,
+            "src": "spritesheet",
+            "frames": [
+                {
+                    "x": 8,
+                    "y": 26,
+                    "w": 2,
+                    "h": 3
+                },
+                {
+                    "x": 10,
+                    "y": 26,
+                    "w": 2,
+                    "h": 3
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 1,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 4,
+                    "y": 9,
+                    "w": 2,
+                    "h": 2
+                }
+            }
+        ],
+        "hp": 180,
+        "fireHP": 100,
+        "moveDelay": 800,
+        "weight": 120,
+        "cost": -1,
+        "crew": 2,
+        "recommendedCrew": 3,
+        "recommendedGuards": 1,
+        "coalReload": 12000,
+        "windows": [
+            { "x": 1, "y": 2 }
+        ],
+        
+        "maxXRange": 60,
+        "reload": 1600,
+        "inaccuracy": 0,
+        "blastDmg": 27,
+        "penDmg": 0,
+        "clip": 0,
+        "fireArc": { "direction": "forwards", "degrees": 60 },
+        "muzzleCenterX": 1.5,
+        "muzzleCenterY": 1.5,
+        "muzzleLength": 0,
+        "muzzleFlash": false,
+        "optimumRange": 40,
+        "fireSound": "saw",
+        "fireSoundCount": 1,
+        "weaponAppearance": {
+            "barrelAnimation": {
+                "interval": 100,
+                "loop": true,
+                "finishLoopCycle": false,
+                "msPerShot": 1600,
+                "frames": [
+                    { "src": "spritesheet", "x": 102, "y": 464, "w": 122, "h": 48 },
+                    { "src": "spritesheet", "x": 102, "y": 512, "w": 122, "h": 48 }
+                ]
+            },
+            "barrelX": -37,
+            "barrelY": 0
+        },
+        "emitters": [
+            {
+                "x": 1.2,
+                "y": 1.38,
+                "type": "smoke",
+                "emitProbability": 0.0022
+            },
+            {
+                "x": 0.6,
+                "y": 2.56,
+                "type": "ember",
+                "emitProbability": 0.002,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 40,
+                "x": 0.6,
+                "y": 2.56
+            }
+        ]
+    }
+]

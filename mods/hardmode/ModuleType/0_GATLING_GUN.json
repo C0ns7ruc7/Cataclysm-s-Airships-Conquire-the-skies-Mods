@@ -1,0 +1,50 @@
+[
+    {
+        "name": "1_FLIPPED_GATLING_GUN",
+        "flippedFrom": "1_GATLING_GUN"
+    },
+    {
+        "name": "1_GATLING_GUN",
+        "categories": ["1_WEAPONS"],
+        "isWeapon": true,
+        "w": 2,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 20,
+            "y": 0,
+            "w": 2,
+            "h": 1
+        },
+        "hp": 40,
+        "fireHP": 18,
+        "moveDelay": 800,
+        "weight": 20,
+        "cost": -1, "availableFor": [], "frontOnly": true, "topOnly": true, "backOnly": true, "bottomOnly": true,
+        "crew": 1,
+        "recommendedCrew": 1,
+        
+        "isGun": true,
+        "jitterMerge": 0.8,
+        "reload": 125,
+        "clip": 30,
+        "clipReloadTime": 1500,
+        "inaccuracy": 0.005,
+        "blastDmg": 0,
+        "penDmg": 6,
+        "fireArc": { "direction": "forwards", "degrees": 120 },
+        "muzzleCenterX": 1.68,
+        "muzzleCenterY": 0.56,
+        "muzzleLength": 0.8,
+        "optimumRange": 100,
+        "fireSound": "gatling",
+        "fireSoundCount": 9,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 32, "y": 304, "w": 2, "h": 1 },
+            "barrel": { "src": "spritesheet", "x": 353, "y": 113, "w": 24, "h": 9 },
+            "barrelX": 15,
+            "barrelY": 5,
+            "recoil": 2
+        }
+    }
+]

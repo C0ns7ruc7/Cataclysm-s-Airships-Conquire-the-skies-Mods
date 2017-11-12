@@ -1,0 +1,187 @@
+[
+    {
+        "name": "SUS_FACTORY",
+        "categories": ["ECONOMIC"],
+        "availableFor": ["BUILDING"],
+        "w": 8,
+        "h": 6,
+        "appearance": {
+            "src": "com_sprite-vabese",
+            "x": 13,
+            "y": 0,
+            "w": 8,
+            "h": 6
+        },
+        "externalAppearances": [
+            {
+                "x": 6,
+                "y": -2,
+                "appearance": {
+                    "src": "com_sprite-vabese",
+                    "x": 31,
+                    "y": 6,
+                    "w": 1,
+                    "h": 11
+                }
+            },
+			{
+			    "x": 2,
+                "y": 8,
+                "appearance": {
+                    "src": "com_sprite-vabese",
+                    "x": 18,
+                    "y": 13,
+                    "w": 4,
+                    "h": 1
+                }
+			},
+			{
+			    "x": 2,
+                "y": 9,
+                "appearance": {
+                    "src": "com_sprite-vabese",
+                    "x": 18,
+                    "y": 13,
+                    "w": 4,
+                    "h": 1
+                }
+			},
+			{
+			    "x": 2,
+                "y": 7,
+                "appearance": {
+                    "src": "com_sprite-vabese",
+                    "x": 18,
+                    "y": 13,
+                    "w": 5,
+                    "h": 1
+                }
+			},
+			{
+			    "x": 2,
+                "y": 6,
+                "appearance": {
+                    "src": "com_sprite-vabese",
+                    "x": 18,
+                    "y": 13,
+                    "w": 4,
+                    "h": 1
+                }
+			}
+		],
+        "hp": 3000,
+        "fireHP": 1000,
+        "moveDelay": 550,
+        "weight": 5000,
+	"isExplosive": true,
+        "explodeHP": 100,
+	"countsAsActiveCrew": true,
+	"explodeDmg": 1000,
+        "cost": 203.2941176,
+        "maintenanceCost": -28.8,
+	"bottomOnly": true,
+        "windows": [
+            { "x": 0, "y": 0 },
+			{ "x": 7, "y": 0 },
+			{ "x": 0, "y": 1 },
+			{ "x": 7, "y": 1 },
+			{ "x": 0, "y": 2 },
+			{ "x": 7, "y": 2 },
+			{ "x": 0, "y": 3 },
+			{ "x": 7, "y": 3 },
+			{ "x": 0, "y": 4 },
+			{ "x": 7, "y": 4 },
+			{ "x": 0, "y": 5 },
+			{ "x": 7, "y": 5 }
+        ],
+        "emitters": [
+            {
+                "x": 6.5,
+                "y": -1.9,
+                "type": "smoke",
+                "emitProbability": 0.005
+            },
+            {
+                "x": 4.0,
+                "y": 3.7,
+                "type": "ember",
+                "emitProbability": 0.05,
+                "inside": true
+            },
+            {
+                "x": 3.5,
+                "y": 3.7,
+                "type": "ember",
+                "emitProbability": 0.01,
+                "inside": true
+            },
+            {
+                "x": 4.5,
+                "y": 3.7,
+                "type": "ember",
+                "emitProbability": 0.01,
+                "inside": true
+            },
+            {
+                "x": 4.7,
+                "y": 0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.001,
+                "inside": true
+            },
+			{
+                "x": 7.1,
+                "y": 0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.001,
+                "inside": true
+            },
+			{
+                "x": 4.45,
+                "y": 1.45,
+                "type": "susp_chamber_spark",
+                "emitProbability": 0.001,
+                "inside": true
+            },
+			{
+                "x": 2.0,
+                "y": 1.0,
+                "type": "large_susp_chamber_spark",
+                "emitProbability": 0.001,
+                "inside": true
+            }
+		],
+        "upDoors": [ 0, 7],
+        "leftDoors": [ 0, 1, 2, 3, 4, 5 ],
+        "rightDoors": [ 0, 1, 2, 3, 4, 5 ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+			{ "x": 4, "y": 0 },
+			{ "x": 5, "y": 0 },
+			{ "x": 6, "y": 0 },
+			{ "x": 7, "y": 0 },
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 },
+			{ "x": 2, "y": 1 },
+			{ "x": 3, "y": 1 },
+			{ "x": 4, "y": 1 },
+			{ "x": 5, "y": 1 },
+			{ "x": 6, "y": 1 },
+			{ "x": 7, "y": 1 },
+			{ "x": 0, "y": 2 },
+			{ "x": 7, "y": 2 },
+			{ "x": 0, "y": 3 },
+			{ "x": 7, "y": 3 },
+			{ "x": 0, "y": 4 },
+			{ "x": 7, "y": 4 },
+			{ "x": 0, "y": 5 },
+			{ "x": 1, "y": 5 },
+			{ "x": 2, "y": 5 },
+			{ "x": 3, "y": 5 },
+			{ "x": 4, "y": 5 },
+			{ "x": 5, "y": 5 },
+			{ "x": 6, "y": 5 },
+			{ "x": 7, "y": 5 }
+        ]
+    }
+]

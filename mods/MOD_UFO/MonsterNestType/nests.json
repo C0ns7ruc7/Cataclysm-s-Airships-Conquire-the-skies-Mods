@@ -1,0 +1,32 @@
+[
+    {
+        "name": "UFONEST",
+        "spawnWeight": 6,
+        "needsRoad": false,
+        "income": 20,
+        "mapImage": { "src": "ui", "x": 83, "y": 386, "w": 10, "h": 4 },
+        "mapBackground": { "src": "ui", "x": 83, "y": 386, "w": 10, "h": 4 },
+        "mapFleetImage": { "src": "ui", "x": 83, "y": 386, "w": 10, "h": 4 },
+        "mapFleetBackground": { "src": "ui", "x": 83, "y": 386, "w": 10, "h": 4 },
+        "baseConstructions": ["Just a UFO"],
+        "additionalConstructions": ["Just a UFO"],
+        "incomeModifierPercentage": -35,
+        "homeFleet": ["Just a UFO"],
+        "minAttackFleetStrength": 4000,
+        "attackRadius": 800,
+        "rewards": [
+            {
+                "name": "UFOSALVAGE",
+                "money": 2000,
+		"spawnWeight": 95,
+                "rep": 15
+            },
+            {
+                "name": "UNSCAVEDUFOPROD",
+                "bonus": "UFOS",
+		"spawnWeight": 5,
+                "rep": 50
+            }
+        ]
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "name": "ADVCOM",
+        "categories": ["COMMAND_AND_CREW"],
+        "required": "COMPUTERS",
+        "w": 4,
+        "h": 2,
+        "appearance": {
+            "src": "advcom",
+            "interval": 213,
+            "frames": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "w": 4,
+                    "h": 2
+                },
+                {
+                    "x": 4,
+                    "y": 0,
+                    "w": 4,
+                    "h": 2
+                },
+                {
+                    "x": 8,
+                    "y": 0,
+                    "w": 4,
+                    "h": 2
+                },
+                {
+                    "x": 12,
+                    "y": 0,
+                    "w": 4,
+                    "h": 2
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 2,
+                "y": 1,
+                "appearance": {
+                    "src": "advcom",
+                    "x": 0,
+                    "y": 2,
+                    "w": 1,
+                    "h": 1
+                }
+            }
+        ],
+        "hp": 300,
+        "fireHP": 120,
+        "moveDelay": 750,
+        "weight": 175,
+        "cost": 120,
+        "command": 22,
+        "coalReload": 30000,
+        "crew": 3,
+        "recommendedCrew": 4,
+        "recommendedGuards": 2,
+        "upDoors": [ 0 ],
+        "leftDoors": [ 0, 1 ],
+        "rightDoors": [ 0, 1 ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 3, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 },
+            { "x": 2, "y": 1 },
+            { "x": 3, "y": 1 }
+        ],  			
+	"explodeHP": 50,
+	"explodeDmg": 160,
+        "windows": [
+            	{ "x": 2, "y": 1 },
+		{ "x": 0, "y": 0 },
+		{ "x": 0, "y": 1 },
+		{ "x": 3, "y": 1 }
+        ],
+        "emitters": [
+            {
+                "x": 2.125,
+                "y": 1.125,
+                "type": "smoke",
+                "emitProbability": 0.001
+            },
+            {
+                "x": 2.1875,
+                "y": 1.75,
+                "type": "ember",
+                "emitProbability": 0.004,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 100, "g": 90, "b": 10,
+                "radius": 55,
+                "x": 2.1875,
+                "y": 1.75,
+            },
+            {
+                "r": 100, "g": 95, "b": 65,
+                "radius": 65,
+                "x": 3,
+                "y": 0.5,
+            }
+        ]
+    }
+]

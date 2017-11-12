@@ -1,0 +1,155 @@
+[
+    {
+        "name": "CLOCKWORK_HORROR",
+        "categories": [],
+	"required": "MONSTERS",
+	"doesCreak": false,
+        "preventsBoarding": true,
+    "preventsSurrender": true,
+	"isWeapon": true,
+        "destructionLength": 2600,
+	"external": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 200,
+            "frames": [
+                { "x": 50, "y": 12 },
+                { "x": 51, "y": 12 }
+            ]
+        },
+	"externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                	"src": "sprite-vabese",
+			"interval": 100,
+			"frames":[
+				{"x": 13, "y": 17, "w": 1, "h": 1},
+				{"x": 14, "y": 17, "w": 1, "h": 1}
+			]
+                }
+            },
+		{
+		"x": 0,
+		"y": 0,
+		"appearance": {
+			"src": "sprite-vabese",
+			"interval": 200,
+			"frames": [
+				{ "x": 50, "y": 12 },
+				{ "x": 51, "y": 12 }
+			]
+			}
+		}
+	],
+        "hp": 500,
+	"armourType": "CLOCKWORK_BRASS",
+	"hasGenericDestructionFragments": true,
+        "fireHP": 50,
+	"explodeHP": 10,
+        "explodeDmg": 1000,
+        "moveDelay": 2000,
+	"destroyedHP": 0,
+        "weight": 80,
+        "cost": 20,
+	"countsAsActiveCrew": true,
+        "emitters": [
+            {
+                "x": 0.5,
+                "y": 0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.04
+            }
+        ],
+        "command": 3,
+        "maintenanceCost": 25,
+	"canOccupy": [],
+	"lift": 300,
+	"propulsion": 0.30,
+	"springs": [
+	{
+		"xOffset": 0.5,
+		"length": 40,
+		"minCompressedLength": 30,
+		"k": 0.12
+	}],
+        "shootTroopsRange": 350,
+        "fixedInaccuracyVsTroops": 0,
+	"reload": 200,
+	"clip": 0,
+	"inaccuracy": 0.0025,
+	"blastDmg": 5,
+        "penDmg": 5,
+	"directDmg": 1,
+        "muzzleCenterX": 0.5,
+        "muzzleCenterY": 0.5,
+        "muzzleLength": 0.5,
+        "optimumRange": 300,
+	"fireArc": { "direction": "forwards", "degrees":  720 },
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 32, "y": 304, "w": 2, "h": 1 },
+            "barrel": { "src": "monsters", "x": 1, "y": 1, "w": 1, "h": 1 },
+            "barrelX": 8,
+            "barrelY": 8,
+            "recoil": 0
+        },
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "gatling0", "gatling1", "gatling2", "gatling3", "gatling4", "gatling5", "gatling6", "gatling7", "gatling8" ],
+                    "volume": 2.0,
+                    "pitch": {
+                        "min": 0.7,
+                        "max": 0.8,
+                        "distance": [
+                            0, 1.1,
+                            3000, 0.8
+                        ]
+                    }
+                }
+            ]
+        },
+		"tentacles": [
+            	{
+		        "numSegments": 16,
+		        "baseAngle": 0,
+		        "baseXOffset": 0.5,
+		        "baseYOffset": 0.375,
+		        "baseStiffness": 0.7,
+		        "tipStiffness": 0.4,
+		        "baseLength": 16,
+		        "tipLength": 8,
+		        "baseWidth": 12,
+		        "tipWidth": 6,
+		        "speed": 0.5,
+		        "snatchesCrew": true,
+		        "mouthXOffset": 0.5,
+		        "mouthYOffset": 0.5,
+		        "attacksHull": true,
+			"attackPenDmg": 20,
+			"attackBlastDmg": 10,
+		        "wavesAround": true,
+		        "suckerDirection": false,
+		        "segmentImg": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+		        "segmentImgVerticallyFlipped": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+		        "imgLength": 14,
+		        "minNextTargetPause": 300,
+		        "maxNextTargetPause": 1200,
+			"snatchSound": "tentacle_grab",
+			"numSnatchSounds": 3,
+			"attackSound": "tentacle_whack",
+			"numAttackSounds": 4,
+			"segmentImgOverrides": [
+		{
+			"index": 15,
+		        "img": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 },
+		        "imgVerticallyFlipped": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 }
+		}
+		]
+            }
+        ]
+    }
+]

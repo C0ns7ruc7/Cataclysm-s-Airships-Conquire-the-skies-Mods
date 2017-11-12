@@ -1,0 +1,52 @@
+[
+    {
+        "name": "CLOCKWORK_MIND",
+        "categories": ["DRONE"],
+		"required": "CEDRONE",
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 200,
+            "frames": [
+                { "x": 13, "y": 16 },
+                { "x": 14, "y": 16 }
+            ]
+        },
+	"externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+			"interval": 100,
+			"frames":[
+				{"x": 13, "y": 17, "w": 1, "h": 1},
+				{"x": 14, "y": 17, "w": 1, "h": 1}
+			]
+                }
+            }],
+        "hp": 300,
+	"destroyedHP": 0,
+        "fireHP": 30,
+	"explodeHP": 10,
+        "explodeDmg": 100,
+        "moveDelay": 600,
+        "weight": 80,
+        "cost": 20,
+	"countsAsActiveCrew": true,
+	"preventsBoarding": true,
+        "emitters": [
+            {
+                "x": 0.5,
+                "y": 0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.02,
+                "inside": true
+            }
+        ],
+        "command": 8,
+        "maintenanceCost": 15,
+	"canOccupy": []	
+    }
+]

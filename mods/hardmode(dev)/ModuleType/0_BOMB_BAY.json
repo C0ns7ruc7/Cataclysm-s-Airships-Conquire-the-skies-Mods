@@ -1,0 +1,45 @@
+[
+    {
+        "name": "1_BOMB_BAY",
+        "categories": ["1_WEAPONS"],
+        "isWeapon": true,
+        "w": 2,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 40,
+            "y": 4,
+            "w": 2,
+            "h": 1
+        },
+        "hp": 60,
+        "fireHP": 50,
+        "moveDelay": 800,
+        "weight": 40,
+        "cost": -1,
+        "crew": 2,
+        "recommendedCrew": 3,
+        
+        "isExplosive": true,
+        "shotSpeed": 0.3,
+        "muzzleFlash": false,
+        "reload": 5000,
+        "clip": 3,
+        "inaccuracy": 0.0013,
+        "blastDmg": 50,
+        "penDmg": 0,
+        "fireArc": { "direction": "down", "degrees": 10 },
+        "muzzleCenterX": 1,
+        "muzzleCenterY": 0.7,
+        "muzzleLength": 0,
+        "optimumRange": 500,
+        "hitSound": "smexplosion",
+        "explodeHP": 40,
+        "explodeDmg": 60,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 641, "y": 81, "w": 12, "h": 5 },
+            "hitExplosionSize": 2.5,
+            "missExplosionSize": 0.8,
+        }
+    }
+]

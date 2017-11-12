@@ -1,0 +1,57 @@
+[{
+        "name": "TAD_END",
+        "categories": ["UNIT"],
+        "external": true,
+		"doesCreak": false,
+        "availableFor": ["AIRSHIP"],
+		"w": 1,
+        "h": 1,
+		"isRam": true,
+       "appearance": {
+            "src": "sprite-vabese",
+					"interval": 125,
+					"frames":[
+						{"x": 18, "y": 14, "w": 1, "h": 1},
+						{"x": 18, "y": 15, "w": 1, "h": 1},
+						{"x": 18, "y": 16, "w": 1, "h": 1},
+						{"x": 18, "y": 15, "w": 1, "h": 1}
+						]
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+					"interval": 125,
+					"frames":[
+						{"x": 18, "y": 14, "w": 1, "h": 1},
+						{"x": 18, "y": 15, "w": 1, "h": 1},
+						{"x": 18, "y": 16, "w": 1, "h": 1},
+						{"x": 18, "y": 15, "w": 1, "h": 1}
+						]
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 75,
+	"destroyedHP": 0,
+        "fireHP": 25,
+        "explodeHP": 1,
+        "explodeDmg": 1250,
+	"command": 1,
+	"propulsion": 3.1,
+        "weight": 333,
+        "cost": 33,
+        "crew": 0,
+
+        "backOnly": true,
+
+	"emitters": [
+            {
+                "x": 1.50,
+                "y": 0.5,
+                "type": "smoke",
+                "emitProbability": 0.0095
+            }],		
+        "canOccupy": []
+}]

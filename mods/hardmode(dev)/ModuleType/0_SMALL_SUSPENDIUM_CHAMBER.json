@@ -1,0 +1,91 @@
+[
+    {
+        "name": "1_SMALL_SUSPENDIUM_CHAMBER",
+        "categories": ["1_LIFT"],
+        "availableFor": ["AIRSHIP"],
+        "w": 1,
+        "h": 2,
+        "appearance": {
+            "src": "spritesheet",
+            "interval": 60,
+            "frames": [
+                {
+                    "x": 3,
+                    "y": 5,
+                    "w": 1,
+                    "h": 2
+                },
+                {
+                    "x": 4,
+                    "y": 5,
+                    "w": 1,
+                    "h": 2
+                },
+                {
+                    "x": 5,
+                    "y": 5,
+                    "w": 1,
+                    "h": 2
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 6,
+                    "y": 5,
+                    "w": 1,
+                    "h": 2
+                }
+            }
+        ],
+        "hp": 60,
+        "fireHP": 35,
+        "moveDelay": 800,
+        "weight": 50,
+        "cost": -1,
+        "lift": 600,
+        "coalReload": 40000,
+        "crew": 1,
+        "recommendedCrew": 1,
+        "emitters": [
+            {
+                "x": 0.25,
+                "y": 0.9,
+                "type": "smoke",
+                "emitProbability": 0.0012
+            },
+            {
+                "x": 0.31,
+                "y": 1.7,
+                "type": "ember",
+                "emitProbability": 0.001,
+                "inside": true
+            },
+            {
+                "x": 0.75,
+                "y": 1.55,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.007,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 128, "g": 45, "b": 5,
+                "radius": 15,
+                "x": 0.31,
+                "y": 1.7
+            },
+            {
+                "r": 116, "g": 116, "b": 78,
+                "radius": 20,
+                "x": 0.75,
+                "y": 1.55
+            }
+        ]
+    }
+]

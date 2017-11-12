@@ -1,0 +1,44 @@
+[
+	{
+	        "name": "FLIPPED_%x%_RAMP_DOWN",
+        	"flippedFrom": "%x%_RAMP_DOWN"
+	},
+	{
+		"name": "%x%_RAMP_DOWN",
+		"categories": ["SHAPING"],
+		"external": true,
+		"w": 1,
+		"h": 1,
+		"appearance": 
+		{
+		    	"src": "sprite-shape",
+			"w": 1,
+			"h": 1,
+		    	"x": 1,
+		    	"y": 5
+		},
+		"externalAppearances": 
+		[
+		    {
+			"appearance": 
+			{
+		            	"src": "sprite-shape",
+				"w": 1,
+				"h": 1,
+		            	"x": 1,
+		           	"y": 5
+		        },
+			"x": 0,
+		        "y": 0
+		    }
+		],
+		"hp": 75,
+		"fireHP": 15,
+		"moveDelay": 10000,
+		"weight": 1,
+		"cost": 4,
+		"canOccupy": [],
+        	"adjacencyBonusStrength": 1.0,
+        	"hardness": 1.0
+    	}
+]

@@ -1,0 +1,409 @@
+[
+    {
+        "name": "FLESHCRACKER",
+        "categories": [],
+        "required": "MONSTERS",
+        "doesCreak": false,
+        "preventsBoarding": true,
+        "destructionLength": 2000,
+        "w": 2,
+        "h": 5,
+        "createsExceptionalCombatEventAfterMs": 6000,
+        "appearance": {
+            "src": "monsters",
+            "interval": 240,
+            "frames": [
+                {
+                    "x": 50,
+                    "y": 54,
+                    "w": 2,
+                    "h": 5
+                },
+                {
+                    "x": 52,
+                    "y": 54,
+                    "w": 2,
+                    "h": 5
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": -1,
+                "y": 0,
+                "appearance": {
+                    "src": "monsters",
+                    "x": 49,
+                    "y": 48,
+                    "w": 4,
+                    "h": 5
+                }
+            }
+        ],
+        "damagedExternalAppearances": [
+            {
+                "x": -1,
+                "y": 0,
+                "appearance": {
+                    "src": "monsters",
+                    "x": 45,
+                    "y": 48,
+                    "w": 4,
+                    "h": 5
+                }
+            }
+        ],
+        "destroyedExternalAppearances": [
+            {
+                "x": -1,
+                "y": 0,
+                "appearance": {
+                    "src": "monsters",
+                    "x": 45,
+                    "y": 48,
+                    "w": 4,
+                    "h": 5
+                }
+            }
+        ],
+        "damagedEmitters": [
+            {
+                "x": 0.9375,
+                "y": 0.375,
+                "type": "smoke",
+                "emitProbability": 0.0005
+            },
+            {
+                "x": 1.375,
+                "y": 2.5625,
+                "type": "smoke",
+                "emitProbability": 0.001
+            },
+            {
+                "x": 0.3125,
+                "y": 3.25,
+                "type": "smoke",
+                "emitProbability": 0.001
+            },
+            {
+                "x": 0.9375,
+                "y": 0.375,
+                "type": "damaged_spark",
+                "emitProbability": 0.0005,
+                "sound": {
+                    "layers": [
+                        {
+                            "variations": ["spark"],
+                            "volume": { "min": 0.3, "max": 0.7 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+                        }
+                    ]
+                }
+            },
+            {
+                "x": 1.375,
+                "y": 2.5625,
+                "type": "damaged_spark",
+                "emitProbability": 0.0005,
+                "sound": {
+                    "layers": [
+                        {
+                            "variations": ["spark"],
+                            "volume": { "min": 0.3, "max": 0.7 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+                        }
+                    ]
+                }
+            },
+            {
+                "x": 0.3125,
+                "y": 3.25,
+                "type": "damaged_spark",
+                "emitProbability": 0.0005,
+                "sound": {
+                    "layers": [
+                        {
+                            "variations": ["spark"],
+                            "volume": { "min": 0.3, "max": 0.7 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+                        }
+                    ]
+                }
+            }
+		],
+		"destroyedEmitters": [
+            {
+                "x": 0.9375,
+                "y": 0.375,
+                "type": "smoke",
+                "emitProbability": 0.001
+            },
+            {
+                "x": 1.375,
+                "y": 2.5625,
+                "type": "smoke",
+                "emitProbability": 0.002
+            },
+            {
+                "x": 0.3125,
+                "y": 3.25,
+                "type": "smoke",
+                "emitProbability": 0.002
+            },
+            {
+                "x": 0.9375,
+                "y": 0.375,
+                "type": "damaged_spark",
+                "emitProbability": 0.0005,
+                "numParticles": 7,
+                "sound": {
+                    "layers": [
+                        {
+                            "variations": ["spark"],
+                            "volume": { "min": 1.0, "max": 2.0 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+                        }
+                    ]
+                }
+            },
+            {
+                "x": 1.375,
+                "y": 2.5625,
+                "type": "damaged_spark",
+                "emitProbability": 0.0005,
+                "numParticles": 7,
+                "sound": {
+                    "layers": [
+                        {
+                            "variations": ["spark"],
+                            "volume": { "min": 1.0, "max": 2.0 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+                        }
+                    ]
+                }
+            },
+            {
+                "x": 0.3125,
+                "y": 3.25,
+                "type": "damaged_spark",
+                "emitProbability": 0.0005,
+                "numParticles": 7,
+                "sound": {
+                    "layers": [
+                        {
+                            "variations": ["spark"],
+                            "volume": { "min": 1.0, "max": 2.0 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+                        }
+                    ]
+                }
+            }
+		],
+        "hp": 3000,
+        "fireHP": 0,
+        "externalDrawPriority": false,
+        "external": true,
+        "destroyedHP": 0,
+        "hasGenericDestructionFragments": true,
+        "moveDelay": 10000,
+        "weight": 500,
+        "cost": 110.0,
+        "propulsion": 0.2,
+        "bottomOnly": true,
+        "canOccupy": [],
+        "command": 10,
+        "countsAsActiveCrew": true,
+        "isWeapon": true,
+        "jitterMerge": 0.8,
+        "reload": 200,
+        "clip": 0,
+        "inaccuracy": 0.0025,
+        "blastDmg": 0,
+        "penDmg": 15,
+        "fireArc": { "direction": "forwards", "degrees": 240 },
+        "muzzleCenterX": 1,
+        "muzzleCenterY": 2.375,
+        "muzzleLength": 3.5,
+        "optimumRange": 100,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "gatling0", "gatling1", "gatling2", "gatling3", "gatling4", "gatling5", "gatling6", "gatling7", "gatling8" ],
+                    "volume": 2.0,
+                    "pitch": {
+                        "min": 0.7,
+                        "max": 0.8,
+                        "distance": [
+                            0, 1.1,
+                            3000, 0.8
+                        ]
+                    }
+                }
+            ]
+        },
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 32, "y": 304, "w": 2, "h": 1 },
+            "barrel": { "src": "monsters", "x": 848, "y": 784, "w": 112, "h": 16 },
+            "barrelX": -40,
+            "barrelY": 30,
+            "recoil": 2
+        },
+        "emitters": [
+            {
+                "x": -0.1875,
+                "y": 0.33,
+                "type": "smoke",
+                "emitProbability": 0.003
+            },
+            {
+                "x": 1.875,
+                "y": 1.875,
+                "type": "blood_drip",
+                "emitProbability": 0.003
+            }
+        ],
+        "legs": [
+            {
+                "back": false,
+                "xOffset": 1,
+                "yOffset": -0.2,
+                "limbLength": 40,
+                "footWidth": 30,
+                "footHeight": 8,
+                "stepLength": 20,
+                "maxStepTime": 8000,
+                "bendForwards": true,
+                "spring": {
+                    "xOffset": 0,
+                    "length": 80,
+                    "minCompressedLength": 60,
+                    "k": 0.09
+                },
+                "upperLeg": { "src": "wheels_and_legs", "x": 1, "y": 131, "w": 80, "h": 20 },
+                "lowerLeg": { "src": "wheels_and_legs", "x": 1, "y": 152, "w": 80, "h": 20 },
+                "foot": { "src": "wheels_and_legs", "x": 142, "y": 73, "w": 40, "h": 30 },
+                "beginStepSound": {
+				    "layers": [
+				        {
+				            "variations": ["hiss0", "hiss1", "hiss2"],
+				            "volume": { "min": 0.2, "max": 0.3 },
+                            "pitch": { "min": 0.9, "max": 1.1 }
+				        }
+				    ]
+				},
+                "footDownSound": {
+                    "layers": [
+                        {
+                            "variations": [ "step0", "step1", "step2" ],
+                            "volume": {
+                                "min": 0.8,
+                                "max": 1.2
+                            },
+                            "pitch": {
+                                "min": 0.8,
+                                "max": 0.9
+                            }
+                        }
+                    ]
+                },
+                "minFootY": -5
+            },
+            {
+                "back": true,
+                "xOffset": 1,
+                "yOffset": -0.2,
+                "limbLength": 40,
+                "footWidth": 30,
+                "footHeight": 8,
+                "stepLength": 20,
+                "maxStepTime": 8000,
+                "bendForwards": true,
+                "spring": {
+                    "xOffset": 0,
+                    "length": 80,
+                    "minCompressedLength": 60,
+                    "k": 0.09
+                },
+                "upperLeg": { "src": "wheels_and_legs", "x": 1, "y": 131, "w": 80, "h": 20 },
+                "lowerLeg": { "src": "wheels_and_legs", "x": 1, "y": 152, "w": 80, "h": 20 },
+                "foot": { "src": "wheels_and_legs", "x": 142, "y": 73, "w": 40, "h": 30 },
+                "beginStepSound": {
+				    "layers": [
+				        {
+				            "variations": ["hiss0", "hiss1", "hiss2"],
+				            "volume": { "min": 0.2, "max": 0.3 },
+                            "pitch": { "min": 0.9, "max": 1.1 }
+				        }
+				    ]
+				},
+                "footDownSound": {
+                    "layers": [
+                        {
+                            "variations": [ "step0", "step1", "step2" ],
+                            "volume": {
+                                "min": 0.8,
+                                "max": 1.2
+                            },
+                            "pitch": {
+                                "min": 0.8,
+                                "max": 0.9
+                            }
+                        }
+                    ]
+                },
+                "minFootY": -5
+            }
+        ],
+        "tentacles": [
+            {
+                "numSegments": 16,
+                "baseAngle": 0,
+                "baseXOffset": 1,
+                "baseYOffset": 2.375,
+                "baseStiffness": 0.7,
+                "tipStiffness": 0.4,
+                "baseLength": 16,
+                "tipLength": 8,
+                "baseWidth": 12,
+                "tipWidth": 6,
+                "speed": 0.5,
+                "snatchesCrew": true,
+                "mouthXOffset": 2,
+                "mouthYOffset": 1.75,
+                "attacksHull": false,
+                "wavesAround": true,
+                "suckerDirection": false,
+                "segmentImg": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "segmentImgVerticallyFlipped": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "imgLength": 14,
+                "minNextTargetPause": 300,
+                "maxNextTargetPause": 1200,
+				"snatchSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_grab0", "tentacle_grab1", "tentacle_grab2"],
+				            "volume": { "min": 0.8, "max": 1.25 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				},
+				"attackSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+				            "volume": { "min": 0.8, "max": 1.25 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				},
+				"segmentImgOverrides": [
+					{
+						"index": 15,
+		                "img": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 },
+		                "imgVerticallyFlipped": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 }
+					}
+				]
+            }
+        ]
+    }
+]

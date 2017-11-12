@@ -1,0 +1,164 @@
+[
+    {
+        "name": "COPTER",
+        "categories": ["PROPULSION", "LIFT"],
+        "availableFor": ["AIRSHIP"],
+        "w": 3,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 150,
+            "frames": [
+                {
+                    "x": 44,
+                    "y": 8,
+                    "w": 3,
+                    "h": 2
+                },
+                {
+                    "x": 44,
+                    "y": 12,
+                    "w": 3,
+                    "h": 2
+                },
+                {
+                    "x": 44,
+                    "y": 10,
+                    "w": 3,
+                    "h": 2
+                },
+                {
+                    "x": 44,
+                    "y": 14,
+                    "w": 3,
+                    "h": 2
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 1,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 4,
+                    "y": 9,
+                    "w": 2,
+                    "h": 2
+                }
+            },
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "interval": 120,
+                    "frames": [
+                        {
+                            "x": 47,
+                            "y": 8,
+                            "w": 3,
+                            "h": 2
+                        },
+                        {
+                            "x": 47,
+                            "y": 14,
+                            "w": 3,
+                            "h": 2
+                        },
+                        {
+                            "x": 47,
+                            "y": 10,
+                            "w": 3,
+                            "h": 2
+                        },
+                        {
+                            "x": 47,
+                            "y": 12,
+                            "w": 3,
+                            "h": 2
+                        }
+                    ]
+                }
+            }
+        ],
+        "hp": 100,
+        "fireHP": 60,
+        "moveDelay": 800,
+        "weight": 180,
+        "cost": 165,
+        "lift": 1500,
+        "propulsion": 0.06,
+        "coalReload": 25000,
+        "crew": 1,
+        "recommendedCrew": 2,
+	"recommendedGuards": 1,
+	"msUntilPlayLoop": 1800,
+	"runningLoop": {
+            "loopFadeInMs": 300,
+            "loopFadeOutMs": 400,
+            "layers": [
+                {
+                    "variations": [ "engine_1600" ],
+                    "volume": {
+                        "value": 0.8,
+                        "onViewingSide": [
+                            0, 0.5,
+                            1, 1
+                        ],
+                        "xSpeed": [
+                            -0.3, 1.2,
+                            0, 0.4,
+                            0.3, 1.2
+                        ]
+                    },
+                    "pitch": {
+                        "min": 1.0,
+                        "max": 1.0,
+                        "xSpeed": [
+                            -0.3, 1.2,
+                            0, 0.8,
+                            0.3, 1.2
+                        ]
+                    }
+                }
+            ]
+        },
+        "emitters": [
+            {
+                "x": 2.25,
+                "y": 0.38,
+                "type": "smoke",
+                "emitProbability": 0.003
+            },
+            {
+                "x": 2.5625,
+                "y": 1.5625,
+                "type": "ember",
+                "emitProbability": 0.002,
+                "inside": true
+            },
+            {
+                "x": 0.4,
+                "y": 1.7,
+                "type": "ember",
+                "emitProbability": 0.002,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 30,
+                "x": 2.5625,
+                "y": 1.5625
+            },
+			{
+                "r": 255, "g": 90, "b": 10,
+                "radius": 40,
+                "x": 0.4,
+                "y": 1.7
+            },
+        ]
+    }
+]

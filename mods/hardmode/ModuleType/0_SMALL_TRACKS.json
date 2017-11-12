@@ -1,0 +1,205 @@
+[
+    {
+        "name": "1_SMALL_TRACKS",
+        "categories": ["1_BASIC", "1_PROPULSION"],
+
+        "w": 5,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "interval": 150,
+            "frames": [
+                { "x": 57, "y": 2, "w": 5, "h": 1 },
+                { "x": 57, "y": 4, "w": 5, "h": 1 }
+            ]
+        },
+        "hp": 400,
+        "fireHP": 100,
+        "moveDelay": 800,
+        "weight": 300,
+        "cost": -1, "availableFor": [], "frontOnly": true, "topOnly": true, "backOnly": true, "bottomOnly": true,
+        "propulsion": 0.35,
+        "coalReload": 25000,
+        "crew": 1,
+        "recommendedCrew": 2,
+        
+        "upDoors": [ 2 ],
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 1,
+                "appearance": {
+                    "src": "spritesheet",
+                    "interval": 80,
+                    "frames": [
+                        { "x": 57, "y": 3, "w": 5, "h": 1 },
+                        { "x": 57, "y": 5, "w": 5, "h": 1 }
+                    ]
+                }
+            },
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 31,
+                    "y": 11
+                }
+            },
+            {
+                "x": 4,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 31,
+                    "y": 11
+                }
+            }
+        ],
+        "emitters": [
+            {
+                "x": 0.22,
+                "y": 0,
+                "type": "smoke",
+                "emitProbability": 0.0015
+            },
+            {
+                "x": 0.6,
+                "y": 0.55,
+                "type": "ember",
+                "emitProbability": 0.004,
+                "inside": true
+            },
+            {
+                "x": 4.22,
+                "y": 0,
+                "type": "smoke",
+                "emitProbability": 0.0015
+            },
+            {
+                "x": 4.6,
+                "y": 0.55,
+                "type": "ember",
+                "emitProbability": 0.004,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 30,
+                "x": 0.6,
+                "y": 0.55
+            },
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 30,
+                "x": 4.6,
+                "y": 0.55
+            }
+        ],
+        "springs": [
+            {
+                "xOffset": 0.2,
+                "length": 40,
+                "minCompressedLength": 30,
+                "k": 0.12
+            },
+            {
+                "xOffset": 2.5,
+                "length": 40,
+                "minCompressedLength": 30,
+                "k": 0.12
+            },
+            {
+                "xOffset": 4.8,
+                "length": 40,
+                "minCompressedLength": 30,
+                "k": 0.12
+            }
+        ],
+        "wheels": [
+            {
+                "xOffset": 0.5,
+                "maxYOffset": 17,
+                "radius": 18,
+                "wheel": {
+                    "src": "wheels_and_legs",
+                    "x": 0,
+                    "y": 63,
+                    "w": 32,
+                    "h": 32
+                },
+                "lowerLink": {
+                    "src": "wheels_and_legs",
+                    "x": 34,
+                    "y": 43,
+                    "w": 9,
+                    "h": 10
+                },
+                "upperLink": {
+                    "src": "wheels_and_legs",
+                    "x": 22,
+                    "y": 43,
+                    "w": 9,
+                    "h": 10
+                },
+                "segmentStride": 3
+            },
+            {
+                "xOffset": 2.5,
+                "maxYOffset": 17,
+                "radius": 18,
+                "wheel": {
+                    "src": "wheels_and_legs",
+                    "x": 0,
+                    "y": 63,
+                    "w": 32,
+                    "h": 32
+                },
+                "lowerLink": {
+                    "src": "wheels_and_legs",
+                    "x": 34,
+                    "y": 43,
+                    "w": 9,
+                    "h": 10
+                },
+                "upperLink": {
+                    "src": "wheels_and_legs",
+                    "x": 22,
+                    "y": 43,
+                    "w": 9,
+                    "h": 10
+                },
+                "segmentStride": 3
+            },
+            {
+                "xOffset": 4.5,
+                "maxYOffset": 17,
+                "radius": 18,
+                "wheel": {
+                    "src": "wheels_and_legs",
+                    "x": 0,
+                    "y": 63,
+                    "w": 32,
+                    "h": 32
+                },
+                "lowerLink": {
+                    "src": "wheels_and_legs",
+                    "x": 34,
+                    "y": 43,
+                    "w": 9,
+                    "h": 10
+                },
+                "upperLink": {
+                    "src": "wheels_and_legs",
+                    "x": 22,
+                    "y": 43,
+                    "w": 9,
+                    "h": 10
+                },
+                "segmentStride": 3
+            }
+        ]
+    }
+]

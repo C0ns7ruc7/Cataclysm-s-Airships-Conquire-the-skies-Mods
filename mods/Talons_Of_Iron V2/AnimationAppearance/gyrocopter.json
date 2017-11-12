@@ -1,0 +1,61 @@
+[
+    {
+        "name": "gyrocopter",
+        "bundle": "air_troop",
+        "spritesheet": "Gyrocopter",
+        "images": [
+            {
+                "part": "body",
+                "side": "RIGHT",
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 20,
+				"flipped": true,
+                "emitters": [
+                    {
+                        "type": "smoke",
+                        "freq": 0.001,
+                        "x": 3,
+                        "y": 9,
+                        "scale": 0.6
+                    }
+                ]
+            },
+            {
+                "part": "body",
+                "side": "LEFT",
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 20,
+                "emitters": [
+                    {
+                        "type": "smoke",
+                        "freq": 0.001,
+                        "x": 28,
+                        "y": 9,
+                        "scale": 0.6
+                    }
+                ]
+            },
+            {
+                "part": "damagedBody",
+                "side": "RIGHT",
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 20,
+				"flipped": true
+				},
+            {
+                "part": "damagedBody",
+                "side": "LEFT",
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 20
+            }
+        ]
+    }
+]

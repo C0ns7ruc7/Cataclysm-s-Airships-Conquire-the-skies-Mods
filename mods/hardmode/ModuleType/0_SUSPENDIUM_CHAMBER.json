@@ -1,0 +1,91 @@
+[
+    {
+        "name": "1_SUSPENDIUM_CHAMBER",
+        "categories": ["1_BASIC", "1_LIFT"],
+
+        "w": 3,
+        "h": 2,
+        "appearance": {
+            "src": "spritesheet",
+            "interval": 150,
+            "frames": [
+                {
+                    "x": 0,
+                    "y": 7,
+                    "w": 3,
+                    "h": 2
+                },
+                {
+                    "x": 6,
+                    "y": 7,
+                    "w": 3,
+                    "h": 2
+                },
+                {
+                    "x": 9,
+                    "y": 7,
+                    "w": 3,
+                    "h": 2
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 3,
+                    "y": 7,
+                    "w": 3,
+                    "h": 2
+                }
+            }
+        ],
+        "hp": 200,
+        "fireHP": 120,
+        "moveDelay": 800,
+        "weight": 120,
+        "cost": -1, "availableFor": [], "frontOnly": true, "topOnly": true, "backOnly": true, "bottomOnly": true,
+        "lift": 2000,
+        "coalReload": 20000,
+        "crew": 1,
+        "recommendedCrew": 2,
+        "emitters": [
+            {
+                "x": 0.4,
+                "y": 0.38,
+                "type": "smoke",
+                "emitProbability": 0.003
+            },
+            {
+                "x": 0.4,
+                "y": 1.7,
+                "type": "ember",
+                "emitProbability": 0.002,
+                "inside": true
+            },
+            {
+                "x": 2.3,
+                "y": 1,
+                "type": "susp_chamber_spark",
+                "emitProbability": 0.025,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 30,
+                "x": 0.4,
+                "y": 1.7
+            },
+            {
+                "r": 232, "g": 232, "b": 156,
+                "radius": 45,
+                "x": 2.3,
+                "y": 1
+            }
+        ]
+    }
+]

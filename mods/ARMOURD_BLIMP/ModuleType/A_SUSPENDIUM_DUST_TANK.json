@@ -1,0 +1,94 @@
+[
+    {
+        "name": "A_SUSPENDIUM_DUST_TANK",
+        "categories": ["CE_BALLOONS"],
+        "availableFor": ["AIRSHIP"],
+        "w": 2,
+        "h": 3,
+	"appearance": {
+		"src": "spritesheet",
+                "x": 15,
+                "y": 7,
+                "w": 2,
+                "h": 3
+	},
+	"externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet_blimp",
+                    "x": 0,
+                    "y": 0,
+                    "w": 2,
+                    "h": 3
+                }
+            }
+        ],
+        "destroyedExternalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet_blimp",
+                    "x": 2,
+                    "y": 0,
+                    "w": 2,
+                    "h": 3
+                }
+            }
+        ],
+        "damagedEmitters": [
+            {
+                "x": 0.5,
+                "y": 0.1875,
+                "type": "susp_block_spark",
+                "emitProbability": 0.002,
+            },
+            {
+                "x": 1.875,
+                "y": 1.25,
+                "type": "susp_block_spark",
+                "emitProbability": 0.003,
+            },
+            {
+                "x": 1.1875,
+                "y": 2.25,
+                "type": "susp_block_spark",
+                "emitProbability": 0.001,
+            }
+		],
+		"destroyedEmitters": [
+            {
+                "x": 0.5,
+                "y": 0.1875,
+                "type": "susp_block_spark",
+                "emitProbability": 0.01,
+            },
+            {
+                "x": 1.875,
+                "y": 1.25,
+                "type": "susp_block_spark",
+                "emitProbability": 0.015,
+            },
+            {
+                "x": 1.1875,
+                "y": 2.25,
+                "type": "susp_block_spark",
+                "emitProbability": 0.005,
+            }
+		],
+        "hp": 50,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "canOccupy": [],
+        "external": false,
+        "weight": 50,
+        "cost": 15,
+        "lift": 250,
+        "explodeHP": 10,
+        "explodeDmg": 25,
+        "structuralStressAmount": 5,
+        "adjacencyBonusStrength": 0.666
+    }
+]

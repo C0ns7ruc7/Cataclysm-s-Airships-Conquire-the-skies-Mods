@@ -1,0 +1,97 @@
+[
+    {
+        "name": "DRONE_SUSPENDIUM_CHAMBER",
+        "categories": ["DRONE"],
+        "availableFor": ["AIRSHIP"],
+		"required": "CEDRONE",
+        "w": 1,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 60,
+            "frames": [
+                {
+                    "x": 57,
+                    "y": 3,
+                    "w": 1,
+                    "h": 2
+                },
+                {
+                    "x": 58,
+                    "y": 3,
+                    "w": 1,
+                    "h": 2
+                },
+                {
+                    "x": 59,
+                    "y": 3,
+                    "w": 1,
+                    "h": 2
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+				"interval": 125,
+				"frames": [
+					{ "x": 57, "y": 5 },
+					{ "x": 63, "y": 8 },
+					{ "x": 58, "y": 5 },
+					{ "x": 59, "y": 5 }
+					]
+                }
+            },
+			{
+                "x": 0,
+                "y": 1,
+                "appearance": 
+				{
+                "src": "sprite-vabese",
+				"interval": 240,
+				"frames": [
+					{ "x": 58, "y": 8 },
+					{ "x": 57, "y": 8 },
+					{ "x": 57, "y": 8 },
+					{ "x": 58, "y": 8 },
+					{ "x": 58, "y": 8 },
+					{ "x": 58, "y": 8 },
+					{ "x": 57, "y": 8 }
+					]
+                }
+            }
+        ],
+        "hp": 350,
+        "fireHP": 75,
+        "moveDelay": 800,
+        "weight": 175,
+        "cost": 250,
+	"maintenanceCost": 10,
+	"command": -1,
+        "lift": 900,
+        "propulsion": -0.01,
+        "crew": 0,
+        "recommendedCrew": 0,
+        "emitters": [
+            {
+                "x": 0.85,
+                "y": 0.55,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.007,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 116, "g": 116, "b": 78,
+                "radius": 20,
+                "x": 0.85,
+                "y": 0.55
+            }
+        ],
+	"canOccupy": []
+    }
+]

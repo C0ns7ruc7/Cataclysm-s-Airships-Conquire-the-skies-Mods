@@ -1,0 +1,138 @@
+[
+    {
+        "name": "WOLF_SPIDER_ABDOMEN",
+        "categories": [],
+        "required": "MONSTERS",
+        "external": true,
+        "doesCreak": false,
+        "preventsBoarding": true,
+        "instantlyDestroyed": true,
+        "canParticlesStick": false,
+        "createsExceptionalCombatEventAfterMs": 2000,
+        "w": 4,
+        "h": 4,
+        "appearance": {
+            "src": "monsters2",
+            "x": 3,
+            "y": 49,
+            "w": 4,
+            "h": 4
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "monsters2",
+                    "x": 1,
+                    "y": 49,
+                    "w": 6,
+                    "h": 5
+                },
+                "x": -2,
+                "y": 0
+            }
+        ],
+        "damagedExternalAppearances": [
+            {
+                "appearance": {
+                    "src": "monsters2",
+                    "x": 1,
+                    "y": 56,
+                    "w": 6,
+                    "h": 5
+                },
+                "x": -2,
+                "y": 0
+            }
+        ],
+        "damagedEmitters": [
+            {
+                "x": -1.125,
+                "y": 1.5625,
+                "type": "spider_blood_drip",
+                "emitProbability": 0.0002
+            },
+            {
+                "x": -0.125,
+                "y": 3,
+                "type": "spider_blood_drip",
+                "emitProbability": 0.0002
+            },
+            {
+                "x": 2.375,
+                "y": 2.125,
+                "type": "spider_blood_drip",
+                "emitProbability": 0.0002
+            },
+            {
+                "x": 1.5,
+                "y": 4.375,
+                "type": "spider_blood_drip",
+                "emitProbability": 0.0002
+            }            
+        ],
+        "hp": 3000,
+        "collisionDamageReceivedMult": 0.5,
+        "hardness": 0.5,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 1000,
+        "canOccupy": [
+            {"x": 2, "y": 2},
+            {"x": 3, "y": 2},
+            {"x": 4, "y": 2},
+            {"x": 2, "y": 3},
+            {"x": 3, "y": 3},
+            {"x": 4, "y": 3},
+            {"x": 2, "y": 4},
+            {"x": 3, "y": 4},
+            {"x": 4, "y": 4}
+        ],
+        "quarters": 8,
+        "quartersType": "wolf_spider",
+        "externalDrawPriority": true,
+        "destroyedHP": 0,
+        "hasGenericDestructionFragments": false,
+        "isWeapon": true,
+        "cost": 500,
+        "maintenanceCost": 8,
+        "reload": 10000,
+        "clip": 0,
+        "inaccuracy": 0.0005,
+        "blastDmg": 0,
+        "penDmg": 5,
+        "recoilForce": 0,
+        "fireArc": { "direction": "forwards", "degrees": 360 },
+        "muzzleCenterX": -0.25,
+        "muzzleCenterY": 3,
+        "muzzleLength": 0,
+        "optimumRange": 400,
+        "supplyProvided": 10,
+		"tetherSpec": {
+		    "color": {"r": 217, "g": 203, "b": 177},
+			"maxRange": 2000,
+			"tearForce": 5.5,
+			"minLength": 85,
+			"shrinkSpeed": 0.09,
+			"k": 0.05,
+			"anchorX": -0.25,
+			"anchorY": 3,
+			"width": 3,
+			"ripSound": {
+                "layers": [
+                    {
+                        "variations": [ "rip" ],
+                        "volume": 1.9,
+                        "pitch": {
+                            "min": 0.9,
+                            "max": 1.1
+                        }
+                    }
+                ]
+            },
+			"ripParticle": "rope"
+		},
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 888, "y": 320, "w": 14, "h": 9 },
+        }
+    }
+]

@@ -1,0 +1,125 @@
+[
+    {
+        "name": "FLIPPED_OMNIGUN_RIFRIF_TOP",
+        "flippedFrom": "OMNIGUN_RIFRIF_TOP"
+    },
+    {
+        "name": "OMNIGUN_RIFRIF_TOP",
+        "categories": ["WCE_WEAPONS"],
+        "isWeapon": true,
+        "w": 2,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 8,
+            "y": 13,
+            "w": 2,
+            "h": 2
+        },
+		"externalAppearances": [
+            {
+                "x": 1,
+                "y": 0,
+                "appearance": {
+					"src": "sprite-vabese",
+					"x": 21,
+					"y": 19,
+					"w": 1,
+					"h": 2
+				}
+            },
+			{
+                "x": 0,
+                "y": 0,
+                "appearance": {
+					"src": "sprite-vabese",
+					"x": 23,
+					"y": 20,
+					"w": 2,
+					"h": 1
+				}
+            }
+		],
+        "hp": 120,
+        "fireHP": 70,
+        "moveDelay": 800,
+        "weight": 130,
+        "cost": 125,
+        "maintenanceCost": 4,
+        "crew": 2,
+	"optionalCrew": 1,
+        "recommendedCrew": 3,
+	"recommendedGuards": 1,
+        "windows": [
+            { "x": 1, "y": 1 }
+        ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 }
+        ],
+        "leftDoors": [0, 1],
+        "upDoors": [0],
+        "frontOnly": true,
+	"topOnly": true,
+        "isExplosive": true,
+	"isGun": true,
+        "shotSpeed": 1.1,
+        "jitterMerge": 0.7,
+        "reload": 125,
+	"clipReloadTime": 2750,
+        "clip": 12,
+	"numShots": 2,
+        "shotSpeedVariation": 0.1,
+        "multiShotJitter": 0.00075,
+        "inaccuracy": 0.003,
+        "blastDmg": 0,
+	"directDmg": 1,
+        "penDmg": 5,
+	"recoilForce": 0.4,
+        "fireArc": { "arcCenter": "325", "degrees": 150 },
+        "muzzleCenterX": 1.0,
+        "muzzleCenterY": 1.0,
+        "muzzleLength": 0.75,
+        "optimumRange": 800,
+	"fixedInaccuracyVsTroops": 3,
+	"shootTroopsRange": 800,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "rifle0" ],
+                    "volume": 1.0,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1,
+                        "distance": [
+                            0, 1.2,
+                            3000, 0.5
+                        ]
+                    }
+                },
+		{
+                    "variations": [ "rifle0" ],
+                    "volume": 1.1,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1,
+                        "distance": [
+                            0, 1.2,
+                            3000, 0.5
+                        ]
+                    }
+                }
+            ]
+        },
+        "explodeHP": 10,
+        "explodeDmg": 10,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 48, "y": 304, "w": 1, "h": 1 },
+            "barrel": { "src": "sprite-vabese", "x": 304, "y": 304, "w": 32, "h": 32 },
+            "barrelX": 0,
+            "barrelY": 0,
+            "recoil": 1
+        }
+    }
+]

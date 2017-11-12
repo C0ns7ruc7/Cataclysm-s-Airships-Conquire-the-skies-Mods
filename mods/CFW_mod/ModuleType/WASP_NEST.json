@@ -1,0 +1,91 @@
+[
+    {
+        "name": "WASP_NEST",
+        "categories": [],
+        "required": "MONSTERS",
+        "w": 6,
+        "h": 5,
+        "appearance": {
+            "src": "monsters2",
+            "interval": 240,
+            "frames": [
+                {
+                    "x": 22,
+                    "y": 1,
+                    "w": 6,
+                    "h": 5
+                },
+                {
+                    "x": 28,
+                    "y": 1,
+                    "w": 6,
+                    "h": 5
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "monsters2",
+                    "x": 12,
+                    "y": 0,
+                    "w": 8,
+                    "h": 7
+                },
+                "x": -1,
+                "y": -1
+            }
+        ],
+        "damagedExternalAppearances": [
+            {
+                "appearance": {
+                    "src": "monsters2",
+                    "x": 12,
+                    "y": 0,
+                    "w": 8,
+                    "h": 7
+                },
+                "x": -1,
+                "y": -1
+            }
+        ],
+        "destroyedExternalAppearances": [
+            {
+                "appearance": {
+                    "src": "monsters2",
+                    "x": 12,
+                    "y": 0,
+                    "w": 8,
+                    "h": 7
+                },
+                "x": -1,
+                "y": -1
+            }
+        ],
+        "armourType": "CLOCKWORK_BRASS",
+        "hp": 30000,
+        "explodeHP": 500,
+        "explodeDmg": 1000,
+        "destructionLength": 300,
+        "hasGenericDestructionFragments": false,
+        "preventsSurrender": true,
+        "destroyedHP": 0,
+        "fireHP": 3000,
+        "moveDelay": 600,
+        "weight": 5000,
+        "cost": 400.0,
+        "maintenanceCost": 0,
+        "quarters": 40,
+        "quartersType": "clockwork_wasp",
+        "doesCreak": false,
+        "preventsBoarding": true,
+        "canParticlesStick": false,
+        "createsExceptionalCombatEventAfterMs": 2500,
+        "externalDrawPriority": true,
+        "external": true,
+        "lift": 8000,
+        "command": 10,
+        "countsAsActiveCrew": true,
+        "propulsion": 0.02,
+    }
+]

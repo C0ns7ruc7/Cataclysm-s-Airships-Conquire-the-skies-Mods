@@ -1,0 +1,56 @@
+[
+    {
+        "name": "FLIPPED_SHOTTY_CANNON",
+        "flippedFrom": "SHOTTY_CANNON"
+    },
+    {
+        "name": "SHOTTY_CANNON",
+        "categories": ["WCE_WEAPONS"],
+        "isWeapon": true,
+        "w": 2,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 22,
+            "y": 0,
+            "w": 2,
+            "h": 1
+        },
+        "hp": 120,
+        "fireHP": 60,
+        "moveDelay": 800,
+        "weight": 70,
+        "cost": 200,
+        "crew": 1,
+        "recommendedCrew": 2,
+        "recommendedGuards": 1,
+        "frontOnly": true,
+        "isGun": true,
+        "reload": 2500,
+        "clip": 1,
+        "inaccuracy": 0.004,
+        "blastDmg": 1,
+        "penDmg": 1,
+	"directDmg": 1,
+	"numShots": 30,
+        "multiShotJitter": 0.0065,
+	"shotSpeedVariation": 0.45,
+        "recoilForce": 0.5,
+        "fireArc": { "direction": "forwards", "degrees": 90 },
+        "muzzleCenterX": 1.19,
+        "muzzleCenterY": 0.55,
+        "muzzleLength": 1.15,
+        "optimumRange": 200,
+        "fireSound": "shot_cannon",
+        "fireSoundCount": 6,
+        "explodeHP": 30,
+        "explodeDmg": 50,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 16, "y": 304, "w": 5, "h": 5 },
+            "barrel": { "src": "spritesheet", "x": 327, "y": 124, "w": 37, "h": 11 },
+            "barrelX": 1,
+            "barrelY": 4,
+            "recoil": 6
+        }
+    }
+]

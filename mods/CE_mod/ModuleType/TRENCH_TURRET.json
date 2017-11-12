@@ -1,0 +1,125 @@
+[
+    {
+        "name": "FLIPPED_TRENCH_TURRET",
+        "flippedFrom": "TRENCH_TURRET"
+    },
+    {
+        "name": "TRENCH_TURRET",
+        "categories": ["ZDECKS", "UNIT"],
+        "availableFor": ["BUILDING"],
+        "external": true,
+        "isWeapon": true,
+        "w": 2,
+        "h": 1,
+	"framesAreVariants": true,
+        "appearance": {
+            "src": "sprite-vabese",
+            "frames": [
+                {"x": 42, "y": 13, "w": 2, "h": 1,},
+                {"x": 42, "y": 14, "w": 2, "h": 1,},
+                {"x": 42, "y": 15, "w": 2, "h": 1}
+            ]
+        },
+		"externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "frames": [
+                        { "x": 22, "y": 14 },
+                        { "x": 21, "y": 15 },
+                        { "x": 22, "y": 15 },
+                        { "x": 23, "y": 15 },
+			{ "x": 28, "y": 15 },
+			{ "x": 27, "y": 15 },
+                        { "x": 24, "y": 15 },
+                        { "x": 25, "y": 15 },
+                        { "x": 26, "y": 15 },
+                        { "x": 27, "y": 15 },
+			{ "x": 25, "y": 15 },
+			{ "x": 29, "y": 15 },
+			{ "x": 30, "y": 15 }
+                    ]
+                },
+                "x": 0,
+                "y": 0
+            },
+			           {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "frames": [
+                        { "x": 22, "y": 14 },
+			{ "x": 30, "y": 15 },
+                        { "x": 21, "y": 15 },
+                        { "x": 22, "y": 15 },
+			{ "x": 21, "y": 15 },
+                        { "x": 23, "y": 15 },
+                        { "x": 24, "y": 15 },
+                        { "x": 25, "y": 15 },
+			{ "x": 28, "y": 15 },
+                        { "x": 26, "y": 15 },
+                        { "x": 27, "y": 15 },
+			{ "x": 29, "y": 15 }
+						
+                    ]
+                },
+                "x": 1,
+                "y": 0
+            }
+        ],
+        "hp": 400,
+        "fireHP": 60,
+        "moveDelay": 800,
+        "weight": 70,
+        "cost": 50,
+        "crew": 0,
+        "countsAsActiveCrew": true,
+        "recommendedCrew": 0,
+        "topOnly": true,
+        "bottomOnly": true,
+        "isGun": true,
+        "clip": 2500,
+        "ammoPerClip": 0,
+	"ammo": -1,
+        "reload": 125,
+        "jitterMerge": 0.8,
+        "inaccuracy": 0.005,
+	"shootTroopsRange": 800,
+	"fixedInaccuracyVsTroops": 7.0,
+        "blastDmg": 2,
+        "penDmg": 2,
+	"directDmg": 1,
+        "recoilForce": 1.2,
+        "fireArc": { "arcCenter": "325", "degrees": 120 },
+        "muzzleCenterX": 1.0,
+        "muzzleCenterY": 0.375,
+        "muzzleLength": 0,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "rifle0" ],
+                    "volume": 0.9,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1,
+                        "distance": [
+                            0, 1.2,
+                            3000, 0.5
+                        ]
+                    }
+                }
+            ]
+        },
+        "optimumRange": 800,
+	"adjacencyBonusStrength": 1.2536,
+        "hardness": 1.2536,
+        "explodeHP": 30,
+        "explodeDmg": 50,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 48, "y": 304, "w": 1, "h": 1 },
+            "barrel": { "src": "sprite-vabese", "x": 560, "y": 192, "w": 44, "h": 12 },
+            "barrelX": -15,
+            "barrelY": 0,
+            "recoil": 2
+        }
+    }
+]

@@ -1,0 +1,228 @@
+[
+    {
+        "name": "GAINT_SUSPENDIUM_CHAMBER",
+        "categories": ["LIFT"],
+        "availableFor": ["AIRSHIP"],
+	"required": "CE_SUSPENDIUM_SPECIALISTS",
+        "w": 5,
+        "h": 9,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 100,
+            "frames":[                    
+                {"x": 26, "y": 6, "w": 5, "h": 9},
+                {"x": 5, "y": 25, "w": 5, "h": 9},
+                {"x": 10, "y": 25, "w": 5, "h": 9}
+                ]
+        },
+        "externalAppearances": [
+            {
+                "x": 1,
+                "y": -2,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 31,
+                    "y": 6,
+                    "w": 1,
+                    "h": 11
+                }
+            },
+            {
+                "x": 2,
+                "y": -2,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 31,
+                    "y": 6,
+                    "w": 1,
+                    "h": 11
+                }
+            },
+            {
+                "x": 3,
+                "y": -2,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 31,
+                    "y": 6,
+                    "w": 1,
+                    "h": 11
+                }
+            },
+			{
+            "appearance": {
+                "src": "sprite-vabese",
+		"interval": 80,
+		"frames":[
+				{"x": 21, "y": 16, "w": 5, "h": 1},
+				{"x": 21, "y": 17, "w": 5, "h": 1},
+				{"x": 21, "y": 18, "w": 5, "h": 1},
+				{"x": 26, "y": 16, "w": 5, "h": 1},
+				{"x": 26, "y": 17, "w": 5, "h": 1},
+				{"x": 26, "y": 18, "w": 5, "h": 1}
+			]
+           	},
+			"x": 0,
+		        "y": 9
+		}
+	],
+        "hp": 2250,
+        "fireHP": 1500,
+	"maintenanceCost": 3,
+        "moveDelay": 500,
+        "weight": 900,
+        "cost": 1500,
+        "lift": 55000,
+        "coalReload": 3250,
+        "crew": 6,
+	"optionalCrew": 2,
+        "recommendedCrew": 10,
+        "topOnly": true,
+	"bottomOnly": true,
+        "shipHPBonus": 800,
+	"structuralStressAmount": -100,
+        "explodeHP": 400,
+        "explodeDmg": 2000,
+        "emitters": [
+            {
+                "x": 1.35,
+                "y": -1.9,
+                "type": "smoke",
+                "emitProbability": 0.005
+            },
+            {
+                "x": 2.35,
+                "y": -1.9,
+                "type": "smoke",
+                "emitProbability": 0.005
+            },
+            {
+                "x": 3.35,
+                "y": -1.9,
+                "type": "smoke",
+                "emitProbability": 0.005
+            },
+            {
+                "x": 1.55,
+                "y": 8.56,
+                "type": "ember",
+                "emitProbability": 0.004,
+                "inside": true
+            },
+            {
+                "x": 2.55,
+                "y": 8.56,
+                "type": "ember",
+                "emitProbability": 0.004,
+                "inside": true
+            },
+            {
+                "x": 3.55,
+                "y": 8.56,
+                "type": "ember",
+                "emitProbability": 0.004,
+                "inside": true
+            },
+            {
+                "x": 2.5,
+                "y": 3.5,
+                "type": "large_susp_chamber_spark",
+                "emitProbability": 0.06,
+                "inside": true
+            },
+			{
+                "x": 1.5,
+                "y": 4.5,
+                "type": "large_susp_chamber_spark",
+                "emitProbability": 0.06,
+                "inside": true
+            },
+			{
+                "x": 3.5,
+                "y": 4.5,
+                "type": "large_susp_chamber_spark",
+                "emitProbability": 0.06,
+                "inside": true
+            },
+			{
+                "x": 2.5,
+                "y": 5.5,
+                "type": "large_susp_chamber_spark",
+                "emitProbability": 0.06,
+                "inside": true
+            }
+		],
+        "lights": [
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 60,
+                "x": 1.55,
+                "y": 8.55
+            },
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 60,
+                "x": 3.55,
+                "y": 8.55
+            },
+            {
+                "r": 0, "g": 231, "b": 185,
+                "radius": 190,
+                "x": 2.50,
+                "y": 4.50
+            },
+            {
+                "r": 232, "g": 232, "b": 156,
+                "radius": 80,
+                "x": 2.55,
+                "y": 8.55
+            }
+        ],
+        "windows": [
+            { "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 },
+			{ "x": 3, "y": 0 },
+			{ "x": 4, "y": 0 },
+			{ "x": 0, "y": 6 },
+			{ "x": 4, "y": 6 },
+			{ "x": 0, "y": 8 },
+			{ "x": 4, "y": 8 }
+        ],
+        "leftDoors": [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ],
+        "rightDoors": [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ],
+		        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 3, "y": 0 },
+            { "x": 4, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 4, "y": 1 },
+            { "x": 0, "y": 2 },
+            { "x": 1, "y": 2 },
+            { "x": 2, "y": 2 },
+            { "x": 3, "y": 2 },
+            { "x": 4, "y": 2 },
+            { "x": 0, "y": 3 },
+            { "x": 4, "y": 3 },
+            { "x": 0, "y": 4 },
+            { "x": 1, "y": 4 },
+            { "x": 2, "y": 4 },
+            { "x": 3, "y": 4 },
+            { "x": 4, "y": 4 },
+            { "x": 0, "y": 5 },
+            { "x": 4, "y": 5 },
+            { "x": 0, "y": 6 },
+            { "x": 1, "y": 6 },
+            { "x": 2, "y": 6 },
+            { "x": 3, "y": 6 },
+            { "x": 4, "y": 6 },
+            { "x": 0, "y": 7 },
+            { "x": 4, "y": 7 },
+            { "x": 0, "y": 8 },
+            { "x": 1, "y": 8 },
+            { "x": 2, "y": 8 },
+            { "x": 3, "y": 8 },
+            { "x": 4, "y": 8 }]			
+	}
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "name": "TARGETING_COMPUTER",
+        "categories": ["COMMAND_AND_CREW"],
+        "required": "COMPUTERS",
+        "w": 3,
+        "h": 3,
+        "appearance": {
+            "src": "spritesheet",
+            "interval": 150,
+            "frames": [
+                {
+                    "x": 7,
+                    "y": 4,
+                    "w": 3,
+                    "h": 3
+                },
+                {
+                    "x": 10,
+                    "y": 4,
+                    "w": 3,
+                    "h": 3
+                },
+                {
+                    "x": 13,
+                    "y": 4,
+                    "w": 3,
+                    "h": 3
+                },
+                {
+                    "x": 16,
+                    "y": 4,
+                    "w": 3,
+                    "h": 3
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 5,
+                    "y": 8,
+                    "w": 1,
+                    "h": 3
+                }
+            }
+        ],
+        "hp": 250,
+        "fireHP": 150,
+        "moveDelay": 600,
+        "weight": 500,
+        "cost": 80.0,
+        "accuracyBonus": 0.3,
+        "coalReload": 20000,
+        "crew": 3,
+        "recommendedCrew": 4,
+        "recommendedGuards": 1,
+        "windows": [
+            { "x": 0, "y": 0 }
+        ],
+        "runningLoop": {
+            "layers": [
+                {
+                    "variations": [ "computer0", "computer1", "computer2" ],
+                    "volume": {
+                        "value": 0.2,
+                        "onViewingSide": [
+                            0, 0.25,
+                            1, 1
+                        ]
+                    },
+                    "pitch": 1.0
+                }
+            ]
+        },
+        "emitters": [
+            {
+                "x": 0.4,
+                "y": 1.38,
+                "type": "smoke",
+                "emitProbability": 0.003
+            },
+            {
+                "x": 0.2,
+                "y": 2.7,
+                "type": "ember",
+                "emitProbability": 0.002,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 40,
+                "x": 0.4,
+                "y": 2.7
+            }
+        ]
+    }
+]

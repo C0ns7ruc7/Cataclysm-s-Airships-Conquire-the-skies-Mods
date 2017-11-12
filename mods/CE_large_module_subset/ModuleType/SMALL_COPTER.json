@@ -1,0 +1,130 @@
+[
+    {
+        "name": "SMALL_COPTER",
+        "categories": ["LIFT", "PROPULSION"],
+        "availableFor": ["AIRSHIP"],
+        "w": 2,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 60,
+            "frames": [
+                {
+                    "x": 50,
+                    "y": 8,
+                    "w": 2,
+                    "h": 1
+                },
+                {
+                    "x": 50,
+                    "y": 9,
+                    "w": 2,
+                    "h": 1
+                },
+                {
+                    "x": 50,
+                    "y": 10,
+                    "w": 2,
+                    "h": 1
+                },
+				{
+                    "x": 50,
+                    "y": 11,
+                    "w": 2,
+                    "h": 1
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 6,
+                    "y": 12
+                }
+            },
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "interval": 120,
+                    "frames": [
+                        {
+                            "x": 52,
+                            "y": 8,
+							"w": 2,
+							"h": 1
+                        },
+                        {
+                            "x": 52,
+                            "y": 11,
+							"w": 2,
+							"h": 1
+                        },
+                        {
+                            "x": 52,
+                            "y": 9,
+							"w": 2,
+							"h": 1
+                        },
+                        {
+                            "x": 52,
+                            "y": 10,
+							"w": 2,
+							"h": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "hp": 30,
+        "fireHP": 17,
+        "moveDelay": 800,
+        "weight": 60,
+        "cost": 90,
+        "lift": 450,
+		"propulsion": 0.015,
+        "coalReload": 70000,
+        "crew": 1,
+        "recommendedCrew": 1,
+        "emitters": [
+            {
+                "x": 0.25,
+                "y": 0.9,
+                "type": "smoke",
+                "emitProbability": 0.0017
+            },
+            {
+                "x": 0.75,
+                "y": 0.8125,
+                "type": "ember",
+                "emitProbability": 0.001,
+                "inside": true
+            },
+            {
+                "x": 1.25,
+                "y": 0.75,
+                "type": "ember",
+                "emitProbability": 0.001,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 128, "g": 45, "b": 5,
+                "radius": 15,
+                "x": 0.75,
+                "y": 0.8125
+            },
+			{
+                "r": 128, "g": 45, "b": 5,
+                "radius": 15,
+                "x": 1.25,
+                "y": 0.75
+            },
+        ]
+    }
+]

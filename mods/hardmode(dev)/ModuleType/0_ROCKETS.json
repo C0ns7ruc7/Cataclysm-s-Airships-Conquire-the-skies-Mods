@@ -1,0 +1,74 @@
+[
+    {
+        "name": "1_FLIPPED_ROCKETS",
+        "flippedFrom": "1_ROCKETS"
+    },
+    {
+        "name": "1_ROCKETS",
+        "categories": ["1_WEAPONS"],
+        "isWeapon": true,
+        "w": 2,
+        "h": 2,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 25,
+            "y": 0,
+            "w": 2,
+            "h": 2
+        },
+        "hp": 80,
+        "fireHP": 100,
+        "moveDelay": 800,
+        "weight": 30,
+        "cost": -1,
+        "crew": 2,
+        "recommendedCrew": 3,
+        "windows": [
+            { "x": 1, "y": 1 }
+        ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 }
+        ],
+        "leftDoors": [0, 1],
+        "upDoors": [0],
+        
+        "isExplosive": true,
+        "shotSpeed": 0.6,
+        "jitterMerge": 0.3,
+        "reload": 2000,
+        "clip": 1,
+        "inaccuracy": 0.0045,
+        "blastDmg": 65,
+        "penDmg": 0,
+        "fireArc": { "direction": "forwards", "degrees": 210 },
+        "muzzleCenterX": 1.56,
+        "muzzleCenterY": 1.31,
+        "muzzleLength": 0,
+        "muzzleFlash": false,
+        "optimumRange": 100,
+        "fireSound": "rocket",
+        "fireSoundCount": 6,
+        "explodeHP": 50,
+        "explodeDmg": 60,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 80, "y": 305, "w": 30, "h": 5 },
+            "barrel": { "src": "spritesheet", "x": 80, "y": 305, "w": 30, "h": 5 },
+            "barrelX": 10,
+            "barrelY": 18.5,
+            "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.01 },
+            "hitExplosionSize": 3,
+            "missExplosionSize": 1.8,
+            "exhaust": {
+                "type": "rocket_exhaust",
+                "p": 0.1,
+                "backOffset": 15,
+                "angleRange": 0.35,
+                "randomOffset": 3,
+                "speedMin": 1.5,
+                "speedMax": 2.5
+            }
+        }
+    }
+]

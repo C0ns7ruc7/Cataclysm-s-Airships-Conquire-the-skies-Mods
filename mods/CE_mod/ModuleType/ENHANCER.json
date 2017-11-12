@@ -1,0 +1,295 @@
+[
+    {
+        "name": "ENHANCER",
+        "categories": ["LIFT", "PROPULSION"],
+        "availableFor": ["AIRSHIP"],
+        "w": 2,
+        "h": 2,
+        "appearance": 
+		{
+            "src": "sprite-vabese",
+			"w": 2,
+			"h": 2,
+            "x": 4,
+            "y": 15
+        },
+        "externalAppearances": 
+		[
+            {
+                "appearance": 
+				{
+                    "src": "sprite-vabese",
+					"w": 2,
+					"h": 1,
+                    "x": 3,
+                    "y": 3
+                },
+                "x": 0,
+                "y": -2
+            },
+            {
+                "appearance": 
+				{
+                    "src": "sprite-vabese",
+					"w": 2,
+					"h": 1,
+					"x": 1,
+					"y": 3
+                },
+                "x": 0,
+                "y": -1
+            },
+        ],
+        "emitters": [
+            {
+                "x": 1.0,
+                "y": -2.0,
+                "type": "smoke",
+                "emitProbability": 0.006
+            },
+            {
+                "x": 0.5,
+                "y": 1.7,
+                "type": "ember",
+                "emitProbability": 0.001,
+                "inside": true
+            },
+            {
+                "x": 1.2,
+                "y": 0.55,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.001,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 50,
+                "x": 0.60,
+                "y": 1.50
+            }
+			],
+        "hp": 200,
+        "accuracyBonus": 0.05,
+	    "maintenanceCost": 2,
+        "lift": 100,
+        "propulsion": 0.01,
+        "coalReload": 20000,
+        "fireHP": 60,
+        "explodeHP": 10,
+        "explodeDmg": 20,
+        "crew": 1,
+        "recommendedCrew": 2,
+        "moveDelay": 700,
+        "shipHPBonus": 75,
+	    "structuralStressAmount": -75,
+        "topOnly": true,
+        "weight": -100,
+        "cost": 175,
+        "upDoors": [ 1 ],
+        "leftDoors": [ 1 ],
+        "rightDoors": [ 0, 1 ],
+        "canOccupy": 
+		[
+            { "x": 1, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 }
+        ]
+    },
+
+    {
+        "name": "ENHANCER_LAND",
+        "categories": ["PROPULSION"],
+        "availableFor": ["LANDSHIP"],
+        "w": 2,
+        "h": 2,
+        "appearance": 
+		{
+            "src": "sprite-vabese",
+			"w": 2,
+			"h": 2,
+            "x": 4,
+            "y": 15
+        },
+        "externalAppearances": 
+		[
+            {
+                "appearance": 
+				{
+                    "src": "sprite-vabese",
+					"w": 2,
+					"h": 1,
+                    "x": 3,
+                    "y": 3
+                },
+                "x": 0,
+                "y": -2
+            },
+            {
+                "appearance": 
+				{
+                    "src": "sprite-vabese",
+					"w": 2,
+					"h": 1,
+					"x": 1,
+					"y": 3
+                },
+                "x": 0,
+                "y": -1
+            },
+        ],
+        "emitters": [
+            {
+                "x": 1.0,
+                "y": -2.0,
+                "type": "smoke",
+                "emitProbability": 0.006
+            },
+            {
+                "x": 0.5,
+                "y": 1.7,
+                "type": "ember",
+                "emitProbability": 0.001,
+                "inside": true
+            },
+            {
+                "x": 1.2,
+                "y": 0.55,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.001,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 50,
+                "x": 0.60,
+                "y": 1.50
+            }
+			],
+        "hp": 200,
+        "accuracyBonus": 0.05,
+	    "maintenanceCost": 1,
+        "propulsion": 0.0075,
+        "coalReload": 20000,
+        "fireHP": 60,
+        "explodeHP": 10,
+        "explodeDmg": 20,
+        "crew": 1,
+        "recommendedCrew": 2,
+        "moveDelay": 700,
+        "shipHPBonus": 75,
+	    "structuralStressAmount": -75,
+        "topOnly": true,
+        "weight": -100,
+        "cost": 125,
+        "upDoors": [ 1 ],
+        "leftDoors": [ 1 ],
+        "rightDoors": [ 0, 1 ],
+        "canOccupy": 
+		[
+            { "x": 1, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 }
+        ]
+    },
+
+    {
+        "name": "ENHANCER_BUILD",
+        "categories": ["COMMAND_AND_CREW"],
+        "availableFor": ["BUILDING"],
+        "w": 2,
+        "h": 2,
+        "appearance": 
+		{
+            "src": "sprite-vabese",
+			"w": 2,
+			"h": 2,
+            "x": 4,
+            "y": 15
+        },
+        "externalAppearances": 
+		[
+            {
+                "appearance": 
+				{
+                    "src": "sprite-vabese",
+					"w": 2,
+					"h": 1,
+                    "x": 3,
+                    "y": 3
+                },
+                "x": 0,
+                "y": -2
+            },
+            {
+                "appearance": 
+				{
+                    "src": "sprite-vabese",
+					"w": 2,
+					"h": 1,
+					"x": 1,
+					"y": 3
+                },
+                "x": 0,
+                "y": -1
+            },
+        ],
+        "emitters": [
+            {
+                "x": 1.0,
+                "y": -2.0,
+                "type": "smoke",
+                "emitProbability": 0.006
+            },
+            {
+                "x": 0.5,
+                "y": 1.7,
+                "type": "ember",
+                "emitProbability": 0.001,
+                "inside": true
+            },
+            {
+                "x": 1.2,
+                "y": 0.55,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.001,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 50,
+                "x": 0.60,
+                "y": 1.50
+            }
+			],
+        "hp": 200,
+        "accuracyBonus": 0.05,
+	    "maintenanceCost": 1,
+        "coalReload": 20000,
+        "fireHP": 60,
+        "explodeHP": 10,
+        "explodeDmg": 20,
+        "crew": 1,
+        "recommendedCrew": 2,
+        "moveDelay": 700,
+        "shipHPBonus": 500,
+	    "structuralStressAmount": -500,
+        "topOnly": true,
+        "weight": -100,
+        "cost": 150,
+        "upDoors": [ 1 ],
+        "leftDoors": [ 1 ],
+        "rightDoors": [ 0, 1 ],
+        "canOccupy": 
+		[
+            { "x": 1, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 }
+        ]
+    }
+]

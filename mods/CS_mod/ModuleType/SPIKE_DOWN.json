@@ -1,0 +1,42 @@
+[
+	{
+        "name": "FLIPPED_SPIKE_DOWN",
+        "flippedFrom": "SPIKE_DOWN"
+    },
+    {
+        "name": "SPIKE_DOWN",
+        "categories": ["ZSHAPING"],
+        "external": true,
+        "w": 1,
+        "h": 2,
+        "appearance": 
+		{
+            "src": "sprite-shape",
+			"w": 1,
+			"h": 2,
+            "x": 0,
+            "y": 11
+        },
+        "externalAppearances": 
+		[
+            {
+                "appearance": 
+				{
+                    "src": "sprite-shape",
+					"w": 1,
+					"h": 2,
+                    "x": 0,
+                    "y": 11
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 150,
+        "fireHP": 30,
+        "moveDelay": 10000,
+        "weight": 2,
+        "cost": 5,
+        "canOccupy": []
+    }
+]

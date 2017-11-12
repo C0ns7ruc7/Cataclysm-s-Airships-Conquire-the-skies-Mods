@@ -1,0 +1,110 @@
+[
+    {
+        "name": "SUS_ORE",
+        "categories": ["ISLAND", "PROPULSION", "LIFT"],
+	"availableFor": ["AIRSHIP"],
+        "external": true,
+        "w": 1,
+        "h": 1,
+        "framesAreVariants": true,
+        "appearance": {
+            "src": "sprite-islands",
+				"frames": 
+			[
+                { "x": 6, "y": 16, "w": 1, "h": 1 },
+                { "x": 7, "y": 16, "w": 1, "h": 1 },
+                { "x": 8, "y": 16, "w": 1, "h": 1 },
+                { "x": 9, "y": 16, "w": 1, "h": 1 }
+			]
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                "src": "sprite-islands",
+				"frames": 
+			[
+                { "x": 6, "y": 16, "w": 1, "h": 1 },
+                { "x": 7, "y": 16, "w": 1, "h": 1 },
+                { "x": 8, "y": 16, "w": 1, "h": 1 },
+                { "x": 9, "y": 16, "w": 1, "h": 1 }
+			]
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 6000,
+        "fireHP": 0,
+        "moveDelay": 100000,
+        "weight": -500,
+        "cost": 60,
+	"collisionDamageReceivedMult": 50.0,
+        "lift": 500,
+        "propulsion": -0.001,
+        "explodeHP": 200,
+        "explodeDmg": 400,
+		"emitters": [
+            {
+                "x": 0.5,
+                "y": 0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.0007
+            }
+        ],
+        "canOccupy": []
+    },
+    {
+        "name": "SUS_ORE_LAND",
+        "categories": ["ISLAND", "PROPULSION"],
+	"availableFor": ["LANDSHIP", "BUILDING"],
+        "external": true,
+        "w": 1,
+        "h": 1,
+        "framesAreVariants": true,
+        "appearance": {
+            "src": "sprite-islands",
+				"frames": 
+			[
+                { "x": 6, "y": 16, "w": 1, "h": 1 },
+                { "x": 7, "y": 16, "w": 1, "h": 1 },
+                { "x": 8, "y": 16, "w": 1, "h": 1 },
+                { "x": 9, "y": 16, "w": 1, "h": 1 }
+			]
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                "src": "sprite-islands",
+				"frames": 
+			[
+                { "x": 6, "y": 16, "w": 1, "h": 1 },
+                { "x": 7, "y": 16, "w": 1, "h": 1 },
+                { "x": 8, "y": 16, "w": 1, "h": 1 },
+                { "x": 9, "y": 16, "w": 1, "h": 1 }
+			]
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 6000,
+        "fireHP": 0,
+        "moveDelay": 100000,
+        "weight": -750,
+        "cost": 60,
+        "propulsion": -0.005,
+        "explodeHP": 200,
+	"collisionDamageReceivedMult": 50.0,
+	"structuralStressAmount": -50,
+        "explodeDmg": 400,
+		"emitters": [
+            {
+                "x": 0.5,
+                "y": 0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.0007
+            }
+        ],
+        "canOccupy": []
+    }
+]

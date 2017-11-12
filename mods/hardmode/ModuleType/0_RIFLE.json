@@ -1,0 +1,47 @@
+[
+    {
+        "name": "1_FLIPPED_RIFLE",
+        "flippedFrom": "1_RIFLE"
+    },
+    {
+        "name": "1_RIFLE",
+        "categories": ["1_BASIC", "1_WEAPONS"],
+        "isWeapon": true,
+        "isGun": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 19,
+            "y": 0
+        },
+        "hp": 40,
+        "fireHP": 18,
+        "moveDelay": 800,
+        "weight": 8,
+        "cost": -1, "availableFor": [], "frontOnly": true, "topOnly": true, "backOnly": true, "bottomOnly": true,
+        "crew": 1,
+        "recommendedCrew": 1,
+        
+        "reload": 1300,
+        "clip": 40,
+        "inaccuracy": 0.00083,
+        "blastDmg": 0,
+        "penDmg": 4,
+        "fireArc": { "direction": "forwards", "degrees": 240 },
+        "muzzleCenterX": 0.68,
+        "muzzleCenterY": 0.56,
+        "muzzleLength": 1,
+        "fireSound": "rifle",
+        "fireSoundCount": 1,
+        "optimumRange": 800,
+        "jitterMerge": 0.4,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 48, "y": 304, "w": 1, "h": 1 },
+            "barrel": { "src": "spritesheet", "x": 321, "y": 112, "w": 23, "h": 6 },
+            "barrelX": 0,
+            "barrelY": 6,
+            "recoil": 2
+        }
+    }
+]

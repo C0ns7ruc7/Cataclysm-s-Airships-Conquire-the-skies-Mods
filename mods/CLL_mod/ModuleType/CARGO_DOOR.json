@@ -1,0 +1,40 @@
+[
+    {
+        "name": "CARGO_DOOR",
+        "categories": ["RESOURCES"],
+        "external": true,
+        "w": 2,
+        "h": 2,
+        "appearance": {
+            "src": "spritesheet_CLL",
+            "x": 36,
+            "y": 4,
+            "w": 2,
+            "h": 2
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "spritesheet_CLL",
+                    "x": 38,
+                    "y": 4,
+                    "w": 2,
+                    "h": 2
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 180,
+        "fireHP": 50,
+        "moveDelay": 350,
+        "weight": 20,
+        "cost": 20,
+        "supplyProvided": 40,
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 }
+        ]
+    }
+]

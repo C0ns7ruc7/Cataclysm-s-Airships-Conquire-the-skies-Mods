@@ -1,0 +1,52 @@
+[
+    {
+        "name": "FIREROPE",
+        "categories": ["ZARTDECO"],
+        "external": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-shape",
+            "x": 6,
+            "y": 4
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-shape",
+                    "x": 6,
+                    "y": 4
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+		"lights": [
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 47,
+                "x": 0.5,
+                "y": 0.625
+            }
+        ],
+		"emitters": [
+            {
+                "x": 0.5,
+                "y": 0.575,
+                "type": "smoke",
+                "emitProbability": 0.001
+            },
+            {
+                "x": 0.5,
+                "y": 0.625,
+                "type": "ember",
+                "emitProbability": 0.003,
+            }],
+        "hp": 50,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 2,
+        "cost": 3,
+        "canOccupy": []
+    }
+]

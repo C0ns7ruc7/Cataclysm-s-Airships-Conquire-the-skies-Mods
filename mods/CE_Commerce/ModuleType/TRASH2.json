@@ -1,0 +1,47 @@
+[
+    {
+        "name": "TRASH2",
+        "categories": ["ECONOMIC"],
+        "external": true,
+        "w": 2,
+        "h": 2,
+        "appearance": {
+            "src": "com_sprite-vabese",
+            "x": 1,
+            "y": 26,
+			"w": 2,
+			"h": 2
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    	"src": "com_sprite-vabese",
+                    	"x": 0,
+                    	"y": 26,
+			"w": 4,
+			"h": 2,
+                },
+                "x": -1,
+                "y": 0
+            }
+        ],
+        "hp": 20000,
+        "fireHP": 14000,
+	"isExplosive": true,
+	"explodeHP": 4000,
+	"explodeDmg": 6000,
+        "moveDelay": 10000,
+        "weight": 8000,
+        "cost": -250,
+	"maintenanceCost": 1,
+        "canOccupy": [],
+	"topOnly": true,
+	"destructionparticleDensity": 2.5,
+	"structuralStressAmount": 40,
+        "adjacencyBonusStrength": -0.5,
+        "hardness": 0.1,
+	"accuracyBonus": -0.05,
+        "lift": -200,
+	"shipHPBonus": -200
+    }
+]

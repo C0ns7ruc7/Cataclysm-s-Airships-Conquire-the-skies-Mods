@@ -1,0 +1,83 @@
+[
+    {
+        "name": "RAM_BRACE_D",
+        "categories": ["STRUCTURAL"],
+        "external": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 300,
+            "frames": [
+                { "x": 35, "y": 15, "w": 1, "h": 1 },
+                { "x": 36, "y": 15, "w": 1, "h": 1 },
+                { "x": 37, "y": 15, "w": 1, "h": 1 }
+            ],
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 38,
+                    "y": 19,
+                    "w": 2, 
+                    "h": 1
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 50,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "bottomOnly": true,
+        "weight": 10,
+        "cost": 25,
+        "maintenanceCost": 1,
+        "canOccupy": [],
+        "adjacencyBonusStrength": 7,
+        "hardness": 0.1,
+	    "structuralStressAmount": -100
+    },
+
+    {
+        "name": "RAM_BRACE_U",
+        "categories": ["STRUCTURAL"],
+        "external": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 300,
+            "frames": [
+                { "x": 35, "y": 15, "w": 1, "h": 1 },
+                { "x": 36, "y": 15, "w": 1, "h": 1 },
+                { "x": 37, "y": 15, "w": 1, "h": 1 }
+            ],
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 38,
+                    "y": 19,
+                    "w": 2, 
+                    "h": 1
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 50,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "topOnly": true,
+        "weight": 10,
+        "cost": 25,
+        "maintenanceCost": 1,
+        "canOccupy": [],
+        "adjacencyBonusStrength": 7,
+        "hardness": 0.1,
+	    "structuralStressAmount": -100
+    }
+]

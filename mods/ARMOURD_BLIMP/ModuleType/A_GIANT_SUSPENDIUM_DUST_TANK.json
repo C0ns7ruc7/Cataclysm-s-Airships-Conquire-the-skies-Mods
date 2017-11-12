@@ -1,0 +1,146 @@
+[
+    {
+        "name": "A_GIANT_SUSPENDIUM_DUST_TANK",
+        "categories": ["CE_BALLOONS"],
+        "availableFor": ["AIRSHIP"],
+        "w": 24,
+        "h": 14,
+	"appearance": {
+		"src": "spritesheet_blimp",
+		"x": 0,
+		"y": 8,
+		"w": 24,
+		"h": 14
+	},
+	"externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet_blimp",
+                    "x": 0,
+                    "y": 22,
+                    "w": 24,
+                    "h": 14
+                }
+            }
+        ],
+        "damagedEmitters": [
+            {
+                "x": 3.875,
+                "y": 1.5625,
+                "type": "susp_block_spark",
+                "emitProbability": 0.005,
+            },
+            {
+                "x": 1.25,
+                "y": 4.8125,
+                "type": "susp_block_spark",
+                "emitProbability": 0.002,
+            },
+            {
+                "x": 7.5,
+                "y": 3.4375,
+                "type": "susp_block_spark",
+                "emitProbability": 0.001,
+            },
+            {
+                "x": 8.5625,
+                "y": 0.8125,
+                "type": "susp_block_spark",
+                "emitProbability": 0.0005,
+            }
+		],
+        "destroyedEmitters": [
+            {
+                "x": 3.875,
+                "y": 1.5625,
+                "type": "susp_block_spark",
+                "emitProbability": 0.025,
+            },
+            {
+                "x": 1.25,
+                "y": 4.8125,
+                "type": "susp_block_spark",
+                "emitProbability": 0.01,
+            },
+            {
+                "x": 7.5,
+                "y": 3.4375,
+                "type": "susp_block_spark",
+                "emitProbability": 0.005,
+            },
+            {
+                "x": 8.5625,
+                "y": 0.8125,
+                "type": "susp_block_spark",
+                "emitProbability": 0.003,
+            }
+		],
+        "hp": 950,
+        "fireHP": 350,
+        "moveDelay": 350,
+        "canOccupy": [
+
+{ "x": 9, "y": 0 },	{ "x": 9, "y": 1 },
+{ "x": 9, "y": 2 },	{ "x": 9, "y": 3 },
+{ "x": 9, "y": 4 },	{ "x": 9, "y": 5 },
+{ "x": 9, "y": 6 },
+
+{ "x": 14, "y": 0 },	{ "x": 14, "y": 1 },
+{ "x": 14, "y": 2 },	{ "x": 14, "y": 3 },
+{ "x": 14, "y": 4 },	{ "x": 14, "y": 5 },
+{ "x": 14, "y": 6 },
+
+{ "x": 0, "y": 7 },	{ "x": 1, "y": 7 },
+{ "x": 2, "y": 7 },	{ "x": 3, "y": 7 },
+{ "x": 4, "y": 7 },	{ "x": 5, "y": 7 },
+{ "x": 6, "y": 7 },	{ "x": 7, "y": 7 },
+{ "x": 8, "y": 7 },	{ "x": 9, "y": 7 },
+{ "x": 10, "y": 7 },	{ "x": 11, "y": 7 },
+{ "x": 12, "y": 7 },	{ "x": 13, "y": 7 },
+{ "x": 14, "y": 7 },	{ "x": 15, "y": 7 },
+{ "x": 16, "y": 7 },	{ "x": 17, "y": 7 },
+{ "x": 18, "y": 7 },	{ "x": 19, "y": 7 },
+{ "x": 20, "y": 7 },	{ "x": 21, "y": 7 },
+{ "x": 22, "y": 7 },	{ "x": 23, "y": 7 },
+
+{ "x": 9, "y": 8 },	{ "x": 9, "y": 9 },
+{ "x": 9, "y": 10 },	{ "x": 9, "y": 11 },
+{ "x": 9, "y": 12 },	{ "x": 9, "y": 13 },
+
+{ "x": 14, "y": 8 },	{ "x": 14, "y": 9 },
+{ "x": 14, "y": 10 },	{ "x": 14, "y": 11 },
+{ "x": 14, "y": 12 },	{ "x": 14, "y": 13 }
+	
+	],
+        "windows": [
+
+{ "x": 0, "y": 7 },	{ "x": 1, "y": 7 },
+{ "x": 2, "y": 7 },	{ "x": 3, "y": 7 },
+{ "x": 4, "y": 7 },	{ "x": 5, "y": 7 },
+{ "x": 6, "y": 7 },	{ "x": 7, "y": 7 },
+{ "x": 8, "y": 7 },	{ "x": 9, "y": 7 },
+{ "x": 10, "y": 7 },	{ "x": 11, "y": 7 },
+{ "x": 12, "y": 7 },	{ "x": 13, "y": 7 },
+{ "x": 14, "y": 7 },	{ "x": 15, "y": 7 },
+{ "x": 16, "y": 7 },	{ "x": 17, "y": 7 },
+{ "x": 18, "y": 7 },	{ "x": 19, "y": 7 },
+{ "x": 20, "y": 7 },	{ "x": 21, "y": 7 },
+{ "x": 22, "y": 7 },	{ "x": 23, "y": 7 },
+
+        ],
+
+        "upDoors": [ 9, 14 ],
+        "leftDoors": [ 7 ],
+        "rightDoors": [ 7 ],
+        "external": false,
+        "weight": 940,
+        "cost": 350,
+        "lift": 19000,
+        "explodeHP": 95,
+        "explodeDmg": 400,
+        "structuralStressAmount": 15,
+        "adjacencyBonusStrength": 0.666
+    }
+]

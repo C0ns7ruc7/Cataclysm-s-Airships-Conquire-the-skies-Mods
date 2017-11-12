@@ -1,0 +1,54 @@
+[
+    {
+        "name": "1_FLAK_CANNON",
+        "categories": ["1_WEAPONS"],
+        "isWeapon": true,
+        "w": 2,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 24,
+            "y": 9,
+            "w": 2,
+            "h": 1
+        },
+        "hp": 40,
+        "fireHP": 18,
+        "moveDelay": 800,
+        "weight": 30,
+        "cost": -1, "availableFor": [], "frontOnly": true, "topOnly": true, "backOnly": true, "bottomOnly": true,
+        "crew": 1,
+        "recommendedCrew": 2,
+        "recommendedGuards": 1,
+        
+        "isGun": true,
+        "isCannon": true,
+        "reload": 1500,
+        "clip": 6,
+        "inaccuracy": 0.0013,
+        "blastDmg": 17,
+        "penDmg": 0,
+        "recoilForce": 0.2,
+        "fireArc": { "direction": "up", "degrees": 120 },
+        "muzzleCenterX": 1,
+        "muzzleCenterY": 0.375,
+        "muzzleLength": 0.9375,
+        "optimumRange": 400,
+        "fireSound": "flak",
+        "fireSoundCount": 4,
+        "hitSound": "smexplosion",
+        "explodeHP": 10,
+        "explodeDmg": 30,
+        "windows": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 }
+        ],
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 64, "y": 304, "w": 2, "h": 2 },
+            "barrel": { "src": "spritesheet", "x": 385, "y": 161, "w": 30, "h": 4 },
+            "barrelX": 1,
+            "barrelY": 5,
+            "recoil": 1
+        }
+    }
+]

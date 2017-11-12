@@ -1,0 +1,101 @@
+[
+    {
+        "name": "BALLOON_PROPELLER",
+		"external": true,
+        "categories": ["UNIT"],
+        "availableFor": ["AIRSHIP"],
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 120,
+            "frames": [
+                {
+                    "x": 37,
+                    "y": 8
+                },
+                {
+                    "x": 37,
+                    "y": 9
+                },
+                {
+                    "x": 37,
+                    "y": 10
+                },
+                {
+                    "x": 37,
+                    "y": 11
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 6,
+                    "y": 12
+                }
+            },
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "interval": 120,
+                    "frames": [
+                        {
+                            "x": 37,
+                            "y": 8
+                        },
+                        {
+                            "x": 37,
+                            "y": 9
+                        },
+                        {
+                            "x": 37,
+                            "y": 10
+                        },
+                        {
+                            "x": 37,
+                            "y": 11
+                        }
+                    ]
+                }
+            }
+        ],
+        "hp": 80,
+        "fireHP": 35,
+        "moveDelay": 800,
+        "weight": 25,
+        "cost": 50,
+        "propulsion": 0.02,
+
+        "backOnly": true,
+
+		"canOccupy": [],
+        "emitters": [
+            {
+                "x": 0.6,
+                "y": 0.1,
+                "type": "smoke",
+                "emitProbability": 0.0005
+            },
+            {
+                "x": 0.68,
+                "y": 0.62,
+                "type": "ember",
+                "emitProbability": 0.001
+            }
+        ],
+        "lights": [
+            {
+                "r": 128, "g": 45, "b": 5,
+                "radius": 20,
+                "x": 0.68,
+                "y": 0.68
+            }
+        ]
+    }
+]

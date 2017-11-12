@@ -1,0 +1,103 @@
+[
+{
+        "name": "UFO_CRAFT",
+        "isMachine": true,
+        "doesWork": false,
+        "doesGuard": false,
+        "canBoard": false,
+        "shootsShips": true,
+        "canFly": true,
+        "canWalk": false,
+        "airXMinSpeed": 0.015,
+        "airXTopSpeed": 1.8,
+        "airUpTopSpeed": 0.50,
+        "airDownTopSpeed": 0.50,
+        "airXAcceleration": 0.001,
+        "airUpAcceleration": 0.0001,
+        "airDownAcceleration": 0.002,
+        "airOvershoot": 0.5,
+        "launchMinXSpeed": -0.025,
+        "launchMaxXSpeed": 0.025,
+        "launchMinYSpeed": -0.025,
+        "launchMaxYSpeed": 0.025,
+        "launchLength": 300,
+        "popOutDelayMin": 400,
+        "popOutDelayRange": 300,
+        "strafeOvershoot": 200,
+	"blastDmg": 16,
+        "penDmg": 18,
+        "weaponReload": 100,
+        "barrelX": 40,
+        "barrelY": 21,
+        "shotSpeed": 1.65,
+        "inaccuracy": 0.005,
+        "maxRange": 1600,
+        "shootTroopsRange": 800,
+        "interceptTroops": true,
+        "crewEffectiveness": 0,
+        "goingUpSpeedMult": 0.9,
+        "maxHP": 150,
+        "minWorkingHP": 1,
+        "returnToRepairHP": 50,
+        "msPerHPRepaired": 200,
+        "animLook": "ufo-crew",
+        "simpleLookImg": {
+           	"src": "ce_ufo_sprite",
+		"x": 0,
+		"y": 9,
+		"w": 80,
+		"h": 23
+        },
+        "supplyCost": 1,
+        "shot": { "src": "spritesheet", "x": 48, "y": 304, "w": 1, "h": 1 },
+        "shouts": "crew",
+        "deathSnd": {
+            "layers": [
+                {
+                    "variations": ["death0", "death1", "death2", "death3", "death4"],
+                    "volume": {
+                        "min": 0.8,
+                        "max": 1.2
+                    },
+                    "pitch": {
+                        "min": 0.8,
+                        "max": 1.2
+                    }
+                }
+            ]
+        },
+        "bloodParticleExternal": "damaged_spark",
+        "explosionSize": 1.5,
+        "coughSnd": {
+            "layers": [
+                {
+                    "variations": ["cough0", "cough1", "cough2", "cough3"],
+                    "volume": {
+                        "min": 0.3,
+                        "max": 0.4
+                    },
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1
+                    }
+                }
+            ]
+        },
+        "attackSnd": {
+            "layers": [
+                {
+                    "variations": ["flamethrower0"],
+                    "volume": {
+                        "min": 1.2,
+                        "max": 1.4
+                    },
+                    "pitch": {
+                        "min": 0.8,
+                        "max": 0.85
+                    }
+                }
+            ]
+        },
+        "attackParticle": "UFOPART"
+    }
+]

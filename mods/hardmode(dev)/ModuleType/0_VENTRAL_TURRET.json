@@ -1,0 +1,66 @@
+[
+    {
+        "name": "1_VENTRAL_TURRET",
+        "categories": ["1_WEAPONS"],
+        "isWeapon": true,
+        "w": 3,
+        "h": 2,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 21,
+            "y": 9,
+            "w": 3,
+            "h": 2
+        },
+        "hp": 180,
+        "fireHP": 100,
+        "moveDelay": 800,
+        "weight": 150,
+        "cost": -1,
+        "crew": 2,
+        "recommendedCrew": 3,
+        "recommendedGuards": 1,
+        
+        
+        
+        "isGun": true,
+        "isCannon": true,
+        "reload": 4500,
+        "clip": 1,
+        "inaccuracy": 0.0018,
+        "blastDmg": 0,
+        "penDmg": 70,
+        "recoilForce": 2.1,
+        "fireArc": { "direction": "down", "degrees": 190 },
+        "muzzleCenterX": 1.5,
+        "muzzleCenterY": 0.375,
+        "muzzleLength": 1.8,
+        "optimumRange": 600,
+        "fireSound": "cannon",
+        "fireSoundCount": 6,
+        "explodeHP": 50,
+        "explodeDmg": 70,
+        "upDoors": [ 2 ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 },
+            { "x": 2, "y": 1 }
+        ],
+        "windows": [
+            { "x": 0, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 2, "y": 1 }
+        ],
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 16, "y": 304, "w": 5, "h": 5 },
+            "barrel": { "src": "spritesheet", "x": 265, "y": 177, "w": 58, "h": 5 },
+            "barrelX": -5,
+            "barrelY": 4,
+            "recoil": 3
+        }
+    }
+]

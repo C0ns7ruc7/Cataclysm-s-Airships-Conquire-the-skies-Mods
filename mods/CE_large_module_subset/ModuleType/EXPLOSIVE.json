@@ -1,0 +1,63 @@
+[
+    {
+        "name": "EXPLOSIVE",
+        "categories": ["WCE_WEAPONS"],
+	"isWeapon": true,
+        "external": false,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 14,
+            "y": 21
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 21,
+                    "y": 14
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 1000,
+        "fireHP": 999,
+        "explodeHP": 998,
+        "explodeDmg": 999999,
+        "moveDelay": 10000,
+        "weight": 1000,
+        "cost": 2500,
+	"frontOnly": true,
+        "isGun": true,
+        "reload": 1,
+        "clip": 10,
+        "ammoPerClip": -1,
+	"ammo": -1,
+        "inaccuracy": 0.0045,
+        "blastDmg": 999999999,
+	"blastSplashRadius": 2000,
+        "penDmg": 0,
+	"shotSpeed": 10.0,
+        "shotSpeedVariation": 3,
+        "multiShotJitter": 0.99999,
+        "recoilForce": 1000.0,
+        "maxXRange": 250,
+        "fireArc": { "direction": "forwards", "degrees": 720 },
+        "muzzleCenterX": 1.46875,
+        "muzzleCenterY": 0.625,
+        "muzzleLength": 0,
+        "optimumRange": 100,
+        "fireSound": "cannon",
+        "fireSoundCount": 6,
+        "canOccupy": [],
+		"weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 1, "y": 1, "w": 1, "h": 1 },
+            "barrel": { "src": "spritesheet", "x": 1, "y": 1, "w": 1, "h": 1 },
+            "barrelX": 9.5,
+            "barrelY": 3.5,
+            "recoil": 0
+        }
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "name": "1_DORSAL_TURRET",
+        "categories": ["1_WEAPONS"],
+        "isWeapon": true,
+        "w": 3,
+        "h": 2,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 18,
+            "y": 9,
+            "w": 3,
+            "h": 2
+        },
+        "hp": 180,
+        "fireHP": 100,
+        "moveDelay": 800,
+        "weight": 140,
+        "cost": -1,
+        "crew": 2,
+        "recommendedCrew": 3,
+        "recommendedGuards": 1,
+        
+        
+        
+        "isGun": true,
+        "isCannon": true,
+        "reload": 4000,
+        "clip": 1,
+        "inaccuracy": 0.0018,
+        "blastDmg": 0,
+        "penDmg": 70,
+        "recoilForce": 2.1,
+        "fireArc": { "direction": "up", "degrees": 190 },
+        "muzzleCenterX": 1.5,
+        "muzzleCenterY": 1.625,
+        "muzzleLength": 1.8,
+        "optimumRange": 600,
+        "fireSound": "cannon",
+        "fireSoundCount": 6,
+        "explodeHP": 50,
+        "explodeDmg": 70,
+        "windows": [
+            { "x": 0, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 2, "y": 1 }
+        ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 },
+            { "x": 2, "y": 1 }
+        ],
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 16, "y": 304, "w": 5, "h": 5 },
+            "barrel": { "src": "spritesheet", "x": 265, "y": 177, "w": 58, "h": 5 },
+            "barrelX": -5,
+            "barrelY": 23.5,
+            "recoil": 3
+        }
+    }
+]

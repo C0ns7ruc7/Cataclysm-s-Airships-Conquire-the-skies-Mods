@@ -1,0 +1,86 @@
+[
+    {
+        "name": "TRENCH_RIFLE",
+        "categories": ["ZDECKS"],
+        "external": true,
+        "isWeapon": true,
+        "isGun": true,
+        "w": 1,
+        "h": 1,
+		"framesAreVariants": true,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 19,
+            "y": 0
+        },
+		"externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "frames": [
+                        { "x": 22, "y": 14 },
+                        { "x": 21, "y": 15 },
+                        { "x": 22, "y": 15 },
+                        { "x": 23, "y": 15 },
+                        { "x": 24, "y": 15 },
+						{ "x": 26, "y": 15 },
+                        { "x": 25, "y": 15 },
+                        { "x": 27, "y": 15 },
+						{ "x": 28, "y": 15 },
+						{ "x": 29, "y": 15 },
+						{ "x": 21, "y": 15 },
+						{ "x": 30, "y": 15 }
+                    ]
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 160,
+        "fireHP": 18,
+        "moveDelay": 800,
+        "weight": 8,
+        "cost": 10,
+        "crew": 1,
+        "recommendedCrew": 1,
+        "topOnly": true,
+        "reload": 1300,
+        "clip": 40,
+        "inaccuracy": 0.00083,
+	"shootTroopsRange": 400,
+	"fixedInaccuracyVsTroops": 7,
+        "blastDmg": 0,
+        "penDmg": 4,
+        "fireArc": { "direction": "up", "degrees": 185 },
+        "muzzleCenterX": 0.68,
+        "muzzleCenterY": 0.56,
+        "muzzleLength": 1,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "rifle0" ],
+                    "volume": 0.9,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1,
+                        "distance": [
+                            0, 1.2,
+                            3000, 0.5
+                        ]
+                    }
+                }
+            ]
+        },
+        "optimumRange": 800,
+        "jitterMerge": 0.4,
+	"adjacencyBonusStrength": 1.2536,
+        "hardness": 1.2536,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 48, "y": 304, "w": 1, "h": 1 },
+            "barrel": { "src": "spritesheet", "x": 321, "y": 112, "w": 23, "h": 6 },
+            "barrelX": 0,
+            "barrelY": 6,
+            "recoil": 2
+        }
+    }
+]

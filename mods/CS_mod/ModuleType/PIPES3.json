@@ -1,0 +1,51 @@
+[
+    {
+        "name": "PIPES3",
+        "categories": ["ZARTDECO"],
+        "external": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-shape",
+            "x": 2,
+            "y": 3
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-shape",
+                    "x": 2,
+                    "y": 3
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 50,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 2,
+        "cost": 2,
+        "canOccupy": [],
+		        "emitters": [
+            {
+                "x": 0.25,
+                "y": 0.0625,
+                "type": "smoke",
+                "emitProbability": 0.0005
+            },
+            {
+                "x": 0.5625,
+                "y": 0.4375,
+                "type": "smoke",
+                "emitProbability": 0.0010
+            },
+            {
+                "x": 0.875,
+                "y": 0.25,
+                "type": "smoke",
+                "emitProbability": 0.0015
+            }
+		]
+    }
+]

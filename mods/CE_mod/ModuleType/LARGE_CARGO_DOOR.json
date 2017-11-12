@@ -1,0 +1,47 @@
+[
+    {
+        "name": "LARGE_CARGO_DOOR",
+        "categories": ["RESOURCES"],
+        "external": true,
+        "w": 3,
+        "h": 3,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 15,
+            "y": 21,
+            "w": 3,
+            "h": 3
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 18,
+                    "y": 21,
+                    "w": 3,
+                    "h": 3
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 540,
+        "fireHP": 125,
+        "moveDelay": 350,
+        "weight": 50,
+        "cost": 100,
+        "supplyProvided": 200,
+        "upDoors": [ 0 ],
+	    "leftDoors": [ 2 ],
+        "rightDoors": [ 0, 2 ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 2, "y": 0 },
+            { "x": 0, "y": 2 },
+            { "x": 1, "y": 2 },
+            { "x": 2, "y": 2 }
+        ]
+    }
+]

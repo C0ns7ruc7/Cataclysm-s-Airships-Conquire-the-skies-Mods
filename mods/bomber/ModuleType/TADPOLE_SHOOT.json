@@ -1,0 +1,49 @@
+[
+    {
+        "name": "FLIPPED_TADPOLE_SHOOT",
+        "flippedFrom": "TADPOLE_SHOOT"
+    },
+    {
+        "name": "TADPOLE_SHOOT",
+        "categories": ["AIRCRAFT"],
+        "availableFor": [ "AIRSHIP", "LANDSHIP", "BUILDING" ],
+        "w": 6,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-plane-vabese",
+            "x": 5,
+            "y": 20,
+            "w": 6,
+            "h": 1
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-plane-vabese",
+                    "x": 5,
+                    "y": 19,
+                    "w": 7,
+                    "h": 1
+                }
+            }
+        ],
+        "external": true,
+        "frontOnly": true,
+        "hp": 290,
+        "fireHP": 110,
+        "moveDelay": 600,
+        "weight": 80,
+        "cost": 250,
+        "maintenanceCost": 7,
+        "quarters": 2,
+        "recommendedCrew": 1,
+        "crew": 1,
+        "quartersType": "light_tadpole",
+        "hangarPositions": [
+            { "x": 1, "y": 0 },
+            { "x": 4, "y": 0 }
+        ]
+    }
+]

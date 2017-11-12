@@ -1,0 +1,365 @@
+[
+    {
+        "name": "MEDIUM_LARGE_SUSPENDIUM_DUST_TANK",
+        "categories": ["CE_BALLOONS"],
+        "availableFor": ["AIRSHIP"],
+        "external": true,
+        "w": 13,
+        "h": 8,
+	"appearance": {
+		"src": "spritesheet_blimp",
+                "x": 24,
+                "y": 8,
+                "w": 13,
+                "h": 8
+	},
+	"externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet_blimp",
+		        "x": 24,
+		        "y": 8,
+		        "w": 13,
+		        "h": 8
+                }
+            },
+	    {
+                "appearance": {
+                    "src": "spritesheet",
+                    "frames": [
+                        { "x": 26, "y": 5 },
+                        { "x": 27, "y": 5 },
+                        { "x": 28, "y": 5 },
+                        { "x": 29, "y": 5 },
+                        { "x": 33, "y": 5 }
+                    ]
+                },
+                "x": 6, "y": 0
+            },
+            {
+                "appearance": {
+                    "src": "spritesheet",
+                    "frames": [
+                        { "x": 26, "y": 5 },
+                        { "x": 29, "y": 5 },
+                        { "x": 30, "y": 5 },
+                        { "x": 31, "y": 5 },
+                        { "x": 33, "y": 5 }
+                    ]
+                },
+                "x": 6, "y": 1 
+            },
+            {
+                "appearance": {
+                    "src": "spritesheet",
+                    "frames": [
+                        { "x": 26, "y": 5 },
+                        { "x": 27, "y": 5 },
+                        { "x": 28, "y": 5 },
+                        { "x": 31, "y": 5 },
+                        { "x": 32, "y": 5 }
+                    ]
+                },
+                "x": 6, "y": 2
+            },
+            {
+                "appearance": {
+                    "src": "spritesheet",
+                    "frames": [
+                        { "x": 26, "y": 5 },
+                        { "x": 28, "y": 5 },
+                        { "x": 29, "y": 5 },
+                        { "x": 31, "y": 5 },
+                        { "x": 32, "y": 5 },
+                        { "x": 33, "y": 5 }
+                    ]
+                },
+                "x": 6, "y": 3
+            },
+            {
+                "appearance": {
+                    "src": "spritesheet",
+                    "frames": [
+                        { "x": 26, "y": 5 },
+                        { "x": 27, "y": 5 },
+                        { "x": 28, "y": 5 },
+                        { "x": 29, "y": 5 },
+                        { "x": 30, "y": 5 },
+                        { "x": 32, "y": 5 }
+                    ]
+                },
+                "x": 6, "y": 4
+            },
+            {
+                "appearance": {
+                    "src": "spritesheet",
+                    "frames": [
+                        { "x": 26, "y": 5 },
+                        { "x": 27, "y": 5 },
+                        { "x": 28, "y": 5 },
+                        { "x": 30, "y": 5 },
+                        { "x": 31, "y": 5 },
+                        { "x": 32, "y": 5 },
+                        { "x": 33, "y": 5 }
+                    ]
+                },
+                "x": 6, "y": 5
+            },
+            {
+                "appearance": {
+                    "src": "spritesheet",
+                    "frames": [
+                        { "x": 27, "y": 5 },
+                        { "x": 29, "y": 5 },
+                        { "x": 30, "y": 5 },
+                        { "x": 31, "y": 5 },
+                        { "x": 32, "y": 5 },
+                        { "x": 33, "y": 5 }
+                    ]
+                },
+                "x": 6, "y": 6
+            },
+            {
+                "appearance": {
+                    "src": "spritesheet",
+                    "frames": [
+                        { "x": 26, "y": 5 },
+                        { "x": 27, "y": 5 },
+                        { "x": 28, "y": 5 },
+                        { "x": 31, "y": 5 },
+                        { "x": 32, "y": 5 },
+                        { "x": 33, "y": 5 }
+                    ]
+                },
+                "x": 6, "y": 7
+            },
+	
+        ],
+        "destroyedExternalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+		        "x": 24,
+		        "y": 8,
+		        "w": 13,
+		        "h": 8
+                }
+            }
+        ],
+	"damagedEmitters": [
+            {
+                "x": 3.875,
+                "y": 1.5625,
+                "type": "susp_block_spark",
+                "emitProbability": 0.005,
+            },
+            {
+                "x": 1.25,
+                "y": 4.8125,
+                "type": "susp_block_spark",
+                "emitProbability": 0.002,
+            },
+            {
+                "x": 7.5,
+                "y": 3.4375,
+                "type": "susp_block_spark",
+                "emitProbability": 0.001,
+            },
+            {
+                "x": 8.5625,
+                "y": 0.8125,
+                "type": "susp_block_spark",
+                "emitProbability": 0.0005,
+            }
+	],
+        "destroyedEmitters": [
+            {
+                "x": 3.875,
+                "y": 1.5625,
+                "type": "susp_block_spark",
+                "emitProbability": 0.025,
+            },
+            {
+                "x": 1.25,
+                "y": 4.8125,
+                "type": "susp_block_spark",
+                "emitProbability": 0.01,
+            },
+            {
+                "x": 7.5,
+                "y": 3.4375,
+                "type": "susp_block_spark",
+                "emitProbability": 0.005,
+            },
+            {
+                "x": 8.5625,
+                "y": 0.8125,
+                "type": "susp_block_spark",
+                "emitProbability": 0.003,
+            }
+	],
+        "hp": 300,
+        "fireHP": 0,
+         "moveDelay": 350,
+        "canOccupy": [
+		{ "x": 6, "y": 0 },
+		{ "x": 6, "y": 1 },
+		{ "x": 6, "y": 2 },
+		{ "x": 6, "y": 3 },
+		{ "x": 6, "y": 4 },
+		{ "x": 6, "y": 5 },
+		{ "x": 6, "y": 6 },
+		{ "x": 6, "y": 7 }
+	],
+	"windows": [
+		{ "x": 6, "y": 0 },
+		{ "x": 6, "y": 1 },
+		{ "x": 6, "y": 2 },
+		{ "x": 6, "y": 3 },
+		{ "x": 6, "y": 4 },
+		{ "x": 6, "y": 5 },
+		{ "x": 6, "y": 6 },
+		{ "x": 6, "y": 7 }
+	],
+        "weight": 400,
+        "cost": 150,
+        "lift": 5500,
+        "explodeHP": 60,
+        "explodeDmg": 250,
+        "structuralStressAmount": 12,
+        "adjacencyBonusStrength": 0.666,
+	"upDoors": [ 6 ],
+        "leftDoors": [ ],
+        "rightDoors": [ ]
+    },    
+    {
+        "name": "A_MEDIUM_LARGE_SUSPENDIUM_DUST_TANK",
+        "categories": ["CE_BALLOONS"],
+        "availableFor": ["AIRSHIP"],
+        "w": 13,
+        "h": 8,
+	"appearance": {
+		"src": "spritesheet_blimp",
+                "x": 24,
+                "y": 8,
+                "w": 13,
+                "h": 8
+	},
+	"externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet_blimp",
+		        "x": 24,
+		        "y": 16,
+		        "w": 13,
+		        "h": 8
+                }
+            }
+        ],
+        "destroyedExternalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+		        "x": 24,
+		        "y": 16,
+		        "w": 13,
+		        "h": 8
+                }
+            }
+        ],
+        "damagedEmitters": [
+            {
+                "x": 3.875,
+                "y": 1.5625,
+                "type": "susp_block_spark",
+                "emitProbability": 0.005,
+            },
+            {
+                "x": 1.25,
+                "y": 4.8125,
+                "type": "susp_block_spark",
+                "emitProbability": 0.002,
+            },
+            {
+                "x": 7.5,
+                "y": 3.4375,
+                "type": "susp_block_spark",
+                "emitProbability": 0.001,
+            },
+            {
+                "x": 8.5625,
+                "y": 0.8125,
+                "type": "susp_block_spark",
+                "emitProbability": 0.0005,
+            }
+	],
+        "destroyedEmitters": [
+            {
+                "x": 3.875,
+                "y": 1.5625,
+                "type": "susp_block_spark",
+                "emitProbability": 0.025,
+            },
+            {
+                "x": 1.25,
+                "y": 4.8125,
+                "type": "susp_block_spark",
+                "emitProbability": 0.01,
+            },
+            {
+                "x": 7.5,
+                "y": 3.4375,
+                "type": "susp_block_spark",
+                "emitProbability": 0.005,
+            },
+            {
+                "x": 8.5625,
+                "y": 0.8125,
+                "type": "susp_block_spark",
+                "emitProbability": 0.003,
+            }
+	],
+        "hp": 300,
+        "fireHP": 0,
+        "moveDelay": 350,
+        "canOccupy": [
+		{ "x": 6, "y": 0 },
+		{ "x": 6, "y": 1 },
+		{ "x": 6, "y": 2 },
+		{ "x": 6, "y": 3 },
+		{ "x": 6, "y": 4 },
+		{ "x": 6, "y": 5 },
+		{ "x": 6, "y": 6 },
+		{ "x": 6, "y": 7 }
+	],
+	"windows": [
+		{ "x": 6, "y": 0 },
+		{ "x": 6, "y": 1 },
+		{ "x": 6, "y": 2 },
+		{ "x": 6, "y": 3 },
+		{ "x": 6, "y": 4 },
+		{ "x": 6, "y": 5 },
+		{ "x": 6, "y": 6 },
+		{ "x": 6, "y": 7 }
+	],
+        "external": false,
+        "weight": 400,
+        "cost": 150,
+        "lift": 5500,
+        "explodeHP": 60,
+        "explodeDmg": 250,
+        "structuralStressAmount": 12,
+        "adjacencyBonusStrength": 0.666,
+	"upDoors": [ 6 ],
+        "leftDoors": [ ],
+        "rightDoors": [ ]
+    }
+]

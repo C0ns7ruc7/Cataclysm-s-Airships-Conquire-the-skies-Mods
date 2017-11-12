@@ -1,0 +1,77 @@
+[
+    {
+        "name": "BEEHIVE",
+        "categories": [],
+        "required": "MONSTERS",
+        "w": 7,
+        "h": 6,
+        "appearance": {
+            "src": "monsters2",
+            "x": 1,
+            "y": 2,
+            "w": 7,
+            "h": 6
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "monsters2",
+                    "x": 0,
+                    "y": 0,
+                    "w": 10,
+                    "h": 10
+                },
+                "x": -1,
+                "y": -2
+            }
+        ],
+        "damagedExternalAppearances": [
+            {
+                "appearance": {
+                    "src": "monsters2",
+                    "x": 0,
+                    "y": 0,
+                    "w": 10,
+                    "h": 10
+                },
+                "x": -1,
+                "y": -2
+            }
+        ],
+        "destroyedExternalAppearances": [
+            {
+                "appearance": {
+                    "src": "monsters2",
+                    "x": 0,
+                    "y": 0,
+                    "w": 10,
+                    "h": 10
+                },
+                "x": -1,
+                "y": -2
+            }
+        ],
+        "hp": 45000,
+        "destructionLength": 500,
+        "hasGenericDestructionFragments": false,
+        "destroyedHP": 0,
+        "preventsSurrender": true,
+        "fireHP": 3000,
+        "moveDelay": 600,
+        "weight": 5000,
+        "cost": 400,
+        "maintenanceCost": 0,
+        "quarters": 40,
+        "quartersType": "susp_bee",
+        "doesCreak": false,
+        "preventsBoarding": true,
+        "canParticlesStick": false,
+        "createsExceptionalCombatEventAfterMs": 2500,
+        "externalDrawPriority": true,
+        "external": true,
+        "lift": 8000,
+        "command": 10,
+        "countsAsActiveCrew": true,
+        "propulsion": 0.000001,
+    }
+]

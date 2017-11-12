@@ -1,0 +1,51 @@
+[
+    {
+        "name": "PIPES_3COPPER",
+        "categories": ["ZARTDECO"],
+        "external": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-shape",
+            "x": 1,
+            "y": 0
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-shape",
+                    "x": 1,
+                    "y": 0
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 50,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 2,
+        "cost": 2,
+        "canOccupy": [],
+		        "emitters": [
+            {
+                "x": 0.1875,
+                "y": 0.25,
+                "type": "smoke",
+                "emitProbability": 0.001
+            },
+			{
+                "x": 0.46875,
+                "y": 0.5625,
+                "type": "smoke",
+                "emitProbability": 0.001
+            },
+			{
+                "x": 0.78125,
+                "y": 0.375,
+                "type": "smoke",
+                "emitProbability": 0.001
+            }
+		]
+    }
+]

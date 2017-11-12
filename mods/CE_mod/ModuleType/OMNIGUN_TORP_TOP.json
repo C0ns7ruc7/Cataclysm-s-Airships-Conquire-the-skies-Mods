@@ -1,0 +1,126 @@
+[
+    {
+        "name": "FLIPPED_OMNIGUN_TORP_TOP",
+        "flippedFrom": "OMNIGUN_TORP_TOP"
+    },
+    {
+        "name": "OMNIGUN_TORP_TOP",
+        "categories": ["WCE_WEAPONS"],
+        "required": "TORPEDOES",
+        "isWeapon": true,
+        "w": 2,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 8,
+            "y": 13,
+            "w": 2,
+            "h": 2
+        },
+		"externalAppearances": [
+            {
+                "x": 1,
+                "y": 0,
+                "appearance": {
+					"src": "sprite-vabese",
+					"x": 21,
+					"y": 19,
+					"w": 1,
+					"h": 2
+				}
+            },
+			{
+                "x": 0,
+                "y": 0,
+                "appearance": {
+					"src": "sprite-vabese",
+					"x": 23,
+					"y": 20,
+					"w": 2,
+					"h": 1
+				}
+            }
+		],
+        "hp": 120,
+        "fireHP": 60,
+        "moveDelay": 800,
+        "weight": 130,
+        "cost": 200,
+        "maintenanceCost": 4,
+        "crew": 2,
+	"optionalCrew": 1,
+        "recommendedCrew": 3,
+	"recommendedGuards": 1,
+        "windows": [
+            { "x": 1, "y": 1 }
+        ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 }
+        ],
+        "leftDoors": [0, 1],
+        "upDoors": [0],
+        "frontOnly": true,
+	    "topOnly": true,
+        "isExplosive": true,
+        "shotSpeed": 0.25,
+        "jitterMerge": 0.3,
+        "reload": 12358,
+        "minXRange": 150,
+	    "clipReloadTime": 1235,
+        "clip": 2,
+	    "ammoPerClip": 4,
+        "inaccuracy": 0.0012,
+        "blastDmg": 250,
+        "penDmg": 0,
+	    "recoilForce": 1.0,
+        "fireArc": { "arcCenter": "685", "degrees": 120 },
+        "muzzleCenterX": 1.0,
+        "muzzleCenterY": 1.0,
+        "muzzleLength": 0,
+        "muzzleFlash": false,
+        "optimumRange": 300,
+        "hitSound": {
+            "layers": [
+                {
+                    "variations": ["explosion_2"],
+                    "volume": 3.0,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1
+                    }
+                }
+            ]
+        },
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "torpedo0", "torpedo1" ],
+                    "volume": 2.0,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1
+                    }
+                }
+            ]
+        },
+        "explodeHP": 50,
+        "explodeDmg": 200,
+        "weaponAppearance": {
+            "shotAnimationInterval": 90,
+            "shotFrames": [
+                { "src": "spritesheet", "x": 309, "y": 416, "w": 36, "h": 13 },
+                { "src": "spritesheet", "x": 351, "y": 416, "w": 36, "h": 13 },
+                { "src": "spritesheet", "x": 393, "y": 416, "w": 36, "h": 13 },
+                { "src": "spritesheet", "x": 435, "y": 416, "w": 36, "h": 13 }
+            ],
+            "hitExplosionSize": 4,
+            "missExplosionSize": 2,
+            "barrel": { "src": "sprite-vabese", "x": 336, "y": 336, "w": 32, "h": 32 },
+            "barrelX": 0,
+            "barrelY": 0,
+            "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.0012 }
+        }
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "name": "1_FLIPPED_AERIAL_TORPEDO",
+        "flippedFrom": "1_AERIAL_TORPEDO"
+    },
+    {
+        "name": "1_AERIAL_TORPEDO",
+        "categories": ["1_WEAPONS"],
+        "isWeapon": true,
+        "w": 4,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 19,
+            "y": 28,
+            "w": 4,
+            "h": 1
+        },
+        "hp": 120,
+        "fireHP": 20,
+        "moveDelay": 800,
+        "weight": 50,
+        "cost": -1, "availableFor": [], "frontOnly": true, "topOnly": true, "backOnly": true, "bottomOnly": true,
+        "crew": 2,
+        "recommendedCrew": 3,
+        "windows": [
+            { "x": 2, "y": 0 },
+            { "x": 3, "y": 0 }
+        ],
+        
+        "isExplosive": true,
+        "shotSpeed": 0.2,
+        "jitterMerge": 0,
+        "reload": 10000,
+        "clip": 1,
+        "inaccuracy": 0.0012,
+        "blastDmg": 250,
+        "minXRange": 150,
+        "penDmg": 0,
+        "fireArc": { "direction": "forwards", "degrees": 10 },
+        "muzzleCenterX": 2.75,
+        "muzzleCenterY": 0.5,
+        "muzzleLength": 0,
+        "muzzleFlash": false,
+        "optimumRange": 300,
+        "explodeHP": 50,
+        "explodeDmg": 200,
+        "hitSound": "explosion_2",
+        "fireSound": "torpedo",
+        "fireSoundCount": 2,
+        "weaponAppearance": {
+            "shotAnimationInterval": 90,
+            "shotFrames": [
+                { "src": "spritesheet", "x": 309, "y": 416, "w": 36, "h": 13 },
+                { "src": "spritesheet", "x": 351, "y": 416, "w": 36, "h": 13 },
+                { "src": "spritesheet", "x": 393, "y": 416, "w": 36, "h": 13 },
+                { "src": "spritesheet", "x": 435, "y": 416, "w": 36, "h": 13 }
+            ],
+            "hitExplosionSize": 4,
+            "missExplosionSize": 2,
+            "barrel": { "src": "spritesheet", "x": 309, "y": 416, "w": 36, "h": 13 },
+            "barrelX": 26,
+            "barrelY": 1.5,
+            "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.0012 }
+        }
+    }
+]

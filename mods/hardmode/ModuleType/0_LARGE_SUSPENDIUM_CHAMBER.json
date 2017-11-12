@@ -1,0 +1,104 @@
+[
+    {
+        "name": "1_LARGE_SUSPENDIUM_CHAMBER",
+        "categories": ["1_LIFT"],
+
+        "w": 4,
+        "h": 3,
+        "appearance": {
+            "src": "spritesheet",
+            "interval": 70,
+            "frames": [
+                {
+                    "x": 37,
+                    "y": 8,
+                    "w": 4,
+                    "h": 3
+                },
+                {
+                    "x": 41,
+                    "y": 8,
+                    "w": 4,
+                    "h": 3
+                },
+                {
+                    "x": 45,
+                    "y": 8,
+                    "w": 4,
+                    "h": 3
+                },
+                {
+                    "x": 49,
+                    "y": 8,
+                    "w": 4,
+                    "h": 3
+                },
+                {
+                    "x": 53,
+                    "y": 8,
+                    "w": 4,
+                    "h": 3
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": -2,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 37,
+                    "y": 6,
+                    "w": 2,
+                    "h": 2
+                }
+            }
+        ],
+        "hp": 400,
+        "fireHP": 240,
+        "moveDelay": 800,
+        "weight": 220,
+        "cost": -1, "availableFor": [], "frontOnly": true, "topOnly": true, "backOnly": true, "bottomOnly": true,
+        "lift": 5000,
+        "coalReload": 10000,
+        "crew": 2,
+        "recommendedCrew": 3,
+        
+        "emitters": [
+            {
+                "x": 1.08,
+                "y": -1.9,
+                "type": "smoke",
+                "emitProbability": 0.005
+            },
+            {
+                "x": 0.69,
+                "y": 2.56,
+                "type": "ember",
+                "emitProbability": 0.004,
+                "inside": true
+            },
+            {
+                "x": 3,
+                "y": 1.5,
+                "type": "large_susp_chamber_spark",
+                "emitProbability": 0.07,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 60,
+                "x": 0.69,
+                "y": 2.56
+            },
+            {
+                "r": 232, "g": 232, "b": 156,
+                "radius": 80,
+                "x": 2.5,
+                "y": 1.5
+            }
+        ]
+    }
+]

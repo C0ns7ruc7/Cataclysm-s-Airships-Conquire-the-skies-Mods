@@ -1,0 +1,62 @@
+[{
+        "name": "TAD_CENT",
+        "categories": ["UNIT"],
+        "external": true,
+	"doesCreak": false,
+        "availableFor": ["AIRSHIP"],
+        "w": 1,
+        "h": 1,
+		"isRam": true,
+        "appearance": {
+            "src": "sprite-vabese",
+					"interval": 100,
+					"frames":[
+						{"x": 19, "y": 14, "w": 1, "h": 1},
+						{"x": 19, "y": 15, "w": 1, "h": 1}
+						]
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+					"x": 19,
+					"y": 16
+                },
+                "x": 0,
+                "y": 0
+            }],
+        "hp": 75,
+	"destroyedHP": 0,
+        "fireHP": 25,
+        "shipHPBonus": 25,
+        "explodeHP": 1,
+        "explodeDmg": 1250,
+        "moveDelay": 800,
+        "weight": 334,
+        "cost": 34,
+        "maintenanceCost": 3,
+	"countsAsActiveCrew": true,
+    	"adjacencyBonusStrength": 4.0,
+        "supplyProvided": 2,
+	"command": 1,
+	"lift": 2000,
+	"upDoors": [ 0 ],
+
+        "topOnly": true,
+
+	"canOccupy": [],
+        "emitters": [
+            {
+                "x": 0.5,
+                "y": 0.5,
+                "type": "smoke",
+                "emitProbability": 0.0025
+            },
+            {
+                "x": 0.5,
+                "y": 0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.01,
+            }
+        ]
+	}]

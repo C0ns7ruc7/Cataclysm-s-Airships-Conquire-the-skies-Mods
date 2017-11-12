@@ -1,0 +1,451 @@
+[
+    {
+        "name": "BLACK_WIDOW_THORAX",
+        "categories": [],
+        "required": "MONSTERS",
+        "doesCreak": false,
+        "preventsBoarding": true,
+        "instantlyDestroyed": true,
+        "canParticlesStick": false,
+        "w": 4,
+        "h": 4,
+        "appearance": {
+            "src": "monsters2",
+            "x": 30,
+            "y": 50,
+            "w": 4,
+            "h": 4
+        },
+        "externalAppearances": [
+            {
+                "x": 3,
+                "y": 2,
+                "appearance": {
+                    "src": "monsters2",
+                    "interval": 1700,
+                    "frames": [
+                        { "x": 35, "y": 49, "w": 3, "h": 3 },
+                        { "x": 35, "y": 52, "w": 3, "h": 3 }
+                    ]
+                }
+            },
+            {
+                "x": -3,
+                "y": 0,
+                "appearance": {
+                    "src": "monsters2",
+                    "x": 27,
+                    "y": 50,
+                    "w": 7,
+                    "h": 5
+                }
+            }
+        ],
+        "damagedExternalAppearances": [
+            {
+                "x": 3,
+                "y": 2,
+                "appearance": {
+                    "src": "monsters2",
+                    "interval": 1700,
+                    "frames": [
+                        { "x": 35, "y": 56, "w": 3, "h": 3 },
+                        { "x": 35, "y": 59, "w": 3, "h": 3 }
+                    ]
+                }
+            },
+            {
+                "x": -3,
+                "y": 0,
+                "appearance": {
+                    "src": "monsters2",
+                    "x": 27,
+                    "y": 57,
+                    "w": 7,
+                    "h": 5
+                }
+            }
+        ],
+        "damagedEmitters": [
+            {
+                "x": -0.125,
+                "y": 3.875,
+                "type": "spider_blood_drip",
+                "emitProbability": 0.0003
+            },
+            {
+                "x": 1.125,
+                "y": 2.25,
+                "type": "spider_blood_drip",
+                "emitProbability": 0.0003
+            },
+            {
+                "x": 2.5,
+                "y": 1.5625,
+                "type": "spider_blood_drip",
+                "emitProbability": 0.0002
+            }
+        ],
+        "hp": 2500,
+        "collisionDamageReceivedMult": 0.5,
+        "hardness": 0.5,
+        "fireHP": 0,
+        "externalDrawPriority": true,
+        "external": true,
+        "destroyedHP": 0,
+        "hasGenericDestructionFragments": false,
+        "moveDelay": 10000,
+        "weight": 800,
+        "cost": 100.0,
+        "propulsion": 15,
+        "bottomOnly": true,
+        "canOccupy": [],
+        "command": 10,
+        "countsAsActiveCrew": true,
+        "isWeapon": true,
+        "reload": 4000,
+        "inaccuracy": 0.003,
+        "blastDmg": 50,
+        "blastSplashRadius": 0,
+        "penDmg": 0,
+        "recoilForce": 0,
+        "clip": 0,
+        "shotSpeed": 0.45,
+        "muzzleFlash": false,
+        "fireArc": { "direction": "forwards", "degrees": 100 },
+        "muzzleCenterX": 3.6,
+        "muzzleCenterY": 3,
+        "muzzleLength": 0,
+        "optimumRange": 80,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "splat" ],
+                    "volume": 1.0,
+                    "pitch": {
+                        "min": 0.85,
+                        "max": 1.15
+                    }
+                }
+            ]
+        },
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 129, "y": 305, "w": 11, "h": 5 },
+            "shotEmitter": { "type": "acid_droplet", "emitProbability": 0.03 }
+        },
+        "legs": [
+            {
+                "back": false,
+                "xOffset": 0,
+                "yOffset": 0,
+                "upperLimbLength": 55,
+                "middleLimbLength": 60,
+                "lowerLimbLength": 110,
+                "footWidth": 2,
+                "footHeight": 0,
+                "stepLength": 45,
+                "maxStepTime": 350,
+                "bendForwards": false,
+                "spring": {
+                    "xOffset": 0,
+                    "length": 80,
+                    "minCompressedLength": 50,
+                    "k": 0.11
+                },
+                "upperLeg": { "src": "wheels_and_legs", "x": 133, "y": 211, "w": 118, "h": 20 },
+                "middleLeg": { "src": "wheels_and_legs", "x": 142, "y": 245, "w": 67, "h": 12 },
+                "lowerLeg": { "src": "wheels_and_legs", "x": 142, "y": 232, "w": 220, "h": 10 },
+                "foot": { "src": "wheels_and_legs", "x": 0, "y": 0, "w": 1, "h": 1 },
+                "footDownSound": {
+                    "layers": [
+                        {
+                            "variations": [ "step0", "step1", "step2" ],
+                            "volume": {
+                                "min": 0.2,
+                                "max": 0.3
+                            },
+                            "pitch": {
+                                "min": 0.9,
+                                "max": 1.1
+                            }
+                        }
+                    ]
+                },
+                "minFootY": -50
+            },
+            {
+                "back": false,
+                "xOffset": 2,
+                "yOffset": 0,
+                "upperLimbLength": 55,
+                "middleLimbLength": 20,
+                "lowerLimbLength": 110,
+                "footWidth": 2,
+                "footHeight": 0,
+                "stepLength": 45,
+                "maxStepTime": 350,
+                "bendForwards": true,
+                "spring": {
+                    "xOffset": 0,
+                    "length": 80,
+                    "minCompressedLength": 50,
+                    "k": 0.11
+                },
+                "upperLeg": { "src": "wheels_and_legs", "x": 133, "y": 211, "w": 118, "h": 20 },
+                "middleLeg": { "src": "wheels_and_legs", "x": 222, "y": 245, "w": 27, "h": 12, "flipped": false },
+                "lowerLeg": { "src": "wheels_and_legs", "x": 142, "y": 232, "w": 220, "h": 10 },
+                "foot": { "src": "wheels_and_legs", "x": 0, "y": 0, "w": 1, "h": 1 },
+                "footDownSound": {
+                    "layers": [
+                        {
+                            "variations": [ "step0", "step1", "step2" ],
+                            "volume": {
+                                "min": 0.2,
+                                "max": 0.3
+                            },
+                            "pitch": {
+                                "min": 0.9,
+                                "max": 1.1
+                            }
+                        }
+                    ]
+                },
+                "minFootY": -50
+            },
+            {
+                "back": false,
+                "xOffset": 3,
+                "yOffset": 0,
+                "upperLimbLength": 55,
+                "middleLimbLength": 60,
+                "lowerLimbLength": 110,
+                "footWidth": 2,
+                "footHeight": 0,
+                "stepLength": 45,
+                "maxStepTime": 350,
+                "bendForwards": true,
+                "spring": {
+                    "xOffset": 0,
+                    "length": 80,
+                    "minCompressedLength": 50,
+                    "k": 0.11
+                },
+                "upperLeg": { "src": "wheels_and_legs", "x": 133, "y": 211, "w": 118, "h": 20 },
+                "middleLeg": { "src": "wheels_and_legs", "x": 142, "y": 245, "w": 67, "h": 12, "flipped": false },
+                "lowerLeg": { "src": "wheels_and_legs", "x": 142, "y": 232, "w": 220, "h": 10 },
+                "foot": { "src": "wheels_and_legs", "x": 0, "y": 0, "w": 1, "h": 1 },
+                "footDownSound": {
+                    "layers": [
+                        {
+                            "variations": [ "step0", "step1", "step2" ],
+                            "volume": {
+                                "min": 0.2,
+                                "max": 0.3
+                            },
+                            "pitch": {
+                                "min": 0.9,
+                                "max": 1.1
+                            }
+                        }
+                    ]
+                },
+                "minFootY": -50
+            },
+            {
+                "back": false,
+                "xOffset": 1,
+                "yOffset": 0,
+                "upperLimbLength": 55,
+                "middleLimbLength": 20,
+                "lowerLimbLength": 110,
+                "footWidth": 2,
+                "footHeight": 0,
+                "stepLength": 45,
+                "maxStepTime": 350,
+                "bendForwards": false,
+                "spring": {
+                    "xOffset": 0,
+                    "length": 80,
+                    "minCompressedLength": 50,
+                    "k": 0.11
+                },
+                "upperLeg": { "src": "wheels_and_legs", "x": 133, "y": 211, "w": 118, "h": 20 },
+                "middleLeg": { "src": "wheels_and_legs", "x": 222, "y": 245, "w": 27, "h": 12 },
+                "lowerLeg": { "src": "wheels_and_legs", "x": 142, "y": 232, "w": 220, "h": 10 },
+                "foot": { "src": "wheels_and_legs", "x": 0, "y": 0, "w": 1, "h": 1 },
+                "footDownSound": {
+                    "layers": [
+                        {
+                            "variations": [ "step0", "step1", "step2" ],
+                            "volume": {
+                                "min": 0.2,
+                                "max": 0.3
+                            },
+                            "pitch": {
+                                "min": 0.9,
+                                "max": 1.1
+                            }
+                        }
+                    ]
+                },
+                "minFootY": -50
+            },
+            {
+                "back": true,
+                "xOffset": 0,
+                "yOffset": 0,
+                "upperLimbLength": 55,
+                "middleLimbLength": 60,
+                "lowerLimbLength": 110,
+                "footWidth": 2,
+                "footHeight": 0,
+                "stepLength": 45,
+                "maxStepTime": 350,
+                "bendForwards": false,
+                "spring": {
+                    "xOffset": 0,
+                    "length": 80,
+                    "minCompressedLength": 50,
+                    "k": 0.11
+                },
+                "upperLeg": { "src": "wheels_and_legs", "x": 133, "y": 211, "w": 118, "h": 20 },
+                "middleLeg": { "src": "wheels_and_legs", "x": 142, "y": 245, "w": 67, "h": 12 },
+                "lowerLeg": { "src": "wheels_and_legs", "x": 142, "y": 232, "w": 220, "h": 10 },
+                "foot": { "src": "wheels_and_legs", "x": 0, "y": 0, "w": 1, "h": 1 },
+                "footDownSound": {
+                    "layers": [
+                        {
+                            "variations": [ "step0", "step1", "step2" ],
+                            "volume": {
+                                "min": 0.2,
+                                "max": 0.3
+                            },
+                            "pitch": {
+                                "min": 0.9,
+                                "max": 1.1
+                            }
+                        }
+                    ]
+                },
+                "minFootY": -50
+            },
+            {
+                "back": true,
+                "xOffset": 2,
+                "yOffset": 0,
+                "upperLimbLength": 55,
+                "middleLimbLength": 20,
+                "lowerLimbLength": 110,
+                "footWidth": 2,
+                "footHeight": 0,
+                "stepLength": 45,
+                "maxStepTime": 350,
+                "bendForwards": true,
+                "spring": {
+                    "xOffset": 0,
+                    "length": 80,
+                    "minCompressedLength": 50,
+                    "k": 0.11
+                },
+                "upperLeg": { "src": "wheels_and_legs", "x": 133, "y": 211, "w": 118, "h": 20 },
+                "middleLeg": { "src": "wheels_and_legs", "x": 222, "y": 245, "w": 27, "h": 12, "flipped": false },
+                "lowerLeg": { "src": "wheels_and_legs", "x": 142, "y": 232, "w": 220, "h": 10 },
+                "foot": { "src": "wheels_and_legs", "x": 0, "y": 0, "w": 1, "h": 1 },
+                "footDownSound": {
+                    "layers": [
+                        {
+                            "variations": [ "step0", "step1", "step2" ],
+                            "volume": {
+                                "min": 0.2,
+                                "max": 0.3
+                            },
+                            "pitch": {
+                                "min": 0.9,
+                                "max": 1.1
+                            }
+                        }
+                    ]
+                },
+                "minFootY": -50
+            },
+            {
+                "back": true,
+                "xOffset": 3,
+                "yOffset": 0,
+                "upperLimbLength": 55,
+                "middleLimbLength": 60,
+                "lowerLimbLength": 110,
+                "footWidth": 2,
+                "footHeight": 0,
+                "stepLength": 45,
+                "maxStepTime": 350,
+                "bendForwards": true,
+                "spring": {
+                    "xOffset": 0,
+                    "length": 80,
+                    "minCompressedLength": 50,
+                    "k": 0.11
+                },
+                "upperLeg": { "src": "wheels_and_legs", "x": 133, "y": 211, "w": 118, "h": 20 },
+                "middleLeg": { "src": "wheels_and_legs", "x": 142, "y": 245, "w": 67, "h": 12, "flipped": false },
+                "lowerLeg": { "src": "wheels_and_legs", "x": 142, "y": 232, "w": 220, "h": 10 },
+                "foot": { "src": "wheels_and_legs", "x": 0, "y": 0, "w": 1, "h": 1 },
+                "footDownSound": {
+                    "layers": [
+                        {
+                            "variations": [ "step0", "step1", "step2" ],
+                            "volume": {
+                                "min": 0.2,
+                                "max": 0.3
+                            },
+                            "pitch": {
+                                "min": 0.9,
+                                "max": 1.1
+                            }
+                        }
+                    ]
+                },
+                "minFootY": -50
+            },
+            {
+                "back": true,
+                "xOffset": 1,
+                "yOffset": 0,
+                "upperLimbLength": 55,
+                "middleLimbLength": 20,
+                "lowerLimbLength": 110,
+                "footWidth": 2,
+                "footHeight": 0,
+                "stepLength": 45,
+                "maxStepTime": 350,
+                "bendForwards": false,
+                "spring": {
+                    "xOffset": 0,
+                    "length": 80,
+                    "minCompressedLength": 50,
+                    "k": 0.11
+                },
+                "upperLeg": { "src": "wheels_and_legs", "x": 133, "y": 211, "w": 118, "h": 20 },
+                "middleLeg": { "src": "wheels_and_legs", "x": 222, "y": 245, "w": 27, "h": 12 },
+                "lowerLeg": { "src": "wheels_and_legs", "x": 142, "y": 232, "w": 220, "h": 10 },
+                "foot": { "src": "wheels_and_legs", "x": 0, "y": 0, "w": 1, "h": 1 },
+                "footDownSound": {
+                    "layers": [
+                        {
+                            "variations": [ "step0", "step1", "step2" ],
+                            "volume": {
+                                "min": 0.2,
+                                "max": 0.3
+                            },
+                            "pitch": {
+                                "min": 0.9,
+                                "max": 1.1
+                            }
+                        }
+                    ]
+                },
+                "minFootY": -50
+            }
+        ]
+    }
+]

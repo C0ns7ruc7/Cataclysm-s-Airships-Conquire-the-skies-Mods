@@ -1,0 +1,39 @@
+[
+    {
+        "name": "BIG_AMMO",
+        "categories": ["RESOURCES"],
+        "w": 3,
+        "h": 3,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 15,
+            "y": 13,
+            "w": 3,
+            "h": 3
+        },
+        "hp": 420,
+        "fireHP": 300,
+        "explodeHP": 210,
+        "explodeDmg": 1000,
+        "moveDelay": 600,
+        "weight": 142,
+        "cost": 65,
+        "ammo": 185,
+        "optionalCrew": 6,
+        "upDoors": [ 1 ],
+        "leftDoors": [ 0, 1, 2 ],
+        "rightDoors": [ 0, 1, 2 ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 },
+            { "x": 2, "y": 1 },
+			{ "x": 0, "y": 2 },
+            { "x": 1, "y": 2 },
+            { "x": 2, "y": 2 }
+        ],
+        "recommendedGuards": 1
+    }
+]

@@ -1,0 +1,145 @@
+[
+    {
+        "name": "UFO_MOTHERSHIP",
+        "categories": [],
+        "required": "MONSTERS",
+        "availableFor": [ "AIRSHIP" ],
+        "armourType": "CLOCKWORK_BRASS",
+
+        "doesCreak": false,
+        "preventsBoarding": true,
+        "external": true,
+        "externalDrawPriority": true,
+        "preventsSurrender": true,
+	"countsAsActiveCrew": true,
+
+        "w": 10,
+        "h": 3,
+        "appearance": {
+            "src": "ce_ufo_sprite",
+            "x": 0,
+            "y": 2,
+            "w": 10,
+            "h": 3
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "ce_ufo_sprite",
+		    "x": 0,
+		    "y": 2,
+		    "w": 10,
+		    "h": 3
+                }
+            }
+        ],
+        "hp": 5000,
+        "destroyedHP": -100,
+        "fireHP": -100,
+	"collisionDamageReceivedMult": 0.01,
+        "destructionLength": 1000,
+	"destructionParticleDensity": 10,
+	"hardness": 100,
+
+        "command": 4,
+        "lift": 10000,
+        "propulsion": 0.15,
+
+	"isWeapon": true,
+        "muzzleFlash": true,
+        "shotSpeed": 2.4,
+        "jitterMerge": 0.75,
+        "reload": 50,
+        "clip": 0,
+        "inaccuracy": 0.003,
+        "blastDmg": 16,
+        "blastSplashRadius": 16,
+        "penDmg": 16,
+        "directDmg": 16,
+        "fireArc": { "direction": "up", "degrees": 200 },
+        "muzzleCenterX": 5,
+        "muzzleCenterY": 0.6875,
+        "muzzleLength": 0,
+        "optimumRange": 800,
+	"supplyProvided": 8,
+        "shootTroopsRange": 350,
+        "fixedInaccuracyVsTroops": 0,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "flamethrower0" ],
+                    "volume": 0.5,
+                    "pitch": 2.0
+                }
+            ]
+        },
+	"weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 224, "y": 304, "w": 11, "h": 11 },
+            "exhaust": {
+                "type": "UFOPART",
+                "p": 0.5,
+                "backOffset": 0,
+                "angleRange": 0,
+                "randomOffset": 0,
+                "speedMin": 0,
+                "speedMax": 0
+            }
+        },
+
+        "moveDelay": 400,
+        "weight": 2500,
+        "cost": 3000,
+        "quarters": 3,
+        "quartersType": "UFO_CRAFT",
+        "hangarPositions": [
+            	{ "x": 3, "y": 3 },
+		{ "x": 6, "y": 3 },
+		{ "x": 9, "y": 3 }
+        ]
+    },
+    {
+        "name": "UFO_HANGAR",
+        "categories": ["AIRCRAFT"],
+        "availableFor": [ "AIRSHIP", "LANDSHIP", "BUILDING" ],
+        "required": "UFOS",
+        "w": 10,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 53,
+            "y": 16,
+            "w": 10,
+            "h": 1
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 53,
+                    "y": 16,
+                    "w": 10,
+                    "h": 1
+                }
+            }
+        ],
+        "external": true,
+        "hp": 400,
+        "fireHP": 100,
+        "moveDelay": 400,
+        "weight": 140,
+        "cost": 300,
+        "maintenanceCost": 2,
+        "topOnly": true,
+        "recommendedCrew": 1,
+        "crew": 1,
+        "quarters": 1,
+        "quartersType": "UFO_CRAFT",
+        "hangarPositions": [
+            { "x": 4, "y": 0 }
+        ]
+    }
+]

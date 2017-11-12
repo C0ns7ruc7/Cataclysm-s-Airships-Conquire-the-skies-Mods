@@ -1,0 +1,46 @@
+[
+    {
+        "name": "SMOKESTACK",
+        "categories": [],
+        "external": true,
+        "w": 2,
+        "h": 1,
+        "appearance": 
+		{
+            "src": "sprite-vabese",
+			"w": 2,
+			"h": 1,
+            "x": 1,
+            "y": 3
+        },
+        "externalAppearances": 
+		[
+            {
+                "appearance": 
+				{
+                    "src": "sprite-vabese",
+					"w": 2,
+					"h": 1,
+                    "x": 3,
+                    "y": 3
+                },
+                "x": 0,
+                "y": -1
+            }
+        ],
+        "emitters": [
+            {
+                "x": 1.0,
+                "y": -1.0,
+                "type": "smoke",
+                "emitProbability": 0.003
+            }
+        ],
+        "hp": 50,
+        "fireHP": 1,
+        "moveDelay": 10000,
+        "weight": 1,
+        "cost": 2,
+        "canOccupy": []
+    }
+]
