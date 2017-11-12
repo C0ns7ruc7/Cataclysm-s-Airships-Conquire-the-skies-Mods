@@ -1,0 +1,74 @@
+[
+	{
+		"name": "Pirate_CE_air",
+		"heraldicStyle": "pirate",
+		"spawnWeight": 4,
+		"needsRoad": false,
+		"income": 25,
+		"mapImage":{ "src": "ui", "x": 208, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 208, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 208, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 208, "y": 384, "w": 16, "h": 16 },
+		"baseConstructions": ["Commerce_Raider", "PIRATE_PORT", "Pirate_town"],
+        	"additionalConstructions": ["Commerce_Raider", "Mechanized single seater", "Mechanized Tadseater hybred", "Tadpole", "Buzzer", "Uni_cycle"],
+		"homeFleet": ["PIRATE_PORT", "Pirate_town"],
+		"incomeModifierPercentage": -5,
+		"minAttackFleetStrength": 400,
+        	"attackRadius": 1000,
+        	"rewards": [
+            {
+                "name": "CEPiratesNestCleared",
+                "money": 2000,
+                "rep": 10
+            }
+        ]
+	},
+	{
+		"name": "Pirate_CE_air_BOSS",
+		"heraldicStyle": "pirate",
+		"spawnWeight": 2,
+		"needsRoad": false,
+		"income": 125,
+		"mapImage":{ "src": "sprite-vabese", "x": 560, "y": 160, "w": 16, "h": 16 },
+		"mapBackground": { "src": "sprite-vabese", "x": 560, "y": 160, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "sprite-vabese", "x": 560, "y": 160, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "sprite-vabese", "x": 560, "y": 160, "w": 16, "h": 16 },
+		"baseConstructions": ["PIRATE_FORT"],
+		"homeFleet": ["PIRATE_FORT"],
+		"additionalConstructions": ["Commerce_Raider", "Mechanized single seater", "Mechanized Tadseater hybred", "Tadpole", "Buzzer", "Uni_cycle", "Commerce_Raider", "Mechanized single seater", "Mechanized Tadseater hybred", "Tadpole", "Buzzer", "Uni_cycle"],
+		"incomeModifierPercentage": -150,
+		"minAttackFleetStrength": 10000,
+		"attackRadius": 5000,
+		"rewards": [
+            {
+                "name": "CEPiratesNestCleared_BOSS",
+                "money": 10000,
+                "rep": 500
+            }
+        ]
+	},
+	{
+		"name": "Pirate_CE_land",
+		"heraldicStyle": "brigand",
+		"spawnWeight": 4,
+		"needsRoad": true,
+		"income": 25,
+		"mapImage":{ "src": "ui", "x": 208, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 208, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 208, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 208, "y": 384, "w": 16, "h": 16 },
+		"baseConstructions": ["GARGAN", "RAIDER", "Tank-MK2", "Tank-MK2"],
+       		"additionalConstructions": ["RAIDER", "RAIDER", "Tank-MK2", "Tank-MK2"],
+		"incomeModifierPercentage": -5,
+		"minAttackFleetStrength": 450,
+		"homeFleet": ["GARGAN"],
+		"attackRadius": 500,
+		"rewards": [
+            {
+                "name": "CEPiratesLANDCleared",
+                "money": 500,
+                "rep": 8
+            }
+        ]
+	}
+]

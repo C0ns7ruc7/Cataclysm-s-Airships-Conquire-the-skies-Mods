@@ -21,8 +21,8 @@
         "fireHP": 175,
         "moveDelay": 800,
         "weight": 100,
-        "cost": 600,
-        "maintenanceCost": 300,
+        "cost": 1000,
+        "maintenanceCost": 500,
         "crew": 3,
         "recommendedCrew": 4,
         "upDoors": [2, 4, 8],
@@ -31,7 +31,7 @@
         "shotSpeed": 0.6,
         "jitterMerge": 0.3,
         "reload": 30000,
-        "ammoPerClip": 8,
+        "ammoPerClip": -1,
         "clip": 1,
         "inaccuracy": 0.000001,
         "blastDmg": 9999,
@@ -42,6 +42,7 @@
         "muzzleLength": 0,
         "muzzleFlash": false,
         "optimumRange": 9999,
+        "minXRange": 800,
         "fireSound": {
             "layers": [
                 {
@@ -67,7 +68,7 @@
             "barrelY": 0.5,
             "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.2 },
             "hitExplosionSize": 500,
-            "missExplosionSize": 333.33,
+            "missExplosionSize": 500,
             "exhaust": {
                 "type": "rocket_exhaust",
                 "p": 0.1,
