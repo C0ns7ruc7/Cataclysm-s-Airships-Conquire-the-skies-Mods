@@ -7,23 +7,23 @@
         "cost": 
 		{
             "base": 20,
-			"CHEAP_STONE": 20
+			"CHEAP_STONE": 10
 		},
 		"hp": 
 		{
             "base": 100,
-            "IMPROVED_STONE_WALLS": 100
+            "IMPROVED_STONE_WALLS": 200
         },
         "weight": {
             "base": 120
         },
         "blastDmgAbsorb": {
             "base": 1,
-			"IMPROVED_STONE_WALLS": 1
+	    "IMPROVED_STONE_WALLS": 2
         },
         "penDmgAbsorb": {
             "base": 1,
-			"IMPROVED_STONE_WALLS": 1
+	    "IMPROVED_STONE_WALLS": 2
         },
         "windowApp": {
             "src": "sprite-islands",
@@ -67,23 +67,23 @@
         "cost": 
 		{
             "base": 10,
-			"CHEAP_STONE": 10
+			"CHEAP_STONE": 5
 		},
 		"hp": 
 		{
             "base": 50,
-            "IMPROVED_STONE_WALLS": 50
+            "IMPROVED_STONE_WALLS": 100
         },
         "weight": {
             "base": 60
         },
         "blastDmgAbsorb": {
-            "base": 1,
-			"IMPROVED_STONE_WALLS": 1
+            "base": 0,
+	    "IMPROVED_STONE_WALLS": 1
         },
         "penDmgAbsorb": {
-            "base": 1,
-			"IMPROVED_STONE_WALLS": 1
+            "base": 0,
+	    "IMPROVED_STONE_WALLS": 1
         },
         "windowApp": {
             "src": "sprite-islands",
@@ -124,26 +124,27 @@
         "sort": 99,
         "placeSound": "place_stone",
         "placePitch": 5.0,
-        "cost": 
-		{
-            "base": 30,
-			"CHEAP_STONE": 30
-		},
-		"hp": 
-		{
-            "base": 100,
-            "IMPROVED_STONE_WALLS": 100
+        "cost":{
+		"base": 30,
+		"CHEAP_STONE": 15
+	},
+	"hp":{
+		"base": 100,
+		"IMPROVED_STONE_WALLS": 200
+        },
+        "lift": {
+            "base": 30
         },
         "weight": {
-            "base": -50
+            "base": -30
         },
         "blastDmgAbsorb": {
-            "base": 1,
-			"IMPROVED_STONE_WALLS": 1
+		"base": 1,
+		"IMPROVED_STONE_WALLS": 3
         },
         "penDmgAbsorb": {
-            "base": 1,
-			"IMPROVED_STONE_WALLS": 1
+		"base": 1,
+		"IMPROVED_STONE_WALLS": 3
         },
         "windowApp": {
             "src": "sprite-islands",
