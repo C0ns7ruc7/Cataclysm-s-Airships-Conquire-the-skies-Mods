@@ -1,0 +1,145 @@
+[
+    {
+        "name": "LARGE_PROPELLER",
+        "categories": ["PROPULSION"],
+        "availableFor": ["AIRSHIP"],
+        "w": 2,
+        "h": 3,
+        "appearance": {
+            "src": "spritesheet",
+            "interval": 90,
+            "frames": [
+                {
+                    "x": 42,
+                    "y": 13,
+                    "w": 2,
+                    "h": 3
+                },
+                {
+                    "x": 45,
+                    "y": 13,
+                    "w": 2,
+                    "h": 3
+                },
+                {
+                    "x": 48,
+                    "y": 13,
+                    "w": 2,
+                    "h": 3
+                },
+                {
+                    "x": 51,
+                    "y": 13,
+                    "w": 2,
+                    "h": 3
+                },
+                {
+                    "x": 54,
+                    "y": 13,
+                    "w": 2,
+                    "h": 3
+                },
+                {
+                    "x": 57,
+                    "y": 13,
+                    "w": 2,
+                    "h": 3
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": -2,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 42,
+                    "y": 11,
+                    "w": 2,
+                    "h": 2
+                }
+            },
+            {
+                "x": -1,
+                "y": -1,
+                "appearance": {
+                    "src": "spritesheet",
+                    "interval": 90,
+                    "frames": [
+                        {
+                            "x": 41,
+                            "y": 12,
+                            "w": 1,
+                            "h": 4
+                        },
+                        {
+                            "x": 44,
+                            "y": 12,
+                            "w": 1,
+                            "h": 4
+                        },
+                        {
+                            "x": 47,
+                            "y": 12,
+                            "w": 1,
+                            "h": 4
+                        },
+                        {
+                            "x": 50,
+                            "y": 12,
+                            "w": 1,
+                            "h": 4
+                        },
+                        {
+                            "x": 53,
+                            "y": 12,
+                            "w": 1,
+                            "h": 4
+                        },
+                        {
+                            "x": 56,
+                            "y": 12,
+                            "w": 1,
+                            "h": 4
+                        }
+                    ]
+                }
+            }
+        ],
+        "hp": 250,
+        "fireHP": 120,
+        "moveDelay": 800,
+        "weight": 160,
+        "cost": 130,
+        "propulsion": 0.27,
+        "coalReload": 18000,
+        "backOnly": true,
+        "topOnly": true,
+        "crew": 2,
+        "recommendedCrew": 3,
+        "recommendedGuards": 1,
+        "emitters": [
+            {
+                "x": 1.08,
+                "y": -1.9,
+                "type": "smoke",
+                "emitProbability": 0.003
+            },
+            {
+                "x": 0.69,
+                "y": 2.56,
+                "type": "ember",
+                "emitProbability": 0.004,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 60,
+                "x": 0.69,
+                "y": 2.56
+            }
+        ]
+    }
+]

@@ -1,0 +1,276 @@
+[
+    {
+        "name": "AIR",
+        "solid": false,
+        "opaque": false,
+        "removeCost": 0,
+        "damageMultiplier": 0,
+        "hp": 0,
+        "weight": 0
+    },
+    {
+        "name": "GRASS",
+        "removeCost": 3,
+        "damageMultiplier": 0.5,
+        "hp": 12,
+        "weight": 100,
+        "destroyParticle": "dust",
+        "appearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 0, "y": 17, "w": 1, "h": 2 },
+                { "x": 4, "y": 17, "w": 1, "h": 2 },
+                { "x": 8, "y": 17, "w": 1, "h": 2 },
+                { "x": 12, "y": 17, "w": 1, "h": 2 }
+            ]
+        },
+        "topSnowAppearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 22, "y": 19, "w": 1, "h": 2 },
+                { "x": 23, "y": 19, "w": 1, "h": 2 },
+                { "x": 24, "y": 19, "w": 1, "h": 2 },
+                { "x": 25, "y": 19, "w": 1, "h": 2 }
+            ]
+        }
+    },
+    {
+        "name": "SOIL",
+        "removeCost": 3,
+        "damageMultiplier": 0.5,
+        "hp": 11,
+        "weight": 100,
+        "destroyParticle": "dust",
+        "appearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 0, "y": 18 },
+                { "x": 4, "y": 18 },
+                { "x": 8, "y": 18 },
+                { "x": 12, "y": 18 }
+            ]
+        },
+        "topSnowAppearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 22, "y": 20 },
+                { "x": 23, "y": 20 },
+                { "x": 24, "y": 20 },
+                { "x": 25, "y": 20 }
+            ]
+        }
+    },
+    {
+        "name": "ROCK",
+        "removeCost": 15,
+        "damageMultiplier": 1,
+        "hp": 50,
+        "weight": 400,
+        "destroyParticle": "rock_bit",
+        "destroySound": "rock",
+        "numDestroySounds": 3,
+        "appearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 1, "y": 18 },
+                { "x": 5, "y": 18 },
+                { "x": 9, "y": 18 },
+                { "x": 13, "y": 18 }
+            ]
+        }
+    },
+    {
+        "name": "SUSPENDIUM_ORE",
+        "removeCost": 10,
+        "damageMultiplier": 0.7,
+        "hp": 40,
+        "weight": 300,
+        "liftGenerated": 1000,
+        "destroyParticle": "rock_bit",
+        "destroySound": "rock",
+        "numDestroySounds": 3,
+        "appearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 2, "y": 18 },
+                { "x": 6, "y": 18 },
+                { "x": 10, "y": 18 },
+                { "x": 14, "y": 18 }
+            ]
+        },
+        "particleEmitter": {
+            "type": "small_susp_chamber_spark",
+            "emitProbability": 0.0005
+        }
+    },
+    {
+        "name": "BEDROCK",
+        "removeCost": 0,
+        "damageMultiplier": 1.0,
+        "hp": 0,
+        "weight": 400,
+        "appearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 3, "y": 18 },
+                { "x": 7, "y": 18 },
+                { "x": 11, "y": 18 },
+                { "x": 15, "y": 18 }
+            ]
+        }
+    },
+    {
+        "name": "TRUNK",
+        "removeCost": 3,
+        "damageMultiplier": 0.3,
+        "hp": 2,
+        "weight": 100,
+        "destroyParticle": "splinter",
+        "destroySound": "trunkcrack",
+        "numDestroySounds": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 16, "y": 18 },
+                { "x": 17, "y": 18 },
+                { "x": 18, "y": 18 },
+                { "x": 19, "y": 18 }
+            ]
+        }
+    },
+    {
+        "name": "TRUNKBRANCH",
+        "removeCost": 3,
+        "damageMultiplier": 0.3,
+        "hp": 2,
+        "weight": 100,
+        "destroyParticle": "splinter",
+        "destroySound": "trunkcrack",
+        "numDestroySounds": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 16, "y": 19 },
+                { "x": 17, "y": 19 },
+                { "x": 18, "y": 19 },
+                { "x": 19, "y": 19 }
+            ]
+        },
+        "snowAppearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 33, "y": 20 },
+                { "x": 34, "y": 20 },
+                { "x": 35, "y": 20 },
+                { "x": 36, "y": 20 }
+            ]
+        }
+    },
+    {
+        "name": "BRANCH",
+        "opaque": false,
+        "removeCost": 3,
+        "damageMultiplier": 0.1,
+        "hp": 1,
+        "weight": 20,
+        "destroyParticle": "leaf",
+        "destroySound": "branchcrack",
+        "numDestroySounds": 3,
+        "appearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 20, "y": 18 },
+                { "x": 21, "y": 18 },
+                { "x": 22, "y": 18 },
+                { "x": 23, "y": 18 }
+            ]
+        },
+        "snowAppearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 26, "y": 19 },
+                { "x": 27, "y": 19 },
+                { "x": 28, "y": 19 },
+                { "x": 29, "y": 19 }
+            ]
+        }
+    },
+    {
+        "name": "LEAF",
+        "opaque": false,
+        "removeCost": 1,
+        "damageMultiplier": 0.001,
+        "hp": 1,
+        "weight": 5,
+        "destroyParticle": "leaf",
+        "destroySound": "leaves",
+        "numDestroySounds": 3,
+        "appearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 24, "y": 18 },
+                { "x": 25, "y": 18 },
+                { "x": 26, "y": 18 },
+                { "x": 27, "y": 18 }
+            ]
+        },
+        "snowAppearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 30, "y": 19 },
+                { "x": 31, "y": 19 },
+                { "x": 32, "y": 19 },
+                { "x": 33, "y": 19 }
+            ]
+        },
+        "particleEmitter": {
+            "type": "falling_leaf",
+            "emitProbability": 0.00005
+        },
+        "snowParticleEmitter": {
+            "type": "falling_snow",
+            "emitProbability": 0.00005
+        }
+    },
+    {
+        "name": "BUSH",
+        "opaque": false,
+        "removeCost": 3,
+        "damageMultiplier": 0.1,
+        "hp": 1,
+        "weight": 20,
+        "destroyParticle": "leaf",
+        "destroySound": "leaves",
+        "numDestroySounds": 3,
+        "appearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 28, "y": 18 },
+                { "x": 29, "y": 18 },
+                { "x": 30, "y": 18 },
+                { "x": 31, "y": 18 },
+                { "x": 32, "y": 18 }
+            ]
+        },
+        "snowAppearance": {
+            "src": "spritesheet",
+            "frames": [
+                { "x": 26, "y": 20 },
+                { "x": 27, "y": 20 },
+                { "x": 28, "y": 20 },
+                { "x": 29, "y": 20 },
+                { "x": 30, "y": 20 },
+                { "x": 31, "y": 20 },
+                { "x": 32, "y": 20 }
+            ]
+        },
+        "particleEmitter": {
+            "type": "falling_leaf",
+            "emitProbability": 0.00005
+        },
+        "snowParticleEmitter": {
+            "type": "falling_snow",
+            "emitProbability": 0.00005
+        }
+    }
+]

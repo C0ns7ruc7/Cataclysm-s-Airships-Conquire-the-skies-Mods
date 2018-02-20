@@ -1,0 +1,53 @@
+[
+    {
+        "name": "FLIPPED_CANNON",
+        "flippedFrom": "CANNON"
+    },
+    {
+        "name": "CANNON",
+        "categories": ["BASIC", "WEAPONS"],
+        "isWeapon": true,
+        "w": 2,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 22,
+            "y": 0,
+            "w": 2,
+            "h": 1
+        },
+        "hp": 100,
+        "fireHP": 60,
+        "moveDelay": 800,
+        "weight": 70,
+        "cost": 75,
+        "crew": 1,
+        "recommendedCrew": 2,
+        "recommendedGuards": 1,
+        "frontOnly": true,
+        "isGun": true,
+        "isCannon": true,
+        "reload": 3000,
+        "clip": 1,
+        "inaccuracy": 0.0026,
+        "blastDmg": 0,
+        "penDmg": 40,
+        "recoilForce": 1.2,
+        "fireArc": { "direction": "forwards", "degrees": 90 },
+        "muzzleCenterX": 1.19,
+        "muzzleCenterY": 0.55,
+        "muzzleLength": 1.15,
+        "optimumRange": 400,
+        "fireSound": "cannon",
+        "fireSoundCount": 6,
+        "explodeHP": 30,
+        "explodeDmg": 50,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 16, "y": 304, "w": 5, "h": 5 },
+            "barrel": { "src": "spritesheet", "x": 327, "y": 124, "w": 37, "h": 11 },
+            "barrelX": 1,
+            "barrelY": 4,
+            "recoil": 6
+        }
+    }
+]

@@ -1,0 +1,174 @@
+[
+    {
+        "name": "starling",
+        "maxSpeed": 300,
+        "behavior": "boid",
+        "spawner": "flock",
+        "flockMin": 20,
+        "flockMax": 30,
+        "flockDist": 150,
+        "left": {
+            "src": "spritesheet",
+            "interval": 180,
+            "frames": [
+                { "x": 9, "y": 20 },
+                { "x": 10, "y": 20 },
+                { "x": 11, "y": 20 },
+                { "x": 9, "y": 20 }
+            ]
+        },
+        "right": {
+            "src": "spritesheet",
+            "interval": 180,
+            "frames": [
+                { "x": 9, "y": 20 },
+                { "x": 10, "y": 20 },
+                { "x": 11, "y": 20 },
+                { "x": 9, "y": 20 }
+            ]
+        },
+        "down": {
+            "src": "spritesheet",
+            "x": 12,
+            "y": 20
+        }
+    },
+    {
+        "name": "crow",
+        "maxSpeed": 200,
+        "behavior": "boid",
+        "spawner": "flock",
+        "flockMin": 5,
+        "flockMax": 12,
+        "flockDist": 150,
+        "left": {
+            "src": "spritesheet",
+            "interval": 230,
+            "frames": [
+                { "x": 13, "y": 20 },
+                { "x": 14, "y": 20 },
+                { "x": 15, "y": 20 },
+                { "x": 14, "y": 20 }
+            ]
+        },
+        "right": {
+            "src": "spritesheet",
+            "interval": 230,
+            "frames": [
+                { "x": 13, "y": 21 },
+                { "x": 14, "y": 21 },
+                { "x": 15, "y": 21 },
+                { "x": 14, "y": 21 }
+            ]
+        },
+        "down": {
+            "src": "spritesheet",
+            "x": 12,
+            "y": 21
+        }
+    },
+    {
+        "name": "goose",
+        "maxSpeed": 80,
+        "behavior": "flyAcross",
+        "spawner": "v",
+        "vMinY": -200,
+        "vMaxY": -800,
+        "vXSpawn": 1000,
+        "left": {
+            "src": "spritesheet",
+            "interval": 500,
+            "frames": [
+                { "x": 20, "y": 20 },
+                { "x": 21, "y": 20 },
+                { "x": 20, "y": 21 },
+                { "x": 21, "y": 20 }
+            ]
+        },
+        "right": {
+            "src": "spritesheet",
+            "interval": 500,
+            "frames": [
+                { "x": 20, "y": 20 },
+                { "x": 21, "y": 20 },
+                { "x": 20, "y": 21 },
+                { "x": 21, "y": 20 }
+            ]
+        },
+        "down": {
+            "src": "spritesheet",
+            "x": 20,
+            "y": 20
+        }
+    },
+    {
+        "name": "gull",
+        "maxSpeed": 200,
+        "behavior": "circle",
+        "circleW": 300,
+        "circleH": 15,
+        "circlePeriod": 2100,
+        "upDownH": 50,
+        "upDownPeriod": 1700,
+        "spawner": "flock",
+        "flockMin": 3,
+        "flockMax": 8,
+        "flockDist": 300,
+        "flockTargetH": 300,
+        "left": {
+            "src": "spritesheet",
+            "interval": 260,
+            "frames": [
+                { "x": 17, "y": 20 },
+                { "x": 18, "y": 20 },
+                { "x": 19, "y": 20 },
+                { "x": 18, "y": 20 }
+            ]
+        },
+        "right": {
+            "src": "spritesheet",
+            "interval": 260,
+            "frames": [
+                { "x": 17, "y": 21 },
+                { "x": 18, "y": 21 },
+                { "x": 19, "y": 21 },
+                { "x": 18, "y": 21 }
+            ]
+        },
+        "down": {
+            "src": "spritesheet",
+            "x": 16,
+            "y": 21
+        }
+    },
+    {
+        "name": "eagle",
+        "maxSpeed": 3,
+        "behavior": "circle",
+        "circleW": 100,
+        "circleH": 10,
+        "circlePeriod": 5100,
+        "upDownH": 200,
+        "upDownPeriod": 62300,
+        "spawner": "flock",
+        "flockMin": 1,
+        "flockMax": 1,
+        "flockDist": 50,
+        "flockTargetH": 200,
+        "left": {
+            "src": "spritesheet",
+            "x": 21,
+            "y": 21
+        },
+        "right": {
+            "src": "spritesheet",
+            "x": 21,
+            "y": 21
+        },
+        "down": {
+            "src": "spritesheet",
+            "x": 21,
+            "y": 21
+        }
+    }
+]

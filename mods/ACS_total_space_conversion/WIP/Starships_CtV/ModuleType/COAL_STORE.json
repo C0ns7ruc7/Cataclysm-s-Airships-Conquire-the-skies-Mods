@@ -1,0 +1,41 @@
+[
+    {
+        "name": "COAL_STORE",
+        "categories": ["BASIC", "RESOURCES"],
+        "w": 3,
+        "h": 2,
+        "appearance": {
+            "src": "scv_spritesheet",
+            "x": 0,
+            "y": 1,
+            "w": 3,
+            "h": 2
+        },
+        "hp": 240,
+        "fireHP": 450,
+        "moveDelay": 600,
+        "weight": 80,
+        "cost": 30,
+        "coal": 32,
+        "optionalCrew": 3,
+        "upDoors": [ 2 ],
+        "leftDoors": [ 0, 1 ],
+        "rightDoors": [ 0, 1 ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 },
+            { "x": 2, "y": 1 }
+        ],
+        "lights": [
+            {
+                "r": 0, "g": 180, "b": 0,
+                "radius": 30,
+                "x": 0.75,
+                "y": 0.9375
+            }
+        ]
+    }
+]

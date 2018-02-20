@@ -1,0 +1,60 @@
+[
+    {
+        "name": "FLIPPED_GRENADES",
+        "flippedFrom": "GRENADES"
+    },
+    {
+        "name": "GRENADES",
+        "categories": ["BASIC", "WEAPONS"],
+        "isWeapon": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 24,
+            "y": 0
+        },
+        "hp": 32,
+        "fireHP": 32,
+        "moveDelay": 800,
+        "weight": 12,
+        "cost": 5,
+        "crew": 1,
+        "recommendedCrew": 2,
+        "windows": [
+            { "x": 0, "y": 0 }
+        ],
+        "frontOnly": true,
+        "isExplosive": true,
+        "maxXRange": 150,
+        "maxUpRange": 30,
+        "shotSpeed": 0.2,
+        "reload": 5000,
+        "clip": 3,
+        "inaccuracy": 0.0083,
+        "blastDmg": 30,
+        "penDmg": 0,
+        "fireArc": { "direction": "forwards", "degrees": 240 },
+        "muzzleCenterX": 0.8,
+        "muzzleCenterY": 0.4,
+        "muzzleLength": 0,
+        "muzzleFlash": false,
+        "optimumRange": 80,
+        "hitSound": "smexplosion",
+        "explodeHP": 15,
+        "explodeDmg": 15,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 64, "y": 304, "w": 2, "h": 2 },
+            "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.004 },
+            "exhaust": {
+                "type": "grenade_spark",
+                "p": 0.01,
+                "backOffset": 1,
+                "angleRange": 3,
+                "randomOffset": 1,
+                "speedMin": 0.5,
+                "speedMax": 1
+            }
+        }
+    }
+]

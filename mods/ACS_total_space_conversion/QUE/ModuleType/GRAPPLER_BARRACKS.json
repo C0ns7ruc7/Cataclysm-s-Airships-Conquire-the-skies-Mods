@@ -1,0 +1,39 @@
+[
+    {
+        "name": "GRAPPLER_BARRACKS",
+        "categories": ["TROOPS"],
+        "availableFor": [ "AIRSHIP", "LANDSHIP" ],
+        "required": "GRAPPLING_HOOKS",
+        "w": 3,
+        "h": 2,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 17,
+            "y": 7,
+            "w": 3,
+            "h": 2
+        },
+        "hp": 200,
+        "fireHP": 140,
+        "moveDelay": 600,
+        "weight": 45,
+        "cost": 150,
+        "maintenanceCost": 4,
+        "quarters": 4,
+        "quartersType": "grenadier",
+        "windows": [
+            { "x": 0, "y": 1 }
+        ],
+        "upDoors": [ 2 ],
+        "leftDoors": [ 0, 1 ],
+        "rightDoors": [ 0, 1 ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 },
+            { "x": 2, "y": 1 }
+        ]
+    }
+]

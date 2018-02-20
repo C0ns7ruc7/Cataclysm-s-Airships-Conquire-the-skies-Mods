@@ -1,0 +1,188 @@
+[
+    {
+        "name": "LARGE_LEGS",
+        "categories": ["PROPULSION"],
+        "availableFor": ["LANDSHIP"],
+        "w": 14,
+        "h": 2,
+        "appearance": {
+            "src": "spritesheet",
+            "interval": 100,
+            "frames": [
+                { "x": 25, "y": 14, "w": 14, "h": 2 },
+                { "x": 25, "y": 16, "w": 14, "h": 2 },
+                { "x": 39, "y": 16, "w": 14, "h": 2 },
+                { "x": 43, "y": 0, "w": 14, "h": 2 }
+            ]
+        },
+        "hp": 1200,
+        "fireHP": 400,
+        "moveDelay": 800,
+        "weight": 1000,
+        "cost": 140,
+        "propulsion": 1.5,
+        "coalReload": 6000,
+        "crew": 2,
+        "recommendedCrew": 3,
+        "bottomOnly": true,
+        "upDoors": [ 4, 9 ],
+        "canOccupy": [
+            { "x": 4, "y": 0 },
+            { "x": 9, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 },
+            { "x": 2, "y": 1 },
+            { "x": 3, "y": 1 },
+            { "x": 4, "y": 1 },
+            { "x": 5, "y": 1 },
+            { "x": 6, "y": 1 },
+            { "x": 7, "y": 1 },
+            { "x": 8, "y": 1 },
+            { "x": 9, "y": 1 },
+            { "x": 10, "y": 1 },
+            { "x": 11, "y": 1 },
+            { "x": 12, "y": 1 },
+            { "x": 13, "y": 1 }
+        ],
+        "externalAppearances": [
+            {
+                "x": 5,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 31,
+                    "y": 11
+                }
+            },
+            {
+                "x": 8,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 31,
+                    "y": 11
+                }
+            }
+        ],
+        "emitters": [
+            {
+                "x": 5.22,
+                "y": 0,
+                "type": "smoke",
+                "emitProbability": 0.0015
+            },
+            {
+                "x": 8.22,
+                "y": 0,
+                "type": "smoke",
+                "emitProbability": 0.0015
+            },
+            {
+                "x": 5.8,
+                "y": 1.25,
+                "type": "ember",
+                "emitProbability": 0.004,
+                "inside": true
+            },
+            {
+                "x": 8.3,
+                "y": 1.25,
+                "type": "ember",
+                "emitProbability": 0.004,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 30,
+                "x": 5.8,
+                "y": 1.25
+            },
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 30,
+                "x": 8.3,
+                "y": 1.25
+            }
+        ],
+        "legs": [
+            {
+                "xOffset": 0.5,
+                "yOffset": -0.5,
+                "limbLength": 150,
+                "footWidth": 30,
+                "footHeight": 8,
+                "stepLength": 48,
+                "maxStepTime": 500,
+                "bendForwards": false,
+                "spring": {
+                    "xOffset": 0,
+                    "length": 200,
+                    "minCompressedLength": 165,
+                    "k": 0.07
+                },
+                "upperLeg": { "src": "wheels_and_legs", "x": 142, "y": 1, "w": 300, "h": 40 },
+                "lowerLeg": { "src": "wheels_and_legs", "x": 142, "y": 42, "w": 300, "h": 30 },
+                "foot": { "src": "wheels_and_legs", "x": 142, "y": 73, "w": 40, "h": 30 }
+            },
+            {
+                "xOffset": 13.5,
+                "yOffset": -0.5,
+                "limbLength": 150,
+                "footWidth": 30,
+                "footHeight": 8,
+                "stepLength": 48,
+                "maxStepTime": 500,
+                "bendForwards": true,
+                "spring": {
+                    "xOffset": 0,
+                    "length": 200,
+                    "minCompressedLength": 165,
+                    "k": 0.07
+                },
+                "upperLeg": { "src": "wheels_and_legs", "x": 142, "y": 1, "w": 300, "h": 40 },
+                "lowerLeg": { "src": "wheels_and_legs", "x": 142, "y": 42, "w": 300, "h": 30 },
+                "foot": { "src": "wheels_and_legs", "x": 142, "y": 73, "w": 40, "h": 30 }
+            },
+            {
+                "xOffset": 0.5,
+                "yOffset": -0.5,
+                "limbLength": 150,
+                "footWidth": 30,
+                "footHeight": 8,
+                "stepLength": 48,
+                "maxStepTime": 500,
+                "bendForwards": false,
+                "spring": {
+                    "xOffset": 0,
+                    "length": 200,
+                    "minCompressedLength": 165,
+                    "k": 0.07
+                },
+                "upperLeg": { "src": "wheels_and_legs", "x": 142, "y": 1, "w": 300, "h": 40 },
+                "lowerLeg": { "src": "wheels_and_legs", "x": 142, "y": 42, "w": 300, "h": 30 },
+                "foot": { "src": "wheels_and_legs", "x": 142, "y": 73, "w": 40, "h": 30 }
+            },
+            {
+                "xOffset": 13.5,
+                "yOffset": -0.5,
+                "limbLength": 150,
+                "footWidth": 30,
+                "footHeight": 8,
+                "stepLength": 48,
+                "maxStepTime": 500,
+                "bendForwards": true,
+                "spring": {
+                    "xOffset": 0,
+                    "length": 200,
+                    "minCompressedLength": 165,
+                    "k": 0.07
+                },
+                "upperLeg": { "src": "wheels_and_legs", "x": 142, "y": 1, "w": 300, "h": 40 },
+                "lowerLeg": { "src": "wheels_and_legs", "x": 142, "y": 42, "w": 300, "h": 30 },
+                "foot": { "src": "wheels_and_legs", "x": 142, "y": 73, "w": 40, "h": 30 }
+            }
+        ]
+    }
+]

@@ -451,28 +451,19 @@
 		},
 	"hp": 
 		{
-            	"base": 35,
-            	"IMPROVED_WOOD_CONSTRUCTION": 60,
-		"IMPROVED_STONE_WALLS": 80,
-	        "IMPROVED_STEEL_ARMOUR": 90
+            	"base": 40
         },
         "weight": {
             	"base": 10,
-            	"IMPROVED_WOOD_CONSTRUCTION": 12,
-		"IMPROVED_STONE_WALLS": 17,
-	        "IMPROVED_STEEL_ARMOUR": 25
+		"IMPROVED_STONE_WALLS": 25
         },
         "blastDmgAbsorb": {
             	"base": 3,
-		"IMPROVED_WOOD_CONSTRUCTION": 4,
-		"IMPROVED_STONE_WALLS": 5,
 	        "IMPROVED_STEEL_ARMOUR": 6
         },
         "penDmgAbsorb": {
             	"base": 3,
-		"IMPROVED_WOOD_CONSTRUCTION": 4,
-		"IMPROVED_STONE_WALLS": 5,
-	        "IMPROVED_STEEL_ARMOUR": 6
+		"IMPROVED_WOOD_CONSTRUCTION": 6
         },
         "windowApp": {
             "src": "sprite-vabese",
@@ -732,6 +723,104 @@
                 "y": 24
             }
         ]
+    },
+    {
+        "name": "ROCKET",
+        "hidden": true,
+        "sort": 0,
+	"required": "POWERFUL_EXPLOSIVES",
+        "cost": {
+            "base": 0
+        },
+        "hp": {
+            "base": 100
+        },
+        "weight": {
+            "base": 0
+        },
+        "blastDmgAbsorb": {
+            "base": 9
+        },
+        "penDmgAbsorb": {
+            "base": 5
+        },
+                "windowApp": {
+            "src": "spritesheet",
+            "x": 5,
+            "y": 13
+        },
+        "damagedApps": [
+            {
+                "src": "spritesheet",
+                "x": 5,
+                "y": 0
+            },
+            {
+                "src": "spritesheet",
+                "x": 5,
+                "y": 20
+            },
+            {
+                "src": "spritesheet",
+                "x": 5,
+                "y": 21
+            },
+            {
+                "src": "spritesheet",
+                "x": 5,
+                "y": 22
+            },
+            {
+                "src": "spritesheet",
+                "x": 5,
+                "y": 23
+            }
+        ],
+        "smallHitSound": {
+            "layers": [
+                {
+                    "variations": [ "hit0", "hit1", "hit2", "hit3" ],
+                    "volume": {
+                        "min": 0.3,
+                        "max": 0.5
+                    },
+                    "pitch": {
+                        "min": 1.05,
+                        "max": 1.15
+                    }
+                }
+            ]
+        },
+        "largeHitSound": {
+            "layers": [
+                {
+                    "variations": [ "hit0", "hit1", "hit2", "hit3" ],
+                    "volume": {
+                        "min": 0.8,
+                        "max": 1.3
+                    },
+                    "pitch": {
+                        "min": 0.95,
+                        "max": 1.05
+                    }
+                }
+            ]
+        },
+        "brokenSound": {
+            "layers": [
+                {
+                    "variations": [ "hit0", "hit1", "hit2", "hit3" ],
+                    "volume": {
+                        "min": 2.0,
+                        "max": 3.0
+                    },
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 0.95
+                    }
+                }
+            ]
+        }
     }
 ]
 

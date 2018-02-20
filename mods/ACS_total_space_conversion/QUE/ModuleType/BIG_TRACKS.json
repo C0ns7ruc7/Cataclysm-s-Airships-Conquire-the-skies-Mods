@@ -1,0 +1,163 @@
+[
+    {
+        "name": "BIG_TRACKS",
+        "categories": ["PROPULSION"],
+        "availableFor": ["LANDSHIP"],
+        "w": 14,
+        "h": 2,
+        "appearance": {
+            "src": "spritesheet",
+            "interval": 220,
+            "frames": [
+                { "x": 37, "y": 19, "w": 14, "h": 2 },
+                { "x": 22, "y": 21, "w": 14, "h": 2 }
+            ]
+        },
+        "hp": 1200,
+        "fireHP": 400,
+        "moveDelay": 800,
+        "weight": 1000,
+        "cost": 200,
+        "propulsion": 1.4,
+        "coalReload": 8000,
+        "crew": 3,
+        "recommendedCrew": 4,
+        "bottomOnly": true,
+        "upDoors": [ 4, 9 ],
+        "canOccupy": [
+            { "x": 4, "y": 0 },
+            { "x": 9, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 },
+            { "x": 2, "y": 1 },
+            { "x": 3, "y": 1 },
+            { "x": 4, "y": 1 },
+            { "x": 5, "y": 1 },
+            { "x": 6, "y": 1 },
+            { "x": 7, "y": 1 },
+            { "x": 8, "y": 1 },
+            { "x": 9, "y": 1 },
+            { "x": 10, "y": 1 },
+            { "x": 11, "y": 1 },
+            { "x": 12, "y": 1 },
+            { "x": 13, "y": 1 }
+        ],
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 2,
+                "appearance": {
+                    "src": "spritesheet",
+                    "interval": 150,
+                    "frames": [
+                        { "x": 37, "y": 21, "w": 14, "h": 1 },
+                        { "x": 22, "y": 23, "w": 14, "h": 1 }
+                    ]
+                }
+            }
+        ],
+        "springs": [
+            {
+                "xOffset": 0.5,
+                "length": 60,
+                "minCompressedLength": 30,
+                "k": 0.18
+            },
+            {
+                "xOffset": 7,
+                "length": 60,
+                "minCompressedLength": 30,
+                "k": 0.18
+            },
+            {
+                "xOffset": 13.5,
+                "length": 60,
+                "minCompressedLength": 30,
+                "k": 0.18
+            }
+        ],
+        "wheels": [
+            {
+                "xOffset": 1,
+                "maxYOffset": 30,
+                "radius": 30,
+                "wheel": {
+                    "src": "wheels_and_legs",
+                    "x": 32,
+                    "y": 64,
+                    "w": 58,
+                    "h": 58
+                },
+                "lowerLink": {
+                    "src": "wheels_and_legs",
+                    "x": 71,
+                    "y": 43,
+                    "w": 21,
+                    "h": 17
+                },
+                "upperLink": {
+                    "src": "wheels_and_legs",
+                    "x": 45,
+                    "y": 43,
+                    "w": 21,
+                    "h": 17
+                },
+                "segmentStride": 11
+            },
+            {
+                "xOffset": 7,
+                "maxYOffset": 30,
+                "radius": 30,
+                "wheel": {
+                    "src": "wheels_and_legs",
+                    "x": 32,
+                    "y": 64,
+                    "w": 58,
+                    "h": 58
+                },
+                "lowerLink": {
+                    "src": "wheels_and_legs",
+                    "x": 71,
+                    "y": 43,
+                    "w": 21,
+                    "h": 17
+                },
+                "upperLink": {
+                    "src": "wheels_and_legs",
+                    "x": 45,
+                    "y": 43,
+                    "w": 21,
+                    "h": 17
+                },
+                "segmentStride": 11
+            },
+            {
+                "xOffset": 13,
+                "maxYOffset": 30,
+                "radius": 30,
+                "wheel": {
+                    "src": "wheels_and_legs",
+                    "x": 32,
+                    "y": 64,
+                    "w": 58,
+                    "h": 58
+                },
+                "lowerLink": {
+                    "src": "wheels_and_legs",
+                    "x": 71,
+                    "y": 43,
+                    "w": 21,
+                    "h": 17
+                },
+                "upperLink": {
+                    "src": "wheels_and_legs",
+                    "x": 45,
+                    "y": 43,
+                    "w": 21,
+                    "h": 17
+                },
+                "segmentStride": 11
+            }
+        ]
+    }
+]

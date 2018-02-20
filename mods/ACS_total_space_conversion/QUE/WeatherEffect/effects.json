@@ -1,0 +1,69 @@
+[
+    {
+        "name": "none",
+        "groundImpactParticle": "ground_soil",
+        "numGroundImpactParticles": 3
+    },
+    {
+        "name": "dawn",
+        "shootToRightJitterMult": 2,
+        "wind": -0.003,
+        "groundImpactParticle": "ground_soil",
+        "numGroundImpactParticles": 3,
+        "icon": { "src": "ui", "x": 16, "y": 26, "flipped": true }
+    },
+    {
+        "name": "dusk",
+        "shootToLeftJitterMult": 2,
+        "wind": 0.003,
+        "groundImpactParticle": "ground_soil",
+        "numGroundImpactParticles": 3,
+        "icon": { "src": "ui", "x": 16, "y": 26 }
+    },
+    {
+        "name": "night",
+        "shootJitterMult": 2,
+        "wind": -0.005,
+        "groundImpactParticle": "ground_soil",
+        "numGroundImpactParticles": 3,
+        "icon": { "src": "ui", "x": 20, "y": 26 }
+    },
+    {
+        "name": "rain",
+        "wind": -0.002,
+        "rain": true,
+        "fireExtinguishChance": 0.002,
+        "groundImpactParticle": "ground_mud",
+        "numGroundImpactParticles": 6,
+        "icon": { "src": "ui", "x": 18, "y": 26 }
+    },
+    {
+        "name": "snow",
+        "wind": 0,
+        "snow": true,
+        "fireExtinguishChance": 0.0004,
+        "groundImpactParticle": "ground_snow",
+        "numGroundImpactParticles": 4,
+        "icon": { "src": "ui", "x": 19, "y": 26 }
+    },
+    {
+        "name": "fog",
+        "wind": 0,
+        "fog": true,
+        "groundImpactParticle": "ground_mud",
+        "numGroundImpactParticles": 3,
+        "icon": { "src": "ui", "x": 21, "y": 26 }
+    },
+    {
+        "name": "storm",
+        "shootJitterMult": 1.5,
+        "wind": 0.01,
+        "lightning": true,
+        "rain": true,
+        "fireExtinguishChance": 0.03,
+        "groundImpactParticle": "ground_mud",
+        "numGroundImpactParticles": 6,
+        "icon": { "src": "ui", "x": 22, "y": 26 },
+        "icon2": { "src": "ui", "x": 18, "y": 26 }
+    }
+]

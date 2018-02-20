@@ -1,0 +1,527 @@
+[
+    {
+        "name": "mech_spider",
+        "bundle": "spider",
+        "spritesheet": "spritesheet",
+        "images": [
+            {
+                "part": "head",
+                "side": "FRONT",
+                "x": 849,
+                "y": 326,
+                "w": 4,
+                "h": 3
+            },
+            {
+                "part": "thorax",
+                "side": "FRONT",
+                "x": 855,
+                "y": 331,
+                "w": 5,
+                "h": 3
+            },
+            {
+                "part": "eyes",
+                "side": "FRONT",
+                "x": 854,
+                "y": 325,
+                "w": 5,
+                "h": 4
+            },
+            {
+                "part": "abdomen",
+                "side": "FRONT",
+                "x": 862,
+                "y": 323,
+                "w": 10,
+                "h": 7,
+                "emitters": [
+                    {
+                        "type": "smoke",
+                        "freq": 0.0003,
+                        "x": 5,
+                        "y": -3,
+                        "scale": 0.6
+                    }
+                ]
+            },
+            {
+                "part": "left_palp",
+                "side": "FRONT",
+                "x": 849,
+                "y": 330,
+                "w": 2,
+                "h": 3
+            },
+            {
+                "part": "right_palp",
+                "side": "FRONT",
+                "x": 849,
+                "y": 330,
+                "w": 2,
+                "h": 3,
+                "flipped": true
+            },
+            {
+                "part": "left_leg_1",
+                "side": "FRONT",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15
+            },
+            {
+                "part": "left_leg_2",
+                "side": "FRONT",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22
+            },
+            {
+                "part": "left_leg_3",
+                "side": "FRONT",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22
+            },
+            {
+                "part": "left_leg_4",
+                "side": "FRONT",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15
+            },
+            {
+                "part": "right_leg_1",
+                "side": "FRONT",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15,
+                "flipped": true
+            },
+            {
+                "part": "right_leg_2",
+                "side": "FRONT",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22,
+                "flipped": true
+            },
+            {
+                "part": "right_leg_3",
+                "side": "FRONT",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22,
+                "flipped": true
+            },
+            {
+                "part": "right_leg_4",
+                "side": "FRONT",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15,
+                "flipped": true
+            },
+            
+            {
+                "part": "head",
+                "side": "BACK",
+                "x": 912,
+                "y": 338,
+                "w": 6,
+                "h": 4
+            },
+            {
+                "part": "thorax",
+                "side": "BACK",
+                "x": 904,
+                "y": 342,
+                "w": 7,
+                "h": 7
+            },
+            {
+                "part": "eyes",
+                "side": "BACK",
+                "x": 920,
+                "y": 338,
+                "w": 7,
+                "h": 5
+            },
+            {
+                "part": "abdomen",
+                "side": "BACK",
+                "x": 892,
+                "y": 343,
+                "w": 10,
+                "h": 9,
+                "emitters": [
+                    {
+                        "type": "smoke",
+                        "freq": 0.0003,
+                        "x": 5,
+                        "y": 5,
+                        "scale": 0.6
+                    }
+                ]
+            },
+            {
+                "part": "left_palp",
+                "side": "BACK",
+                "x": 913,
+                "y": 345,
+                "w": 2,
+                "h": 2
+            },
+            {
+                "part": "right_palp",
+                "side": "BACK",
+                "x": 913,
+                "y": 345,
+                "w": 2,
+                "h": 2
+            },
+            {
+                "part": "left_leg_1",
+                "side": "BACK",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15,
+                "flipped": true
+            },
+            {
+                "part": "left_leg_2",
+                "side": "BACK",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22,
+                "flipped": true
+            },
+            {
+                "part": "left_leg_3",
+                "side": "BACK",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22,
+                "flipped": false
+            },
+            {
+                "part": "left_leg_4",
+                "side": "BACK",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15,
+                "flipped": false
+            },
+            {
+                "part": "right_leg_1",
+                "side": "BACK",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15,
+                "flipped": false
+            },
+            {
+                "part": "right_leg_2",
+                "side": "BACK",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22,
+                "flipped": false
+            },
+            {
+                "part": "right_leg_3",
+                "side": "BACK",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22,
+                "flipped": true
+            },
+            {
+                "part": "right_leg_4",
+                "side": "BACK",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15,
+                "flipped": true
+            },
+            
+            {
+                "part": "head",
+                "side": "RIGHT",
+                "x": 881,
+                "y": 337,
+                "w": 4,
+                "h": 5
+            },
+            {
+                "part": "thorax",
+                "side": "RIGHT",
+                "x": 786,
+                "y": 336,
+                "w": 7,
+                "h": 6
+            },
+            {
+                "part": "eyes",
+                "side": "RIGHT",
+                "x": 894,
+                "y": 337,
+                "w": 8,
+                "h": 4
+            },
+            {
+                "part": "abdomen",
+                "side": "RIGHT",
+                "x": 880,
+                "y": 341,
+                "w": 9,
+                "h": 8,
+                "emitters": [
+                    {
+                        "type": "smoke",
+                        "freq": 0.0003,
+                        "x": 3,
+                        "y": -1,
+                        "scale": 0.6
+                    }
+                ]
+            },
+            {
+                "part": "left_palp",
+                "side": "RIGHT",
+                "x": 849,
+                "y": 330,
+                "w": 2,
+                "h": 3
+            },
+            {
+                "part": "right_palp",
+                "side": "RIGHT",
+                "x": 849,
+                "y": 330,
+                "w": 2,
+                "h": 3
+            },
+            {
+                "part": "left_leg_1",
+                "side": "RIGHT",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15,
+                "flipped": true
+            },
+            {
+                "part": "left_leg_2",
+                "side": "RIGHT",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22,
+                "flipped": true
+            },
+            {
+                "part": "left_leg_3",
+                "side": "RIGHT",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22
+            },
+            {
+                "part": "left_leg_4",
+                "side": "RIGHT",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15
+            },
+            {
+                "part": "right_leg_1",
+                "side": "RIGHT",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15,
+                "flipped": true
+            },
+            {
+                "part": "right_leg_2",
+                "side": "RIGHT",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22,
+                "flipped": true
+            },
+            {
+                "part": "right_leg_3",
+                "side": "RIGHT",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22
+            },
+            {
+                "part": "right_leg_4",
+                "side": "RIGHT",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15
+            },
+            
+            {
+                "part": "head",
+                "side": "LEFT",
+                "x": 881,
+                "y": 337,
+                "w": 4,
+                "h": 5,
+                "flipped": true
+            },
+            {
+                "part": "thorax",
+                "side": "LEFT",
+                "x": 886,
+                "y": 336,
+                "w": 7,
+                "h": 6,
+                "flipped": true
+            },
+            {
+                "part": "eyes",
+                "side": "LEFT",
+                "x": 894,
+                "y": 337,
+                "w": 8,
+                "h": 4,
+                "flipped": true
+            },
+            {
+                "part": "abdomen",
+                "side": "LEFT",
+                "x": 880,
+                "y": 341,
+                "w": 9,
+                "h": 8,
+                "flipped": true,
+                "emitters": [
+                    {
+                        "type": "smoke",
+                        "freq": 0.0003,
+                        "x": 6,
+                        "y": -1,
+                        "scale": 0.6
+                    }
+                ]
+            },
+            {
+                "part": "left_palp",
+                "side": "LEFT",
+                "x": 849,
+                "y": 330,
+                "w": 2,
+                "h": 3,
+                "flipped": true
+            },
+            {
+                "part": "right_palp",
+                "side": "LEFT",
+                "x": 849,
+                "y": 330,
+                "w": 2,
+                "h": 3,
+                "flipped": true
+            },
+            {
+                "part": "left_leg_1",
+                "side": "LEFT",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15,
+                "flipped": false
+            },
+            {
+                "part": "left_leg_2",
+                "side": "LEFT",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22,
+                "flipped": false
+            },
+            {
+                "part": "left_leg_3",
+                "side": "LEFT",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22,
+                "flipped": true
+            },
+            {
+                "part": "left_leg_4",
+                "side": "LEFT",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15,
+                "flipped": true
+            },
+            {
+                "part": "right_leg_1",
+                "side": "LEFT",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15,
+                "flipped": false
+            },
+            {
+                "part": "right_leg_2",
+                "side": "LEFT",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22,
+                "flipped": false
+            },
+            {
+                "part": "right_leg_3",
+                "side": "LEFT",
+                "x": 876,
+                "y": 316,
+                "w": 4,
+                "h": 22,
+                "flipped": true
+            },
+            {
+                "part": "right_leg_4",
+                "side": "LEFT",
+                "x": 872,
+                "y": 319,
+                "w": 2,
+                "h": 15,
+                "flipped": true
+            }
+        ]
+    }
+]

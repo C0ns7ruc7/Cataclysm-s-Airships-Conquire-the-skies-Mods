@@ -1,0 +1,65 @@
+[
+    {
+        "name": "FLIPPED_SUSPENDIUM_CANNON",
+        "flippedFrom": "SUSPENDIUM_CANNON"
+    },
+    {
+        "name": "SUSPENDIUM_CANNON",
+        "categories": ["WEAPONS"],
+        "required": "SUSPENDIUM_CANNON",
+        "isWeapon": true,
+        "w": 5,
+        "h": 2,
+        "appearance": {
+            "src": "spritesheet",
+            "interval": 90,
+            "frames": [
+                { "x": 20, "y": 2, "w": 5, "h": 2 },
+                { "x": 33, "y": 2, "w": 5, "h": 2 },
+                { "x": 38, "y": 2, "w": 5, "h": 2 }
+            ]
+        },
+        "hp": 280,
+        "fireHP": 100,
+        "moveDelay": 800,
+        "weight": 200,
+        "cost": 300,
+        "crew": 3,
+        "recommendedCrew": 4,
+        "recommendedGuards": 1,
+        "frontOnly": true,
+        "isCannon": true,
+        "reload": 3500,
+        "coalReload": 10000,
+        "clip": 1,
+        "inaccuracy": 0.0006,
+        "blastDmg": 0,
+        "penDmg": 55,
+        "recoilForce": 1.0,
+        "fireArc": { "direction": "forwards", "degrees": 20 },
+        "muzzleCenterX": 3.0,
+        "muzzleCenterY": 1.5,
+        "muzzleLength": 2.5,
+        "optimumRange": 1300,
+        "fireSound": "suspendium_cannon",
+        "fireSoundCount": 1,
+        "weaponAppearance": {
+            "back": { "src": "spritesheet", "x": 33, "y": 0, "w": 5, "h": 2 },
+            "shot": { "src": "spritesheet", "x": 176, "y": 304, "w": 11, "h": 7 },
+            "barrelAnimation": {
+                "interval": 150,
+                "loopConstantly": true,
+                "frames": [
+                    { "src": "spritesheet", "x": 429, "y": 49, "w": 80, "h": 13 },
+                    { "src": "spritesheet", "x": 429, "y": 33, "w": 80, "h": 13 },
+                    { "src": "spritesheet", "x": 221, "y": 433, "w": 80, "h": 13 },
+                    { "src": "spritesheet", "x": 221, "y": 417, "w": 80, "h": 13 },
+                ]
+            },
+            "barrelX": 8,
+            "barrelY": 17,
+            "recoil": 1,
+            "shotEmitter": { "type": "susp_spark", "emitProbability": 0.1 }
+        }
+    }
+]

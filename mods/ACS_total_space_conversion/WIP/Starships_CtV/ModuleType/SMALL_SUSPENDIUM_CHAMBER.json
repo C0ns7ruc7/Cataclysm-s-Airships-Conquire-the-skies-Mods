@@ -1,0 +1,69 @@
+[
+    {
+        "name": "SMALL_SUSPENDIUM_CHAMBER",
+        "categories": ["LIFT"],
+        "availableFor": ["AIRSHIP"],
+        "w": 1,
+        "h": 2,
+        "appearance": {
+            "src": "scv_spritesheet",
+            "interval": 100,
+            "frames": [
+                {
+                    "x": 3,
+                    "y": 5,
+                    "w": 1,
+                    "h": 2
+                },
+                {
+                    "x": 4,
+                    "y": 5,
+                    "w": 1,
+                    "h": 2
+                },
+                {
+                    "x": 5,
+                    "y": 5,
+                    "w": 1,
+                    "h": 2
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "scv_spritesheet",
+                    "x": 6,
+                    "y": 5,
+                    "w": 1,
+                    "h": 2
+                }
+            }
+        ],
+        "hp": 60,
+        "fireHP": 35,
+        "moveDelay": 800,
+        "weight": 50,
+        "cost": 60,
+        "lift": 600,
+        "coalReload": 40000,
+        "crew": 1,
+        "recommendedCrew": 1,
+        "lights": [
+            {
+                "r": 0, "g": 160, "b": 120,
+                "radius": 15,
+                "x": 0.5,
+                "y": 1.4375
+            },
+            {
+                "r": 0, "g": 180, "b": 0,
+                "radius": 20,
+                "x": 0.5,
+                "y": 0.5
+            }
+        ]
+    }
+]

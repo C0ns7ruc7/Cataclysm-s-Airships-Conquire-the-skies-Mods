@@ -1,0 +1,64 @@
+[
+    {
+        "name": "FLIPPED_HV_CANNON",
+        "flippedFrom": "HV_CANNON"
+    },
+    {
+        "name": "HV_CANNON",
+        "categories": ["WEAPONS"],
+        "required": "HEAVY_CANNON",
+        "isWeapon": true,
+        "w": 4,
+        "h": 2,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 0,
+            "y": 11,
+            "w": 4,
+            "h": 2
+        },
+        "hp": 240,
+        "fireHP": 150,
+        "moveDelay": 800,
+        "weight": 160,
+        "cost": 200,
+        "crew": 2,
+        "recommendedCrew": 3,
+        "recommendedGuards": 1,
+        "frontOnly": true,
+        "isGun": true,
+        "isCannon": true,
+        "reload": 7000,
+        "clip": 1,
+        "inaccuracy": 0.0016,
+        "blastDmg": 0,
+        "penDmg": 120,
+        "recoilForce": 4.0,
+        "fireArc": { "direction": "forwards", "degrees": 60 },
+        "muzzleCenterX": 3.1,
+        "muzzleCenterY": 1.45,
+        "muzzleLength": 1.25,
+        "optimumRange": 800,
+        "fireSound": "hv_cannon",
+        "fireSoundCount": 3,
+        "explodeHP": 80,
+        "explodeDmg": 100,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 0, "y": 304, "w": 10, "h": 5 },
+            "barrel": { "src": "spritesheet", "x": 151, "y": 196, "w": 40, "h": 9 },
+            "barrelX": 30,
+            "barrelY": 19,
+            "recoil": 8,
+            "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.007 }
+        },
+        "canOccupy": [
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 },
+            { "x": 2, "y": 1 },
+            { "x": 3, "y": 1 },
+            { "x": 0, "y": 0 }
+        ],
+        "upDoors": [ 0 ],
+        "leftDoors": [ 0, 1 ]
+    }
+]
