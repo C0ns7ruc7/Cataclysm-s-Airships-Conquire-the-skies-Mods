@@ -2,7 +2,7 @@
 
 	{
 		"name": "merchants_base",
-		"spawnWeight": 5,
+		"spawnWeight": 10,
 		"needsRoad": true,
 		"income": 1,
 		"mapImage":{ "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
@@ -31,6 +31,10 @@
 	},
 	{
 		"name": "CIV",
+		"upgradeTo": "CIV",
+		"msUntilUpgrade": 900000,
+		"msForUpgrade": 120000,
+		"upgradeMsPerRaidSuccess": 60000,
 		"spawnWeight": 10,
 		"needsRoad": true,
 		"income": 1,

@@ -2,7 +2,11 @@
 	{
 		"name": "Pirate_CE_air",
 		"heraldicStyle": "pirate",
-		"spawnWeight": 4,
+		"upgradeTo": "Pirate_CE_air_BOSS",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 150000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 15,
 		"needsRoad": false,
 		"income": 25,
 		"mapImage":{ "src": "ui", "x": 208, "y": 384, "w": 16, "h": 16 },
@@ -25,10 +29,14 @@
 	},
 	{
 		"name": "Pirate_CE_air_BOSS",
-		"heraldicStyle": "pirate",
-		"spawnWeight": 2,
+		"heraldicStyle": "pirateKing",
+		"upgradeTo": "Pirate_CE_air_BOSS1",
+		"msUntilUpgrade": 0,
+		"msForUpgrade": 30000,
+		"upgradeMsPerRaidSuccess": 0,
+		"spawnWeight": 0,
 		"needsRoad": false,
-		"income": 125,
+		"income": 200,
 		"mapImage":{ "src": "sprite-vabese", "x": 560, "y": 160, "w": 16, "h": 16 },
 		"mapBackground": { "src": "sprite-vabese", "x": 560, "y": 160, "w": 16, "h": 16 },
 		"mapFleetImage": { "src": "sprite-vabese", "x": 560, "y": 160, "w": 16, "h": 16 },
@@ -36,7 +44,58 @@
 		"baseConstructions": ["PIRATE_FORT"],
 		"homeFleet": ["PIRATE_FORT"],
 		"additionalConstructions": ["Commerce_Raider", "Mechanized single seater", "Mechanized Tadseater hybred", "Tadpole", "Buzzer", "Uni_cycle", "Commerce_Raider", "Mechanized single seater", "Mechanized Tadseater hybred", "Tadpole", "Buzzer", "Uni_cycle"],
-		"incomeModifierPercentage": -150,
+		"incomeModifierPercentage": -100,
+		"minAttackFleetStrength": 2000,
+		"attackRadius": 5000,
+		"rewards": [
+            {
+                "name": "CEPiratesNestCleared_BOSS",
+                "money": 2000,
+                "rep": 300
+            }
+        ]
+	},	{
+		"name": "Pirate_CE_air_BOSS1",
+		"heraldicStyle": "pirateKing",
+		"upgradeTo": "Pirate_CE_air_BOSS2",
+		"msUntilUpgrade": 0,
+		"msForUpgrade": 30000,
+		"upgradeMsPerRaidSuccess": 0,
+		"spawnWeight": 0,
+		"needsRoad": false,
+		"income": 500,
+		"mapImage":{ "src": "sprite-vabese", "x": 560, "y": 160, "w": 16, "h": 16 },
+		"mapBackground": { "src": "sprite-vabese", "x": 560, "y": 160, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "sprite-vabese", "x": 560, "y": 160, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "sprite-vabese", "x": 560, "y": 160, "w": 16, "h": 16 },
+		"baseConstructions": ["PIRATE_FORT"],
+		"homeFleet": ["PIRATE_FORT"],
+		"additionalConstructions": ["Commerce_Raider", "Mechanized single seater", "Mechanized Tadseater hybred", "Tadpole", "Buzzer", "Uni_cycle", "Commerce_Raider", "Mechanized single seater", "Mechanized Tadseater hybred", "Tadpole", "Buzzer", "Uni_cycle"],
+		"incomeModifierPercentage": -200,
+		"minAttackFleetStrength": 5000,
+		"attackRadius": 5000,
+		"rewards": [
+            {
+                "name": "CEPiratesNestCleared_BOSS",
+                "money": 6000,
+                "rep": 400
+            }
+        ]
+	},
+	{
+		"name": "Pirate_CE_air_BOSS2",
+		"heraldicStyle": "pirateKing",
+		"spawnWeight": 0,
+		"needsRoad": false,
+		"income": 1000,
+		"mapImage":{ "src": "sprite-vabese", "x": 560, "y": 160, "w": 16, "h": 16 },
+		"mapBackground": { "src": "sprite-vabese", "x": 560, "y": 160, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "sprite-vabese", "x": 560, "y": 160, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "sprite-vabese", "x": 560, "y": 160, "w": 16, "h": 16 },
+		"baseConstructions": ["PIRATE_FORT"],
+		"homeFleet": ["PIRATE_FORT"],
+		"additionalConstructions": ["Commerce_Raider", "Mechanized single seater", "Mechanized Tadseater hybred", "Tadpole", "Buzzer", "Uni_cycle", "Commerce_Raider", "Mechanized single seater", "Mechanized Tadseater hybred", "Tadpole", "Buzzer", "Uni_cycle"],
+		"incomeModifierPercentage": -300,
 		"minAttackFleetStrength": 10000,
 		"attackRadius": 5000,
 		"rewards": [
@@ -47,10 +106,11 @@
             }
         ]
 	},
+
 	{
 		"name": "Pirate_CE_land",
 		"heraldicStyle": "brigand",
-		"spawnWeight": 4,
+		"spawnWeight": 15,
 		"needsRoad": true,
 		"income": 25,
 		"mapImage":{ "src": "ui", "x": 208, "y": 384, "w": 16, "h": 16 },
