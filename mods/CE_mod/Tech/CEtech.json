@@ -1,3 +1,58 @@
 [
-	
+    {
+        "name": "HELLICOPTERS",
+        "sort": 1625,
+        "tier": 1,
+        "bonuses": [ "COMBINED_PROPULSION" ],
+        "dependencies": [ "MACHINERY", "ENERGISED_SUSPENDIUM" ],
+        "img": { "src": "tech", "x": 640, "y": 128, "w": 64, "h": 64 }
+    },
+    {
+        "name": "LARGE_HELLICOPTERS",
+        "sort": 3590,
+        "tier": 3,
+        "bonuses": [ "COMBINED_PROPULSION_ADVANCED" ],
+        "dependencies": [ "HELLICOPTERS", "SCIENTIFIC_SUSPENDIUM_MINING" ],
+        "img": { "src": "tech", "x": 640, "y": 128, "w": 64, "h": 64 }
+    },
+
+    {
+        "name": "HAGELING",
+        "sort": 300,
+        "tier": 0,
+        "bonuses": [ "COMMERCE_HAGGELING" ],
+        "img": { "src": "tech", "x": 576, "y": 128, "w": 64, "h": 64 }
+    },
+    {
+        "name": "ORGENIZED_GATHERING",
+        "sort": 1600,
+        "tier": 1,
+        "bonuses": [ "COMMERCE_ORGENIZED_GATHERING" ],
+        "dependencies": [ "HAGELING" ],
+        "img": { "src": "tech", "x": 640, "y": 128, "w": 64, "h": 64 }
+    },
+    {
+        "name": "FACTORING",
+        "sort": 2600,
+        "tier": 2,
+        "bonuses": [ "COMMERCE_FACTORING" ],
+        "dependencies": [ "ORGENIZED_GATHERING" ],
+        "img": { "src": "tech", "x": 448, "y": 192, "w": 64, "h": 64 }
+    },
+    {
+        "name": "REFINING",
+        "sort": 3570,
+        "tier": 3,
+        "bonuses": [ "COMMERCE_REFINING" ],
+        "dependencies": [ "FACTORING" ],
+        "img": { "src": "tech", "x": 256, "y": 256, "w": 64, "h": 64 }
+    },
+    {
+        "name": "CONTAINED_ECONOMIES",
+        "sort": 4500,
+        "tier": 4,
+        "bonuses": [ "COMMERCE_CONTAINED_ECONOMIES" ],
+        "dependencies": [ "REFINING" ],
+        "img": { "src": "tech", "x": 192, "y": 256, "w": 64, "h": 64 }
+    },
 ]
