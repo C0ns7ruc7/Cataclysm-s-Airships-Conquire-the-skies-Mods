@@ -18,14 +18,14 @@
 
     {
         "name": "HAGELING",
-        "sort": 300,
+        "sort": 900,
         "tier": 0,
         "bonuses": [ "COMMERCE_HAGGELING" ],
         "img": { "src": "tech", "x": 576, "y": 128, "w": 64, "h": 64 }
     },
     {
         "name": "ORGENIZED_GATHERING",
-        "sort": 1600,
+        "sort": 1900,
         "tier": 1,
         "bonuses": [ "COMMERCE_ORGENIZED_GATHERING" ],
         "dependencies": [ "HAGELING" ],
@@ -33,7 +33,7 @@
     },
     {
         "name": "FACTORING",
-        "sort": 2600,
+        "sort": 2900,
         "tier": 2,
         "bonuses": [ "COMMERCE_FACTORING" ],
         "dependencies": [ "ORGENIZED_GATHERING" ],
@@ -41,7 +41,7 @@
     },
     {
         "name": "REFINING",
-        "sort": 3570,
+        "sort": 3900,
         "tier": 3,
         "bonuses": [ "COMMERCE_REFINING" ],
         "dependencies": [ "FACTORING" ],
@@ -49,10 +49,73 @@
     },
     {
         "name": "CONTAINED_ECONOMIES",
-        "sort": 4500,
+        "sort": 4900,
         "tier": 4,
         "bonuses": [ "COMMERCE_CONTAINED_ECONOMIES" ],
         "dependencies": [ "REFINING" ],
         "img": { "src": "tech", "x": 192, "y": 256, "w": 64, "h": 64 }
     },
+    {
+        "name": "SUSPEDIUM_COLLECTION",
+        "sort": 3890,
+        "tier": 3,
+        "bonuses": [ "COMMERCE_SUSPEDIUM_COLLECTION" ],
+        "dependencies": [ "FACTORING", "SCIENTIFIC_SUSPENDIUM_MINING" ],
+        "img": { "src": "tech", "x": 192, "y": 256, "w": 64, "h": 64 }
+    },
+
+    {
+        "name": "CRYSTAL_CREATION",
+        "sort": 4890,
+        "tier": 4,
+        "bonuses": [ "SUSPEDIUM_CRYSTAL_CREATION" ],
+        "dependencies": [ "REFINING", "SUSPEDIUM_COLLECTION", "SUSPENDIUM_CANNON" ],
+        "img": { "src": "tech", "x": 192, "y": 256, "w": 64, "h": 64 }
+    },
+
+    {
+        "name": "OIL_FUEL_REFINING",
+        "sort": 2300,
+        "tier": 2,
+        "bonuses": [ "FUEL_CREATION" ],
+        "dependencies": [ "ADVANCED_EXPLOSIVES", "ORGENIZED_GATHERING" ],
+        "img": { "src": "tech", "x": 800, "y": 192, "w": 64, "h": 64 }
+    },
+
+    {
+        "name": "SIMPLE_CONSTRUCTION",
+        "sort": 110,
+        "tier": 0,
+        "bonuses": [ "CONSTRUCTION_SIMPLE" ],
+        "img": { "src": "tech", "x": 0, "y": 128, "w": 64, "h": 64 }
+    },
+    {
+        "name": "ADVANCED_CONSTRUCTION",
+        "sort": 1110,
+        "tier": 1,
+        "bonuses": [ "CONSTRUCTION" ],
+        "dependencies": [ "SIMPLE_CONSTRUCTION" ],
+        "img": { "src": "tech", "x": 64, "y": 128, "w": 64, "h": 64 }
+    },
+    {
+        "name": "COMPLEX_CONSTRUCTION",
+        "sort": 2110,
+        "tier": 2,
+        "bonuses": [ "CONSTRUCTION_ADVANCED" ],
+        "dependencies": [ "ADVANCED_CONSTRUCTION"],
+        "img": { "src": "tech", "x": 64, "y": 128, "w": 64, "h": 64 }
+    },
+
+    {
+        "name": "EARTHBOUND_CORPS",
+        "sort": 1250,
+        "tier": 1,
+        "bonuses": [ "LAND_TROOPS" ],
+        "dependencies": [ "MILITARY_TRAINING" ],
+        "img": { "src": "tech", "x": 256, "y": 128, "w": 64, "h": 64 }
+    },
 ]
+
+
+
+
