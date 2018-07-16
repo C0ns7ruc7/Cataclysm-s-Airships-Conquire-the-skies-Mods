@@ -114,6 +114,39 @@
         "dependencies": [ "MILITARY_TRAINING" ],
         "img": { "src": "tech", "x": 256, "y": 128, "w": 64, "h": 64 }
     },
+	
+	{
+        "name": "THEORY_MECHANIS",
+        "sort": 1999,
+        "tier": 1,
+        "bonuses": [ "MECHANIS_THEORY" ],
+        "dependencies": [ "tear 0" ],
+        "img": { "src": "tech", "x": 640, "y": 128, "w": 64, "h": 64 }
+    },
+    {
+        "name": "IMPLIMENTATION_MECHANIS",
+        "sort": 2999,
+        "tier": 2,
+        "bonuses": [ "MECHANIS_IMPLIMENTATION" ],
+        "dependencies": [ "THEORY_MECHANIS", "tear 1" ],
+        "img": { "src": "tech", "x": 448, "y": 192, "w": 64, "h": 64 }
+    },
+    {
+        "name": "REVOLUTION_MECHANIS",
+        "sort": 3999,
+        "tier": 3,
+        "bonuses": [ "MECHANIS_REVOLUTION" ],
+        "dependencies": [ "IMPLIMENTATION_MECHANIS", "tear 2" ],
+        "img": { "src": "tech", "x": 256, "y": 256, "w": 64, "h": 64 }
+    },
+    {
+        "name": "MECHANIS_COMPLETION",
+        "sort": 4999,
+        "tier": 4,
+        "bonuses": [ "MECHANIS_COMPLETION" ],
+        "dependencies": [ "REVOLUTION_MECHANIS", "tear 3" ],
+        "img": { "src": "tech", "x": 192, "y": 256, "w": 64, "h": 64 }
+    },
 ]
 
 
