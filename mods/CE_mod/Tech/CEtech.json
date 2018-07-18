@@ -10,9 +10,9 @@
     {
         "name": "LARGE_HELLICOPTERS",
         "sort": 3590,
-        "tier": 3,
+        "tier": 2,
         "bonuses": [ "COMBINED_PROPULSION_ADVANCED" ],
-        "dependencies": [ "HELLICOPTERS", "SCIENTIFIC_SUSPENDIUM_MINING" ],
+        "dependencies": [ "HELLICOPTERS" ],
         "img": { "src": "tech", "x": 640, "y": 128, "w": 64, "h": 64 }
     },
 
@@ -120,7 +120,7 @@
         "sort": 1999,
         "tier": 1,
         "bonuses": [ "MECHANIS_THEORY" ],
-        "dependencies": [ "tear 0" ],
+        "dependencies": [ "EXPLOSIVES", "ENERGISED_SUSPENDIUM", "MACHINERY", "GUNNERY", "RIFLING", "MILITARY_TRAINING" ],
         "img": { "src": "tech", "x": 640, "y": 128, "w": 64, "h": 64 }
     },
     {
@@ -128,7 +128,7 @@
         "sort": 2999,
         "tier": 2,
         "bonuses": [ "MECHANIS_IMPLIMENTATION" ],
-        "dependencies": [ "THEORY_MECHANIS", "tear 1" ],
+        "dependencies": [ "THEORY_MECHANIS", "HEAVY_WOODEN_ARMOUR", "METALLURGY", "AERIAL_TACTICS", "LANDSHIPS", "OPTICS", "HIGH_PRESSURE_SUSPENDIUM", "AERIAL_CORPS", "FIRE_SAFETY", "ADVANCED_EXPLOSIVES" ],
         "img": { "src": "tech", "x": 448, "y": 192, "w": 64, "h": 64 }
     },
     {
@@ -136,15 +136,15 @@
         "sort": 3999,
         "tier": 3,
         "bonuses": [ "MECHANIS_REVOLUTION" ],
-        "dependencies": [ "IMPLIMENTATION_MECHANIS", "tear 2" ],
+        "dependencies": [ "IMPLIMENTATION_MECHANIS", "GYROSCOPES", "FORTIFICATIONS", "HEAVY_CANNON", "ARTICULATED_MACHINERY", "MACHINING", "ELITE_INFANTRY", "HEAVIER_THAN_AIR_FLIGHT", "COMBUSTIBLES", "AMMO_STORAGE", "SCIENTIFIC_SUSPENDIUM_MINING" ],
         "img": { "src": "tech", "x": 256, "y": 256, "w": 64, "h": 64 }
     },
     {
-        "name": "MECHANIS_COMPLETION",
+        "name": "COMPLETION_MECHANIS",
         "sort": 4999,
         "tier": 4,
         "bonuses": [ "MECHANIS_COMPLETION" ],
-        "dependencies": [ "REVOLUTION_MECHANIS", "tear 3" ],
+        "dependencies": [ "REVOLUTION_MECHANIS", "SUSPENDIUM_CANNON", "ADVANCED_METALLURGY", "COMPUTERS", "AUTOMATED_LOADING_SYSTEMS", "BIOMIMETICS", "ANTI_AIR_TACTICS", "LOADING_DRILLS", "ADVANCED_FLIGHT", "CYBERNETICS" ],
         "img": { "src": "tech", "x": 192, "y": 256, "w": 64, "h": 64 }
     },
 ]
