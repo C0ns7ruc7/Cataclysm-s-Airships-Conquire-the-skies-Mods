@@ -117,7 +117,7 @@
 	
 	{
         "name": "THEORY_MECHANIS",
-        "sort": 1999,
+        "sort": 1001,
         "tier": 1,
         "bonuses": [ "MECHANIS_THEORY" ],
         "dependencies": [ "EXPLOSIVES", "ENERGISED_SUSPENDIUM", "MACHINERY", "GUNNERY", "RIFLING", "MILITARY_TRAINING" ],
@@ -125,7 +125,7 @@
     },
     {
         "name": "IMPLIMENTATION_MECHANIS",
-        "sort": 2999,
+        "sort": 2001,
         "tier": 2,
         "bonuses": [ "MECHANIS_IMPLIMENTATION" ],
         "dependencies": [ "THEORY_MECHANIS", "HEAVY_WOODEN_ARMOUR", "METALLURGY", "AERIAL_TACTICS", "LANDSHIPS", "OPTICS", "HIGH_PRESSURE_SUSPENDIUM", "AERIAL_CORPS", "FIRE_SAFETY", "ADVANCED_EXPLOSIVES" ],
@@ -133,7 +133,7 @@
     },
     {
         "name": "REVOLUTION_MECHANIS",
-        "sort": 3999,
+        "sort": 3001,
         "tier": 3,
         "bonuses": [ "MECHANIS_REVOLUTION" ],
         "dependencies": [ "IMPLIMENTATION_MECHANIS", "GYROSCOPES", "FORTIFICATIONS", "HEAVY_CANNON", "ARTICULATED_MACHINERY", "MACHINING", "ELITE_INFANTRY", "HEAVIER_THAN_AIR_FLIGHT", "COMBUSTIBLES", "AMMO_STORAGE", "SCIENTIFIC_SUSPENDIUM_MINING" ],
@@ -141,10 +141,82 @@
     },
     {
         "name": "COMPLETION_MECHANIS",
-        "sort": 4999,
+        "sort": 4001,
         "tier": 4,
         "bonuses": [ "MECHANIS_COMPLETION" ],
         "dependencies": [ "REVOLUTION_MECHANIS", "SUSPENDIUM_CANNON", "ADVANCED_METALLURGY", "COMPUTERS", "AUTOMATED_LOADING_SYSTEMS", "BIOMIMETICS", "ANTI_AIR_TACTICS", "LOADING_DRILLS", "ADVANCED_FLIGHT", "CYBERNETICS" ],
+        "img": { "src": "tech", "x": 192, "y": 256, "w": 64, "h": 64 }
+    },
+
+    {
+        "name": "BUZZER_TECH",
+        "sort": 2190,
+        "tier": 2,
+        "choices": [
+            {
+                "name": "CARRIER_BUZZER",
+                "bonuses": [ "BUZZER_CARRIER" ],
+                "img": { "src": "tech", "x": 256, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "MODULAIR_BUZZER",
+                "bonuses": [ "BUZZER_MODULAIR" ],
+                "img": { "src": "tech", "x": 320, "y": 192, "w": 64, "h": 64 }
+            }
+        ],
+        "dependencies": [ "AERIAL_CORPS" ]
+    },
+    {
+        "name": "MECH_TECH",
+        "sort": 3190,
+        "tier": 3,
+        "choices": [
+            {
+                "name": "CARRIER_MECH",
+                "bonuses": [ "MECH_CARRIER" ],
+                "img": { "src": "tech", "x": 256, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "MODULAIR_MECH",
+                "bonuses": [ "MECH_MODULAIR" ],
+                "img": { "src": "tech", "x": 320, "y": 192, "w": 64, "h": 64 }
+            }
+        ],
+        "dependencies": [ "HEAVIER_THAN_AIR_FLIGHT" ]
+    },
+    {
+        "name": "TADPOLE_TECH",
+        "sort": 4190,
+        "tier": 4,
+        "choices": [
+            {
+                "name": "CARRIER_TADPOLE",
+                "bonuses": [ "TADPOLE_CARRIER" ],
+                "img": { "src": "tech", "x": 256, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "MODULAIR_TADPOLE",
+                "bonuses": [ "TADPOLE_MODULAIR" ],
+                "img": { "src": "tech", "x": 320, "y": 192, "w": 64, "h": 64 }
+            }
+        ],
+        "dependencies": [ "ADVANCED_FLIGHT", "COMPUTERS" ]
+    },
+
+    {
+        "name": "ATOM_THEORY",
+        "sort": 5100,
+        "tier": 5,
+        "bonuses": [ "MASS_ENERGY_REACTION" ],
+        "dependencies": [ "ADVANCED_FUZES", "MILITARY_ORGANISATION" ],
+        "img": { "src": "tech", "x": 192, "y": 256, "w": 64, "h": 64 }
+    },
+    {
+        "name": "LONG_DISTANCE_COMBAT",
+        "sort": 5200,
+        "tier": 5,
+        "bonuses": [ "EXTREME_DISTANCE_COMBAT" ],
+        "dependencies": [ "ADVANCED_FUZES", "ROBOTICS", "CONTAINED_ECONOMIES" ],
         "img": { "src": "tech", "x": 192, "y": 256, "w": 64, "h": 64 }
     },
 ]
