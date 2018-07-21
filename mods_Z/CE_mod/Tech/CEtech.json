@@ -5,7 +5,7 @@
         "tier": 1,
         "bonuses": [ "COMBINED_PROPULSION" ],
         "dependencies": [ "MACHINERY", "ENERGISED_SUSPENDIUM" ],
-        "img": { "src": "CE_TECH_ART", "x": 0, "y": 0, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 0, "y": 0, "w": 64, "h": 64 }
     },
     {
         "name": "LARGE_HELLICOPTERS",
@@ -13,47 +13,47 @@
         "tier": 2,
         "bonuses": [ "COMBINED_PROPULSION_ADVANCED" ],
         "dependencies": [ "HELLICOPTERS" ],
-        "img": { "src": "CE_TECH_ART", "x": 0, "y": 64, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 64, "y": 0, "w": 64, "h": 64 }
     },
 
     {
         "name": "HAGELING",
-        "sort": 900,
+        "sort": 998,
         "tier": 0,
         "bonuses": [ "COMMERCE_HAGGELING" ],
-        "img": { "src": "CE_TECH_ART", "x": 0, "y": 128, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 128, "y": 0, "w": 64, "h": 64 }
     },
     {
         "name": "ORGENIZED_GATHERING",
-        "sort": 1900,
+        "sort": 1998,
         "tier": 1,
         "bonuses": [ "COMMERCE_ORGENIZED_GATHERING" ],
         "dependencies": [ "HAGELING" ],
-        "img": { "src": "CE_TECH_ART", "x": 0, "y": 192, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 192, "y": 0, "w": 64, "h": 64 }
     },
     {
         "name": "FACTORING",
-        "sort": 2900,
+        "sort": 2998,
         "tier": 2,
         "bonuses": [ "COMMERCE_FACTORING" ],
         "dependencies": [ "ORGENIZED_GATHERING" ],
-        "img": { "src": "CE_TECH_ART", "x": 0, "y": 256, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 256, "y": 0, "w": 64, "h": 64 }
     },
     {
         "name": "REFINING",
-        "sort": 3900,
+        "sort": 3998,
         "tier": 3,
         "bonuses": [ "COMMERCE_REFINING" ],
         "dependencies": [ "FACTORING" ],
-        "img": { "src": "CE_TECH_ART", "x": 0, "y": 320, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 320, "y": 0, "w": 64, "h": 64 }
     },
     {
         "name": "CONTAINED_ECONOMIES",
-        "sort": 4900,
+        "sort": 4998,
         "tier": 4,
         "bonuses": [ "COMMERCE_CONTAINED_ECONOMIES" ],
         "dependencies": [ "REFINING" ],
-        "img": { "src": "CE_TECH_ART", "x": 0, "y": 384, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 384, "y": 0, "w": 64, "h": 64 }
     },
     {
         "name": "SUSPEDIUM_COLLECTION",
@@ -61,7 +61,7 @@
         "tier": 3,
         "bonuses": [ "COMMERCE_SUSPEDIUM_COLLECTION" ],
         "dependencies": [ "FACTORING", "SCIENTIFIC_SUSPENDIUM_MINING" ],
-        "img": { "src": "CE_TECH_ART", "x": 0, "y": 448, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 448, "y": 0, "w": 64, "h": 64 }
     },
 
     {
@@ -70,40 +70,40 @@
         "tier": 4,
         "bonuses": [ "SUSPEDIUM_CRYSTAL_CREATION" ],
         "dependencies": [ "REFINING", "SUSPEDIUM_COLLECTION", "SUSPENDIUM_CANNON" ],
-        "img": { "src": "CE_TECH_ART", "x": 0, "y": 512, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 512, "y": 0, "w": 64, "h": 64 }
     },
 
     {
         "name": "OIL_FUEL_REFINING",
-        "sort": 2300,
-        "tier": 2,
+        "sort": 3360,
+        "tier": 3,
         "bonuses": [ "FUEL_CREATION" ],
-        "dependencies": [ "ADVANCED_EXPLOSIVES", "ORGENIZED_GATHERING" ],
-        "img": { "src": "CE_TECH_ART", "x": 0, "y": 576, "w": 64, "h": 64 }
+        "dependencies": [ "COMBUSTIBLES" ],
+        "img": { "src": "ce_tech_art", "x": 576, "y": 0, "w": 64, "h": 64 }
     },
 
     {
         "name": "SIMPLE_CONSTRUCTION",
-        "sort": 110,
-        "tier": 0,
+        "sort": 2110,
+        "tier": 2,
         "bonuses": [ "CONSTRUCTION_SIMPLE" ],
-        "img": { "src": "CE_TECH_ART", "x": 0, "y": 640, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 640, "y": 0, "w": 64, "h": 64 }
     },
     {
         "name": "ADVANCED_CONSTRUCTION",
-        "sort": 1110,
-        "tier": 1,
+        "sort": 3110,
+        "tier": 3,
         "bonuses": [ "CONSTRUCTION" ],
         "dependencies": [ "SIMPLE_CONSTRUCTION" ],
-        "img": { "src": "CE_TECH_ART", "x": 0, "y": 704, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 704, "y": 0, "w": 64, "h": 64 }
     },
     {
         "name": "COMPLEX_CONSTRUCTION",
-        "sort": 2110,
-        "tier": 2,
+        "sort": 4110,
+        "tier": 4,
         "bonuses": [ "CONSTRUCTION_ADVANCED" ],
         "dependencies": [ "ADVANCED_CONSTRUCTION"],
-        "img": { "src": "CE_TECH_ART", "x": 0, "y": 768, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 768, "y": 0, "w": 64, "h": 64 }
     },
 
     {
@@ -112,7 +112,7 @@
         "tier": 1,
         "bonuses": [ "LAND_TROOPS" ],
         "dependencies": [ "MILITARY_TRAINING" ],
-        "img": { "src": "CE_TECH_ART", "x": 0, "y": 832, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 832, "y": 0, "w": 64, "h": 64 }
     },
 	
 	{
@@ -120,8 +120,8 @@
         "sort": 5001,
         "tier": 5,
         "bonuses": [ "MECHANIS_THEORY" ],
-        "dependencies": [  ],
-        "img": { "src": "CE_TECH_ART", "x": 640, "y": 128, "w": 64, "h": 64 }
+        "dependencies": [ "COMPLEX_CONSTRUCTION", "MILITARY_ORGANISATION", "TADPOLE_TECH" ],
+        "img": { "src": "ce_tech_art", "x": 896, "y": 0, "w": 64, "h": 64 }
     },
     {
         "name": "IMPLIMENTATION_MECHANIS",
@@ -129,7 +129,7 @@
         "tier": 6,
         "bonuses": [ "MECHANIS_IMPLIMENTATION" ],
         "dependencies": [ "THEORY_MECHANIS" ],
-        "img": { "src": "CE_TECH_ART", "x": 448, "y": 192, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 960, "y": 0, "w": 64, "h": 64 }
     },
     {
         "name": "REVOLUTION_MECHANIS",
@@ -137,7 +137,7 @@
         "tier": 7,
         "bonuses": [ "MECHANIS_REVOLUTION" ],
         "dependencies": [ "IMPLIMENTATION_MECHANIS" ],
-        "img": { "src": "CE_TECH_ART", "x": 256, "y": 256, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 0, "y": 64, "w": 64, "h": 64 }
     },
     {
         "name": "COMPLETION_MECHANIS",
@@ -145,7 +145,7 @@
         "tier": 8,
         "bonuses": [ "MECHANIS_COMPLETION" ],
         "dependencies": [ "REVOLUTION_MECHANIS" ],
-        "img": { "src": "CE_TECH_ART", "x": 192, "y": 256, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 192, "y": 256, "w": 64, "h": 64 }
     },
 
     {
@@ -156,12 +156,12 @@
             {
                 "name": "CARRIER_BUZZER",
                 "bonuses": [ "BUZZER_CARRIER" ],
-                "img": { "src": "CE_TECH_ART", "x": 256, "y": 192, "w": 64, "h": 64 }
+                "img": { "src": "ce_tech_art", "x": 256, "y": 192, "w": 64, "h": 64 }
             },
             {
                 "name": "MODULAIR_BUZZER",
                 "bonuses": [ "BUZZER_MODULAIR" ],
-                "img": { "src": "CE_TECH_ART", "x": 320, "y": 192, "w": 64, "h": 64 }
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
             }
         ],
         "dependencies": [ "AERIAL_CORPS" ]
@@ -174,12 +174,12 @@
             {
                 "name": "CARRIER_MECH",
                 "bonuses": [ "MECH_CARRIER" ],
-                "img": { "src": "CE_TECH_ART", "x": 256, "y": 192, "w": 64, "h": 64 }
+                "img": { "src": "ce_tech_art", "x": 256, "y": 192, "w": 64, "h": 64 }
             },
             {
                 "name": "MODULAIR_MECH",
                 "bonuses": [ "MECH_MODULAIR" ],
-                "img": { "src": "CE_TECH_ART", "x": 320, "y": 192, "w": 64, "h": 64 }
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
             }
         ],
         "dependencies": [ "HEAVIER_THAN_AIR_FLIGHT" ]
@@ -192,12 +192,12 @@
             {
                 "name": "CARRIER_TADPOLE",
                 "bonuses": [ "TADPOLE_CARRIER" ],
-                "img": { "src": "CE_TECH_ART", "x": 256, "y": 192, "w": 64, "h": 64 }
+                "img": { "src": "ce_tech_art", "x": 256, "y": 192, "w": 64, "h": 64 }
             },
             {
                 "name": "MODULAIR_TADPOLE",
                 "bonuses": [ "TADPOLE_MODULAIR" ],
-                "img": { "src": "CE_TECH_ART", "x": 320, "y": 192, "w": 64, "h": 64 }
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
             }
         ],
         "dependencies": [ "ADVANCED_FLIGHT", "COMPUTERS" ]
@@ -209,7 +209,7 @@
         "tier": 5,
         "bonuses": [ "MASS_ENERGY_REACTION" ],
         "dependencies": [ "ADVANCED_FUZES", "MILITARY_ORGANISATION", "TADPOLE_TECH" ],
-        "img": { "src": "CE_TECH_ART", "x": 192, "y": 256, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 192, "y": 256, "w": 64, "h": 64 }
     },
     {
         "name": "LONG_DISTANCE_COMBAT",
@@ -217,7 +217,7 @@
         "tier": 5,
         "bonuses": [ "EXTREME_DISTANCE_COMBAT" ],
         "dependencies": [ "ADVANCED_FUZES", "ROBOTICS", "CONTAINED_ECONOMIES" ],
-        "img": { "src": "CE_TECH_ART", "x": 192, "y": 256, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 192, "y": 256, "w": 64, "h": 64 }
     },
 ]
 
