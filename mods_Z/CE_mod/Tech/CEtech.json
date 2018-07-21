@@ -79,7 +79,7 @@
         "tier": 2,
         "bonuses": [ "FUEL_CREATION" ],
         "dependencies": [ "ADVANCED_EXPLOSIVES", "ORGENIZED_GATHERING" ],
-        "img": { "src": "CE_TECH_ART", "x": 800, "y": 192, "w": 64, "h": 64 }
+        "img": { "src": "CE_TECH_ART", "x": 0, "y": 576, "w": 64, "h": 64 }
     },
 
     {
@@ -87,7 +87,7 @@
         "sort": 110,
         "tier": 0,
         "bonuses": [ "CONSTRUCTION_SIMPLE" ],
-        "img": { "src": "CE_TECH_ART", "x": 0, "y": 128, "w": 64, "h": 64 }
+        "img": { "src": "CE_TECH_ART", "x": 0, "y": 640, "w": 64, "h": 64 }
     },
     {
         "name": "ADVANCED_CONSTRUCTION",
@@ -95,7 +95,7 @@
         "tier": 1,
         "bonuses": [ "CONSTRUCTION" ],
         "dependencies": [ "SIMPLE_CONSTRUCTION" ],
-        "img": { "src": "CE_TECH_ART", "x": 64, "y": 128, "w": 64, "h": 64 }
+        "img": { "src": "CE_TECH_ART", "x": 0, "y": 704, "w": 64, "h": 64 }
     },
     {
         "name": "COMPLEX_CONSTRUCTION",
@@ -103,7 +103,7 @@
         "tier": 2,
         "bonuses": [ "CONSTRUCTION_ADVANCED" ],
         "dependencies": [ "ADVANCED_CONSTRUCTION"],
-        "img": { "src": "CE_TECH_ART", "x": 64, "y": 128, "w": 64, "h": 64 }
+        "img": { "src": "CE_TECH_ART", "x": 0, "y": 768, "w": 64, "h": 64 }
     },
 
     {
@@ -112,39 +112,39 @@
         "tier": 1,
         "bonuses": [ "LAND_TROOPS" ],
         "dependencies": [ "MILITARY_TRAINING" ],
-        "img": { "src": "CE_TECH_ART", "x": 256, "y": 128, "w": 64, "h": 64 }
+        "img": { "src": "CE_TECH_ART", "x": 0, "y": 832, "w": 64, "h": 64 }
     },
 	
 	{
         "name": "THEORY_MECHANIS",
-        "sort": 1001,
-        "tier": 1,
+        "sort": 5001,
+        "tier": 5,
         "bonuses": [ "MECHANIS_THEORY" ],
-        "dependencies": [ "EXPLOSIVES", "ENERGISED_SUSPENDIUM", "MACHINERY", "GUNNERY", "RIFLING", "MILITARY_TRAINING" ],
+        "dependencies": [  ],
         "img": { "src": "CE_TECH_ART", "x": 640, "y": 128, "w": 64, "h": 64 }
     },
     {
         "name": "IMPLIMENTATION_MECHANIS",
-        "sort": 2001,
-        "tier": 2,
+        "sort": 6001,
+        "tier": 6,
         "bonuses": [ "MECHANIS_IMPLIMENTATION" ],
-        "dependencies": [ "THEORY_MECHANIS", "HEAVY_WOODEN_ARMOUR", "METALLURGY", "AERIAL_TACTICS", "LANDSHIPS", "OPTICS", "HIGH_PRESSURE_SUSPENDIUM", "AERIAL_CORPS", "FIRE_SAFETY", "ADVANCED_EXPLOSIVES" ],
+        "dependencies": [ "THEORY_MECHANIS" ],
         "img": { "src": "CE_TECH_ART", "x": 448, "y": 192, "w": 64, "h": 64 }
     },
     {
         "name": "REVOLUTION_MECHANIS",
-        "sort": 3001,
-        "tier": 3,
+        "sort": 7001,
+        "tier": 7,
         "bonuses": [ "MECHANIS_REVOLUTION" ],
-        "dependencies": [ "IMPLIMENTATION_MECHANIS", "GYROSCOPES", "FORTIFICATIONS", "HEAVY_CANNON", "ARTICULATED_MACHINERY", "MACHINING", "ELITE_INFANTRY", "HEAVIER_THAN_AIR_FLIGHT", "COMBUSTIBLES", "AMMO_STORAGE", "SCIENTIFIC_SUSPENDIUM_MINING" ],
+        "dependencies": [ "IMPLIMENTATION_MECHANIS" ],
         "img": { "src": "CE_TECH_ART", "x": 256, "y": 256, "w": 64, "h": 64 }
     },
     {
         "name": "COMPLETION_MECHANIS",
-        "sort": 4001,
-        "tier": 4,
+        "sort": 8001,
+        "tier": 8,
         "bonuses": [ "MECHANIS_COMPLETION" ],
-        "dependencies": [ "REVOLUTION_MECHANIS", "SUSPENDIUM_CANNON", "ADVANCED_METALLURGY", "COMPUTERS", "AUTOMATED_LOADING_SYSTEMS", "BIOMIMETICS", "ANTI_AIR_TACTICS", "LOADING_DRILLS", "ADVANCED_FLIGHT", "CYBERNETICS" ],
+        "dependencies": [ "REVOLUTION_MECHANIS" ],
         "img": { "src": "CE_TECH_ART", "x": 192, "y": 256, "w": 64, "h": 64 }
     },
 
