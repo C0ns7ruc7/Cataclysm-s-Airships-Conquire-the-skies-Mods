@@ -227,6 +227,31 @@
         "dependencies": [ "ADVANCED_FUZES", "ROBOTICS", "CONTAINED_ECONOMIES" ],
         "img": { "src": "ce_tech_art", "x": 640, "y": 64, "w": 64, "h": 64 }
     },
+
+    {
+        "name": "TENT_CRAFT",
+        "sort": 5001,
+        "tier": 5,
+        "bonuses": [ "CE_TENTS" ],
+        "dependencies": [],
+        "img": { "src": "ce_tech_art", "x": 0, "y": 64, "w": 64, "h": 64 }
+    },
+    {
+        "name": "SIMPLE_HOUSING",
+        "sort": 6001,
+        "tier": 6,
+        "bonuses": [ "CE_HOUSE_SMALL" ],
+        "dependencies": [ "TENT_CRAFT" ],
+        "img": { "src": "ce_tech_art", "x": 0, "y": 64, "w": 64, "h": 64 }
+    },
+    {
+        "name": "HOUSING",
+        "sort": 7001,
+        "tier": 7,
+        "bonuses": [ "CE_HOUSE" ],
+        "dependencies": [ "SIMPLE_HOUSING" ],
+        "img": { "src": "ce_tech_art", "x": 0, "y": 64, "w": 64, "h": 64 }
+    }
 ]
 
 

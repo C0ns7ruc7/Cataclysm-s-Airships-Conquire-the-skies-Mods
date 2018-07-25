@@ -1,0 +1,45 @@
+[
+    {
+        "name": "CEBOMBER_HANGAR",
+        "categories": ["AIRCRAFT"],
+        "availableFor": [ "AIRSHIP", "LANDSHIP", "BUILDING" ],
+        "required": "BOMBERS",
+        "w": 6,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 53,
+            "y": 16,
+            "w": 6,
+            "h": 1
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 53,
+                    "y": 16,
+                    "w": 6,
+                    "h": 1
+                }
+            }
+        ],
+        "external": true,
+        "hp": 200,
+        "fireHP": 50,
+        "moveDelay": 400,
+        "weight": 180,
+        "cost": 265,
+        "maintenanceCost": 2,
+        "topOnly": true,
+        "recommendedCrew": 2,
+        "crew": 2,
+        "quarters": 1,
+        "quartersType": "bombplane",
+        "hangarPositions": [
+            { "x": 2, "y": 0 }
+        ]
+    }
+]

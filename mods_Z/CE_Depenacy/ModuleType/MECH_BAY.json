@@ -1,0 +1,53 @@
+[
+    {
+        "name": "MECH_BAY",
+        "categories": ["AIRCRAFT"],
+        "availableFor": [ "AIRSHIP", "LANDSHIP", "BUILDING" ],
+	"required": "MECH_CARRIER",
+        "w": 4,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-plane-vabese",
+            "x": 0,
+            "y": 6,
+            "w": 4,
+            "h": 2
+        },
+        "externalAppearances": [
+            {
+                "x": -1,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-plane-vabese",
+                    "x": 0,
+                    "y": 4,
+                    "w": 6,
+                    "h": 2
+                }
+            }
+        ],
+        "external": true,
+        "externalDrawPriority": true,
+        "hp": 260,
+        "fireHP": 150,
+        "moveDelay": 600,
+        "weight": 90,
+        "cost": 150,
+        "maintenanceCost": 6,
+        "quarters": 1,
+        "recommendedCrew": 1,
+        "crew": 1,
+        "quartersType": "light_mech",
+        "hangarPositions": [
+            { "x": 1, "y": 1 }
+        ],
+        "leftDoors": [ 1 ],
+        "rightDoors": [ 1 ],
+        "canOccupy": [
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 },
+            { "x": 2, "y": 1 },
+            { "x": 3, "y": 1 }
+        ]
+    }
+]
