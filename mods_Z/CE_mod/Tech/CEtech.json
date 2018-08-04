@@ -156,22 +156,22 @@
             {
                 "name": "CARRIER_BUZZER",
                 "bonuses": [ "BUZZER_CARRIER" ],
-                "img": { "src": "ce_tech_art", "x": 128, "y": 64, "w": 64, "h": 64 }
+                "img": { "src": "ce_tech_art", "x": 320, "y": 64, "w": 64, "h": 64 }
             },
             {
                 "name": "MODULAIR_BUZZER",
                 "bonuses": [ "BUZZER_MODULAIR" ],
-                "img": { "src": "ce_tech_art", "x": 192, "y": 64, "w": 64, "h": 64 }
+                "img": { "src": "ce_tech_art", "x": 384, "y": 64, "w": 64, "h": 64 }
             }
         ],
         "dependencies": [ "AERIAL_CORPS" ]
     },
     {
         "name": "BUZZER_COMP",
-        "sort": 3290,
-        "tier": 3,
+        "sort": 4290,
+        "tier": 4,
         "bonuses": [ "COMP_BUZZER" ],
-        "dependencies": [ "BUZZER_TECH" ],
+        "dependencies": [ "MECH_TECH" ],
         "img": { "src": "ce_tech_art", "x": 256, "y": 64, "w": 64, "h": 64 }
     },
     {
@@ -182,12 +182,12 @@
             {
                 "name": "CARRIER_MECH",
                 "bonuses": [ "MECH_CARRIER" ],
-                "img": { "src": "ce_tech_art", "x": 320, "y": 64, "w": 64, "h": 64 }
+                "img": { "src": "ce_tech_art", "x": 128, "y": 64, "w": 64, "h": 64 }
             },
             {
                 "name": "MODULAIR_MECH",
                 "bonuses": [ "MECH_MODULAIR" ],
-                "img": { "src": "ce_tech_art", "x": 384, "y": 64, "w": 64, "h": 64 }
+                "img": { "src": "ce_tech_art", "x": 192, "y": 64, "w": 64, "h": 64 }
             }
         ],
         "dependencies": [ "HEAVIER_THAN_AIR_FLIGHT" ]
@@ -208,7 +208,7 @@
                 "img": { "src": "ce_tech_art", "x": 512, "y": 64, "w": 64, "h": 64 }
             }
         ],
-        "dependencies": [ "ADVANCED_FLIGHT", "COMPUTERS" ]
+        "dependencies": [ "ADVANCED_FLIGHT", "COMPUTERS", "OIL_FUEL_REFINING" ]
     },
 
     {
@@ -234,7 +234,7 @@
         "tier": 5,
         "bonuses": [ "CE_TENTS" ],
         "dependencies": [],
-        "img": { "src": "ce_tech_art", "x": 0, "y": 64, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 704, "y": 64, "w": 64, "h": 64 }
     },
     {
         "name": "SIMPLE_HOUSING",
@@ -242,7 +242,7 @@
         "tier": 6,
         "bonuses": [ "CE_HOUSE_SMALL" ],
         "dependencies": [ "TENT_CRAFT" ],
-        "img": { "src": "ce_tech_art", "x": 0, "y": 64, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 768, "y": 64, "w": 64, "h": 64 }
     },
     {
         "name": "HOUSING",
@@ -250,7 +250,7 @@
         "tier": 7,
         "bonuses": [ "CE_HOUSE" ],
         "dependencies": [ "SIMPLE_HOUSING" ],
-        "img": { "src": "ce_tech_art", "x": 0, "y": 64, "w": 64, "h": 64 }
+        "img": { "src": "ce_tech_art", "x": 832, "y": 64, "w": 64, "h": 64 }
     }
 ]
 
