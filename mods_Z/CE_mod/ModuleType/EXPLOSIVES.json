@@ -33,7 +33,7 @@
         "isGun": true,
         "reload": 1,
         "clip": 1,
-        "ammoPerClip": -1,
+        "ammoPerClip": 0,
 	"ammo": -1,
         "inaccuracy": 0.99,
         "blastDmg": 800,
@@ -120,20 +120,19 @@
         "weight": 1000,
         "cost": 1000,
         "isExplosive": true,
-        "isGun": true,
         "reload": 1,
+	"ammoPerClip": 0,
         "clip": 1,
-        "ammoPerClip": -1,
 	"ammo": -1,
-        "inaccuracy": 0,
+        "inaccuracy": 0.1,
         "blastDmg": 99999,
 	"blastSplashRadius": 99999,
-        "penDmg": 0,
+        "penDmg": 1,
 	"shotSpeed": 999.0,
         "recoilForce": 1000.0,
         "maxXRange": 400,
 	"shootTroopsRange": -1,
-        "fireArc": { "direction": "forwards", "degrees": 720 },
+        "fireArc": { "direction": "forwards", "degrees": 360 },
         "muzzleCenterX": 1.5,
         "muzzleCenterY": 1.5,
         "muzzleLength": 0,
@@ -146,8 +145,8 @@
                     "variations": ["smexplosion"],
                     "volume": 1.4,
                     "pitch": {
-                        "min": 0.9,
-                        "max": 1.1
+                        "min": 9.9,
+                        "max": 11.1
                     }
                 }
             ]
