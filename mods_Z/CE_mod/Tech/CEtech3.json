@@ -1,0 +1,52 @@
+[
+    {
+        "name": "ADVANCED_CONSTRUCTION",
+        "sort": 3110,
+        "tier": 3,
+        "bonuses": [ "CONSTRUCTION" ],
+        "dependencies": [ "SIMPLE_CONSTRUCTION" ],
+        "img": { "src": "ce_tech_art", "x": 704, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "MECH_TECH",
+        "sort": 3190,
+        "tier": 3,
+        "choices": [
+            {
+                "name": "CARRIER_MECH",
+                "bonuses": [ "MECH_CARRIER" ],
+                "img": { "src": "ce_tech_art", "x": 128, "y": 64, "w": 64, "h": 64 }
+            },
+            {
+                "name": "MODULAIR_MECH",
+                "bonuses": [ "MECH_MODULAIR" ],
+                "img": { "src": "ce_tech_art", "x": 192, "y": 64, "w": 64, "h": 64 }
+            }
+        ],
+        "dependencies": [ "HEAVIER_THAN_AIR_FLIGHT" ]
+    },
+    {
+        "name": "OIL_FUEL_REFINING",
+        "sort": 3360,
+        "tier": 3,
+        "bonuses": [ "FUEL_CREATION" ],
+        "dependencies": [ "COMBUSTIBLES" ],
+        "img": { "src": "ce_tech_art", "x": 576, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "SUSPEDIUM_COLLECTION",
+        "sort": 3890,
+        "tier": 3,
+        "bonuses": [ "COMMERCE_SUSPEDIUM_COLLECTION" ],
+        "dependencies": [ "FACTORING", "SCIENTIFIC_SUSPENDIUM_MINING" ],
+        "img": { "src": "ce_tech_art", "x": 448, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "REFINING",
+        "sort": 3998,
+        "tier": 3,
+        "bonuses": [ "COMMERCE_REFINING" ],
+        "dependencies": [ "FACTORING" ],
+        "img": { "src": "ce_tech_art", "x": 320, "y": 0, "w": 64, "h": 64 }
+    }
+]
