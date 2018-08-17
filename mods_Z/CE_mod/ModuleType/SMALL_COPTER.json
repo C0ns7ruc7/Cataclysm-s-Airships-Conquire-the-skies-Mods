@@ -87,10 +87,11 @@
         "weight": 60,
         "cost": 90,
         "lift": 450,
-		"propulsion": 0.015,
-        "coalReload": 70000,
+	"propulsion": 0.010,
+        "coalReload": 45000,
         "crew": 1,
         "recommendedCrew": 1,
+	"recommendedGuards": 1,
         "emitters": [
             {
                 "x": 0.25,
@@ -126,6 +127,34 @@
                 "x": 1.25,
                 "y": 0.75
             },
-        ]
+        ],
+        "runningLoop": {
+            "layers": [
+                {
+                    "variations": [ "engine_1600" ],
+                    "volume": {
+                        "value": 0.4,
+                        "onViewingSide": [
+                            0, 0.5,
+                            1, 1
+                        ],
+                        "xSpeed": [
+                            -0.3, 1.2,
+                            0, 0.4,
+                            0.3, 1.2
+                        ]
+                    },
+                    "pitch": {
+                        "min": 1.15,
+                        "max": 1.15,
+                        "xSpeed": [
+                            -0.3, 1.2,
+                            0, 0.8,
+                            0.3, 1.2
+                        ]
+                    }
+                }
+            ]
+        },
     }
 ]

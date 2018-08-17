@@ -132,14 +132,41 @@
         "moveDelay": 800,
         "weight": 350,
         "cost": 250,
-        "propulsion": 0.2025,
-        "lift": 4000,
-		
-        "coalReload": 14000,
+        "propulsion": 0.1350,
+        "lift": 4000,	
+        "coalReload": 7000,
         "crew": 2,
         "recommendedCrew": 3,
-		"recommendedGuards": 1,
+	"recommendedGuards": 3,
         "topOnly": true,
+        "runningLoop": {
+            "layers": [
+                {
+                    "variations": [ "engine_1600" ],
+                    "volume": {
+                        "value": 1.2,
+                        "onViewingSide": [
+                            0, 0.5,
+                            1, 1
+                        ],
+                        "xSpeed": [
+                            -0.3, 1.2,
+                            0, 0.4,
+                            0.3, 1.2
+                        ]
+                    },
+                    "pitch": {
+                        "min": 0.85,
+                        "max": 0.85,
+                        "xSpeed": [
+                            -0.3, 1.2,
+                            0, 0.8,
+                            0.3, 1.2
+                        ]
+                    }
+                }
+            ]
+        },
         "emitters": [
             {
                 "x": 1.08,

@@ -8,7 +8,7 @@
         "barrelY": 5,
         "shotSpeed": 0.65,
         "inaccuracy": 0.05,
-        "weaponReload": 1500,
+        "weaponReload": { "base": 1500, "DANGEROUS_FIGHTERS": 1000 },
         "crewEffectiveness": 1.2,
         "goingUpSpeedMult": 1.05,
         "maxHP": 6,
@@ -22,7 +22,7 @@
             "x": 1,
             "y": 0
         },
-        "supplyCost": 0.4,
+        "supplyCost": 0.8,
         "shouts": "crew",
         "deathSnd": {
             "layers": [
@@ -74,8 +74,89 @@
         "attackParticle": "muzzle_small",
         "aimTime": 300
     },   
-	{
+    {
+        "name": "droid_combat",
+        "doesWork": false,
+        "isMachine": true,
+        "doesGuard": true,
+        "canBoard": true,
+        "penDmg": 4,
+        "barrelX": 9,
+        "barrelY": 5,
+        "shotSpeed": 0.65,
+        "inaccuracy": 0.05,
+        "weaponReload": { "base": 1500, "DANGEROUS_FIGHTERS": 1000 },
+        "crewEffectiveness": 0.0,
+        "goingUpSpeedMult": 1.05,
+        "maxHP": 10,
+	"insideSpeed": 1.05,
+        "minWorkingHP": 1,
+        "returnToRepairHP": 3,
+        "msPerHPRepaired": 100,
+        "animLook": "droid",
+        "simpleLook": {
+            "src": "crew_cath",
+            "x": 1,
+            "y": 0
+        },
+        "supplyCost": 0.8,
+        "shouts": "crew",
+        "deathSnd": {
+            "layers": [
+                {
+                    "variations": ["death0", "death1", "death2", "death3", "death4"],
+                    "volume": {
+                        "min": 0.8,
+                        "max": 1.2
+                    },
+                    "pitch": {
+                        "min": 0.8,
+                        "max": 1.2
+                    }
+                }
+            ]
+        },
+        "bloodParticle": "blood_spray_internal",
+        "bloodParticleExternal": "blood_spray",
+        "coughSnd": {
+            "layers": [
+                {
+                    "variations": ["cough0", "cough1", "cough2", "cough3"],
+                    "volume": {
+                        "min": 0.3,
+                        "max": 0.4
+                    },
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1
+                    }
+                }
+            ]
+        },
+        "attackSnd": {
+            "layers": [
+                {
+                    "variations": ["rifle0", "rifle1"],
+                    "volume": {
+                        "min": 0.6,
+                        "max": 0.7
+                    },
+                    "pitch": {
+                        "min": 1.1,
+                        "max": 1.3
+                    }
+                }
+            ]
+        },
+        "attackParticle": "muzzle_small",
+        "aimTime": 300
+    },   
+    {
         "name": "soldierCE",
+
+        "popOutDelayMin": 300,
+        "popOutDelayRange": 1000,
+
         "doesWork": true,
         "doesGuard": true,
         "canBoard": true,
@@ -88,14 +169,15 @@
         "barrelY": 5,
         "shotSpeed": 0.75,
         "inaccuracy": 0.025,
-        "weaponReload": 800,
-        "maxRange": 300,
-        "shootTroopsRange": 300,
+        "weaponReload": { "base": 1000, "DANGEROUS_FIGHTERS": 666 },
+        "returnToRepairHP": 4,
+        "maxRange": 2000,
+        "shootTroopsRange": 800,
         "crewEffectiveness": 0.9,
         "goingUpSpeedMult": 0.87,
         "hookImg": {"src": "spritesheet", "x": 112, "y": 304, "w": 8, "h": 7},
         "hookRopeWidth": 0.7,
-        "maxHP": 5,
+        "maxHP": 6,
         "minWorkingHP": 2,
         "animLook": "soldierCE",
         "simpleLook": {
@@ -200,7 +282,7 @@
         "interceptTroops": true,
 
         "penDmg": 24,
-        "weaponReload": 200,
+        "weaponReload": { "base": 200, "DANGEROUS_FIGHTERS": 150 },
         "inaccuracy": 0.001,
         "maxRange": 600,
         "shootTroopsRange": 600,
@@ -261,7 +343,7 @@
         "barrelY": 5,
         "shotSpeed": 0.71,
         "inaccuracy": 0.02,
-        "weaponReload": 200,
+        "weaponReload": { "base": 200, "DANGEROUS_FIGHTERS": 133 },
         "crewEffectiveness": 0.1,
         "goingUpSpeedMult": 0.01,
         "insideSpeed": 0.9,
