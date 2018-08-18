@@ -1,0 +1,749 @@
+{
+    "assignJobsMs": 300,
+    "boardExitTargetCache": -1,
+    "boarderCanDoPathingIndex": 0,
+    "boarders": [],
+    "braking": 0,
+    "canDoPathingIndex": 0,
+    "captured": false,
+    "carrying": [],
+    "chunkSubIDCounter": 1,
+    "commandPoints": 20160,
+    "constructionBonuses": [
+        "ACID",
+        "AIR_DRAGOONS",
+        "BIPLANES",
+        "BOMBERS",
+        "BOMBS",
+        "BUZZER_CARRIER",
+        "BUZZER_MODULAIR",
+        "BUZZSAW",
+        "CANNONS",
+        "CE_ARMOR_EMERGANCY",
+        "CE_ARMOR_INOVATION",
+        "CE_ARMOR_REFINEING",
+        "CE_ARMOR_STACKING",
+        "CE_HOUSE",
+        "CE_HOUSE_SMALL",
+        "CE_SUSPENDED_ASSEMBLY",
+        "CE_SUSPEND_HARPOON",
+        "CE_SUSPEND_HEAVY",
+        "CE_SUSPEND_KICKBACK",
+        "CE_SUSPEND_TORP",
+        "CE_TENTS",
+        "COMBINED_PROPULSION",
+        "COMBINED_PROPULSION_ADVANCED",
+        "COMMERCE_CONTAINED_ECONOMIES",
+        "COMMERCE_FACTORING",
+        "COMMERCE_HAGGELING",
+        "COMMERCE_ORGENIZED_GATHERING",
+        "COMMERCE_REFINING",
+        "COMMERCE_SUSPEDIUM_COLLECTION",
+        "COMPUTERS",
+        "COMP_BUZZER",
+        "CONSTRUCTION",
+        "CONSTRUCTION_ADVANCED",
+        "CONSTRUCTION_SIMPLE",
+        "DECK_GUNS",
+        "DRAGONHIDE",
+        "EFFICIENT_AMMO_STORAGE",
+        "EXTREME_DISTANCE_COMBAT",
+        "FASTER_CANNON_RELOAD",
+        "FIRE_EXTINGUISHERS",
+        "FLAK_CANNONS",
+        "FLAMETHROWERS",
+        "FUEL_CREATION",
+        "GATLING_GUNS",
+        "GRAPPLING_HOOKS",
+        "HARPOONS",
+        "HEAVY_CANNON",
+        "HEAVY_STEEL_ARMOUR",
+        "HEAVY_TURRETS",
+        "HEAVY_WOODEN_ARMOUR",
+        "HIGH_PRESSURE_SUSPENDIUM",
+        "HUSSARS",
+        "IMPERIAL_CANNON",
+        "LAND_TROOPS",
+        "LARGE_SUSPENDIUM_CHAMBERS",
+        "LEGS",
+        "MARINES",
+        "MARTIAL_CASTE",
+        "MASSIVE_STONE_WALLS",
+        "MASS_ENERGY_REACTION",
+        "MECHANIS_COMPLETION",
+        "MECHANIS_IMPLIMENTATION",
+        "MECHANIS_REVOLUTION",
+        "MECHANIS_THEORY",
+        "MECH_CARRIER",
+        "MECH_MODULAIR",
+        "MECH_SPIDERS",
+        "MEDIUM_STEEL_ARMOUR",
+        "OPTIMAL_DISTANCE_FUZE",
+        "PROPELLERS",
+        "RETICULATED_PLATING",
+        "RIFLES",
+        "ROCKETS",
+        "SAFER_AMMO_STORAGE",
+        "SAFER_CANNONS",
+        "SAFETY_FUZES",
+        "SHAPED_HULLS",
+        "SHELL_ARMOUR",
+        "SPIDER_LEGS",
+        "SUSPEDIUM_CRYSTAL_CREATION",
+        "SUSPENDIUM_CANNON",
+        "SUSPENDIUM_CHAMBERS",
+        "TADPOLE_CARRIER",
+        "TADPOLE_MODULAIR",
+        "TELESCOPES",
+        "TORPEDOES",
+        "TRACKS",
+        "TRIPLANES",
+        "TURRETS",
+        "UNIVERSAL_CONSCRIPTION"
+    ],
+    "crew": [
+        {
+            "giveResourceWait": 0,
+            "hp": 14,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 30,
+            "timeSinceLaunch": 0,
+            "type": "mech_spider",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 14,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 31,
+            "timeSinceLaunch": 0,
+            "type": "mech_spider",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 14,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 26,
+            "timeSinceLaunch": 0,
+            "type": "mech_spider",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 14,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 27,
+            "timeSinceLaunch": 0,
+            "type": "mech_spider",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 14,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 30,
+            "timeSinceLaunch": 0,
+            "type": "mech_spider",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 14,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 31,
+            "timeSinceLaunch": 0,
+            "type": "mech_spider",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 14,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 26,
+            "timeSinceLaunch": 0,
+            "type": "mech_spider",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 14,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 27,
+            "timeSinceLaunch": 0,
+            "type": "mech_spider",
+            "weaponReload": 0
+        }
+    ],
+    "currentBonuses": [
+        "ACID",
+        "AIR_DRAGOONS",
+        "BIPLANES",
+        "BOMBERS",
+        "BOMBS",
+        "BUZZER_CARRIER",
+        "BUZZER_MODULAIR",
+        "BUZZSAW",
+        "CANNONS",
+        "CE_ARMOR_EMERGANCY",
+        "CE_ARMOR_INOVATION",
+        "CE_ARMOR_REFINEING",
+        "CE_ARMOR_STACKING",
+        "CE_HOUSE",
+        "CE_HOUSE_SMALL",
+        "CE_SUSPENDED_ASSEMBLY",
+        "CE_SUSPEND_HARPOON",
+        "CE_SUSPEND_HEAVY",
+        "CE_SUSPEND_KICKBACK",
+        "CE_SUSPEND_TORP",
+        "CE_TENTS",
+        "COMBINED_PROPULSION",
+        "COMBINED_PROPULSION_ADVANCED",
+        "COMMERCE_CONTAINED_ECONOMIES",
+        "COMMERCE_FACTORING",
+        "COMMERCE_HAGGELING",
+        "COMMERCE_ORGENIZED_GATHERING",
+        "COMMERCE_REFINING",
+        "COMMERCE_SUSPEDIUM_COLLECTION",
+        "COMPUTERS",
+        "COMP_BUZZER",
+        "CONSTRUCTION",
+        "CONSTRUCTION_ADVANCED",
+        "CONSTRUCTION_SIMPLE",
+        "DECK_GUNS",
+        "DRAGONHIDE",
+        "EFFICIENT_AMMO_STORAGE",
+        "EXTREME_DISTANCE_COMBAT",
+        "FASTER_CANNON_RELOAD",
+        "FIRE_EXTINGUISHERS",
+        "FLAK_CANNONS",
+        "FLAMETHROWERS",
+        "FUEL_CREATION",
+        "GATLING_GUNS",
+        "GRAPPLING_HOOKS",
+        "HARPOONS",
+        "HEAVY_CANNON",
+        "HEAVY_STEEL_ARMOUR",
+        "HEAVY_TURRETS",
+        "HEAVY_WOODEN_ARMOUR",
+        "HIGH_PRESSURE_SUSPENDIUM",
+        "HUSSARS",
+        "IMPERIAL_CANNON",
+        "LAND_TROOPS",
+        "LARGE_SUSPENDIUM_CHAMBERS",
+        "LEGS",
+        "MARINES",
+        "MARTIAL_CASTE",
+        "MASSIVE_STONE_WALLS",
+        "MASS_ENERGY_REACTION",
+        "MECHANIS_COMPLETION",
+        "MECHANIS_IMPLIMENTATION",
+        "MECHANIS_REVOLUTION",
+        "MECHANIS_THEORY",
+        "MECH_CARRIER",
+        "MECH_MODULAIR",
+        "MECH_SPIDERS",
+        "MEDIUM_STEEL_ARMOUR",
+        "OPTIMAL_DISTANCE_FUZE",
+        "PROPELLERS",
+        "RETICULATED_PLATING",
+        "RIFLES",
+        "ROCKETS",
+        "SAFER_AMMO_STORAGE",
+        "SAFER_CANNONS",
+        "SAFETY_FUZES",
+        "SHAPED_HULLS",
+        "SHELL_ARMOUR",
+        "SPIDER_LEGS",
+        "SUSPEDIUM_CRYSTAL_CREATION",
+        "SUSPENDIUM_CANNON",
+        "SUSPENDIUM_CHAMBERS",
+        "TADPOLE_CARRIER",
+        "TADPOLE_MODULAIR",
+        "TELESCOPES",
+        "TORPEDOES",
+        "TRACKS",
+        "TRIPLANES",
+        "TURRETS",
+        "UNIVERSAL_CONSCRIPTION"
+    ],
+    "decals": [],
+    "enginesRunning": false,
+    "fireMode": "NORMAL",
+    "flipMs": 0,
+    "flipTo": false,
+    "flipped": false,
+    "focusOnFirefighting": false,
+    "focusOnMoving": false,
+    "focusOnRepair": false,
+    "focusOnShooting": true,
+    "grounding": false,
+    "h": 5,
+    "hasBraked": 0,
+    "modules": [
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 1500,
+            "lowestHP": 1500,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "MECH_BLACK_WIDOW_THORAX",
+            "x": 4,
+            "y": 1
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 1500,
+            "lowestHP": 1500,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "MECH_BLACK_WIDOW_ABDOMEN",
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "moveToX": 0,
+    "moveToY": 0,
+    "movingLeft": false,
+    "msSinceLastXMove": 0,
+    "msSinceOnGround": 10000,
+    "name": "MECHGiant Black Widow",
+    "networkID": "[no network ID]",
+    "outOfCombatMs": 0,
+    "popOutCooldown": 0,
+    "ramming": false,
+    "sitting": false,
+    "suspendiumRunning": false,
+    "tiles": [
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000100",
+            "module": 0,
+            "x": 4,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 0,
+            "x": 5,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 0,
+            "x": 6,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 0,
+            "x": 7,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000100100",
+            "module": 0,
+            "x": 4,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 0,
+            "x": 5,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 0,
+            "x": 6,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 0,
+            "x": 7,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "100100000",
+            "module": 0,
+            "x": 4,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 0,
+            "x": 5,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 0,
+            "x": 6,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 0,
+            "x": 7,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "100000000",
+            "module": 0,
+            "x": 4,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 0,
+            "x": 5,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 0,
+            "x": 6,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 0,
+            "x": 7,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 1,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 1,
+            "x": 1,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 1,
+            "x": 2,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 1,
+            "x": 3,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 1,
+            "x": 0,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000001",
+            "module": 1,
+            "x": 1,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000011",
+            "module": 1,
+            "x": 2,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000110",
+            "module": 1,
+            "x": 3,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 1,
+            "x": 0,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000001001",
+            "module": 1,
+            "x": 1,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000011011",
+            "module": 1,
+            "x": 2,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000110110",
+            "module": 1,
+            "x": 3,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000000000",
+            "module": 1,
+            "x": 0,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "001001000",
+            "module": 1,
+            "x": 1,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "011011000",
+            "module": 1,
+            "x": 2,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "110110000",
+            "module": 1,
+            "x": 3,
+            "y": 3
+        }
+    ],
+    "timeMovingInSameXDirection": 0,
+    "type": "LANDSHIP",
+    "unableToFlipMs": 0,
+    "usedMods": [{
+        "en": "CE dependancy one",
+        "id": "cataclystic_expansion_dep1"
+    }],
+    "w": 8,
+    "x": 0,
+    "xSpeed": 0,
+    "y": 373.3636363636364,
+    "ySpeed": 0
+}

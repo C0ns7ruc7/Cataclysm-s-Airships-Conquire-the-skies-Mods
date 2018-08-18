@@ -1,0 +1,56 @@
+[
+    {
+        "name": "MECHwolfSpiderNest",
+        "spawnWeight": 4,
+        "needsRoad": true,
+        "income": 24,
+        "mapImage": { "src": "ui", "x": 384, "y": 464, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 400, "y": 464, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 384, "y": 464, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 400, "y": 464, "w": 16, "h": 16 },
+        "baseConstructions": ["MECHGiant Wolf Spider"],
+        "additionalConstructions": ["MECHGiant Wolf Spider"],
+        "incomeModifierPercentage": -20,
+        "rewards": [
+            {
+                "name": "MECHwolfSpiderNestCleared",
+                "money": 1000,
+                "rep": 5,
+                "spawnWeight": 20
+            },
+            {
+                "name": "MECHspiderNestAcid",
+                "rep": 3,
+                "spawnWeight": 1,
+                "bonus": "ACID"
+            }
+        ]
+    },
+    {
+        "name": "MECHblackWidowNest",
+        "spawnWeight": 4,
+        "needsRoad": true,
+        "income": 24,
+        "mapImage": { "src": "ui", "x": 384, "y": 464, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 400, "y": 464, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 384, "y": 464, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 400, "y": 464, "w": 16, "h": 16 },
+        "baseConstructions": ["MECHGiant Black Widow"],
+        "additionalConstructions": ["MECHGiant Black Widow"],
+        "incomeModifierPercentage": -20,
+        "rewards": [
+            {
+                "name": "MECHblackWidowNestCleared",
+                "money": 2000,
+                "rep": 5,
+                "spawnWeight": 20
+            },
+            {
+                "name": "MECHspiderNestAcid",
+                "rep": 3,
+                "spawnWeight": 1,
+                "bonus": "ACID"
+            }
+        ]
+    }
+]
