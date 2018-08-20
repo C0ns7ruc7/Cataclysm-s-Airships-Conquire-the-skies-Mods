@@ -61,20 +61,20 @@
         "frontOnly": true,
         "isGun": true,
         "isCannon": true,
-        "reload": 6500,
+        "reload": { "base": 6000, "FASTER_CANNON_RELOAD": 4800 },
         "clip": 300,
         "ammoPerClip": 0,
 	"ammo": -1,
 	"command": -1,
-	"maintenanceCost": 20,
-        "inaccuracy": 0.00125,
+	"maintenanceCost": { "base": 20, "UNIVERSAL_CONSCRIPTION": 13 },
+        "inaccuracy": { "base": 0.00125, "PRECISE_GUNNERY": 0.000625 },
         "blastDmg": 0,
-        "penDmg": 150,
-        "recoilForce": 5.0,
+        "penDmg": 120,
+        "recoilForce": 4.0,
         "fireArc": { "direction": "forwards", "degrees": 60 },
         "muzzleCenterX": 1.0,
         "muzzleCenterY": 0.5,
-        "muzzleLength": 1.25,
+        "muzzleLength": 4.5,
         "optimumRange": 800,
         "fireSound": {
             "layers": [
@@ -92,14 +92,14 @@
                 }
             ]
         },
-        "explodeHP": 80,
-        "explodeDmg": 100,
+        "explodeHP": { "base": 90, "SAFER_CANNONS": 0 },
+        "explodeDmg": { "base": 100, "SAFER_CANNONS": 0 },
         "weaponAppearance": {
             "shot": { "src": "spritesheet", "x": 0, "y": 304, "w": 10, "h": 5 },
-            "barrel": { "src": "spritesheet", "x": 151, "y": 196, "w": 40, "h": 9 },
-            "barrelX": 10,
-            "barrelY": 4,
-            "recoil": 8,
+            "barrel": { "src": "spritesheet", "x": 112, "y": 193, "w": 144, "h": 12 },
+            "barrelX": -25,
+            "barrelY": 14,
+            "recoil": 10,
             "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.007 }
         },
         "canOccupy": []

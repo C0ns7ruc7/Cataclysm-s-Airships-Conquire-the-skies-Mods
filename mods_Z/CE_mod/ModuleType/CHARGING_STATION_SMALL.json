@@ -41,8 +41,8 @@
         "moveDelay": 600,
         "weight": 20,
         "cost": 20,
-        "maintenanceCost": 4,
-        "command": 1,
+        "maintenanceCost": { "base": 4, "UNIVERSAL_CONSCRIPTION": 3 },
+        "command": { "base": 1, "FASTER_COMMANDS": 2 },
         "quarters": 4,
         "quartersType": "droid",
         "windows": [

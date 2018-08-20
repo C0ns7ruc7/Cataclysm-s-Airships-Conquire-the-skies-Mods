@@ -2,7 +2,7 @@
     {
         "name": "CHARGING_STATION",
         "categories": ["COMMAND_AND_CREW", "DRONE"],
-	"required": "MECHANIS_COMPLETION",
+	"required": "MECHANIS_REVOLUTION",
         "w": 3,
         "h": 1,
         "appearance": {
@@ -41,8 +41,8 @@
         "moveDelay": 600,
         "weight": 50,
         "cost": 50,
-        "maintenanceCost": 12,
-        "command": 1.5,
+        "maintenanceCost": { "base": 12, "UNIVERSAL_CONSCRIPTION": 9 },
+        "command": { "base": 2, "FASTER_COMMANDS": 4 },
         "quarters": 18,
         "quartersType": "droid",
         "windows": [

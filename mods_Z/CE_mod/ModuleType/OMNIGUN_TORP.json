@@ -1,4 +1,4 @@
-[
+[ 
     {
         "name": "FLIPPED_OMNIGUN_TORP",
         "flippedFrom": "OMNIGUN_TORP"
@@ -73,20 +73,20 @@
         "leftDoors": [0, 1],
         "upDoors": [0],
         "frontOnly": true,
-	    "topOnly": true,
-	    "bottomOnly": true,
+	"topOnly": true,
+	"bottomOnly": true,
         "isExplosive": true,
         "shotSpeed": 0.25,
         "jitterMerge": 0.3,
-        "reload": 12358,
-        "minXRange": 150,
-	    "clipReloadTime": 1235,
-        "clip": 2,
-	    "ammoPerClip": 4,
+        "reload": { "base": 12358, "FASTER_CANNON_RELOAD": 9886 },
+        "minXRange": { "base": 300, "SAFETY_FUZES": 60 },
+	"clipReloadTime": 1235,
+        "clip": 3,
+	"ammoPerClip": 5,
         "inaccuracy": 0.0012,
-        "blastDmg": 250,
+        "blastDmg": { "base": 250, "OPTIMAL_DISTANCE_FUZE": 300 },
         "penDmg": 0,
-	    "recoilForce": 1.0,
+	"recoilForce": 1.0,
         "fireArc": { "direction": "forwards", "degrees": 200 },
         "muzzleCenterX": 1.0,
         "muzzleCenterY": 1.0,
@@ -117,8 +117,8 @@
                 }
             ]
         },
-        "explodeHP": 50,
-        "explodeDmg": 200,
+        "explodeHP": { "base": 50, "SAFER_CANNONS": 0 },
+        "explodeDmg": { "base": 200, "SAFER_CANNONS": 0 },
         "weaponAppearance": {
             "shotAnimationInterval": 90,
             "shotFrames": [

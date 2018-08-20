@@ -7,7 +7,7 @@
         "name": "DRONE_RIFLE",
         "categories": ["DRONE"],
         "isWeapon": true,
-	"required": "MECHANIS_THEORY",
+	"required": "MECHANIS_IMPLIMENTATION",
         "w": 1,
         "h": 1,
         "appearance": {
@@ -59,18 +59,20 @@
         "frontOnly": true,
         "isGun": true,
         "reload": 1150,
-	"maintenanceCost": 10,
+	"maintenanceCost": { "base": 10, "UNIVERSAL_CONSCRIPTION": 6 },
         "clip": 3000,
         "ammoPerClip": 0,
 	"ammo": -1,
-        "inaccuracy": 0.00083,
+        "inaccuracy": 0.001,
+        "fixedInaccuracyVsTroops": 6,
         "blastDmg": 0,
-        "penDmg": 4,
+        "penDmg": 5,
 	"command": -1,
+        "shootTroopsRange": 400,
         "fireArc": { "direction": "forwards", "degrees": 240 },
         "muzzleCenterX": 0.19,
         "muzzleCenterY": 0.50,
-        "muzzleLength": 0.9375,
+        "muzzleLength": 1,
         "fireSound": {
             "layers": [
                 {
@@ -91,11 +93,11 @@
         "jitterMerge": 0.4,
         "weaponAppearance": 
 		{
-            "shot": { "src": "spritesheet", "x": 64, "y": 304, "w": 2, "h": 2 },
-            "barrel": { "src": "spritesheet", "x": 385, "y": 161, "w": 30, "h": 4 },
-            "barrelX": -10,
+            "shot": { "src": "spritesheet", "x": 48, "y": 304, "w": 1, "h": 1 },
+            "barrel": { "src": "spritesheet", "x": 321, "y": 112, "w": 23, "h": 6 },
+            "barrelX": 0,
             "barrelY": 6,
-            "recoil": 1
+            "recoil": 2
         },
 	"canOccupy": []
     }

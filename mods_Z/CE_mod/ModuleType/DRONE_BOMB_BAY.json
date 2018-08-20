@@ -3,7 +3,7 @@
         "name": "DRONE_BOMB_BAY",
         "categories": ["DRONE"],
         "isWeapon": true,
-		"required": "MECHANIS_THEORY",
+	"required": "MECHANIS_IMPLIMENTATION",
         "w": 2,
         "h": 1,
         "appearance": {
@@ -61,17 +61,29 @@
         "clip": 200,
         "ammoPerClip": 0,
 	"ammo": -1,
-	"maintenanceCost": 15,
+	"maintenanceCost": { "base": 15, "UNIVERSAL_CONSCRIPTION": 10 },
 	"command": -1,
         "inaccuracy": 0.00125,
-        "blastDmg": 50,
+        "blastDmg": { "base": 50, "POWERFUL_EXPLOSIVES": 65 },
+        "blastSplashRadius": 50,
         "penDmg": 0,
         "fireArc": { "direction": "down", "degrees": 10 },
         "muzzleCenterX": 1,
         "muzzleCenterY": 0.7,
         "muzzleLength": 0,
         "optimumRange": 500,
-        "hitSound": "smexplosion",
+        "hitSound": {
+            "layers": [
+                {
+                    "variations": ["smexplosion"],
+                    "volume": 1.8,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1
+                    }
+                }
+            ]
+        },
         "explodeHP": 80,
         "explodeDmg": 120,
         "weaponAppearance": {

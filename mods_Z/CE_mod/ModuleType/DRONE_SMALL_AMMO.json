@@ -29,17 +29,17 @@
         ],
         "hp": 450,
 	"destroyedHP": 0,
-        "fireHP": 80,
+        "fireHP": { "base": 160, "SAFER_AMMO_STORAGE": 40 },
         "crew": 0,
+        "ammo": { "base": 100, "EFFICIENT_AMMO_STORAGE": 125 },
         "recommendedCrew": 0,
-	"maintenanceCost": 10,
-        "explodeHP": 40,
+	"maintenanceCost": { "base": 10, "UNIVERSAL_CONSCRIPTION": 6 },
+        "explodeHP": { "base": 100, "SAFER_AMMO_STORAGE": 25 },
         "explodeDmg": 300,
         "moveDelay": 600,
         "weight": 105,
         "cost": 100,
 	"command": -1,
-	"accuracyBonus": 0.5,
-        "canOccupy": []
+	"accuracyBonus": 0.25
     }
 ]

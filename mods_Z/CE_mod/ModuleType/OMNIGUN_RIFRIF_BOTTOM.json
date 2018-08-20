@@ -67,13 +67,13 @@
 	"isGun": true,
         "shotSpeed": 1.1,
         "jitterMerge": 0.7,
-        "reload": 125,
+        "reload": { "base": 125, "FASTER_CANNON_RELOAD": 100 },
 	"clipReloadTime": 2750,
         "clip": 12,
 	"numShots": 2,
         "shotSpeedVariation": 0.1,
         "multiShotJitter": 0.00075,
-        "inaccuracy": 0.003,
+        "inaccuracy": { "base": 0.003, "PRECISE_GUNNERY": 0.0015 },
         "blastDmg": 0,
 	"directDmg": 1,
         "penDmg": 5,
@@ -113,8 +113,8 @@
                 }
             ]
         },
-        "explodeHP": 10,
-        "explodeDmg": 10,
+        "explodeHP": { "base": 30, "SAFER_CANNONS": 0 },
+        "explodeDmg": { "base": 50, "SAFER_CANNONS": 0 },
         "weaponAppearance": {
             "shot": { "src": "spritesheet", "x": 48, "y": 304, "w": 1, "h": 1 },
             "barrel": { "src": "sprite-vabese", "x": 304, "y": 304, "w": 32, "h": 32 },

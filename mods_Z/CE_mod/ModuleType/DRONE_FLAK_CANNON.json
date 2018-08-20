@@ -3,7 +3,7 @@
         "name": "DRONE_FLAK_CANNON",
         "categories": ["DRONE"],
         "isWeapon": true,
-		"required": "MECHANIS_COMPLETION",
+		"required": "MECHANIS_IMPLIMENTATION",
         "w": 2,
         "h": 1,
         "appearance": {
@@ -51,7 +51,7 @@
         "moveDelay": 800,
         "weight": 90,
         "cost": 365,
-	"maintenanceCost": 15,
+	"maintenanceCost": { "base": 15, "UNIVERSAL_CONSCRIPTION": 10 },
         "crew": 0,
         "topOnly": true,
         "isGun": true,
@@ -61,17 +61,18 @@
         "ammoPerClip": 0,
 	"ammo": -1,
 	"command": -1,
-        "inaccuracy": 0.0013,
-        "blastDmg": 17,
+        "inaccuracy": { "base": 0.0013, "PRECISE_GUNNERY": 0.00065 },
+        "blastDmg": { "base": 8, "POWERFUL_EXPLOSIVES": 10 },
+        "blastSplashRadius": 45,
         "penDmg": 2,
         "recoilForce": 0.2,
         "fireArc": { "direction": "up", "degrees": 120 },
         "muzzleCenterX": 1,
         "muzzleCenterY": 0.375,
-        "muzzleLength": 0.9375,
+        "muzzleLength": 2.6,
         "optimumRange": 400,
 	"shootTroopsRange": 800,
-	"fireSound": {
+        "fireSound": {
             "layers": [
                 {
                     "variations": [ "flak0", "flak1", "flak2", "flak3" ],
@@ -84,9 +85,33 @@
                             3000, 0.7
                         ]
                     }
-                }
-            ]
-        },
+                },
+				{
+                    "variations": [ "cannon_d_0", "cannon_d_1", "cannon_d_2", "cannon_d_3" ],
+                    "volume": {
+                        "min": 0.3,
+                        "max": 0.3,
+						"distance": [
+                            0, 0,
+							750, 0,
+							2000, 0.1,
+							3000, 0.5,
+							4000, 0.75,
+							5000, 0.1
+						],
+					},
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.2,
+                        "distance": [
+                            0, 1,
+                            2000, 1,
+							5000, 0.85
+						]
+					}
+				}	
+			]
+		},
         "hitSound": {
             "layers": [
                 {
@@ -99,14 +124,16 @@
                 }
             ]
         },
-        "explodeHP": 10,
-        "explodeDmg": 30,
+        "explodeHP": 30,
+        "explodeDmg": 90,
         "weaponAppearance": {
             "shot": { "src": "spritesheet", "x": 64, "y": 304, "w": 2, "h": 2 },
-            "barrel": { "src": "spritesheet", "x": 385, "y": 161, "w": 30, "h": 4 },
-            "barrelX": 1,
-            "barrelY": 5,
-            "recoil": 1
+            "barrel": { "src": "spritesheet", "x": 937, "y": 645, "w": 82, "h": 7 },
+            "barrelX": -25,
+            "barrelY": -6,
+            "recoil": 3,
+            "hitExplosionSize": 0.5,
+            "missExplosionSize": 0.5,
         },
 		"canOccupy": []
     }

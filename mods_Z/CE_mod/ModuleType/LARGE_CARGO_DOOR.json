@@ -1,4 +1,4 @@
-[
+[ 
     {
         "name": "LARGE_CARGO_DOOR",
         "categories": ["RESOURCES"],
@@ -32,8 +32,9 @@
         "weight": 50,
         "cost": 100,
         "supplyProvided": 200,
+	"maintenanceCost": { "base": 1, "UNIVERSAL_CONSCRIPTION": 0 },
         "upDoors": [ 0 ],
-	    "leftDoors": [ 2 ],
+	"leftDoors": [ 2 ],
         "rightDoors": [ 0, 2 ],
         "canOccupy": [
             { "x": 0, "y": 0 },

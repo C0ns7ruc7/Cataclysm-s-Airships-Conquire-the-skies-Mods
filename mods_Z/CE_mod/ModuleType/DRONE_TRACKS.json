@@ -3,7 +3,7 @@
         "name": "DRONE_TRACKS",
         "categories": ["DRONE"],
         "availableFor": ["LANDSHIP"],
-		"required": "MECHANIS_IMPLIMENTATION",
+		"required": "MECHANIS_THEORY",
         "w": 4,
         "h": 1,
         "appearance": {
@@ -23,7 +23,7 @@
         "crew": 0,
         "bottomOnly": true,
 	"command": -1,
-	"maintenanceCost": 10,
+	"maintenanceCost": { "base": 10, "UNIVERSAL_CONSCRIPTION": 6 },
 	"canOccupy": [],
         "externalAppearances": [
             {

@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "MOTOR_HEAD",
         "categories": ["UNIT"],
         "external": true,
@@ -42,18 +43,19 @@
         "moveDelay": 800,
         "weight": 20,
         "cost": 40,
-	"lift": 250,
+	"lift": { "base": 250, "SUSPENDIUM_SPECIALISTS": 325 },
 
         "frontOnly": true,
-
-        "reload": 200,
+        "maintenanceCost": { "base": 5, "MARTIAL_CASTE": 0 },
+        "reload": { "base": 200, "FASTER_CANNON_RELOAD": 133 },
         "clip": 2000,
         "ammoPerClip": 0,
 	"ammo": -1,
-        "inaccuracy": 0.0035,
-	    "fixedInaccuracyVsTroops": 1,
-	    "shootTroopsRange": 500,
-        "blastDmg": 3,
+        "inaccuracy": { "base": 0.0035, "PRECISE_GUNNERY": 0.00225 },
+	"fixedInaccuracyVsTroops": 1,
+	"shootTroopsRange": 500,
+        "blastDmg": { "base": 2, "POWERFUL_EXPLOSIVES": 4 },
+        "blastSplashRadius": 8,
         "penDmg": 3,
         "directDmg": 2,
         "fireArc": { "direction": "forwards", "degrees": 45 },

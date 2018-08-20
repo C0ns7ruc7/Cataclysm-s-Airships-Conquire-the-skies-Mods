@@ -82,7 +82,7 @@
         "reload": 4500,
 	"clipReloadTime": 1500,
         "clip": 1,
-        "inaccuracy": 0.0018,
+        "inaccuracy": { "base": 0.0018, "PRECISE_GUNNERY": 0.0009 },
         "blastDmg": 0,
 	"directDmg": 1,
         "penDmg": 5,
@@ -108,8 +108,8 @@
                 }
             ]
         },
-        "explodeHP": 10,
-        "explodeDmg": 10,
+        "explodeHP": { "base": 50, "SAFER_CANNONS": 0 },
+        "explodeDmg": { "base": 120, "SAFER_CANNONS": 0 },
 		"tetherSpec": {
 		    "color": {"r": 217, "g": 203, "b": 177},
 			"maxRange": 1000,

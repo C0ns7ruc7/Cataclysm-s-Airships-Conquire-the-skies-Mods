@@ -69,10 +69,10 @@
         "moveDelay": 800,
         "weight": 175,
         "cost": 250,
-	"maintenanceCost": 10,
+	"maintenanceCost": { "base": 10, "UNIVERSAL_CONSCRIPTION": 6 },
 	"command": -1,
-        "lift": 900,
-        "propulsion": -0.01,
+        "lift": { "base": 900, "SUSPENDIUM_SPECIALISTS": 1170 },
+        "propulsion": -0.0001,
         "crew": 0,
         "recommendedCrew": 0,
         "emitters": [

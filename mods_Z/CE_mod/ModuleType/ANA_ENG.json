@@ -1,7 +1,7 @@
 [{
         "name": "ANA_ENG",
         "categories": ["COMMAND_AND_CREW"],
-        "required": "COMPUTERS",
+        "required": "MECHANIS_THEORY",
         "w": 3,
         "h": 3,
         "appearance": {
@@ -85,7 +85,7 @@
         "moveDelay": 600,
         "weight": 290,
         "cost": 50,
-        "command": 10,
+        "command": { "base": 10, "FASTER_COMMANDS": 20 },
         "coalReload": 20000,
         "accuracyBonus": 0.05,
         "crew": 0,

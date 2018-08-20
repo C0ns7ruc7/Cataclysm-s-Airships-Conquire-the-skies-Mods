@@ -2,7 +2,7 @@
     {
         "name": "CLOCKWORK_MIND",
         "categories": ["DRONE"],
-		"required": "CEDRONE",
+	"required": "MECHANIS_REVOLUTION",
         "w": 1,
         "h": 1,
         "appearance": {
@@ -45,8 +45,8 @@
                 "inside": true
             }
         ],
-        "command": 8,
-        "maintenanceCost": 15,
+        "command": { "base": 8, "FASTER_COMMANDS": 16 },
+        "maintenanceCost": { "base": 15, "UNIVERSAL_CONSCRIPTION": 10 },
 	"canOccupy": []	
     }
 ]
