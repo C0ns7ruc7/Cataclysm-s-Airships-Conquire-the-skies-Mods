@@ -1,29 +1,439 @@
 [
-{
-        "name": "",
-        "charges": [
-            ""
-        ],
-        "shipTiers": [
-            [ "" ],
-        ],
-        "shipUpgradeSequences": [
-            [ "" ],
-        ],
-        "landshipTiers": [
-            [ "" ],
-        ],
-        "landshipUpgradeSequences": [
-            [ "" ],
-        ],
-        "buildingTiers": [
-            [ "" ],
-        ],
-        "buildingUpgradeSequences": [
-            [ "" ],
-        ],
-        "techs": [
-            "",
-        ]
-    },
+	{
+		"name": "CE_ROCKETMAN",
+		"shipTiers": [
+		    [ "T3_large" ],
+		    [ "T2_large", "T2_large_2", "T2_rocketRam", "T2_small", "T2_small_rocket" ],
+		    [ "T1_bomber", "T1_large", "T1_large_2", "T1_small" ],
+		    [ "T0_bomber", "T0_large", "T0_small" ]
+		],
+		"shipUpgradeSequences": [
+		    [ "T0_bomber", "T1_bomber" ],
+		    [ "T0_large", "T1_large", "T1_large_2", "T2_large", "T2_large_2", "T3_large" ],
+		    [ "T0_small", "T1_small", "T2_small", "T2_small_rocket" ]
+		],
+		"landshipTiers": [],
+		"landshipUpgradeSequences": [],
+		"buildingTiers": [
+		    [ "T3_TOWER" ],
+		    [ "T2_DEF_FARM", "T2_FARM", "T2_FARM2" ],
+		    [ "T1_FARM_MIN", "T1_TOWER_1" ],
+		    [ "T0_FARM_MIN", "T0_TOWER_1" ]
+		],
+		"buildingUpgradeSequences": [
+		    [ "T0_FARM_MIN", "T1_FARM_MIN", "T2_FARM", "T2_FARM2" ],
+		    [ "T0_TOWER_1", "T3_TOWER" ]
+		],
+		"techs": [
+			"RIFLING",
+			"SIMPLE_CONSTRUCTION",
+			"EXPLOSIVES",
+			"ENERGISED_SUSPENDIUM",
+			"HAGELING",
+			"ORGENIZED_GATHERING",
+			"ADVANCED_EXPLOSIVES",
+			"COMBUSTIBLES",
+			"OIL_FUEL_REFINING",
+			"CE_ARMOR_EMERGANCY",
+			"ADVANCED_CONSTRUCTION",
+		]
+    	},
+	{
+		"name": "CE_TURTLE_COMMERCE",
+		"shipTiers": [
+		    [ "T21_buzzer" ],
+		    [ "T13_helliBOAT" ],
+		    [ "T12_ship_arratmandu" ],
+		    [ "T8_ship_arratmandu" ],
+		    [ "T6_ship_arratmandu" ],
+		    [ "T3_ship_arratmandu" ],
+		    [ "T2_ship_arratmandu" ],
+		    [ "T0_ship_arratmandu" ],
+		],
+		"landshipTiers": [],
+		"landshipUpgradeSequences": [],
+		"shipUpgradeSequences": [
+		    [ "T0_ship_arratmandu", "T2_ship_arratmandu", "T3_ship_arratmandu", "T6_ship_arratmandu", "T8_ship_arratmandu", "T12_ship_arratmandu" ]
+		],
+		"buildingTiers": [
+		    [ "T10_FARMSTEAD" ],
+		    [ "T9_FARMSTEAD_3" ],
+		    [ "T8_greatWALL" ],
+		    [ "T5_greatWALL" ],
+		    [ "T4_FARMSTEAD", "T4_FARMSTEAD_2", "T4_FARMSTEAD_3" ],
+		    [ "T2_greatWALL" ],
+		    [ "T1_FARMSTEAD" ],
+		    [ "T0_greatWALL" ]
+		],
+		"buildingUpgradeSequences": [
+		    [ "T0_greatWALL", "T2_greatWALL", "T5_greatWALL", "T8_greatWALL" ],
+		    [ "T1_FARMSTEAD", "T4_FARMSTEAD", "T4_FARMSTEAD_2", "T4_FARMSTEAD_3", "T9_FARMSTEAD_3","T10_FARMSTEAD" ],
+		],
+		"techs": [
+			"TENT_CRAFT",
+			"SIMPLE_CONSTRUCTION",
+			"RIFLING",
+			"HAGELING",
+			"ORGENIZED_GATHERING",
+			"ADVANCED_CONSTRUCTION",
+			"ENERGISED_SUSPENDIUM",
+			"OPTICS",
+			"COMPLEX_CONSTRUCTION",
+			"SIMPLE_HOUSING",
+			"HOUSING",
+			"GUNNERY",
+			"MACHI10Y",
+			"HELLICOPTERS",
+			"LARGE_HELLICOPTERS",
+			"METALLURGY",
+			"HEAVY_CANNON",
+			"GYROSCOPES",
+			"REFINING",
+			"MILITARY_TRAINING",
+			"AERIAL_CORPS",
+			"BUZZER_TECH"
+		]
+    	},
+	{
+		"name": "CE_SLOW",
+		"charges": [
+		    ""
+		],
+		"shipTiers": [
+		    [ "" ],
+		],
+		"shipUpgradeSequences": [
+		    [ "" ],
+		],
+		"landshipTiers": [
+		    [ "" ],
+		],
+		"landshipUpgradeSequences": [
+		    [ "" ],
+		],
+		"buildingTiers": [
+		    [ "" ],
+		],
+		"buildingUpgradeSequences": [
+		    [ "" ],
+		],
+		"techs": [
+"MILITARY_TRAINING",
+"EXPLOSIVES",
+"RIFLING",
+"GUNNERY",
+"MACHINERY",
+"ENERGISED_SUSPENDIUM",
+"HAGELING",
+
+"AERIAL_TACTICS",
+"AERIAL_CORPS",
+"EARTHBOUND_CORPS",
+"FIRE_SAFETY",
+"ADVANCED_EXPLOSIVES",
+"OPTICS",
+"METALLURGY",
+"HEAVY_WOODEN_ARMOUR",
+"LANDSHIPS",
+"HELLICOPTERS",
+"HIGH_PRESSURE_SUSPENDIUM",
+"ORGENIZED_GATHERING",
+
+"ELITE_INFANTRY",
+"SIMPLE_CONSTRUCTION",
+"BUZZER_TECH",
+"HEAVIER_THAN_AIR_FLIGHT",
+"COMBUSTIBLES",
+"AMMO_STORAGE",
+"GYROSCOPES",
+"HEAVY_CANNON",
+"FORTIFICATIONS",
+"LARGE_HELLICOPTERS",
+"ARTICULATED_MACHINERY",
+"MACHINING",
+"SCIENTIFIC_SUSPENDIUM_MINING",
+"FACTORING",
+
+"LOADING_DRILLS",
+"ADVANCED_CONSTRUCTION",
+"MECH_TECH",
+"ADVANCED_FLIGHT",
+"OIL_FUEL_REFINING",
+"CYBERNETICS",
+"COMPUTERS",
+"AUTOMATED_LOADING_SYSTEMS",
+"ADVANCED_METALLURGY",
+"BIOMIMETICS",
+"ANTI_AIR_TACTICS",
+"SUSPENDIUM_CANNON",
+"SUSPEDIUM_COLLECTION",
+"REFINING",
+
+"MILITARY_ORGANISATION",
+"COMPLEX_CONSTRUCTION",
+"TADPOLE_TECH",
+"BUZZER_COMP",
+"ADVANCED_FUZES",
+"ROBOTICS",
+"CE_SUSPENDED_ASSEMBLY",
+"BIOSTRUCTURES",
+"CRYSTAL_CREATION",
+"CONTAINED_ECONOMIES",
+
+"THEORY_MECHANIS",
+"ATOM_THEORY",
+"LONG_DISTANCE_COMBAT",
+"CE_SUSPEND_KICKBACK",
+"TENT_CRAFT",
+"CE_ARMOR_EMERGANCY",
+
+"IMPLIMENTATION_MECHANIS",
+"SIMPLE_HOUSING",
+"CE_SUSPEND_HEAVY",
+"CE_SUSPEND_HARPOON",
+"CE_ARMOR_INOVATION",
+"CE_ARMOR_STACKING",
+
+"REVOLUTION_MECHANIS",
+"HOUSING",
+"COMPLETION_MECHANIS",
+		]
+    	},
+	{
+		"name": "CE_SLOW2",
+		"charges": [
+		    ""
+		],
+		"shipTiers": [
+		    [ "" ],
+		],
+		"shipUpgradeSequences": [
+		    [ "" ],
+		],
+		"landshipTiers": [
+		    [ "" ],
+		],
+		"landshipUpgradeSequences": [
+		    [ "" ],
+		],
+		"buildingTiers": [
+		    [ "" ],
+		],
+		"buildingUpgradeSequences": [
+		    [ "" ],
+		],
+		"techs": [
+"MILITARY_TRAINING",
+"EXPLOSIVES",
+"RIFLING",
+"GUNNERY",
+"MACHINERY",
+"ENERGISED_SUSPENDIUM",
+"HAGELING",
+
+"AERIAL_TACTICS",
+"AERIAL_CORPS",
+"EARTHBOUND_CORPS",
+"FIRE_SAFETY",
+"ADVANCED_EXPLOSIVES",
+"OPTICS",
+"METALLURGY",
+"HEAVY_WOODEN_ARMOUR",
+"LANDSHIPS",
+"HELLICOPTERS",
+"HIGH_PRESSURE_SUSPENDIUM",
+"ORGENIZED_GATHERING",
+
+"ELITE_INFANTRY",
+"SIMPLE_CONSTRUCTION",
+"BUZZER_TECH",
+"HEAVIER_THAN_AIR_FLIGHT",
+"COMBUSTIBLES",
+"AMMO_STORAGE",
+"GYROSCOPES",
+"HEAVY_CANNON",
+"FORTIFICATIONS",
+"LARGE_HELLICOPTERS",
+"ARTICULATED_MACHINERY",
+"MACHINING",
+"SCIENTIFIC_SUSPENDIUM_MINING",
+"FACTORING",
+
+"LOADING_DRILLS",
+"ADVANCED_CONSTRUCTION",
+"MECH_TECH",
+"ADVANCED_FLIGHT",
+"OIL_FUEL_REFINING",
+"CYBERNETICS",
+"COMPUTERS",
+"AUTOMATED_LOADING_SYSTEMS",
+"ADVANCED_METALLURGY",
+"BIOMIMETICS",
+"ANTI_AIR_TACTICS",
+"SUSPENDIUM_CANNON",
+"SUSPEDIUM_COLLECTION",
+"REFINING",
+
+"MILITARY_ORGANISATION",
+"COMPLEX_CONSTRUCTION",
+"TADPOLE_TECH",
+"BUZZER_COMP",
+"ADVANCED_FUZES",
+"ROBOTICS",
+"CE_SUSPENDED_ASSEMBLY",
+"BIOSTRUCTURES",
+"CRYSTAL_CREATION",
+"CONTAINED_ECONOMIES",
+
+"THEORY_MECHANIS",
+"ATOM_THEORY",
+"LONG_DISTANCE_COMBAT",
+"CE_SUSPEND_KICKBACK",
+"TENT_CRAFT",
+"CE_ARMOR_EMERGANCY",
+
+"IMPLIMENTATION_MECHANIS",
+"SIMPLE_HOUSING",
+"CE_SUSPEND_HEAVY",
+"CE_SUSPEND_HARPOON",
+"CE_ARMOR_INOVATION",
+"CE_ARMOR_STACKING",
+
+"REVOLUTION_MECHANIS",
+"HOUSING",
+"COMPLETION_MECHANIS",
+		]
+    	},
+	{
+		"name": "CE_SLOW3",
+		"charges": [
+		    ""
+		],
+		"shipTiers": [
+		    [ "" ],
+		],
+		"shipUpgradeSequences": [
+		    [ "" ],
+		],
+		"landshipTiers": [
+		    [ "" ],
+		],
+		"landshipUpgradeSequences": [
+		    [ "" ],
+		],
+		"buildingTiers": [
+		    [ "" ],
+		],
+		"buildingUpgradeSequences": [
+		    [ "" ],
+		],
+		"techs": [
+"MILITARY_TRAINING",
+"EXPLOSIVES",
+"RIFLING",
+"GUNNERY",
+"MACHINERY",
+"ENERGISED_SUSPENDIUM",
+"HAGELING",
+
+"AERIAL_TACTICS",
+"AERIAL_CORPS",
+"EARTHBOUND_CORPS",
+"FIRE_SAFETY",
+"ADVANCED_EXPLOSIVES",
+"OPTICS",
+"METALLURGY",
+"HEAVY_WOODEN_ARMOUR",
+"LANDSHIPS",
+"HELLICOPTERS",
+"HIGH_PRESSURE_SUSPENDIUM",
+"ORGENIZED_GATHERING",
+
+"ELITE_INFANTRY",
+"SIMPLE_CONSTRUCTION",
+"BUZZER_TECH",
+"HEAVIER_THAN_AIR_FLIGHT",
+"COMBUSTIBLES",
+"AMMO_STORAGE",
+"GYROSCOPES",
+"HEAVY_CANNON",
+"FORTIFICATIONS",
+"LARGE_HELLICOPTERS",
+"ARTICULATED_MACHINERY",
+"MACHINING",
+"SCIENTIFIC_SUSPENDIUM_MINING",
+"FACTORING",
+
+"LOADING_DRILLS",
+"ADVANCED_CONSTRUCTION",
+"MECH_TECH",
+"ADVANCED_FLIGHT",
+"OIL_FUEL_REFINING",
+"CYBERNETICS",
+"COMPUTERS",
+"AUTOMATED_LOADING_SYSTEMS",
+"ADVANCED_METALLURGY",
+"BIOMIMETICS",
+"ANTI_AIR_TACTICS",
+"SUSPENDIUM_CANNON",
+"SUSPEDIUM_COLLECTION",
+"REFINING",
+
+"MILITARY_ORGANISATION",
+"COMPLEX_CONSTRUCTION",
+"TADPOLE_TECH",
+"BUZZER_COMP",
+"ADVANCED_FUZES",
+"ROBOTICS",
+"CE_SUSPENDED_ASSEMBLY",
+"BIOSTRUCTURES",
+"CRYSTAL_CREATION",
+"CONTAINED_ECONOMIES",
+
+"THEORY_MECHANIS",
+"ATOM_THEORY",
+"LONG_DISTANCE_COMBAT",
+"CE_SUSPEND_KICKBACK",
+"TENT_CRAFT",
+"CE_ARMOR_EMERGANCY",
+
+"IMPLIMENTATION_MECHANIS",
+"SIMPLE_HOUSING",
+"CE_SUSPEND_HEAVY",
+"CE_SUSPEND_HARPOON",
+"CE_ARMOR_INOVATION",
+"CE_ARMOR_STACKING",
+
+"REVOLUTION_MECHANIS",
+"HOUSING",
+"COMPLETION_MECHANIS",
+		]
+    	},
+	{
+		"name": "",
+		"charges": [
+		    ""
+		],
+		"shipTiers": [
+		    [ "" ],
+		],
+		"shipUpgradeSequences": [
+		    [ "" ],
+		],
+		"landshipTiers": [
+		    [ "" ],
+		],
+		"landshipUpgradeSequences": [
+		    [ "" ],
+		],
+		"buildingTiers": [
+		    [ "" ],
+		],
+		"buildingUpgradeSequences": [
+		    [ "" ],
+		],
+		"techs": [
+			"",
+		]
+    	}
 ]
