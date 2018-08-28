@@ -1,0 +1,5402 @@
+{
+    "assignJobsMs": 300,
+    "boardExitTargetCache": -1,
+    "boarderCanDoPathingIndex": 0,
+    "boarders": [],
+    "braking": 0,
+    "canDoPathingIndex": 0,
+    "captured": false,
+    "carrying": [],
+    "chunkSubIDCounter": 1,
+    "commandPoints": 64800,
+    "constructionBonuses": [
+        "AIR_DRAGOONS",
+        "BIPLANES",
+        "BOMBERS",
+        "BOMBS",
+        "BUZZER_CARRIER",
+        "BUZZSAW",
+        "CANNONS",
+        "CE_ARMOR_EMERGANCY",
+        "CE_ARMOR_INOVATION",
+        "CE_ARMOR_REFINEING",
+        "CE_ARMOR_STACKING",
+        "CE_HOUSE_SMALL",
+        "CE_SUSPENDED_ASSEMBLY",
+        "CE_SUSPEND_HARPOON",
+        "CE_SUSPEND_HEAVY",
+        "CE_SUSPEND_KICKBACK",
+        "CE_SUSPEND_TORP",
+        "CE_TENTS",
+        "COMBINED_PROPULSION",
+        "COMBINED_PROPULSION_ADVANCED",
+        "COMMERCE_CONTAINED_ECONOMIES",
+        "COMMERCE_FACTORING",
+        "COMMERCE_HAGGELING",
+        "COMMERCE_ORGENIZED_GATHERING",
+        "COMMERCE_REFINING",
+        "COMMERCE_SUSPEDIUM_COLLECTION",
+        "COMPUTERS",
+        "COMP_BUZZER",
+        "CONSTRUCTION",
+        "CONSTRUCTION_ADVANCED",
+        "CONSTRUCTION_SIMPLE",
+        "DECK_GUNS",
+        "EFFICIENT_AMMO_STORAGE",
+        "EXPERT_REPAIRS",
+        "EXTREME_DISTANCE_COMBAT",
+        "FASTER_CANNON_RELOAD",
+        "FIRE_EXTINGUISHERS",
+        "FLAK_CANNONS",
+        "FLAMETHROWERS",
+        "FUEL_CREATION",
+        "GATLING_GUNS",
+        "GRAPPLING_HOOKS",
+        "HARPOONS",
+        "HEAVY_CANNON",
+        "HEAVY_STEEL_ARMOUR",
+        "HEAVY_TURRETS",
+        "HEAVY_WOODEN_ARMOUR",
+        "HIGH_PRESSURE_SUSPENDIUM",
+        "HUSSARS",
+        "IMPERIAL_CANNON",
+        "LAND_TROOPS",
+        "LARGE_SUSPENDIUM_CHAMBERS",
+        "LEGS",
+        "MARINES",
+        "MASSIVE_STONE_WALLS",
+        "MASS_ENERGY_REACTION",
+        "MECHANIS_IMPLIMENTATION",
+        "MECHANIS_THEORY",
+        "MECH_CARRIER",
+        "MECH_SPIDERS",
+        "MEDIUM_STEEL_ARMOUR",
+        "PROPELLERS",
+        "RETICULATED_PLATING",
+        "RIFLES",
+        "ROCKETS",
+        "SAFETY_FUZES",
+        "SPIDER_LEGS",
+        "SUSPEDIUM_CRYSTAL_CREATION",
+        "SUSPENDIUM_CANNON",
+        "SUSPENDIUM_CHAMBERS",
+        "TADPOLE_CARRIER",
+        "TELESCOPES",
+        "TORPEDOES",
+        "TRACKS",
+        "TRIPLANES",
+        "TURRETS",
+        "UNIVERSAL_CONSCRIPTION"
+    ],
+    "crew": [
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 2,
+            "jobModule": 4,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 10,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 2,
+            "jobModule": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 11,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 4,
+            "jobModule": 35,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 55,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 57,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 59,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 61,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 2,
+            "jobModule": 40,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 65,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 6,
+            "jobModule": 65,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 167,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 4,
+            "jobModule": 66,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 172,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 4,
+            "jobModule": 67,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 174,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 2,
+            "jobModule": 68,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 176,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 2,
+            "jobModule": 69,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 177,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 6,
+            "jobModule": 72,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 180,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 4,
+            "jobModule": 79,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 192,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 2,
+            "jobModule": 84,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 198,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 2,
+            "jobModule": 85,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 199,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 7,
+            "jobModule": 65,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 168,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 6,
+            "jobIndex": 8,
+            "jobModule": 79,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 56,
+            "timeSinceLaunch": 0,
+            "type": "guard",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 6,
+            "jobIndex": 4,
+            "jobModule": 36,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 58,
+            "timeSinceLaunch": 0,
+            "type": "guard",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 6,
+            "jobIndex": 4,
+            "jobModule": 37,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 60,
+            "timeSinceLaunch": 0,
+            "type": "guard",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 6,
+            "jobIndex": 4,
+            "jobModule": 38,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 62,
+            "timeSinceLaunch": 0,
+            "type": "guard",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 4,
+            "jobModule": 21,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 37,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 6,
+            "jobModule": 43,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 74,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 2,
+            "jobModule": 44,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 77,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 6,
+            "jobModule": 45,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 78,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 5,
+            "jobModule": 21,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 38,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 7,
+            "jobModule": 43,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 75,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 7,
+            "jobModule": 45,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 79,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 8,
+            "jobModule": 43,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 76,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 8,
+            "jobModule": 45,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 80,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 9,
+            "jobModule": 43,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 71,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 10,
+            "jobModule": 43,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 72,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 11,
+            "jobModule": 43,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 73,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 25,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 181,
+            "timeSinceLaunch": 0,
+            "type": "light_tadpole",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 25,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 184,
+            "timeSinceLaunch": 0,
+            "type": "light_tadpole",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 85,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 86,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 87,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 88,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 81,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 82,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 83,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 84,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 85,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 86,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 87,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        }
+    ],
+    "currentBonuses": [
+        "AIR_DRAGOONS",
+        "BIPLANES",
+        "BOMBERS",
+        "BOMBS",
+        "BUZZER_CARRIER",
+        "BUZZSAW",
+        "CANNONS",
+        "CE_ARMOR_EMERGANCY",
+        "CE_ARMOR_INOVATION",
+        "CE_ARMOR_REFINEING",
+        "CE_ARMOR_STACKING",
+        "CE_HOUSE_SMALL",
+        "CE_SUSPENDED_ASSEMBLY",
+        "CE_SUSPEND_HARPOON",
+        "CE_SUSPEND_HEAVY",
+        "CE_SUSPEND_KICKBACK",
+        "CE_SUSPEND_TORP",
+        "CE_TENTS",
+        "COMBINED_PROPULSION",
+        "COMBINED_PROPULSION_ADVANCED",
+        "COMMERCE_CONTAINED_ECONOMIES",
+        "COMMERCE_FACTORING",
+        "COMMERCE_HAGGELING",
+        "COMMERCE_ORGENIZED_GATHERING",
+        "COMMERCE_REFINING",
+        "COMMERCE_SUSPEDIUM_COLLECTION",
+        "COMPUTERS",
+        "COMP_BUZZER",
+        "CONSTRUCTION",
+        "CONSTRUCTION_ADVANCED",
+        "CONSTRUCTION_SIMPLE",
+        "DECK_GUNS",
+        "EFFICIENT_AMMO_STORAGE",
+        "EXPERT_REPAIRS",
+        "EXTREME_DISTANCE_COMBAT",
+        "FASTER_CANNON_RELOAD",
+        "FIRE_EXTINGUISHERS",
+        "FLAK_CANNONS",
+        "FLAMETHROWERS",
+        "FUEL_CREATION",
+        "GATLING_GUNS",
+        "GRAPPLING_HOOKS",
+        "HARPOONS",
+        "HEAVY_CANNON",
+        "HEAVY_STEEL_ARMOUR",
+        "HEAVY_TURRETS",
+        "HEAVY_WOODEN_ARMOUR",
+        "HIGH_PRESSURE_SUSPENDIUM",
+        "HUSSARS",
+        "IMPERIAL_CANNON",
+        "LAND_TROOPS",
+        "LARGE_SUSPENDIUM_CHAMBERS",
+        "LEGS",
+        "MARINES",
+        "MASSIVE_STONE_WALLS",
+        "MASS_ENERGY_REACTION",
+        "MECHANIS_IMPLIMENTATION",
+        "MECHANIS_THEORY",
+        "MECH_CARRIER",
+        "MECH_SPIDERS",
+        "MEDIUM_STEEL_ARMOUR",
+        "PROPELLERS",
+        "RETICULATED_PLATING",
+        "RIFLES",
+        "ROCKETS",
+        "SAFETY_FUZES",
+        "SPIDER_LEGS",
+        "SUSPEDIUM_CRYSTAL_CREATION",
+        "SUSPENDIUM_CANNON",
+        "SUSPENDIUM_CHAMBERS",
+        "TADPOLE_CARRIER",
+        "TELESCOPES",
+        "TORPEDOES",
+        "TRACKS",
+        "TRIPLANES",
+        "TURRETS",
+        "UNIVERSAL_CONSCRIPTION"
+    ],
+    "decals": [
+        {
+            "enabled": true,
+            "type": "GREEBLE_14",
+            "x": 17,
+            "y": 4
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_14",
+            "x": 21,
+            "y": 4
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_26",
+            "x": 17,
+            "y": 5
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_26",
+            "x": 21,
+            "y": 5
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_40",
+            "x": 7,
+            "y": 20
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_40",
+            "x": 14,
+            "y": 20
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_40",
+            "x": 31,
+            "y": 20
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_10",
+            "x": 25,
+            "y": 20
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_40",
+            "x": 24,
+            "y": 20
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_40",
+            "x": 27,
+            "y": 20
+        },
+        {
+            "enabled": true,
+            "type": "LARGE_COA",
+            "x": 17,
+            "y": 15
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_10",
+            "x": 18,
+            "y": 13
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_10",
+            "x": 20,
+            "y": 13
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_10",
+            "x": 22,
+            "y": 13
+        },
+        {
+            "enabled": true,
+            "type": "TINY_FLAG",
+            "x": 21,
+            "y": 0
+        },
+        {
+            "enabled": true,
+            "type": "TINY_FLAG",
+            "x": 8,
+            "y": 21
+        },
+        {
+            "enabled": true,
+            "type": "TINY_FLAG",
+            "x": 30,
+            "y": 21
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_10",
+            "x": 12,
+            "y": 20
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_10",
+            "x": 29,
+            "y": 20
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_10",
+            "x": 8,
+            "y": 20
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_40",
+            "x": 11,
+            "y": 20
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_40",
+            "x": 10,
+            "y": 20
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_40",
+            "x": 28,
+            "y": 20
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_31",
+            "x": 7,
+            "y": 21
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_31",
+            "x": 12,
+            "y": 21
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_31",
+            "x": 11,
+            "y": 21
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_31",
+            "x": 27,
+            "y": 21
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_31",
+            "x": 26,
+            "y": 21
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_31",
+            "x": 31,
+            "y": 21
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_31",
+            "x": 21,
+            "y": 21
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_31",
+            "x": 17,
+            "y": 21
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_31",
+            "x": 19,
+            "y": 21
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_31",
+            "x": 23,
+            "y": 21
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_31",
+            "x": 15,
+            "y": 21
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_14",
+            "x": 17,
+            "y": 3
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_14",
+            "x": 15,
+            "y": 8
+        },
+        {
+            "enabled": true,
+            "type": "GREEBLE_2",
+            "x": 16,
+            "y": 8
+        }
+    ],
+    "enginesRunning": false,
+    "fireMode": "NORMAL",
+    "flipMs": 0,
+    "flipTo": false,
+    "flipped": false,
+    "focusOnFirefighting": false,
+    "focusOnMoving": false,
+    "focusOnRepair": false,
+    "focusOnShooting": true,
+    "grounding": false,
+    "h": 22,
+    "hasBraked": 0,
+    "modules": [
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 176,
+            "lowestHP": 176,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "SLOPE_1X4_TOP_RIGHT",
+            "x": 23,
+            "y": 9
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 88,
+            "lowestHP": 88,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "SLOPE_1X2_TOP_LEFT",
+            "x": 17,
+            "y": 3
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 88,
+            "lowestHP": 88,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "SLOPE_1X2_TOP_RIGHT",
+            "x": 21,
+            "y": 3
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 88,
+            "lowestHP": 88,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "SLOPE_1X2_TOP_RIGHT",
+            "x": 22,
+            "y": 6
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 50,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 55,
+            "lowestHP": 55,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "PIERCING_RIFLE",
+            "x": 21,
+            "y": 5
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 50,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 55,
+            "lowestHP": 55,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FLIPPED_PIERCING_RIFLE",
+            "x": 17,
+            "y": 5
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 276,
+            "lowestHP": 276,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "STRUTS",
+            "x": 18,
+            "y": 14
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 276,
+            "lowestHP": 276,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "STRUTS",
+            "x": 18,
+            "y": 12
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 48,
+            "lowestHP": 48,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CORRIDOR_LIGHT",
+            "x": 17,
+            "y": 14
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 48,
+            "lowestHP": 48,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CORRIDOR_LIGHT",
+            "x": 17,
+            "y": 12
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 48,
+            "lowestHP": 48,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CORRIDOR_LIGHT",
+            "x": 19,
+            "y": 9
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 48,
+            "lowestHP": 48,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CORRIDOR_LIGHT",
+            "x": 19,
+            "y": 7
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 48,
+            "lowestHP": 48,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CORRIDOR_LIGHT",
+            "x": 19,
+            "y": 6
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 48,
+            "lowestHP": 48,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CORRIDOR_LIGHT",
+            "x": 19,
+            "y": 5
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 48,
+            "lowestHP": 48,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CORRIDOR_LIGHT",
+            "x": 19,
+            "y": 4
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 48,
+            "lowestHP": 48,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CORRIDOR_LIGHT",
+            "x": 19,
+            "y": 3
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 18,
+            "y": 5
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 20,
+            "y": 5
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 21,
+            "y": 8
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 16,
+            "y": 14
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 15,
+            "y": 20
+        },
+        {
+            "WATER": 50,
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 209,
+            "lowestHP": 209,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FIRE_POINT",
+            "x": 20,
+            "y": 6
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 144,
+            "lowestHP": 144,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "GUARD_BARRACKS",
+            "x": 17,
+            "y": 8
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 17,
+            "y": 7
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 17,
+            "y": 6
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 18,
+            "y": 6
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 18,
+            "y": 4
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 20,
+            "y": 4
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 20,
+            "y": 3
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 18,
+            "y": 3
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 15,
+            "y": 18
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 48,
+            "lowestHP": 48,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CORRIDOR_LIGHT",
+            "x": 17,
+            "y": 13
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 48,
+            "lowestHP": 48,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CORRIDOR_LIGHT",
+            "x": 15,
+            "y": 17
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 48,
+            "lowestHP": 48,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CORRIDOR_LIGHT",
+            "x": 15,
+            "y": 19
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 2500,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 383,
+            "lowestHP": 383,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "TRENCH_TURRET",
+            "x": 13,
+            "y": 20
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 1,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 463,
+            "lowestHP": 463,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "TRENCH_CANNON",
+            "x": 11,
+            "y": 20
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 1,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 463,
+            "lowestHP": 463,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "TRENCH_CANNON",
+            "x": 7,
+            "y": 20
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 1,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 463,
+            "lowestHP": 463,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FLIPPED_TRENCH_CANNON",
+            "x": 26,
+            "y": 20
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 1,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 463,
+            "lowestHP": 463,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FLIPPED_TRENCH_CANNON",
+            "x": 30,
+            "y": 20
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 2500,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 383,
+            "lowestHP": 383,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FLIPPED_TRENCH_TURRET",
+            "x": 24,
+            "y": 20
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 99,
+            "lowestHP": 99,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "COCKPIT",
+            "x": 18,
+            "y": 7
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 77,
+            "lowestHP": 77,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "HATCH",
+            "x": 15,
+            "y": 16
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 77,
+            "lowestHP": 77,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "HATCH",
+            "x": 15,
+            "y": 15
+        },
+        {
+            "AMMO": 259,
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 562,
+            "lowestHP": 562,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "BIG_AMMO",
+            "x": 20,
+            "y": 9
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 77,
+            "lowestHP": 77,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "AIDPOST",
+            "x": 20,
+            "y": 8
+        },
+        {
+            "REPAIR": 50,
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 209,
+            "lowestHP": 209,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "REPAIR_BAY",
+            "x": 16,
+            "y": 9
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 363,
+            "lowestHP": 363,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LARGE_SOLDIER_BARRACKS",
+            "x": 16,
+            "y": 10
+        },
+        {
+            "COAL": 50,
+            "REPAIR": 200,
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 3829,
+            "lowestHP": 3829,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "METAL_WORKS",
+            "x": 16,
+            "y": 15
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 15,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 16,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 17,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 18,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 19,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 20,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 21,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 22,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 23,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 26,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 27,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 30,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 31,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 12,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 11,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 8,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 122,
+            "lowestHP": 122,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FOUNDATION",
+            "x": 7,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 1,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 571,
+            "lowestHP": 571,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FLIPPED_HV_TURRET",
+            "x": 17,
+            "y": 0
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 6,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 177,
+            "lowestHP": 177,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "TRENCH_FLAK_CANNON",
+            "x": 9,
+            "y": 20
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 6,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 177,
+            "lowestHP": 177,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "TRENCH_FLAK_CANNON",
+            "x": 28,
+            "y": 20
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 20,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 55,
+            "lowestHP": 55,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "RIFLE",
+            "x": 23,
+            "y": 14
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 20,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 55,
+            "lowestHP": 55,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FLIPPED_RIFLE",
+            "x": 15,
+            "y": 14
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 16,
+            "y": 13
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 15,
+            "y": 13
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 385,
+            "lowestHP": 385,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "TADPOLE_SHOOT",
+            "x": 18,
+            "y": 13
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 33,
+            "lowestHP": 33,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "DECK_RAMP",
+            "x": 33,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 33,
+            "lowestHP": 33,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FLIPPED_DECK_RAMP",
+            "x": 5,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 67,
+            "lowestHP": 67,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "DECK_LADDER",
+            "x": 6,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 67,
+            "lowestHP": 67,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "DECK_LADDER",
+            "x": 32,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 33,
+            "lowestHP": 33,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "DECK_MINI",
+            "x": 6,
+            "y": 20
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 33,
+            "lowestHP": 33,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "DECK_MINI",
+            "x": 32,
+            "y": 20
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 6,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 243,
+            "lowestHP": 243,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FLIPPED_ATILLERY_SUPPORT",
+            "x": 15,
+            "y": 8
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 16,
+            "y": 12
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 15,
+            "y": 12
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 15,
+            "y": 11
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 47,
+            "lowestHP": 47,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "LADDERLESS_CORRIDOR",
+            "x": 15,
+            "y": 10
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 40,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 55,
+            "lowestHP": 55,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "IR_RIFLE",
+            "x": 22,
+            "y": 8
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 40,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 55,
+            "lowestHP": 55,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FLIPPED_IR_RIFLE",
+            "x": 15,
+            "y": 9
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 1111,
+            "lowestHP": 1111,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CE_TENT",
+            "x": 4,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 1111,
+            "lowestHP": 1111,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CE_TENT",
+            "x": 3,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 1111,
+            "lowestHP": 1111,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CE_TENT",
+            "x": 2,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 1111,
+            "lowestHP": 1111,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CE_TENT",
+            "x": 1,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 1111,
+            "lowestHP": 1111,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CE_TENT",
+            "x": 0,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 1111,
+            "lowestHP": 1111,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CE_TENT",
+            "x": 34,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 1111,
+            "lowestHP": 1111,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CE_TENT",
+            "x": 35,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 1111,
+            "lowestHP": 1111,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CE_TENT",
+            "x": 36,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 1111,
+            "lowestHP": 1111,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CE_TENT",
+            "x": 37,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 1111,
+            "lowestHP": 1111,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CE_TENT",
+            "x": 38,
+            "y": 21
+        }
+    ],
+    "moveToX": 0,
+    "moveToY": 0,
+    "movingLeft": false,
+    "msSinceLastXMove": 0,
+    "msSinceOnGround": 10000,
+    "name": "T6_KEEP_URGATUS",
+    "networkID": "[no network ID]",
+    "outOfCombatMs": 0,
+    "popOutCooldown": 0,
+    "ramming": false,
+    "sitting": false,
+    "suspendiumRunning": false,
+    "tiles": [
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "TENNE",
+                "type": "POOR",
+                "window": false
+            },
+            "hAdj": "100100100",
+            "module": 0,
+            "x": 23,
+            "y": 9
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "TENNE",
+                "type": "POOR",
+                "window": false
+            },
+            "hAdj": "100100100",
+            "module": 0,
+            "x": 23,
+            "y": 10
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "TENNE",
+                "type": "POOR",
+                "window": false
+            },
+            "hAdj": "100100000",
+            "module": 0,
+            "x": 23,
+            "y": 11
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "TENNE",
+                "type": "POOR",
+                "window": false
+            },
+            "hAdj": "100000110",
+            "module": 0,
+            "x": 23,
+            "y": 12
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "TENNE",
+                "type": "POOR",
+                "window": false
+            },
+            "hAdj": "001001001",
+            "module": 1,
+            "x": 17,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "TENNE",
+                "type": "POOR",
+                "window": false
+            },
+            "hAdj": "001001011",
+            "module": 1,
+            "x": 17,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "TENNE",
+                "type": "POOR",
+                "window": false
+            },
+            "hAdj": "100100100",
+            "module": 2,
+            "x": 21,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "TENNE",
+                "type": "POOR",
+                "window": false
+            },
+            "hAdj": "100100110",
+            "module": 2,
+            "x": 21,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "TENNE",
+                "type": "POOR",
+                "window": false
+            },
+            "hAdj": "100000100",
+            "module": 3,
+            "x": 22,
+            "y": 6
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "TENNE",
+                "type": "POOR",
+                "window": false
+            },
+            "hAdj": "000100110",
+            "module": 3,
+            "x": 22,
+            "y": 7
+        },
+        {
+            "armour": {
+                "hp": 120,
+                "paint": "COA_SECOND",
+                "type": "MASSIVE_STONE_WALL",
+                "window": false
+            },
+            "hAdj": "100110000",
+            "module": 4,
+            "x": 21,
+            "y": 5
+        },
+        {
+            "armour": {
+                "hp": 120,
+                "paint": "COA_SECOND",
+                "type": "MASSIVE_STONE_WALL",
+                "window": false
+            },
+            "hAdj": "001011011",
+            "module": 5,
+            "x": 17,
+            "y": 5
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111100111",
+            "module": 6,
+            "x": 18,
+            "y": 14
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 6,
+            "x": 19,
+            "y": 14
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 6,
+            "x": 20,
+            "y": 14
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 6,
+            "x": 21,
+            "y": 14
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111001111",
+            "module": 6,
+            "x": 22,
+            "y": 14
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111100111",
+            "module": 7,
+            "x": 18,
+            "y": 12
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 7,
+            "x": 19,
+            "y": 12
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 7,
+            "x": 20,
+            "y": 12
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 7,
+            "x": 21,
+            "y": 12
+        },
+        {
+            "armour": {
+                "hp": 120,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": false
+            },
+            "hAdj": "110000111",
+            "module": 7,
+            "x": 22,
+            "y": 12
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111110111",
+            "module": 8,
+            "x": 17,
+            "y": 14
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111110111",
+            "module": 9,
+            "x": 17,
+            "y": 12
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111111",
+            "module": 10,
+            "x": 19,
+            "y": 9
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "COA_SECOND",
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "110111111",
+            "module": 11,
+            "x": 19,
+            "y": 7
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "COA_SECOND",
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111110111",
+            "module": 12,
+            "x": 19,
+            "y": 6
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_SECOND",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111110",
+            "module": 13,
+            "x": 19,
+            "y": 5
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "COA_FIRST",
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111111",
+            "module": 14,
+            "x": 19,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_FIRST",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111111",
+            "module": 15,
+            "x": 19,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_SECOND",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "011111111",
+            "module": 16,
+            "x": 18,
+            "y": 5
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_SECOND",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "110111100",
+            "module": 17,
+            "x": 20,
+            "y": 5
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "110111111",
+            "module": 18,
+            "x": 21,
+            "y": 8
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111111",
+            "module": 19,
+            "x": 16,
+            "y": 14
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "011111000",
+            "module": 20,
+            "x": 15,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_SECOND",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111100111",
+            "module": 21,
+            "x": 20,
+            "y": 6
+        },
+        {
+            "armour": {
+                "hp": 120,
+                "paint": "COA_SECOND",
+                "type": "MASSIVE_STONE_WALL",
+                "window": false
+            },
+            "hAdj": "110000110",
+            "module": 21,
+            "x": 21,
+            "y": 6
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_SECOND",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "100111111",
+            "module": 21,
+            "x": 20,
+            "y": 7
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_SECOND",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "000110111",
+            "module": 21,
+            "x": 21,
+            "y": 7
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "011111111",
+            "module": 22,
+            "x": 17,
+            "y": 8
+        },
+        {
+            "armour": {
+                "hp": 120,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111111",
+            "module": 22,
+            "x": 18,
+            "y": 8
+        },
+        {
+            "armour": {
+                "hp": 120,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111111",
+            "module": 22,
+            "x": 19,
+            "y": 8
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_SECOND",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "011011111",
+            "module": 23,
+            "x": 17,
+            "y": 7
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_SECOND",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "011011011",
+            "module": 24,
+            "x": 17,
+            "y": 6
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "COA_SECOND",
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111111",
+            "module": 25,
+            "x": 18,
+            "y": 6
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_FIRST",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "011011111",
+            "module": 26,
+            "x": 18,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_FIRST",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "110110111",
+            "module": 27,
+            "x": 20,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_FIRST",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "110110110",
+            "module": 28,
+            "x": 20,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_FIRST",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "011011011",
+            "module": 29,
+            "x": 18,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "011011011",
+            "module": 30,
+            "x": 15,
+            "y": 18
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "110111110",
+            "module": 31,
+            "x": 17,
+            "y": 13
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "011011011",
+            "module": 32,
+            "x": 15,
+            "y": 17
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "011011111",
+            "module": 33,
+            "x": 15,
+            "y": 19
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 34,
+            "x": 13,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "001111000",
+            "module": 34,
+            "x": 14,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 35,
+            "x": 11,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 35,
+            "x": 12,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111100",
+            "module": 36,
+            "x": 7,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 36,
+            "x": 8,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 37,
+            "x": 26,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 37,
+            "x": 27,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 38,
+            "x": 30,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111001",
+            "module": 38,
+            "x": 31,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "100111000",
+            "module": 39,
+            "x": 24,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 39,
+            "x": 25,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "COA_SECOND",
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111111",
+            "module": 40,
+            "x": 18,
+            "y": 7
+        },
+        {
+            "armour": {
+                "hp": 45,
+                "type": "MED_STEEL_HIDDEN",
+                "window": false
+            },
+            "hAdj": "011011011",
+            "module": 41,
+            "x": 15,
+            "y": 16
+        },
+        {
+            "armour": {
+                "hp": 45,
+                "type": "MED_STEEL_HIDDEN",
+                "window": false
+            },
+            "hAdj": "011011011",
+            "module": 42,
+            "x": 15,
+            "y": 15
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111111",
+            "module": 43,
+            "x": 20,
+            "y": 9
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111111",
+            "module": 43,
+            "x": 21,
+            "y": 9
+        },
+        {
+            "armour": {
+                "hp": 120,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": false
+            },
+            "hAdj": "110110110",
+            "module": 43,
+            "x": 22,
+            "y": 9
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111111",
+            "module": 43,
+            "x": 20,
+            "y": 10
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111111",
+            "module": 43,
+            "x": 21,
+            "y": 10
+        },
+        {
+            "armour": {
+                "hp": 120,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": false
+            },
+            "hAdj": "110110110",
+            "module": 43,
+            "x": 22,
+            "y": 10
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111000",
+            "module": 43,
+            "x": 20,
+            "y": 11
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111000",
+            "module": 43,
+            "x": 21,
+            "y": 11
+        },
+        {
+            "armour": {
+                "hp": 120,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": false
+            },
+            "hAdj": "110110000",
+            "module": 43,
+            "x": 22,
+            "y": 11
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111111",
+            "module": 44,
+            "x": 20,
+            "y": 8
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111111",
+            "module": 45,
+            "x": 16,
+            "y": 9
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111111",
+            "module": 45,
+            "x": 17,
+            "y": 9
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111111",
+            "module": 45,
+            "x": 18,
+            "y": 9
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111111",
+            "module": 46,
+            "x": 16,
+            "y": 10
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111111",
+            "module": 46,
+            "x": 17,
+            "y": 10
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111111",
+            "module": 46,
+            "x": 18,
+            "y": 10
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111111",
+            "module": 46,
+            "x": 19,
+            "y": 10
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111111",
+            "module": 46,
+            "x": 16,
+            "y": 11
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111110",
+            "module": 46,
+            "x": 17,
+            "y": 11
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111100",
+            "module": 46,
+            "x": 18,
+            "y": 11
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111000",
+            "module": 46,
+            "x": 19,
+            "y": 11
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111110",
+            "module": 47,
+            "x": 16,
+            "y": 15
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "110111100",
+            "module": 47,
+            "x": 17,
+            "y": 15
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "100111000",
+            "module": 47,
+            "x": 18,
+            "y": 15
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 47,
+            "x": 19,
+            "y": 15
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 47,
+            "x": 20,
+            "y": 15
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 47,
+            "x": 21,
+            "y": 15
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "001111001",
+            "module": 47,
+            "x": 22,
+            "y": 15
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "010110010",
+            "module": 47,
+            "x": 23,
+            "y": 15
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111110111",
+            "module": 47,
+            "x": 16,
+            "y": 16
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111100111",
+            "module": 47,
+            "x": 17,
+            "y": 16
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 47,
+            "x": 18,
+            "y": 16
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 47,
+            "x": 19,
+            "y": 16
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 47,
+            "x": 20,
+            "y": 16
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 47,
+            "x": 21,
+            "y": 16
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111001111",
+            "module": 47,
+            "x": 22,
+            "y": 16
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "110010110",
+            "module": 47,
+            "x": 23,
+            "y": 16
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "110111110",
+            "module": 47,
+            "x": 16,
+            "y": 17
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "100111100",
+            "module": 47,
+            "x": 17,
+            "y": 17
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 47,
+            "x": 18,
+            "y": 17
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 47,
+            "x": 19,
+            "y": 17
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 47,
+            "x": 20,
+            "y": 17
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 47,
+            "x": 21,
+            "y": 17
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "001111001",
+            "module": 47,
+            "x": 22,
+            "y": 17
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "010110010",
+            "module": 47,
+            "x": 23,
+            "y": 17
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111110111",
+            "module": 47,
+            "x": 16,
+            "y": 18
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111100111",
+            "module": 47,
+            "x": 17,
+            "y": 18
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 47,
+            "x": 18,
+            "y": 18
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 47,
+            "x": 19,
+            "y": 18
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 47,
+            "x": 20,
+            "y": 18
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 47,
+            "x": 21,
+            "y": 18
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111001111",
+            "module": 47,
+            "x": 22,
+            "y": 18
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "110010110",
+            "module": 47,
+            "x": 23,
+            "y": 18
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "110111111",
+            "module": 47,
+            "x": 16,
+            "y": 19
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "100111111",
+            "module": 47,
+            "x": 17,
+            "y": 19
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "000111111",
+            "module": 47,
+            "x": 18,
+            "y": 19
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "000111111",
+            "module": 47,
+            "x": 19,
+            "y": 19
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "000111111",
+            "module": 47,
+            "x": 20,
+            "y": 19
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "000111111",
+            "module": 47,
+            "x": 21,
+            "y": 19
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "001111111",
+            "module": 47,
+            "x": 22,
+            "y": 19
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "010110111",
+            "module": 47,
+            "x": 23,
+            "y": 19
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111000",
+            "module": 47,
+            "x": 16,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111000",
+            "module": 47,
+            "x": 17,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111000",
+            "module": 47,
+            "x": 18,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111000",
+            "module": 47,
+            "x": 19,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111000",
+            "module": 47,
+            "x": 20,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111000",
+            "module": 47,
+            "x": 21,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 80,
+                "type": "STONE_WALL",
+                "window": false
+            },
+            "hAdj": "111111000",
+            "module": 47,
+            "x": 22,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "110111000",
+            "module": 47,
+            "x": 23,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111000000",
+            "module": 48,
+            "x": 15,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111000000",
+            "module": 49,
+            "x": 16,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111000000",
+            "module": 50,
+            "x": 17,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111000000",
+            "module": 51,
+            "x": 18,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111000000",
+            "module": 52,
+            "x": 19,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111000000",
+            "module": 53,
+            "x": 20,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111000000",
+            "module": 54,
+            "x": 21,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111000000",
+            "module": 55,
+            "x": 22,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111000000",
+            "module": 56,
+            "x": 23,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111000000",
+            "module": 57,
+            "x": 26,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111000000",
+            "module": 58,
+            "x": 27,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111000000",
+            "module": 59,
+            "x": 30,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111001000",
+            "module": 60,
+            "x": 31,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111000000",
+            "module": 61,
+            "x": 12,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111000000",
+            "module": 62,
+            "x": 11,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111000000",
+            "module": 63,
+            "x": 8,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 30,
+                "type": "BRICK_WALL",
+                "window": false
+            },
+            "hAdj": "111100000",
+            "module": 64,
+            "x": 7,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 45,
+                "type": "SLNT",
+                "window": false
+            },
+            "hAdj": "000000011",
+            "module": 65,
+            "x": 17,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 45,
+                "type": "SLNT",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 65,
+            "x": 18,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 45,
+                "type": "SLNT",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 65,
+            "x": 19,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 45,
+                "type": "SLNT",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 65,
+            "x": 20,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 45,
+                "type": "SLNT",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 65,
+            "x": 21,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 45,
+                "type": "SLNT",
+                "window": false
+            },
+            "hAdj": "000000110",
+            "module": 65,
+            "x": 22,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 48,
+                "type": "LAYR",
+                "window": false
+            },
+            "hAdj": "000011001",
+            "module": 65,
+            "x": 17,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 48,
+                "type": "LAYR",
+                "window": false
+            },
+            "hAdj": "000111011",
+            "module": 65,
+            "x": 18,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 48,
+                "type": "LAYR",
+                "window": false
+            },
+            "hAdj": "000111111",
+            "module": 65,
+            "x": 19,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 48,
+                "type": "LAYR",
+                "window": false
+            },
+            "hAdj": "000111110",
+            "module": 65,
+            "x": 20,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 48,
+                "type": "LAYR",
+                "window": false
+            },
+            "hAdj": "000111100",
+            "module": 65,
+            "x": 21,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 48,
+                "type": "LAYR",
+                "window": false
+            },
+            "hAdj": "000110000",
+            "module": 65,
+            "x": 22,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 45,
+                "type": "SLNT",
+                "window": false
+            },
+            "hAdj": "011001001",
+            "module": 65,
+            "x": 17,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 45,
+                "type": "SLNT",
+                "window": false
+            },
+            "hAdj": "111011011",
+            "module": 65,
+            "x": 18,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 45,
+                "type": "SLNT",
+                "window": false
+            },
+            "hAdj": "111111111",
+            "module": 65,
+            "x": 19,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 45,
+                "type": "SLNT",
+                "window": false
+            },
+            "hAdj": "111110110",
+            "module": 65,
+            "x": 20,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 45,
+                "type": "SLNT",
+                "window": false
+            },
+            "hAdj": "111100100",
+            "module": 65,
+            "x": 21,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 45,
+                "type": "SLNT",
+                "window": false
+            },
+            "hAdj": "110000000",
+            "module": 65,
+            "x": 22,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": true
+            },
+            "hAdj": "000111000",
+            "module": 66,
+            "x": 9,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": true
+            },
+            "hAdj": "000111000",
+            "module": 66,
+            "x": 10,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": true
+            },
+            "hAdj": "000111000",
+            "module": 67,
+            "x": 28,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": true
+            },
+            "hAdj": "000111000",
+            "module": 67,
+            "x": 29,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 120,
+                "type": "MASSIVE_STONE_WALL",
+                "window": false
+            },
+            "hAdj": "110010110",
+            "module": 68,
+            "x": 23,
+            "y": 14
+        },
+        {
+            "armour": {
+                "hp": 120,
+                "type": "MASSIVE_STONE_WALL",
+                "window": false
+            },
+            "hAdj": "011011011",
+            "module": 69,
+            "x": 15,
+            "y": 14
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111111",
+            "module": 70,
+            "x": 16,
+            "y": 13
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "011011011",
+            "module": 71,
+            "x": 15,
+            "y": 13
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "100111100",
+            "module": 72,
+            "x": 18,
+            "y": 13
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 72,
+            "x": 19,
+            "y": 13
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 72,
+            "x": 20,
+            "y": 13
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 72,
+            "x": 21,
+            "y": 13
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111001",
+            "module": 72,
+            "x": 22,
+            "y": 13
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000110010",
+            "module": 72,
+            "x": 23,
+            "y": 13
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "100111000",
+            "module": 73,
+            "x": 33,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "001111000",
+            "module": 74,
+            "x": 5,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "011110000",
+            "module": 75,
+            "x": 6,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "110011000",
+            "module": 76,
+            "x": 32,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000011110",
+            "module": 77,
+            "x": 6,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000110011",
+            "module": 78,
+            "x": 32,
+            "y": 20
+        },
+        {
+            "armour": {
+                "hp": 120,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": false
+            },
+            "hAdj": "000011011",
+            "module": 79,
+            "x": 15,
+            "y": 8
+        },
+        {
+            "armour": {
+                "hp": 120,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": false
+            },
+            "hAdj": "001111111",
+            "module": 79,
+            "x": 16,
+            "y": 8
+        },
+        {
+            "armour": {
+                "hp": 40,
+                "paint": "COA_THIRD",
+                "type": "STONE_WALL",
+                "window": true
+            },
+            "hAdj": "111111111",
+            "module": 80,
+            "x": 16,
+            "y": 12
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "011011011",
+            "module": 81,
+            "x": 15,
+            "y": 12
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "011011011",
+            "module": 82,
+            "x": 15,
+            "y": 11
+        },
+        {
+            "armour": {
+                "hp": 60,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": true
+            },
+            "hAdj": "011011011",
+            "module": 83,
+            "x": 15,
+            "y": 10
+        },
+        {
+            "armour": {
+                "hp": 120,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": false
+            },
+            "hAdj": "100110110",
+            "module": 84,
+            "x": 22,
+            "y": 8
+        },
+        {
+            "armour": {
+                "hp": 120,
+                "paint": "COA_THIRD",
+                "type": "MASSIVE_STONE_WALL",
+                "window": false
+            },
+            "hAdj": "011011011",
+            "module": 85,
+            "x": 15,
+            "y": 9
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 86,
+            "x": 4,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 87,
+            "x": 3,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 88,
+            "x": 2,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 89,
+            "x": 1,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000011000",
+            "module": 90,
+            "x": 0,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 91,
+            "x": 34,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 92,
+            "x": 35,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 93,
+            "x": 36,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 94,
+            "x": 37,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 0,
+                "type": "NONE",
+                "window": false
+            },
+            "hAdj": "000110000",
+            "module": 95,
+            "x": 38,
+            "y": 21
+        }
+    ],
+    "timeMovingInSameXDirection": 0,
+    "type": "BUILDING",
+    "unableToFlipMs": 0,
+    "usedMods": [
+        {
+            "en": "cataclystic expansion",
+            "id": "cataclystic_expansion"
+        },
+        {
+            "en": "CE dependancy one",
+            "id": "cataclystic_expansion_dep1"
+        }
+    ],
+    "w": 39,
+    "x": 112.9953077650182,
+    "xSpeed": 0,
+    "y": 111,
+    "ySpeed": 0
+}
