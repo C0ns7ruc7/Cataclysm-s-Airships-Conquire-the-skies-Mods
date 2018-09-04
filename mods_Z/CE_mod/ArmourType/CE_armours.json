@@ -833,6 +833,73 @@
                 }
             ]
         }
-    }
+    },
+    {
+        "name": "CE_MED_STONE_HIDDEN",
+        "sort": 0,
+        "hidden": true,
+        "placeSound": "place_stone",
+        "placePitch": 1.0,
+        "cost": {
+            "base": 0
+        },
+        "hp": {
+            "base": 80
+        },
+        "weight": {
+            "base": 100
+        },
+        "blastDmgAbsorb": {
+            "base": 2
+        },
+        "penDmgAbsorb": {
+            "base": 3
+        },
+        "damagedApps": [],
+        "smallHitSound": {
+            "layers": [
+                {
+                    "variations": [ "hit_stone_1", "hit_stone_2", "hit_stone_3", "hit_stone_4" ],
+                    "volume": {
+                        "min": 0.3,
+                        "max": 0.4
+                    },
+                    "pitch": {
+                        "min": 1.05,
+                        "max": 1.15
+                    }
+                }
+            ]
+        },
+        "largeHitSound": {
+            "layers": [
+                {
+                    "variations": [ "hit_stone_1", "hit_stone_2", "hit_stone_3", "hit_stone_4" ],
+                    "volume": {
+                        "min": 0.7,
+                        "max": 1.0
+                    },
+                    "pitch": {
+                        "min": 0.95,
+                        "max": 1.05
+                    }
+                }
+            ]
+        },
+        "brokenSound": {
+            "layers": [
+                {
+                    "variations": [ "hit_stone_1", "hit_stone_2", "hit_stone_3", "hit_stone_4" ],
+                    "volume": {
+                        "min": 1.5,
+                        "max": 2.4
+                    },
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 0.95
+                    }
+                }
+            ]
+        }
 ]
 
