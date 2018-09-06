@@ -1,0 +1,101 @@
+[
+    {
+        "name": "WORLD_SHAKER",
+        "categories": ["WCE_WEAPONS"],
+		"required": "CE_SUSPEDIUM_MAD_SCIENCE",
+        "isGun": true,
+        "topOnly": true,
+		"isExplosive": true,
+        "w": 1,
+        "h": 4,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 18,
+            "y": 27,
+            "w": 1,
+            "h": 4
+        },
+		"externalAppearances": [
+			{
+                "x": 0,
+                "y": -1,
+                "appearance": {
+                    "src": "sprite-vabese",
+				    "interval": 100,
+				    "frames": [
+					 { "x": 18, "y": 27 },
+					 { "x": 19, "y": 27 },
+					 { "x": 20, "y": 27 },
+					 { "x": 21, "y": 27 },
+					 { "x": 20, "y": 27 },
+					 { "x": 19, "y": 27 },
+					]
+                }
+            }
+        ],
+		"fireSound": {
+            "layers": [
+                {
+                    "variations": [ "sus_activate" ],
+                    "volume": 1.0,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.2,
+                        "distance": [
+                            0, 1.1,
+                            3000, 0.7
+                        ]
+                    }
+                }
+			]
+		},
+        "hitSound": {
+            "layers": [
+                {
+                    "variations": ["sus_shake"],
+                    "volume": 1.0,
+                    "pitch": {
+                        "min": 0.5,
+                        "max": 1.0
+                    }
+                }
+            ]
+        },
+        "hp": 300,
+        "explodeHP": 50,
+        "explodeDmg": 100,
+        "fireHP": 60,
+        "moveDelay": 10000,
+        "weight": 250,
+        "cost": 200,
+        "shipHPBonus": -10,
+		"crew": 1,
+        "recommendedCrew": 2,
+        "recommendedGuards": 1,
+		"reload": 1000,
+        "coalReload": 1000,
+        "clip": 1,
+        "inaccuracy": 1,
+        "blastDmg": 1,
+        "penDmg": 0,
+        "shotSpeed": 999,
+        "blastSplashRadius": 999999,
+        "shootTroopsRange": 0,
+        "recoilForce": 0.0,
+        "canOccupy": [
+			{"x": 0, "y": 0},
+			{"x": 0, "y": 2},
+		],
+        "muzzleCenterX": 0.50,
+        "muzzleCenterY": -0.4375,
+        "muzzleLength": 1,
+		"structuralStressAmount": 10,
+		"weaponAppearance": {
+            "shot": { "src": "sprite-vabese", "x": -1, "y": -1, "w": 1, "h": 1 },
+            "barrel": { "src": "sprite-vabese", "x": -1, "y": -1, "w": 1, "h": 1 },
+            "barrelX": 0,
+            "barrelY": 0,
+            "recoil": 0
+        }
+    }
+]
