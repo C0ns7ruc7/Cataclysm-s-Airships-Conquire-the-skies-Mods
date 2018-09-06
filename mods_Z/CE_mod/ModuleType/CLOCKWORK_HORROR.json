@@ -1,14 +1,15 @@
 [ 
     {
         "name": "CLOCKWORK_HORROR",
-        "categories": [],
+        "categories": ["DEV"],
 	"required": "MONSTERS",
 	"doesCreak": false,
         "preventsBoarding": true,
-    "preventsSurrender": true,
+    	"preventsSurrender": true,
 	"isWeapon": true,
         "destructionLength": 2600,
 	"external": true,
+        "isRam": true,
         "w": 1,
         "h": 1,
         "appearance": {
@@ -21,31 +22,21 @@
         },
 	"externalAppearances": [
             {
-                "x": 0,
-                "y": 0,
+                "x": -1,
+                "y": -1,
                 "appearance": {
                 	"src": "sprite-vabese",
 			"interval": 100,
 			"frames":[
-				{"x": 13, "y": 17, "w": 1, "h": 1},
-				{"x": 14, "y": 17, "w": 1, "h": 1}
+				{"x": 49, "y": 18, "w": 3, "h": 3},
+				{"x": 49, "y": 21, "w": 3, "h": 3},
+				{"x": 49, "y": 24, "w": 3, "h": 3},
+				{"x": 49, "y": 27, "w": 3, "h": 3} 	
 			]
                 }
-            },
-		{
-		"x": 0,
-		"y": 0,
-		"appearance": {
-			"src": "sprite-vabese",
-			"interval": 200,
-			"frames": [
-				{ "x": 50, "y": 12 },
-				{ "x": 51, "y": 12 }
-			]
-			}
-		}
+            }
 	],
-        "hp": 500,
+        "hp": 1000,
 	"armourType": "CLOCKWORK_BRASS",
 	"hasGenericDestructionFragments": true,
         "fireHP": 50,
@@ -53,11 +44,11 @@
         "explodeDmg": 1000,
         "moveDelay": 2000,
 	"destroyedHP": 0,
-        "weight": 80,
-        "cost": 20,
+        "weight": 1000,
+        "cost": 500,
 	"countsAsActiveCrew": true,
         "emitters": [
-            {
+            {it
                 "x": 0.5,
                 "y": 0.5,
                 "type": "small_susp_chamber_spark",
@@ -65,10 +56,10 @@
             }
         ],
         "command": 3,
-        "maintenanceCost": 25,
+        "maintenanceCost": 5,
 	"canOccupy": [],
-	"lift": 300,
-	"propulsion": 0.30,
+	"lift": 2000,
+	"propulsion": 0.35,
 	"springs": [
 	{
 		"xOffset": 0.5,
@@ -81,14 +72,17 @@
 	"reload": 200,
 	"clip": 0,
 	"inaccuracy": 0.0025,
-	"blastDmg": 5,
-        "penDmg": 5,
+        "collisionDamageReceivedMult": 0.1,
+	"blastDmg": 1,
+        "blastSplashRadius": 17,
+        "penDmg": 0,
 	"directDmg": 1,
+        "hardness": 2,
         "muzzleCenterX": 0.5,
         "muzzleCenterY": 0.5,
         "muzzleLength": 0.5,
         "optimumRange": 300,
-	"fireArc": { "direction": "forwards", "degrees":  720 },
+	"fireArc": { "direction": "forwards", "degrees":  360 },
         "weaponAppearance": {
             "shot": { "src": "spritesheet", "x": 32, "y": 304, "w": 2, "h": 1 },
             "barrel": { "src": "monsters", "x": 1, "y": 1, "w": 1, "h": 1 },
@@ -112,43 +106,108 @@
                 }
             ]
         },
-		"tentacles": [
-            	{
-		        "numSegments": 16,
-		        "baseAngle": 0,
-		        "baseXOffset": 0.5,
-		        "baseYOffset": 0.375,
-		        "baseStiffness": 0.7,
-		        "tipStiffness": 0.4,
-		        "baseLength": 16,
-		        "tipLength": 8,
-		        "baseWidth": 12,
-		        "tipWidth": 6,
-		        "speed": 0.5,
-		        "snatchesCrew": true,
-		        "mouthXOffset": 0.5,
-		        "mouthYOffset": 0.5,
-		        "attacksHull": true,
-			"attackPenDmg": 20,
-			"attackBlastDmg": 10,
-		        "wavesAround": true,
-		        "suckerDirection": false,
-		        "segmentImg": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
-		        "segmentImgVerticallyFlipped": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
-		        "imgLength": 14,
-		        "minNextTargetPause": 300,
-		        "maxNextTargetPause": 1200,
-			"snatchSound": "tentacle_grab",
-			"numSnatchSounds": 3,
-			"attackSound": "tentacle_whack",
-			"numAttackSounds": 4,
-			"segmentImgOverrides": [
-		{
-			"index": 15,
-		        "img": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 },
-		        "imgVerticallyFlipped": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 }
-		}
-		]
+	"tentacles": [
+            {
+                "numSegments": 20,
+                "baseAngle": 0,
+                "baseXOffset": 0,
+                "baseYOffset": 0,
+                "baseStiffness": 0.7,
+                "tipStiffness": 0.4,
+                "baseLength": 12,
+                "tipLength": 6,
+                "baseWidth": 12,
+                "tipWidth": 5,
+                "speed": 0.5,
+                "snatchesCrew": true,
+                "mouthXOffset": 2,
+                "mouthYOffset": 1.75,
+                "attacksHull": true,
+                "wavesAround": true,
+                "suckerDirection": false,
+		"attackPenDmg": 60,
+		"attackBlastDmg": 30,
+                "segmentImg": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "segmentImgVerticallyFlipped": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "imgLength": 14,
+                "minNextTargetPause": 150,
+                "maxNextTargetPause": 600,
+				"snatchSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_grab0", "tentacle_grab1", "tentacle_grab2"],
+				            "volume": { "min": 0.8, "max": 1.25 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				},
+				"attackSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+				            "volume": { "min": 0.8, "max": 1.25 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				},
+				"segmentImgOverrides": [
+					{
+						"index": 19,
+		                "img": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 },
+		                "imgVerticallyFlipped": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 }
+					}
+				]
+            },
+            {
+                "numSegments": 20,
+                "baseAngle": 3,
+                "baseXOffset": 0,
+                "baseYOffset": 0,
+                "baseStiffness": 0.7,
+                "tipStiffness": 0.4,
+                "baseLength": 12,
+                "tipLength": 6,
+                "baseWidth": 12,
+                "tipWidth": 5,
+                "speed": 0.5,
+                "snatchesCrew": true,
+                "mouthXOffset": 2,
+                "mouthYOffset": 1.75,
+                "attacksHull": true,
+                "wavesAround": true,
+                "suckerDirection": false,
+		"attackPenDmg": 60,
+		"attackBlastDmg": 30,
+                "segmentImg": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "segmentImgVerticallyFlipped": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "imgLength": 14,
+                "minNextTargetPause": 150,
+                "maxNextTargetPause": 600,
+				"snatchSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_grab0", "tentacle_grab1", "tentacle_grab2"],
+				            "volume": { "min": 0.8, "max": 1.25 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				},
+				"attackSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+				            "volume": { "min": 0.8, "max": 1.25 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				},
+				"segmentImgOverrides": [
+					{
+						"index": 19,
+		                "img": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 },
+		                "imgVerticallyFlipped": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 }
+					}
+				]
             }
         ]
     }

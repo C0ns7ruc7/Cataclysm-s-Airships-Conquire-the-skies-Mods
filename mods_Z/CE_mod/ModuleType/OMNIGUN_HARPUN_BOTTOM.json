@@ -5,7 +5,7 @@
     },
     {
         "name": "OMNIGUN_HARPUN_BOTTOM",
-        "categories": ["WCE_WEAPONS"],
+        "categories": ["WCE_WEAPONS_OMNI"],
 	"required": "CE_SUSPEND_HARPOON",
         "isWeapon": true,
         "w": 2,
@@ -21,30 +21,19 @@
             "x": 47,
             "y": 23
         },
-		"externalAppearances": [
+	"externalAppearances": [
             {
-                "x": 1,
+                "x": 0,
                 "y": 0,
                 "appearance": {
-					"src": "sprite-vabese",
-					"x": 21,
-					"y": 19,
-					"w": 1,
-					"h": 2
-				}
+			"src": "sprite-vabese",
+			"x": 47,
+			"y": 25,
+			"w": 2,
+			"h": 2
+		}
             },
-			{
-                "x": 0,
-                "y": 1,
-                "appearance": {
-					"src": "sprite-vabese",
-					"x": 23,
-					"y": 19,
-					"w": 2,
-					"h": 1
-				}
-            }
-		],
+	],
         "hp": 120,
         "fireHP": 60,
         "moveDelay": 800,
