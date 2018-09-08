@@ -26,16 +26,18 @@
 			]
                 }
             }],
-        "hp": 300,
-	"destroyedHP": 0,
-        "fireHP": 30,
-	"explodeHP": 10,
-        "explodeDmg": 100,
-        "moveDelay": 600,
-        "weight": 80,
-        "cost": 20,
+        "hp": 400,
+	"destroyedHP": -400,
+        "fireHP": { "base": 40, "MECHANIS_COMPLETION": 20 },
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+	"explodeHP": { "base": 10, "MECHANIS_COMPLETION": 0 },
+        "explodeDmg": { "base": 10, "MECHANIS_COMPLETION": 0 },
+        "weight": 60,
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 30 },
+        "cost": 15,
 	"countsAsActiveCrew": true,
-	"preventsBoarding": true,
+	"recommendedCrew": 1,
+        "recommendedGuards": 1,
         "emitters": [
             {
                 "x": 0.5,
@@ -45,8 +47,9 @@
                 "inside": true
             }
         ],
-        "command": { "base": 8, "FASTER_COMMANDS": 16 },
-        "maintenanceCost": { "base": 15, "UNIVERSAL_CONSCRIPTION": 10 },
-	"canOccupy": []	
+        "command": { "base": 2, "MECHANIS_COMPLETION": 4 },
+        "maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+        "moveDelay": 1600,
+	"upDoors": [ 0 ]
     }
 ]

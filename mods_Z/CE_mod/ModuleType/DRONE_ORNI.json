@@ -40,7 +40,7 @@
                 "y": 0,
                 "appearance": {
                     "src": "sprite-vabese",
-                    "interval": 120,
+                    "interval": 60,
                     "frames": [
                         {
                             "x": 57,
@@ -76,34 +76,36 @@
                 "x": 0,
                 "y": 0,
                 "appearance": {
-                    "src": "sprite-vabese",
-				"interval": 200,
-				"frames": [
-					{ "x": 63, "y": 2 },
-					{ "x": 63, "y": 3 },
-					{ "x": 63, "y": 2 },
-					{ "x": 63, "y": 2 },
-					{ "x": 63, "y": 3 },
-					{ "x": 63, "y": 3 },
-					{ "x": 63, "y": 3 }
-					]
+                    	"src": "sprite-vabese",
+			"interval": 200,
+			"frames": [
+				{ "x": 63, "y": 2 },
+				{ "x": 63, "y": 3 },
+				{ "x": 63, "y": 2 },
+				{ "x": 63, "y": 2 },
+				{ "x": 63, "y": 3 },
+				{ "x": 63, "y": 3 },
+				{ "x": 63, "y": 3 }
+			]
                 }
             }
         ],
-        "hp": 250,
-	"destroyedHP": 0,
-        "fireHP": 50,
-	"explodeHP": 10,
-        "explodeDmg": 150,
-        "moveDelay": 800,
-        "weight": 75,
-        "cost": 100,
-	"command": -1,
-        "propulsion": 0.035,
-	"maintenanceCost": { "base": 15, "UNIVERSAL_CONSCRIPTION": 10 },
+        "hp": 400,
+	"destroyedHP": -400,
+        "fireHP": { "base": 100, "MECHANIS_COMPLETION": 50 },
+	"explodeHP": { "base": 10, "MECHANIS_COMPLETION": 0 },
+        "explodeDmg": { "base": 10, "MECHANIS_COMPLETION": 0 },
+        "moveDelay": 1600,
+        "weight": 150,
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 75 },
+        "cost": 180,
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+	"command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+        "propulsion": 0.044,
+	"maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
         "backOnly": true,
-        "crew": 0,
-        "recommendedCrew": 0,
-	"canOccupy": []
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
+	"upDoors": [ 0, 1 ]
     }
 ]

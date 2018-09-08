@@ -14,17 +14,20 @@
                 { "x": 60, "y": 6, "w": 4, "h": 1 }
             ]
         },
-        "hp": 2050,
-        "fireHP": 200,
-        "moveDelay": 800,
-        "weight": 600,
-        "cost": 200,
-        "propulsion": 0.40,
-        "crew": 0,
+        "hp": 2000,
+        "fireHP": { "base": 200, "MECHANIS_COMPLETION": 100 },
+        "moveDelay": 1600,
+        "weight": 900,
+        "cost": 150,
+        "propulsion": 0.35,
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
         "bottomOnly": true,
-	"command": -1,
-	"maintenanceCost": { "base": 10, "UNIVERSAL_CONSCRIPTION": 6 },
-	"canOccupy": [],
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+        "explodeHP": { "base": 10, "MECHANIS_COMPLETION": 0 },
+        "explodeDmg": { "base": 10, "MECHANIS_COMPLETION": 0 },
+	"command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+	"maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
         "externalAppearances": [
             {
                 "x": 0,
@@ -103,19 +106,19 @@
                 "xOffset": 0.25,
                 "length": 40,
                 "minCompressedLength": 30,
-                "k": 0.14
+                "k": 0.15
             },
             {
                 "xOffset": 2.0,
                 "length": 40,
                 "minCompressedLength": 30,
-                "k": 0.14
+                "k": 0.15
             },
             {
                 "xOffset": 3.75,
                 "length": 40,
                 "minCompressedLength": 30,
-                "k": 0.14
+                "k": 0.15
             }
         ],
         "wheels": [

@@ -2,10 +2,10 @@
     {
         "name": "WORLD_SHAKER",
         "categories": ["WCE_WEAPONS"],
-		"required": "CE_SUSPEDIUM_MAD_SCIENCE",
+	"required": "CE_SUSPEDIUM_MAD_SCIENCE",
         "isGun": true,
         "topOnly": true,
-		"isExplosive": true,
+	"isExplosive": true,
         "w": 1,
         "h": 4,
         "appearance": {
@@ -15,28 +15,29 @@
             "w": 1,
             "h": 4
         },
-		"externalAppearances": [
-			{
-                "x": 0,
-                "y": -1,
-                "appearance": {
-                    "src": "sprite-vabese",
-				    "interval": 100,
-				    "frames": [
-					 { "x": 18, "y": 27 },
-					 { "x": 19, "y": 27 },
-					 { "x": 20, "y": 27 },
-					 { "x": 21, "y": 27 },
-					 { "x": 20, "y": 27 },
-					 { "x": 19, "y": 27 },
-					]
-                }
-            }
+	"externalAppearances": [
+		{
+		        "x": 0,
+		        "y": -1,
+		        "appearance": {
+		            	"src": "sprite-vabese",
+			    	"interval": 60,
+			    	"frames": [
+					{ "x": 18, "y": 26 },
+					{ "x": 19, "y": 26 },
+					{ "x": 20, "y": 26 },
+					{ "x": 21, "y": 26 },
+					{ "x": 19, "y": 28 },
+					{ "x": 19, "y": 29 },
+					{ "x": 19, "y": 30 },
+				]
+		        }
+            	}
         ],
-		"fireSound": {
+	"fireSound": {
             "layers": [
                 {
-                    "variations": [ "sus_activate" ],
+                    "variations": [ "sus_act1", "sus_act2", "sus_act3", "sus_act4" ],
                     "volume": 1.0,
                     "pitch": {
                         "min": 0.9,
@@ -69,10 +70,11 @@
         "weight": 250,
         "cost": 200,
         "shipHPBonus": -10,
-		"crew": 1,
+	"crew": 1,
+        "optionalCrew": 1,
         "recommendedCrew": 2,
         "recommendedGuards": 1,
-		"reload": 1000,
+	"reload": 1000,
         "coalReload": 1000,
         "clip": 1,
         "inaccuracy": 1,
@@ -81,21 +83,34 @@
         "shotSpeed": 999,
         "blastSplashRadius": 999999,
         "shootTroopsRange": 0,
-        "recoilForce": 0.0,
+        "recoilForce": 10.0,
         "canOccupy": [
-			{"x": 0, "y": 0},
-			{"x": 0, "y": 2},
-		],
+		{"x": 0, "y": 0},
+		{"x": 0, "y": 2}
+	],
+        "windows": [
+            	{ "x": 0, "y": 0 },
+		{ "x": 0, "y": 2 }
+        ],
         "muzzleCenterX": 0.50,
         "muzzleCenterY": -0.4375,
         "muzzleLength": 1,
-		"structuralStressAmount": 10,
-		"weaponAppearance": {
+	"structuralStressAmount": 10,
+	"weaponAppearance": {
             "shot": { "src": "sprite-vabese", "x": -1, "y": -1, "w": 1, "h": 1 },
             "barrel": { "src": "sprite-vabese", "x": -1, "y": -1, "w": 1, "h": 1 },
             "barrelX": 0,
             "barrelY": 0,
             "recoil": 0
-        }
+        },
+        "lights": [
+            {
+                "r": 0, "g": 231, "b": 185,
+                "radius": 200,
+                "x": 0.5,
+                "y": -0.4375,
+                "outside": true
+            }
+        ]
     }
 ]

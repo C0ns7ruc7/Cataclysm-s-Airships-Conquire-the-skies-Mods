@@ -37,16 +37,20 @@
             }
         ],
         "hp": 100,
-        "fireHP": 70,
-        "moveDelay": 600,
-        "weight": 50,
-        "cost": 50,
-        "maintenanceCost": { "base": 12, "UNIVERSAL_CONSCRIPTION": 9 },
-        "command": { "base": 2, "FASTER_COMMANDS": 4 },
+        "fireHP": { "base": 180, "MECHANIS_COMPLETION": 90 },
+        "moveDelay": 1600,
+        "weight": 180,
+        "cost": 135,
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+        "explodeHP": { "base": 10, "MECHANIS_COMPLETION": 0 },
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 90 },
+        "explodeDmg": { "base": 10, "MECHANIS_COMPLETION": 0 },
+        "maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+        "command": { "base": 1, "MECHANIS_COMPLETION": 2 },
         "quarters": 18,
         "quartersType": "droid",
-        "windows": [
-            { "x": 2, "y": 0 }
-        ]
+	"upDoors": [ 0, 1, 2 ]
     }
 ]

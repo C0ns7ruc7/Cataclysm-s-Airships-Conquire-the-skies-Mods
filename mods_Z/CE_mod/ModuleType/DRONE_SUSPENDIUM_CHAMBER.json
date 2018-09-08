@@ -3,7 +3,7 @@
         "name": "DRONE_SUSPENDIUM_CHAMBER",
         "categories": ["DRONE"],
         "availableFor": ["AIRSHIP"],
-		"required": "MECHANIS_THEORY",
+	"required": "MECHANIS_THEORY",
         "w": 1,
         "h": 2,
         "appearance": {
@@ -64,34 +64,42 @@
                 }
             }
         ],
-        "hp": 350,
-        "fireHP": 75,
+        "hp": 300,
+        "fireHP": { "base": 70, "MECHANIS_COMPLETION": 35 },
         "moveDelay": 800,
         "weight": 175,
         "cost": 250,
-	"maintenanceCost": { "base": 10, "UNIVERSAL_CONSCRIPTION": 6 },
-	"command": -1,
-        "lift": { "base": 900, "SUSPENDIUM_SPECIALISTS": 1170 },
-        "propulsion": -0.0001,
-        "crew": 0,
-        "recommendedCrew": 0,
+	"maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+	"command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+        "lift": { "base": 660, "MECHANIS_COMPLETION": 1200 },
+        "explodeHP": { "base": 50, "MECHANIS_COMPLETION": 25 },
+        "explodeDmg": { "base": 40, "MECHANIS_COMPLETION": 20 },
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
         "emitters": [
             {
                 "x": 0.85,
                 "y": 0.55,
                 "type": "small_susp_chamber_spark",
-                "emitProbability": 0.007,
+                "emitProbability": 0.013,
                 "inside": true
             }
         ],
         "lights": [
             {
-                "r": 116, "g": 116, "b": 78,
+                "r": 0, "g": 231, "b": 185,
                 "radius": 20,
-                "x": 0.85,
-                "y": 0.55
+                "x": 0.725,
+                "y": 0.625
             }
         ],
-	"canOccupy": []
+        "leftDoors": [ 0, 1 ],
+	"upDoors": [ 0 ],
+        "rightDoors": [ 0, 1 ],
+        "canOccupy": [
+            { "x": 0, "y": 1 },
+            { "x": 0, "y": 0 }
+        ]
     }
 ]

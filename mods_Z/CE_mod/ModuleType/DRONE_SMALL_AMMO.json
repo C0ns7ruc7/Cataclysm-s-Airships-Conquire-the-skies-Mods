@@ -27,19 +27,22 @@
                 }
             }
         ],
-        "hp": 450,
-	"destroyedHP": 0,
-        "fireHP": { "base": 160, "SAFER_AMMO_STORAGE": 40 },
-        "crew": 0,
-        "ammo": { "base": 100, "EFFICIENT_AMMO_STORAGE": 125 },
-        "recommendedCrew": 0,
-	"maintenanceCost": { "base": 10, "UNIVERSAL_CONSCRIPTION": 6 },
-        "explodeHP": { "base": 100, "SAFER_AMMO_STORAGE": 25 },
-        "explodeDmg": 300,
+        "hp": 400,
+	"destroyedHP": -400,
+        "fireHP": { "base": 80, "MECHANIS_COMPLETION": 40 },
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
+        "ammo": { "base": 24, "MECHANIS_COMPLETION": 48 },
+	"maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+        "explodeHP": { "base": 40, "MECHANIS_COMPLETION": 20 },
+        "explodeDmg": { "base": 120, "MECHANIS_COMPLETION": 60 },
         "moveDelay": 600,
         "weight": 105,
-        "cost": 100,
-	"command": -1,
-	"accuracyBonus": 0.25
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 52 },
+        "cost": 95,
+	"command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+	"accuracyBonus": 0.10,
+        "shipHPBonus": 100,
+        "structuralStressAmount": -10
     }
 ]

@@ -1,0 +1,79 @@
+[
+    {
+        "name": "DRONE_BRIDGE",
+        "categories": ["DRONE"],
+        "required": "MECHANIS_REVOLUTION",
+        "w": 2,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 120,
+            "frames": [
+                { "x": 56, "y": 27, "w": 2, "h": 2 }, { "x": 56, "y": 29, "w": 2, "h": 2 },
+ 		{ "x": 56, "y": 31, "w": 2, "h": 2 }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+		"appearance": {
+		    "src": "sprite-vabese",
+		    "interval": 92,
+		    "frames": [
+		        { "x": 58, "y": 43, "w": 2, "h": 2 }, { "x": 58, "y": 41, "w": 2, "h": 2 },
+		        { "x": 60, "y": 43, "w": 2, "h": 2 }, { "x": 60, "y": 45, "w": 2, "h": 2 },
+		        { "x": 60, "y": 47, "w": 2, "h": 2 }, { "x": 58, "y": 45, "w": 2, "h": 2 },
+		        { "x": 58, "y": 45, "w": 2, "h": 2 }, { "x": 56, "y": 43, "w": 2, "h": 2 },
+		        { "x": 56, "y": 45, "w": 2, "h": 2 }, { "x": 56, "y": 43, "w": 2, "h": 2 },
+		        { "x": 56, "y": 43, "w": 2, "h": 2 }, { "x": 56, "y": 41, "w": 2, "h": 2 },
+		        { "x": 58, "y": 41, "w": 2, "h": 2 }, { "x": 58, "y": 41, "w": 2, "h": 2 },
+		        { "x": 60, "y": 41, "w": 2, "h": 2 }, { "x": 62, "y": 43, "w": 2, "h": 2 },
+		        { "x": 62, "y": 43, "w": 2, "h": 2 }, { "x": 62, "y": 43, "w": 2, "h": 2 },
+		        { "x": 60, "y": 43, "w": 2, "h": 2 }, { "x": 58, "y": 43, "w": 2, "h": 2 },
+		        { "x": 58, "y": 43, "w": 2, "h": 2 }
+		    ]
+		}
+            },   
+            {
+                "x": 0,
+                "y": 0,
+		"appearance": {
+		    "src": "sprite-vabese",
+		    "interval": 123,
+		    "frames": [
+			{ "x": 54, "y": 49, "w": 2, "h": 2 }, { "x": 56, "y": 49, "w": 2, "h": 2 }, 
+			{ "x": 58, "y": 49, "w": 2, "h": 2 }, { "x": 60, "y": 49, "w": 2, "h": 2 }, 
+			{ "x": 62, "y": 49, "w": 2, "h": 2 }, { "x": 60, "y": 49, "w": 2, "h": 2 }, 
+			{ "x": 58, "y": 49, "w": 2, "h": 2 }, { "x": 56, "y": 49, "w": 2, "h": 2 }, 
+			{ "x": 54, "y": 49, "w": 2, "h": 2 }, { "x": 54, "y": 49, "w": 2, "h": 2 }, 
+			{ "x": 54, "y": 49, "w": 2, "h": 2 }, { "x": 54, "y": 49, "w": 2, "h": 2 }, 
+			{ "x": 54, "y": 49, "w": 2, "h": 2 }, { "x": 54, "y": 49, "w": 2, "h": 2 },
+			{ "x": 54, "y": 49, "w": 2, "h": 2 }, { "x": 54, "y": 49, "w": 2, "h": 2 }
+		    ]
+		}
+            }
+        ],
+        "hp": 1000,
+        "fireHP": { "base": 120, "MECHANIS_COMPLETION": 60 },
+        "moveDelay": 600,
+        "weight": 150,
+        "cost": 45,
+       	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+        "command": { "base": 10, "MECHANIS_COMPLETION": 20 },
+        "maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
+        "countsAsActiveCrew": true,
+        "explodeHP": { "base": 10, "MECHANIS_COMPLETION": 0 },
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 75 },
+        "explodeDmg": { "base": 10, "MECHANIS_COMPLETION": 0 },
+        "leftDoors": [ 0, 1 ],
+	"upDoors": [ 0, 1 ],
+        "rightDoors": [ 0, 1 ],
+        "canOccupy": [
+            { "x": 0, "y": 0 }, { "x": 1, "y": 0 },
+            { "x": 0, "y": 1 }, { "x": 1, "y": 1 }
+        ]
+    }
+]

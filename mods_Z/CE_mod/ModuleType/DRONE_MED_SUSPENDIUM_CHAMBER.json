@@ -1,0 +1,141 @@
+[
+    {
+        "name": "DRONE_MED_SUSPENDIUM_CHAMBER",
+        "categories": ["DRONE"],
+        "availableFor": ["AIRSHIP"],
+        "required": "MECHANIS_REVOLUTION",
+        "w": 2,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 120,
+            "frames": [
+                { "x": 58, "y": 27, "w": 2, "h": 2 }, { "x": 58, "y": 29, "w": 2, "h": 2 },
+ 		{ "x": 58, "y": 31, "w": 2, "h": 2 }, { "x": 58, "y": 29, "w": 2, "h": 2 }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+		"appearance": {
+		    "src": "sprite-vabese",
+		    "interval": 112,
+		    "frames": [
+		        { "x": 58, "y": 43, "w": 2, "h": 2 }, { "x": 58, "y": 41, "w": 2, "h": 2 },
+		        { "x": 58, "y": 39, "w": 2, "h": 2 }, { "x": 60, "y": 39, "w": 2, "h": 2 },
+		        { "x": 58, "y": 39, "w": 2, "h": 2 }, { "x": 56, "y": 39, "w": 2, "h": 2 },
+		        { "x": 56, "y": 41, "w": 2, "h": 2 }, { "x": 58, "y": 41, "w": 2, "h": 2 },
+		        { "x": 58, "y": 43, "w": 2, "h": 2 }, { "x": 58, "y": 45, "w": 2, "h": 2 },
+		        { "x": 56, "y": 45, "w": 2, "h": 2 }, { "x": 56, "y": 47, "w": 2, "h": 2 },
+		        { "x": 58, "y": 47, "w": 2, "h": 2 }, { "x": 58, "y": 47, "w": 2, "h": 2 },
+		        { "x": 60, "y": 45, "w": 2, "h": 2 }, { "x": 60, "y": 43, "w": 2, "h": 2 },
+		        { "x": 60, "y": 43, "w": 2, "h": 2 }
+		    ]
+		}
+            },   
+            {
+                "x": 0,
+                "y": 0,
+		"appearance": {
+		    "src": "sprite-vabese",
+		    "interval": 140,
+		    "frames": [
+			{ "x": 54, "y": 49, "w": 2, "h": 2 }, { "x": 56, "y": 49, "w": 2, "h": 2 }, 
+			{ "x": 58, "y": 49, "w": 2, "h": 2 }, { "x": 60, "y": 49, "w": 2, "h": 2 }, 
+			{ "x": 62, "y": 49, "w": 2, "h": 2 }, { "x": 60, "y": 49, "w": 2, "h": 2 }, 
+			{ "x": 58, "y": 49, "w": 2, "h": 2 }, { "x": 56, "y": 49, "w": 2, "h": 2 }, 
+			{ "x": 54, "y": 49, "w": 2, "h": 2 }, { "x": 54, "y": 49, "w": 2, "h": 2 }, 
+			{ "x": 54, "y": 49, "w": 2, "h": 2 }, { "x": 54, "y": 49, "w": 2, "h": 2 }
+		    ]
+		}
+            }
+        ],
+        "runningLoop": {
+            "layers": [
+                {
+                    "variations": [ "suspendium_3200" ],
+                    "volume": {
+                        "value": 0.03,
+                        "onViewingSide": [
+                            0, 0.25,
+                            1, 1
+                        ],
+                        "ySpeed": [
+                            -0.3, 1.3,
+                            -0.05, 1.0,
+                            0, 1.0
+                        ]
+                    },
+                    "pitch": {
+                        "value": 1,
+                        "ySpeed": [
+                            -0.3, 1.2,
+                            -0.1, 1.0,
+                            0, 1.0,
+                            0.1, 1.0,
+                            0.3, 0.85
+                        ]
+                    }
+                }
+            ]
+        },
+        "hp": 1000,
+        "fireHP": { "base": 240, "MECHANIS_COMPLETION": 120 },
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+        "explodeHP": { "base": 180, "MECHANIS_COMPLETION": 90 },
+	"command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+        "explodeDmg": { "base": 140, "MECHANIS_COMPLETION": 70 },
+        "maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+        "moveDelay": 1600,
+        "weight": 360,
+        "cost": 540,
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
+        "lift": { "base": 2200, "MECHANIS_COMPLETION": 4000 },
+        "emitters": [
+            {
+                "x": 0.4,
+                "y": 0.38,
+                "type": "smoke",
+                "emitProbability": 0.003
+            },
+            {
+                "x": 0.4,
+                "y": 1.7,
+                "type": "ember",
+                "emitProbability": 0.002,
+                "inside": true
+            },
+            {
+                "x": 2.3,
+                "y": 1,
+                "type": "susp_chamber_spark",
+                "emitProbability": 0.04,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 0, "g": 231, "b": 185,
+                "radius": 40,
+                "x": 1,
+                "y": 1
+            },
+            {
+                "r": 0, "g": 231, "b": 185,
+                "radius": 16,
+                "x": 1.0,
+                "y": 1.0,
+                "outside": true
+            }
+        ],
+        "leftDoors": [ 0, 1 ],
+	"upDoors": [ 0, 1 ],
+        "rightDoors": [ 0, 1 ],
+        "canOccupy": [
+            { "x": 0, "y": 0 }, { "x": 1, "y": 0 },
+            { "x": 0, "y": 1 }, { "x": 1, "y": 1 }
+        ]
+    }
+]

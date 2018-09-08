@@ -12,7 +12,7 @@
             "frames": [
                 {"x": 60, "y": 10, "w": 2, "h": 1},
                 {"x": 60, "y": 11, "w": 2, "h": 1},
-				{"x": 60, "y": 10, "w": 2, "h": 1}
+		{"x": 60, "y": 10, "w": 2, "h": 1}
             ]
         },
 		"externalAppearances": [
@@ -46,25 +46,25 @@
                 }
             }
         ],
-        "hp": 360,
-	"destroyedHP": 0,
-        "fireHP": 100,
-        "moveDelay": 800,
+        "hp": 500,
+	"destroyedHP": -500,
+        "fireHP": { "base": 120, "MECHANIS_COMPLETION": 60 },
         "weight": 120,
-        "cost": 65,
-        "crew": 0,
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 60 },
+        "cost": 60,
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
         "bottomOnly": true,
         "isExplosive": true,
         "shotSpeed": 0.3,
         "muzzleFlash": false,
-        "reload": 5000,
-        "clip": 200,
-        "ammoPerClip": 0,
-	"ammo": -1,
-	"maintenanceCost": { "base": 15, "UNIVERSAL_CONSCRIPTION": 10 },
-	"command": -1,
-        "inaccuracy": 0.00125,
-        "blastDmg": { "base": 50, "POWERFUL_EXPLOSIVES": 65 },
+        "reload": { "base": 6600, "MECHANIS_COMPLETION": 5400 },
+        "clip": -1,
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+	"maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+	"command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+        "inaccuracy": { "base": 0.0022, "MECHANIS_COMPLETION": 0.00165 },
+        "blastDmg": { "base": 50, "MECHANIS_COMPLETION": 65 },
         "blastSplashRadius": 50,
         "penDmg": 0,
         "fireArc": { "direction": "down", "degrees": 10 },
@@ -84,11 +84,12 @@
                 }
             ]
         },
-        "explodeHP": 80,
-        "explodeDmg": 120,
+        "explodeHP": { "base": 80, "MECHANIS_COMPLETION": 40 },
+        "explodeDmg": { "base": 80, "MECHANIS_COMPLETION": 40 },
         "weaponAppearance": {
             "shot": { "src": "spritesheet", "x": 641, "y": 81, "w": 12, "h": 5 }
         },
-		"canOccupy": []
+        "moveDelay": 1600,
+	"upDoors": [ 0, 1 ]
     }
 ]

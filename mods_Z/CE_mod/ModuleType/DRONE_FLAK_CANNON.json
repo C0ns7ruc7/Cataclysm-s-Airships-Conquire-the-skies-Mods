@@ -45,26 +45,27 @@
                 }
             }
         ],
-        "hp": 250,
-	"destroyedHP": 0,
-        "fireHP": 40,
-        "moveDelay": 800,
+        "hp": 200,
+	"destroyedHP": -200,
+        "fireHP": { "base": 36, "MECHANIS_COMPLETION": 18 },
+        "moveDelay": 1600,
         "weight": 90,
-        "cost": 365,
-	"maintenanceCost": { "base": 15, "UNIVERSAL_CONSCRIPTION": 10 },
-        "crew": 0,
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 45 },
+        "cost": 360,
+	"maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
         "topOnly": true,
         "isGun": true,
         "isCannon": true,
-        "reload": 1500,
-        "clip": 1000,
-        "ammoPerClip": 0,
-	"ammo": -1,
-	"command": -1,
-        "inaccuracy": { "base": 0.0013, "PRECISE_GUNNERY": 0.00065 },
-        "blastDmg": { "base": 8, "POWERFUL_EXPLOSIVES": 10 },
+        "reload": { "base": 1650, "MECHANIS_COMPLETION": 1350 },
+        "clip": -1,
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+	"command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+        "inaccuracy": { "base": 0.001, "MECHANIS_COMPLETION": 0.00075 },
+        "blastDmg": { "base": 8, "MECHANIS_COMPLETION": 12 },
         "blastSplashRadius": 45,
-        "penDmg": 2,
+        "penDmg": 3,
         "recoilForce": 0.2,
         "fireArc": { "direction": "up", "degrees": 120 },
         "muzzleCenterX": 1,
@@ -124,8 +125,8 @@
                 }
             ]
         },
-        "explodeHP": 30,
-        "explodeDmg": 90,
+        "explodeHP": { "base": 20, "MECHANIS_COMPLETION": 10 },
+        "explodeDmg": { "base": 60, "MECHANIS_COMPLETION": 30 },
         "weaponAppearance": {
             "shot": { "src": "spritesheet", "x": 64, "y": 304, "w": 2, "h": 2 },
             "barrel": { "src": "spritesheet", "x": 937, "y": 645, "w": 82, "h": 7 },
@@ -135,6 +136,6 @@
             "hitExplosionSize": 0.5,
             "missExplosionSize": 0.5,
         },
-		"canOccupy": []
+	"upDoors": [ 0 ]
     }
 ]

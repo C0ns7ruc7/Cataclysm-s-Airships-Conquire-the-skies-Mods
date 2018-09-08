@@ -10,10 +10,10 @@
             "src": "sprite-vabese",
             "interval": 100,
             "frames": [
-                { "x": 52, "y": 18 },
-                { "x": 52, "y": 21 },
-                { "x": 52, "y": 24 },
-                { "x": 52, "y": 27 }
+                { "x": 52, "y": 18, "w": 2, "h": 3 },
+                { "x": 52, "y": 21, "w": 2, "h": 3 },
+                { "x": 52, "y": 24, "w": 2, "h": 3 },
+                { "x": 52, "y": 27, "w": 2, "h": 3 }
             ]
         },
         "externalAppearances": [
@@ -57,22 +57,26 @@
             }
         ],
         "external": true,
-        "hp": 500,
-        "fireHP": 200,
+        "hp": 1000,
+        "fireHP": { "base": 150, "MECHANIS_COMPLETION": 75 },
         "moveDelay": 600,
-        "weight": 100,
-        "cost": 200,
-        "maintenanceCost": 10,
+        "weight": 300,
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 150 },
+        "cost": 900,
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+	"command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+        "maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
         "quarters": 3,
         "recommendedCrew": 1,
-        "crew": 0,
+        "recommendedGuards": 1,
         "quartersType": "big_ce_drone",
         "hangarPositions": [
-            { "x": 0, "y": 0 },
-			{ "x": 0, "y": 1 },
-			{ "x": 0, "y": 2 },
+            	{ "x": 0, "y": 0 },
+		{ "x": 0, "y": 1 },
+		{ "x": 0, "y": 2 },
         ],
         "leftDoors": [ 0, 1, 2 ],
+	"upDoors": [ 0, 1 ],
         "rightDoors": [ 0, 1, 2 ],
         "canOccupy": [
             { "x": 0, "y": 2 },

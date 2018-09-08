@@ -2,7 +2,7 @@
     {
         "name": "DRONE_SMALL_COAL_STORE",
         "categories": ["DRONE"],
-		"required": "MECHANIS_THEORY",
+	"required": "MECHANIS_THEORY",
         "w": 1,
         "h": 1,
         "appearance": {
@@ -11,10 +11,10 @@
             "frames": [
                 {"x": 60, "y": 9, "w": 1, "h": 1},
                 {"x": 61, "y": 9, "w": 1, "h": 1},
-				{"x": 62, "y": 9, "w": 1, "h": 1}
+		{"x": 62, "y": 9, "w": 1, "h": 1}
             ]
         },
-		"externalAppearances": [
+	"externalAppearances": [
             {
                 "x": 0,
                 "y": 0,
@@ -27,16 +27,22 @@
                 }
             }
         ],
-        "hp": 450,
-	"destroyedHP": 0,
-	"maintenanceCost": { "base": 15, "UNIVERSAL_CONSCRIPTION": 10 },
-        "fireHP": 160,
+        "hp": 400,
+	"destroyedHP": -400,
+	"maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+        "fireHP": { "base": 160, "MECHANIS_COMPLETION": 80 },
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 50 },
         "moveDelay": 600,
         "weight": 100,
-        "cost": 300,
-	"command": -1,
-	"canOccupy": [],
-	"propulsion": 0.030,
-	"lift": 850,
+        "cost": 80,
+        "coal": 12,
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+	"command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+	"upDoors": [ 0 ],
+	"accuracyBonus": 0.10,
+        "shipHPBonus": 100,
+        "structuralStressAmount": -10
     }
 ]
