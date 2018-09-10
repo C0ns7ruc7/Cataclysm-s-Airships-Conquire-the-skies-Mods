@@ -1,0 +1,193 @@
+[
+    {
+        "name": "FLIPPED_DRONE_TRUE_HV_CANNON",
+        "flippedFrom": "DRONE_TRUE_HV_CANNON"
+    },
+    {
+        "name": "DRONE_TRUE_HV_CANNON",
+        "categories": ["DRONE"],
+        "required": "MECHANIS_REVOLUTION",
+        "isWeapon": true,
+        "w": 2,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 222,
+            "frames": [
+                {"x": 56, "y": 33, "w": 2, "h": 2},
+                {"x": 56, "y": 35, "w": 2, "h": 2},
+		{"x": 56, "y": 37, "w": 2, "h": 2}
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 2,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 58,
+                    "y": 33,
+                    "w": 2,
+                    "h": 2
+                }
+            },
+            {
+                "x": 0,
+                "y": 0,
+		"appearance": {
+		    "src": "sprite-vabese",
+		    "interval": 103,
+		    "frames": [
+{ "x": 62, "y": 43, "w": 2, "h": 2 }, { "x": 60, "y": 43, "w": 2, "h": 2 },
+{ "x": 60, "y": 41, "w": 2, "h": 2 }, { "x": 62, "y": 39, "w": 2, "h": 2 },
+{ "x": 62, "y": 41, "w": 2, "h": 2 }, { "x": 62, "y": 41, "w": 2, "h": 2 },
+{ "x": 62, "y": 41, "w": 2, "h": 2 }, { "x": 62, "y": 43, "w": 2, "h": 2 },
+{ "x": 62, "y": 43, "w": 2, "h": 2 }, { "x": 60, "y": 45, "w": 2, "h": 2 },
+{ "x": 60, "y": 45, "w": 2, "h": 2 }, { "x": 62, "y": 47, "w": 2, "h": 2 },
+{ "x": 60, "y": 47, "w": 2, "h": 2 }, { "x": 62, "y": 45, "w": 2, "h": 2 },
+{ "x": 62, "y": 43, "w": 2, "h": 2 }, { "x": 62, "y": 41, "w": 2, "h": 2 },
+{ "x": 62, "y": 43, "w": 2, "h": 2 }, { "x": 60, "y": 43, "w": 2, "h": 2 },
+{ "x": 60, "y": 43, "w": 2, "h": 2 }
+		    ]
+		}
+            },   
+            {
+                "x": 0,
+                "y": 0,
+		"appearance": {
+		    "src": "sprite-vabese",
+		    "interval": 123,
+		    "frames": [
+{ "x": 54, "y": 49, "w": 2, "h": 2 }, { "x": 56, "y": 49, "w": 2, "h": 2 }, 
+{ "x": 58, "y": 49, "w": 2, "h": 2 }, { "x": 60, "y": 49, "w": 2, "h": 2 }, 
+{ "x": 62, "y": 49, "w": 2, "h": 2 }, { "x": 60, "y": 49, "w": 2, "h": 2 }, 
+{ "x": 58, "y": 49, "w": 2, "h": 2 }, { "x": 56, "y": 49, "w": 2, "h": 2 }, 
+{ "x": 54, "y": 49, "w": 2, "h": 2 }, { "x": 54, "y": 49, "w": 2, "h": 2 },
+{ "x": 54, "y": 49, "w": 2, "h": 2 }, { "x": 54, "y": 49, "w": 2, "h": 2 }, 
+{ "x": 54, "y": 49, "w": 2, "h": 2 }, { "x": 54, "y": 49, "w": 2, "h": 2 }
+		    ]
+		}
+            }
+        ],
+        "hp": 1200,
+	"destroyedHP": -1200,        
+        "fireHP": { "base": 300, "MECHANIS_COMPLETION": 150 },
+        "moveDelay": 1600,
+        "weight": 600,
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 300 },
+        "cost": 900,
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
+        "frontOnly": true,
+        "isGun": true,
+        "isCannon": true,
+        "reload": { "base": 6600, "MECHANIS_COMPLETION": 5400 },
+        "clip": -1,
+        "inaccuracy": { "base": 0.0012, "MECHANIS_COMPLETION": 0.0009 },
+        "blastDmg": { "base": 0, "MECHANIS_COMPLETION": 5 },
+      	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+	"maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+	"command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+        "blastSplashRadius": 5,
+        "penDmg": 120,
+        "recoilForce": 4.0,
+        "fireArc": { "direction": "forwards", "degrees": 40 },
+        "muzzleCenterX": 3,
+        "muzzleCenterY": 1.25,
+        "muzzleLength": 4.5,
+        "optimumRange": 800,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "cannon0", "cannon1", "cannon2", "cannon3", "cannon4", "cannon5", "cannon6" ],
+                    "volume": {
+                        "min": 2,
+                        "max": 2,
+						"distance": [
+                            0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+							5000, 0
+                        ],
+                    },
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.2,
+                        "distance": [
+                            0, 1,
+                            2000, 0.9,
+							4000, 0.75
+                        ]
+                    }
+                },
+                {
+                    "variations": [ "hv_cannon0", "hv_cannon1", "hv_cannon2" ],
+                    "volume": {
+                        "min": 4,
+                        "max": 4,
+						"distance": [
+                            0, 1,
+							1500, 0.75,
+							4000, 0.3,
+							6000, 0.2,
+							8000, 0.1,
+							10000, 0
+                        ],
+                    },
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.2,
+                        "distance": [
+                            0, 1,
+                            2000, 0.9,
+							4000, 0.75
+                        ]
+                    }
+                },
+                {
+                    "variations": [ "cannon_d_0", "cannon_d_1", "cannon_d_2", "cannon_d_3" ],
+                    "volume": {
+                        "min": 1.7,
+                        "max": 1.7,
+						"distance": [
+                            0, 0,
+							750, 0,
+							2000, 0.1,
+							3000, 0.5,
+							4000, 0.75,
+							5000, 0.1
+						],
+					},
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.2,
+                        "distance": [
+                            0, 1,
+                            2000, 1,
+							5000, 0.85
+						]
+					}
+				}	
+            ]
+        },
+        "explodeHP": { "base": 160, "MECHANIS_COMPLETION": 80 },
+        "explodeDmg": { "base": 140, "MECHANIS_COMPLETION": 70 },
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 0, "y": 304, "w": 10, "h": 5 },
+            "barrel": { "src": "sprite-vabese", "x": 748, "y": 551, "w": 147, "h": 14 },
+            "barrelX": -50,
+            "barrelY": 10,
+            "recoil": 10,
+            "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.007 }
+        },
+        "canOccupy": [
+            { "x": 0, "y": 1 }, { "x": 1, "y": 0 },
+            { "x": 0, "y": 1 }, { "x": 1, "y": 1 }
+        ],
+        "upDoors": [ 0, 1 ],
+        "rightDoors": [ 0, 1 ],
+        "leftDoors": [ 0, 1 ]
+    }
+]

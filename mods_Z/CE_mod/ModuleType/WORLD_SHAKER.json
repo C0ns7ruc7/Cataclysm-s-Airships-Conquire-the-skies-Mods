@@ -2,7 +2,7 @@
     {
         "name": "WORLD_SHAKER",
         "categories": ["WCE_WEAPONS"],
-	"required": "CE_SUSPEDIUM_MAD_SCIENCE",
+	"required": "CE_SUSPENDIUM_MAD_SCIENCE",
         "isGun": true,
         "topOnly": true,
 	"isExplosive": true,
@@ -74,22 +74,21 @@
         "optionalCrew": 1,
         "recommendedCrew": 2,
         "recommendedGuards": 1,
-	"reload": 1000,
-        "coalReload": 1000,
+	"reload": 1999,
+        "coalReload": 2000,
         "clip": 1,
-        "inaccuracy": 1,
+        "inaccuracy": 0.99,
         "blastDmg": 1,
         "penDmg": 0,
         "shotSpeed": 999,
         "blastSplashRadius": 999999,
-        "shootTroopsRange": 0,
+        "shootTroopsRange": 99999,
         "recoilForce": 10.0,
         "canOccupy": [
-		{"x": 0, "y": 0},
-		{"x": 0, "y": 2}
+        	{ "x": 0, "y": 0 },
+		{ "x": 0, "y": 2 }
 	],
         "windows": [
-            	{ "x": 0, "y": 0 },
 		{ "x": 0, "y": 2 }
         ],
         "muzzleCenterX": 0.50,
@@ -103,6 +102,8 @@
             "barrelY": 0,
             "recoil": 0
         },
+        "leftDoors": [ 0, 2 ],
+        "rightDoors": [ 0, 2 ],
         "lights": [
             {
                 "r": 0, "g": 231, "b": 185,

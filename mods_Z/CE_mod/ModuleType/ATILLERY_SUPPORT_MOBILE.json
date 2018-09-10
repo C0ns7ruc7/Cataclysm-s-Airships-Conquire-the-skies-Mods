@@ -23,6 +23,211 @@
         },
 		"externalAppearances": [
             {
+                "appearance": 
+		        {
+			        "src": "sprite-vabese",
+			        "x": 34,
+			        "y": 7,
+			        "w": 2,
+			        "h": 1
+                },
+                "x": 0,
+                "y": 1
+            },
+            {
+                "appearance": 
+		        {
+			        "src": "sprite-vabese",
+			        "x": 34,
+			        "y": 7,
+			        "w": 2,
+			        "h": 1
+                },
+                "x": 2,
+                "y": 1
+            },
+			{
+                "appearance": 
+		        {
+			        "src": "sprite-vabese",
+			        "x": 36,
+			        "y": 6,
+			        "w": 1,
+			        "h": 5
+                },
+                "x": 0,
+                "y": -5
+            },
+			{
+                "appearance": 
+		        {
+			        "src": "sprite-vabese",
+			        "x": 36,
+			        "y": 6,
+			        "w": 1,
+			        "h": 5
+                },
+                "x": 2,
+                "y": -5
+            },
+			{
+                "appearance": 
+		        {
+			        "src": "sprite-vabese",
+			        "x": 43,
+			        "y": 11,
+			        "w": 1,
+			        "h": 1
+                },
+                "x": 0,
+                "y": 0
+            },
+			{
+                "appearance": 
+		        {
+			        "src": "sprite-vabese",
+			        "x": 43,
+			        "y": 11,
+			        "w": 1,
+			        "h": 1
+                },
+                "x": 2,
+                "y": 0
+            }
+        ],
+        "hp": 200,
+        "fireHP": 70,
+        "moveDelay": 1000,
+        "weight": 200,
+        "cost": 200,
+        "maintenanceCost": 400,
+        "crew": 2,
+	"fixedGuards": 2,
+        "recommendedCrew": 3,
+        "recommendedGuards": 3,
+        "topOnly": true,
+        "frontOnly": true,
+        "isGun": true,
+        "isCannon": true,
+        "reload": { "base": 240, "FASTER_CANNON_RELOAD": 180 },
+        "clip": 6,
+        "numShots": 3,
+        "shotSpeedVariation": 0.1,
+        "multiShotJitter": 0.00025,
+        "jitterMerge": 0.5,
+        "shotSpeed": 1.2,
+	"clipReloadTime": 10000,
+        "inaccuracy": { "base": 0.001, "PRECISE_GUNNERY": 0.0005 },
+        "blastDmg": 180,
+        "penDmg": 180,
+        "blastSplashRadius": 40,
+        "recoilForce": 0.0,
+        "fireArc": { "direction": "forwards", "degrees": 180 },
+        "muzzleCenterX": -900.0,
+        "muzzleCenterY": -200.0,
+        "muzzleLength": 0.0,
+        "optimumRange": 4000,
+ 	    "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "da_cannon0", "da_cannon1", "da_cannon2" ],
+                    "volume": 3.0,
+                    "pitch": {
+                        "min": 1.11,
+                        "max": 1.3,
+                        "distance": [
+                            0, 1.50,
+			                1500, 1.0,
+                            3000, 0.5,
+			                6000, 0.25
+                        ]
+                    }
+                },
+                {
+                    "variations": [ "da_cannon1", "da_cannon0", "da_cannon2" ],
+                    "volume": 3.0,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1,
+                        "distance": [
+                            0, 1.50,
+			                1500, 1.0,
+                            3000, 0.5,
+			                6000, 0.25
+                        ]
+                    }
+                },
+                {
+                    "variations": [ "da_cannon2", "da_cannon0", "da_cannon1" ],
+                    "volume": 3.0,
+                    "pitch": {
+                        "min": 0.7,
+                        "max": 0.89,
+                        "distance": [
+                            0, 1.50,
+			                1500, 1.0,
+                            3000, 0.5,
+			                6000, 0.25
+                        ]
+                    }
+                }
+            ]
+        },
+        "explodeHP": 10,
+        "explodeDmg": 20,
+	    "weaponAppearance": {
+                "shot": { "src": "sprite-vabese", "x": 336, "y": 400, "w": 16, "h": 7 },
+                "barrel": { "src": "sprite-vabese", "x": 0, "y": 0, "w": 1, "h": 1 },
+                "barrelX": 0,
+                "barrelY": 0,
+                "recoil": 15,
+                "shotEmitter": { "type": "rocket_exhaust", "emitProbability": 0.100 },
+		"hitExplosionSize": 10,
+		"missExplosionSize": 8
+        },
+        "leftDoors": [0],
+        "rightDoors": [ ],
+        "canOccupy":
+		[
+            { "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 },
+			{ "x": 2, "y": 0 },
+			{ "x": 3, "y": 0 },
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 },
+			{ "x": 2, "y": 1 },
+			{ "x": 3, "y": 1 }
+		],
+        "windows": [
+            { "x": 1, "y": 1 },
+            { "x": 2, "y": 1 },
+            { "x": 3, "y": 1 }
+        ]
+    },
+    {
+        "name": "FLIPPED_ATILLERY_SUPPORT_MOBILE_AI",
+        "flippedFrom": "ATILLERY_SUPPORT_MOBILE_AI"
+    },
+    {
+        "name": "ATILLERY_SUPPORT_MOBILE_AI",
+        "categories": ["DEV"],
+	"availableFor": ["LANDSHIP", "AIRSHIP"],
+        "required": "EXTREME_DISTANCE_COMBAT",
+        "isWeapon": true,
+        "w": 4,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 100,
+            "frames": [
+                { "x": 38, "y": 14, "w": 4, "h": 2 },
+                { "x": 31, "y": 17, "w": 4, "h": 2 },
+                { "x": 27, "y": 19, "w": 4, "h": 2 },
+                { "x": 31, "y": 19, "w": 4, "h": 2 }
+            ]
+        },
+		"externalAppearances": [
+            {
                 "x": -29,
                 "y": -31,
                 "appearance": {
