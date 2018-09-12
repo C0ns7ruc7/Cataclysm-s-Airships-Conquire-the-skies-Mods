@@ -3,7 +3,7 @@
         "name": "WORLD_SHAKER",
         "categories": ["WCE_WEAPONS"],
 	"required": "CE_SUSPENDIUM_MAD_SCIENCE",
-        "isGun": true,
+        "isWeapon": true,
         "topOnly": true,
 	"isExplosive": true,
         "w": 1,
@@ -38,7 +38,7 @@
             "layers": [
                 {
                     "variations": [ "sus_act1", "sus_act2", "sus_act3", "sus_act4" ],
-                    "volume": 1.0,
+                    "volume": 0.3,
                     "pitch": {
                         "min": 0.9,
                         "max": 1.2,
@@ -54,7 +54,7 @@
             "layers": [
                 {
                     "variations": ["sus_shake"],
-                    "volume": 1.0,
+                    "volume": 2.5,
                     "pitch": {
                         "min": 0.5,
                         "max": 1.0
@@ -66,23 +66,26 @@
         "explodeHP": 50,
         "explodeDmg": 100,
         "fireHP": 60,
-        "moveDelay": 10000,
+        "moveDelay": 600,
         "weight": 250,
-        "cost": 200,
-        "shipHPBonus": -10,
+        "cost": 500,
+        "shipHPBonus": -300,
 	"crew": 1,
         "optionalCrew": 1,
         "recommendedCrew": 2,
         "recommendedGuards": 1,
 	"reload": 1999,
-        "coalReload": 2000,
+	"coalReload": 2000,
         "clip": 1,
-        "inaccuracy": 0.99,
-        "blastDmg": 1,
-        "penDmg": 0,
+        "inaccuracy": 0.01,
+        "blastDmg": 3,
+        "penDmg": 1,
         "shotSpeed": 999,
-        "blastSplashRadius": 999999,
-        "shootTroopsRange": 99999,
+        "blastSplashRadius": 4000,
+        "maxRange": 2000,
+        "shootTroopsRange": 2000,
+        "optimumRange": 2000,
+        "maintenanceCost": 10,
         "recoilForce": 10.0,
         "canOccupy": [
         	{ "x": 0, "y": 0 },
@@ -91,16 +94,18 @@
         "windows": [
 		{ "x": 0, "y": 2 }
         ],
+        "fireArc": { "direction": "downwards", "degrees": 360 },
         "muzzleCenterX": 0.50,
         "muzzleCenterY": -0.4375,
-        "muzzleLength": 1,
+        "muzzleLength": 0,
 	"structuralStressAmount": 10,
 	"weaponAppearance": {
             "shot": { "src": "sprite-vabese", "x": -1, "y": -1, "w": 1, "h": 1 },
             "barrel": { "src": "sprite-vabese", "x": -1, "y": -1, "w": 1, "h": 1 },
             "barrelX": 0,
             "barrelY": 0,
-            "recoil": 0
+            "recoil": 0,
+            "shotEmitter": { "type": "shockwave_giant_ce", "emitProbability": 1 }
         },
         "leftDoors": [ 0, 2 ],
         "rightDoors": [ 0, 2 ],

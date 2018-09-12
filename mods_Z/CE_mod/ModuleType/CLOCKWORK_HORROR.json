@@ -8,6 +8,8 @@
     	"preventsSurrender": true,
 	"isWeapon": true,
         "destructionLength": 2600,
+        "tentacleDeathSpasms": true,
+        "createsExceptionalCombatEventAfterMs": 1600,
 	"external": true,
         "isRam": true,
         "w": 1,
@@ -104,7 +106,7 @@
             }
         ],
         "command": 3,
-        "maintenanceCost": 5,
+        "maintenanceCost": 1,
 	"canOccupy": [],
 	"lift": 5000,
 	"propulsion": 0.40,
@@ -127,6 +129,268 @@
         "blastSplashRadius": 17,
         "penDmg": 0,
 	"directDmg": 1,
+        "hardness": 2,
+        "muzzleCenterX": 0.5,
+        "muzzleCenterY": 0.5,
+        "muzzleLength": 0.5,
+        "optimumRange": 300,
+	"fireArc": { "direction": "forwards", "degrees":  360 },
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 32, "y": 304, "w": 2, "h": 1 },
+            "barrel": { "src": "monsters", "x": 1, "y": 1, "w": 1, "h": 1 },
+            "barrelX": 8,
+            "barrelY": 8,
+            "recoil": 0
+        },
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "gatling0", "gatling1", "gatling2", "gatling3", "gatling4", "gatling5", "gatling6", "gatling7", "gatling8" ],
+                    "volume": 2.0,
+                    "pitch": {
+                        "min": 0.7,
+                        "max": 0.8,
+                        "distance": [
+                            0, 1.1,
+                            3000, 0.8
+                        ]
+                    }
+                }
+            ]
+        },
+	"tentacles": [
+            {
+                "numSegments": 20,
+                "baseAngle": 0,
+                "baseXOffset": -8,
+                "baseYOffset": 8,
+                "baseStiffness": 0.7,
+                "tipStiffness": 0.4,
+                "baseLength": 12,
+                "tipLength": 6,
+                "baseWidth": 12,
+                "tipWidth": 5,
+                "speed": 0.5,
+                "snatchesCrew": true,
+                "mouthXOffset": 2,
+                "mouthYOffset": 1.75,
+                "attacksHull": true,
+                "wavesAround": true,
+                "suckerDirection": false,
+		"attackPenDmg": 30,
+		"attackBlastDmg": 70,
+                "segmentImg": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "segmentImgVerticallyFlipped": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "imgLength": 14,
+                "minNextTargetPause": 0,
+                "maxNextTargetPause": 50,
+				"snatchSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_grab0", "tentacle_grab1", "tentacle_grab2"],
+				            "volume": { "min": 0.8, "max": 1.25 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				},
+				"attackSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+				            "volume": { "min": 0.8, "max": 1.25 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				},
+				"segmentImgOverrides": [
+					{
+						"index": 19,
+		                "img": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 },
+		                "imgVerticallyFlipped": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 }
+					}
+				]
+            },
+            {
+                "numSegments": 20,
+                "baseAngle": 3,
+                "baseXOffset": 8,
+                "baseYOffset": 8,
+                "baseStiffness": 0.7,
+                "tipStiffness": 0.4,
+                "baseLength": 12,
+                "tipLength": 6,
+                "baseWidth": 12,
+                "tipWidth": 5,
+                "speed": 0.5,
+                "snatchesCrew": false,
+                "mouthXOffset": 2,
+                "mouthYOffset": 1.75,
+                "attacksHull": true,
+                "wavesAround": true,
+                "suckerDirection": false,
+		"attackPenDmg": 70,
+		"attackBlastDmg": 30,
+                "segmentImg": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "segmentImgVerticallyFlipped": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "imgLength": 14,
+                "minNextTargetPause": 100,
+                "maxNextTargetPause": 200,
+				"snatchSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_grab0", "tentacle_grab1", "tentacle_grab2"],
+				            "volume": { "min": 0.8, "max": 1.25 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				},
+				"attackSound": {
+				    "layers": [
+				        {
+				            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+				            "volume": { "min": 0.8, "max": 1.25 },
+                            "pitch": { "min": 0.8, "max": 1.25 }
+				        }
+				    ]
+				},
+				"segmentImgOverrides": [
+					{
+						"index": 19,
+		                "img": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 },
+		                "imgVerticallyFlipped": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 }
+					}
+				]
+            }
+        ]
+    },
+        {
+        "name": "CLOCKWORK_HORROR_INFECTOR",
+        "categories": ["DEV"],
+	"required": "MONSTERS",
+	"doesCreak": false,
+        "preventsBoarding": true,
+    	"preventsSurrender": true,
+	"isWeapon": true,
+        "destructionLength": 2600,
+        "tentacleDeathSpasms": true,
+        "createsExceptionalCombatEventAfterMs": 1600,
+	"external": true,
+        "isRam": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 200,
+            "frames": [
+                { "x": 50, "y": 12 },
+                { "x": 51, "y": 12 }
+            ]
+        },
+	"externalAppearances": [
+            {
+                "x": -1,
+                "y": -1,
+                "appearance": {
+                	"src": "sprite-vabese",
+			"interval": 100,
+			"frames":[
+				{"x": 49, "y": 18, "w": 3, "h": 3},
+				{"x": 49, "y": 21, "w": 3, "h": 3},
+				{"x": 49, "y": 24, "w": 3, "h": 3},
+				{"x": 49, "y": 27, "w": 3, "h": 3} 	
+			]
+                }
+            }
+	],
+        "hp": 1000,
+	"armourType": "CLOCKWORK_BRASS",
+	"hasGenericDestructionFragments": true,
+        "fireHP": 50,
+	"explodeHP": 10,
+        "explodeDmg": 2000,
+        "moveDelay": 2000,
+	"destroyedHP": 0,
+        "weight": 2500,
+        "cost": 500,
+	"countsAsActiveCrew": true,
+        "emitters": [
+            {
+                "x": 0.5,
+                "y": 0.525,
+                "type": "large_susp_chamber_spark",
+                "emitProbability": 0.04
+            },
+            {
+                "x": -0.5,
+                "y": 0.0,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.001
+            },
+            {
+                "x": 0.0,
+                "y": -0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.001
+            },
+            {
+                "x": -0.5,
+                "y": -0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.001
+            },
+            {
+                "x": 0.5,
+                "y": 0.0,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.001
+            },
+            {
+                "x": 0.0,
+                "y": 0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.001
+            },
+            {
+                "x": 0.5,
+                "y": 0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.001
+            },
+            {
+                "x": -0.5,
+                "y": 0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.001
+            },
+            {
+                "x": 0.5,
+                "y": -0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.001
+            }
+        ],
+        "command": 3,
+        "maintenanceCost": 1,
+	"canOccupy": [],
+	"lights": [
+            {
+                "r": 0, "g": 231, "b": 185,
+                "radius": 64,
+                "x": 0.5,
+                "y": 0.625,
+                "outside": true
+            }
+        ],
+        "shootTroopsRange": 350,
+        "fixedInaccuracyVsTroops": 0,
+	"reload": 200,
+	"clip": 0,
+	"inaccuracy": 0.0025,
+        "collisionDamageReceivedMult": 0.05,
+	"blastDmg": 1,
+        "blastSplashRadius": 17,
+        "penDmg": 8,
+	"directDmg": 8,
         "hardness": 2,
         "muzzleCenterX": 0.5,
         "muzzleCenterY": 0.5,

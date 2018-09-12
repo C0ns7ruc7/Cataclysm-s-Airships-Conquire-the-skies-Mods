@@ -1,0 +1,47 @@
+[
+    {
+        "name": "FLIPPED_RAMP_UP_A",
+        "flippedFrom": "RAMP_UP"
+    },
+	{
+        "name": "RAMP_UP",
+        "categories": ["SHAPING"],
+	"required": "CONSTRUCTION_SIMPLE",
+        "w": 1,
+        "h": 1,
+        "appearance": 
+		{
+            "src": "sprite-vabese",
+            "x": 0,
+			"w": 1,
+			"h": 1,
+            "y": 6
+        },
+        "mask": {
+            "x": 23,
+            "y": 32
+        },
+        "externalAppearances": 
+		[
+            {
+                "appearance": 
+				{
+                    "src": "sprite-vabese",
+					"w": 1,
+					"h": 1,
+                    "x": 0,
+                    "y": 6
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 75,
+        "fireHP": 15,
+        "moveDelay": 10000,
+        "weight": 1,
+        "cost": 
+4,
+        "canOccupy": []
+    }
+]
