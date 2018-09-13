@@ -130,6 +130,8 @@
         "penDmg": 0,
 	"directDmg": 1,
         "hardness": 2,
+        "quarters": 4,
+        "quartersType": "SMALL_CLOCKWORK_DRONES_CE",
         "muzzleCenterX": 0.5,
         "muzzleCenterY": 0.5,
         "muzzleLength": 0.5,
@@ -263,7 +265,7 @@
             }
         ]
     },
-        {
+    {
         "name": "CLOCKWORK_HORROR_INFECTOR",
         "categories": ["DEV"],
 	"required": "MONSTERS",
@@ -271,7 +273,7 @@
         "preventsBoarding": true,
     	"preventsSurrender": true,
 	"isWeapon": true,
-        "destructionLength": 2600,
+        "destructionLength": 2000,
         "tentacleDeathSpasms": true,
         "createsExceptionalCombatEventAfterMs": 1600,
 	"external": true,
@@ -287,6 +289,17 @@
             ]
         },
 	"externalAppearances": [
+	            {
+                "appearance":{
+                    	"src": "sprite-vabese",
+			"w": 1,
+			"h": 3,
+                    	"x": 1,
+                    	"y": 9
+                },
+                "x": 0,
+                "y": -1
+            },
             {
                 "x": -1,
                 "y": -1,
@@ -389,6 +402,8 @@
         "collisionDamageReceivedMult": 0.05,
 	"blastDmg": 1,
         "blastSplashRadius": 17,
+        "quarters": 12,
+        "quartersType": "SMALL_CLOCKWORK_DRONES_CE",
         "penDmg": 8,
 	"directDmg": 8,
         "hardness": 2,
