@@ -51,7 +51,7 @@
             }
         ],
         "hp": 600,
-	"destroyedHP": 0,
+	"destroyedHP": -600,
         "fireHP": { "base": 200, "MECHANIS_COMPLETION": 100 },
         "moveDelay": 1600,
         "weight": 240,
@@ -62,7 +62,7 @@
         "isGun": true,
         "isCannon": true,
         "reload": { "base": 4950, "MECHANIS_COMPLETION": 4050 },
-        "clip": -1,
+        "clip": 0,
 	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
 	"command": { "base": -1, "MECHANIS_COMPLETION": 0 },
 	"maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
@@ -96,7 +96,7 @@
         "weaponAppearance": {
             "shot": { "src": "spritesheet", "x": 80, "y": 313, "w": 35, "h": 5 },
             "barrel": { "src": "sprite-vabese", "x": 807, "y": 567, "w": 88, "h": 6 },
-            "barrelX": -44,
+            "barrelX": -27,
             "barrelY": 5,
             "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.01 },
             "hitExplosionSize": 3,

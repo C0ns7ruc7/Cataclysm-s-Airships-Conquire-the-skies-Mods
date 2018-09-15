@@ -58,7 +58,7 @@
         "shotSpeed": 0.3,
         "muzzleFlash": false,
         "reload": { "base": 6600, "MECHANIS_COMPLETION": 5400 },
-        "clip": -1,
+        "clip": 0,
 	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
 	"maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
 	"command": { "base": -1, "MECHANIS_COMPLETION": 0 },
@@ -86,7 +86,9 @@
         "explodeHP": { "base": 80, "MECHANIS_COMPLETION": 40 },
         "explodeDmg": { "base": 80, "MECHANIS_COMPLETION": 40 },
         "weaponAppearance": {
-            "shot": { "src": "spritesheet", "x": 641, "y": 81, "w": 12, "h": 5 }
+            "shot": { "src": "spritesheet", "x": 641, "y": 81, "w": 12, "h": 5 },
+            "hitExplosionSize": 2.5,
+            "missExplosionSize": 0.8,
         },
         "moveDelay": 1600,
 	"upDoors": [ 0, 1 ]

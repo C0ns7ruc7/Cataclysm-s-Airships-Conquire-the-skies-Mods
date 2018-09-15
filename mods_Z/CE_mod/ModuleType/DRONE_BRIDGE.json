@@ -19,7 +19,7 @@
                 "y": 0,
 		"appearance": {
 		    "src": "sprite-vabese",
-		    "interval": 92,
+		    "interval": 192,
 		    "frames": [
 		        { "x": 58, "y": 43, "w": 2, "h": 2 }, { "x": 58, "y": 41, "w": 2, "h": 2 },
 		        { "x": 60, "y": 43, "w": 2, "h": 2 }, { "x": 60, "y": 45, "w": 2, "h": 2 },
@@ -40,7 +40,7 @@
                 "y": 0,
 		"appearance": {
 		    "src": "sprite-vabese",
-		    "interval": 123,
+		    "interval": 223,
 		    "frames": [
 			{ "x": 54, "y": 49, "w": 2, "h": 2 }, { "x": 56, "y": 49, "w": 2, "h": 2 }, 
 			{ "x": 58, "y": 49, "w": 2, "h": 2 }, { "x": 60, "y": 49, "w": 2, "h": 2 }, 
@@ -72,6 +72,15 @@
         "leftDoors": [ 0, 1 ],
 	"upDoors": [ 0, 1 ],
         "rightDoors": [ 0, 1 ],
+        "lights": [
+            {
+                "r": 0, "g": 231, "b": 185,
+                "radius": 16,
+                "x": 1.0,
+                "y": 1.0,
+                "outside": true
+            }
+        ],
         "canOccupy": [
             { "x": 0, "y": 0 }, { "x": 1, "y": 0 },
             { "x": 0, "y": 1 }, { "x": 1, "y": 1 }

@@ -36,7 +36,7 @@
                 "y": 0,
 		"appearance": {
 		    "src": "sprite-vabese",
-		    "interval": 103,
+		    "interval": 153,
 		    "frames": [
 { "x": 62, "y": 43, "w": 2, "h": 2 }, { "x": 60, "y": 43, "w": 2, "h": 2 },
 { "x": 60, "y": 41, "w": 2, "h": 2 }, { "x": 62, "y": 39, "w": 2, "h": 2 },
@@ -56,7 +56,7 @@
                 "y": 0,
 		"appearance": {
 		    "src": "sprite-vabese",
-		    "interval": 123,
+		    "interval": 223,
 		    "frames": [
 { "x": 54, "y": 49, "w": 2, "h": 2 }, { "x": 56, "y": 49, "w": 2, "h": 2 }, 
 { "x": 58, "y": 49, "w": 2, "h": 2 }, { "x": 60, "y": 49, "w": 2, "h": 2 }, 
@@ -81,7 +81,7 @@
         "isGun": true,
         "isCannon": true,
         "reload": { "base": 6600, "MECHANIS_COMPLETION": 5400 },
-        "clip": -1,
+        "clip": 0,
         "inaccuracy": { "base": 0.0012, "MECHANIS_COMPLETION": 0.0009 },
         "blastDmg": { "base": 0, "MECHANIS_COMPLETION": 5 },
       	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
@@ -91,8 +91,8 @@
         "penDmg": 120,
         "recoilForce": 4.0,
         "fireArc": { "direction": "forwards", "degrees": 40 },
-        "muzzleCenterX": 3,
-        "muzzleCenterY": 1.25,
+        "muzzleCenterX": 1,
+        "muzzleCenterY": 1,
         "muzzleLength": 4.5,
         "optimumRange": 800,
         "fireSound": {
@@ -171,18 +171,29 @@
 				}	
             ]
         },
+        "lights": [
+            {
+                "r": 0, "g": 231, "b": 185,
+                "radius": 16,
+                "x": 1.0,
+                "y": 1.0,
+                "outside": true
+            }
+        ],
         "explodeHP": { "base": 160, "MECHANIS_COMPLETION": 80 },
         "explodeDmg": { "base": 140, "MECHANIS_COMPLETION": 70 },
         "weaponAppearance": {
             "shot": { "src": "spritesheet", "x": 0, "y": 304, "w": 10, "h": 5 },
             "barrel": { "src": "sprite-vabese", "x": 748, "y": 551, "w": 147, "h": 14 },
             "barrelX": -54,
-            "barrelY": 8,
-            "recoil": 10,
-            "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.007 }
+            "barrelY": 10,
+            "recoil": 7,
+            "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.007 },
+            "hitExplosionSize": 0.1,
+	    "missExplosionSize": 0
         },
         "canOccupy": [
-            { "x": 0, "y": 1 }, { "x": 1, "y": 0 },
+            { "x": 0, "y": 0 }, { "x": 1, "y": 0 },
             { "x": 0, "y": 1 }, { "x": 1, "y": 1 }
         ],
         "upDoors": [ 0, 1 ],
