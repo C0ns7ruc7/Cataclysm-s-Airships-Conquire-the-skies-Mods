@@ -1,10 +1,10 @@
 vabese@vabese ~/.local/share/Steam/steamapps/common/Airships Conquer the Skies $ java -Djava.library.path=lib/native -Dsteam=true -Xmx1024m -jar game.jar
-Mon Sep 17 19:19:46 CEST 2018 INFO:Slick Build #264
-Mon Sep 17 19:19:46 CEST 2018 INFO:LWJGL Version: 2.9.3
-Mon Sep 17 19:19:46 CEST 2018 INFO:OriginalDisplayMode: 1920 x 1080 x 24 @60Hz
-Mon Sep 17 19:19:46 CEST 2018 INFO:TargetDisplayMode: 800 x 600 x 0 @0Hz
-Mon Sep 17 19:19:46 CEST 2018 INFO:Starting display 800x600
-Mon Sep 17 19:19:46 CEST 2018 INFO:Use Java PNG Loader = true
+Mon Sep 17 19:38:05 CEST 2018 INFO:Slick Build #264
+Mon Sep 17 19:38:05 CEST 2018 INFO:LWJGL Version: 2.9.3
+Mon Sep 17 19:38:05 CEST 2018 INFO:OriginalDisplayMode: 1920 x 1080 x 24 @60Hz
+Mon Sep 17 19:38:05 CEST 2018 INFO:TargetDisplayMode: 800 x 600 x 0 @0Hz
+Mon Sep 17 19:38:05 CEST 2018 INFO:Starting display 800x600
+Mon Sep 17 19:38:05 CEST 2018 INFO:Use Java PNG Loader = true
 Loading: net.java.games.input.LinuxEnvironmentPlugin
 Failed to open device (/dev/input/event10): Failed to open device /dev/input/event10 (13)
 
@@ -59,7 +59,20 @@ Failed to open device (/dev/input/event1): Failed to open device /dev/input/even
 Failed to open device (/dev/input/event0): Failed to open device /dev/input/event0 (13)
 
 Linux plugin claims to have found 1 controllers
-Mon Sep 17 19:19:46 CEST 2018 INFO:Found 1 controllers
-Mon Sep 17 19:19:46 CEST 2018 INFO:0 : Wacom Bamboo 16FG 4x5 Pad
-Mon Sep 17 19:19:46 CEST 2018 INFO:Offscreen Buffers FBO=true PBUFFER=disabled PBUFFERRT=disabled
-Mon Sep 17 19:19:46 CEST 2018 INFO:Starting display 1920x108
+Mon Sep 17 19:38:05 CEST 2018 INFO:Found 1 controllers
+Mon Sep 17 19:38:05 CEST 2018 INFO:0 : Wacom Bamboo 16FG 4x5 Pad
+Mon Sep 17 19:38:05 CEST 2018 INFO:Offscreen Buffers FBO=true PBUFFER=disabled PBUFFERRT=disabled
+Mon Sep 17 19:38:05 CEST 2018 INFO:Starting display 1920x1080
+../common/pipes.cpp (770) : Assertion Failed: fatal stalled cross-thread pipe
+../common/pipes.cpp (770) : Assertion Failed: fatal stalled cross-thread pipe
+../common/pipes.cpp (770) : Fatal assert failed: ../common/pipes.cpp, line 770.  Application exiting.
+
+../common/pipes.cpp (770) : Fatal assert failed: ../common/pipes.cpp, line 770.  Application exiting.
+
+assert_20180917194105_2.dmp[11377]: Uploading dump (out-of-process)
+/tmp/dumps/assert_20180917194105_2.dmp
+_ExitOnFatalAssert
+assert_20180917194105_2.dmp[11377]: Finished uploading minidump (out-of-process): success = no
+assert_20180917194105_2.dmp[11377]: error: libcurl.so: cannot open shared object file: No such file or directory
+assert_20180917194105_2.dmp[11377]: file ''/tmp/dumps/assert_20180917194105_2.dmp'', upload no: ''libcurl.so: cannot open shared object file: No such file or directory''
+
