@@ -179,4 +179,102 @@
 	"structuralStressAmount": -1000,
         "collisionDamageReceivedMult": 0.05
     }
+        {
+        "name": "RUIN_PILLAR_CE_BOTTOM_NUKE",
+        "categories": ["DEV"],
+        "external": true,
+        "framesAreVariants": true,
+        "countsAsActiveCrew": true,
+        "isWeapon": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "frames": [
+                { "x": 43, "y": 23 },
+                { "x": 44, "y": 23 },
+                { "x": 45, "y": 23 },
+                { "x": 46, "y": 23 }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "frames": [
+		        { "x": 43, "y": 23 },
+		        { "x": 44, "y": 23 },
+		        { "x": 45, "y": 23 },
+		        { "x": 46, "y": 23 }
+                    ]
+                },
+                "x": 0,
+                "y": 0
+            },
+            {
+                "x": -31,
+                "y": -31,
+                "appearance": {
+                    "src": "halo",
+                    "x": 0,
+                    "y": 0,
+		    "w": 64,
+		    "h": 64
+                }
+            }
+        ],
+        "hp": 1000,
+        "shipHPBonus": 100,
+        "destroyedHP": -1000,
+        "fireHP": 0,
+        "moveDelay": 350,
+        "weight": 1000,
+        "cost": 1,
+        "upDoors": [ 0 ],
+	"adjacencyBonusStrength": 10,
+        "hardness": 10,
+	"structuralStressAmount": -1000,
+        "collisionDamageReceivedMult": 0.05,
+        
+        "reload": 1,
+        "ammoPerClip": 0,
+        "clip": 1,
+	"ammo": -1,
+	"inaccuracy": 0.1,
+        "blastDmg": 99999,
+	"blastSplashRadius": 99999,
+        "penDmg": 1,
+	"shotSpeed": 0.1,
+        "recoilForce": 1000.0,
+	"shootTroopsRange": -1,
+	"fireArc": { "direction": "forwards", "degrees": 360 },
+        "muzzleCenterX": 1.5,
+        "muzzleCenterY": 1.5,
+        "muzzleLength": 0,
+        "optimumRange": 1,
+        "fireSoundCount": 6,
+        "muzzleFlash": false,
+        "hitSound": {
+            "layers": [
+                {
+                    "variations": ["smexplosion"],
+                    "volume": 1.4,
+                    "pitch": {
+                        "min": 9.9,
+                        "max": 11.1
+                    }
+                }
+            ]
+        },
+        "explosinex": 0.1,
+	"weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 1, "y": 1, "w": 1, "h": 1 },
+            "barrel": { "src": "spritesheet", "x": 1, "y": 1, "w": 1, "h": 1 },
+            "hitExplosionSize": 9999.0,
+            "missExplosionSize": 9999.0,
+            "barrelX": 9.5,
+            "barrelY": 3.5,
+            "recoil": 0
+        }
+    },
 ]
