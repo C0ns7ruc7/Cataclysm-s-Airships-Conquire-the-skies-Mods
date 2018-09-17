@@ -8,15 +8,18 @@
     "captured": false,
     "carrying": [],
     "chunkSubIDCounter": 1,
-    "commandPoints": 67840,
+    "commandPoints": 68000,
     "constructionBonuses": [
+        "ACID",
         "AIR_DRAGOONS",
         "BIPLANES",
         "BOMBERS",
         "BOMBS",
         "BUZZER_CARRIER",
+        "BUZZER_MODULAIR",
         "BUZZSAW",
         "CANNONS",
+        "CEDRONE",
         "CE_ARMOR_EMERGANCY",
         "CE_ARMOR_INOVATION",
         "CE_ARMOR_REFINEING",
@@ -24,6 +27,7 @@
         "CE_HOUSE",
         "CE_HOUSE_SMALL",
         "CE_SUSPENDED_ASSEMBLY",
+        "CE_SUSPENDIUM_SPECIALISTS",
         "CE_SUSPEND_HARPOON",
         "CE_SUSPEND_HEAVY",
         "CE_SUSPEND_KICKBACK",
@@ -32,19 +36,27 @@
         "COMBINED_PROPULSION",
         "COMBINED_PROPULSION_ADVANCED",
         "COMMERCE_CONTAINED_ECONOMIES",
+        "COMMERCE_CONTAINED_ECONOMIES_INCOME",
         "COMMERCE_FACTORING",
+        "COMMERCE_FACTORING_INCOME",
         "COMMERCE_HAGGELING",
+        "COMMERCE_HAGGELING_INCOME",
         "COMMERCE_ORGENIZED_GATHERING",
+        "COMMERCE_ORGENIZED_GATHERING_INCOME",
         "COMMERCE_REFINING",
+        "COMMERCE_REFINING_INCOME",
         "COMMERCE_SUSPEDIUM_COLLECTION",
         "COMPUTERS",
         "COMP_BUZZER",
         "CONSTRUCTION",
         "CONSTRUCTION_ADVANCED",
+        "CONSTRUCTION_ADVANCED_PRODUCTION",
+        "CONSTRUCTION_PRODUCTION",
         "CONSTRUCTION_SIMPLE",
+        "CONSTRUCTION_SIMPLE_PRODUCTION",
         "DECK_GUNS",
+        "DRAGONHIDE",
         "EFFICIENT_AMMO_STORAGE",
-        "EXPERT_REPAIRS",
         "EXTREME_DISTANCE_COMBAT",
         "FASTER_CANNON_RELOAD",
         "FIRE_EXTINGUISHERS",
@@ -65,25 +77,34 @@
         "LARGE_SUSPENDIUM_CHAMBERS",
         "LEGS",
         "MARINES",
+        "MARTIAL_CASTE",
         "MASSIVE_STONE_WALLS",
         "MASS_ENERGY_REACTION",
         "MECHANIS_COMPLETION",
         "MECHANIS_IMPLIMENTATION",
+        "MECHANIS_MODULAIRIZATION",
         "MECHANIS_REVOLUTION",
         "MECHANIS_THEORY",
         "MECH_CARRIER",
+        "MECH_MODULAIR",
         "MECH_SPIDERS",
         "MEDIUM_STEEL_ARMOUR",
+        "OPTIMAL_DISTANCE_FUZE",
         "PROPELLERS",
         "RETICULATED_PLATING",
         "RIFLES",
         "ROCKETS",
+        "SAFER_AMMO_STORAGE",
+        "SAFER_CANNONS",
         "SAFETY_FUZES",
+        "SHAPED_HULLS",
+        "SHELL_ARMOUR",
         "SPIDER_LEGS",
         "SUSPEDIUM_CRYSTAL_CREATION",
         "SUSPENDIUM_CANNON",
         "SUSPENDIUM_CHAMBERS",
         "TADPOLE_CARRIER",
+        "TADPOLE_MODULAIR",
         "TELESCOPES",
         "TORPEDOES",
         "TRACKS",
@@ -209,7 +230,7 @@
             "giveResourceWait": 0,
             "hp": 5,
             "jobIndex": 6,
-            "jobModule": 65,
+            "jobModule": 63,
             "msSinceMoved": 0,
             "msUntilRecalcJumpPoint": 0,
             "msUntilRecalcWalkPoint": 0,
@@ -217,7 +238,7 @@
             "occupied": false,
             "repairMs": 0,
             "shootAccumulator": 0,
-            "tile": 167,
+            "tile": 165,
             "timeSinceLaunch": 0,
             "type": "soldier",
             "weaponReload": 0
@@ -226,7 +247,24 @@
             "giveResourceWait": 0,
             "hp": 5,
             "jobIndex": 4,
-            "jobModule": 66,
+            "jobModule": 64,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "tile": 170,
+            "timeSinceLaunch": 0,
+            "type": "soldier",
+            "weaponReload": 0
+        },
+        {
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 4,
+            "jobModule": 65,
             "msSinceMoved": 0,
             "msUntilRecalcJumpPoint": 0,
             "msUntilRecalcWalkPoint": 0,
@@ -242,8 +280,8 @@
         {
             "giveResourceWait": 0,
             "hp": 5,
-            "jobIndex": 4,
-            "jobModule": 67,
+            "jobIndex": 2,
+            "jobModule": 66,
             "msSinceMoved": 0,
             "msUntilRecalcJumpPoint": 0,
             "msUntilRecalcWalkPoint": 0,
@@ -260,7 +298,7 @@
             "giveResourceWait": 0,
             "hp": 5,
             "jobIndex": 2,
-            "jobModule": 68,
+            "jobModule": 67,
             "msSinceMoved": 0,
             "msUntilRecalcJumpPoint": 0,
             "msUntilRecalcWalkPoint": 0,
@@ -268,24 +306,7 @@
             "occupied": false,
             "repairMs": 0,
             "shootAccumulator": 0,
-            "tile": 176,
-            "timeSinceLaunch": 0,
-            "type": "soldier",
-            "weaponReload": 0
-        },
-        {
-            "giveResourceWait": 0,
-            "hp": 5,
-            "jobIndex": 2,
-            "jobModule": 69,
-            "msSinceMoved": 0,
-            "msUntilRecalcJumpPoint": 0,
-            "msUntilRecalcWalkPoint": 0,
-            "mvXOffset": 0,
-            "occupied": false,
-            "repairMs": 0,
-            "shootAccumulator": 0,
-            "tile": 177,
+            "tile": 175,
             "timeSinceLaunch": 0,
             "type": "soldier",
             "weaponReload": 0
@@ -294,7 +315,7 @@
             "giveResourceWait": 0,
             "hp": 5,
             "jobIndex": 6,
-            "jobModule": 72,
+            "jobModule": 70,
             "msSinceMoved": 0,
             "msUntilRecalcJumpPoint": 0,
             "msUntilRecalcWalkPoint": 0,
@@ -302,7 +323,7 @@
             "occupied": false,
             "repairMs": 0,
             "shootAccumulator": 0,
-            "tile": 180,
+            "tile": 178,
             "timeSinceLaunch": 0,
             "type": "soldier",
             "weaponReload": 0
@@ -311,7 +332,7 @@
             "giveResourceWait": 0,
             "hp": 5,
             "jobIndex": 4,
-            "jobModule": 79,
+            "jobModule": 77,
             "msSinceMoved": 0,
             "msUntilRecalcJumpPoint": 0,
             "msUntilRecalcWalkPoint": 0,
@@ -319,7 +340,7 @@
             "occupied": false,
             "repairMs": 0,
             "shootAccumulator": 0,
-            "tile": 192,
+            "tile": 190,
             "timeSinceLaunch": 0,
             "type": "soldier",
             "weaponReload": 0
@@ -328,7 +349,7 @@
             "giveResourceWait": 0,
             "hp": 5,
             "jobIndex": 2,
-            "jobModule": 84,
+            "jobModule": 82,
             "msSinceMoved": 0,
             "msUntilRecalcJumpPoint": 0,
             "msUntilRecalcWalkPoint": 0,
@@ -336,7 +357,7 @@
             "occupied": false,
             "repairMs": 0,
             "shootAccumulator": 0,
-            "tile": 198,
+            "tile": 196,
             "timeSinceLaunch": 0,
             "type": "soldier",
             "weaponReload": 0
@@ -345,7 +366,7 @@
             "giveResourceWait": 0,
             "hp": 5,
             "jobIndex": 2,
-            "jobModule": 85,
+            "jobModule": 83,
             "msSinceMoved": 0,
             "msUntilRecalcJumpPoint": 0,
             "msUntilRecalcWalkPoint": 0,
@@ -353,7 +374,7 @@
             "occupied": false,
             "repairMs": 0,
             "shootAccumulator": 0,
-            "tile": 199,
+            "tile": 197,
             "timeSinceLaunch": 0,
             "type": "soldier",
             "weaponReload": 0
@@ -362,7 +383,7 @@
             "giveResourceWait": 0,
             "hp": 5,
             "jobIndex": 7,
-            "jobModule": 65,
+            "jobModule": 63,
             "msSinceMoved": 0,
             "msUntilRecalcJumpPoint": 0,
             "msUntilRecalcWalkPoint": 0,
@@ -370,7 +391,7 @@
             "occupied": false,
             "repairMs": 0,
             "shootAccumulator": 0,
-            "tile": 168,
+            "tile": 166,
             "timeSinceLaunch": 0,
             "type": "soldier",
             "weaponReload": 0
@@ -379,7 +400,7 @@
             "giveResourceWait": 0,
             "hp": 6,
             "jobIndex": 8,
-            "jobModule": 79,
+            "jobModule": 77,
             "msSinceMoved": 0,
             "msUntilRecalcJumpPoint": 0,
             "msUntilRecalcWalkPoint": 0,
@@ -657,7 +678,7 @@
             "occupied": false,
             "repairMs": 0,
             "shootAccumulator": 0,
-            "tile": 181,
+            "tile": 179,
             "timeSinceLaunch": 0,
             "type": "light_tadpole",
             "weaponReload": 0
@@ -672,7 +693,7 @@
             "occupied": false,
             "repairMs": 0,
             "shootAccumulator": 0,
-            "tile": 184,
+            "tile": 182,
             "timeSinceLaunch": 0,
             "type": "light_tadpole",
             "weaponReload": 0
@@ -844,13 +865,16 @@
         }
     ],
     "currentBonuses": [
+        "ACID",
         "AIR_DRAGOONS",
         "BIPLANES",
         "BOMBERS",
         "BOMBS",
         "BUZZER_CARRIER",
+        "BUZZER_MODULAIR",
         "BUZZSAW",
         "CANNONS",
+        "CEDRONE",
         "CE_ARMOR_EMERGANCY",
         "CE_ARMOR_INOVATION",
         "CE_ARMOR_REFINEING",
@@ -858,6 +882,7 @@
         "CE_HOUSE",
         "CE_HOUSE_SMALL",
         "CE_SUSPENDED_ASSEMBLY",
+        "CE_SUSPENDIUM_SPECIALISTS",
         "CE_SUSPEND_HARPOON",
         "CE_SUSPEND_HEAVY",
         "CE_SUSPEND_KICKBACK",
@@ -866,19 +891,27 @@
         "COMBINED_PROPULSION",
         "COMBINED_PROPULSION_ADVANCED",
         "COMMERCE_CONTAINED_ECONOMIES",
+        "COMMERCE_CONTAINED_ECONOMIES_INCOME",
         "COMMERCE_FACTORING",
+        "COMMERCE_FACTORING_INCOME",
         "COMMERCE_HAGGELING",
+        "COMMERCE_HAGGELING_INCOME",
         "COMMERCE_ORGENIZED_GATHERING",
+        "COMMERCE_ORGENIZED_GATHERING_INCOME",
         "COMMERCE_REFINING",
+        "COMMERCE_REFINING_INCOME",
         "COMMERCE_SUSPEDIUM_COLLECTION",
         "COMPUTERS",
         "COMP_BUZZER",
         "CONSTRUCTION",
         "CONSTRUCTION_ADVANCED",
+        "CONSTRUCTION_ADVANCED_PRODUCTION",
+        "CONSTRUCTION_PRODUCTION",
         "CONSTRUCTION_SIMPLE",
+        "CONSTRUCTION_SIMPLE_PRODUCTION",
         "DECK_GUNS",
+        "DRAGONHIDE",
         "EFFICIENT_AMMO_STORAGE",
-        "EXPERT_REPAIRS",
         "EXTREME_DISTANCE_COMBAT",
         "FASTER_CANNON_RELOAD",
         "FIRE_EXTINGUISHERS",
@@ -899,25 +932,34 @@
         "LARGE_SUSPENDIUM_CHAMBERS",
         "LEGS",
         "MARINES",
+        "MARTIAL_CASTE",
         "MASSIVE_STONE_WALLS",
         "MASS_ENERGY_REACTION",
         "MECHANIS_COMPLETION",
         "MECHANIS_IMPLIMENTATION",
+        "MECHANIS_MODULAIRIZATION",
         "MECHANIS_REVOLUTION",
         "MECHANIS_THEORY",
         "MECH_CARRIER",
+        "MECH_MODULAIR",
         "MECH_SPIDERS",
         "MEDIUM_STEEL_ARMOUR",
+        "OPTIMAL_DISTANCE_FUZE",
         "PROPELLERS",
         "RETICULATED_PLATING",
         "RIFLES",
         "ROCKETS",
+        "SAFER_AMMO_STORAGE",
+        "SAFER_CANNONS",
         "SAFETY_FUZES",
+        "SHAPED_HULLS",
+        "SHELL_ARMOUR",
         "SPIDER_LEGS",
         "SUSPEDIUM_CRYSTAL_CREATION",
         "SUSPENDIUM_CANNON",
         "SUSPENDIUM_CHAMBERS",
         "TADPOLE_CARRIER",
+        "TADPOLE_MODULAIR",
         "TELESCOPES",
         "TORPEDOES",
         "TRACKS",
@@ -1120,18 +1162,6 @@
         },
         {
             "enabled": true,
-            "type": "GREEBLE_31",
-            "x": 26,
-            "y": 21
-        },
-        {
-            "enabled": true,
-            "type": "GREEBLE_31",
-            "x": 18,
-            "y": 21
-        },
-        {
-            "enabled": true,
             "type": "GREEBLE_14",
             "x": 20,
             "y": 3
@@ -1171,8 +1201,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 168,
-            "lowestHP": 168,
+            "hp": 164,
+            "lowestHP": 164,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1190,8 +1220,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 84,
-            "lowestHP": 84,
+            "hp": 82,
+            "lowestHP": 82,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1209,8 +1239,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 84,
-            "lowestHP": 84,
+            "hp": 82,
+            "lowestHP": 82,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1228,8 +1258,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 84,
-            "lowestHP": 84,
+            "hp": 82,
+            "lowestHP": 82,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1240,15 +1270,15 @@
         },
         {
             "ammoForClip": 0,
-            "ammoLeft": 50,
+            "ammoLeft": 60,
             "burntOut": false,
             "clipReloadCooldown": 0,
             "destructionTime": 0,
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 53,
-            "lowestHP": 53,
+            "hp": 52,
+            "lowestHP": 52,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1259,15 +1289,15 @@
         },
         {
             "ammoForClip": 0,
-            "ammoLeft": 50,
+            "ammoLeft": 60,
             "burntOut": false,
             "clipReloadCooldown": 0,
             "destructionTime": 0,
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 53,
-            "lowestHP": 53,
+            "hp": 52,
+            "lowestHP": 52,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1285,8 +1315,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 266,
-            "lowestHP": 266,
+            "hp": 261,
+            "lowestHP": 261,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1304,8 +1334,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 266,
-            "lowestHP": 266,
+            "hp": 261,
+            "lowestHP": 261,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1323,8 +1353,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 46,
-            "lowestHP": 46,
+            "hp": 45,
+            "lowestHP": 45,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1342,8 +1372,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 46,
-            "lowestHP": 46,
+            "hp": 45,
+            "lowestHP": 45,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1361,8 +1391,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 46,
-            "lowestHP": 46,
+            "hp": 45,
+            "lowestHP": 45,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1380,8 +1410,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 46,
-            "lowestHP": 46,
+            "hp": 45,
+            "lowestHP": 45,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1399,8 +1429,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 46,
-            "lowestHP": 46,
+            "hp": 45,
+            "lowestHP": 45,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1418,8 +1448,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 46,
-            "lowestHP": 46,
+            "hp": 45,
+            "lowestHP": 45,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1437,8 +1467,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 46,
-            "lowestHP": 46,
+            "hp": 45,
+            "lowestHP": 45,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1456,8 +1486,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 46,
-            "lowestHP": 46,
+            "hp": 45,
+            "lowestHP": 45,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1475,8 +1505,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1494,8 +1524,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1513,8 +1543,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1532,8 +1562,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1551,8 +1581,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1571,8 +1601,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 201,
-            "lowestHP": 201,
+            "hp": 197,
+            "lowestHP": 197,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1590,8 +1620,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 138,
-            "lowestHP": 138,
+            "hp": 135,
+            "lowestHP": 135,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1609,8 +1639,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1628,8 +1658,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1647,8 +1677,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1666,8 +1696,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1685,8 +1715,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1704,8 +1734,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1723,8 +1753,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1742,8 +1772,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1761,8 +1791,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 46,
-            "lowestHP": 46,
+            "hp": 45,
+            "lowestHP": 45,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1780,8 +1810,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 46,
-            "lowestHP": 46,
+            "hp": 45,
+            "lowestHP": 45,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1799,8 +1829,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 46,
-            "lowestHP": 46,
+            "hp": 45,
+            "lowestHP": 45,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1811,15 +1841,15 @@
         },
         {
             "ammoForClip": 0,
-            "ammoLeft": 2500,
+            "ammoLeft": 2000,
             "burntOut": false,
             "clipReloadCooldown": 0,
             "destructionTime": 0,
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 379,
-            "lowestHP": 379,
+            "hp": 457,
+            "lowestHP": 457,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1837,8 +1867,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 459,
-            "lowestHP": 459,
+            "hp": 457,
+            "lowestHP": 457,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1856,8 +1886,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 459,
-            "lowestHP": 459,
+            "hp": 457,
+            "lowestHP": 457,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1875,8 +1905,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 459,
-            "lowestHP": 459,
+            "hp": 457,
+            "lowestHP": 457,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1894,8 +1924,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 459,
-            "lowestHP": 459,
+            "hp": 457,
+            "lowestHP": 457,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1906,15 +1936,15 @@
         },
         {
             "ammoForClip": 0,
-            "ammoLeft": 2500,
+            "ammoLeft": 2000,
             "burntOut": false,
             "clipReloadCooldown": 0,
             "destructionTime": 0,
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 379,
-            "lowestHP": 379,
+            "hp": 457,
+            "lowestHP": 457,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1932,8 +1962,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 97,
-            "lowestHP": 97,
+            "hp": 96,
+            "lowestHP": 96,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1951,8 +1981,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 75,
-            "lowestHP": 75,
+            "hp": 74,
+            "lowestHP": 74,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1970,8 +2000,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 75,
-            "lowestHP": 75,
+            "hp": 74,
+            "lowestHP": 74,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -1990,8 +2020,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 544,
-            "lowestHP": 544,
+            "hp": 535,
+            "lowestHP": 535,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2009,8 +2039,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 75,
-            "lowestHP": 75,
+            "hp": 74,
+            "lowestHP": 74,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2029,8 +2059,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 203,
-            "lowestHP": 203,
+            "hp": 200,
+            "lowestHP": 200,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2048,8 +2078,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 347,
-            "lowestHP": 347,
+            "hp": 339,
+            "lowestHP": 339,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2069,8 +2099,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 3733,
-            "lowestHP": 3733,
+            "hp": 3685,
+            "lowestHP": 3685,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2088,27 +2118,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
-            "msUntilCoal": 0,
-            "reTargetAccumulator": 0,
-            "retryFindingTargetCooldown": 0,
-            "shootAccumulator": 0,
-            "type": "FOUNDATION",
-            "x": 18,
-            "y": 21
-        },
-        {
-            "ammoForClip": 0,
-            "ammoLeft": 0,
-            "burntOut": false,
-            "clipReloadCooldown": 0,
-            "destructionTime": 0,
-            "explodeFuze": 0,
-            "fire": 0,
-            "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
+            "hp": 119,
+            "lowestHP": 119,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2126,8 +2137,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
+            "hp": 119,
+            "lowestHP": 119,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2145,8 +2156,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
+            "hp": 119,
+            "lowestHP": 119,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2164,8 +2175,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
+            "hp": 119,
+            "lowestHP": 119,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2183,8 +2194,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
+            "hp": 119,
+            "lowestHP": 119,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2202,8 +2213,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
+            "hp": 119,
+            "lowestHP": 119,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2221,8 +2232,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
+            "hp": 119,
+            "lowestHP": 119,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2240,27 +2251,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
-            "msUntilCoal": 0,
-            "reTargetAccumulator": 0,
-            "retryFindingTargetCooldown": 0,
-            "shootAccumulator": 0,
-            "type": "FOUNDATION",
-            "x": 26,
-            "y": 21
-        },
-        {
-            "ammoForClip": 0,
-            "ammoLeft": 0,
-            "burntOut": false,
-            "clipReloadCooldown": 0,
-            "destructionTime": 0,
-            "explodeFuze": 0,
-            "fire": 0,
-            "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
+            "hp": 119,
+            "lowestHP": 119,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2278,8 +2270,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
+            "hp": 119,
+            "lowestHP": 119,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2297,8 +2289,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
+            "hp": 119,
+            "lowestHP": 119,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2316,8 +2308,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
+            "hp": 119,
+            "lowestHP": 119,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2335,8 +2327,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
+            "hp": 119,
+            "lowestHP": 119,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2354,8 +2346,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
+            "hp": 119,
+            "lowestHP": 119,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2373,8 +2365,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
+            "hp": 119,
+            "lowestHP": 119,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2392,8 +2384,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 120,
-            "lowestHP": 120,
+            "hp": 119,
+            "lowestHP": 119,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2411,8 +2403,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 535,
-            "lowestHP": 535,
+            "hp": 517,
+            "lowestHP": 517,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2430,8 +2422,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 173,
-            "lowestHP": 173,
+            "hp": 171,
+            "lowestHP": 171,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2449,8 +2441,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 173,
-            "lowestHP": 173,
+            "hp": 171,
+            "lowestHP": 171,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2468,8 +2460,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 53,
-            "lowestHP": 53,
+            "hp": 52,
+            "lowestHP": 52,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2487,8 +2479,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 53,
-            "lowestHP": 53,
+            "hp": 52,
+            "lowestHP": 52,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2506,8 +2498,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2525,8 +2517,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2544,8 +2536,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 373,
-            "lowestHP": 373,
+            "hp": 367,
+            "lowestHP": 367,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2563,8 +2555,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 31,
-            "lowestHP": 31,
+            "hp": 30,
+            "lowestHP": 30,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2582,8 +2574,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 31,
-            "lowestHP": 31,
+            "hp": 30,
+            "lowestHP": 30,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2601,8 +2593,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 65,
-            "lowestHP": 65,
+            "hp": 64,
+            "lowestHP": 64,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2620,8 +2612,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 65,
-            "lowestHP": 65,
+            "hp": 64,
+            "lowestHP": 64,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2639,8 +2631,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 31,
-            "lowestHP": 31,
+            "hp": 30,
+            "lowestHP": 30,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2658,8 +2650,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 31,
-            "lowestHP": 31,
+            "hp": 30,
+            "lowestHP": 30,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2677,8 +2669,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 239,
-            "lowestHP": 239,
+            "hp": 237,
+            "lowestHP": 237,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2696,8 +2688,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2715,8 +2707,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2734,8 +2726,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2753,8 +2745,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 45,
-            "lowestHP": 45,
+            "hp": 44,
+            "lowestHP": 44,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2772,8 +2764,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 53,
-            "lowestHP": 53,
+            "hp": 52,
+            "lowestHP": 52,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2791,8 +2783,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 53,
-            "lowestHP": 53,
+            "hp": 52,
+            "lowestHP": 52,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2810,8 +2802,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 4436,
-            "lowestHP": 4436,
+            "hp": 4432,
+            "lowestHP": 4432,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2829,8 +2821,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 16144,
-            "lowestHP": 16144,
+            "hp": 16128,
+            "lowestHP": 16128,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2848,8 +2840,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 16144,
-            "lowestHP": 16144,
+            "hp": 16128,
+            "lowestHP": 16128,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2867,8 +2859,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 4436,
-            "lowestHP": 4436,
+            "hp": 4432,
+            "lowestHP": 4432,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2886,8 +2878,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 4436,
-            "lowestHP": 4436,
+            "hp": 4432,
+            "lowestHP": 4432,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2905,8 +2897,8 @@
             "explodeFuze": 0,
             "fire": 0,
             "fired": false,
-            "hp": 4436,
-            "lowestHP": 4436,
+            "hp": 4432,
+            "lowestHP": 4432,
             "msUntilCoal": 0,
             "reTargetAccumulator": 0,
             "retryFindingTargetCooldown": 0,
@@ -2914,6 +2906,82 @@
             "type": "CE_HOUSE_SMALL",
             "x": 0,
             "y": 20
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 45,
+            "lowestHP": 45,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CORRIDOR_LIGHT",
+            "x": 17,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 45,
+            "lowestHP": 45,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CORRIDOR_LIGHT",
+            "x": 18,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 45,
+            "lowestHP": 45,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CORRIDOR_LIGHT",
+            "x": 27,
+            "y": 21
+        },
+        {
+            "ammoForClip": 0,
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 45,
+            "lowestHP": 45,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CORRIDOR_LIGHT",
+            "x": 26,
+            "y": 21
         }
     ],
     "moveToX": 0,
@@ -3336,7 +3404,7 @@
                 "type": "MASSIVE_STONE_WALL",
                 "window": true
             },
-            "hAdj": "011111000",
+            "hAdj": "011111110",
             "module": 20,
             "x": 18,
             "y": 20
@@ -3559,7 +3627,7 @@
                 "type": "NONE",
                 "window": false
             },
-            "hAdj": "000111000",
+            "hAdj": "000111001",
             "module": 34,
             "x": 16,
             "y": 20
@@ -3570,7 +3638,7 @@
                 "type": "NONE",
                 "window": false
             },
-            "hAdj": "001111000",
+            "hAdj": "001111011",
             "module": 34,
             "x": 17,
             "y": 20
@@ -3669,7 +3737,7 @@
                 "type": "NONE",
                 "window": false
             },
-            "hAdj": "100111000",
+            "hAdj": "100111110",
             "module": 39,
             "x": 27,
             "y": 20
@@ -3680,7 +3748,7 @@
                 "type": "NONE",
                 "window": false
             },
-            "hAdj": "000111000",
+            "hAdj": "000111100",
             "module": 39,
             "x": 28,
             "y": 20
@@ -4417,7 +4485,7 @@
                 "type": "STONE_WALL",
                 "window": true
             },
-            "hAdj": "111111000",
+            "hAdj": "111111100",
             "module": 47,
             "x": 19,
             "y": 20
@@ -4483,7 +4551,7 @@
                 "type": "STONE_WALL",
                 "window": false
             },
-            "hAdj": "111111000",
+            "hAdj": "111111001",
             "module": 47,
             "x": 25,
             "y": 20
@@ -4494,7 +4562,7 @@
                 "type": "MASSIVE_STONE_WALL",
                 "window": true
             },
-            "hAdj": "110111000",
+            "hAdj": "110111011",
             "module": 47,
             "x": 26,
             "y": 20
@@ -4505,9 +4573,9 @@
                 "type": "BRICK_WALL",
                 "window": false
             },
-            "hAdj": "111000000",
+            "hAdj": "111100000",
             "module": 48,
-            "x": 18,
+            "x": 19,
             "y": 21
         },
         {
@@ -4518,7 +4586,7 @@
             },
             "hAdj": "111000000",
             "module": 49,
-            "x": 19,
+            "x": 20,
             "y": 21
         },
         {
@@ -4529,7 +4597,7 @@
             },
             "hAdj": "111000000",
             "module": 50,
-            "x": 20,
+            "x": 21,
             "y": 21
         },
         {
@@ -4540,7 +4608,7 @@
             },
             "hAdj": "111000000",
             "module": 51,
-            "x": 21,
+            "x": 22,
             "y": 21
         },
         {
@@ -4551,7 +4619,7 @@
             },
             "hAdj": "111000000",
             "module": 52,
-            "x": 22,
+            "x": 23,
             "y": 21
         },
         {
@@ -4562,7 +4630,7 @@
             },
             "hAdj": "111000000",
             "module": 53,
-            "x": 23,
+            "x": 24,
             "y": 21
         },
         {
@@ -4571,9 +4639,9 @@
                 "type": "BRICK_WALL",
                 "window": false
             },
-            "hAdj": "111000000",
+            "hAdj": "111001000",
             "module": 54,
-            "x": 24,
+            "x": 25,
             "y": 21
         },
         {
@@ -4584,28 +4652,6 @@
             },
             "hAdj": "111000000",
             "module": 55,
-            "x": 25,
-            "y": 21
-        },
-        {
-            "armour": {
-                "hp": 30,
-                "type": "BRICK_WALL",
-                "window": false
-            },
-            "hAdj": "111000000",
-            "module": 56,
-            "x": 26,
-            "y": 21
-        },
-        {
-            "armour": {
-                "hp": 30,
-                "type": "BRICK_WALL",
-                "window": false
-            },
-            "hAdj": "111000000",
-            "module": 57,
             "x": 29,
             "y": 21
         },
@@ -4616,7 +4662,7 @@
                 "window": false
             },
             "hAdj": "111000000",
-            "module": 58,
+            "module": 56,
             "x": 30,
             "y": 21
         },
@@ -4627,7 +4673,7 @@
                 "window": false
             },
             "hAdj": "111000000",
-            "module": 59,
+            "module": 57,
             "x": 33,
             "y": 21
         },
@@ -4638,7 +4684,7 @@
                 "window": false
             },
             "hAdj": "111001000",
-            "module": 60,
+            "module": 58,
             "x": 34,
             "y": 21
         },
@@ -4649,7 +4695,7 @@
                 "window": false
             },
             "hAdj": "111000000",
-            "module": 61,
+            "module": 59,
             "x": 15,
             "y": 21
         },
@@ -4660,7 +4706,7 @@
                 "window": false
             },
             "hAdj": "111000000",
-            "module": 62,
+            "module": 60,
             "x": 14,
             "y": 21
         },
@@ -4671,7 +4717,7 @@
                 "window": false
             },
             "hAdj": "111000000",
-            "module": 63,
+            "module": 61,
             "x": 11,
             "y": 21
         },
@@ -4682,7 +4728,7 @@
                 "window": false
             },
             "hAdj": "111100000",
-            "module": 64,
+            "module": 62,
             "x": 10,
             "y": 21
         },
@@ -4693,7 +4739,7 @@
                 "window": false
             },
             "hAdj": "000000011",
-            "module": 65,
+            "module": 63,
             "x": 20,
             "y": 0
         },
@@ -4704,7 +4750,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 65,
+            "module": 63,
             "x": 21,
             "y": 0
         },
@@ -4715,7 +4761,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 65,
+            "module": 63,
             "x": 22,
             "y": 0
         },
@@ -4726,7 +4772,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 65,
+            "module": 63,
             "x": 23,
             "y": 0
         },
@@ -4737,7 +4783,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 65,
+            "module": 63,
             "x": 24,
             "y": 0
         },
@@ -4748,7 +4794,7 @@
                 "window": false
             },
             "hAdj": "000000110",
-            "module": 65,
+            "module": 63,
             "x": 25,
             "y": 0
         },
@@ -4759,7 +4805,7 @@
                 "window": false
             },
             "hAdj": "000011001",
-            "module": 65,
+            "module": 63,
             "x": 20,
             "y": 1
         },
@@ -4770,7 +4816,7 @@
                 "window": false
             },
             "hAdj": "000111011",
-            "module": 65,
+            "module": 63,
             "x": 21,
             "y": 1
         },
@@ -4781,7 +4827,7 @@
                 "window": false
             },
             "hAdj": "000111111",
-            "module": 65,
+            "module": 63,
             "x": 22,
             "y": 1
         },
@@ -4792,7 +4838,7 @@
                 "window": false
             },
             "hAdj": "000111110",
-            "module": 65,
+            "module": 63,
             "x": 23,
             "y": 1
         },
@@ -4803,7 +4849,7 @@
                 "window": false
             },
             "hAdj": "000111100",
-            "module": 65,
+            "module": 63,
             "x": 24,
             "y": 1
         },
@@ -4814,7 +4860,7 @@
                 "window": false
             },
             "hAdj": "000110000",
-            "module": 65,
+            "module": 63,
             "x": 25,
             "y": 1
         },
@@ -4825,7 +4871,7 @@
                 "window": false
             },
             "hAdj": "011001001",
-            "module": 65,
+            "module": 63,
             "x": 20,
             "y": 2
         },
@@ -4836,7 +4882,7 @@
                 "window": false
             },
             "hAdj": "111011011",
-            "module": 65,
+            "module": 63,
             "x": 21,
             "y": 2
         },
@@ -4847,7 +4893,7 @@
                 "window": false
             },
             "hAdj": "111111111",
-            "module": 65,
+            "module": 63,
             "x": 22,
             "y": 2
         },
@@ -4858,7 +4904,7 @@
                 "window": false
             },
             "hAdj": "111110110",
-            "module": 65,
+            "module": 63,
             "x": 23,
             "y": 2
         },
@@ -4869,7 +4915,7 @@
                 "window": false
             },
             "hAdj": "111100100",
-            "module": 65,
+            "module": 63,
             "x": 24,
             "y": 2
         },
@@ -4880,7 +4926,7 @@
                 "window": false
             },
             "hAdj": "110000000",
-            "module": 65,
+            "module": 63,
             "x": 25,
             "y": 2
         },
@@ -4891,7 +4937,7 @@
                 "window": true
             },
             "hAdj": "000111000",
-            "module": 66,
+            "module": 64,
             "x": 12,
             "y": 20
         },
@@ -4902,7 +4948,7 @@
                 "window": true
             },
             "hAdj": "000111000",
-            "module": 66,
+            "module": 64,
             "x": 13,
             "y": 20
         },
@@ -4913,7 +4959,7 @@
                 "window": true
             },
             "hAdj": "000111000",
-            "module": 67,
+            "module": 65,
             "x": 31,
             "y": 20
         },
@@ -4924,7 +4970,7 @@
                 "window": true
             },
             "hAdj": "000111000",
-            "module": 67,
+            "module": 65,
             "x": 32,
             "y": 20
         },
@@ -4935,7 +4981,7 @@
                 "window": false
             },
             "hAdj": "110010110",
-            "module": 68,
+            "module": 66,
             "x": 26,
             "y": 14
         },
@@ -4946,7 +4992,7 @@
                 "window": false
             },
             "hAdj": "011011011",
-            "module": 69,
+            "module": 67,
             "x": 18,
             "y": 14
         },
@@ -4957,7 +5003,7 @@
                 "window": true
             },
             "hAdj": "111111111",
-            "module": 70,
+            "module": 68,
             "x": 19,
             "y": 13
         },
@@ -4968,7 +5014,7 @@
                 "window": true
             },
             "hAdj": "011011011",
-            "module": 71,
+            "module": 69,
             "x": 18,
             "y": 13
         },
@@ -4979,7 +5025,7 @@
                 "window": false
             },
             "hAdj": "100111100",
-            "module": 72,
+            "module": 70,
             "x": 21,
             "y": 13
         },
@@ -4990,7 +5036,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 72,
+            "module": 70,
             "x": 22,
             "y": 13
         },
@@ -5001,7 +5047,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 72,
+            "module": 70,
             "x": 23,
             "y": 13
         },
@@ -5012,7 +5058,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 72,
+            "module": 70,
             "x": 24,
             "y": 13
         },
@@ -5023,7 +5069,7 @@
                 "window": false
             },
             "hAdj": "000111001",
-            "module": 72,
+            "module": 70,
             "x": 25,
             "y": 13
         },
@@ -5034,7 +5080,7 @@
                 "window": false
             },
             "hAdj": "000110010",
-            "module": 72,
+            "module": 70,
             "x": 26,
             "y": 13
         },
@@ -5045,7 +5091,7 @@
                 "window": false
             },
             "hAdj": "100111000",
-            "module": 73,
+            "module": 71,
             "x": 36,
             "y": 21
         },
@@ -5056,7 +5102,7 @@
                 "window": false
             },
             "hAdj": "001111000",
-            "module": 74,
+            "module": 72,
             "x": 8,
             "y": 21
         },
@@ -5067,7 +5113,7 @@
                 "window": false
             },
             "hAdj": "011110000",
-            "module": 75,
+            "module": 73,
             "x": 9,
             "y": 21
         },
@@ -5078,7 +5124,7 @@
                 "window": false
             },
             "hAdj": "110011000",
-            "module": 76,
+            "module": 74,
             "x": 35,
             "y": 21
         },
@@ -5089,7 +5135,7 @@
                 "window": false
             },
             "hAdj": "000011110",
-            "module": 77,
+            "module": 75,
             "x": 9,
             "y": 20
         },
@@ -5100,7 +5146,7 @@
                 "window": false
             },
             "hAdj": "000110011",
-            "module": 78,
+            "module": 76,
             "x": 35,
             "y": 20
         },
@@ -5112,7 +5158,7 @@
                 "window": false
             },
             "hAdj": "000011011",
-            "module": 79,
+            "module": 77,
             "x": 18,
             "y": 8
         },
@@ -5124,7 +5170,7 @@
                 "window": false
             },
             "hAdj": "001111111",
-            "module": 79,
+            "module": 77,
             "x": 19,
             "y": 8
         },
@@ -5136,7 +5182,7 @@
                 "window": true
             },
             "hAdj": "111111111",
-            "module": 80,
+            "module": 78,
             "x": 19,
             "y": 12
         },
@@ -5148,7 +5194,7 @@
                 "window": true
             },
             "hAdj": "011011011",
-            "module": 81,
+            "module": 79,
             "x": 18,
             "y": 12
         },
@@ -5160,7 +5206,7 @@
                 "window": true
             },
             "hAdj": "011011011",
-            "module": 82,
+            "module": 80,
             "x": 18,
             "y": 11
         },
@@ -5172,7 +5218,7 @@
                 "window": true
             },
             "hAdj": "011011011",
-            "module": 83,
+            "module": 81,
             "x": 18,
             "y": 10
         },
@@ -5184,7 +5230,7 @@
                 "window": false
             },
             "hAdj": "100110110",
-            "module": 84,
+            "module": 82,
             "x": 25,
             "y": 8
         },
@@ -5196,7 +5242,7 @@
                 "window": false
             },
             "hAdj": "011011011",
-            "module": 85,
+            "module": 83,
             "x": 18,
             "y": 9
         },
@@ -5207,7 +5253,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 86,
+            "module": 84,
             "x": 2,
             "y": 20
         },
@@ -5218,7 +5264,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 86,
+            "module": 84,
             "x": 3,
             "y": 20
         },
@@ -5229,7 +5275,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 86,
+            "module": 84,
             "x": 2,
             "y": 21
         },
@@ -5240,7 +5286,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 86,
+            "module": 84,
             "x": 3,
             "y": 21
         },
@@ -5251,7 +5297,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 87,
+            "module": 85,
             "x": 37,
             "y": 18
         },
@@ -5262,7 +5308,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 87,
+            "module": 85,
             "x": 38,
             "y": 18
         },
@@ -5273,7 +5319,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 87,
+            "module": 85,
             "x": 39,
             "y": 18
         },
@@ -5284,7 +5330,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 87,
+            "module": 85,
             "x": 40,
             "y": 18
         },
@@ -5295,7 +5341,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 87,
+            "module": 85,
             "x": 37,
             "y": 19
         },
@@ -5306,7 +5352,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 87,
+            "module": 85,
             "x": 38,
             "y": 19
         },
@@ -5317,7 +5363,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 87,
+            "module": 85,
             "x": 39,
             "y": 19
         },
@@ -5328,7 +5374,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 87,
+            "module": 85,
             "x": 40,
             "y": 19
         },
@@ -5339,7 +5385,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 87,
+            "module": 85,
             "x": 37,
             "y": 20
         },
@@ -5350,7 +5396,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 87,
+            "module": 85,
             "x": 38,
             "y": 20
         },
@@ -5361,7 +5407,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 87,
+            "module": 85,
             "x": 39,
             "y": 20
         },
@@ -5372,7 +5418,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 87,
+            "module": 85,
             "x": 40,
             "y": 20
         },
@@ -5383,7 +5429,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 87,
+            "module": 85,
             "x": 37,
             "y": 21
         },
@@ -5394,7 +5440,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 87,
+            "module": 85,
             "x": 38,
             "y": 21
         },
@@ -5405,7 +5451,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 87,
+            "module": 85,
             "x": 39,
             "y": 21
         },
@@ -5416,7 +5462,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 87,
+            "module": 85,
             "x": 40,
             "y": 21
         },
@@ -5427,7 +5473,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 88,
+            "module": 86,
             "x": 4,
             "y": 18
         },
@@ -5438,7 +5484,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 88,
+            "module": 86,
             "x": 5,
             "y": 18
         },
@@ -5449,7 +5495,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 88,
+            "module": 86,
             "x": 6,
             "y": 18
         },
@@ -5460,7 +5506,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 88,
+            "module": 86,
             "x": 7,
             "y": 18
         },
@@ -5471,7 +5517,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 88,
+            "module": 86,
             "x": 4,
             "y": 19
         },
@@ -5482,7 +5528,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 88,
+            "module": 86,
             "x": 5,
             "y": 19
         },
@@ -5493,7 +5539,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 88,
+            "module": 86,
             "x": 6,
             "y": 19
         },
@@ -5504,7 +5550,7 @@
                 "window": false
             },
             "hAdj": "000000000",
-            "module": 88,
+            "module": 86,
             "x": 7,
             "y": 19
         },
@@ -5515,7 +5561,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 88,
+            "module": 86,
             "x": 4,
             "y": 20
         },
@@ -5526,7 +5572,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 88,
+            "module": 86,
             "x": 5,
             "y": 20
         },
@@ -5537,7 +5583,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 88,
+            "module": 86,
             "x": 6,
             "y": 20
         },
@@ -5548,7 +5594,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 88,
+            "module": 86,
             "x": 7,
             "y": 20
         },
@@ -5559,7 +5605,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 88,
+            "module": 86,
             "x": 4,
             "y": 21
         },
@@ -5570,7 +5616,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 88,
+            "module": 86,
             "x": 5,
             "y": 21
         },
@@ -5581,7 +5627,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 88,
+            "module": 86,
             "x": 6,
             "y": 21
         },
@@ -5592,7 +5638,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 88,
+            "module": 86,
             "x": 7,
             "y": 21
         },
@@ -5603,7 +5649,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 89,
+            "module": 87,
             "x": 41,
             "y": 20
         },
@@ -5614,7 +5660,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 89,
+            "module": 87,
             "x": 42,
             "y": 20
         },
@@ -5625,7 +5671,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 89,
+            "module": 87,
             "x": 41,
             "y": 21
         },
@@ -5636,7 +5682,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 89,
+            "module": 87,
             "x": 42,
             "y": 21
         },
@@ -5647,7 +5693,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 90,
+            "module": 88,
             "x": 43,
             "y": 20
         },
@@ -5658,7 +5704,7 @@
                 "window": false
             },
             "hAdj": "000000110",
-            "module": 90,
+            "module": 88,
             "x": 44,
             "y": 20
         },
@@ -5669,7 +5715,7 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 90,
+            "module": 88,
             "x": 43,
             "y": 21
         },
@@ -5680,7 +5726,7 @@
                 "window": false
             },
             "hAdj": "000110000",
-            "module": 90,
+            "module": 88,
             "x": 44,
             "y": 21
         },
@@ -5691,7 +5737,7 @@
                 "window": false
             },
             "hAdj": "000000011",
-            "module": 91,
+            "module": 89,
             "x": 0,
             "y": 20
         },
@@ -5702,7 +5748,7 @@
                 "window": false
             },
             "hAdj": "000000111",
-            "module": 91,
+            "module": 89,
             "x": 1,
             "y": 20
         },
@@ -5713,7 +5759,7 @@
                 "window": false
             },
             "hAdj": "000011000",
-            "module": 91,
+            "module": 89,
             "x": 0,
             "y": 21
         },
@@ -5724,27 +5770,65 @@
                 "window": false
             },
             "hAdj": "000111000",
-            "module": 91,
+            "module": 89,
             "x": 1,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 15,
+                "type": "BRICK_WALL",
+                "window": true
+            },
+            "hAdj": "111011000",
+            "module": 90,
+            "x": 17,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 15,
+                "type": "BRICK_WALL",
+                "window": true
+            },
+            "hAdj": "111110000",
+            "module": 91,
+            "x": 18,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 15,
+                "type": "BRICK_WALL",
+                "window": true
+            },
+            "hAdj": "111110000",
+            "module": 92,
+            "x": 27,
+            "y": 21
+        },
+        {
+            "armour": {
+                "hp": 15,
+                "type": "BRICK_WALL",
+                "window": true
+            },
+            "hAdj": "111011000",
+            "module": 93,
+            "x": 26,
             "y": 21
         }
     ],
     "timeMovingInSameXDirection": 0,
     "type": "BUILDING",
     "unableToFlipMs": 0,
-    "usedMods": [
-        {
-            "en": "cataclystic expansion",
-            "id": "cataclystic_expansion"
-        },
-        {
-            "en": "CE dependancy one",
-            "id": "cataclystic_expansion_dep1"
-        }
-    ],
+    "usedMods": [{
+        "en": "cataclystic expansion",
+        "id": "cataclystic_expansion"
+    }],
     "w": 45,
-    "x": 132.7,
+    "x": 1280,
     "xSpeed": 0,
-    "y": 143,
+    "y": 160,
     "ySpeed": 0
 }

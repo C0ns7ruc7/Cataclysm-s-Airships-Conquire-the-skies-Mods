@@ -109,7 +109,7 @@
         "command": 3,
         "maintenanceCost": 1,
 	"canOccupy": [],
-	"lift": 5000,
+	"lift": 7500,
 	"propulsion": 0.40,
 	"lights": [
             {
@@ -125,14 +125,20 @@
 	"reload": 200,
 	"clip": 0,
 	"inaccuracy": 0.0025,
+	"quarters": 4,
+	"quartersType": "SMALL_CLOCKWORK_DRONES_CE",
+	"hangarPositions": [
+            	{ "x": -1, "y": 0 },
+		{ "x": 0, "y": -1 },
+		{ "x": 1, "y": 0 },
+		{ "x": 0, "y": 1 }
+        ],
         "collisionDamageReceivedMult": 0.05,
 	"blastDmg": 1,
         "blastSplashRadius": 17,
         "penDmg": 0,
 	"directDmg": 1,
         "hardness": 2,
-        "quarters": 4,
-        "quartersType": "SMALL_CLOCKWORK_DRONES_CE",
         "muzzleCenterX": 0.5,
         "muzzleCenterY": 0.5,
         "muzzleLength": 0.5,
@@ -165,8 +171,8 @@
             {
                 "numSegments": 20,
                 "baseAngle": 0,
-                "baseXOffset": -8,
-                "baseYOffset": 8,
+                "baseXOffset": -0.5,
+                "baseYOffset": 0.5,
                 "baseStiffness": 0.7,
                 "tipStiffness": 0.4,
                 "baseLength": 12,
@@ -216,8 +222,8 @@
             {
                 "numSegments": 20,
                 "baseAngle": 3,
-                "baseXOffset": 8,
-                "baseYOffset": 8,
+                "baseXOffset": 0.5,
+                "baseYOffset": 0.5,
                 "baseStiffness": 0.7,
                 "tipStiffness": 0.4,
                 "baseLength": 12,
@@ -327,6 +333,12 @@
         "weight": 2500,
         "supplyProvided": 100,
         "cost": 500,
+	"hangarPositions": [
+            	{ "x": -1, "y": 0 },
+		{ "x": 0, "y": -1 },
+		{ "x": 1, "y": 0 },
+		{ "x": 0, "y": 1 }
+        ],
 	"countsAsActiveCrew": true,
         "emitters": [
             {
@@ -386,7 +398,6 @@
         ],
         "command": 3,
         "maintenanceCost": 1,
-	"canOccupy": [],
 	"lights": [
             {
                 "r": 0, "g": 231, "b": 185,
@@ -441,8 +452,8 @@
             {
                 "numSegments": 20,
                 "baseAngle": 0,
-                "baseXOffset": -8,
-                "baseYOffset": 8,
+                "baseXOffset": -0.5,
+                "baseYOffset": 0.5,
                 "baseStiffness": 0.7,
                 "tipStiffness": 0.4,
                 "baseLength": 12,
@@ -492,8 +503,8 @@
             {
                 "numSegments": 20,
                 "baseAngle": 3,
-                "baseXOffset": 8,
-                "baseYOffset": 8,
+                "baseXOffset": 0.5,
+                "baseYOffset": 0.5,
                 "baseStiffness": 0.7,
                 "tipStiffness": 0.4,
                 "baseLength": 12,
