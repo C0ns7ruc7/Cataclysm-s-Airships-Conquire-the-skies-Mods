@@ -1,0 +1,105 @@
+[
+    {
+        "name": "FLIPPED_GRENADES_LR",
+        "flippedFrom": "GRENADES_LR"
+    },
+    {
+        "name": "GRENADES_LR",
+        "categories": ["WCE_WEAPONS"],
+		"required": "LONG_RANGE",
+        "isWeapon": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "larange",
+            "x": 3,
+            "y": 0
+        },
+	"externalAppearances": [
+		{
+			"appearance": 
+			{
+				"src": "larange",
+				"x": 3,
+				"y": 1,
+				"w": 2
+			},
+			"x": 0,
+		        "y": 0
+		}
+        ],
+        "hp": 40,
+        "fireHP": 32,
+        "moveDelay": 800,
+        "weight": 12,
+        "cost": 12,
+        "crew": 1,
+        "recommendedCrew": 2,
+        "frontOnly": true,
+        "isExplosive": true,
+        "maxXRange": 1122,
+		"minXRange": 16,
+        "maxUpRange": 100,
+        "shotSpeed": 0.85,
+        "reload": 3000,
+        "clip": 6,
+        "inaccuracy": 0.0033,
+        "blastDmg": { "base": 30, "POWERFUL_EXPLOSIVES": 40 },
+		"blastSplashRadius": 24,
+        "penDmg": 1,
+        "fireArc": { "direction": "forwards", "degrees": 240 },
+        "muzzleCenterX": 1.7,
+        "muzzleCenterY": 0.4,
+        "muzzleLength": 0,
+        "muzzleFlash": false,
+        "hitSound": {
+            "layers": [
+                {
+                    "variations": ["smexplosion"],
+                    "volume": 1.4,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.15
+                    }
+                }
+            ]
+        },
+        "optimumRange": 800,
+        "explodeHP": 15,
+        "explodeDmg": 15,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 64, "y": 304, "w": 2, "h": 2 },
+            "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.004 },
+            "hitExplosionSize": 0.45,
+            "missExplosionSize": 0.3,
+	    "barrelAnimation": 
+	    {
+                "interval": 50,
+                "loop": true,
+                "finishLoopCycle": false,
+                "msPerShot": 400,
+                "frames": [
+			{ "src": "larange", "x": 80, "y": 30, "w": 32, "h": 6 },
+			{ "src": "larange", "x": 80, "y": 24, "w": 32, "h": 6 },
+			{ "src": "larange", "x": 80, "y": 18, "w": 32, "h": 6 },
+			{ "src": "larange", "x": 80, "y": 12, "w": 32, "h": 6 },
+			{ "src": "larange", "x": 80, "y": 6, "w": 32, "h": 6 },
+			{ "src": "larange", "x": 80, "y": 0, "w": 32, "h": 6 },
+			{ "src": "larange", "x": 80, "y": 6, "w": 32, "h": 6 },
+			{ "src": "larange", "x": 80, "y": 0, "w": 32, "h": 6 }
+                ]
+            },
+            "barrelX": -1,
+            "barrelY": 6,
+            "exhaust": {
+                "type": "grenade_spark",
+                "p": 0.01,
+                "backOffset": 1,
+                "angleRange": 3,
+                "randomOffset": 1,
+                "speedMin": 0.5,
+                "speedMax": 1
+            }
+        }
+    }
+]

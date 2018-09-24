@@ -1,4 +1,4 @@
-[
+[?
     {
         "name": "FLIPPED_SOLAR_RAY",
         "flippedFrom": "SOLAR_RAY"
@@ -6,7 +6,7 @@
     {
         "name": "SOLAR_RAY",
         "categories": ["WCE_WEAPONS"],
-        "required": "TELESCOPES",
+        "required": "SOLAR_LAZOR",
         "isWeapon": true,
         "w": 5,
         "h": 1,
@@ -32,15 +32,15 @@
         "frontOnly": true,
         "backOnly": true,
         "topOnly": true,
-        "reload": 200,
+        "reload": 100,
         "clip": 0,
-	"jitterMerge": 0.7,
-        "inaccuracy": 0.00105,
-        "blastDmg": 1,
+		"jitterMerge": 0.85,
+        "inaccuracy": 0.0005,
+        "blastDmg": 2,
         "blastSplashRadius": 4,
         "shotSpeed": 12,
-        "penDmg": 1,
-	"directDmg": 1,
+        "penDmg": 2,
+	"directDmg": 2,
         "recoilForce": 0,
         "fireArc": {  "arcCenter": "325", "degrees": 180 },
         "muzzleCenterX": 4.875,
@@ -56,7 +56,7 @@
             "barrelX": 68,
             "barrelY": 1,
             "recoil": 0,
-            "shotEmitter": { "type": "ember", "emitProbability": 0.01 }
+            "shotEmitter": { "type": "ember", "emitProbability": 0.05 }
         },
 		        "windows": [
             { "x": 0, "y": 0 },

@@ -4,6 +4,7 @@
         "sort": 5001,
         "tier": 5,
         "requiresBonus": "CEDRONE",
+		"dependencies": [],
         "bonuses": [ "MECHANIS_THEORY" ],
         "img": { "src": "ce_tech_art", "x": 896, "y": 0, "w": 64, "h": 64 }
     },
@@ -11,6 +12,7 @@
         "name": "ATOM_THEORY",
         "sort": 5100,
         "tier": 5,
+		"requiresBonus": "ROCKET_CREATION",
         "bonuses": [ "MASS_ENERGY_REACTION" ],
         "dependencies": [ "ADVANCED_FUZES", "MILITARY_ORGANISATION", "TADPOLE_TECH" ],
         "img": { "src": "ce_tech_art", "x": 576, "y": 64, "w": 64, "h": 64 }
@@ -27,7 +29,7 @@
         "name": "CE_SUSPEND_KICKBACK",
         "sort": 5530,
         "tier": 5,
-        "bonuses": [ "CE_SUSPEND_KICKBACK", "CE_SUSPEND_TORP" ],
+        "bonuses": [ "CE_SUSPEND_KICKBACK", "CE_SUSPEND_TORP", "CE_KICKBACK_PROTECTION" ],
         "dependencies": [ "CE_SUSPENDED_ASSEMBLY" ],
         "img": { "src": "ce_tech_art", "x": 960, "y": 64, "w": 64, "h": 64 }
     },
@@ -46,5 +48,14 @@
         "bonuses": [ "CE_ARMOR_EMERGANCY" ],
         "dependencies": [],
         "img": { "src": "ce_tech_art", "x": 128, "y": 128, "w": 64, "h": 64 }
+    },
+	{
+        "name": "CE_LONG_RANGE",
+        "sort": 5990,
+        "tier": 5,
+        "requiresBonus": "BOMBS",
+		"dependencies": [],
+        "bonuses": [ "LONG_RANGE" ],
+        "img": { "src": "ce_tech_art", "x": 0, "y": 0, "w": 64, "h": 64 }
     }
 ]

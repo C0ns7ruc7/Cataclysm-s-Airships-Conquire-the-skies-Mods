@@ -29,8 +29,9 @@
         "name": "OIL_FUEL_REFINING",
         "sort": 3360,
         "tier": 3,
-        "bonuses": [ "FUEL_CREATION" ],
-        "dependencies": [ "COMBUSTIBLES" ],
+        "bonuses": [ "FUEL_CREATION", "ROCKET_CREATION_PROTO" ],
+        "dependencies": [],
+		"requiresBonus": "FLAMETHROWERS",
         "img": { "src": "ce_tech_art", "x": 576, "y": 0, "w": 64, "h": 64 }
     },
     {
