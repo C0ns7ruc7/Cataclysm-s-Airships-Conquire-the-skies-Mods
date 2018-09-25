@@ -40,16 +40,17 @@
         "blastSplashRadius": 4,
         "shotSpeed": 12,
         "penDmg": 2,
-	"directDmg": 2,
+	"directDmg": 1,
         "recoilForce": 0,
         "fireArc": {  "arcCenter": "325", "degrees": 180 },
         "muzzleCenterX": 4.875,
         "muzzleCenterY": 0.4375,
-        "muzzleLength": 1,
+        "muzzleLength": 6,
+        "minXRange": 48,
 	"muzzleFlash": false,
         "optimumRange": 800,
 	"shootTroopsRange": 800,
-	"soundEvery": 5,
+	"soundEvery": 10,
         "fireSound": {
             "layers": [
                 {
@@ -81,12 +82,12 @@
             "shotEmitter": { "type": "ember", "emitProbability": 0.07 },
             "exhaust": { 
             	"type": "ce_solar_ray_shot", 
-            	"p": 1, 
+            	"p": 1.314, 
             	"backOffset": 0, 
             	"angleRange": 0, 
             	"randomOffset": 0, 
-            	"speedMin": 0, 
-            	"speedMax": 0 
+            	"speedMin": -10, 
+            	"speedMax": 10 
             }
         },
         "windows": [

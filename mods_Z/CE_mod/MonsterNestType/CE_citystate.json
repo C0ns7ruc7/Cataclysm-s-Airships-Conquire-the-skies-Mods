@@ -6,7 +6,7 @@
 		"msUntilUpgrade": 900000,
 		"msForUpgrade": 120000,
 		"upgradeMsPerRaidSuccess": 60000,
-		"spawnWeight": 10,
+		"spawnWeight": 13,
 		"needsRoad": true,
 		"income": 1,
 		"mapImage":{ "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
@@ -20,45 +20,48 @@
         	"rewards": [
 		    {
 		        "name": "CIVCleared1",
-		        "spawnWeight": 20,
+		        "spawnWeight": 8,
 		        "money": 250,
-		        "rep": -35
+		        "rep": -10
 		    },
 		    {
 		        "name": "CIVCleared2",
-		        "spawnWeight": 20,
+		        "spawnWeight": 5,
 		        "money": 350,
-		        "rep": -35
+		        "bonus": "CIV_I_I",
+		        "rep": -10
 		    },
 		    {
 		        "name": "CIVCleared3",
-		        "spawnWeight": 20,
+		        "spawnWeight": 3,
 		        "money": 450,
-		        "rep": -35
+		        "bonus": "CIV_I_II",
+		        "rep": -10
 		    },
 		    {
 		        "name": "CIVCleared4",
-		        "spawnWeight": 20,
+		        "spawnWeight": 2,
 		        "money": 550,
-		        "rep": -35
+		        "bonus": "CIV_I_III",
+		        "rep": -10
 		    },
 		    {
 		        "name": "CIVCleared5",
-		        "spawnWeight": 25,
-		        "money": 0,
-			"bonus": "INDUSTRIOUS",
-		        "rep": -65
+		        "spawnWeight": 1,
+		        "money": 650,
+			"bonus": "CIV_I_IV",
+		        "rep": -10
 		    }
 		]
 	},
 	{
 		"name": "CIV_village",
 		"img": "CIV",
-		"upgradeTo": "CIV_village",
+		"upgradeTo": "CIV_TOWN",
 		"msUntilUpgrade": 900000,
 		"msForUpgrade": 120000,
 		"upgradeMsPerRaidSuccess": 60000,
-		"spawnWeight": 10,
+		"spawnWeight": 8,
 		"needsRoad": true,
 		"income": 1,
 		"mapImage":{ "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
@@ -72,34 +75,308 @@
         	"rewards": [
 		    {
 		        "name": "CIVCleared1",
-		        "spawnWeight": 20,
-		        "money": 250,
-		        "rep": -35
+		        "spawnWeight": 8,
+		        "money": 350,
+		        "rep": -20
 		    },
 		    {
 		        "name": "CIVCleared2",
-		        "spawnWeight": 20,
-		        "money": 350,
-		        "rep": -35
+		        "spawnWeight": 5,
+		        "money": 450,
+		        "bonus": "CIV_II_I",
+		        "rep": -20
 		    },
 		    {
 		        "name": "CIVCleared3",
-		        "spawnWeight": 20,
-		        "money": 450,
-		        "rep": -35
+		        "spawnWeight": 3,
+		        "money": 550,
+		        "bonus": "CIV_II_II",
+		        "rep": -20
 		    },
 		    {
 		        "name": "CIVCleared4",
-		        "spawnWeight": 20,
-		        "money": 550,
-		        "rep": -35
+		        "spawnWeight": 2,
+		        "money": 650,
+		        "bonus": "CIV_II_III",
+		        "rep": -20
 		    },
 		    {
 		        "name": "CIVCleared5",
-		        "spawnWeight": 25,
-		        "money": 0,
-			"bonus": "INDUSTRIOUS",
-		        "rep": -65
+		        "spawnWeight": 1,
+		        "money": 750,
+			"bonus": "CIV_II_IV",
+		        "rep": -20
+		    }
+		]
+	},
+	{
+		"name": "CIV_TOWN",
+		"img": "CIV",
+		"upgradeTo": "CIV_LARGE_TOWN",
+		"msUntilUpgrade": 900000,
+		"msForUpgrade": 120000,
+		"upgradeMsPerRaidSuccess": 60000,
+		"spawnWeight": 5,
+		"needsRoad": true,
+		"income": 1,
+		"mapImage":{ "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"mapBackground": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"mapFleetImage": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"mapFleetBackground": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"homeFleet": [],
+		"baseConstructions": [],
+        	"additionalConstructions": [],
+		"incomeModifierPercentage": 10,
+        	"rewards": [
+		    {
+		        "name": "CIVCleared1",
+		        "spawnWeight": 8,
+		        "money": 450,
+		        "rep": -30
+		    },
+		    {
+		        "name": "CIVCleared2",
+		        "spawnWeight": 5,
+		        "money": 550,
+		        "bonus": "CIV_III_I",
+		        "rep": -30
+		    },
+		    {
+		        "name": "CIVCleared3",
+		        "spawnWeight": 3,
+		        "money": 650,
+		        "bonus": "CIV_III_II",
+		        "rep": -30
+		    },
+		    {
+		        "name": "CIVCleared4",
+		        "spawnWeight": 2,
+		        "money": 750,
+		        "bonus": "CIV_III_III",
+		        "rep": -30
+		    },
+		    {
+		        "name": "CIVCleared5",
+		        "spawnWeight": 1,
+		        "money": 850,
+			"bonus": "CIV_III_IV",
+		        "rep": -30
+		    }
+		]
+	},
+	{
+		"name": "CIV_LARGE_TOWN",
+		"img": "CIV",
+		"upgradeTo": "CIV_CITY",
+		"msUntilUpgrade": 900000,
+		"msForUpgrade": 120000,
+		"upgradeMsPerRaidSuccess": 60000,
+		"spawnWeight": 3,
+		"needsRoad": true,
+		"income": 1,
+		"mapImage":{ "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"mapBackground": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"mapFleetImage": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"mapFleetBackground": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"homeFleet": [],
+		"baseConstructions": [],
+        	"additionalConstructions": [],
+		"incomeModifierPercentage": 10,
+        	"rewards": [
+		    {
+		        "name": "CIVCleared1",
+		        "spawnWeight": 8,
+		        "money": 550,
+		        "rep": -40
+		    },
+		    {
+		        "name": "CIVCleared2",
+		        "spawnWeight": 5,
+		        "money": 650,
+		        "bonus": "CIV_IV_I",
+		        "rep": -40
+		    },
+		    {
+		        "name": "CIVCleared3",
+		        "spawnWeight": 3,
+		        "money": 750,
+		        "bonus": "CIV_IV_II",
+		        "rep": -40
+		    },
+		    {
+		        "name": "CIVCleared4",
+		        "spawnWeight": 2,
+		        "money": 850,
+		        "bonus": "CIV_IV_III",
+		        "rep": -40
+		    },
+		    {
+		        "name": "CIVCleared5",
+		        "spawnWeight": 1,
+		        "money": 950,
+			"bonus": "CIV_IV_IV",
+		        "rep": -40
+		    }
+		]
+	},
+	{
+		"name": "CIV_CITY",
+		"img": "CIV",
+		"upgradeTo": "CIV_LARGE_CITY",
+		"msUntilUpgrade": 900000,
+		"msForUpgrade": 120000,
+		"upgradeMsPerRaidSuccess": 60000,
+		"spawnWeight": 2,
+		"needsRoad": true,
+		"income": 1,
+		"mapImage":{ "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"mapBackground": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"mapFleetImage": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"mapFleetBackground": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"homeFleet": [],
+		"baseConstructions": [],
+        	"additionalConstructions": [],
+		"incomeModifierPercentage": 10,
+        	"rewards": [
+		    {
+		        "name": "CIVCleared1",
+		        "spawnWeight": 8,
+		        "money": 650,
+		        "rep": -50
+		    },
+		    {
+		        "name": "CIVCleared2",
+		        "spawnWeight": 5,
+		        "money": 750,
+		        "bonus": "CIV_V_I",
+		        "rep": -50
+		    },
+		    {
+		        "name": "CIVCleared3",
+		        "spawnWeight": 3,
+		        "money": 850,
+		        "bonus": "CIV_V_II",
+		        "rep": -50
+		    },
+		    {
+		        "name": "CIVCleared4",
+		        "spawnWeight": 2,
+		        "money": 950,
+		        "bonus": "CIV_V_III",
+		        "rep": -50
+		    },
+		    {
+		        "name": "CIVCleared5",
+		        "spawnWeight": 1,
+		        "money": 1050,
+			"bonus": "CIV_V_IV",
+		        "rep": -50
+		    }
+		]
+	},
+	{
+		"name": "CIV_LARGE_CITY",
+		"img": "CIV",
+		"upgradeTo": "CIV_METROPOLIS",
+		"msUntilUpgrade": 900000,
+		"msForUpgrade": 120000,
+		"upgradeMsPerRaidSuccess": 60000,
+		"spawnWeight": 1,
+		"needsRoad": true,
+		"income": 1,
+		"mapImage":{ "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"mapBackground": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"mapFleetImage": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"mapFleetBackground": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"homeFleet": [],
+		"baseConstructions": [],
+        	"additionalConstructions": [],
+		"incomeModifierPercentage": 10,
+        	"rewards": [
+		    {
+		        "name": "CIVCleared1",
+		        "spawnWeight": 8,
+		        "money": 750,
+		        "rep": -60
+		    },
+		    {
+		        "name": "CIVCleared2",
+		        "spawnWeight": 5,
+		        "money": 850,
+		        "bonus": "CIV_VI_I",
+		        "rep": -60
+		    },
+		    {
+		        "name": "CIVCleared3",
+		        "spawnWeight": 3,
+		        "money": 950,
+		        "bonus": "CIV_VI_II",
+		        "rep": -60
+		    },
+		    {
+		        "name": "CIVCleared4",
+		        "spawnWeight": 2,
+		        "money": 1050,
+		        "bonus": "CIV_VI_III",
+		        "rep": -60
+		    },
+		    {
+		        "name": "CIVCleared5",
+		        "spawnWeight": 1,
+		        "money": 1150,
+			"bonus": "CIV_VI_IV",
+		        "rep": -60
+		    }
+		]
+	},
+	{
+		"name": "CIV_METROPOLIS",
+		"img": "CIV",
+		"spawnWeight": 1,
+		"needsRoad": true,
+		"income": 1,
+		"mapImage":{ "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"mapBackground": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"mapFleetImage": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"mapFleetBackground": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
+		"homeFleet": [],
+		"baseConstructions": [],
+        	"additionalConstructions": [],
+		"incomeModifierPercentage": 10,
+        	"rewards": [
+		    {
+		        "name": "CIVCleared1",
+		        "spawnWeight": 8,
+		        "money": 850,
+		        "rep": -60
+		    },
+		    {
+		        "name": "CIVCleared2",
+		        "spawnWeight": 5,
+		        "money": 950,
+		        "bonus": "CIV_VII_I",
+		        "rep": -60
+		    },
+		    {
+		        "name": "CIVCleared3",
+		        "spawnWeight": 3,
+		        "money": 1050,
+		        "bonus": "CIV_VII_II",
+		        "rep": -60
+		    },
+		    {
+		        "name": "CIVCleared4",
+		        "spawnWeight": 2,
+		        "money": 1150,
+		        "bonus": "CIV_VII_III",
+		        "rep": -60
+		    },
+		    {
+		        "name": "CIVCleared5",
+		        "spawnWeight": 1,
+		        "money": 1250,
+			"bonus": "CIV_VII_IV",
+		        "rep": -60
 		    }
 		]
 	}

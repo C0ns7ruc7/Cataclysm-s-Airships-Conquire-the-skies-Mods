@@ -4,7 +4,7 @@
         "sort": 5001,
         "tier": 5,
         "requiresBonus": "CEDRONE",
-		"dependencies": [],
+	"dependencies": [],
         "bonuses": [ "MECHANIS_THEORY" ],
         "img": { "src": "ce_tech_art", "x": 896, "y": 0, "w": 64, "h": 64 }
     },
@@ -12,7 +12,7 @@
         "name": "ATOM_THEORY",
         "sort": 5100,
         "tier": 5,
-		"requiresBonus": "ROCKET_CREATION",
+	"requiresBonus": "ROCKET_CREATION",
         "bonuses": [ "MASS_ENERGY_REACTION" ],
         "dependencies": [ "ADVANCED_FUZES", "MILITARY_ORGANISATION", "TADPOLE_TECH" ],
         "img": { "src": "ce_tech_art", "x": 576, "y": 64, "w": 64, "h": 64 }
@@ -24,6 +24,15 @@
         "bonuses": [ "EXTREME_DISTANCE_COMBAT" ],
         "dependencies": [ "ADVANCED_FUZES", "ROBOTICS", "CONTAINED_ECONOMIES" ],
         "img": { "src": "ce_tech_art", "x": 640, "y": 64, "w": 64, "h": 64 }
+    },
+    {
+        "name": "OIL_FUEL_REFINING",
+        "sort": 5360,
+        "tier": 5,
+        "bonuses": [ "FUEL_CREATION", "ROCKET_CREATION_PROTO" ],
+        "dependencies": [],
+		"requiresBonus": "FLAMETHROWERS",
+        "img": { "src": "ce_tech_art", "x": 576, "y": 0, "w": 64, "h": 64 }
     },
     {
         "name": "CE_SUSPEND_KICKBACK",
@@ -46,6 +55,7 @@
         "sort": 5925,
         "tier": 5,
         "bonuses": [ "CE_ARMOR_EMERGANCY" ],
+        "requiresBonus": "MASSIVE_STONE_WALLS",
         "dependencies": [],
         "img": { "src": "ce_tech_art", "x": 128, "y": 128, "w": 64, "h": 64 }
     },
@@ -54,7 +64,7 @@
         "sort": 5990,
         "tier": 5,
         "requiresBonus": "BOMBS",
-		"dependencies": [],
+	"dependencies": [],
         "bonuses": [ "LONG_RANGE" ],
         "img": { "src": "ce_tech_art", "x": 0, "y": 0, "w": 64, "h": 64 }
     }
