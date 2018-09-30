@@ -2,7 +2,7 @@
     {
         "name": "CITY_INCOME_PERCENTAGE_BONUS",
         "value": {
-            "base": 0,
+            "base": -5,
             "deltas":{
             	"COMMERCE_HAGGELING_INCOME": 5,
 	    	"COMMERCE_ORGENIZED_GATHERING_INCOME": 5,
@@ -31,5 +31,63 @@
             	"CIV_I_IV":4, "CIV_II_IV":4, "CIV_III_IV":4, "CIV_IV_IV":4, "CIV_V_IV":4, "CIV_VI_IV":4, "CIV_VII_IV":4
             }
         }
-     }
+    }
+    {
+        "name": "BASE_RESEARCH_COST",
+        "value": 300,
+		"deltas":{}
+    },
+    {
+        "name": "RESEARCH_COST_EXPONENT",
+        "value": 1.5,
+		"deltas":{}
+    },
+    {
+        "name": "FIRE_QUENCH_AMOUNT",
+        "value": {
+            "base": 6,
+			"deltas":{
+				"FIREFIGHTERS": 6
+			}
+        }
+    },
+    {
+        "name": "REPAIR_AMOUNT",
+        "value": {
+            "base": 20,
+			"deltas":{
+				"EXPERT_REPAIRS": 10
+			}
+        }
+    },
+    {
+        "name": "ESPIONAGE_SUCCESS_PERCENTAGE_BONUS",
+        "value": {
+            "base": -50,
+			"deltas":{
+				"MASTER_SPIES": 50,
+				"SPYCRAFT0": 15,
+				"SPYCRAFT1A": 15,
+				"SPYCRAFT2A": 15,
+				"SPYCRAFT2B": 15,
+				"SPYCRAFT3A": 10,
+				"SPYCRAFT3B": 10
+			}
+        }
+    },
+    {
+        "name": "ESPIONAGE_COST_PERCENTAGE_BONUS",
+        "value": {
+            "base": 50,
+			"deltas":{
+				"MASTER_SPIES": -50
+				"SPYCRAFT0": -15,
+				"SPYCRAFT1B" -15
+				"SPYCRAFT2B": -15,
+				"SPYCRAFT2C": -15,
+				"SPYCRAFT3C": -10,
+				"SPYCRAFT3D": -10
+			}
+        }
+    }
 ]
