@@ -1,0 +1,165 @@
+[
+    {
+        "name": "FLIPPED_TKO_GATLING_GUN",
+        "flippedFrom": "TKO_GATLING_GUN"
+    },
+    {
+        "name": "TKO_GATLING_GUN",
+        "categories": ["TKO"],
+        "required": "GATLING_GUNS",
+        "isWeapon": true,
+        "w": 2,
+        "h": 1,
+        "appearance": {
+            "src": "tko_spritesheet",
+            "x": 20,
+            "y": 0,
+            "w": 2,
+            "h": 1
+        },
+        "hp": 40,
+        "fireHP": 18,
+        "moveDelay": 800,
+        "weight": 20,
+        "cost": 90,
+        "crew": 1,
+        "recommendedCrew": 1,
+        "frontOnly": true,
+        "isGun": true,
+        "jitterMerge": 0.8,
+        "reload": 125,
+        "shootTroopsRange": 250,
+        "clip": 50,
+        "clipReloadTime": 3000,
+        "inaccuracy": 0.005,
+        "blastDmg": 0,
+        "penDmg": 6,
+        "maxRange": 1000,
+        "fireArc": { "direction": "forwards", "degrees": 120 },
+        "muzzleCenterX": 1.68,
+        "muzzleCenterY": 0.56,
+        "muzzleLength": 0.8,
+        "optimumRange": 100,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "gatling0", "gatling1", "gatling2", "gatling3", "gatling4", "gatling5", "gatling6", "gatling7", "gatling8" ],
+                    "volume": 1.5,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1,
+                        "distance": [
+                            0, 1.2,
+                            3000, 0.7
+                        ]
+                    }
+                }
+            ]
+        },
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 32, "y": 304, "w": 2, "h": 1 },
+            "barrel": { "src": "spritesheet", "x": 353, "y": 113, "w": 24, "h": 9 },
+            "barrelX": 15,
+            "barrelY": 5,
+            "recoil": 2
+        },
+        "upDoors": [ 0 ]
+    },
+    {
+        "name": "FLIPPED_TKO_GATLING_GUN_DECK",
+        "flippedFrom": "TKO_GATLING_GUN_DECK"
+    },
+    {
+        "name": "TKO_GATLING_GUN_DECK",
+        "categories": ["TKO"],
+        "required": "GATLING_GUNS",
+        "external": true,
+        "isWeapon": true,
+        "w": 2,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 20,
+            "y": 0,
+            "w": 2,
+            "h": 1
+        },
+        "externalAppearances": [
+		{
+			"appearance": {
+			    "src": "spritesheet",
+			    "x": 20,
+			    "y": 0,
+			    "w": 2,
+			    "h": 1
+			},
+			"x": 0,
+			"y": 0
+		},
+		{
+		"appearance": {
+			    "src": "spritesheet",
+			    "x": 35,
+			    "y": 5
+			},
+			"x": 0,
+			"y": 0
+		},
+		{
+		"appearance": {
+			    "src": "spritesheet",
+			    "x": 35,
+			    "y": 5
+			},
+			"x": 1,
+			"y": 0
+		}
+	],
+        "hp": 40,
+        "fireHP": 18,
+        "moveDelay": 800,
+        "weight": 22,
+        "cost": 90,
+        "crew": 1,
+        "recommendedCrew": 1,
+        "frontOnly": false,
+        "isGun": true,
+        "jitterMerge": 0.8,
+        "reload": 125,
+        "shootTroopsRange": 250,
+        "clip": 40,
+        "clipReloadTime": 3000,
+        "inaccuracy": 0.006,
+        "blastDmg": 0,
+        "penDmg": 6,
+        "maxRange": 1000,
+        "fireArc": { "direction": "forwards", "degrees": 135 },
+        "muzzleCenterX": 1.68,
+        "muzzleCenterY": 0.56,
+        "muzzleLength": 0.8,
+        "optimumRange": 100,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "gatling0", "gatling1", "gatling2", "gatling3", "gatling4", "gatling5", "gatling6", "gatling7", "gatling8" ],
+                    "volume": 1.5,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1,
+                        "distance": [
+                            0, 1.2,
+                            3000, 0.7
+                        ]
+                    }
+                }
+            ]
+        },
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 32, "y": 304, "w": 2, "h": 1 },
+            "barrel": { "src": "spritesheet", "x": 353, "y": 113, "w": 24, "h": 9 },
+            "barrelX": 15,
+            "barrelY": 5,
+            "recoil": 2
+        }
+    }
+]

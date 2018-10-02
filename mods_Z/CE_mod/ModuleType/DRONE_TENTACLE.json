@@ -1,0 +1,318 @@
+[
+    {
+        "name": "CLOCKWORK_TENTACLE_TOP",
+        "categories": ["DRONE"],
+	"required": "MECHANIS_IMPLIMENTATION",
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 200,
+            "frames": [
+                { "x": 58, "y": 37 },
+                { "x": 59, "y": 37 }
+            ]
+        },
+	"externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 62,
+                    "y": 38
+                }
+            }],
+	"mask": {
+            "x": 62,
+            "y": 38
+        },
+        "hp": 500,
+	"destroyedHP": -500,
+        "fireHP": { "base": 50, "MECHANIS_COMPLETION": 25 },
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+	"explodeHP": { "base": 10, "MECHANIS_MODULAIRIZATION": 0 },
+        "explodeDmg": { "base": 10, "MECHANIS_MODULAIRIZATION": 0 },
+        "weight": 100,
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 50 },
+        "cost": 80,
+        "emitters": [
+            {
+                "x": 0.5,
+                "y": 0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.02,
+                "inside": true
+            }
+        ],
+        "command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+        "maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+        "moveDelay": 1600,
+        "canOccupy": [],
+	"tentacles": [
+            {
+                "numSegments": 20,
+                "baseAngle": 0,
+                "baseXOffset": 1.5,
+                "baseYOffset": 0.5,
+                "baseStiffness": 0.7,
+                "tipStiffness": 0.4,
+                "baseLength": 15,
+                "tipLength": 8,
+                "baseWidth": 12,
+                "tipWidth": 5,
+                "speed": 0.4,
+                "snatchesCrew": false,
+                "mouthXOffset": -0.5,
+                "mouthYOffset": 0,
+                "attacksHull": true,
+                "wavesAround": true,
+                "suckerDirection": false,
+		"attackPenDmg": 50,
+		"attackBlastDmg": 50,
+                "segmentImg": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "segmentImgVerticallyFlipped": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "imgLength": 14,
+                "minNextTargetPause": 0,
+                "maxNextTargetPause": 50,
+		"snatchSound": {
+		    "layers": [
+		        {
+		            "variations": ["tentacle_grab0", "tentacle_grab1", "tentacle_grab2"],
+		            "volume": { "min": 0.8, "max": 1.25 },
+            		    "pitch": { "min": 0.8, "max": 1.25 }
+		        }
+		    ]
+		},
+		"attackSound": {
+		    "layers": [
+		        {
+		            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+		            "volume": { "min": 0.8, "max": 1.25 },
+            		    "pitch": { "min": 0.8, "max": 1.25 }
+		        }
+		    ]
+		},
+		"segmentImgOverrides": [
+			{
+			    "index": 19,
+        		    "img": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 },
+        		    "imgVerticallyFlipped": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 }
+			}
+		]
+            }
+        ]
+    },
+    {
+        "name": "CLOCKWORK_TENTACLE_LEFT",
+        "flippedFrom": "CLOCKWORK_TENTACLE_RIGHT"
+    },
+    {
+        "name": "CLOCKWORK_TENTACLE_RIGHT",
+        "categories": ["DRONE"],
+	"required": "MECHANIS_IMPLIMENTATION",
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 200,
+            "frames": [
+                { "x": 58, "y": 38 },
+                { "x": 59, "y": 38 }
+            ]
+        },
+	"externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 55,
+                    "y": 38
+                }
+            }],
+        "mask": {
+            "x": 55,
+            "y": 38
+        },
+        "hp": 500,
+	"destroyedHP": -500,
+        "fireHP": { "base": 50, "MECHANIS_COMPLETION": 25 },
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+	"explodeHP": { "base": 10, "MECHANIS_MODULAIRIZATION": 0 },
+        "explodeDmg": { "base": 10, "MECHANIS_MODULAIRIZATION": 0 },
+        "weight": 100,
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 50 },
+        "cost": 80,
+        "emitters": [
+            {
+                "x": 0.5,
+                "y": 0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.02,
+                "inside": true
+            }
+        ],
+        "command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+        "maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+        "moveDelay": 1600,
+        "canOccupy": [],
+	"tentacles": [
+            {
+                "numSegments": 20,
+                "baseAngle": 0,
+                "baseXOffset": 1.5,
+                "baseYOffset": 0.5,
+                "baseStiffness": 0.7,
+                "tipStiffness": 0.4,
+                "baseLength": 15,
+                "tipLength": 8,
+                "baseWidth": 12,
+                "tipWidth": 5,
+                "speed": 0.4,
+                "snatchesCrew": false,
+                "mouthXOffset": -0.5,
+                "mouthYOffset": 0,
+                "attacksHull": true,
+                "wavesAround": true,
+                "suckerDirection": false,
+		"attackPenDmg": 50,
+		"attackBlastDmg": 50,
+                "segmentImg": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "segmentImgVerticallyFlipped": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "imgLength": 14,
+                "minNextTargetPause": 0,
+                "maxNextTargetPause": 50,
+		"snatchSound": {
+		    "layers": [
+		        {
+		            "variations": ["tentacle_grab0", "tentacle_grab1", "tentacle_grab2"],
+		            "volume": { "min": 0.8, "max": 1.25 },
+            		    "pitch": { "min": 0.8, "max": 1.25 }
+		        }
+		    ]
+		},
+		"attackSound": {
+		    "layers": [
+		        {
+		            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+		            "volume": { "min": 0.8, "max": 1.25 },
+            		    "pitch": { "min": 0.8, "max": 1.25 }
+		        }
+		    ]
+		},
+		"segmentImgOverrides": [
+			{
+			    "index": 19,
+        		    "img": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 },
+        		    "imgVerticallyFlipped": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 }
+			}
+		]
+            }
+        ]
+    },
+    {
+        "name": "CLOCKWORK_TENTACLE_BOTTOM",
+        "categories": ["DRONE"],
+	"required": "MECHANIS_IMPLIMENTATION",
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 200,
+            "frames": [
+                { "x": 60, "y": 38 },
+                { "x": 61, "y": 38 }
+            ]
+        },
+	"externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 63,
+                    "y": 38
+                }
+            }],
+    	"mask": {
+            "x": 63,
+            "y": 38
+        },
+        "hp": 500,
+	"destroyedHP": -500,
+        "fireHP": { "base": 50, "MECHANIS_COMPLETION": 25 },
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+	"explodeHP": { "base": 10, "MECHANIS_MODULAIRIZATION": 0 },
+        "explodeDmg": { "base": 10, "MECHANIS_MODULAIRIZATION": 0 },
+        "weight": 100,
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 50 },
+        "cost": 80,
+        "emitters": [
+            {
+                "x": 0.5,
+                "y": 0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.02,
+                "inside": true
+            }
+        ],
+        "command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+        "maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+        "moveDelay": 1600,
+        "canOccupy": [],
+	"tentacles": [
+            {
+                "numSegments": 20,
+                "baseAngle": 0,
+                "baseXOffset": 1.5,
+                "baseYOffset": 0.5,
+                "baseStiffness": 0.7,
+                "tipStiffness": 0.4,
+                "baseLength": 15,
+                "tipLength": 8,
+                "baseWidth": 12,
+                "tipWidth": 5,
+                "speed": 0.4,
+                "snatchesCrew": false,
+                "mouthXOffset": -0.5,
+                "mouthYOffset": 0,
+                "attacksHull": true,
+                "wavesAround": true,
+                "suckerDirection": false,
+		"attackPenDmg": 50,
+		"attackBlastDmg": 50,
+                "segmentImg": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "segmentImgVerticallyFlipped": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
+                "imgLength": 14,
+                "minNextTargetPause": 0,
+                "maxNextTargetPause": 50,
+		"snatchSound": {
+		    "layers": [
+		        {
+		            "variations": ["tentacle_grab0", "tentacle_grab1", "tentacle_grab2"],
+		            "volume": { "min": 0.8, "max": 1.25 },
+            		    "pitch": { "min": 0.8, "max": 1.25 }
+		        }
+		    ]
+		},
+		"attackSound": {
+		    "layers": [
+		        {
+		            "variations": ["tentacle_whack0", "tentacle_whack1", "tentacle_whack2", "tentacle_whack3"],
+		            "volume": { "min": 0.8, "max": 1.25 },
+            		    "pitch": { "min": 0.8, "max": 1.25 }
+		        }
+		    ]
+		},
+		"segmentImgOverrides": [
+			{
+			    "index": 19,
+        		    "img": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 },
+        		    "imgVerticallyFlipped": { "src": "monsters", "x": 912, "y": 816, "w": 24, "h": 16 }
+			}
+		]
+            }
+        ]
+    }
+]
