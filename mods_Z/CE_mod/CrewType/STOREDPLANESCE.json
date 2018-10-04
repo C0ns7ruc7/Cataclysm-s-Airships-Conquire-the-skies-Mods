@@ -1,0 +1,236 @@
+{
+        "name": "triplane_ce",
+        "isMachine": true,
+        "doesWork": false,
+        "doesGuard": false,
+        "canBoard": false,
+        "shootsShips": true,
+        "canFly": true,
+        "crashesOnDeath": true,
+        "canWalk": true,
+		"insideSpeed": 0.5,
+        "airXMinSpeed": 0.3,
+        "airXTopSpeed": 0.7,
+        "airUpTopSpeed": 0.2,
+        "airDownTopSpeed": 0.2,
+        "airXAcceleration": 0.0001,
+        "airUpAcceleration": 0.00005,
+        "airDownAcceleration": 0.0005,
+        "airOvershoot": 0.5,
+        "launchMinXSpeed": 0.3,
+        "launchMaxXSpeed": 0.3,
+        "launchMinYSpeed": -0.06,
+        "launchMaxYSpeed": -0.04,
+        "launchLength": 1500,
+        "popOutDelayMin": 1200,
+        "popOutDelayRange": 300,
+        "strafeOvershoot": 200,
+        "penDmg": 6,
+        "weaponReload": 200,
+        "barrelX": 64,
+        "barrelY": 11,
+        "shotSpeed": 0.7,
+        "inaccuracy": 0.003,
+        "maxRange": 300,
+        "shootTroopsRange": 300,
+        "interceptTroops": false,
+        "crewEffectiveness": 0,
+        "goingUpSpeedMult": 0.9,
+        "maxHP": 19,
+        "minWorkingHP": 1,
+        "returnToRepairHP": 7,
+        "msPerHPRepaired": 2000,
+        "animLook": "triplane",
+        "simpleLookImg": {
+            "src": "spritesheet",
+            "x": 742,
+            "y": 390,
+            "w": 67,
+            "h": 37
+        },
+        "recolorOriginalA": { "r": 217, "g": 213, "b": 203 },
+        "recolorReplacementA": "COA_2",
+        "recolorOriginalB": { "r": 187, "g": 66, "b": 29 },
+        "recolorReplacementB": "COA_1",
+        "supplyCost": 2,
+        "shot": { "src": "spritesheet", "x": 48, "y": 304, "w": 1, "h": 1 },
+        "shouts": "crew",
+        "deathSnd": {
+            "layers": [
+                {
+                    "variations": ["death0", "death1", "death2", "death3", "death4"],
+                    "volume": {
+                        "min": 0.8,
+                        "max": 1.2
+                    },
+                    "pitch": {
+                        "min": 0.8,
+                        "max": 1.2
+                    }
+                }
+            ]
+        },
+        "bloodParticleExternal": "damaged_spark",
+        "explosionSize": 1.8,
+        "coughSnd": {
+            "layers": [
+                {
+                    "variations": ["cough0", "cough1", "cough2", "cough3"],
+                    "volume": {
+                        "min": 0.3,
+                        "max": 0.4
+                    },
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1
+                    }
+                }
+            ]
+        },
+        "attackSnd": {
+            "layers": [
+                {
+                    "variations": ["gatling0", "gatling5", "gatling6"],
+                    "volume": {
+                        "min": 0.5,
+                        "max": 0.6
+                    },
+                    "pitch": {
+                        "min": 0.7,
+                        "max": 0.8
+                    }
+                }
+            ]
+        },
+        "attackParticle": "muzzle_small",
+        "launchSnd": {
+            "layers": [
+                {
+                    "variations": ["plane"],
+                    "volume": 1,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1
+                    }
+                }
+            ]
+        },
+    },
+    {
+        "name": "biplane_ce",
+        "isMachine": true,
+        "doesWork": false,
+        "doesGuard": false,
+        "canBoard": false,
+        "shootsShips": true,
+        "canFly": true,
+        "crashesOnDeath": true,
+        "canWalk": true,
+		"insideSpeed": 0.5,
+        "airXMinSpeed": 0.45,
+        "airXTopSpeed": 0.9,
+        "airUpTopSpeed": 0.25,
+        "airDownTopSpeed": 0.25,
+        "airXAcceleration": 0.0005,
+        "airUpAcceleration": 0.00005,
+        "airDownAcceleration": 0.0005,
+        "airOvershoot": 0.5,
+        "launchMinXSpeed": 0.5,
+        "launchMaxXSpeed": 0.5,
+        "launchMinYSpeed": -0.09,
+        "launchMaxYSpeed": -0.04,
+        "launchLength": 1000,
+        "popOutDelayMin": 2000,
+        "popOutDelayRange": 300,
+        "strafeOvershoot": 400,
+        "penDmg": 4,
+        "weaponReload": 200,
+        "barrelX": 60,
+        "barrelY": 8,
+        "shotSpeed": 1.1,
+        "inaccuracy": 0.002,
+        "maxRange": 400,
+        "shootTroopsRange": 400,
+        "interceptTroops": true,
+        "crewEffectiveness": 0,
+        "goingUpSpeedMult": 0.9,
+        "maxHP": 15,
+        "minWorkingHP": 1,
+        "returnToRepairHP": 5,
+        "msPerHPRepaired": 2000,
+        "animLook": "biplane",
+        "simpleLookImg": {
+            "src": "spritesheet",
+            "x": 748,
+            "y": 441,
+            "w": 62,
+            "h": 31
+        },
+        "recolorOriginalA": { "r": 217, "g": 203, "b": 177 },
+        "recolorReplacementA": "COA_1",
+        "recolorOriginalB": { "r": 187, "g": 66, "b": 29 },
+        "recolorReplacementB": "COA_2",
+        "supplyCost": 2,
+        "shot": { "src": "spritesheet", "x": 48, "y": 304, "w": 1, "h": 1 },
+        "shouts": "crew",
+        "deathSnd": {
+            "layers": [
+                {
+                    "variations": ["death0", "death1", "death2", "death3", "death4"],
+                    "volume": {
+                        "min": 0.8,
+                        "max": 1.2
+                    },
+                    "pitch": {
+                        "min": 0.8,
+                        "max": 1.2
+                    }
+                }
+            ]
+        },
+        "bloodParticleExternal": "damaged_spark",
+        "explosionSize": 1.7,
+        "coughSnd": {
+            "layers": [
+                {
+                    "variations": ["cough0", "cough1", "cough2", "cough3"],
+                    "volume": {
+                        "min": 0.3,
+                        "max": 0.4
+                    },
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1
+                    }
+                }
+            ]
+        },
+        "attackSnd": {
+            "layers": [
+                {
+                    "variations": ["gatling0", "gatling5", "gatling6"],
+                    "volume": {
+                        "min": 0.2,
+                        "max": 0.4
+                    },
+                    "pitch": {
+                        "min": 1.0,
+                        "max": 1.1
+                    }
+                }
+            ]
+        },
+        "attackParticle": "muzzle_small",
+        "launchSnd": {
+            "layers": [
+                {
+                    "variations": ["plane"],
+                    "volume": 0.7,
+                    "pitch": {
+                        "min": 1.1,
+                        "max": 1.2
+                    }
+                }
+            ]
+        },
+    },
