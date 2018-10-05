@@ -38,13 +38,14 @@
                 }
             }
 	],
-        "hp": 1000,
+        "hp": 750,
 	"armourType": "CLOCKWORK_BRASS",
 	"hasGenericDestructionFragments": true,
         "fireHP": 50,
 	"explodeHP": 10,
         "explodeDmg": 2000,
         "moveDelay": 2000,
+        "shotSpeed": 0.8,
 	"destroyedHP": 0,
 	"supplyProvided": 100,
         "weight": 2500,
@@ -122,7 +123,7 @@
         ],
         "shootTroopsRange": 350,
         "fixedInaccuracyVsTroops": 0,
-	"reload": 200,
+	"reload": 300,
 	"clip": 128,
 	"ammoPerClip": 0,
 	"ammo": -1,
@@ -133,6 +134,7 @@
 	"quarters": 4,
 	"quartersType": "SMALL_CLOCKWORK_DRONES_CE",
 	"hangarPositions": [
+            	{ "x": 0, "y": 0 },
             	{ "x": -1, "y": 0 },
 		{ "x": 0, "y": -1 },
 		{ "x": 1, "y": 0 },
@@ -196,7 +198,7 @@
                 "segmentImg": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
                 "segmentImgVerticallyFlipped": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
                 "imgLength": 14,
-                "minNextTargetPause": 0,
+                "minNextTargetPause": 10,
                 "maxNextTargetPause": 50,
 				"snatchSound": {
 				    "layers": [
@@ -327,18 +329,20 @@
                 }
             }
 	],
-        "hp": 1000,
+        "hp": 750,
 	"armourType": "CLOCKWORK_BRASS",
 	"hasGenericDestructionFragments": true,
         "fireHP": 50,
 	"explodeHP": 10,
         "explodeDmg": 2000,
         "moveDelay": 2000,
+        "shotSpeed": 0.8,
 	"destroyedHP": 0,
         "weight": 2500,
         "supplyProvided": 100,
         "cost": 500,
 	"hangarPositions": [
+            	{ "x": 0, "y": 0 },
             	{ "x": -1, "y": 0 },
 		{ "x": 0, "y": -1 },
 		{ "x": 1, "y": 0 },
@@ -414,7 +418,7 @@
         ],
         "shootTroopsRange": 350,
         "fixedInaccuracyVsTroops": 0,
-	"reload": 200,
+	"reload": 300,
 	"clip": 128,
 	"ammoPerClip": 0,
 	"ammo": -1,
@@ -482,7 +486,7 @@
                 "segmentImg": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
                 "segmentImgVerticallyFlipped": { "src": "monsters", "x": 896, "y": 818, "w": 16, "h": 12 },
                 "imgLength": 14,
-                "minNextTargetPause": 0,
+                "minNextTargetPause": 10,
                 "maxNextTargetPause": 50,
 				"snatchSound": {
 				    "layers": [

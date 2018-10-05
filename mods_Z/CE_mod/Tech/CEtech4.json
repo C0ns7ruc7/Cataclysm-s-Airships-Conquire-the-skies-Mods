@@ -56,5 +56,24 @@
         "bonuses": [ "COMMERCE_CONTAINED_ECONOMIES", "COMMERCE_CONTAINED_ECONOMIES_INCOME" ],
         "dependencies": [ "REFINING" ],
         "img": { "src": "ce_tech_art", "x": 384, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "IMPERIAL_NODE5",
+        "sort": 5000,
+        "tier": 4,
+        "choices": [
+            {
+                "name": "",
+                "bonuses": [ "" ],
+                "img": { "src": "ce_tech_art", "x": 256, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "",
+                "bonuses": [ "" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            }
+        ],
+        "requiresBonus": "CE_ARMOR_INOVATION",
+        "dependencies": [ "IMPERIAL_NODE4" ]
     }
 ]
