@@ -1,23 +1,24 @@
 [
 	{
 		"name": "CIV_HAMLET",
+		"heraldicStyle": "city",
 		"img": "CIV",
 		"upgradeTo": "CIV_VILLAGE",
 		"msUntilUpgrade": 900000,
 		"msForUpgrade": 120000,
 		"upgradeMsPerRaidSuccess": 60000,
-		"spawnWeight": 13,
+		"spawnWeight": 14,
 		"needsRoad": true,
 		"income": 15,
 		"attackRadius": 100,
 		"minAttackFleetStrength": 100,
 		"mapImage":{ "src": "ui", "x": 240, "y": 448, "w": 16, "h": 16 },
 		"mapBackground": { "src": "ui", "x": 240, "y": 448, "w": 16, "h": 16 },
-		"mapFleetImage": { "src": "ui", "x": 240, "y": 448, "w": 16, "h": 16 },
-		"mapFleetBackground": { "src": "ui", "x": 240, "y": 448, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 47, "y": 495, "w": 12, "h": 11 },
+		"mapFleetBackground": { "src": "ui", "x": 47, "y": 495, "w": 12, "h": 11 },
 		"homeFleet": ["CIV_SHIP_0", "CIV_SHIP_1"],
 		"baseConstructions": ["CIV_1", "CIV_SHIP_1"],
-        	"additionalConstructions": ["CIV_SHIP_0"],
+		"additionalConstructions": ["CIV_SHIP_0"],
 		"incomeModifierPercentage": 2,
         	"rewards": [
 		    {
@@ -58,6 +59,7 @@
 	},
 	{
 		"name": "CIV_VILLAGE",
+		"heraldicStyle": "city",
 		"img": "CIV",
 		"upgradeTo": "CIV_TOWN",
 		"msUntilUpgrade": 900000,
@@ -65,13 +67,13 @@
 		"upgradeMsPerRaidSuccess": 60000,
 		"attackRadius": 200,
 		"minAttackFleetStrength": 200,
-		"spawnWeight": 8,
+		"spawnWeight": 7,
 		"needsRoad": true,
 		"income": 30,
 		"mapImage":{ "src": "ui", "x": 208, "y": 448, "w": 16, "h": 16 },
 		"mapBackground": { "src": "ui", "x": 208, "y": 448, "w": 16, "h": 16 },
-		"mapFleetImage": { "src": "ui", "x": 208, "y": 448, "w": 16, "h": 16 },
-		"mapFleetBackground": { "src": "ui", "x": 208, "y": 448, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 47, "y": 495, "w": 12, "h": 11 },
+		"mapFleetBackground": { "src": "ui", "x": 47, "y": 495, "w": 12, "h": 11 },
 		"homeFleet": ["CIV_SHIP_0", "CIV_SHIP_2"],
 		"baseConstructions": ["CIV_2", "CIV_SHIP_2"],
         	"additionalConstructions": ["CIV_SHIP_0", "CIV_SHIP_1"],
@@ -115,6 +117,7 @@
 	},
 	{
 		"name": "CIV_TOWN",
+		"heraldicStyle": "city",
 		"img": "CIV",
 		"upgradeTo": "CIV_LARGE_TOWN",
 		"msUntilUpgrade": 900000,
@@ -122,16 +125,16 @@
 		"upgradeMsPerRaidSuccess": 60000,
 		"attackRadius": 300,
 		"minAttackFleetStrength": 400,
-		"spawnWeight": 5,
+		"spawnWeight": 4,
 		"needsRoad": true,
 		"income": 45,
 		"mapImage":{ "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
 		"mapBackground": { "src": "ui", "x": 144, "y": 480, "w": 16, "h": 16 },
-		"mapFleetImage": { "src": "ui", "x": 144, "y": 480, "w": 16, "h": 16 },
-		"mapFleetBackground": { "src": "ui", "x": 144, "y": 480, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 16, "y": 496, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 16, "y": 496, "w": 16, "h": 16 },
 		"homeFleet": ["CIV_SHIP_1", "CIV_SHIP_1", "CIV_SHIP_1", "CIV_SHIP_2"],
 		"baseConstructions": ["CIV_3", "CIV_SHIP_2"],
-        	"additionalConstructions": ["CIV_SHIP_1"],
+        	"additionalConstructions": ["CIV_SHIP_0", "CIV_SHIP_1"],
 		"incomeModifierPercentage": 6,
         	"rewards": [
 		    {
@@ -172,6 +175,7 @@
 	},
 	{
 		"name": "CIV_LARGE_TOWN",
+		"heraldicStyle": "city",
 		"img": "CIV",
 		"upgradeTo": "CIV_CITY",
 		"msUntilUpgrade": 900000,
@@ -179,13 +183,13 @@
 		"upgradeMsPerRaidSuccess": 60000,
 		"attackRadius": 400,
 		"minAttackFleetStrength": 800,
-		"spawnWeight": 3,
+		"spawnWeight": 1,
 		"needsRoad": true,
 		"income": 60,
 		"mapImage":{ "src": "ui", "x": 48, "y": 480, "w": 16, "h": 16 },
 		"mapBackground": { "src": "ui", "x": 48, "y": 480, "w": 16, "h": 16 },
-		"mapFleetImage": { "src": "ui", "x": 48, "y": 480, "w": 16, "h": 16 },
-		"mapFleetBackground": { "src": "ui", "x": 48, "y": 480, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 16, "y": 496, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 16, "y": 496, "w": 16, "h": 16 },
 		"homeFleet": ["CIV_SHIP_1", "CIV_SHIP_1", "CIV_SHIP_1", "CIV_SHIP_2", "CIV_SHIP_2"],
 		"baseConstructions": ["CIV_4", "CIV_SHIP_2", "CIV_SHIP_2"],
         	"additionalConstructions": ["CIV_SHIP_1"],
@@ -229,6 +233,7 @@
 	},
 	{
 		"name": "CIV_CITY",
+		"heraldicStyle": "city",
 		"img": "CIV",
 		"upgradeTo": "CIV_LARGE_CITY",
 		"msUntilUpgrade": 900000,
@@ -236,13 +241,13 @@
 		"upgradeMsPerRaidSuccess": 60000,
 		"attackRadius": 500,
 		"minAttackFleetStrength": 1600,
-		"spawnWeight": 2,
+		"spawnWeight": 0,
 		"needsRoad": true,
 		"income": 75,
 		"mapImage":{ "src": "ui", "x": 32, "y": 480, "w": 16, "h": 16 },
 		"mapBackground": { "src": "ui", "x": 32, "y": 480, "w": 16, "h": 16 },
-		"mapFleetImage": { "src": "ui", "x": 32, "y": 480, "w": 16, "h": 16 },
-		"mapFleetBackground": { "src": "ui", "x": 32, "y": 480, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 319, "y": 480, "w": 23, "h": 15 },
+		"mapFleetBackground": { "src": "ui", "x": 287, "y": 480, "w": 23, "h": 15 },
 		"homeFleet": ["CIV_SHIP_1", "CIV_SHIP_2", "CIV_SHIP_2", "CIV_SHIP_2", "CIV_SHIP_2"],
 		"baseConstructions": ["CIV_5", "CIV_SHIP_2", "CIV_SHIP_2", "CIV_SHIP_2"],
         	"additionalConstructions": ["CIV_SHIP_1", "CIV_SHIP_2"],
@@ -286,6 +291,7 @@
 	},
 	{
 		"name": "CIV_LARGE_CITY",
+		"heraldicStyle": "city",
 		"img": "CIV",
 		"upgradeTo": "CIV_METROPOLIS",
 		"msUntilUpgrade": 900000,
@@ -293,16 +299,16 @@
 		"upgradeMsPerRaidSuccess": 60000,
 		"attackRadius": 600,
 		"minAttackFleetStrength": 3200,
-		"spawnWeight": 17,
+		"spawnWeight": 0,
 		"needsRoad": true,
 		"income": 90,
 		"mapImage":{ "src": "ui", "x": 128, "y": 480, "w": 16, "h": 16 },
 		"mapBackground": { "src": "ui", "x": 128, "y": 480, "w": 16, "h": 16 },
-		"mapFleetImage": { "src": "ui", "x": 128, "y": 480, "w": 16, "h": 16 },
-		"mapFleetBackground": { "src": "ui", "x": 128, "y": 480, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 319, "y": 480, "w": 23, "h": 15 },
+		"mapFleetBackground": { "src": "ui", "x": 287, "y": 480, "w": 23, "h": 15 },
 		"homeFleet": ["CIV_SHIP_2", "CIV_SHIP_2", "CIV_SHIP_2", "CIV_SHIP_2"],
 		"baseConstructions": ["CIV_6", "CIV_SHIP_2", "CIV_SHIP_2", "CIV_SHIP_2", "CIV_SHIP_2"],
-        	"additionalConstructions": ["CIV_SHIP_2"],
+        	"additionalConstructions": ["CIV_SHIP_1", "CIV_SHIP_2"],
 		"incomeModifierPercentage": 12,
         	"rewards": [
 		    {
@@ -343,54 +349,55 @@
 	},
 	{
 		"name": "CIV_METROPOLIS",
+		"heraldicStyle": "city",
 		"img": "CIV",
-		"spawnWeight": 1,
+		"spawnWeight": 0,
 		"needsRoad": true,
 		"income": 100,
 		"attackRadius": 700,
 		"minAttackFleetStrength": 6400,
-		"mapImage":{ "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
-		"mapBackground": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
-		"mapFleetImage": { "src": "ui", "x": 18, "y": 390, "w": 12, "h": 12 },
-		"mapFleetBackground": { "src": "ui", "x": 32, "y": 480, "w": 32, "h": 16 },
+		"mapImage":{ "src": "ui", "x": 19, "y": 480, "w": 28, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 19, "y": 480, "w": 28, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 192, "y": 480, "w": 32, "h": 32 },
+		"mapFleetBackground": { "src": "ui", "x": 160, "y": 480, "w": 32, "h": 32 },
 		"homeFleet": ["CIV_SHIP_2", "CIV_SHIP_2", "CIV_SHIP_2", "CIV_SHIP_2", "CIV_SHIP_2"],
 		"baseConstructions": ["CIV_7", "CIV_SHIP_2","CIV_SHIP_2", "CIV_SHIP_2", "CIV_SHIP_2", "CIV_SHIP_2", "CIV_SHIP_2"],
-        	"additionalConstructions": ["CIV_SHIP_2"],
+		"additionalConstructions": ["CIV_SHIP_2"],
 		"incomeModifierPercentage": 14,
         	"rewards": [
 		    {
 		        "name": "CIVCleared1",
 		        "spawnWeight": 8,
 		        "money": 850,
-		        "rep": -60
+		        "rep": -70
 		    },
 		    {
 		        "name": "CIVCleared2",
 		        "spawnWeight": 5,
 		        "money": 950,
 		        "bonus": "CIV_VII_I",
-		        "rep": -60
+		        "rep": -70
 		    },
 		    {
 		        "name": "CIVCleared3",
 		        "spawnWeight": 3,
 		        "money": 1050,
 		        "bonus": "CIV_VII_II",
-		        "rep": -60
+		        "rep": -70
 		    },
 		    {
 		        "name": "CIVCleared4",
 		        "spawnWeight": 2,
 		        "money": 1150,
 		        "bonus": "CIV_VII_III",
-		        "rep": -60
+		        "rep": -70
 		    },
 		    {
 		        "name": "CIVCleared5",
 		        "spawnWeight": 1,
 		        "money": 1250,
 			"bonus": "CIV_VII_IV",
-		        "rep": -60
+		        "rep": -70
 		    }
 		]
 	}
