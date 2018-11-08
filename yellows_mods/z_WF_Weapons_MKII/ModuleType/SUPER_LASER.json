@@ -1,0 +1,244 @@
+[
+	{
+		"name": "FLIPPED_SUPER_LASER",
+		"flippedFrom": "SUPER_LASER",
+		"sort": 95,
+	},
+	{
+		"name": "SUPER_LASER",
+		"sort": 95,
+		"categories": ["WEAPONS_WF"],
+		"required": "Y_SUPER_LASER",
+		"isWeapon": true,
+		"w": 11,
+		"h": 4,
+		"appearance": {
+			"src": "wfw_spritesheet",
+			"interval": 70,
+			"frames": [
+				{
+					"x": 0,
+					"y": 21,
+					"w": 11,
+					"h": 4
+				},
+				{
+					"x": 0,
+					"y": 25,
+					"w": 11,
+					"h": 4
+				},
+				{
+					"x": 0,
+					"y": 29,
+					"w": 11,
+					"h": 4
+				},
+				{
+					"x": 0,
+					"y": 33,
+					"w": 11,
+					"h": 4
+				},
+				{
+					"x": 0,
+					"y": 37,
+					"w": 11,
+					"h": 4
+				},
+				{
+					"x": 0,
+					"y": 41,
+					"w": 11,
+					"h": 4
+				}
+			]
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": -1,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 6,
+					"y": 19,
+					"w": 2,
+					"h": 2
+				}
+			},
+			{
+				"x": 2,
+				"y": -1,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 6,
+					"y": 19,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": -1,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 13,
+					"y": 18,
+					"w": 2,
+					"h": 2
+				}
+			},
+			{
+				"x": 2,
+				"y": -1,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 13,
+					"y": 18,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": -1,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 15,
+					"y": 18,
+					"w": 2,
+					"h": 2
+				}
+			},
+			{
+				"x": 2,
+				"y": -1,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 15,
+					"y": 18,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+		"emitters": [
+			{
+				"x": 1.1875,
+				"y": -0.9375,
+				"type": "smoke",
+				"emitProbability": 0.005
+			},
+			{
+				"x": 3.3125,
+				"y": -0.9375,
+				"type": "smoke",
+				"emitProbability": 0.005
+			},
+			{
+				"x": 0.625,
+				"y": 3.5,
+				"type": "ember",
+				"emitProbability": 0.004,
+				"inside": true
+			},
+			{
+				"x": 2.6875,
+				"y": 3.5,
+				"type": "ember",
+				"emitProbability": 0.004,
+				"inside": true
+			}
+		],
+		"lights": [
+			{
+				"r": 255, "g": 90, "b": 10,
+				"radius": 60,
+				"x": 0.625,
+				"y": 3.5
+			},
+			{
+				"r": 255, "g": 90, "b": 10,
+				"radius": 60,
+				"x": 2.6875,
+				"y": 3.5
+			}
+		],
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+        "externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
+		"hp": 800,
+		"fireHP": 100,
+		"explodeHP": 30,
+		"explodeDmg": 150,
+		"moveDelay": 800,
+		"weight": 1200,
+		"cost": 2000,
+		"crew": 3,
+		"recommendedCrew": 5,
+		"recommendedGuards": 1,
+		"frontOnly": true,
+		"shotSpeed": 10,
+		"muzzleFlash": false,
+		"reload": 1,
+		"clip": 100,
+		"clipReloadTime": 10000,
+		"coalReload": 5000,
+		"inaccuracy": 0.00001,
+		"jitterMerge": 0.98,
+		"blastDmg": 10,
+		"blastSplashRadius": 5,
+		"fireArc": { "direction": "forwards", "degrees": 170 },
+		"muzzleCenterX": 10.75,
+		"muzzleCenterY": 2.5,
+		"muzzleLength": 2,
+		"optimumRange": 4000,
+		"recoilForce": 0,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "flamethrower0" ],
+					"volume": {
+						"min": 0.5,
+						"max": 0.6,
+						"distance": [
+							0, 1,
+							1000, 0.7,
+							2000, 0.3,
+							3000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 1.5,
+						"max": 1.7,
+						"distance": [
+							0, 1.0,
+							2000, 0.9,
+							3000, 0.7
+						]
+					}
+				}
+			]
+		},
+		"soundEvery": 8,
+		"weaponAppearance": {
+			"shot": { "src": "wfw_spritesheet", "x": 64, "y": 310, "w": 16, "h": 3 },
+			"barrel": { "src": "wfw_spritesheet", "x": 74, "y": 320, "w": 15, "h": 9 },
+			"barrelX": 165,
+			"barrelY": 35,
+			"recoil": 0,
+			"exhaust": {
+				"type": "super_laser_spark",
+				"p": 0.5,
+				"backOffset": 0,
+				"angleRange": 0,
+				"randomOffset": 0,
+				"speedMin": 0,
+				"speedMax": 0
+			}
+		}
+	}
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "name": "SU_CUPOLA_1",
+        "categories": ["COMMAND_AND_CREW"],
+		"required": "PROPELLERS",
+        "w": 1,
+        "h": 2,
+        "appearance": {
+            "src": "shaping_unified",
+			"w": 1,
+			"h": 2,
+            "x": 9,
+            "y": 40,
+        },
+		"mask": {
+			"x": 7,
+			"y": 40
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 7,
+					"y": 40
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"topOnly": true,
+        "hp": 100,
+        "fireHP": 30,
+        "moveDelay": 1000,
+        "weight": 30,
+        "cost": 20,
+        "command": { "base": 2, "FASTER_COMMANDS": 4 },
+        "accuracyBonus": 0.1,
+        "crew": 1,
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
+		"hardness": 0.8,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+        "producesHorizontalDrag": false,
+    },
+    {
+        "name": "SU_CUPOLA_2",
+        "categories": ["COMMAND_AND_CREW"],
+		"required": "PROPELLERS",
+        "w": 1,
+        "h": 2,
+        "appearance": {
+            "src": "shaping_unified",
+			"w": 1,
+			"h": 2,
+            "x": 9,
+            "y": 40,
+        },
+		"mask": {
+			"x": 8,
+			"y": 40
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 8,
+					"y": 40
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"topOnly": true,
+        "hp": 100,
+        "fireHP": 30,
+        "moveDelay": 1000,
+        "weight": 30,
+        "cost": 20,
+        "command": { "base": 2, "FASTER_COMMANDS": 4 },
+        "accuracyBonus": 0.1,
+        "crew": 1,
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
+		"hardness": 0.8,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+        "producesHorizontalDrag": false,
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "name": "STRUCTUAL_LIGHTENER",
+        "categories": ["STRUCTURAL"],
+		"required": "Y_STRUCTURAL_LIGHTENER",
+        "availableFor": ["BUILDING"],
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "shaping_unified",
+            "x": 25,
+            "y": 8
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "shaping_unified",
+                    "x": 24,
+                    "y": 8
+                }
+            },
+        ],
+        "hp": 40,
+		"explodeHP": 4,
+		"explodeDmg": 200,
+        "moveDelay": 10000,
+        "weight": -10000,
+        "cost": 200,
+        "lift": { "base": 100, "SUSPENDIUM_SPECIALISTS": 130 },
+        "shipHPBonus": 200,
+        "canOccupy": [],
+		"hardness": 0.8,
+		"structuralStressAmount": -200,
+		"hitParticle": "large_susp_chamber_spark",
+		"destructionParticle": "susp_block_spark",
+		"destructionParticleDensity": 10,
+        "drawExternalsBelowDecals": true,
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 0.5,
+				"type": "large_susp_chamber_spark",
+				"emitProbability": 0.001,
+			}
+		],
+    },
+]

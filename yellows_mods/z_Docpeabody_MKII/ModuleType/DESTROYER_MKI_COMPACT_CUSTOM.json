@@ -1,0 +1,658 @@
+[
+	{
+		"name": "FLIPPED_DESTROYER_MK1_TURRET_COMPACT_CUSTOM",
+		"flippedFrom": "DESTROYER_MK1_TURRET_COMPACT_CUSTOM"
+	},
+	{
+		"name": "DESTROYER_MK1_TURRET_COMPACT_CUSTOM",
+		"categories": ["WEAPONS_DOCPEABODY_COMPACT_AP"],
+		"required": "Y_DD_CC_TURRETS",
+		"isWeapon": true,
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "docpeabody",
+			"x": 13,
+			"y": 11,
+			"w": 2,
+			"h": 1
+		},
+		"mask": {
+			"x": 17,
+			"y": 15
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "docpeabody",
+					"x": 17,
+					"y": 17,
+					"w": 2,
+					"h": 1
+				}
+			}
+		],
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 },
+		],
+        "drawExternalsBelowDecals": true,
+		"hp": 200,
+		"fireHP": 100,
+		"explodeHP": { "base": 60, "SAFER_CANNONS": 0 },
+		"explodeDmg": { "base": 40, "SAFER_CANNONS": 0 },
+		"moveDelay": 800,
+		"weight": 70,
+		"cost": 90,
+		"crew": 2,
+		"recommendedCrew": 3,
+		"recommendedGuards": 1,
+		"topOnly": true,
+		"isGun": true,
+		"isCannon": true,
+		"reload": { "base": 3500, "FASTER_CANNON_RELOAD": 2800 },
+		"clip": 2,
+		"inaccuracy": { "base": 0.00125, "PRECISE_GUNNERY": 0.00063 },
+		"blastDmg": 10,
+		"blastSplashRadius": 5,
+		"penDmg": 40,
+		"fireArc": { "arcCenter": "330", "degrees": 100 },
+		"muzzleCenterX": 1.21875,
+		"muzzleCenterY": 0.53125,
+		"muzzleLength": 2.3,
+		"optimumRange": 700,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "cannon0", "cannon1", "cannon2", "cannon3", "cannon4", "cannon5", "cannon6" ],
+					"volume": {
+						"min": 2.4,
+						"max": 2.5,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+							5000, 0
+						],
+					},
+					"pitch": {
+						"min": 1,
+						"max": 1.3,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							4000, 0.75
+						]
+					}
+				},
+				{
+					"variations": [ "cannon_high_1", "cannon_high_2", "cannon_high_3", "cannon_high_4", "cannon_high_5", "cannon_high_6" ],
+					"volume": {
+						"min": 0.35,
+						"max": 0.45,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+							5000, 0
+						],
+					},
+					"pitch": {
+						"min": 1,
+						"max": 1.3,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							4000, 0.75
+						]
+					}
+				},
+				{
+					"variations": [ "cannon_d_0", "cannon_d_1", "cannon_d_2", "cannon_d_3" ],
+					"volume": {
+						"min": 0.7,
+						"max": 0.8,
+						"distance": [
+							0, 0,
+							750, 0,
+							2000, 0.1,
+							3000, 0.5,
+							4000, 0.75,
+							5000, 0.1
+						],
+					},
+					"pitch": {
+						"min": 1,
+						"max": 1.3,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}	
+			]
+		},
+		"weaponAppearance": {
+			"shot": { "src": "docpeabody", "x": 32, "y": 17, "w": 3, "h": 2 },
+			"barrel": { "src": "docpeabody", "x": 89, "y": 21, "w": 71, "h": 7 },
+			"barrelX": -16,
+			"barrelY": 5,
+			"recoil": 2,
+			"shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.003 }
+		}
+	},
+	{
+		"name": "FLIPPED_VENTRAL_DESTROYER_MK1_TURRET_COMPACT_CUSTOM",
+		"flippedFrom": "VENTRAL_DESTROYER_MK1_TURRET_COMPACT_CUSTOM"
+	},
+	{
+		"name": "VENTRAL_DESTROYER_MK1_TURRET_COMPACT_CUSTOM",
+		"categories": ["WEAPONS_DOCPEABODY_COMPACT_AP"],
+		"required": "Y_DD_CC_TURRETS",
+		"isWeapon": true,
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "docpeabody",
+			"x": 13,
+			"y": 12,
+			"w": 2,
+			"h": 1
+		},
+		"mask": {
+			"x": 17,
+			"y": 16
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "docpeabody",
+					"x": 17,
+					"y": 18,
+					"w": 2,
+					"h": 1
+				}
+			}
+		],
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 },
+		],
+		"upDoors": [ 0 ],
+        "drawExternalsBelowDecals": true,
+		"hp": 200,
+		"fireHP": 100,
+		"explodeHP": { "base": 60, "SAFER_CANNONS": 0 },
+		"explodeDmg": { "base": 40, "SAFER_CANNONS": 0 },
+		"moveDelay": 800,
+		"weight": 70,
+		"cost": 90,
+		"crew": 2,
+		"recommendedCrew": 3,
+		"recommendedGuards": 1,
+		"bottomOnly": true,
+		"isGun": true,
+		"isCannon": true,
+		"reload": { "base": 3500, "FASTER_CANNON_RELOAD": 2800 },
+		"clip": 2,
+		"inaccuracy": { "base": 0.00125, "PRECISE_GUNNERY": 0.00063 },
+		"blastDmg": 10,
+		"blastSplashRadius": 5,
+		"penDmg": 40,
+		"fireArc": { "arcCenter": "30", "degrees": 100 },
+		"muzzleCenterX": 1.21875,
+		"muzzleCenterY": 0.46875,
+		"muzzleLength": 2.3,
+		"optimumRange": 700,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "cannon0", "cannon1", "cannon2", "cannon3", "cannon4", "cannon5", "cannon6" ],
+					"volume": {
+						"min": 2.4,
+						"max": 2.5,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+							5000, 0
+						],
+					},
+					"pitch": {
+						"min": 1,
+						"max": 1.3,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							4000, 0.75
+						]
+					}
+				},
+				{
+					"variations": [ "cannon_high_1", "cannon_high_2", "cannon_high_3", "cannon_high_4", "cannon_high_5", "cannon_high_6" ],
+					"volume": {
+						"min": 0.35,
+						"max": 0.45,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+							5000, 0
+						],
+					},
+					"pitch": {
+						"min": 1,
+						"max": 1.3,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							4000, 0.75
+						]
+					}
+				},
+				{
+					"variations": [ "cannon_d_0", "cannon_d_1", "cannon_d_2", "cannon_d_3" ],
+					"volume": {
+						"min": 0.7,
+						"max": 0.8,
+						"distance": [
+							0, 0,
+							750, 0,
+							2000, 0.1,
+							3000, 0.5,
+							4000, 0.75,
+							5000, 0.1
+						],
+					},
+					"pitch": {
+						"min": 1,
+						"max": 1.3,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}	
+			]
+		},
+		"weaponAppearance": {
+			"shot": { "src": "docpeabody", "x": 32, "y": 17, "w": 3, "h": 2 },
+			"barrel": { "src": "docpeabody", "x": 89, "y": 21, "w": 71, "h": 7 },
+			"barrelX": -16,
+			"barrelY": 4,
+			"recoil": 2,
+			"shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.003 }
+		}
+	},
+	{
+		"name": "FLIPPED_DESTROYER_MK1_TURRET_COMPACT_CUSTOM_HE",
+		"flippedFrom": "DESTROYER_MK1_TURRET_COMPACT_CUSTOM_HE"
+	},
+	{
+		"name": "DESTROYER_MK1_TURRET_COMPACT_CUSTOM_HE",
+		"categories": ["WEAPONS_DOCPEABODY_COMPACT_HE"],
+		"required": "Y_DD_CC_TURRETS",
+		"isWeapon": true,
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "docpeabody",
+			"x": 13,
+			"y": 11,
+			"w": 2,
+			"h": 1
+		},
+		"mask": {
+			"x": 17,
+			"y": 15
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "docpeabody",
+					"x": 17,
+					"y": 17,
+					"w": 2,
+					"h": 1
+				}
+			}
+		],
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 },
+		],
+        "drawExternalsBelowDecals": true,
+		"hp": 200,
+		"fireHP": 100,
+		"explodeHP": { "base": 60, "SAFER_CANNONS": 0 },
+		"explodeDmg": { "base": 40, "SAFER_CANNONS": 0 },
+		"moveDelay": 800,
+		"weight": 70,
+		"cost": 90,
+		"crew": 2,
+		"recommendedCrew": 3,
+		"recommendedGuards": 1,
+		"topOnly": true,
+		"isGun": true,
+		"isCannon": true,
+		"reload": { "base": 3500, "FASTER_CANNON_RELOAD": 2800 },
+		"clip": 2,
+		"inaccuracy": { "base": 0.00125, "PRECISE_GUNNERY": 0.00063 },
+		"blastDmg": { "base": 12, "POWERFUL_EXPLOSIVES": 18 },
+		"blastSplashRadius": 15,
+		"penDmg": 4,
+		"fireArc": { "arcCenter": "330", "degrees": 100 },
+		"muzzleCenterX": 1.21875,
+		"muzzleCenterY": 0.53125,
+		"muzzleLength": 2.3,
+		"optimumRange": 700,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "cannon0", "cannon1", "cannon2", "cannon3", "cannon4", "cannon5", "cannon6" ],
+					"volume": {
+						"min": 2.4,
+						"max": 2.5,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+							5000, 0
+						],
+					},
+					"pitch": {
+						"min": 1,
+						"max": 1.3,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							4000, 0.75
+						]
+					}
+				},
+				{
+					"variations": [ "cannon_high_1", "cannon_high_2", "cannon_high_3", "cannon_high_4", "cannon_high_5", "cannon_high_6" ],
+					"volume": {
+						"min": 0.35,
+						"max": 0.45,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+							5000, 0
+						],
+					},
+					"pitch": {
+						"min": 1,
+						"max": 1.3,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							4000, 0.75
+						]
+					}
+				},
+				{
+					"variations": [ "cannon_d_0", "cannon_d_1", "cannon_d_2", "cannon_d_3" ],
+					"volume": {
+						"min": 0.7,
+						"max": 0.8,
+						"distance": [
+							0, 0,
+							750, 0,
+							2000, 0.1,
+							3000, 0.5,
+							4000, 0.75,
+							5000, 0.1
+						],
+					},
+					"pitch": {
+						"min": 1,
+						"max": 1.3,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}	
+			]
+		},
+		"hitSound": {
+			"layers": [
+				{
+					"variations": ["smexplosion"],
+					"volume": {
+						"min": 0.7,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+						],
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"shot": { "src": "docpeabody", "x": 32, "y": 17, "w": 3, "h": 2 },
+			"barrel": { "src": "docpeabody", "x": 89, "y": 21, "w": 71, "h": 7 },
+			"barrelX": -16,
+			"barrelY": 5,
+			"recoil": 2,
+			"hitExplosionSize": 0.3,
+			"missExplosionSize": 0.2,
+			"shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.003 }
+		}
+	},
+	{
+		"name": "FLIPPED_VENTRAL_DESTROYER_MK1_TURRET_COMPACT_CUSTOM_HE",
+		"flippedFrom": "VENTRAL_DESTROYER_MK1_TURRET_COMPACT_CUSTOM_HE"
+	},
+	{
+		"name": "VENTRAL_DESTROYER_MK1_TURRET_COMPACT_CUSTOM_HE",
+		"categories": ["WEAPONS_DOCPEABODY_COMPACT_HE"],
+		"required": "Y_DD_CC_TURRETS",
+		"isWeapon": true,
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "docpeabody",
+			"x": 13,
+			"y": 12,
+			"w": 2,
+			"h": 1
+		},
+		"mask": {
+			"x": 17,
+			"y": 16
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "docpeabody",
+					"x": 17,
+					"y": 18,
+					"w": 2,
+					"h": 1
+				}
+			}
+		],
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 },
+		],
+		"upDoors": [ 0 ],
+        "drawExternalsBelowDecals": true,
+		"hp": 200,
+		"fireHP": 100,
+		"explodeHP": { "base": 60, "SAFER_CANNONS": 0 },
+		"explodeDmg": { "base": 40, "SAFER_CANNONS": 0 },
+		"moveDelay": 800,
+		"weight": 70,
+		"cost": 90,
+		"crew": 2,
+		"recommendedCrew": 3,
+		"recommendedGuards": 1,
+		"bottomOnly": true,
+		"isGun": true,
+		"isCannon": true,
+		"reload": { "base": 3500, "FASTER_CANNON_RELOAD": 2800 },
+		"clip": 2,
+		"inaccuracy": { "base": 0.00125, "PRECISE_GUNNERY": 0.00063 },
+		"blastDmg": { "base": 12, "POWERFUL_EXPLOSIVES": 18 },
+		"blastSplashRadius": 15,
+		"penDmg": 4,
+		"fireArc": { "arcCenter": "30", "degrees": 100 },
+		"muzzleCenterX": 1.21875,
+		"muzzleCenterY": 0.46875,
+		"muzzleLength": 2.3,
+		"optimumRange": 700,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "cannon0", "cannon1", "cannon2", "cannon3", "cannon4", "cannon5", "cannon6" ],
+					"volume": {
+						"min": 2.4,
+						"max": 2.5,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+							5000, 0
+						],
+					},
+					"pitch": {
+						"min": 1,
+						"max": 1.3,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							4000, 0.75
+						]
+					}
+				},
+				{
+					"variations": [ "cannon_high_1", "cannon_high_2", "cannon_high_3", "cannon_high_4", "cannon_high_5", "cannon_high_6" ],
+					"volume": {
+						"min": 0.35,
+						"max": 0.45,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+							5000, 0
+						],
+					},
+					"pitch": {
+						"min": 1,
+						"max": 1.3,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							4000, 0.75
+						]
+					}
+				},
+				{
+					"variations": [ "cannon_d_0", "cannon_d_1", "cannon_d_2", "cannon_d_3" ],
+					"volume": {
+						"min": 0.7,
+						"max": 0.8,
+						"distance": [
+							0, 0,
+							750, 0,
+							2000, 0.1,
+							3000, 0.5,
+							4000, 0.75,
+							5000, 0.1
+						],
+					},
+					"pitch": {
+						"min": 1,
+						"max": 1.3,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}	
+			]
+		},
+		"hitSound": {
+			"layers": [
+				{
+					"variations": ["smexplosion"],
+					"volume": {
+						"min": 0.7,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+						],
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"shot": { "src": "docpeabody", "x": 32, "y": 17, "w": 3, "h": 2 },
+			"barrel": { "src": "docpeabody", "x": 89, "y": 21, "w": 71, "h": 7 },
+			"barrelX": -16,
+			"barrelY": 4,
+			"recoil": 2,
+			"hitExplosionSize": 0.3,
+			"missExplosionSize": 0.2,
+			"shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.003 }
+		}
+	}
+]

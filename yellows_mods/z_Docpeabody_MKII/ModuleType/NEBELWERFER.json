@@ -1,0 +1,411 @@
+[
+	{
+		"name": "FLIPPED_NEBELWERFER",
+		"flippedFrom": "NEBELWERFER"
+	},
+	{
+		"name": "NEBELWERFER",
+		"categories": ["WEAPONS_DOCPEABODY"],
+		"required": "NEBELWERFER",
+		"isWeapon": true,
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "docpeabody",
+			"x": 0,
+			"y": 35,
+			"w": 2,
+			"h": 1
+		},
+		"hp": 70,
+		"fireHP": 30,
+		"explodeHP": 15,
+		"explodeDmg": 80,
+		"moveDelay": 800,
+		"weight": 70,
+		"cost": 200,
+		"crew": 2,
+		"recommendedCrew": 3,
+		"frontOnly": true,
+		"isExplosive": true,
+		"shotSpeed": 0.7,
+		"reload": 650,
+		"clip": 6,
+		"clipReloadTime": 6000,
+		"inaccuracy": 0.0062,
+		"jitterMerge": 0.7,
+		"blastDmg": { "base": 50, "POWERFUL_EXPLOSIVES": 66 },
+		"blastSplashRadius": 20,
+		"fireArc": { "direction": "forwards", "degrees": 80 },
+		"muzzleCenterX": 1,
+		"muzzleCenterY": 0.40625,
+		"muzzleLength": 0.7,
+		"muzzleFlash": false,
+		"optimumRange": 1000,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "nebelwerfer" ],
+					"volume": {
+						"min": 1.4,
+						"max": 1.6,
+						"distance": [
+							0, 1,
+							1000, 0.7,
+							2000, 0.3,
+							3000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1.3,
+							1000, 1,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+		"hitSound": {
+			"layers": [
+				{
+					"variations": ["smexplosion"],
+					"volume": {
+						"min": 1.7,
+						"max": 1.9,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+						],
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"shot": { "src": "docpeabody", "x": 62, "y": 544, "w": 13, "h": 4 },
+			"barrel": { "src": "docpeabody", "x": 33, "y": 562, "w": 30, "h": 12 },
+			"barrelX": 1,
+			"barrelY": 1,
+			"shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.02 },
+			"hitExplosionSize": 2,
+			"missExplosionSize": 1.3,
+			"exhaust": {
+				"type": "rocket_exhaust",
+				"p": 0.1,
+				"backOffset": 7,
+				"angleRange": 0.2,
+				"randomOffset": 1.5,
+				"speedMin": 1.5,
+				"speedMax": 2.5
+			}
+		}
+	},
+	{
+		"name": "FLIPPED_NEBELWERFER_TOP",
+		"flippedFrom": "NEBELWERFER_TOP"
+	},
+	{
+		"name": "NEBELWERFER_TOP",
+		"categories": ["WEAPONS_DOCPEABODY"],
+		"required": "NEBELWERFER",
+		"isWeapon": true,
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 3,
+		"h": 1,
+		"appearance": {
+			"src": "docpeabody",
+			"x": 4,
+			"y": 38,
+			"w": 3,
+			"h": 1
+		},
+		"mask": {
+			"x": 9,
+			"y": 15
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "docpeabody",
+					"x": 2,
+					"y": 11,
+					"w": 3,
+					"h": 1
+				}
+			}
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+        "producesHorizontalDrag": false,
+		"hp": 80,
+		"fireHP": 30,
+		"explodeHP": 15,
+		"explodeDmg": 80,
+		"moveDelay": 600,
+		"weight": 75,
+		"cost": 220,
+		"crew": 2,
+		"recommendedCrew": 3,
+		"topOnly": true,
+		"isExplosive": true,
+		"shotSpeed": 0.7,
+		"reload": 650,
+		"clip": 6,
+		"clipReloadTime": 6000,
+		"inaccuracy": 0.0062,
+		"jitterMerge": 0.7,
+		"blastDmg": { "base": 50, "POWERFUL_EXPLOSIVES": 66 },
+		"blastSplashRadius": 20,
+		"fireArc": { "direction": "forwards", "degrees": 80 },
+		"muzzleCenterX": 1.5,
+		"muzzleCenterY": 0.28125,
+		"muzzleLength": 0.7,
+		"muzzleFlash": false,
+		"optimumRange": 1000,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "nebelwerfer" ],
+					"volume": {
+						"min": 1.4,
+						"max": 1.6,
+						"distance": [
+							0, 1,
+							1000, 0.7,
+							2000, 0.3,
+							3000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1.3,
+							1000, 1,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+		"hitSound": {
+			"layers": [
+				{
+					"variations": ["smexplosion"],
+					"volume": {
+						"min": 1.7,
+						"max": 1.9,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+						],
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"back": { "src": "docpeabody", "x": 5, "y": 11, "w": 3, "h": 1 },
+			"shot": { "src": "docpeabody", "x": 62, "y": 544, "w": 13, "h": 4 },
+			"barrel": { "src": "docpeabody", "x": 33, "y": 562, "w": 30, "h": 12 },
+			"barrelX": 10,
+			"barrelY": -1,
+			"shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.02 },
+			"hitExplosionSize": 2,
+			"missExplosionSize": 1.3,
+			"exhaust": {
+				"type": "rocket_exhaust",
+				"p": 0.1,
+				"backOffset": 7,
+				"angleRange": 0.2,
+				"randomOffset": 1.5,
+				"speedMin": 1.5,
+				"speedMax": 2.5
+			}
+		}
+	},
+	{
+		"name": "FLIPPED_NEBELWERFER_SIDE",
+		"flippedFrom": "NEBELWERFER_SIDE"
+	},
+	{
+		"name": "NEBELWERFER_SIDE",
+		"categories": ["WEAPONS_DOCPEABODY"],
+		"required": "NEBELWERFER",
+		"isWeapon": true,
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 3,
+		"h": 2,
+		"appearance": {
+			"src": "docpeabody",
+			"x": 4,
+			"y": 37,
+			"w": 3,
+			"h": 2
+		},
+		"mask": {
+			"x": 12,
+			"y": 14
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "docpeabody",
+					"x": 8,
+					"y": 12,
+					"w": 3,
+					"h": 2
+				}
+			}
+		],
+		"lights": [
+			{
+				"r": 255, "g": 240, "b": 100,
+				"radius": 60,
+				"x": 1.5,
+				"y": 0.3125,
+				"outside": true
+			}
+		],
+		"leftDoors": [ 0, 1 ],
+		"rightDoors": [ 0, 1 ],
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 0 },
+			{ "x": 1, "y": 1 },
+			{ "x": 2, "y": 0 },
+			{ "x": 2, "y": 1 }
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+        "producesHorizontalDrag": false,
+		"hp": 140,
+		"fireHP": 30,
+		"explodeHP": 15,
+		"explodeDmg": 80,
+		"moveDelay": 350,
+		"weight": 90,
+		"cost": 250,
+		"crew": 2,
+		"recommendedCrew": 3,
+		"isExplosive": true,
+		"shotSpeed": 0.7,
+		"reload": 650,
+		"clip": 6,
+		"clipReloadTime": 6000,
+		"inaccuracy": 0.0062,
+		"jitterMerge": 0.7,
+		"blastDmg": { "base": 50, "POWERFUL_EXPLOSIVES": 66 },
+		"blastSplashRadius": 20,
+		"fireArc": { "direction": "forwards", "degrees": 80 },
+		"muzzleCenterX": 1.5,
+		"muzzleCenterY": 1.28125,
+		"muzzleLength": 0.7,
+		"muzzleFlash": false,
+		"optimumRange": 1000,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "nebelwerfer" ],
+					"volume": {
+						"min": 1.4,
+						"max": 1.6,
+						"distance": [
+							0, 1,
+							1000, 0.7,
+							2000, 0.3,
+							3000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1.3,
+							1000, 1,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+		"hitSound": {
+			"layers": [
+				{
+					"variations": ["smexplosion"],
+					"volume": {
+						"min": 1.7,
+						"max": 1.9,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+						],
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"back": { "src": "docpeabody", "x": 3, "y": 12, "w": 3, "h": 2 },
+			"shot": { "src": "docpeabody", "x": 62, "y": 544, "w": 13, "h": 4 },
+			"barrel": { "src": "docpeabody", "x": 33, "y": 562, "w": 30, "h": 12 },
+			"barrelX": 10,
+			"barrelY": 15,
+			"shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.02 },
+			"hitExplosionSize": 2,
+			"missExplosionSize": 1.3,
+			"exhaust": {
+				"type": "rocket_exhaust",
+				"p": 0.1,
+				"backOffset": 7,
+				"angleRange": 0.2,
+				"randomOffset": 1.5,
+				"speedMin": 1.5,
+				"speedMax": 2.5
+			}
+		}
+	}
+]

@@ -1,0 +1,266 @@
+[
+	{
+		"name": "SMALL_HYDROGEN_CELL",
+		"categories": ["LIFT"],
+		"availableFor": ["AIRSHIP"],
+		"required": "Y_HYDROGEN",
+		"sort": 556,
+		"w": 2,
+		"h": 3,
+		"appearance": {
+			"src": "wfw_spritesheet",
+			"x": 20,
+			"y": 24,
+			"w": 2,
+			"h": 3
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 0,
+					"y": 34,
+					"w": 2,
+					"h": 3
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 0,
+					"y": 37,
+					"w": 2,
+					"h": 3
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 0,
+					"y": 40,
+					"w": 2,
+					"h": 3
+				}
+			}
+		],
+		"destroyedEmitters": [
+			{
+				"x": 1.0625,
+				"y": 0.75,
+				"type": "fire",
+				"emitProbability": 0.005,
+			},
+			{
+				"x": 1.625,
+				"y": 1.375,
+				"type": "fire",
+				"emitProbability": 0.008,
+			},
+			{
+				"x": 0.375,
+				"y": 2.25,
+				"type": "fire",
+				"emitProbability": 0.005,
+			},
+			{
+				"x": 0.4375,
+				"y": 1.4375,
+				"type": "fire",
+				"emitProbability": 0.003,
+			},
+			{
+				"x": 0.8125,
+				"y": 2.5625,
+				"type": "fire",
+				"emitProbability": 0.003,
+			},
+			{
+				"x": 1.5625,
+				"y": 2.6875,
+				"type": "fire",
+				"emitProbability": 0.002,
+			}
+		],
+		"hp": 45,
+		"explodeHP": 3,
+		"explodeDmg": 45,
+		"fireHP": 30,
+		"moveDelay": 10000,
+		"canOccupy": [],
+		"external": true,
+		"weight": 10,
+		"cost": 1,
+		"lift": 52,
+		"structuralStressAmount": 1,
+		"adjacencyBonusStrength": 0.5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+        "externalSubBaseColor": { "r": 217, "g": 213, "b": 203 },
+	},
+	{
+		"name": "HYDROGEN_CELL",
+		"categories": ["LIFT"],
+		"availableFor": ["AIRSHIP"],
+		"required": "Y_HYDROGEN",
+		"sort": 556,
+		"w": 9,
+		"h": 5,
+		"appearance": {
+			"src": "wfw_spritesheet",
+			"x": 20,
+			"y": 24,
+			"w": 9,
+			"h": 5
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 2,
+					"y": 34,
+					"w": 9,
+					"h": 5
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 2,
+					"y": 39,
+					"w": 9,
+					"h": 5
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 2,
+					"y": 44,
+					"w": 9,
+					"h": 5
+				}
+			}
+		],
+		"destroyedEmitters": [
+			{
+				"x": 0.875,
+				"y": 1.5,
+				"type": "fire",
+				"emitProbability": 0.01,
+			},
+			{
+				"x": 2.1875,
+				"y": 1.9375,
+				"type": "fire",
+				"emitProbability": 0.02,
+			},
+			{
+				"x": 3.375,
+				"y": 1.5,
+				"type": "fire",
+				"emitProbability": 0.02,
+			},
+			{
+				"x": 4.625,
+				"y": 1.875,
+				"type": "fire",
+				"emitProbability": 0.004,
+			},
+			{
+				"x": 5.75,
+				"y": 0.875,
+				"type": "fire",
+				"emitProbability": 0.005,
+			},
+			{
+				"x": 6.3125,
+				"y": 1.625,
+				"type": "fire",
+				"emitProbability": 0.006,
+			},
+			{
+				"x": 8.1875,
+				"y": 0.875,
+				"type": "fire",
+				"emitProbability": 0.01,
+			},
+			{
+				"x": 8.8125,
+				"y": 1.8125,
+				"type": "fire",
+				"emitProbability": 0.01,
+			},
+			{
+				"x": 1.375,
+				"y": 3.375,
+				"type": "fire",
+				"emitProbability": 0.008,
+			},
+			{
+				"x": 1.125,
+				"y": 4.3125,
+				"type": "fire",
+				"emitProbability": 0.015,
+			},
+			{
+				"x": 3.5625,
+				"y": 3.125,
+				"type": "fire",
+				"emitProbability": 0.01,
+			},
+			{
+				"x": 4.3125,
+				"y": 4.125,
+				"type": "fire",
+				"emitProbability": 0.005,
+			},
+			{
+				"x": 6.5,
+				"y": 3.5625,
+				"type": "fire",
+				"emitProbability": 0.03,
+			},
+			{
+				"x": 7.8125,
+				"y": 4.75,
+				"type": "fire",
+				"emitProbability": 0.007,
+			},
+		],
+		"hp": 140,
+		"fireHP": 90,
+		"explodeHP": 10,
+		"explodeDmg": 140,
+		"moveDelay": 10000,
+		"canOccupy": [],
+		"external": true,
+		"weight": 50,
+		"cost": 5,
+		"lift": 290,
+		"structuralStressAmount": 2,
+		"adjacencyBonusStrength": 0.5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+        "externalSubBaseColor": { "r": 217, "g": 213, "b": 203 },
+	}
+]

@@ -1,0 +1,210 @@
+[
+	{
+		"name": "FLIPPED_RIFLE",
+		"flippedFrom": "RIFLE"
+	},
+	{
+		"name": "RIFLE",
+		"categories": ["BASIC", "WEAPONS"],
+		"required": "RIFLES",
+		"isWeapon": true,
+		"isGun": true,
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "wfw_spritesheet",
+			"x": 19,
+			"y": 46
+		},
+		"hp": 40,
+		"fireHP": 18,
+		"moveDelay": 800,
+		"weight": 8,
+		"cost": 20,
+		"crew": 1,
+		"recommendedCrew": 1,
+		"frontOnly": true,
+		"reload": 1300,
+		"clip": 16,
+		"inaccuracy": 0.0012,
+		"fixedInaccuracyVsTroops": 14,
+		"penDmg": 5,
+		"shootTroopsRange": 400,
+		"fireArc": { "direction": "forwards", "degrees": 240 },
+		"muzzleCenterX": 0.68,
+		"muzzleCenterY": 0.56,
+		"muzzleLength": 1,
+		"recoilForce": 0.05,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "rifle0" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+						],
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1.2,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+		"optimumRange": 800,
+		"jitterMerge": 0.4,
+		"weaponAppearance": {
+			"shot": { "src": "wfw_spritesheet", "x": 190, "y": 324, "w": 2, "h": 1 },
+			"barrel": { "src": "wfw_spritesheet", "x": 233, "y": 175, "w": 23, "h": 6 },
+			"barrelX": 0,
+			"barrelY": 6,
+			"recoil": 2
+		}
+	},
+	{
+		"name": "DOWN_RIFLE",
+		"categories": ["WEAPONS"],
+		"required": "RIFLES",
+		"isWeapon": true,
+		"isGun": true,
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "wfw_spritesheet",
+			"x": 19,
+			"y": 47
+		},
+		"hp": 40,
+		"fireHP": 18,
+		"moveDelay": 800,
+		"weight": 8,
+		"cost": 20,
+		"crew": 1,
+		"recommendedCrew": 1,
+		"bottomOnly": true,
+		"reload": 1300,
+		"clip": 16,
+		"inaccuracy": 0.0015,
+		"fixedInaccuracyVsTroops": 14,
+		"penDmg": 5,
+		"shootTroopsRange": 400,
+		"fireArc": { "direction": "down", "degrees": 180 },
+		"muzzleCenterX": 0.68,
+		"muzzleCenterY": 0.56,
+		"muzzleLength": 1,
+		"recoilForce": 0.05,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "rifle0" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+						],
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1.2,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+		"optimumRange": 800,
+		"jitterMerge": 0.4,
+		"weaponAppearance": {
+			"shot": { "src": "wfw_spritesheet", "x": 190, "y": 324, "w": 2, "h": 1 },
+			"barrel": { "src": "wfw_spritesheet", "x": 233, "y": 175, "w": 23, "h": 6 },
+			"barrelX": -3.5,
+			"barrelY": 6,
+			"recoil": 2
+		}
+	},
+	{
+		"name": "UP_RIFLE",
+		"categories": ["WEAPONS"],
+		"required": "RIFLES",
+		"isWeapon": true,
+		"isGun": true,
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "wfw_spritesheet",
+			"x": 19,
+			"y": 47
+		},
+		"hp": 40,
+		"fireHP": 18,
+		"moveDelay": 800,
+		"weight": 8,
+		"cost": 20,
+		"crew": 1,
+		"recommendedCrew": 1,
+		"topOnly": true,
+		"reload": 1300,
+		"clip": 16,
+		"inaccuracy": 0.0015,
+		"fixedInaccuracyVsTroops": 14,
+		"penDmg": 5,
+		"shootTroopsRange": 400,
+		"fireArc": { "direction": "up", "degrees": 180 },
+		"muzzleCenterX": 0.68,
+		"muzzleCenterY": 0.56,
+		"muzzleLength": 1,
+		"recoilForce": 0.05,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "rifle0" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+						],
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1.2,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+		"optimumRange": 800,
+		"jitterMerge": 0.4,
+		"weaponAppearance": {
+			"shot": { "src": "wfw_spritesheet", "x": 190, "y": 324, "w": 2, "h": 1 },
+			"barrel": { "src": "wfw_spritesheet", "x": 233, "y": 175, "w": 23, "h": 6 },
+			"barrelX": -3.5,
+			"barrelY": 6,
+			"recoil": 2
+		}
+	}
+]

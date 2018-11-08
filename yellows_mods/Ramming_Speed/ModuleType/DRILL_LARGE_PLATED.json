@@ -1,0 +1,646 @@
+[
+	{
+		"name": "FLIPPED_RS_DRILL_LARGE_COPPER",
+		"flippedFrom": "RS_DRILL_LARGE_COPPER"
+	},
+	{
+		"name": "RS_DRILL_LARGE_COPPER",
+		"categories": ["RS_DRILLS_COPPER"],
+		"required": "Y_DRILLS",
+		"availableFor": ["AIRSHIP", "LANDSHIP"],
+		"w": 4,
+		"h": 2,
+		"armourType": "HV_STEEL_HIDDEN_Y",
+		"isRam": true,
+		"isWeapon": true,
+		"appearance": {
+			"src": "ramming_speed_2",
+					"interval": 100,
+					"frames": [
+						{"x": 4, "y": 26, "w": 4, "h": 2},
+						{"x": 4, "y": 28, "w": 4, "h": 2},
+						{"x": 4, "y": 30, "w": 4, "h": 2},
+						{"x": 4, "y": 32, "w": 4, "h": 2}
+					]
+		},
+		"mask": {
+			"x": 4,
+			"y": 34
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"interval": 100,
+					"frames":[
+						{"x": 4, "y": 34, "w": 4, "h": 2},
+						{"x": 4, "y": 36, "w": 4, "h": 2}
+					]
+				}
+			}
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+		"hp": 20000,
+		"fireHP": 10000,
+		"moveDelay": 1000,
+		"weight": 2200,
+		"cost": 500,
+		"canOccupy": [
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 }
+		],
+		"hardness": { "base": 1.75, "RAMMING_PROWNESS": 2.2 },
+		"collisionDamageReceivedMult": 0.5,
+		"coalReload": 10000,
+		"crew": 2,
+		"recommendedCrew": 4,
+		
+		"frontOnly": true,
+		
+		"maxRange": 32,
+		"shootTroopsRange": 32,
+		"reload": 100,
+		"inaccuracy": 0,
+		"blastDmg": 20,
+		"blastSplashRadius": 1,
+		"penDmg": 0,
+		"clip": 0,
+		"recoilForce": 0,
+		"fireArc": { "direction": "forwards", "degrees": 180 },
+		"muzzleCenterX": 2.5,
+		"muzzleCenterY": 1,
+		"muzzleLength": 0,
+		"muzzleFlash": false,
+		"optimumRange": 10,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "saw0" ],
+					"volume": {
+						"min": 0.55,
+						"max": 0.65,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.1
+						],
+					},
+					"pitch": {
+						"min": 0.3,
+						"max": 0.6,
+						"distance": [
+							0, 1,
+							2000, 0.8,
+							3000, 0.3,
+							4000, 0.1
+						]
+					}
+				}
+			]
+		},
+		"msUntilPlayLoop": 1000,
+		"runningLoop": {
+			"loopFadeInMs": 300,
+			"loopFadeOutMs": 400,
+			"layers": [
+				{
+					"variations": [ "engine_1600" ],
+					"volume": {
+						"value": 0.8,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 1.0,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"shot": { "src": "ramming_speed_2", "x": 40, "y": 0, "w": 1, "h": 1 },
+			"recoil": 0,
+			"impactParticle": "fragment",
+			"shotEmitter": { "type": "damaged_spark", "emitProbability": 0.05 }
+		},
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 1.56,
+				"type": "ember",
+				"emitProbability": 0.003,
+				"inside": true
+			},
+			{
+				"x": 0.5,
+				"y": 0.31,
+				"type": "smoke",
+				"emitProbability": 0.002
+			}
+		],
+		"lights": [
+			{
+				"r": 255, "g": 90, "b": 10,
+				"radius": 40,
+				"x": 0.5,
+				"y": 1.56
+			}
+		]
+	},
+	{
+		"name": "FLIPPED_RS_DRILL_LARGE_COPPER_ORNATE",
+		"flippedFrom": "RS_DRILL_LARGE_COPPER_ORNATE"
+	},
+	{
+		"name": "RS_DRILL_LARGE_COPPER_ORNATE",
+		"categories": ["RS_DRILLS_COPPER"],
+		"required": "Y_DRILLS",
+		"availableFor": ["AIRSHIP", "LANDSHIP"],
+		"w": 4,
+		"h": 2,
+		"armourType": "HV_STEEL_HIDDEN_Y",
+		"isRam": true,
+		"isWeapon": true,
+		"appearance": {
+			"src": "ramming_speed_2",
+					"interval": 100,
+					"frames": [
+						{"x": 4, "y": 26, "w": 4, "h": 2},
+						{"x": 4, "y": 28, "w": 4, "h": 2},
+						{"x": 4, "y": 30, "w": 4, "h": 2},
+						{"x": 4, "y": 32, "w": 4, "h": 2}
+					]
+		},
+		"mask": {
+			"x": 4,
+			"y": 38
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"interval": 100,
+					"frames":[
+						{"x": 4, "y": 38, "w": 4, "h": 2},
+						{"x": 4, "y": 40, "w": 4, "h": 2}
+					]
+				}
+			}
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+		"hp": 25000,
+		"fireHP": 12000,
+		"moveDelay": 1000,
+		"weight": 2500,
+		"cost": 500,
+		"canOccupy": [
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 }
+		],
+		"hardness": { "base": 1.75, "RAMMING_PROWNESS": 2.2 },
+		"collisionDamageReceivedMult": 0.5,
+		"coalReload": 10000,
+		"crew": 2,
+		"recommendedCrew": 4,
+		
+		"frontOnly": true,
+		
+		"maxRange": 32,
+		"shootTroopsRange": 32,
+		"reload": 100,
+		"inaccuracy": 0,
+		"blastDmg": 20,
+		"blastSplashRadius": 1,
+		"penDmg": 0,
+		"clip": 0,
+		"recoilForce": 0,
+		"fireArc": { "direction": "forwards", "degrees": 180 },
+		"muzzleCenterX": 2.5,
+		"muzzleCenterY": 1,
+		"muzzleLength": 0,
+		"muzzleFlash": false,
+		"optimumRange": 10,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "saw0" ],
+					"volume": {
+						"min": 0.55,
+						"max": 0.65,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.1
+						],
+					},
+					"pitch": {
+						"min": 0.3,
+						"max": 0.6,
+						"distance": [
+							0, 1,
+							2000, 0.8,
+							3000, 0.3,
+							4000, 0.1
+						]
+					}
+				}
+			]
+		},
+		"msUntilPlayLoop": 1000,
+		"runningLoop": {
+			"loopFadeInMs": 300,
+			"loopFadeOutMs": 400,
+			"layers": [
+				{
+					"variations": [ "engine_1600" ],
+					"volume": {
+						"value": 0.8,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 1.0,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"shot": { "src": "ramming_speed_2", "x": 40, "y": 0, "w": 1, "h": 1 },
+			"recoil": 0,
+			"impactParticle": "fragment",
+			"shotEmitter": { "type": "damaged_spark", "emitProbability": 0.05 }
+		},
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 1.56,
+				"type": "ember",
+				"emitProbability": 0.003,
+				"inside": true
+			},
+			{
+				"x": 0.5,
+				"y": 0.31,
+				"type": "smoke",
+				"emitProbability": 0.002
+			}
+		],
+		"lights": [
+			{
+				"r": 255, "g": 90, "b": 10,
+				"radius": 40,
+				"x": 0.5,
+				"y": 1.56
+			}
+		]
+	},
+	{
+		"name": "FLIPPED_RS_DRILL_LARGE_GOLD",
+		"flippedFrom": "RS_DRILL_LARGE_GOLD"
+	},
+	{
+		"name": "RS_DRILL_LARGE_GOLD",
+		"categories": ["RS_DRILLS_GOLD"],
+		"required": "Y_DRILLS",
+		"availableFor": ["AIRSHIP", "LANDSHIP"],
+		"w": 4,
+		"h": 2,
+		"armourType": "HV_STEEL_HIDDEN_Y",
+		"isRam": true,
+		"isWeapon": true,
+		"appearance": {
+			"src": "ramming_speed_2",
+					"interval": 100,
+					"frames": [
+						{"x": 8, "y": 26, "w": 4, "h": 2},
+						{"x": 8, "y": 28, "w": 4, "h": 2},
+						{"x": 8, "y": 30, "w": 4, "h": 2},
+						{"x": 8, "y": 32, "w": 4, "h": 2}
+					]
+		},
+		"mask": {
+			"x": 8,
+			"y": 34
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"interval": 100,
+					"frames":[
+						{"x": 8, "y": 34, "w": 4, "h": 2},
+						{"x": 8, "y": 36, "w": 4, "h": 2}
+					]
+				}
+			}
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 245, "g": 228, "b": 116 },
+		"hp": 20000,
+		"fireHP": 10000,
+		"moveDelay": 1000,
+		"weight": 2500,
+		"cost": 500,
+		"canOccupy": [
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 }
+		],
+		"hardness": { "base": 2, "RAMMING_PROWNESS": 2.5 },
+		"collisionDamageReceivedMult": 0.5,
+		"coalReload": 10000,
+		"crew": 2,
+		"recommendedCrew": 4,
+		
+		"frontOnly": true,
+		
+		"maxRange": 32,
+		"shootTroopsRange": 32,
+		"reload": 100,
+		"inaccuracy": 0,
+		"blastDmg": 20,
+		"blastSplashRadius": 1,
+		"penDmg": 0,
+		"clip": 0,
+		"recoilForce": 0,
+		"fireArc": { "direction": "forwards", "degrees": 180 },
+		"muzzleCenterX": 2.5,
+		"muzzleCenterY": 1,
+		"muzzleLength": 0,
+		"muzzleFlash": false,
+		"optimumRange": 10,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "saw0" ],
+					"volume": {
+						"min": 0.55,
+						"max": 0.65,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.1
+						],
+					},
+					"pitch": {
+						"min": 0.3,
+						"max": 0.6,
+						"distance": [
+							0, 1,
+							2000, 0.8,
+							3000, 0.3,
+							4000, 0.1
+						]
+					}
+				}
+			]
+		},
+		"msUntilPlayLoop": 1000,
+		"runningLoop": {
+			"loopFadeInMs": 300,
+			"loopFadeOutMs": 400,
+			"layers": [
+				{
+					"variations": [ "engine_1600" ],
+					"volume": {
+						"value": 0.8,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 1.0,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"shot": { "src": "ramming_speed_2", "x": 40, "y": 0, "w": 1, "h": 1 },
+			"recoil": 0,
+			"impactParticle": "fragment",
+			"shotEmitter": { "type": "damaged_spark", "emitProbability": 0.05 }
+		},
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 1.56,
+				"type": "ember",
+				"emitProbability": 0.003,
+				"inside": true
+			},
+			{
+				"x": 0.5,
+				"y": 0.31,
+				"type": "smoke",
+				"emitProbability": 0.002
+			}
+		],
+		"lights": [
+			{
+				"r": 255, "g": 90, "b": 10,
+				"radius": 40,
+				"x": 0.5,
+				"y": 1.56
+			}
+		]
+	},
+	{
+		"name": "FLIPPED_RS_DRILL_LARGE_GOLD_ORNATE",
+		"flippedFrom": "RS_DRILL_LARGE_GOLD_ORNATE"
+	},
+	{
+		"name": "RS_DRILL_LARGE_GOLD_ORNATE",
+		"categories": ["RS_DRILLS_GOLD"],
+		"required": "Y_DRILLS",
+		"availableFor": ["AIRSHIP", "LANDSHIP"],
+		"w": 4,
+		"h": 2,
+		"armourType": "HV_STEEL_HIDDEN_Y",
+		"isRam": true,
+		"isWeapon": true,
+		"appearance": {
+			"src": "ramming_speed_2",
+					"interval": 100,
+					"frames": [
+						{"x": 8, "y": 26, "w": 4, "h": 2},
+						{"x": 8, "y": 28, "w": 4, "h": 2},
+						{"x": 8, "y": 30, "w": 4, "h": 2},
+						{"x": 8, "y": 32, "w": 4, "h": 2}
+					]
+		},
+		"mask": {
+			"x": 8,
+			"y": 38
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"interval": 100,
+					"frames":[
+						{"x": 8, "y": 38, "w": 4, "h": 2},
+						{"x": 8, "y": 40, "w": 4, "h": 2}
+					]
+				}
+			}
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 245, "g": 228, "b": 116 },
+		"hp": 20000,
+		"fireHP": 10000,
+		"moveDelay": 1000,
+		"weight": 2500,
+		"cost": 500,
+		"canOccupy": [
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 }
+		],
+		"hardness": { "base": 2, "RAMMING_PROWNESS": 2.5 },
+		"collisionDamageReceivedMult": 0.5,
+		"coalReload": 10000,
+		"crew": 2,
+		"recommendedCrew": 4,
+		
+		"frontOnly": true,
+		
+		"maxRange": 32,
+		"shootTroopsRange": 32,
+		"reload": 100,
+		"inaccuracy": 0,
+		"blastDmg": 20,
+		"blastSplashRadius": 1,
+		"penDmg": 0,
+		"clip": 0,
+		"recoilForce": 0,
+		"fireArc": { "direction": "forwards", "degrees": 180 },
+		"muzzleCenterX": 2.5,
+		"muzzleCenterY": 1,
+		"muzzleLength": 0,
+		"muzzleFlash": false,
+		"optimumRange": 10,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "saw0" ],
+					"volume": {
+						"min": 0.55,
+						"max": 0.65,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.1
+						],
+					},
+					"pitch": {
+						"min": 0.3,
+						"max": 0.6,
+						"distance": [
+							0, 1,
+							2000, 0.8,
+							3000, 0.3,
+							4000, 0.1
+						]
+					}
+				}
+			]
+		},
+		"msUntilPlayLoop": 1000,
+		"runningLoop": {
+			"loopFadeInMs": 300,
+			"loopFadeOutMs": 400,
+			"layers": [
+				{
+					"variations": [ "engine_1600" ],
+					"volume": {
+						"value": 0.8,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 1.0,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"shot": { "src": "ramming_speed_2", "x": 40, "y": 0, "w": 1, "h": 1 },
+			"recoil": 0,
+			"impactParticle": "fragment",
+			"shotEmitter": { "type": "damaged_spark", "emitProbability": 0.05 }
+		},
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 1.56,
+				"type": "ember",
+				"emitProbability": 0.003,
+				"inside": true
+			},
+			{
+				"x": 0.5,
+				"y": 0.31,
+				"type": "smoke",
+				"emitProbability": 0.002
+			}
+		],
+		"lights": [
+			{
+				"r": 255, "g": 90, "b": 10,
+				"radius": 40,
+				"x": 0.5,
+				"y": 1.56
+			}
+		]
+	}
+]

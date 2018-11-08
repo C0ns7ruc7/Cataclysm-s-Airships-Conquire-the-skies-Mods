@@ -1,0 +1,274 @@
+[
+	{
+		"name": "SMALL_SIDE_TURBOFAN_ENGINE",
+		"categories": ["PROPULSION"],
+		"availableFor": ["AIRSHIP"],
+		"sort": -35,
+		"w": 2,
+		"h": 1,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"appearance": {
+			"src": "turbofan",
+			"interval": 100,
+			"frames": [
+				{
+					"x": 4,
+					"y": 16,
+					"w": 2,
+					"h": 1
+				},
+				{
+					"x": 6,
+					"y": 16,
+					"w": 2,
+					"h": 1
+				}
+			]
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "turbofan",
+					"x": 8,
+					"y": 1,
+					"w": 1,
+					"h": 1
+				}
+			},
+			{
+				"x": -1,
+				"y": 0,
+				"appearance": {
+					"src": "turbofan",
+					"x": 0,
+					"y": 16,
+					"w": 4,
+					"h": 1
+				}
+			}
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"hp": 175,
+		"fireHP": 100,
+		"explodeHP": 75,
+		"explodeDmg": 125,
+		"moveDelay": 1200,
+		"weight": 160,
+		"cost": 350,
+		"propulsion": 0.52,
+		"coalReload": 15000,
+		"upDoors": [1],
+		"crew": 1,
+		"recommendedCrew": 2,
+		"recommendedGuards": 1,
+		
+		"required": "TURBOFAN_ENGINES",
+		
+		"tentacleDeathSpasms": false,
+		
+		"runningLoop": {
+			"loopFadeInMs": 2000,
+			"loopFadeOutMs": 2000,
+			"layers": [
+				{
+					"variations": [ "turbofan_loop" ],
+					"volume": {
+						"value": 0.8,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						],
+						"xSpeed": [
+							-0.3, 1.2,
+							0, 0.4,
+							0.3, 1.2
+						]
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 0.9,
+						"xSpeed": [
+							-0.3, 1.2,
+							0, 0.8,
+							0.3, 1.2
+						],
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"emitters": [
+			{
+				"x": 0,
+				"y": 0.5,
+				"type": "ember",
+				"emitProbability": 0.003
+			},
+			{
+				"x": 1,
+				"y": 0.81,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			}
+		],
+		"damagedEmitters": [
+			{
+				"x": 0,
+				"y": 0.5,
+				"type": "ember",
+				"emitProbability": 0.005,
+				"numParticles": 2
+			},
+			{
+				"x": 1,
+				"y": 0.81,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 0,
+				"y": 0.5,
+				"type": "smoke",
+				"emitProbability": 0.0005
+			}
+		],
+		"destroyedEmitters": [
+			{
+				"x": 0,
+				"y": 0.5,
+				"type": "ember",
+				"emitProbability": 0.005
+			},
+			{
+				"x": 1,
+				"y": 0.81,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 0,
+				"y": 0.5,
+				"type": "smoke",
+				"emitProbability": 0.001
+			},
+			{
+				"x": 2.13,
+				"y": 0.25,
+				"type": "ember",
+				"emitProbability": 0.002
+			},
+			{
+				"x": 2.13,
+				"y": 0.5,
+				"type": "ember",
+				"emitProbability": 0.002
+			},
+			{
+				"x": 2.13,
+				"y": 0.75,
+				"type": "ember",
+				"emitProbability": 0.002
+			},
+			{
+				"x": 2.13,
+				"y": 0.5,
+				"type": "smoke",
+				"emitProbability": 0.001
+			}
+		],
+		"lights": [
+			{
+				"r": 255, "g": 90, "b": 10,
+				"radius": 30,
+				"x": 1,
+				"y": 0.81
+			}
+		],
+		"tentacles": [
+			{
+				"numSegments": 40,
+				"baseAngle": 0,
+				"baseXOffset": 2,
+				"baseYOffset": 0.5,
+				"baseStiffness": 0.8,
+				"tipStiffness": 0.4,
+				"baseLength": 3,
+				"tipLength": 3,
+				"baseWidth": 3,
+				"tipWidth": 3,
+				"speed": 0.4,
+				"snatchesCrew": true,
+				"mouthXOffset": 2.13,
+				"mouthYOffset": 0.5,
+				"attacksHull": false,
+				"wavesAround": false,
+				"suckerDirection": false,
+				"segmentImg": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"segmentImgVerticallyFlipped": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"imgLength": 3,
+				"minNextTargetPause": 0,
+				"maxNextTargetPause": 0,
+			},
+			{
+				"numSegments": 40,
+				"baseAngle": 0,
+				"baseXOffset": 2,
+				"baseYOffset": 0.5,
+				"baseStiffness": 0.8,
+				"tipStiffness": 0.4,
+				"baseLength": 3,
+				"tipLength": 3,
+				"baseWidth": 3,
+				"tipWidth": 3,
+				"speed": 0.4,
+				"snatchesCrew": true,
+				"mouthXOffset": 2.13,
+				"mouthYOffset": 0.5,
+				"attacksHull": false,
+				"wavesAround": false,
+				"suckerDirection": false,
+				"segmentImg": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"segmentImgVerticallyFlipped": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"imgLength": 3,
+				"minNextTargetPause": 0,
+				"maxNextTargetPause": 0,
+			},
+			{
+				"numSegments": 40,
+				"baseAngle": 0,
+				"baseXOffset": 2,
+				"baseYOffset": 0.5,
+				"baseStiffness": 0.8,
+				"tipStiffness": 0.4,
+				"baseLength": 3,
+				"tipLength": 3,
+				"baseWidth": 3,
+				"tipWidth": 3,
+				"speed": 0.4,
+				"snatchesCrew": true,
+				"mouthXOffset": 2.13,
+				"mouthYOffset": 0.5,
+				"attacksHull": false,
+				"wavesAround": false,
+				"suckerDirection": false,
+				"segmentImg": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"segmentImgVerticallyFlipped": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"imgLength": 3,
+				"minNextTargetPause": 0,
+				"maxNextTargetPause": 0,
+			}
+		]
+	}
+]

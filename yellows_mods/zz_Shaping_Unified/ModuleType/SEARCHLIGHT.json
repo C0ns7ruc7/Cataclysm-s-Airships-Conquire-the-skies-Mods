@@ -1,0 +1,79 @@
+[
+	{
+		"name": "Y_SEARCHLIGHT",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"required": "Y_S_SHAPES",
+		"isWeapon": true,
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 14,
+			"y": 9,
+			"w": 1,
+			"h": 1
+		},
+		"mask": {
+			"x": 14,
+			"y": 10
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 12,
+					"y": 13,
+					"w": 1,
+					"h": 1
+				}
+			}
+		],
+		"hp": 40,
+		"fireHP": 5,
+		"moveDelay": 600,
+		"weight": 5,
+		"cost": 5,
+		"crew": 1,
+		"recommendedCrew": 1,
+		"reload": 1,
+		"clip": 0,
+		"inaccuracy": 0,
+		"penDmg": 0,
+		"blastDmg": 0,
+		"directDmg": 0,
+		"recoilForce": 0,
+		"fireArc": { "direction": "up", "degrees": 360 },
+		"muzzleCenterX": 0.5,
+		"muzzleCenterY": 0.3125,
+		"muzzleLength": 0.5,
+		"muzzleFlash": false,
+		"maxRange": 1000,
+		"optimumRange": 750,
+		"shootTroopsRange": 750,
+		"hardness": 0.8,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+        "producesHorizontalDrag": false,
+		"weaponAppearance": {
+			"back": { "src": "shaping_unified", "x": 12, "y": 14, "w": 1, "h": 1 },
+			"shot": { "src": "shaping_unified", "x": 16, "y": 0, "w": 1, "h": 1 },
+			"barrel": { "src": "shaping_unified", "x": 0, "y": 720, "w": 1024, "h": 80},
+			"barrelX": -504,
+			"barrelY": -35,
+			"recoil": 0,
+		},
+		"lights": [
+			{
+				"r": 255, "g": 240, "b": 100,
+				"radius": 30,
+				"x": 0.5,
+				"y": 0.3125,
+				"outside": true
+			}
+		],
+	}
+]

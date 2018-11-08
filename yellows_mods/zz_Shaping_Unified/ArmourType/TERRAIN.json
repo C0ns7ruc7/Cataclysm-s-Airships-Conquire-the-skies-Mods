@@ -1,0 +1,326 @@
+[
+	{
+		"name": "STONE_AMR",
+		"sort": 5555,
+		"placeSound": "rock1",
+		"placePitch": 0.5,
+		"required": "Y_ROCK",
+		"cost": {
+			"base": 12,
+			"CHEAP_STONE": 6,
+		},
+		"hp": {
+			"base": 100,
+		},
+		"weight": {
+			"base": 150,
+		},
+		"blastDmgAbsorb": {
+			"base": 3,
+		},
+		"penDmgAbsorb": {
+			"base": 4,
+		},
+		"windowApp": {
+			"src": "shaping_unified",
+			"x": 5,
+			"y": 19,
+		},
+		"damagedApps": [
+			{
+				"src": "shaping_unified",
+				"x": 5,
+				"y": 20,
+			},
+			{
+				"src": "shaping_unified",
+				"x": 5,
+				"y": 21,
+			},
+			{
+				"src": "shaping_unified",
+				"x": 5,
+				"y": 22,
+			},
+			{
+				"src": "shaping_unified",
+				"x": 5,
+				"y": 23,
+			},
+			{
+				"src": "shaping_unified",
+				"x": 5,
+				"y": 24,
+			},
+		],
+		"smallHitSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 0.5,
+						"max": 0.6,
+					},
+					"pitch": {
+						"min": 1.05,
+						"max": 1.15,
+					},
+				},
+			],
+		},
+		"largeHitSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 0.9,
+						"max": 1.2,
+					},
+					"pitch": {
+						"min": 0.95,
+						"max": 1.05,
+					},
+				},
+			],
+		},
+		"brokenSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 1.5,
+						"max": 2.4,
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 0.95,
+					},
+				},
+				{
+					"variations": [ "stones" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+					},
+				},
+			],
+		},
+	},
+	{
+		"name": "DIRT_AMR",
+		"sort": 5555,
+		"placeSound": "rock2",
+		"placePitch": 1.5,
+		"cost": {
+			"base": 1,
+			"CHEAP_STONE": 0,
+		},
+		"hp": {
+			"base": 25,
+		},
+		"weight": {
+			"base": 50,
+		},
+		"blastDmgAbsorb": {
+			"base": 0,
+		},
+		"penDmgAbsorb": {
+			"base": 1,
+		},
+		"windowApp": {
+			"src": "shaping_unified",
+			"x": 7,
+			"y": 19,
+		},
+		"damagedApps": [
+			{
+				"src": "shaping_unified",
+				"x": 7,
+				"y": 20,
+			},
+			{
+				"src": "shaping_unified",
+				"x": 7,
+				"y": 21,
+			},
+			{
+				"src": "shaping_unified",
+				"x": 7,
+				"y": 22,
+			},
+			{
+				"src": "shaping_unified",
+				"x": 7,
+				"y": 23,
+			},
+			{
+				"src": "shaping_unified",
+				"x": 7,
+				"y": 24,
+			},
+		],
+		"smallHitSound": {
+			"layers": [
+				{
+					"variations": [ "soft_impact0", "soft_impact1", "soft_impact2" ],
+					"volume": {
+						"min": 0.3,
+						"max": 0.4,
+					},
+					"pitch": {
+						"min": 1.05,
+						"max": 1.15,
+					},
+				},
+			],
+		},
+		"largeHitSound": {
+			"layers": [
+				{
+					"variations": [ "soft_impact0", "soft_impact1", "soft_impact2" ],
+					"volume": {
+						"min": 0.7,
+						"max": 1.0,
+					},
+					"pitch": {
+						"min": 0.95,
+						"max": 1.05,
+					},
+				},
+			],
+		},
+		"brokenSound": {
+			"layers": [
+				{
+					"variations": [ "soft_impact0", "soft_impact1", "soft_impact2" ],
+					"volume": {
+						"min": 1.5,
+						"max": 2.4,
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 0.95,
+					},
+				},
+			],
+		},
+	},
+	{
+		"name": "SUS_ARM_ORE",
+		"sort": 5555,
+		"placeSound": "rock1",
+		"placePitch": 0.7,
+		"required": "Y_SUSP_ORE",
+		"cost": {
+			"base": 15,
+			"CHEAP_STONE": 8,
+		},
+		"hp": {
+			"base": 75,
+		},
+		"lift": {
+			"base": 150,
+		},
+		"weight": {
+			"base": 100,
+		},
+		"blastDmgAbsorb": {
+			"base": 1,
+		},
+		"penDmgAbsorb": {
+			"base": 3,
+		},
+		"windowApp": {
+			"src": "shaping_unified",
+			"x": 6,
+			"y": 19,
+		},
+		"damagedApps": [
+			{
+				"src": "shaping_unified",
+				"x": 6,
+				"y": 20,
+			},
+			{
+				"src": "shaping_unified",
+				"x": 6,
+				"y": 21,
+			},
+			{
+				"src": "shaping_unified",
+				"x": 6,
+				"y": 22,
+			},
+			{
+				"src": "shaping_unified",
+				"x": 6,
+				"y": 23,
+			},
+			{
+				"src": "shaping_unified",
+				"x": 6,
+				"y": 24,
+			},
+		],
+		"smallHitSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 0.5,
+						"max": 0.6,
+					},
+					"pitch": {
+						"min": 1.05,
+						"max": 1.15,
+					},
+				},
+			],
+		},
+		"largeHitSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 0.9,
+						"max": 1.2,
+					},
+					"pitch": {
+						"min": 0.95,
+						"max": 1.05,
+					},
+				},
+			],
+		},
+		"brokenSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 1.5,
+						"max": 2.4,
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 0.95,
+					},
+				},
+				{
+					"variations": [ "stones" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+					},
+				}
+			]
+		}
+	}
+]

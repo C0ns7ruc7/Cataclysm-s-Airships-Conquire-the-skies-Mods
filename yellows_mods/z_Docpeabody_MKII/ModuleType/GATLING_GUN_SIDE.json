@@ -1,0 +1,112 @@
+[
+	{
+		"name": "FLIPPED_GATLING_GUN_DP_SIDE",
+		"flippedFrom": "GATLING_GUN_DP_SIDE"
+	},
+	{
+		"name": "GATLING_GUN_DP_SIDE",
+		"categories": ["WEAPONS"],
+		"required": "GATLING_GUNS",
+		"isWeapon": true,
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "docpeabody",
+			"x": 13,
+			"y": 13,
+			"w": 2,
+			"h": 1
+		},
+		"mask": {
+			"x": 13,
+			"y": 18
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "docpeabody",
+					"x": 11,
+					"y": 13,
+					"w": 2,
+					"h": 1
+				}
+			}
+		],
+		"lights": [
+			{
+				"r": 255, "g": 240, "b": 100,
+				"radius": 40,
+				"x": 1,
+				"y": 0.3125,
+				"outside": true
+			}
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+        "producesHorizontalDrag": false,
+		"hp": 40,
+		"fireHP": 15,
+		"explodeHP": 4,
+		"explodeDmg": 15,
+		"recoilForce": 0.05,
+		"moveDelay": 600,
+		"weight": 25,
+		"cost": 100,
+		"crew": 1,
+		"recommendedCrew": 1,
+		"isGun": true,
+		"jitterMerge": 0.8,
+        "reload": 125,
+        "obeysFireMode": false,
+		"shootTroopsRange": 250,
+		"clip": 50,
+        "clipReloadTime": 3000,
+		"inaccuracy": 0.005,
+		"penDmg": 6,
+		"maxRange": 1000,
+		"fireArc": { "direction": "forwards", "degrees": 120 },
+		"muzzleCenterX": 1.03,
+		"muzzleCenterY": 0.56,
+		"muzzleLength": 0.8,
+		"optimumRange": 100,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "gatling0", "gatling1", "gatling2", "gatling3", "gatling4", "gatling5", "gatling6", "gatling7", "gatling8" ],
+					"volume": {
+						"min": 1.4,
+						"max": 1.6,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1.2,
+							1000, 1,
+							3000, 0.7
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"back": { "src": "docpeabody", "x": 10, "y": 11, "w": 2, "h": 1 },
+			"shot": { "src": "docpeabody", "x": 21, "y": 207, "w": 2, "h": 1 },
+			"barrel": { "src": "docpeabody", "x": 24, "y": 544, "w": 24, "h": 9 },
+			"barrelX": 5,
+			"barrelY": 4,
+			"recoil": 2
+		}
+	}
+]

@@ -1,0 +1,27 @@
+[
+	{
+		"name": "WUSSUL_RACK",
+		"categories": ["TROOPS"],
+		"required": "WUSSUL_TORPEDOES",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "wfw_spritesheet",
+			"frames": [
+				{ "x": 19, "y": 48 },
+				{ "x": 19, "y": 49 },
+				{ "x": 19, "y": 50 },
+				{ "x": 19, "y": 51 }
+			],
+		},
+		"hp": 40,
+		"fireHP": { "base": 20, "SAFER_AMMO_STORAGE": 5 },
+		"explodeHP": { "base": 10, "SAFER_AMMO_STORAGE": 3 },
+		"explodeDmg": 30,
+		"moveDelay": 600,
+		"weight": 15,
+		"cost": 400,
+		"quarters": 40,
+		"quartersType": "wussul_torpedo",
+	}
+]

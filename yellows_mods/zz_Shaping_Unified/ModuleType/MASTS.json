@@ -1,0 +1,347 @@
+[
+	{
+		"name": "MAST1",
+		"categories": ["DECORATIVE_SHAPING_WOOD_GIRDER"],
+		"sort": -1,
+		"required": "Y_W_STRUTS",
+		"armourType": "LT_WOOD_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 0,
+			"y": 45
+		},
+		"mask": {
+			"x": 8,
+			"y": 0
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 8,
+					"y": 0
+				}
+			}
+		],
+		"hp": 40,
+		"fireHP": 10,
+		"moveDelay": 10000,
+		"weight": 3,
+		"cost": 2,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.8,
+		"hardness": 0.8,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 8,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 123, "g": 66, "b": 27 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "MAST2",
+		"categories": ["DECORATIVE_SHAPING_WOOD_GIRDER"],
+		"sort": -1,
+		"required": "Y_W_STRUTS",
+		"armourType": "LT_WOOD_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 0,
+			"y": 45
+		},
+		"mask": {
+			"x": 9,
+			"y": 0
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 9,
+					"y": 0
+				}
+			}
+		],
+		"hp": 25,
+		"fireHP": 6,
+		"moveDelay": 10000,
+		"weight": 2,
+		"cost": 2,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.5,
+		"hardness": 0.5,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 6,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 123, "g": 66, "b": 27 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 0.6,
+						"max": 0.8,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 1.1,
+						"max": 1.3,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "MAST3",
+		"categories": ["DECORATIVE_SHAPING_WOOD_GIRDER"],
+		"sort": -1,
+		"required": "Y_W_STRUTS",
+		"armourType": "LT_WOOD_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 0,
+			"y": 45
+		},
+		"mask": {
+			"x": 10,
+			"y": 0
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 10,
+					"y": 0
+				}
+			}
+		],
+		"hp": 15,
+		"fireHP": 4,
+		"moveDelay": 10000,
+		"weight": 1,
+		"cost": 1,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.2,
+		"hardness": 0.2,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 4,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 123, "g": 66, "b": 27 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 0.5,
+						"max": 0.6,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 1.3,
+						"max": 1.5,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "MAST_ROPE1",
+		"categories": ["DECORATIVE_SHAPING_WOOD_GIRDER"],
+		"sort": -1,
+		"required": "Y_W_STRUTS",
+		"external": true,
+		"armourType": "LT_WOOD_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 6,
+			"y": 3
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 6,
+					"y": 3
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 50,
+		"fireHP": 12,
+		"moveDelay": 10000,
+		"weight": 4,
+		"cost": 2,
+		"adjacencyBonusStrength": 1,
+		"hardness": 0.8,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 8,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 123, "g": 66, "b": 27 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "MAST_ROPE2",
+		"categories": ["DECORATIVE_SHAPING_WOOD_GIRDER"],
+		"sort": -1,
+		"required": "Y_W_STRUTS",
+		"armourType": "LT_WOOD_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 0,
+			"y": 45
+		},
+		"mask": {
+			"x": 7,
+			"y": 3
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 7,
+					"y": 3
+				}
+			}
+		],
+		"hp": 50,
+		"fireHP": 12,
+		"moveDelay": 10000,
+		"weight": 4,
+		"cost": 2,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 1,
+		"hardness": 0.8,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 8,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 123, "g": 66, "b": 27 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+]

@@ -1,0 +1,211 @@
+[
+	{
+		"name": "ROCK_HIDDEN_Y",
+		"sort": 0,
+		"hidden": true,
+		"cost": {
+			"base": 0
+		},
+		"hp": {
+			"base": 100,
+		},
+		"weight": {
+			"base": 0
+		},
+		"blastDmgAbsorb": {
+			"base": 3,
+		},
+		"penDmgAbsorb": {
+			"base": 4,
+		},
+		"damagedApps": [],
+		"smallHitSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 0.5,
+						"max": 0.6
+					},
+					"pitch": {
+						"min": 1.05,
+						"max": 1.15
+					}
+				}
+			]
+		},
+		"largeHitSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 0.9,
+						"max": 1.2
+					},
+					"pitch": {
+						"min": 0.95,
+						"max": 1.05
+					}
+				}
+			]
+		},
+		"brokenSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 1.5,
+						"max": 2.4
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 0.95
+					}
+				},
+				{
+					"variations": [ "stones" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2
+					}
+				}
+			]
+		}
+	},
+	{
+		"name": "DIRT_HIDDEN_Y",
+		"sort": 0,
+		"hidden": true,
+		"cost": {
+			"base": 0
+		},
+		"hp": {
+			"base": 25,
+		},
+		"weight": {
+			"base": 0,
+		},
+		"blastDmgAbsorb": {
+			"base": 0,
+		},
+		"penDmgAbsorb": {
+			"base": 1,
+		},
+		"damagedApps": [],
+		"smallHitSound": {
+			"layers": [
+				{
+					"variations": [ "soft_impact0", "soft_impact1", "soft_impact2" ],
+					"volume": {
+						"min": 0.3,
+						"max": 0.4,
+					},
+					"pitch": {
+						"min": 1.05,
+						"max": 1.15,
+					},
+				},
+			],
+		},
+		"largeHitSound": {
+			"layers": [
+				{
+					"variations": [ "soft_impact0", "soft_impact1", "soft_impact2" ],
+					"volume": {
+						"min": 0.7,
+						"max": 1.0,
+					},
+					"pitch": {
+						"min": 0.95,
+						"max": 1.05,
+					},
+				},
+			],
+		},
+		"brokenSound": {
+			"layers": [
+				{
+					"variations": [ "soft_impact0", "soft_impact1", "soft_impact2" ],
+					"volume": {
+						"min": 1.5,
+						"max": 2.4,
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 0.95,
+					},
+				},
+			],
+		},
+	},
+	{
+		"name": "STRONG_DUST_TANK_HIDDEN_Y",
+		"sort": 0,
+		"hidden": true,
+		"cost": {
+			"base": 0
+		},
+		"hp": {
+			"base": 20
+		},
+		"weight": {
+			"base": 0
+		},
+		"blastDmgAbsorb": {
+			"base": 4
+		},
+		"penDmgAbsorb": {
+			"base": 4
+		},
+		"damagedApps": [],
+		"smallHitSound": {
+			"layers": [
+				{
+					"variations": [ "hit_dragon_1", "hit_dragon_2", "hit_dragon_3", "hit_dragon_4" ],
+					"volume": {
+						"min": 0.3,
+						"max": 0.4
+					},
+					"pitch": {
+						"min": 1.05,
+						"max": 1.15
+					}
+				}
+			]
+		},
+		"largeHitSound": {
+			"layers": [
+				{
+					"variations": [ "hit_dragon_1", "hit_dragon_2", "hit_dragon_3", "hit_dragon_4" ],
+					"volume": {
+						"min": 0.7,
+						"max": 1.0
+					},
+					"pitch": {
+						"min": 0.95,
+						"max": 1.05
+					}
+				}
+			]
+		},
+		"brokenSound": {
+			"layers": [
+				{
+					"variations": [ "hit_dragon_1", "hit_dragon_2", "hit_dragon_3", "hit_dragon_4" ],
+					"volume": {
+						"min": 1.5,
+						"max": 2.4
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 0.95
+					}
+				}
+			]
+		}
+	}
+]

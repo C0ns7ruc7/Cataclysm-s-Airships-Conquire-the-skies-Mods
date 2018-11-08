@@ -1,0 +1,103 @@
+[
+	{
+		"name": "CLAY",
+		"required": "Y_CLAY_ARMOUR",
+		"sort": 32,
+		"placeSound": "place_wood",
+		"placePitch": 1.5,
+		"cost": {
+			"base": 5,
+			"CHEAP_STONE": 3
+		},
+		"hp": {
+			"base": 50,
+			"IMPROVED_STONE_WALLS": 60
+		},
+		"weight": {
+			"base": 6
+		},
+		"blastDmgAbsorb": {
+			"base": 6
+		},
+		"penDmgAbsorb": {
+			"base": 7
+		},
+		"windowApp": {
+			"src": "wfw_spritesheet",
+			"x": 21,
+			"y": 22
+		},
+		"damagedApps": [
+			{
+				"src": "wfw_spritesheet",
+				"x": 20,
+				"y": 22
+			},
+			{
+				"src": "wfw_spritesheet",
+				"x": 22,
+				"y": 22
+			},
+			{
+				"src": "wfw_spritesheet",
+				"x": 23,
+				"y": 22
+			},
+			{
+				"src": "wfw_spritesheet",
+				"x": 24,
+				"y": 22
+			},
+			{
+				"src": "wfw_spritesheet",
+				"x": 25,
+				"y": 22
+			}
+		],
+		"smallHitSound": {
+			"layers": [
+				{
+					"variations": [ "hit_stone_1", "hit_stone_2", "hit_stone_3", "hit_stone_4" ],
+					"volume": {
+						"min": 0.3,
+						"max": 0.4
+					},
+					"pitch": {
+						"min": 1.05,
+						"max": 1.15
+					}
+				}
+			]
+		},
+		"largeHitSound": {
+			"layers": [
+				{
+					"variations": [ "hit_stone_1", "hit_stone_2", "hit_stone_3", "hit_stone_4" ],
+					"volume": {
+						"min": 0.7,
+						"max": 1.0
+					},
+					"pitch": {
+						"min": 0.95,
+						"max": 1.05
+					}
+				}
+			]
+		},
+		"brokenSound": {
+			"layers": [
+				{
+					"variations": [ "hit_stone_1", "hit_stone_2", "hit_stone_3", "hit_stone_4" ],
+					"volume": {
+						"min": 1.5,
+						"max": 2.4
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 0.95
+					}
+				}
+			]
+		}
+	}
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "name": "PISTOL_PORTHOLE",
+        "categories": ["WEAPONS"],
+        "isWeapon": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "PISTOL_PORTHOLE",
+            "x": 0,
+            "y": 0,
+            "w": 1,
+            "h": 1
+        },
+        "hp": 25,
+        "fireHP": 15,
+        "moveDelay": 450,
+        "weight": 6,
+        "cost": 5,
+        "crew": 1,
+		"recommendedCrew": 1,
+        "isGun": true,
+        "isCannon": false,
+        "maxXRange": 600,
+		"maxYRange": 600,
+		"reload": 2000,
+        "clip": 150,
+        "inaccuracy": 0.0045,
+        "blastDmg": 0,
+        "penDmg": 2,
+        "fireArc": { "direction": "forwards", "degrees": 360 },
+        "muzzleCenterX": .6,
+        "muzzleCenterY": .5,
+        "muzzleLength": 0.25,
+        "optimumRange": 10,
+        "fireSound": "rifle",
+        "fireSoundCount": 1,
+        "weaponAppearance": {
+            "shot": { "src": "PISTOL_PORTHOLE", "x": 13, "y": 22, "w": 1, "h": 1 },
+            "barrel": { "src": "PISTOL_PORTHOLE", "x": 7, "y": 22, "w": 4, "h": 2 },
+            "barrelX": 7,
+            "barrelY": 8,
+            "recoil": 1
+        },
+		"windows": [
+		{"x":0,"y":0}
+		]
+    }
+]

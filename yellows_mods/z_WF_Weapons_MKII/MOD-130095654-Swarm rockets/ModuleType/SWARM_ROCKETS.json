@@ -1,0 +1,65 @@
+[
+    {
+        "name": "FLIPPED_SWARM_ROCKETS",
+        "flippedFrom": "SWARM_ROCKETS"
+    },
+    {
+        "name": "SWARM_ROCKETS",
+        "categories": ["WEAPONS"],
+        "isWeapon": true,
+        "w": 2,
+        "h": 1,
+        "appearance": {
+            "src": "swarm_rockets",
+            "x": 0,
+            "y": 0,
+            "w": 2,
+            "h": 1
+        },
+        "hp": 50,
+        "fireHP": 25,
+        "moveDelay": 800,
+        "weight": 15,
+        "cost": 30,
+        "crew": 2,
+        "recommendedCrew": 3,
+        "windows": [
+            { "x": 0, "y": 0 }
+        ],
+        "frontOnly": true,
+        "isExplosive": true,
+        "shotSpeed": 0.4,
+        "jitterMerge": 0.1,
+        "reload":80,
+        "clip": 100,
+        "inaccuracy": 0.0065,
+        "blastDmg": 5,
+        "penDmg": 0,
+        "fireArc": { "direction": "forwards", "degrees": 160 },
+        "muzzleCenterX": 1.56,
+        "muzzleCenterY": 0.5,
+        "muzzleLength": 0,
+        "muzzleFlash": false,
+        "optimumRange": 100,
+        "fireSound": "rocket",
+        "fireSoundCount": 6,
+        "explodeHP": 35,
+        "explodeDmg": 12,
+        "weaponAppearance": {
+            "shot": { "src": "swarm_rockets", "x": 0, "y": 22, "w": 7, "h": 3 },
+            "barrel": { "src": "swarm_rockets", "x": 28, "y": 21, "w": 30, "h": 9 },
+            "barrelX": 10,
+            "barrelY": 3.5,
+            "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.003 },
+            "exhaust": {
+                "type": "rocket_exhaust",
+                "p": 0.03,
+                "backOffset": 4,
+                "angleRange": 0.15,
+                "randomOffset": 1,
+                "speedMin": 1.5,
+                "speedMax": 2.5
+            }
+        }
+    }
+]

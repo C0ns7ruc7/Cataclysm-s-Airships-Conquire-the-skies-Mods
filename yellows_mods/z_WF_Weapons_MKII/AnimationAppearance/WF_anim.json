@@ -1,0 +1,90 @@
+[
+	{
+		"name": "wussul",
+		"bundle": "wussul_bundle",
+		"spritesheet": "wfw_spritesheet",
+		"images": [
+			{
+				"part": "body",
+				"side": "RIGHT",
+				"x": 180,
+				"y": 323,
+				"w": 3,
+				"h": 1,
+				"emitters": [
+					{
+						"type": "trailing_smoke",
+						"freq": 0.0002,
+						"x": 0,
+						"y": 0.5,
+						"scale": 1.0
+					},
+					{
+						"type": "small_susp_chamber_spark",
+						"freq": 0.0002,
+						"x": 1.5,
+						"y": 0.5,
+						"scale": 1.0
+					}
+				],
+				"deadEmitters": [
+					{
+						"type": "trailing_smoke",
+						"freq": 0.001,
+						"x": 0,
+						"y": 0.5,
+						"scale": 1.0
+					},
+					{
+						"type": "ember",
+						"freq": 0.001,
+						"x": 1.5,
+						"y": 0.5,
+						"scale": 1.0
+					}
+				]
+			},
+			{
+				"part": "body",
+				"side": "LEFT",
+				"x": 180,
+				"y": 323,
+				"w": 3,
+				"h": 1,
+				"flipped": true,
+				"emitters": [
+					{
+						"type": "trailing_smoke",
+						"freq": 0.0002,
+						"x": 3,
+						"y": 0.5,
+						"scale": 1.0
+					},
+					{
+						"type": "small_susp_chamber_spark",
+						"freq": 0.0002,
+						"x": 1.5,
+						"y": 0.5,
+						"scale": 1.0
+					}
+				],
+				"deadEmitters": [
+					{
+						"type": "trailing_smoke",
+						"freq": 0.001,
+						"x": 3,
+						"y": 0.5,
+						"scale": 1.0
+					},
+					{
+						"type": "ember",
+						"freq": 0.001,
+						"x": 1.5,
+						"y": 0.5,
+						"scale": 1.0
+					}
+				]
+			},
+		]
+	},
+]
