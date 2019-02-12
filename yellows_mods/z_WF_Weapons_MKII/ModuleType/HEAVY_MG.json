@@ -1,0 +1,82 @@
+[
+	{
+		"name": "FLIPPED_HEAVY_MG",
+		"flippedFrom": "HEAVY_MG",
+		"sort": 8,
+	},
+	{
+		"name": "HEAVY_MG",
+		"sort": 8,
+		"categories": ["WEAPONS_WF"],
+		"required": "Y_MACHINE_GUNS",
+		"isWeapon": true,
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "wfw_spritesheet",
+			"x": 0,
+			"y": 19,
+			"w": 2,
+			"h": 1
+		},
+		"hp": 45,
+		"fireHP": 18,
+		"explodeHP": 5,
+		"explodeDmg": 15,
+		"moveDelay": 800,
+		"weight": 25,
+		"cost": 130,
+		"crew": 1,
+		"recommendedCrew": 2,
+		"frontOnly": true,
+		"isGun": true,
+		"reload": 400,
+		"clip": 50,
+		"ammoPerClip": 2,
+		"clipReloadTime": 2000,
+		"inaccuracy": 0.0025,
+		"jitterMerge": 0.6,
+		"penDmg": 10,
+		"fireArc": { "direction": "forwards", "degrees": 120 },
+		"muzzleCenterX": 1.5,
+		"muzzleCenterY": 0.375,
+		"muzzleLength": 0.75,
+		"shootTroopsRange": 300,
+		"optimumRange": 300,
+		"recoilForce": 0.1,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "gatling0", "gatling1", "gatling2", "gatling3", "gatling4", "gatling5", "gatling6", "gatling7", "gatling8" ],
+					"volume": {
+						"min": 1.8,
+						"max": 2,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.0,
+						"distance": [
+							0, 1.2,
+							1000, 1,
+							3000, 0.7
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"shot": { "src": "wfw_spritesheet", "x": 190, "y": 324, "w": 2, "h": 1 },
+			"barrel": { "src": "wfw_spritesheet", "x": 4, "y": 320, "w": 23, "h": 13 },
+			"barrelX": 12.5,
+			"barrelY": 0.5,
+			"recoil": 2
+		}
+	}
+]

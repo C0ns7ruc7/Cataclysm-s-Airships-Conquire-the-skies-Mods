@@ -1,0 +1,27 @@
+[
+	{
+		"name": "BERTH",
+		"categories": ["COMMAND_AND_CREW"],
+		"sort": -12,
+		"availableFor": ["AIRSHIP", "LANDSHIP"],
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 32,
+			"y": 8,
+		},
+		"hp": 40,
+		"fireHP": 20,
+		"moveDelay": 600,
+		"weight": 15,
+		"cost": 15,
+		"maintenanceCost": { "base": 3, "UNIVERSAL_CONSCRIPTION": 2 },
+		"quarters": 3,
+		"quartersType": "sailor",
+		"windows": [
+			{ "x": 0, "y": 0 }
+		],
+		"upDoors": [ 0 ]
+	}
+]

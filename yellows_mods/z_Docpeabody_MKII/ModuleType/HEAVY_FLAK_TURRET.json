@@ -1,0 +1,320 @@
+[
+	{
+		"name": "FLIPPED_DP_HEAVY_FLAK_TURRET",
+		"flippedFrom": "DP_HEAVY_FLAK_TURRET"
+	},
+	{
+		"name": "DP_HEAVY_FLAK_TURRET",
+		"categories": ["WEAPONS_DOCPEABODY_TURRETS_HE"],
+		"required": "Y_FLAK_TURRETS",
+		"armourType": "MED_STEEL_HIDDEN_Y",
+		"isWeapon": true,
+		"w": 2,
+		"h": 2,
+		"appearance": {
+			"src": "docpeabody",
+			"x": 6,
+			"y": 19,
+			"w": 2,
+			"h": 2
+		},
+		"mask": {
+			"x": 10,
+			"y": 19
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "docpeabody",
+					"x": 8,
+					"y": 19,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"hp": 300,
+		"fireHP": 80,
+		"explodeHP": { "base": 70, "SAFER_CANNONS": 0 },
+		"explodeDmg": { "base": 80, "SAFER_CANNONS": 0 },
+		"moveDelay": 800,
+		"weight": 175,
+		"cost": 350,
+		"crew": 2,
+		"recommendedCrew": 3,
+		"recommendedGuards": 1,
+		"topOnly": true,
+		"isGun": true,
+		"isCannon": true,
+		"isExplosive": true,
+		"reload": { "base": 2500, "FASTER_CANNON_RELOAD": 2000 },
+		"clip": 6,
+		"inaccuracy": { "base": 0.002, "PRECISE_GUNNERY": 0.001 },
+		"blastDmg": { "base": 15, "POWERFUL_EXPLOSIVES": 20 },
+		"blastSplashRadius": 55,
+		"ammoPerClip": 2,
+		"numShots": 2,
+		"shotSpeedVariation": 0.02,
+		"multiShotJitter": 0.001,
+		"fireArc": { "arcCenter": "315", "degrees": 110 },
+		"muzzleCenterX": 1,
+		"muzzleCenterY": 1.375,
+		"muzzleLength": 1.75,
+		"optimumRange": 400,
+		"shootTroopsRange": 750,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "flak0", "flak1", "flak2", "flak3" ],
+					"volume": {
+						"min": 1.9,
+						"max": 2.1,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+							5000, 0
+						],
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.0,
+						"distance": [
+							0, 1.1,
+							3000, 0.7
+						]
+					}
+				},
+				{
+					"variations": [ "cannon_d_0", "cannon_d_1", "cannon_d_2", "cannon_d_3" ],
+					"volume": {
+						"min": 0.28,
+						"max": 0.32,
+						"distance": [
+							0, 0,
+							750, 0,
+							2000, 0.1,
+							3000, 0.5,
+							4000, 0.75,
+							5000, 0.1
+						],
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.1,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}	
+			]
+		},
+		"hitSound": {
+			"layers": [
+				{
+					"variations": ["smexplosion"],
+					"volume": {
+						"min": 1.6,
+						"max": 1.8,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+						],
+					},
+					"pitch": {
+						"min": 0.6,
+						"max": 0.7,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"recoilForce": 0.8,
+		"weaponAppearance": {
+			"shot": { "src": "docpeabody", "x": 25, "y": 205, "w": 4, "h": 2 },
+			"barrel": { "src": "docpeabody", "x": 16, "y": 117, "w": 64, "h": 6 },
+			"barrelX": -16,
+			"barrelY": 19,
+			"recoil": 3,
+			"hitExplosionSize": 0.8,
+			"missExplosionSize": 0.8,
+		}
+	},
+	{
+		"name": "FLIPPED_DP_VENTRAL_HEAVY_FLAK_TURRET",
+		"flippedFrom": "DP_VENTRAL_HEAVY_FLAK_TURRET"
+	},
+	{
+		"name": "DP_VENTRAL_HEAVY_FLAK_TURRET",
+		"categories": ["WEAPONS_DOCPEABODY_TURRETS_HE"],
+		"required": "Y_FLAK_TURRETS",
+		"armourType": "MED_STEEL_HIDDEN_Y",
+		"isWeapon": true,
+		"w": 2,
+		"h": 2,
+		"appearance": {
+			"src": "docpeabody",
+			"x": 14,
+			"y": 21,
+			"w": 2,
+			"h": 2
+		},
+		"mask": {
+			"x": 18,
+			"y": 21
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "docpeabody",
+					"x": 16,
+					"y": 21,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 },
+		],
+		"upDoors": [ 0 ],
+		"leftDoors": [ 0 ],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"hp": 300,
+		"fireHP": 80,
+		"explodeHP": { "base": 70, "SAFER_CANNONS": 0 },
+		"explodeDmg": { "base": 80, "SAFER_CANNONS": 0 },
+		"moveDelay": 800,
+		"weight": 175,
+		"cost": 350,
+		"crew": 2,
+		"recommendedCrew": 3,
+		"recommendedGuards": 1,
+		"bottomOnly": true,
+		"isGun": true,
+		"isCannon": true,
+		"isExplosive": true,
+		"reload": { "base": 2500, "FASTER_CANNON_RELOAD": 2000 },
+		"clip": 6,
+		"inaccuracy": { "base": 0.002, "PRECISE_GUNNERY": 0.001 },
+		"blastDmg": { "base": 15, "POWERFUL_EXPLOSIVES": 20 },
+		"blastSplashRadius": 55,
+		"ammoPerClip": 2,
+		"numShots": 2,
+		"shotSpeedVariation": 0.02,
+		"multiShotJitter": 0.001,
+		"fireArc": { "arcCenter": "45", "degrees": 110 },
+		"muzzleCenterX": 1,
+		"muzzleCenterY": 0.625,
+		"muzzleLength": 1.75,
+		"optimumRange": 400,
+		"shootTroopsRange": 750,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "flak0", "flak1", "flak2", "flak3" ],
+					"volume": {
+						"min": 1.9,
+						"max": 2.1,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+							5000, 0
+						],
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.0,
+						"distance": [
+							0, 1.1,
+							3000, 0.7
+						]
+					}
+				},
+				{
+					"variations": [ "cannon_d_0", "cannon_d_1", "cannon_d_2", "cannon_d_3" ],
+					"volume": {
+						"min": 0.28,
+						"max": 0.32,
+						"distance": [
+							0, 0,
+							750, 0,
+							2000, 0.1,
+							3000, 0.5,
+							4000, 0.75,
+							5000, 0.1
+						],
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.1,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}	
+			]
+		},
+		"hitSound": {
+			"layers": [
+				{
+					"variations": ["smexplosion"],
+					"volume": {
+						"min": 1.6,
+						"max": 1.8,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+						],
+					},
+					"pitch": {
+						"min": 0.6,
+						"max": 0.7,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"recoilForce": 0.8,
+		"weaponAppearance": {
+			"shot": { "src": "docpeabody", "x": 25, "y": 205, "w": 4, "h": 2 },
+			"barrel": { "src": "docpeabody", "x": 16, "y": 117, "w": 64, "h": 6 },
+			"barrelX": -16,
+			"barrelY": 7,
+			"recoil": 3,
+			"hitExplosionSize": 0.8,
+			"missExplosionSize": 0.8,
+		}
+	}
+]

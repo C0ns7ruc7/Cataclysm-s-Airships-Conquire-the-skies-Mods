@@ -1,0 +1,566 @@
+[
+	{
+		"name": "RS_SHAPE_COPPER_SQUARE",
+		"categories": ["RS_SHAPING_COPPER"],
+		"required": "Y_B_SHAPES",
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "ramming_speed_2",
+			"x": 25,
+			"y": 32,
+			"w": 1,
+			"h": 1
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"x": 24,
+					"y": 8,
+					"w": 1,
+					"h": 1
+				}
+			}
+		],
+		"hp": 60,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 3,
+		"cost": 4,
+		"canOccupy": [],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+	},
+	{
+		"name": "RS_SHAPE_COPPER_RAMP_DOWN",
+		"categories": ["RS_SHAPING_COPPER"],
+		"required": "Y_B_SHAPES",
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "ramming_speed_2",
+			"x": 25,
+			"y": 32,
+			"w": 1,
+			"h": 1
+		},
+		"mask": {
+			"x": 25,
+			"y": 10
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"x": 29,
+					"y": 10,
+					"w": 1,
+					"h": 1
+				}
+			}
+		],
+		"hp": 40,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 2,
+		"cost": 3,
+		"canOccupy": [],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+	},
+	{
+		"name": "FLIPPED_RS_SHAPE_COPPER_RAMP_DOWN",
+		"flippedFrom": "RS_SHAPE_COPPER_RAMP_DOWN"
+	},
+	{
+		"name": "RS_SHAPE_COPPER_RAMP_UP",
+		"categories": ["RS_SHAPING_COPPER"],
+		"required": "Y_B_SHAPES",
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "ramming_speed_2",
+			"x": 25,
+			"y": 32,
+			"w": 1,
+			"h": 1
+		},
+		"mask": {
+			"x": 25,
+			"y": 9
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"x": 29,
+					"y": 9,
+					"w": 1,
+					"h": 1
+				}
+			}
+		],
+		"hp": 40,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 2,
+		"cost": 3,
+		"canOccupy": [],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+	},
+	{
+		"name": "FLIPPED_RS_SHAPE_COPPER_RAMP_UP",
+		"flippedFrom": "RS_SHAPE_COPPER_RAMP_UP"
+	},
+	{
+		"name": "RS_SHAPE_COPPER_SLOPE_DOWN",
+		"categories": ["RS_SHAPING_COPPER"],
+		"required": "Y_B_SHAPES",
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "ramming_speed_2",
+			"x": 25,
+			"y": 32,
+			"w": 2,
+			"h": 1
+		},
+		"mask": {
+			"x": 25,
+			"y": 8
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"x": 28,
+					"y": 8,
+					"w": 2,
+					"h": 1
+				}
+			}
+		],
+		"hp": 120,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 4,
+		"cost": 6,
+		"canOccupy": [],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+	},
+	{
+		"name": "FLIPPED_RS_SHAPE_COPPER_SLOPE_DOWN",
+		"flippedFrom": "RS_SHAPE_COPPER_SLOPE_DOWN"
+	},
+	{
+		"name": "RS_SHAPE_COPPER_SLOPE_UP",
+		"categories": ["RS_SHAPING_COPPER"],
+		"required": "Y_B_SHAPES",
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "ramming_speed_2",
+			"x": 25,
+			"y": 32,
+			"w": 2,
+			"h": 1
+		},
+		"mask": {
+			"x": 25,
+			"y": 8
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"x": 26,
+					"y": 8,
+					"w": 2,
+					"h": 1
+				}
+			}
+		],
+		"hp": 120,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 4,
+		"cost": 6,
+		"canOccupy": [],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+	},
+	{
+		"name": "FLIPPED_RS_SHAPE_COPPER_SLOPE_UP",
+		"flippedFrom": "RS_SHAPE_COPPER_SLOPE_UP"
+	},
+	{
+		"name": "RS_SHAPE_COPPER_SPIKE_DOWN",
+		"categories": ["RS_SHAPING_COPPER"],
+		"required": "Y_B_SHAPES",
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 2,
+		"appearance": {
+			"src": "ramming_speed_2",
+			"x": 25,
+			"y": 32,
+			"w": 1,
+			"h": 2
+		},
+		"mask": {
+			"x": 25,
+			"y": 9
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"x": 27,
+					"y": 9,
+					"w": 1,
+					"h": 2
+				}
+			}
+		],
+		"hp": 120,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 4,
+		"cost": 6,
+		"canOccupy": [],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+	},
+	{
+		"name": "FLIPPED_RS_SHAPE_COPPER_SPIKE_DOWN",
+		"flippedFrom": "RS_SHAPE_COPPER_SPIKE_DOWN"
+	},
+	{
+		"name": "RS_SHAPE_COPPER_SPIKE_UP",
+		"categories": ["RS_SHAPING_COPPER"],
+		"required": "Y_B_SHAPES",
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 2,
+		"appearance": {
+			"src": "ramming_speed_2",
+			"x": 25,
+			"y": 32,
+			"w": 1,
+			"h": 2
+		},
+		"mask": {
+			"x": 25,
+			"y": 9
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"x": 28,
+					"y": 9,
+					"w": 1,
+					"h": 2
+				}
+			}
+		],
+		"hp": 120,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 4,
+		"cost": 6,
+		"canOccupy": [],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+	},
+	{
+		"name": "FLIPPED_RS_SHAPE_COPPER_SPIKE_UP",
+		"flippedFrom": "RS_SHAPE_COPPER_SPIKE_UP"
+	},
+	{
+		"name": "RS_SHAPE_COPPER_HILL_DOWN",
+		"categories": ["RS_SHAPING_COPPER"],
+		"required": "Y_B_SHAPES",
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 3,
+		"h": 1,
+		"appearance": {
+			"src": "ramming_speed_2",
+			"x": 25,
+			"y": 32,
+			"w": 3,
+			"h": 1
+		},
+		"mask": {
+			"x": 25,
+			"y": 10
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"x": 24,
+					"y": 10,
+					"w": 3,
+					"h": 1
+				}
+			}
+		],
+		"hp": 180,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 7,
+		"cost": 10,
+		"canOccupy": [],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+	},
+	{
+		"name": "FLIPPED_RS_SHAPE_COPPER_HILL_DOWN",
+		"flippedFrom": "RS_SHAPE_COPPER_HILL_DOWN"
+	},
+	{
+		"name": "RS_SHAPE_COPPER_HILL_UP",
+		"categories": ["RS_SHAPING_COPPER"],
+		"required": "Y_B_SHAPES",
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 3,
+		"h": 1,
+		"appearance": {
+			"src": "ramming_speed_2",
+			"x": 25,
+			"y": 32,
+			"w": 3,
+			"h": 1
+		},
+		"mask": {
+			"x": 25,
+			"y": 9
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"x": 24,
+					"y": 9,
+					"w": 3,
+					"h": 1
+				}
+			}
+		],
+		"hp": 180,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 7,
+		"cost": 10,
+		"canOccupy": [],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+	},
+	{
+		"name": "FLIPPED_RS_SHAPE_COPPER_HILL_UP",
+		"flippedFrom": "RS_SHAPE_COPPER_HILL_UP"
+	},
+	{
+		"name": "RS_SHAPE_COPPER_INCLINE_DOWN",
+		"categories": ["RS_SHAPING_COPPER"],
+		"required": "Y_B_SHAPES",
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 3,
+		"appearance": {
+			"src": "ramming_speed_2",
+			"x": 25,
+			"y": 32,
+			"w": 1,
+			"h": 3
+		},
+		"mask": {
+			"x": 25,
+			"y": 8
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"x": 30,
+					"y": 8,
+					"w": 1,
+					"h": 3
+				}
+			}
+		],
+		"hp": 180,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 7,
+		"cost": 10,
+		"canOccupy": [],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+	},
+	{
+		"name": "FLIPPED_RS_SHAPE_COPPER_INCLINE_DOWN",
+		"flippedFrom": "RS_SHAPE_COPPER_INCLINE_DOWN"
+	},
+	{
+		"name": "RS_SHAPE_COPPER_INCLINE_UP",
+		"categories": ["RS_SHAPING_COPPER"],
+		"required": "Y_B_SHAPES",
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 3,
+		"appearance": {
+			"src": "ramming_speed_2",
+			"x": 25,
+			"y": 32,
+			"w": 1,
+			"h": 3
+		},
+		"mask": {
+			"x": 25,
+			"y": 8
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"x": 31,
+					"y": 8,
+					"w": 1,
+					"h": 3
+				}
+			}
+		],
+		"hp": 180,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 7,
+		"cost": 10,
+		"canOccupy": [],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+	},
+	{
+		"name": "FLIPPED_RS_SHAPE_COPPER_INCLINE_UP",
+		"flippedFrom": "RS_SHAPE_COPPER_INCLINE_UP"
+	},
+	{
+		"name": "RS_SHAPE_COPPER_ROUND_DOWN",
+		"categories": ["RS_SHAPING_COPPER"],
+		"required": "Y_B_SHAPES",
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "ramming_speed_2",
+			"x": 25,
+			"y": 32,
+			"w": 1,
+			"h": 1
+		},
+		"mask": {
+			"x": 25,
+			"y": 6
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"x": 33,
+					"y": 6,
+					"w": 1,
+					"h": 1
+				}
+			}
+		],
+		"hp": 60,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 3,
+		"cost": 4,
+		"canOccupy": [],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+	},
+	{
+		"name": "FLIPPED_RS_SHAPE_COPPER_ROUND_DOWN",
+		"flippedFrom": "RS_SHAPE_COPPER_ROUND_DOWN"
+	},
+	{
+		"name": "RS_SHAPE_COPPER_ROUND_UP",
+		"categories": ["RS_SHAPING_COPPER"],
+		"required": "Y_B_SHAPES",
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "ramming_speed_2",
+			"x": 25,
+			"y": 32,
+			"w": 1,
+			"h": 1
+		},
+		"mask": {
+			"x": 25,
+			"y": 6
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed_2",
+					"x": 32,
+					"y": 6,
+					"w": 1,
+					"h": 1
+				}
+			}
+		],
+		"hp": 60,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 3,
+		"cost": 4,
+		"canOccupy": [],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+	},
+	{
+		"name": "FLIPPED_RS_SHAPE_COPPER_ROUND_UP",
+		"flippedFrom": "RS_SHAPE_COPPER_ROUND_UP"
+	}
+]

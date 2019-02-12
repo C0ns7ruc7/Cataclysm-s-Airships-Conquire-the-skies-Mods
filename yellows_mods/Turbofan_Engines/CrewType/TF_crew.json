@@ -1,0 +1,236 @@
+[
+	{
+		"name": "tf_jet_fighter",
+		"isMachine": true,
+		"doesWork": false,
+		"doesGuard": false,
+		"canBoard": false,
+		"shootsShips": true,
+		"canFly": true,
+		"crashesOnDeath": true,
+		"canWalk": false,
+		"airXMinSpeed": 0.5,
+		"airXTopSpeed": 2,
+		"airUpTopSpeed": 0.75,
+		"airDownTopSpeed": 1.5,
+		"airXAcceleration": 0.002,
+		"airUpAcceleration": 0.0005,
+		"airDownAcceleration": 0.002,
+		"airOvershoot": 0.7,
+		"launchMinXSpeed": 0.5,
+		"launchMaxXSpeed": 0.5,
+		"launchMinYSpeed": -0.1,
+		"launchMaxYSpeed": -0.02,
+		"launchLength": 1000,
+		"popOutDelayMin": 300,
+		"popOutDelayRange": 500,
+		"strafeOvershoot": 600,
+		"penDmg": 6,
+		"weaponReload": 50,
+		"barrelX": 82,
+		"barrelY": 21,
+		"shotSpeed": 2,
+		"inaccuracy": 0.0015,
+		"maxRange": 600,
+		"shootTroopsRange": 600,
+		"interceptTroops": true,
+		"crewEffectiveness": 0,
+		"goingUpSpeedMult": 1,
+		"maxHP": 20,
+		"minWorkingHP": 1,
+		"returnToRepairHP": 7,
+		"msPerHPRepaired": 1500,
+		"animLook": "tf_jet_fighter",
+		"simpleLookImg": {
+			"src": "turbofan",
+			"x": 208,
+			"y": 160,
+			"w": 82,
+			"h": 31
+		},
+		"recolorOriginalA": { "r": 187, "g": 66, "b": 29 },
+		"recolorReplacementA": "COA_1",
+		"recolorOriginalB": { "r": 217, "g": 213, "b": 203 },
+		"recolorReplacementB": "COA_2",
+		"supplyCost": 3,
+		"shot": { "src": "turbofan", "x": 194, "y": 146, "w": 2, "h": 1 },
+		"shouts": "crew",
+		"deathSnd": {
+			"layers": [
+				{
+					"variations": ["death0", "death1", "death2", "death3", "death4"],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.2
+					}
+				}
+			]
+		},
+		"bloodParticleExternal": "damaged_spark",
+		"explosionSize": 3.5,
+		"coughSnd": {
+			"layers": [
+				{
+					"variations": ["cough0", "cough1", "cough2", "cough3"],
+					"volume": {
+						"min": 0.3,
+						"max": 0.4
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1
+					}
+				}
+			]
+		},
+		"attackSnd": {
+			"layers": [
+				{
+					"variations": ["gatling1", "gatling2", "gatling3", "gatling4"],
+					"volume": {
+						"min": 0.2,
+						"max": 0.4
+					},
+					"pitch": {
+						"min": 1.3,
+						"max": 1.5
+					}
+				}
+			]
+		},
+		"attackParticle": "muzzle_small",
+		"launchSnd": {
+			"layers": [
+				{
+					"variations": ["tf_jet_fighter_takeoff"],
+					"volume": 0.7,
+					"pitch": {
+						"min": 1.1,
+						"max": 1.2
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "tf_heavy_jet_fighter",
+		"isMachine": true,
+		"doesWork": false,
+		"doesGuard": false,
+		"canBoard": false,
+		"shootsShips": true,
+		"canFly": true,
+		"crashesOnDeath": true,
+		"canWalk": false,
+		"airXMinSpeed": 0.5,
+		"airXTopSpeed": 1.7,
+		"airUpTopSpeed": 0.6,
+		"airDownTopSpeed": 1.3,
+		"airXAcceleration": 0.0015,
+		"airUpAcceleration": 0.00035,
+		"airDownAcceleration": 0.0015,
+		"airOvershoot": 0.6,
+		"launchMinXSpeed": 0.5,
+		"launchMaxXSpeed": 0.5,
+		"launchMinYSpeed": -0.1,
+		"launchMaxYSpeed": -0.02,
+		"launchLength": 1000,
+		"popOutDelayMin": 300,
+		"popOutDelayRange": 500,
+		"strafeOvershoot": 500,
+		"penDmg": 6,
+		"weaponReload": 30,
+		"barrelX": 91,
+		"barrelY": 26,
+		"shotSpeed": 2,
+		"inaccuracy": 0.0015,
+		"maxRange": 600,
+		"shootTroopsRange": 600,
+		"interceptTroops": true,
+		"crewEffectiveness": 0,
+		"goingUpSpeedMult": 1,
+		"maxHP": 25,
+		"minWorkingHP": 1,
+		"returnToRepairHP": 9,
+		"msPerHPRepaired": 1500,
+		"animLook": "tf_heavy_jet_fighter",
+		"simpleLookImg": {
+			"src": "turbofan",
+			"x": 304,
+			"y": 160,
+			"w": 93,
+			"h": 35,
+		},
+		"recolorOriginalA": { "r": 187, "g": 66, "b": 29 },
+		"recolorReplacementA": "COA_1",
+		"recolorOriginalB": { "r": 217, "g": 213, "b": 203 },
+		"recolorReplacementB": "COA_2",
+		"supplyCost": 3,
+		"shot": { "src": "turbofan", "x": 194, "y": 146, "w": 2, "h": 1 },
+		"shouts": "crew",
+		"deathSnd": {
+			"layers": [
+				{
+					"variations": ["death0", "death1", "death2", "death3", "death4"],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.2
+					}
+				}
+			]
+		},
+		"bloodParticleExternal": "damaged_spark",
+		"explosionSize": 4.5,
+		"coughSnd": {
+			"layers": [
+				{
+					"variations": ["cough0", "cough1", "cough2", "cough3"],
+					"volume": {
+						"min": 0.3,
+						"max": 0.4
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1
+					}
+				}
+			]
+		},
+		"attackSnd": {
+			"layers": [
+				{
+					"variations": ["gatling1", "gatling2", "gatling3", "gatling4"],
+					"volume": {
+						"min": 0.2,
+						"max": 0.4
+					},
+					"pitch": {
+						"min": 1.3,
+						"max": 1.5
+					}
+				}
+			]
+		},
+		"attackParticle": "muzzle_small",
+		"launchSnd": {
+			"layers": [
+				{
+					"variations": ["tf_jet_fighter_takeoff"],
+					"volume": 0.7,
+					"pitch": {
+						"min": 1.1,
+						"max": 1.2
+					}
+				}
+			]
+		},
+	}
+]

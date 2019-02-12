@@ -1,0 +1,44 @@
+[
+	{
+		"name": "LARGE_GUARD_BARRACKS",
+		"categories": ["TROOPS"],
+		"sort": -8,
+		"w": 4,
+		"h": 2,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 33,
+			"y": 8,
+			"w": 4,
+			"h": 2
+		},
+		"hp": 270,
+		"fireHP": 190,
+		"moveDelay": 600,
+		"weight": 75,
+		"cost": 100,
+		"maintenanceCost": { "base": 2, "MARTIAL_CASTE": 1 },
+		"quarters": 12,
+		"quartersType": "guard",
+		"upDoors": [ 2 ],
+		"leftDoors": [ 0, 1 ],
+		"rightDoors": [ 0, 1 ],
+		"canOccupy": 
+		[
+			{ "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 },
+			{ "x": 2, "y": 0 },
+			{ "x": 3, "y": 0 },
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 },
+			{ "x": 2, "y": 1 },
+			{ "x": 3, "y": 1 }
+		],
+		"windows": [
+			{ "x": 0, "y": 1 },
+			{ "x": 2, "y": 0 },
+			{ "x": 2, "y": 1 },
+			{ "x": 3, "y": 0 }
+		]
+	}
+]

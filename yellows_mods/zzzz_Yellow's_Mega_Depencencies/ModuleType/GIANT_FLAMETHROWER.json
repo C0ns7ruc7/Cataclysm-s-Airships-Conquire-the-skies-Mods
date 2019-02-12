@@ -1,0 +1,81 @@
+[
+	{
+		"name": "FLIPPED_GIANT_FLAMETHROWER",
+		"flippedFrom": "GIANT_FLAMETHROWER"
+	},
+	{
+		"name": "GIANT_FLAMETHROWER",
+		"categories": ["WEAPONS"],
+		"required": "FLAMETHROWERS",
+		"isWeapon": true,
+		"w": 4,
+		"h": 2,
+		"appearance": {
+			"src": "spritesheet",
+			"x": 29,
+			"y": 37,
+			"w": 4,
+			"h": 2
+		},
+		"hp": 150,
+		"fireHP": 120,
+		"moveDelay": 600,
+		"weight": 200,
+		"cost": 800,
+		"crew": 2,
+		"recommendedCrew": 4,
+		"frontOnly": true,
+		"muzzleFlash": false,
+		"maxRange": 350,
+		"shotSpeed": 0.15,
+		"jitterMerge": 0.98,
+		"reload": 50,
+        "obeysFireMode": false,
+		"clip": 120,
+		"ammoPerClip": 4,
+		"clipReloadTime": 4000,
+		"inaccuracy": 0.002,
+		"blastDmg": 15,
+		"blastSplashRadius": 0,
+		"fireArc": { "direction": "forwards", "degrees": 120 },
+		"muzzleCenterX": 3.5625,
+		"muzzleCenterY": 1,
+		"muzzleLength": 2,
+		"optimumRange": 50,
+		"shootTroopsRange": 200,
+		"fixedInaccuracyVsTroops": 2,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "flamethrower0" ],
+					"volume": {
+						"min": 2.5,
+						"max": 2.8,
+						"distance": [
+							0, 1,
+							1000, 0.7,
+							2000, 0.3,
+							3000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.6,
+						"max": 0.8,
+						"distance": [
+							0, 1.0,
+							3000, 0.7
+						]
+					}
+				}
+			]
+		},
+		"soundEvery": 8,
+		"weaponAppearance": {
+			"shot": { "src": "spritesheet", "x": 224, "y": 304, "w": 11, "h": 11 },
+			"barrel": { "src": "spritesheet", "x": 390, "y": 561, "w": 62, "h": 18 },
+			"barrelX": 26,
+			"barrelY": 7,
+			"shotEmitter": { "type": "flame", "emitProbability": 0.02 }
+		}
+	}
+]

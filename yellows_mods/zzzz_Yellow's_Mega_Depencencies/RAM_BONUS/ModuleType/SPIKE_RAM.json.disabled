@@ -1,0 +1,43 @@
+[
+    {
+        "name": "SPIKE_RAM",
+        "categories": ["WEAPONS"],
+        "availableFor": ["AIRSHIP", "LANDSHIP"],
+        "isRam": true,
+        "external": true,
+        "w": 4,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 39,
+            "y": 37,
+            "w": 4,
+            "h": 1
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 39,
+                    "y": 37,
+                    "w": 4,
+                    "h": 1
+                }
+            }
+        ],
+        "hp": { "base": 7000, "RAMMING_PROWNESS": 8750 },
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 900,
+        "cost": { "base": 90, "RAMMING_PROWNESS": 72 },
+        "canOccupy": [],
+        "hardness": { "base": 2.5, "RAMMING_PROWNESS": 3.125 },
+        "mask": {
+            "x": 26,
+            "y": 6
+        }
+    }
+]
+

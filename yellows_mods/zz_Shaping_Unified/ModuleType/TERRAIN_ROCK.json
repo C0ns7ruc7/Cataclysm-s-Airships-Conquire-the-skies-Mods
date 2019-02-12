@@ -1,0 +1,198 @@
+[
+	{
+		"name": "STONE",
+		"categories": ["DECORATIVE_TERRAIN"],
+		"required": "Y_ROCK",
+		"armourType": "ROCK_HIDDEN_Y",
+		"sort": 6,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 0,
+			"y": 45
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 9, "y": 17, "w": 1, "h": 1 },
+						{ "x": 10, "y": 17, "w": 1, "h": 1 },
+						{ "x": 11, "y": 17, "w": 1, "h": 1 },
+						{ "x": 12, "y": 17, "w": 1, "h": 1 },
+						{ "x": 9, "y": 17, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 17, "w": 1, "h": 1, "flipped": true },
+						{ "x": 11, "y": 17, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 17, "w": 1, "h": 1, "flipped": true }
+					],
+				},
+				"x": 0,
+				"y": 0
+			},
+		],
+		"hp": 1000,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 400,
+		"cost": 15,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 1.0,
+		"hardness": 1.6,
+		"collisionDamageReceivedMult": 1.0,
+		"structuralStressAmount": 0,
+		"doesCreak": false,
+		"hitParticle": "rock_bit",
+		"fragmentsFireMult": 0,
+		"destructionParticle": "rock_bit",
+		"destructionParticleDensity": 10,
+        "drawExternalsBelowDecals": true,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "stones" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "DIRTY_STONE",
+		"categories": ["DECORATIVE_TERRAIN"],
+		"required": "Y_ROCK",
+		"armourType": "ROCK_HIDDEN_Y",
+		"sort": 5,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 0,
+			"y": 45
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 9, "y": 19, "w": 1, "h": 1 },
+						{ "x": 10, "y": 19, "w": 1, "h": 1 },
+						{ "x": 11, "y": 19, "w": 1, "h": 1 },
+						{ "x": 12, "y": 19, "w": 1, "h": 1 },
+						{ "x": 9, "y": 19, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 19, "w": 1, "h": 1, "flipped": true },
+						{ "x": 11, "y": 19, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 19, "w": 1, "h": 1, "flipped": true }
+					],
+				},
+				"x": 0,
+				"y": 0
+			},
+		],
+		"hp": 800,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 350,
+		"cost": 12,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 1.0,
+		"hardness": 1.5,
+		"collisionDamageReceivedMult": 1.0,
+		"structuralStressAmount": 0,
+		"doesCreak": false,
+		"hitParticle": "rock_bit",
+		"fragmentsFireMult": 0,
+		"destructionParticle": "rock_bit",
+		"destructionParticleDensity": 10,
+        "drawExternalsBelowDecals": true,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "stones" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+]

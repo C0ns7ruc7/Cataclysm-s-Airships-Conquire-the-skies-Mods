@@ -1,0 +1,81 @@
+[
+	{
+		"name": "FLIPPED_RAM_RS_BIG_FAT_LOG",
+		"flippedFrom": "RAM_RS_BIG_FAT_LOG"
+	},
+	{
+		"name": "RAM_RS_BIG_FAT_LOG",
+		"categories": ["RS_RAMS_WOOD"],
+		"availableFor": ["AIRSHIP", "LANDSHIP"],
+		"required": "Y_W_RAMS",
+		"isRam": true,
+		"armourType": "HV_WOOD_HIDDEN_Y",
+		"w": 4,
+		"h": 2,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "ramming_speed",
+			"x": 25,
+			"y": 32,
+			"w": 4,
+			"h": 2,
+		},
+		"mask": {
+			"x": 0,
+			"y": 24
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed",
+					"frames": [
+						{ "x": 4, "y": 12, "w": 4, "h": 2 },
+						{ "x": 4, "y": 14, "w": 4, "h": 2 },
+						{ "x": 4, "y": 16, "w": 4, "h": 2 },
+						{ "x": 4, "y": 18, "w": 4, "h": 2 }
+					]
+				}
+			}
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 97, "g": 63, "b": 45 },
+		"hp": 15000,
+		"fireHP": 2000,
+		"moveDelay": 10000,
+		"weight": 1200,
+		"cost": 80,
+		"canOccupy": [],
+		"hardness": { "base": 1.5, "RAMMING_PROWNESS": 1.85 },
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 10,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 1.8,
+						"max": 2.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.6,
+						"max": 0.8,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	}
+]

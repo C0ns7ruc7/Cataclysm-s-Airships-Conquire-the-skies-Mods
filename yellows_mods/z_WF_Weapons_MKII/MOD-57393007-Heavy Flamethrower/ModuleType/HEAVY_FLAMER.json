@@ -1,0 +1,66 @@
+[
+    {
+        "name": "FLIPPED_HEAVY_FLAMER",
+        "flippedFrom": "HEAVY_FLAMER"
+    },
+    {
+        "name": "HEAVY_FLAMER",
+        "categories": ["WEAPONS"],
+        "required": "FLAMETHROWERS",
+        "isWeapon": true,
+        "w": 3,
+        "h": 2,
+        "appearance": {
+            "src": "heavy_flamer",
+            "x": 0,
+            "y": 0,
+            "w": 3,
+            "h": 2
+        },
+        "hp": 120,
+        "fireHP": 100,
+        "moveDelay": 800,
+        "weight": 100,
+        "cost": 150,
+        "crew": 2,
+        "recommendedCrew": 3,
+		"windows": [
+			{ "x": 0, "y": 0 },
+			{ "x": 0, "y": 1 }
+		],
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 },
+			{ "x": 2, "y": 1 }
+		],
+        "upDoors": [ 0 ],
+        "leftDoors": [ 0, 1 ],
+        "frontOnly": true,
+        "muzzleFlash": false,
+        "maxXRange": 420,
+        "maxUpRange": 160,
+        "shotSpeed": 0.15,
+        "jitterMerge": 0.95,
+        "reload": 62,
+        "clip": 80,
+        "inaccuracy": 0.008,
+        "blastDmg": 10,
+        "penDmg": 0,
+        "fireArc": { "direction": "forwards", "degrees": 65 },
+        "muzzleCenterX": 2.0,
+        "muzzleCenterY": 1.0,
+        "muzzleLength": 1.1,
+        "optimumRange": 90,
+        "fireSound": "flamethrower",
+        "fireSoundCount": 1,
+        "soundEvery":7,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 224, "y": 304, "w": 11, "h": 11 },
+            "barrel": { "src": "heavy_flamer", "x": 13, "y": 44, "w": 38, "h": 8 },
+            "barrelX": 13,
+            "barrelY": 12,
+            "shotEmitter": { "type": "fire", "emitProbability": 0.02 }
+        }
+    }
+]

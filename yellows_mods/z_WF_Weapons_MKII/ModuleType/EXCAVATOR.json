@@ -1,0 +1,298 @@
+[
+	{
+		"name": "FLIPPED_EXCAVATOR",
+		"flippedFrom": "EXCAVATOR",
+		"sort": 5555,
+	},
+	{
+		"name": "EXCAVATOR",
+		"categories": ["ECONOMIC"],
+		"required": "Y_WF_EXCAVATOR",
+		"sort": 5555,
+		"isWeapon": true,
+		"w": 10,
+		"h": 5,
+		"appearance": {
+			"interval": 100,
+			"src": "wfw_spritesheet",
+			"frames": [
+				{
+					"x": 27,
+					"y": 2,
+					"w": 10,
+					"h": 5
+				},
+				{
+					"x": 37,
+					"y": 2,
+					"w": 10,
+					"h": 5
+				},
+				{
+					"x": 47,
+					"y": 2,
+					"w": 10,
+					"h": 5
+				},
+				{
+					"x": 37,
+					"y": 7,
+					"w": 10,
+					"h": 5
+				}
+			]
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": -2,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 27,
+					"y": 0,
+					"w": 3,
+					"h": 2
+				}
+			},
+			{
+				"x": 6,
+				"y": 4,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 33,
+					"y": 7,
+					"w": 2,
+					"h": 1
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": -2,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 30,
+					"y": 0,
+					"w": 3,
+					"h": 2
+				}
+			},
+			{
+				"x": 6,
+				"y": 4,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 35,
+					"y": 7,
+					"w": 2,
+					"h": 1
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": -2,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 33,
+					"y": 0,
+					"w": 3,
+					"h": 2
+				}
+			},
+			{
+				"x": 6,
+				"y": 4,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 33,
+					"y": 8,
+					"w": 2,
+					"h": 1
+				}
+			}
+		],
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+        "externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
+        "drawExternalsBelowDecals": true,
+		"hp": 1300,
+		"fireHP": 300,
+		"moveDelay": 800,
+		"weight": 2000,
+		"cost": 1000,
+		"maintenanceCost": -40,
+		"crew": 5,
+		"coal": 15,
+		"recommendedCrew": 6,
+		"coalReload": 10000,
+		"windows": [
+			{ "x": 3, "y": 0 },
+			{ "x": 6, "y": 3 }
+		],
+		"frontOnly": true,
+		"topOnly": true,
+		"leftDoors": [0,1,2,3,4],
+		"maxRange": 340,
+		"maxUpRange": 260,
+		"reload": 500,
+		"inaccuracy": 0,
+		"blastDmg": 30,
+		"blastSplashRadius": 5,
+		"penDmg": 50,
+		"clip": 0,
+		"fireArc": { "arcCenter": "340", "degrees": 100 },
+		"muzzleCenterX": 7.9375,
+		"muzzleCenterY": 2,
+		"muzzleLength": 12,
+		"muzzleFlash": false,
+		"optimumRange": 320,
+		"recoilForce": 0.1,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "engine_1600" ],
+					"volume": {
+						"value": 1.6,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.65,
+						"max": 0.65,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"msUntilPlayLoop": 2000,
+		"runningLoop": {
+			"loopFadeInMs": 500,
+			"loopFadeOutMs": 700,
+			"layers": [
+				{
+					"variations": [ "excavator0" ],
+					"volume": {
+						"value": 1.5,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.6,
+						"max": 0.6,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"barrelAnimation": {
+				"interval": 100,
+				"loop": true,
+				"finishLoopCycle": false,
+				"msPerShot": 1800,
+				"frames": [
+					{ "src": "wfw_spritesheet", "x": 320, "y": 373, "w": 704, "h": 162 },
+					{ "src": "wfw_spritesheet", "x": 320, "y": 536, "w": 704, "h": 162 },
+					{ "src": "wfw_spritesheet", "x": 320, "y": 699, "w": 704, "h": 162 },
+					{ "src": "wfw_spritesheet", "x": 320, "y": 862, "w": 704, "h": 162 }
+				]
+			},
+			"barrelX": -225,
+			"barrelY": -49
+		},
+		"emitters": [
+			{
+				"x": 1,
+				"y": -1.9375,
+				"type": "big_smoke",
+				"emitProbability": 0.003
+			},
+			{
+				"x": 2,
+				"y": 4.4375,
+				"type": "ember",
+				"emitProbability": 0.006,
+				"inside": true
+			},
+			{
+				"x": 0.875,
+				"y": 3.25,
+				"type": "ember",
+				"emitProbability": 0.004,
+				"inside": true
+			},
+			{
+				"x": 0.875,
+				"y": 4.3125,
+				"type": "ember",
+				"emitProbability": 0.004,
+				"inside": true
+			},
+			{
+				"x": 3.125,
+				"y": 3.25,
+				"type": "ember",
+				"emitProbability": 0.004,
+				"inside": true
+			},
+			{
+				"x": 3.125,
+				"y": 4.3125,
+				"type": "ember",
+				"emitProbability": 0.004,
+				"inside": true
+			}
+		],
+		"lights": [
+			{
+				"r": 255, "g": 125, "b": 20,
+				"radius": 120,
+				"x": 2,
+				"y": 4.4375
+			}
+		],
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 0, "y": 1 },
+			{ "x": 0, "y": 2 },
+			{ "x": 0, "y": 3 },
+			{ "x": 0, "y": 4 },
+			{ "x": 1, "y": 4 },
+			{ "x": 1, "y": 3 },
+			{ "x": 1, "y": 2 },
+			{ "x": 1, "y": 0 },
+			{ "x": 2, "y": 4 },
+			{ "x": 2, "y": 3 },
+			{ "x": 2, "y": 2 },
+			{ "x": 2, "y": 0 },
+			{ "x": 3, "y": 4 },
+			{ "x": 3, "y": 3 },
+			{ "x": 3, "y": 2 },
+			{ "x": 3, "y": 0 },
+			{ "x": 4, "y": 4 },
+			{ "x": 5, "y": 4 },
+			{ "x": 6, "y": 4 },
+			{ "x": 7, "y": 4 },
+			{ "x": 8, "y": 4 },
+			{ "x": 9, "y": 4 },
+		],
+	}
+]

@@ -1,0 +1,104 @@
+[
+	{
+		"name": "DEATH_RAY",
+		"categories": [],
+		"requires": "MONSTERS",
+		"isWeapon": true,
+		"w": 5,
+		"h": 2,
+		"appearance": {
+			"src": "spritesheet",
+			"x": 37,
+			"y": 27,
+			"w": 5,
+			"h": 2
+		},
+		"externalAppearances": [
+			{
+				"x": 1,
+				"y": -3,
+				"appearance": {
+					"src": "spritesheet",
+					"x": 38,
+					"y": 24,
+					"w": 3,
+					"h": 3
+				}
+			}
+		],
+		"hp": 300,
+		"fireHP": 100,
+		"moveDelay": 800,
+		"weight": 500,
+		"cost": 2000,
+		"crew": 3,
+		"recommendedCrew": 3,
+		"recommendedGuards": 5,
+		"topOnly": true,
+		"reload": 2500,
+		"inaccuracy": 0.0006,
+		"blastDmg": 300,
+		"clip": 0,
+		"fireArc": { "direction": "up", "degrees": 240 },
+		"muzzleCenterX": 2.5,
+		"muzzleCenterY": -2.125,
+		"muzzleLength": 2,
+		"muzzleFlash": false,
+		"optimumRange": 1300,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "deathray0" ],
+					"volume": {
+						"min": 1.9,
+						"max": 2.1,
+						"distance": [
+							0, 1,
+							3000, 0.75,
+							6000, 0.5,
+							8000, 0.3,
+							10000, 0.2
+						],
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"shot": { "src": "spritesheet", "x": 176, "y": 304, "w": 1, "h": 1 },
+			"exhaust": {
+				"type": "death_ray_shot",
+				"p": 0.5,
+				"backOffset": 0,
+				"angleRange": 0,
+				"randomOffset": 0,
+				"speedMin": 0,
+				"speedMax": 0
+			}
+		},
+		"emitters": [
+			{
+				"x": 2.5,
+				"y": -2.125,
+				"type": "death_ray_spark",
+				"emitProbability": 0.03
+			}
+		],
+		"lights": [
+			{
+				"r": 245, "g": 237, "b": 181,
+				"radius": 120,
+				"x": 2.5,
+				"y": 0.5625
+			}
+		]
+	}
+]

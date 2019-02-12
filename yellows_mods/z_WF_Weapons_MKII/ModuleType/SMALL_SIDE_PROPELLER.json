@@ -1,0 +1,170 @@
+[
+	{
+		"name": "SMALL_SIDE_PROPELLER",
+		"categories": ["PROPULSION"],
+		"availableFor": ["AIRSHIP"],
+		"required": "PROPELLERS",
+		"sort": -50,
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "wfw_spritesheet",
+			"interval": 120,
+			"frames": [
+				{
+					"x": 0,
+					"y": 45
+				},
+				{
+					"x": 1,
+					"y": 45
+				},
+				{
+					"x": 2,
+					"y": 45
+				},
+				{
+					"x": 3,
+					"y": 45
+				}
+			]
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"interval": 120,
+					"frames": [
+						{
+							"x": 0,
+							"y": 46
+						},
+						{
+							"x": 1,
+							"y": 46
+						},
+						{
+							"x": 2,
+							"y": 46
+						},
+						{
+							"x": 3,
+							"y": 46
+						}
+					]
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"interval": 120,
+					"frames": [
+						{
+							"x": 4,
+							"y": 45
+						},
+						{
+							"x": 5,
+							"y": 45
+						},
+						{
+							"x": 6,
+							"y": 45
+						},
+						{
+							"x": 7,
+							"y": 45
+						}
+					]
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 4,
+					"y": 46
+				}
+			}
+		],
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"hp": 30,
+		"fireHP": 19,
+		"moveDelay": 800,
+		"weight": 50,
+		"cost": 70,
+		"propulsion": 0.035,
+		"coalReload": 100000,
+		"crew": 1,
+		"recommendedCrew": 1,
+		"runningLoop": {
+			"loopFadeInMs": 250,
+			"loopFadeOutMs": 300,
+			"layers": [
+				{
+					"variations": [ "engine_1600" ],
+					"volume": {
+						"value": 0.4,
+						"xSpeed": [
+							-0.3, 1.2,
+							0, 0.4,
+							0.3, 1.2
+						],
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 1.15,
+						"max": 1.15,
+						"xSpeed": [
+							-0.3, 1.2,
+							0, 0.8,
+							0.3, 1.2
+						],
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"emitters": [
+			{
+				"x": 0.4375,
+				"y": 0.0625,
+				"type": "smoke",
+				"emitProbability": 0.0005
+			},
+			{
+				"x": 0.25,
+				"y": 0.625,
+				"type": "ember",
+				"emitProbability": 0.001,
+				"inside": true
+			}
+		],
+		"lights": [
+			{
+				"r": 128, "g": 45, "b": 5,
+				"radius": 20,
+				"x": 0.25,
+				"y": 0.625
+			}
+		]
+	}
+]

@@ -1,0 +1,236 @@
+[
+	{
+		"name": "BIG_TRACKS",
+		"categories": ["PROPULSION"],
+		"availableFor": ["LANDSHIP"],
+		"required": "TRACKS",
+		"w": 14,
+		"h": 2,
+		"appearance": {
+			"src": "spritesheet",
+			"interval": 220,
+			"frames": [
+				{ "x": 37, "y": 19, "w": 14, "h": 2 },
+				{ "x": 22, "y": 21, "w": 14, "h": 2 }
+			]
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 2,
+				"appearance": {
+					"src": "spritesheet",
+					"interval": 150,
+					"frames": [
+						{ "x": 37, "y": 21, "w": 14, "h": 1 },
+						{ "x": 22, "y": 23, "w": 14, "h": 1 }
+					]
+				}
+			}
+		],
+		"upDoors": [ 4, 9 ],
+		"canOccupy": [
+			{ "x": 4, "y": 0 },
+			{ "x": 9, "y": 0 },
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 },
+			{ "x": 2, "y": 1 },
+			{ "x": 3, "y": 1 },
+			{ "x": 4, "y": 1 },
+			{ "x": 5, "y": 1 },
+			{ "x": 6, "y": 1 },
+			{ "x": 7, "y": 1 },
+			{ "x": 8, "y": 1 },
+			{ "x": 9, "y": 1 },
+			{ "x": 10, "y": 1 },
+			{ "x": 11, "y": 1 },
+			{ "x": 12, "y": 1 },
+			{ "x": 13, "y": 1 }
+		],
+		"bottomOnly": true,
+		"hp": 800,
+		"fireHP": 300,
+		"shipHPBonus": { "base": 0, "STRONK_TONKS": 1400 },
+		"moveDelay": 800,
+		"weight": 1000,
+		"cost": 400,
+		"propulsion": 1.4,
+		"coalReload": 12000,
+		"crew": 3,
+		"recommendedCrew": 4,
+		"runningLoop": {
+			"layers": [
+				{
+					"variations": [ "motor" ],
+					"volume": {
+						"value": 0.8,
+						"xSpeed": [
+							-0.2, 1.2,
+							0, 0.4,
+							0.2, 1.2
+						],
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 1,
+						"max": 1,
+						"xSpeed": [
+							-0.2, 1.2,
+							0, 0.8,
+							0.2, 1.2
+						],
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"springs": [
+			{
+				"xOffset": -0.5,
+				"length": 34,
+				"minCompressedLength": 15,
+				"k": 0.095
+			},
+			{
+				"xOffset": 0,
+				"length": 34,
+				"minCompressedLength": 15,
+				"k": 0.095
+			},
+			{
+				"xOffset": 0.5,
+				"length": 34,
+				"minCompressedLength": 15,
+				"k": 0.095
+			},
+			{
+				"xOffset": 5,
+				"length": 34,
+				"minCompressedLength": 15,
+				"k": 0.095
+			},
+			{
+				"xOffset": 7,
+				"length": 34,
+				"minCompressedLength": 15,
+				"k": 0.095
+			},
+			{
+				"xOffset": 9,
+				"length": 34,
+				"minCompressedLength": 15,
+				"k": 0.095
+			},
+			{
+				"xOffset": 13.5,
+				"length": 34,
+				"minCompressedLength": 15,
+				"k": 0.095
+			},
+			{
+				"xOffset": 14,
+				"length": 34,
+				"minCompressedLength": 15,
+				"k": 0.095
+			},
+			{
+				"xOffset": 14.5,
+				"length": 34,
+				"minCompressedLength": 15,
+				"k": 0.095
+			},
+		],
+		"wheels": [
+			{
+				"xOffset": 1,
+				"maxYOffset": 4,
+				"radius": 30,
+				"wheel": {
+					"src": "wheels_and_legs",
+					"x": 32,
+					"y": 64,
+					"w": 58,
+					"h": 58
+				},
+				"lowerLink": {
+					"src": "wheels_and_legs",
+					"x": 71,
+					"y": 43,
+					"w": 21,
+					"h": 17
+				},
+				"upperLink": {
+					"src": "wheels_and_legs",
+					"x": 45,
+					"y": 43,
+					"w": 21,
+					"h": 17
+				},
+				"segmentStride": 11
+			},
+			{
+				"xOffset": 7,
+				"maxYOffset": 4,
+				"radius": 30,
+				"wheel": {
+					"src": "wheels_and_legs",
+					"x": 32,
+					"y": 64,
+					"w": 58,
+					"h": 58
+				},
+				"lowerLink": {
+					"src": "wheels_and_legs",
+					"x": 71,
+					"y": 43,
+					"w": 21,
+					"h": 17
+				},
+				"upperLink": {
+					"src": "wheels_and_legs",
+					"x": 45,
+					"y": 43,
+					"w": 21,
+					"h": 17
+				},
+				"segmentStride": 11
+			},
+			{
+				"xOffset": 13,
+				"maxYOffset": 4,
+				"radius": 30,
+				"wheel": {
+					"src": "wheels_and_legs",
+					"x": 32,
+					"y": 64,
+					"w": 58,
+					"h": 58
+				},
+				"lowerLink": {
+					"src": "wheels_and_legs",
+					"x": 71,
+					"y": 43,
+					"w": 21,
+					"h": 17
+				},
+				"upperLink": {
+					"src": "wheels_and_legs",
+					"x": 45,
+					"y": 43,
+					"w": 21,
+					"h": 17
+				},
+				"segmentStride": 11
+			}
+		]
+	}
+]

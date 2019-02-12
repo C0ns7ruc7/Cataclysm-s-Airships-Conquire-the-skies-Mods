@@ -1,0 +1,1385 @@
+[
+	{
+		"name": "FLIPPED_SMOKESTACK_FULL",
+		"flippedFrom": "SMOKESTACK_FULL",
+		"sort": 10,
+	},
+	{
+		"name": "SMOKESTACK_FULL",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 2,
+		"h": 2,
+		"appearance": {
+			"src": "shaping_unified",
+			"w": 2,
+			"h": 2,
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 5,
+			"y": 11
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 5,
+					"y": 11,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 7,
+					"y": 11,
+					"w": 2,
+					"h": 2
+				}
+			},
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 9,
+					"y": 11,
+					"w": 2,
+					"h": 2
+				}
+			},
+		],
+		"emitters": [
+			{
+				"x": 1.0,
+				"y": 0.25,
+				"type": "smoke",
+				"emitProbability": 0.003
+			}
+		],
+		"destroyedEmitters": [
+			{
+				"x": 1.25,
+				"y": 1.25,
+				"type": "smoke",
+				"emitProbability": 0.003
+			}
+		],
+		"hp": 75,
+		"fireHP": 2,
+		"moveDelay": 10000,
+		"weight": 5,
+		"cost": 3,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.5,
+		"hardness": 0.5,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+        "externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
+	},
+	{
+		"name": "FLIPPED_SMOKESTACK_COMPACT",
+		"flippedFrom": "SMOKESTACK_COMPACT",
+		"sort": 10,
+	},
+	{
+		"name": "SMOKESTACK_COMPACT",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 6,
+			"y": 12
+		},
+		"externalAppearances": [
+			{
+				"x": -1,
+				"y": -1,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 5,
+					"y": 11,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": -1,
+				"y": -1,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 7,
+					"y": 11,
+					"w": 2,
+					"h": 2
+				}
+			},
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": -1,
+				"y": -1,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 9,
+					"y": 11,
+					"w": 2,
+					"h": 2
+				}
+			},
+		],
+		"emitters": [
+			{
+				"x": 0.0,
+				"y": -0.75,
+				"type": "smoke",
+				"emitProbability": 0.003
+			}
+		],
+		"destroyedEmitters": [
+			{
+				"x": 0.25,
+				"y": 0.25,
+				"type": "smoke",
+				"emitProbability": 0.003
+			}
+		],
+		"hp": 75,
+		"fireHP": 2,
+		"moveDelay": 10000,
+		"weight": 5,
+		"cost": 3,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.5,
+		"hardness": 0.5,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+        "externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
+	},
+	{
+		"name": "FLIPPED_SMOKESTACK",
+		"flippedFrom": "SMOKESTACK"
+	},
+	{
+		"name": "SMOKESTACK",
+		"categories": [],
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"w": 2,
+			"h": 1,
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 5,
+			"y": 12
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": -1,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 5,
+					"y": 11,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": -1,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 7,
+					"y": 11,
+					"w": 2,
+					"h": 2
+				}
+			},
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": -1,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 9,
+					"y": 11,
+					"w": 2,
+					"h": 2
+				}
+			},
+		],
+		"emitters": [
+			{
+				"x": 1.0,
+				"y": -0.75,
+				"type": "smoke",
+				"emitProbability": 0.003
+			}
+		],
+		"destroyedEmitters": [
+			{
+				"x": 1.25,
+				"y": 0.25,
+				"type": "smoke",
+				"emitProbability": 0.003
+			}
+		],
+		"hp": 75,
+		"fireHP": 2,
+		"moveDelay": 10000,
+		"weight": 5,
+		"cost": 3,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.5,
+		"hardness": 0.5,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+        "externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
+	},
+	{
+		"name": "FLIPPED_WF_LARGE_SMOKESTACK",
+		"flippedFrom": "WF_LARGE_SMOKESTACK",
+		"sort": 10,
+	},
+	{
+		"name": "WF_LARGE_SMOKESTACK",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 3,
+		"h": 2,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 0,
+			"y": 45,
+			"w": 3,
+			"h": 2
+		},
+		"mask": {
+			"x": 5,
+			"y": 9
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 5,
+					"y": 9,
+					"w": 3,
+					"h": 2
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 8,
+					"y": 9,
+					"w": 3,
+					"h": 2
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 11,
+					"y": 9,
+					"w": 3,
+					"h": 2
+				}
+			}
+		],
+		"emitters": [
+			{
+				"x": 1,
+				"y": 0.125,
+				"type": "big_smoke",
+				"emitProbability": 0.003
+			}
+		],
+		"destroyedEmitters": [
+			{
+				"x": 1,
+				"y": 0.875,
+				"type": "big_smoke",
+				"emitProbability": 0.003
+			}
+		],
+		"hp": 200,
+		"fireHP": 5,
+		"moveDelay": 10000,
+		"weight": 15,
+		"cost": 10,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.5,
+		"hardness": 0.8,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+        "externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
+	},
+	{
+		"name": "FLIPPED_WF_LARGE_SMOKESTACK_COMPACT",
+		"flippedFrom": "WF_LARGE_SMOKESTACK_COMPACT",
+		"sort": 10,
+	},
+	{
+		"name": "WF_LARGE_SMOKESTACK_COMPACT",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 0,
+			"y": 45,
+			"w": 2,
+			"h": 1
+		},
+		"mask": {
+			"x": 5,
+			"y": 10
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": -1,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 5,
+					"y": 9,
+					"w": 3,
+					"h": 2
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": -1,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 8,
+					"y": 9,
+					"w": 3,
+					"h": 2
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": -1,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 11,
+					"y": 9,
+					"w": 3,
+					"h": 2
+				}
+			}
+		],
+		"emitters": [
+			{
+				"x": 1,
+				"y": -0.875,
+				"type": "big_smoke",
+				"emitProbability": 0.003
+			}
+		],
+		"destroyedEmitters": [
+			{
+				"x": 1,
+				"y": -0.125,
+				"type": "big_smoke",
+				"emitProbability": 0.003
+			}
+		],
+		"hp": 200,
+		"fireHP": 5,
+		"moveDelay": 10000,
+		"weight": 15,
+		"cost": 10,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.5,
+		"hardness": 0.8,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+        "externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
+	},
+	{
+		"name": "PIPES_3COPPER",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_B_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 1,
+			"y": 0
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 1,
+					"y": 0
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 35,
+		"fireHP": 1,
+		"moveDelay": 10000,
+		"weight": 2,
+		"cost": 2,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.3,
+		"hardness": 0.3,
+		"structuralStressAmount": 0,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 200, "g": 184, "b": 79 },
+		"emitters": [
+			{
+				"x": 0.1875,
+				"y": 0.25,
+				"type": "smoke",
+				"emitProbability": 0.001
+			},
+			{
+				"x": 0.46875,
+				"y": 0.5625,
+				"type": "smoke",
+				"emitProbability": 0.001
+			},
+			{
+				"x": 0.78125,
+				"y": 0.375,
+				"type": "smoke",
+				"emitProbability": 0.001
+			}
+		]
+	},
+	{
+		"name": "PIPESIRONFAT",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 1,
+			"y": 3
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 1,
+					"y": 3
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 75,
+		"fireHP": 2,
+		"moveDelay": 10000,
+		"weight": 4,
+		"cost": 3,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.5,
+		"hardness": 0.7,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 0.125,
+				"type": "big_smoke",
+				"emitProbability": 0.002
+			}
+		]
+	},
+	{
+		"name": "PIPESCOPPERFAT",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_B_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 0,
+			"y": 3
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 0,
+					"y": 3
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 75,
+		"fireHP": 2,
+		"moveDelay": 10000,
+		"weight": 4,
+		"cost": 3,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.5,
+		"hardness": 0.7,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 200, "g": 184, "b": 79 },
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 0.125,
+				"type": "big_smoke",
+				"emitProbability": 0.002
+			}
+		]
+	},
+	{
+		"name": "FLIPPED_PIPES2SQR",
+		"flippedFrom": "PIPES2SQR",
+		"sort": 10,
+	},
+	{
+		"name": "PIPES2SQR",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 3,
+			"y": 0
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 3,
+					"y": 0
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 50,
+		"fireHP": 2,
+		"moveDelay": 10000,
+		"weight": 3,
+		"cost": 2,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.3,
+		"hardness": 0.5,
+		"structuralStressAmount": 0,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"emitters": [
+			{
+				"x": 0.34375,
+				"y": 0.1875,
+				"type": "smoke",
+				"emitProbability": 0.0025
+			},
+			{
+				"x": 0.71875,
+				"y": 0.375,
+				"type": "smoke",
+				"emitProbability": 0.0015
+			}
+		]
+	},
+	{
+		"name": "FLIPPED_PIPES3",
+		"flippedFrom": "PIPES3",
+		"sort": 10,
+	},
+	{
+		"name": "PIPES3",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 2,
+			"y": 3
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 2,
+					"y": 3
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 35,
+		"fireHP": 1,
+		"moveDelay": 10000,
+		"weight": 2,
+		"cost": 2,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.3,
+		"hardness": 0.3,
+		"structuralStressAmount": 0,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"emitters": [
+			{
+				"x": 0.25,
+				"y": 0.0625,
+				"type": "smoke",
+				"emitProbability": 0.0005
+			},
+			{
+				"x": 0.5625,
+				"y": 0.4375,
+				"type": "smoke",
+				"emitProbability": 0.0010
+			},
+			{
+				"x": 0.875,
+				"y": 0.25,
+				"type": "smoke",
+				"emitProbability": 0.0015
+			}
+		]
+	},
+	{
+		"name": "PIPESDUAL2",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 3,
+			"y": 3
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 3,
+					"y": 3
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 25,
+		"fireHP": 1,
+		"moveDelay": 10000,
+		"weight": 2,
+		"cost": 2,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.3,
+		"hardness": 0.3,
+		"structuralStressAmount": 0,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"emitters": [
+			{
+				"x": 0.6875,
+				"y": 0.5,
+				"type": "smoke",
+				"emitProbability": 0.0015
+			},
+			{
+				"x": 0.375,
+				"y": 0.5,
+				"type": "smoke",
+				"emitProbability": 0.0017
+			}
+		]
+	},
+	{
+		"name": "PIPESLSNI",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 3,
+			"y": 1
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 3,
+					"y": 1
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 15,
+		"fireHP": 1,
+		"moveDelay": 10000,
+		"weight": 1,
+		"cost": 1,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.2,
+		"hardness": 0.2,
+		"structuralStressAmount": 0,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 0.0625,
+				"type": "smoke",
+				"emitProbability": 0.002
+			}
+		]
+	},
+	{
+		"name": "PIPESPILLAR",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 4,
+			"y": 4
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 4,
+					"y": 4
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 50,
+		"fireHP": 2,
+		"moveDelay": 10000,
+		"weight": 2,
+		"cost": 2,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.3,
+		"hardness": 0.5,
+		"structuralStressAmount": 0,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 0.125,
+				"type": "smoke",
+				"emitProbability": 0.003
+			}
+		]
+	},
+	{
+		"name": "FLIPPED_PIPESORG1",
+		"flippedFrom": "PIPESORG1",
+		"sort": 10,
+	},
+	{
+		"name": "PIPESORG1",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 2,
+			"y": 2
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 2,
+					"y": 2
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 20,
+		"fireHP": 1,
+		"moveDelay": 10000,
+		"weight": 1,
+		"cost": 1,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.2,
+		"hardness": 0.2,
+		"structuralStressAmount": 0,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"emitters": [
+			{
+				"x": 0.90625,
+				"y": 0.375,
+				"type": "smoke",
+				"emitProbability": 0.0005
+			},
+			{
+				"x": 0.65625,
+				"y": 0.5,
+				"type": "smoke",
+				"emitProbability": 0.0006
+			},
+			{
+				"x": 0.375,
+				"y": 0.6875,
+				"type": "smoke",
+				"emitProbability": 0.0007
+			},
+			{
+				"x": 0.15625,
+				"y": 0.875,
+				"type": "smoke",
+				"emitProbability": 0.0008
+			}
+		]
+	},
+	{
+		"name": "FLIPPED_PIPESORG2",
+		"flippedFrom": "PIPESORG2",
+		"sort": 10,
+	},
+	{
+		"name": "PIPESORG2",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 3,
+			"y": 2
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 3,
+					"y": 2
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 20,
+		"fireHP": 1,
+		"moveDelay": 10000,
+		"weight": 1,
+		"cost": 1,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.2,
+		"hardness": 0.2,
+		"structuralStressAmount": 0,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"emitters": [
+			{
+				"x": 0.90625,
+				"y": 0.5625,
+				"type": "smoke",
+				"emitProbability": 0.0005
+			},
+			{
+				"x": 0.65625,
+				"y": 0.375,
+				"type": "smoke",
+				"emitProbability": 0.0006
+			},
+			{
+				"x": 0.375,
+				"y": 0.875,
+				"type": "smoke",
+				"emitProbability": 0.0007
+			},
+			{
+				"x": 0.15625,
+				"y": 0.75,
+				"type": "smoke",
+				"emitProbability": 0.0008
+			}
+		]
+	},
+	{
+		"name": "PIPESR1-1",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 2,
+			"y": 0
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 2,
+					"y": 0
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 50,
+		"fireHP": 2,
+		"moveDelay": 10000,
+		"weight": 3,
+		"cost": 3,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.3,
+		"hardness": 0.5,
+		"structuralStressAmount": 0,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 0.125,
+				"type": "smoke",
+				"emitProbability": 0.0025
+			}
+		]
+	},
+	{
+		"name": "PIPESR1-2",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 2,
+		"appearance": {
+			"src": "shaping_unified",
+			"w": 1,
+			"h": 2,
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 2,
+			"y": 0
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 2,
+					"y": 0,
+					"w": 1,
+					"h": 2,
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 100,
+		"fireHP": 5,
+		"moveDelay": 10000,
+		"weight": 5,
+		"cost": 5,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.5,
+		"hardness": 0.5,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 0.125,
+				"type": "smoke",
+				"emitProbability": 0.0045
+			}
+		]
+	},
+	{
+		"name": "FLIPPED_PIPESBENT",
+		"flippedFrom": "PIPESBENT",
+		"sort": 10,
+	},
+	{
+		"name": "PIPESBENT",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_B_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 4,
+			"y": 1
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 4,
+					"y": 1
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 35,
+		"fireHP": 1,
+		"moveDelay": 10000,
+		"weight": 2,
+		"cost": 2,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.2,
+		"hardness": 0.2,
+		"structuralStressAmount": 0,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 200, "g": 184, "b": 79 },
+		"emitters": [
+			{
+				"x": 0.0625,
+				"y": 0.1875,
+				"type": "smoke",
+				"emitProbability": 0.0043
+			}
+		]
+	},
+	{
+		"name": "FLIPPED_PIPESCOPPERTUBA",
+		"flippedFrom": "PIPESCOPPERTUBA",
+		"sort": 10,
+	},
+	{
+		"name": "PIPESCOPPERTUBA",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_B_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 4,
+			"y": 0
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 4,
+					"y": 0
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 20,
+		"fireHP": 1,
+		"moveDelay": 10000,
+		"weight": 1,
+		"cost": 1,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.2,
+		"hardness": 0.2,
+		"structuralStressAmount": 0,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 200, "g": 184, "b": 79 },
+		"emitters": [
+			{
+				"x": 0.1875,
+				"y": 0.875,
+				"type": "smoke",
+				"emitProbability": 0.0020
+			}
+		]
+	},
+	{
+		"name": "FLIPPED_PIPESTAIL",
+		"flippedFrom": "PIPESTAIL",
+		"sort": 10,
+	},
+	{
+		"name": "PIPESTAIL",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 4,
+			"y": 2
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 4,
+					"y": 2
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 40,
+		"fireHP": 1,
+		"moveDelay": 10000,
+		"weight": 2,
+		"cost": 2,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.2,
+		"hardness": 0.3,
+		"structuralStressAmount": 0,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"emitters": [
+			{
+				"x": 0.125,
+				"y": 0.84375,
+				"type": "smoke",
+				"emitProbability": 0.0039
+			}
+		]
+	},
+	{
+		"name": "FLIPPED_PIPESTAIL2",
+		"flippedFrom": "PIPESTAIL2",
+		"sort": 10,
+	},
+	{
+		"name": "PIPESTAIL2",
+		"categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 10,
+		"required": "Y_S_SHAPES",
+		"external": true,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"w": 2,
+			"h": 1,
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 4,
+			"y": 3
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 4,
+					"y": 3,
+					"w": 2,
+					"h": 1,
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 60,
+		"fireHP": 2,
+		"moveDelay": 10000,
+		"weight": 4,
+		"cost": 3,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.3,
+		"hardness": 0.5,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"emitters": [
+			{
+				"x": 0.4375,
+				"y": 0.65625,
+				"type": "smoke",
+				"emitProbability": 0.0026
+			},
+			{
+				"x": 0.5,
+				"y": 0.84375,
+				"type": "smoke",
+				"emitProbability": 0.0017
+			}
+		]
+	},
+]

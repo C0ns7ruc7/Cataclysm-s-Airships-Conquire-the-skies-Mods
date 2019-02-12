@@ -1,0 +1,220 @@
+[
+	{
+		"name": "tf_jet_fighter",
+		"bundle": "tf_jet_fighter_bundle",
+		"spritesheet": "turbofan",
+		"images": [
+			{
+				"part": "body",
+				"side": "RIGHT",
+				"x": 208,
+				"y": 160,
+				"w": 82,
+				"h": 31,
+				"emitters": [
+					{
+						"type": "ember",
+						"freq": 0.01,
+						"x": 7,
+						"y": 17,
+						"scale": 1.0
+					}
+				]
+			},
+			{
+				"part": "body",
+				"side": "LEFT",
+				"x": 208,
+				"y": 160,
+				"w": 82,
+				"h": 31,
+				"flipped": true,
+				"emitters": [
+					{
+						"type": "ember",
+						"freq": 0.01,
+						"x": 75,
+						"y": 17,
+						"scale": 1.0
+					}
+				]
+			},
+			{
+				"part": "damagedBody",
+				"side": "RIGHT",
+				"x": 208,
+				"y": 192,
+				"w": 82,
+				"h": 31,
+				"emitters": [
+					{
+						"type": "ember",
+						"freq": 0.05,
+						"x": 7,
+						"y": 17,
+						"scale": 1.0
+					},
+					{
+						"type": "smoke",
+						"freq": 0.02,
+						"x": 7,
+						"y": 17,
+						"scale": 1.0
+					}
+				],
+				"deadEmitters": [
+					{
+						"type": "smoke",
+						"freq": 0.02,
+						"x": 7,
+						"y": 17,
+						"scale": 2.5
+					}
+				]
+			},
+			{
+				"part": "damagedBody",
+				"side": "LEFT",
+				"x": 208,
+				"y": 192,
+				"w": 82,
+				"h": 31,
+				"flipped": true,
+				"emitters": [
+					{
+						"type": "ember",
+						"freq": 0.05,
+						"x": 75,
+						"y": 17,
+						"scale": 1.0
+					},
+					{
+						"type": "smoke",
+						"freq": 0.02,
+						"x": 75,
+						"y": 17,
+						"scale": 1.0
+					}
+				],
+				"deadEmitters": [
+					{
+						"type": "smoke",
+						"freq": 0.02,
+						"x": 75,
+						"y": 17,
+						"scale": 2.5
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "tf_heavy_jet_fighter",
+		"bundle": "tf_heavy_jet_fighter_bundle",
+		"spritesheet": "turbofan",
+		"images": [
+			{
+				"part": "body",
+				"side": "RIGHT",
+				"x": 304,
+				"y": 160,
+				"w": 93,
+				"h": 35,
+				"emitters": [
+					{
+						"type": "ember",
+						"freq": 0.02,
+						"x": 7,
+						"y": 13,
+						"scale": 1.0
+					}
+				]
+			},
+			{
+				"part": "body",
+				"side": "LEFT",
+				"x": 304,
+				"y": 160,
+				"w": 93,
+				"h": 35,
+				"flipped": true,
+				"emitters": [
+					{
+						"type": "ember",
+						"freq": 0.02,
+						"x": 86,
+						"y": 13,
+						"scale": 1.0
+					}
+				]
+			},
+			{
+				"part": "damagedBody",
+				"side": "RIGHT",
+				"x": 304,
+				"y": 208,
+				"w": 93,
+				"h": 35,
+				"emitters": [
+					{
+						"type": "ember",
+						"freq": 0.1,
+						"x": 7,
+						"y": 13,
+						"scale": 1.0
+					},
+					{
+						"type": "smoke",
+						"freq": 0.04,
+						"x": 7,
+						"y": 13,
+						"scale": 1.0
+					}
+				],
+				"deadEmitters": [
+					{
+						"type": "smoke",
+						"freq": 0.04,
+						"x": 7,
+						"y": 13,
+						"scale": 2.5
+					}
+				]
+			},
+			{
+				"part": "damagedBody",
+				"side": "LEFT",
+				"x": 304,
+				"y": 208,
+				"w": 93,
+				"h": 35,
+				"flipped": true,
+				"emitters": [
+					{
+						"type": "ember",
+						"freq": 0.1,
+						"x": 86,
+						"y": 13,
+						"scale": 1.0
+					},
+					{
+						"type": "smoke",
+						"freq": 0.04,
+						"x": 86,
+						"y": 13,
+						"scale": 1.0
+					}
+				],
+				"deadEmitters": [
+					{
+						"type": "smoke",
+						"freq": 0.04,
+						"x": 86,
+						"y": 13,
+						"scale": 2.5
+					}
+				]
+			}
+		]
+	}
+]

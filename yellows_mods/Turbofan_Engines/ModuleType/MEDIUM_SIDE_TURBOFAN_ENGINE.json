@@ -1,0 +1,414 @@
+[
+	{
+		"name": "MEDIUM_SIDE_TURBOFAN_ENGINE",
+		"categories": ["PROPULSION"],
+		"availableFor": ["AIRSHIP"],
+		"sort": -35,
+		"w": 4,
+		"h": 2,
+		"armourType": "LT_STEEL_HIDDEN_Y",
+		"appearance": {
+			"src": "turbofan",
+			"interval": 100,
+			"frames": [
+				{
+					"x": 7,
+					"y": 19,
+					"w": 4,
+					"h": 2
+				},
+				{
+					"x": 11,
+					"y": 19,
+					"w": 4,
+					"h": 2
+				},
+				{
+					"x": 15,
+					"y": 19,
+					"w": 4,
+					"h": 2
+				},
+				{
+					"x": 19,
+					"y": 19,
+					"w": 4,
+					"h": 2
+				}
+			]
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "turbofan",
+					"x": 15,
+					"y": 8,
+					"w": 1,
+					"h": 2
+				}
+			},
+			{
+				"x": -2,
+				"y": 0,
+				"appearance": {
+					"src": "turbofan",
+					"x": 0,
+					"y": 19,
+					"w": 7,
+					"h": 2
+				}
+			}
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"hp": 450,
+		"fireHP": 250,
+		"explodeHP": 250,
+		"explodeDmg": 350,
+		"moveDelay": 1200,
+		"weight": 400,
+		"cost": 700,
+		"propulsion": 1.8,
+		"coalReload": 7500,
+		"upDoors": [2],
+		"canOccupy": [
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 },
+			{ "x": 2, "y": 1 },
+			{ "x": 3, "y": 1 },
+			{ "x": 2, "y": 0 }
+		],
+		"crew": 2,
+		"recommendedCrew": 3,
+		"recommendedGuards": 1,
+		
+		"required": "TURBOFAN_ENGINES",
+		
+		"tentacleDeathSpasms": false,
+		
+		"runningLoop": {
+			"loopFadeInMs": 3000,
+			"loopFadeOutMs": 3000,
+			"layers": [
+				{
+					"variations": [ "turbofan_loop" ],
+					"volume": {
+						"value": 1,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						],
+						"xSpeed": [
+							-0.3, 1.2,
+							0, 0.4,
+							0.3, 1.2
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 0.8,
+						"xSpeed": [
+							-0.3, 1.2,
+							0, 0.8,
+							0.3, 1.2
+						],
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"emitters": [
+			{
+				"x": -0.5,
+				"y": 0.9,
+				"type": "ember",
+				"emitProbability": 0.003
+			},
+			{
+				"x": -0.5,
+				"y": 1.1,
+				"type": "ember",
+				"emitProbability": 0.003
+			},
+			{
+				"x": 2,
+				"y": 0.8,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 2,
+				"y": 1.2,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 2,
+				"y": 1.69,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			}
+		],
+		"damagedEmitters": [
+			{
+				"x": -0.5,
+				"y": 0.9,
+				"type": "ember",
+				"emitProbability": 0.005,
+				"numParticles": 2
+			},
+			{
+				"x": -0.5,
+				"y": 1.1,
+				"type": "ember",
+				"emitProbability": 0.005,
+				"numParticles": 2
+			},
+			{
+				"x": 2,
+				"y": 0.8,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 2,
+				"y": 1.2,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 2,
+				"y": 1.69,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": -0.5,
+				"y": 1,
+				"type": "smoke",
+				"emitProbability": 0.001
+			}
+		],
+		"destroyedEmitters": [
+			{
+				"x": -0.5,
+				"y": 0.9,
+				"type": "ember",
+				"emitProbability": 0.005
+			},
+			{
+				"x": -0.5,
+				"y": 1.1,
+				"type": "ember",
+				"emitProbability": 0.005
+			},
+			{
+				"x": 2,
+				"y": 0.8,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 2,
+				"y": 1.2,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 2,
+				"y": 1.69,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": -0.5,
+				"y": 1,
+				"type": "smoke",
+				"emitProbability": 0.002
+			},
+			{
+				"x": 4.19,
+				"y": 0.5,
+				"type": "ember",
+				"emitProbability": 0.002
+			},
+			{
+				"x": 4.19,
+				"y": 0.87,
+				"type": "ember",
+				"emitProbability": 0.002
+			},
+			{
+				"x": 4.19,
+				"y": 1.13,
+				"type": "ember",
+				"emitProbability": 0.002
+			},
+			{
+				"x": 4.19,
+				"y": 1.5,
+				"type": "ember",
+				"emitProbability": 0.002
+			},
+			{
+				"x": 4.19,
+				"y": 0.5,
+				"type": "smoke",
+				"emitProbability": 0.001
+			},
+			{
+				"x": 4.19,
+				"y": 1.5,
+				"type": "smoke",
+				"emitProbability": 0.001
+			}
+		],
+		"lights": [
+			{
+				"r": 255, "g": 90, "b": 10,
+				"radius": 60,
+				"x": 2,
+				"y": 1.69
+			}
+		],
+		"tentacles": [
+			{
+				"numSegments": 60,
+				"baseAngle": 0,
+				"baseXOffset": 4.19,
+				"baseYOffset": 1,
+				"baseStiffness": 0.8,
+				"tipStiffness": 0.4,
+				"baseLength": 3,
+				"tipLength": 3,
+				"baseWidth": 3,
+				"tipWidth": 3,
+				"speed": 0.4,
+				"snatchesCrew": true,
+				"mouthXOffset": 4.19,
+				"mouthYOffset": 1,
+				"attacksHull": false,
+				"wavesAround": false,
+				"suckerDirection": false,
+				"segmentImg": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"segmentImgVerticallyFlipped": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"imgLength": 3,
+				"minNextTargetPause": 0,
+				"maxNextTargetPause": 0
+			},
+			{
+				"numSegments": 60,
+				"baseAngle": 0,
+				"baseXOffset": 4.19,
+				"baseYOffset": 1,
+				"baseStiffness": 0.8,
+				"tipStiffness": 0.4,
+				"baseLength": 3,
+				"tipLength": 3,
+				"baseWidth": 3,
+				"tipWidth": 3,
+				"speed": 0.4,
+				"snatchesCrew": true,
+				"mouthXOffset": 4.19,
+				"mouthYOffset": 1,
+				"attacksHull": false,
+				"wavesAround": false,
+				"suckerDirection": false,
+				"segmentImg": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"segmentImgVerticallyFlipped": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"imgLength": 3,
+				"minNextTargetPause": 0,
+				"maxNextTargetPause": 0
+			},
+			{
+				"numSegments": 60,
+				"baseAngle": 0,
+				"baseXOffset": 4.19,
+				"baseYOffset": 1,
+				"baseStiffness": 0.8,
+				"tipStiffness": 0.4,
+				"baseLength": 3,
+				"tipLength": 3,
+				"baseWidth": 3,
+				"tipWidth": 3,
+				"speed": 0.4,
+				"snatchesCrew": true,
+				"mouthXOffset": 4.19,
+				"mouthYOffset": 1,
+				"attacksHull": false,
+				"wavesAround": false,
+				"suckerDirection": false,
+				"segmentImg": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"segmentImgVerticallyFlipped": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"imgLength": 3,
+				"minNextTargetPause": 0,
+				"maxNextTargetPause": 0
+			},
+			{
+				"numSegments": 60,
+				"baseAngle": 0,
+				"baseXOffset": 4.19,
+				"baseYOffset": 1,
+				"baseStiffness": 0.8,
+				"tipStiffness": 0.4,
+				"baseLength": 3,
+				"tipLength": 3,
+				"baseWidth": 3,
+				"tipWidth": 3,
+				"speed": 0.4,
+				"snatchesCrew": true,
+				"mouthXOffset": 4.19,
+				"mouthYOffset": 1,
+				"attacksHull": false,
+				"wavesAround": false,
+				"suckerDirection": false,
+				"segmentImg": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"segmentImgVerticallyFlipped": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"imgLength": 3,
+				"minNextTargetPause": 0,
+				"maxNextTargetPause": 0
+			},
+			{
+				"numSegments": 60,
+				"baseAngle": 0,
+				"baseXOffset": 4.19,
+				"baseYOffset": 1,
+				"baseStiffness": 0.8,
+				"tipStiffness": 0.4,
+				"baseLength": 3,
+				"tipLength": 3,
+				"baseWidth": 3,
+				"tipWidth": 3,
+				"speed": 0.4,
+				"snatchesCrew": true,
+				"mouthXOffset": 4.19,
+				"mouthYOffset": 1,
+				"attacksHull": false,
+				"wavesAround": false,
+				"suckerDirection": false,
+				"segmentImg": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"segmentImgVerticallyFlipped": { "src": "turbofan", "x": 0, "y": 0, "w": 3, "h": 3 },
+				"imgLength": 3,
+				"minNextTargetPause": 0,
+				"maxNextTargetPause": 0
+			}
+		]
+	}
+]
