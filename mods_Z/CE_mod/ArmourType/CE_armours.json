@@ -1560,22 +1560,232 @@
         "placeSound": "place_metal",
         "placePitch": 1.0,
         "cost": {
-            "base": 8,
-            "CHEAP_STEEL": 4
+            "base": 2,
+            "deltas":{
+				"CHEAP_STEEL": -1,
+				"CHEAP_STONE": -1,
+				"CHEAP_WOOD": -1,
+				"CONQUEST": -1,
+				"DRAGONHIDE": 7,
+				
+				"IMPN1_DESNSE": 2,
+				"IMPN1_WEIGHT": 2,
+				
+				"IMPN2_HP":4,
+				"IMPN2_AD":3,
+				
+				"IMP3_BLAST":1,
+				"IMP3_PENEN":1,
+				
+				"IMPN4_COST":-6,
+				"IMPN4_FLIGHT":4,
+				
+				"IMPN5_SPEED":4,
+				"IMPN5_GEN":4,
+				
+				"IMPN6_BLAST":4,
+				"IMPN6_BALLANCE":10,
+				"IMPN6_PENEN":4,
+				
+				"IMPN7_STEEL":8,
+				"IMPN7_WOOD":3,
+				"IMPN7_STONE":5,
+				"IMPN7_SHELL":12,
+				
+				"IMPN8_PENEN":3,
+				"IMPN8_BLAST":3,
+				"IMPN8_HP":3,
+				"IMPN8_WIEGHT":3,
+				
+				"IMPN9_COST":-12,
+				"IMPN9_HP":6,
+				"IMPN9_PENEN":6,
+				"IMPN9_BLAST":6,
+				"IMPN9_FLIGHT":6
+			}
         },
         "hp": {
-            "base": 45
+            "base": 27,
+			"deltas":{
+				"CONQUEST": 5,
+				"DRAGONHIDE": 15,
+				
+				"IMPN1_DESNSE": 30,
+				"IMPN1_WEIGHT": 3,
+				
+				"IMPN2_HP":40,
+				"IMPN2_AD":5,
+				
+				"IMP3_BLAST":3,
+				"IMP3_PENEN":3,
+				
+				"IMPN4_COST":-1,
+				
+				"IMPN5_SPEED":-10,
+				"IMPN5_GEN":12,
+				
+				"IMPN6_BLAST":5,
+				"IMPN6_BALLANCE":3,
+				"IMPN6_PENEN":5,
+				
+				"IMPN7_STEEL":50,
+				"IMPN7_WOOD":50,
+				"IMPN7_STONE":80,
+				"IMPN7_SHELL":45,
+				
+				"IMPN8_HP":30,
+				
+				"IMPN9_COST":-20,
+				"IMPN9_HP":60,
+				"IMPN9_PENEN":-20,
+				"IMPN9_BLAST":-20,
+				"IMPN9_FLIGHT":-20
+			}
         },
         "weight": {
-            "base": 20,
-            "RETICULATED_PLATING": 14
+            "base": 2,
+            "deltas":{
+				"RETICULATED_PLATING": -1,
+				"CONQUEST": -1,
+				"DRAGONHIDE": -1,
+				
+				"IMPN1_DESNSE": 5,
+				"IMPN1_WEIGHT": 1,
+				
+				"IMPN2_HP":10,
+				"IMPN2_AD":2,
+				
+				"IMP3_BLAST":2,
+				"IMP3_PENEN":2,
+				
+				"IMPN5_SPEED":-10,
+				"IMPN5_GEN":6,
+				
+				"IMPN6_BLAST":1,
+				"IMPN6_BALLANCE":3,
+				"IMPN6_PENEN":1,
+				
+				"IMPN7_STEEL":10,
+				"IMPN7_WOOD":4,
+				"IMPN7_STONE":100,
+				"IMPN7_SHELL":6,
+				
+				"IMPN8_PENEN":1,
+				"IMPN8_BLAST":1,
+				"IMPN8_HP":1,
+				"IMPN8_WIEGHT":-10,
+				
+				"IMPN9_COST":2,
+				"IMPN9_HP":2,
+				"IMPN9_PENEN":2,
+				"IMPN9_BLAST":2,
+				"IMPN9_FLIGHT":-20
+			}
         },
         "blastDmgAbsorb": {
-            "base": 12,
-            "SHAPED_HULLS": 18
+            "base": 5,
+            "deltas":{
+				"SHAPED_HULLS": 2,
+				"CONQUEST": 2,
+				"DRAGONHIDE": 5,
+				
+				"IMPN1_WEIGHT": 2,
+				
+				"IMPN2_HP":-1,
+				"IMPN2_AD":5,
+				
+				"IMP3_BLAST":12,
+				
+				"IMPN4_COST":-1,
+				
+				"IMPN5_SPEED":1,
+				"IMPN5_GEN":8,
+				
+				"IMPN6_BLAST":9,
+				"IMPN6_BALLANCE":6,
+				"IMPN6_PENEN":-1,
+				
+				"IMPN7_STEEL":16,
+				"IMPN7_WOOD":2,
+				"IMPN7_STONE":2,
+				"IMPN7_SHELL":4,
+				
+				"IMPN8_PENEN":-1,
+				"IMPN8_BLAST":6,
+				"IMPN8_HP":-1,
+				"IMPN8_WIEGHT":-1,
+				
+				"IMPN9_COST":-2,
+				"IMPN9_HP":-2,
+				"IMPN9_PENEN":-2,
+				"IMPN9_BLAST":20,
+				"IMPN9_FLIGHT":-2
+			}
         },
         "penDmgAbsorb": {
-            "base": 6
+            "base": 3,
+            "deltas":{
+				"CONQUEST": 1,
+				"DRAGONHIDE": 1,
+				
+				"IMPN1_WEIGHT": 2,
+				
+				"IMPN2_HP":-1,
+				"IMPN2_AD":3,
+				
+				"IMP3_PENEN":12,
+				
+				"IMPN4_COST":-1,
+				
+				"IMPN5_SPEED":1,
+				"IMPN5_GEN":5,
+				
+				"IMPN6_BLAST":-1,
+				"IMPN6_BALLANCE":6,
+				"IMPN6_PENEN":9,
+				
+				"IMPN7_STEEL":6,
+				"IMPN7_WOOD":4,
+				"IMPN7_STONE":3,
+				"IMPN7_SHELL":4,
+				
+				"IMPN8_PENEN":6,
+				"IMPN8_BLAST":-1,
+				"IMPN8_HP":-1,
+				"IMPN8_WIEGHT":-1,
+				
+				"IMPN9_COST":-2,
+				"IMPN9_HP":-2,
+				"IMPN9_PENEN":20,
+				"IMPN9_BLAST":-2,
+				"IMPN9_FLIGHT":-2
+			}
+        },
+		"lift": {
+            "base": 0,
+            "deltas":{
+				"CONQUEST": 1,
+				"SHELL_ARMOUR":10,
+				
+				"IMPN4_FLIGHT":20,
+				
+				"IMPN5_SPEED":1,
+				
+				"IMPN6_BALLANCE":1,
+				
+				"IMPN7_SHELL":25,
+				
+				"IMPN8_PENEN":-1,
+				"IMPN8_BLAST":-1,
+				"IMPN8_HP":-1,
+				"IMPN8_WIEGHT":1,
+				
+				"IMPN9_COST":-5,
+				"IMPN9_HP":-5,
+				"IMPN9_PENEN":-5,
+				"IMPN9_BLAST":-5,
+				"IMPN9_FLIGHT":50
+			}
         },
         "windowApp": {
             "src": "sprite-vabese",
