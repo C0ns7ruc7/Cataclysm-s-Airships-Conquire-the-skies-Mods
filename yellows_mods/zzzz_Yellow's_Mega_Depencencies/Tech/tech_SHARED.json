@@ -1,0 +1,138 @@
+[
+	{
+		"name": "Y_BALLISTICS",
+		"sort": 1590,
+		"tier": 1,
+		"dependencies": [ "GUNNERY" ],
+		"bonuses": [ "Y_MORTARS" ],
+		"img": { "src": "Y_Tech", "x": 832, "y": 432, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_HEAVY_MACHINERY",
+		"sort": 2590,
+		"tier": 2,
+		"dependencies": [ "MACHINERY", "METALLURGY" ],
+		"bonuses": [ "Y_MASSIVE_PROPELLER", "Y_DRILLS" ],
+		"img": { "src": "Y_Tech", "x": 960, "y": 368, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_HEAVY_ARTICULATED_MACHINERY",
+		"sort": 3560,
+		"tier": 3,
+		"dependencies": [ "Y_HEAVY_MACHINERY", "ARTICULATED_MACHINERY" ],
+		"bonuses": [ "Y_WF_EXCAVATOR", "Y_JAWS" ],
+		"img": { "src": "Y_Tech", "x": 960, "y": 432, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_DEEP_SUSP_MINING",
+		"sort": 3710,
+		"tier": 3,
+		"dependencies": [ "Y_HEAVY_MACHINERY", "SCIENTIFIC_SUSPENDIUM_MINING" ],
+		"bonuses": [ "Y_HUGE_SUSP_CHAMBERS" ],
+		"img": { "src": "Y_Tech", "x": 704, "y": 432, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_INTEGRATED_ELECTRONICS",
+		"sort": 4320,
+		"tier": 4,
+		"dependencies": [ "CYBERNETICS", "COMPUTERS", "MACHINING" ],
+		"bonuses": [ ],
+		"img": { "src": "Y_Tech", "x": 704, "y": 304, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_SHELL_AMMO",
+		"sort": 2550,
+		"tier": 2,
+		"dependencies": [ "METALLURGY", "RIFLING" ],
+		"bonuses": [ "Y_ADVANCED_CANNONS", "Y_CANNON_MKII" ],
+		"img": { "src": "Y_Tech", "x": 768, "y": 368, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_BUILT_UP_CANNONS",
+		"sort": 3560,
+		"tier": 3,
+		"dependencies": [ "HEAVY_CANNON", "Y_SHELL_AMMO" ],
+		"bonuses": [ "Y_ADV_HEAVY_CANNONS", "Y_HV_CANNON_MKII" ],
+		"img": { "src": "Y_Tech", "x": 768, "y": 432, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_TURRET_BEARINGS",
+		"sort": 3540,
+		"tier": 3,
+		"dependencies": [ "GYROSCOPES", "Y_SHELL_AMMO", "MACHINING" ],
+		"bonuses": [ "Y_ADVANCED_TURRETS", "Y_DD_CC_TURRETS" ],
+		"img": { "src": "Y_Tech", "x": 832, "y": 368, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_HEAVY_TURRET_BEARINGS",
+		"sort": 4700,
+		"tier": 4,
+		"dependencies": [ "Y_TURRET_BEARINGS", "Y_BUILT_UP_CANNONS", "ADVANCED_METALLURGY", "AUTOMATED_LOADING_SYSTEMS" ],
+		"bonuses": [ "Y_ADVANCED_HEAVY_TURRETS", "Y_BB_TURRETS" ],
+		"img": { "src": "Y_Tech", "x": 896, "y": 368, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_MACHINE_GUNS",
+		"sort": 3590,
+		"tier": 3,
+		"dependencies": [ "MACHINING", "RIFLING" ],
+		"bonuses": [ "Y_MACHINE_GUNS" ],
+		"img": { "src": "Y_Tech", "x": 704, "y": 368, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_MINIGUNS",
+		"sort": 3591,
+		"tier": 3,
+		"dependencies": [ "MACHINING", "RIFLING" ],
+		"bonuses": [ "Y_MINIGUNS" ],
+		"img": { "src": "Y_Tech", "x": 704, "y": 624, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_HEAVY_FLAK",
+		"sort": 3585,
+		"tier": 3,
+		"dependencies": [ "MACHINING", "Y_SHELL_AMMO" ],
+		"bonuses": [ "Y_HEAVY_FLAK" ],
+		"img": { "src": "Y_Tech", "x": 896, "y": 560, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_FLAK_TURRETS",
+		"sort": 4820,
+		"tier": 4,
+		"dependencies": [ "Y_HEAVY_FLAK", "Y_TURRET_BEARINGS" ],
+		"bonuses": [ "Y_FLAK_TURRETS" ],
+		"img": { "src": "Y_Tech", "x": 832, "y": 560, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_ROCKETRY",
+		"sort": 3380,
+		"tier": 3,
+		"dependencies": [ "COMBUSTIBLES", "METALLURGY", "MACHINING" ],
+		"bonuses": [ "NEBELWERFER" ],
+		"img": { "src": "Y_Tech", "x": 896, "y": 304, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_ADV_CHEMISTRY",
+		"sort": 3350,
+		"tier": 3,
+		"dependencies": [ "COMBUSTIBLES" ],
+		"bonuses": [ "Y_ADV_EXPLOSIVES", "POWERFUL_EXPLOSIVES" ],
+		"img": { "src": "Y_Tech", "x": 704, "y": 560, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_COMPACT_TORPEDOES",
+		"sort": 4310,
+		"tier": 4,
+		"dependencies": [ "CYBERNETICS", "MACHINING" ],
+		"bonuses": [ "MK_46_TORPEDOES" ],
+		"img": { "src": "Y_Tech", "x": 768, "y": 304, "w": 64, "h": 64 }
+	},
+	{
+		"name": "Y_ADVANCED_TORPEDOES",
+		"sort": 5380,
+		"tier": 5,
+		"dependencies": [ "Y_COMPACT_TORPEDOES", "Y_INTEGRATED_ELECTRONICS" ],
+		"bonuses": [ "T93_TORPEDOES" ],
+		"img": { "src": "Y_Tech", "x": 832, "y": 304, "w": 64, "h": 64 }
+	}
+]

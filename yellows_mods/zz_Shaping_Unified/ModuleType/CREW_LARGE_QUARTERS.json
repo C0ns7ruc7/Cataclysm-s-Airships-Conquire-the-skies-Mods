@@ -1,0 +1,45 @@
+[
+	{
+		"name": "LARGE_QUARTERS",
+		"categories": ["COMMAND_AND_CREW"],
+		"sort": -9,
+		"availableFor": ["AIRSHIP", "LANDSHIP"],
+		"w": 4,
+		"h": 2,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 26,
+			"y": 8,
+			"w": 4,
+			"h": 2
+		},
+		"hp": 250,
+		"fireHP": 160,
+		"moveDelay": 600,
+		"weight": 100,
+		"cost": 100,
+		"maintenanceCost": { "base": 18, "UNIVERSAL_CONSCRIPTION": 14 },
+		"quarters": 40,
+		"quartersType": "sailor",
+		"upDoors": [ 3 ],
+		"leftDoors": [ 0, 1 ],
+		"rightDoors": [ 0, 1 ],
+		"canOccupy": 
+		[
+			{ "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 },
+			{ "x": 2, "y": 0 },
+			{ "x": 3, "y": 0 },
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 },
+			{ "x": 2, "y": 1 },
+			{ "x": 3, "y": 1 }
+		],
+		"windows": [
+			{ "x": 1, "y": 0 },
+			{ "x": 1, "y": 1 },
+			{ "x": 3, "y": 0 },
+			{ "x": 3, "y": 1 }
+		]
+	}
+]

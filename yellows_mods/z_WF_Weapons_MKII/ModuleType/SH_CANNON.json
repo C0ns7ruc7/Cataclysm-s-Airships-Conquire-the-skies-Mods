@@ -1,0 +1,311 @@
+[
+	{
+		"name": "FLIPPED_SH_CANNON",
+		"flippedFrom": "SH_CANNON",
+		"sort": 26,
+	},
+	{
+		"name": "SH_CANNON",
+		"sort": 26,
+		"categories": ["WEAPONS_WF_CANNONS_AP"],
+		"required": "Y_SH_CANNONS",
+		"isWeapon": true,
+		"w": 14,
+		"h": 3,
+		"appearance": {
+			"src": "wfw_spritesheet",
+			"x": 0,
+			"y": 6,
+			"w": 14,
+			"h": 3
+		},
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 0, "y": 1 },
+			{ "x": 0, "y": 2 },
+			{ "x": 1, "y": 2 },
+			{ "x": 2, "y": 2 },
+			{ "x": 3, "y": 2 }
+		],
+		"upDoors": [ 0 ],
+		"leftDoors": [ 0, 1, 2 ],
+		"hp": 1000,
+		"fireHP": 150,
+		"explodeHP": { "base": 75, "SAFER_CANNONS": 0 },
+		"explodeDmg": { "base": 400, "SAFER_CANNONS": 0 },
+		"moveDelay": 800,
+		"weight": 1200,
+		"cost": 1000,
+		"crew": 4,
+		"recommendedCrew": 5,
+		"recommendedGuards": 2,
+		"frontOnly": true,
+		"isGun": true,
+		"isCannon": true,
+		"shotSpeed": 1.5,
+		"reload": { "base": 10000, "FASTER_CANNON_RELOAD": 8000 },
+		"ammoPerClip": 2,
+		"inaccuracy": { "base": 0.0004, "PRECISE_GUNNERY": 0.0002 },
+		"blastDmg": 100,
+		"blastSplashRadius": 10,
+		"penDmg": 1200,
+		"fireArc": { "direction": "forwards", "degrees": 1 },
+		"muzzleCenterX": 14.0,
+		"muzzleCenterY": 1.312,
+		"muzzleLength": 2,
+		"optimumRange": 1300,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "cannon0", "cannon1", "cannon2", "cannon3", "cannon4", "cannon5", "cannon6" ],
+					"volume": {
+						"min": 5,
+						"max": 5.5,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+							5000, 0
+						],
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							4000, 0.75
+						]
+					}
+				},
+				{
+					"variations": [ "S_SH_Cannon" ],
+					"volume": {
+						"min": 4.8,
+						"max": 5.2,
+						"distance": [
+							0, 1,
+							3000, 0.75,
+							6000, 0.5,
+							8000, 0.3,
+							10000, 0.2
+						],
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							4000, 0.75
+						]
+					}
+				},
+				{
+					"variations": [ "cannon_d_0", "cannon_d_1", "cannon_d_2", "cannon_d_3" ],
+					"volume": {
+						"min": 3.4,
+						"max": 3.6,
+						"distance": [
+							0, 0,
+							750, 0,
+							2000, 0.1,
+							3000, 0.5,
+							4000, 0.75,
+							5000, 0.1
+						],
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}	
+			]
+		},
+		"recoilForce": 10,
+		"weaponAppearance": {
+			"shot": { "src": "wfw_spritesheet", "x": 50, "y": 84, "w": 16, "h": 8 },
+			"barrel": { "src": "wfw_spritesheet", "x": 6, "y": 149, "w": 171, "h": 34 },
+			"barrelX": 88,
+			"barrelY": 9,
+			"recoil": 30,
+			"shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.02 }
+		},
+	},
+	{
+		"name": "FLIPPED_SH_CANNON_HE",
+		"flippedFrom": "SH_CANNON_HE",
+		"sort": 26,
+	},
+	{
+		"name": "SH_CANNON_HE",
+		"sort": 26,
+		"categories": ["WEAPONS_WF_CANNONS_HE"],
+		"required": "Y_SH_CANNONS",
+		"isWeapon": true,
+		"w": 14,
+		"h": 3,
+		"appearance": {
+			"src": "wfw_spritesheet",
+			"x": 0,
+			"y": 6,
+			"w": 14,
+			"h": 3
+		},
+		"canOccupy": [
+			{ "x": 0, "y": 0 },
+			{ "x": 0, "y": 1 },
+			{ "x": 0, "y": 2 },
+			{ "x": 1, "y": 2 },
+			{ "x": 2, "y": 2 },
+			{ "x": 3, "y": 2 }
+		],
+		"upDoors": [ 0 ],
+		"leftDoors": [ 0, 1, 2 ],
+		"hp": 1000,
+		"fireHP": 150,
+		"explodeHP": { "base": 75, "SAFER_CANNONS": 0 },
+		"explodeDmg": { "base": 400, "SAFER_CANNONS": 0 },
+		"moveDelay": 800,
+		"weight": 1200,
+		"cost": 1000,
+		"crew": 4,
+		"recommendedCrew": 5,
+		"recommendedGuards": 2,
+		"frontOnly": true,
+		"isGun": true,
+		"isCannon": true,
+		"shotSpeed": 1.5,
+		"reload": { "base": 10000, "FASTER_CANNON_RELOAD": 8000 },
+		"ammoPerClip": 2,
+		"inaccuracy": { "base": 0.0004, "PRECISE_GUNNERY": 0.0002 },
+		"blastDmg": { "base": 100, "POWERFUL_EXPLOSIVES": 130 },
+		"blastSplashRadius": 40,
+		"penDmg": 120,
+		"fireArc": { "direction": "forwards", "degrees": 1 },
+		"muzzleCenterX": 14.0,
+		"muzzleCenterY": 1.312,
+		"muzzleLength": 2,
+		"optimumRange": 1300,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "cannon0", "cannon1", "cannon2", "cannon3", "cannon4", "cannon5", "cannon6" ],
+					"volume": {
+						"min": 5,
+						"max": 5.5,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+							5000, 0
+						],
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							4000, 0.75
+						]
+					}
+				},
+				{
+					"variations": [ "S_SH_Cannon" ],
+					"volume": {
+						"min": 4.8,
+						"max": 5.2,
+						"distance": [
+							0, 1,
+							3000, 0.75,
+							6000, 0.5,
+							8000, 0.3,
+							10000, 0.2
+						],
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							4000, 0.75
+						]
+					}
+				},
+				{
+					"variations": [ "cannon_d_0", "cannon_d_1", "cannon_d_2", "cannon_d_3" ],
+					"volume": {
+						"min": 3.4,
+						"max": 3.6,
+						"distance": [
+							0, 0,
+							750, 0,
+							2000, 0.1,
+							3000, 0.5,
+							4000, 0.75,
+							5000, 0.1
+						],
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.0,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}	
+			]
+		},
+		"hitSound": {
+			"layers": [
+				{
+					"variations": ["explosion_2"],
+					"volume": {
+						"min": 2.7,
+						"max": 3.5,
+						"distance": [
+							0, 1,
+							750, 0.75,
+							2000, 0.3,
+							3000, 0.2,
+							4000, 0.1,
+						],
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1,
+							2000, 1,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"recoilForce": 10,
+		"weaponAppearance": {
+			"shot": { "src": "wfw_spritesheet", "x": 50, "y": 84, "w": 16, "h": 8 },
+			"barrel": { "src": "wfw_spritesheet", "x": 6, "y": 149, "w": 171, "h": 34 },
+			"barrelX": 88,
+			"barrelY": 9,
+			"recoil": 30,
+			"hitExplosionSize": 6,
+			"missExplosionSize": 4,
+			"shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.02 }
+		},
+	}
+]

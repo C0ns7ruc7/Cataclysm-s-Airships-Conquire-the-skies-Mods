@@ -1,0 +1,36 @@
+[
+    {
+        "name": "COMMAND_CENTER",
+        "categories": ["COMMAND_AND_CREW"],
+        "w": 3,
+        "h": 2,
+        "appearance": {
+            "src": "command_center",
+            "x": 0,
+            "y": 0,
+            "w": 3,
+            "h": 2
+        },
+        "hp": 450,
+        "fireHP": 120,
+        "moveDelay": 600,
+        "weight": 90,
+        "cost": 30,
+        "command": 10,
+        "crew": 3,
+        "recommendedCrew": 4,
+        "recommendedGuards": 3,
+        "accuracyBonus": 0.15,
+        "canOccupy": [
+            { "x": 0, "y": 1 },
+            { "x": 0, "y": 0 },
+            { "x": 2, "y": 1 },
+            { "x": 1, "y": 1 }
+        ],
+        "windows": [
+            { "x": 0, "y": 0 },
+            { "x": 2, "y": 1 }
+        ],
+        "leftDoors": [ 0, 1 ]
+    }
+]

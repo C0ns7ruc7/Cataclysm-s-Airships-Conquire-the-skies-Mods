@@ -1,0 +1,442 @@
+[
+	{
+		"name": "LARGE_TURBOFAN_ENGINE",
+		"categories": ["PROPULSION"],
+		"availableFor": ["AIRSHIP"],
+		"sort": -35,
+		"w": 6,
+		"h": 3,
+		"appearance": {
+			"src": "turbofan",
+			"interval": 100,
+			"frames": [
+				{
+					"x": 3,
+					"y": 6,
+					"w": 6,
+					"h": 3
+				},
+				{
+					"x": 12,
+					"y": 6,
+					"w": 6,
+					"h": 3
+				},
+				{
+					"x": 21,
+					"y": 6,
+					"w": 6,
+					"h": 3
+				},
+				{
+					"x": 30,
+					"y": 6,
+					"w": 6,
+					"h": 3
+				}
+			]
+		},
+		"externalAppearances": [
+			{
+				"x": 5,
+				"y": 0,
+				"appearance": {
+					"src": "turbofan",
+					"x": 6,
+					"y": 9,
+					"w": 1,
+					"h": 3
+				}
+			},
+			{
+				"x": -3,
+				"y": 0,
+				"appearance": {
+					"src": "turbofan",
+					"interval": 100,
+					"frames": [
+						{
+							"x": 0,
+							"y": 6,
+							"w": 3,
+							"h": 3
+						},
+						{
+							"x": 9,
+							"y": 6,
+							"w": 3,
+							"h": 3
+						}
+					]
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 5,
+				"y": 0,
+				"appearance": {
+					"src": "turbofan",
+					"x": 7,
+					"y": 9,
+					"w": 1,
+					"h": 3
+				}
+			},
+			{
+				"x": -3,
+				"y": 0,
+				"appearance": {
+					"src": "turbofan",
+					"interval": 100,
+					"frames": [
+						{
+							"x": 0,
+							"y": 9,
+							"w": 3,
+							"h": 3
+						},
+						{
+							"x": 3,
+							"y": 9,
+							"w": 3,
+							"h": 3
+						}
+					]
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 5,
+				"y": 0,
+				"appearance": {
+					"src": "turbofan",
+					"x": 8,
+					"y": 9,
+					"w": 1,
+					"h": 3
+				}
+			},
+			{
+				"x": -3,
+				"y": 0,
+				"appearance": {
+					"src": "turbofan",
+					"x": 9,
+					"y": 9,
+					"w": 3,
+					"h": 3
+				}
+			}
+		],
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"hp": 500,
+		"fireHP": 400,
+		"explodeHP": 250,
+		"explodeDmg": 500,
+		"moveDelay": 1200,
+		"weight": 400,
+		"cost": 800,
+		"propulsion": 3,
+		"coalReload": 5000,
+		"backOnly": true,
+		"crew": 3,
+		"recommendedCrew": 4,
+		"recommendedGuards": 1,
+		
+		"required": "TURBOFAN_ENGINES",
+		
+		"runningLoop": {
+			"loopFadeInMs": 4000,
+			"loopFadeOutMs": 4000,
+			"layers": [
+				{
+					"variations": [ "turbofan_loop" ],
+					"volume": {
+						"value": 1.5,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						],
+						"xSpeed": [
+							-0.3, 1.2,
+							0, 0.4,
+							0.3, 1.2
+						]
+					},
+					"pitch": {
+						"min": 0.5,
+						"max": 0.6,
+						"xSpeed": [
+							-0.3, 1.2,
+							0, 0.8,
+							0.3, 1.2
+						],
+						"distance": [
+							0, 1,
+							2000, 0.9,
+							5000, 0.85
+						]
+					}
+				}
+			]
+		},
+		"emitters": [
+			{
+				"x": -0.88,
+				"y": 1.31,
+				"type": "ember",
+				"emitProbability": 0.003
+			},
+			{
+				"x": -0.88,
+				"y": 1.5,
+				"type": "ember",
+				"emitProbability": 0.003
+			},
+			{
+				"x": -0.88,
+				"y": 1.69,
+				"type": "ember",
+				"emitProbability": 0.003
+			},
+			{
+				"x": 2.87,
+				"y": 2.56,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 3.5,
+				"y": 2.56,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 3.19,
+				"y": 1.12,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 3.19,
+				"y": 1.5,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 3.19,
+				"y": 1.88,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			}
+		],
+		"damagedEmitters": [
+			{
+				"x": -0.88,
+				"y": 1.31,
+				"type": "ember",
+				"emitProbability": 0.005,
+				"numParticles": 2
+			},
+			{
+				"x": -0.88,
+				"y": 1.5,
+				"type": "ember",
+				"emitProbability": 0.005,
+				"numParticles": 2
+			},
+			{
+				"x": -0.88,
+				"y": 1.69,
+				"type": "ember",
+				"emitProbability": 0.005,
+				"numParticles": 2
+			},
+			{
+				"x": 2.87,
+				"y": 2.56,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 3.5,
+				"y": 2.56,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 3.19,
+				"y": 1.12,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 3.19,
+				"y": 1.5,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 3.19,
+				"y": 1.88,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": -0.88,
+				"y": 1.31,
+				"type": "smoke",
+				"emitProbability": 0.001
+			},
+			{
+				"x": -0.88,
+				"y": 1.69,
+				"type": "smoke",
+				"emitProbability": 0.001
+			}
+		],
+		"destroyedEmitters": [
+			{
+				"x": -0.88,
+				"y": 1.31,
+				"type": "ember",
+				"emitProbability": 0.005,
+			},
+			{
+				"x": -0.88,
+				"y": 1.5,
+				"type": "ember",
+				"emitProbability": 0.005,
+			},
+			{
+				"x": -0.88,
+				"y": 1.69,
+				"type": "ember",
+				"emitProbability": 0.005,
+			},
+			{
+				"x": 2.87,
+				"y": 2.56,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 3.5,
+				"y": 2.56,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 3.19,
+				"y": 1.12,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 3.19,
+				"y": 1.5,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 3.19,
+				"y": 1.88,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": -0.88,
+				"y": 1.31,
+				"type": "smoke",
+				"emitProbability": 0.002
+			},
+			{
+				"x": -0.88,
+				"y": 1.69,
+				"type": "smoke",
+				"emitProbability": 0.002
+			},
+			{
+				"x": 5.81,
+				"y": 0.69,
+				"type": "ember",
+				"emitProbability": 0.003
+			},
+			{
+				"x": 5.81,
+				"y": 0.81,
+				"type": "ember",
+				"emitProbability": 0.003
+			},
+			{
+				"x": 5.81,
+				"y": 1.31,
+				"type": "ember",
+				"emitProbability": 0.003
+			},
+			{
+				"x": 5.81,
+				"y": 1.81,
+				"type": "ember",
+				"emitProbability": 0.003
+			},
+			{
+				"x": 5.81,
+				"y": 2.19,
+				"type": "ember",
+				"emitProbability": 0.003
+			},
+			{
+				"x": 5.81,
+				"y": 2.44,
+				"type": "ember",
+				"emitProbability": 0.003
+			},
+			{
+				"x": 5.81,
+				"y": 0.81,
+				"type": "smoke",
+				"emitProbability": 0.0015
+			},
+			{
+				"x": 5.81,
+				"y": 1.31,
+				"type": "smoke",
+				"emitProbability": 0.0015
+			},
+			{
+				"x": 5.81,
+				"y": 1.81,
+				"type": "smoke",
+				"emitProbability": 0.0015
+			}
+		],
+		"lights": [
+			{
+				"r": 255, "g": 90, "b": 10,
+				"radius": 100,
+				"x": 3.19,
+				"y": 2.56,
+			}
+		]
+	}
+]

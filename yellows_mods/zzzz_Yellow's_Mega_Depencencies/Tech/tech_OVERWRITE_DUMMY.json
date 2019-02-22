@@ -1,0 +1,56 @@
+[
+	{
+		"name": "METALLURGY",
+		"sort": 1530,
+		"tier": 1,
+		"bonuses": [ "MEDIUM_STEEL_ARMOUR", "IMPERIAL_CANNON", "Y_SWORD_GUN", "Y_GRAND_RAMS", "Y_METAL_BLOCKS" ],
+		"dependencies": [ "GUNNERY" ],
+		"img": { "src": "tech", "x": 768, "y": 128, "w": 64, "h": 64 }
+	},
+	{
+		"name": "SCIENTIFIC_SUSPENDIUM_MINING",
+		"sort": 2700,
+		"tier": 2,
+		"bonuses": [ "LARGE_SUSPENDIUM_CHAMBERS", "Y_STRUCTURAL_LIGHTENER" ],
+		"dependencies": [ "HIGH_PRESSURE_SUSPENDIUM" ],
+		"img": { "src": "tech", "x": 608, "y": 192, "w": 64, "h": 64 }
+	},
+	{
+		"name": "EXPLOSIVES",
+		"sort": 150,
+		"tier": 0,
+		"bonuses": [ "BOMBS", "Y_WARHEADS" ],
+		"img": { "src": "tech", "x": 448, "y": 128, "w": 64, "h": 64 }
+	},
+	{
+		"name": "GUNNERY",
+		"sort": 250,
+		"tier": 0,
+		"bonuses": [ "CANNONS", "Y_OLD_HEAVY_CANNON", "Y_LIGHT_CANNONS" ],
+		"img": { "src": "tech", "x": 832, "y": 128, "w": 64, "h": 64 }
+	},
+	{
+		"name": "GYROSCOPES",
+		"sort": 2500,
+		"tier": 2,
+		"bonuses": [ "TURRETS", "Y_WIDE_ANGLE_CANNONS" ],
+		"dependencies": [ "OPTICS" ],
+		"img": { "src": "tech", "x": 384, "y": 192, "w": 64, "h": 64 }
+	},
+	{
+		"name": "OPTICS",
+		"sort": 1500,
+		"tier": 1,
+		"bonuses": [ "TELESCOPES", "Y_LONG_RIFLES" ],
+		"dependencies": [ "RIFLING" ],
+		"img": { "src": "tech", "x": 512, "y": 128, "w": 64, "h": 64 }
+	},
+	{
+		"name": "HEAVY_CANNON",
+		"sort": 2530,
+		"tier": 2,
+		"bonuses": [ "HEAVY_CANNON", "Y_HEAVY_RIFLES" ],
+		"dependencies": [ "METALLURGY", "OPTICS" ],
+		"img": { "src": "tech", "x": 672, "y": 192, "w": 64, "h": 64 }
+	},
+]

@@ -1,0 +1,261 @@
+[
+	{
+		"name": "DIRT",
+		"categories": ["DECORATIVE_TERRAIN"],
+		"armourType": "DIRT_HIDDEN_Y",
+		"sort": 1,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 0,
+			"y": 45
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 9, "y": 16, "w": 1, "h": 1 },
+						{ "x": 10, "y": 16, "w": 1, "h": 1 },
+						{ "x": 11, "y": 16, "w": 1, "h": 1 },
+						{ "x": 12, "y": 16, "w": 1, "h": 1 },
+						{ "x": 9, "y": 16, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 16, "w": 1, "h": 1, "flipped": true },
+						{ "x": 11, "y": 16, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 16, "w": 1, "h": 1, "flipped": true }
+					],
+				}
+			}
+		],
+		"hp": 200,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 100,
+		"cost": 3,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 1.0,
+		"hardness": 1.2,
+		"collisionDamageReceivedMult": 0.5,
+		"structuralStressAmount": 0,
+		"doesCreak": false,
+		"hitParticle": "ground_soil",
+		"fragmentsFireMult": 0,
+		"destructionParticle": "ground_soil",
+		"destructionParticleDensity": 10,
+        "drawExternalsBelowDecals": true,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "soft_impact0", "soft_impact1", "soft_impact2" ],
+					"volume": {
+						"min": 0.5,
+						"max": 0.7,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 0.9,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "GRASS",
+		"categories": ["DECORATIVE_TERRAIN"],
+		"armourType": "DIRT_HIDDEN_Y",
+		"sort": 2,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 0,
+			"y": 45
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 9, "y": 16, "w": 1, "h": 1 },
+						{ "x": 10, "y": 16, "w": 1, "h": 1 },
+						{ "x": 11, "y": 16, "w": 1, "h": 1 },
+						{ "x": 12, "y": 16, "w": 1, "h": 1 },
+						{ "x": 9, "y": 16, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 16, "w": 1, "h": 1, "flipped": true },
+						{ "x": 11, "y": 16, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 16, "w": 1, "h": 1, "flipped": true }
+					],
+				}
+			},
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 9, "y": 15, "w": 1, "h": 1 },
+						{ "x": 10, "y": 15, "w": 1, "h": 1 },
+						{ "x": 11, "y": 15, "w": 1, "h": 1 },
+						{ "x": 12, "y": 15, "w": 1, "h": 1 },
+						{ "x": 9, "y": 15, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 15, "w": 1, "h": 1, "flipped": true },
+						{ "x": 11, "y": 15, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 15, "w": 1, "h": 1, "flipped": true }
+					],
+				},
+				"x": 0,
+				"y": -1
+			}
+		],
+		"hp": 250,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 100,
+		"cost": 4,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 1.0,
+		"hardness": 1.3,
+		"collisionDamageReceivedMult": 0.5,
+		"structuralStressAmount": 0,
+		"doesCreak": false,
+		"hitParticle": "ground_soil",
+		"fragmentsFireMult": 0,
+		"destructionParticle": "ground_soil",
+		"destructionParticleDensity": 10,
+        "drawExternalsBelowDecals": true,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "soft_impact0", "soft_impact1", "soft_impact2" ],
+					"volume": {
+						"min": 0.5,
+						"max": 0.7,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 0.9,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "GRASS_SNOW",
+		"categories": ["DECORATIVE_TERRAIN"],
+		"armourType": "DIRT_HIDDEN_Y",
+		"sort": 3,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 0,
+			"y": 45
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 9, "y": 21, "w": 1, "h": 1 },
+						{ "x": 10, "y": 21, "w": 1, "h": 1 },
+						{ "x": 11, "y": 21, "w": 1, "h": 1 },
+						{ "x": 12, "y": 21, "w": 1, "h": 1 },
+						{ "x": 9, "y": 21, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 21, "w": 1, "h": 1, "flipped": true },
+						{ "x": 11, "y": 21, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 21, "w": 1, "h": 1, "flipped": true }
+					],
+				},
+				"x": 0,
+				"y": 0
+			},
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 9, "y": 20, "w": 1, "h": 1 },
+						{ "x": 10, "y": 20, "w": 1, "h": 1 },
+						{ "x": 11, "y": 20, "w": 1, "h": 1 },
+						{ "x": 12, "y": 20, "w": 1, "h": 1 },
+						{ "x": 9, "y": 20, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 20, "w": 1, "h": 1, "flipped": true },
+						{ "x": 11, "y": 20, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 20, "w": 1, "h": 1, "flipped": true }
+					],
+				},
+				"x": 0,
+				"y": -1
+			}
+		],
+		"hp": 250,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"weight": 100,
+		"cost": 4,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 1.0,
+		"hardness": 1.3,
+		"collisionDamageReceivedMult": 0.5,
+		"structuralStressAmount": 0,
+		"doesCreak": false,
+		"hitParticle": "ground_soil",
+		"fragmentsFireMult": 0,
+		"destructionParticle": "ground_soil",
+		"destructionParticleDensity": 10,
+        "drawExternalsBelowDecals": true,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "soft_impact0", "soft_impact1", "soft_impact2" ],
+					"volume": {
+						"min": 0.5,
+						"max": 0.7,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 0.9,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+]

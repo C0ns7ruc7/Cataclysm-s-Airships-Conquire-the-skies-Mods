@@ -1,0 +1,790 @@
+[
+	{
+		"name": "TREE",
+		"categories": ["DECORATIVE_TERRAIN"],
+		"armourType": "HV_WOOD_HIDDEN_Y",
+		"sort": 50,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 0,
+			"y": 45
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 9, "y": 22, "w": 1, "h": 1 },
+						{ "x": 10, "y": 22, "w": 1, "h": 1 },
+						{ "x": 11, "y": 22, "w": 1, "h": 1 },
+						{ "x": 12, "y": 22, "w": 1, "h": 1 },
+						{ "x": 9, "y": 22, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 22, "w": 1, "h": 1, "flipped": true },
+						{ "x": 11, "y": 22, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 22, "w": 1, "h": 1, "flipped": true },
+						{ "x": 9, "y": 23, "w": 1, "h": 1 },
+						{ "x": 10, "y": 23, "w": 1, "h": 1 },
+						{ "x": 11, "y": 23, "w": 1, "h": 1 },
+						{ "x": 12, "y": 23, "w": 1, "h": 1 },
+						{ "x": 9, "y": 23, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 23, "w": 1, "h": 1, "flipped": true },
+						{ "x": 11, "y": 23, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 23, "w": 1, "h": 1, "flipped": true }
+					],
+				},
+				"x": 0,
+				"y": 0
+			},
+		],
+		"hp": 250,
+		"fireHP": 50,
+		"moveDelay": 10000,
+		"weight": 20,
+		"cost": 15,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 1.0,
+		"hardness": 1.4,
+		"structuralStressAmount": 0,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 10,
+        "drawExternalsBelowDecals": true,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 1.2,
+						"max": 1.5,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 0.9,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "BRANCHTREE",
+		"categories": ["DECORATIVE_TERRAIN"],
+		"armourType": "HV_LEAFWOOD_HIDDEN_Y",
+		"sort": 51,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 0,
+			"y": 45
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 9, "y": 22, "w": 1, "h": 1 },
+						{ "x": 10, "y": 22, "w": 1, "h": 1 },
+						{ "x": 11, "y": 22, "w": 1, "h": 1 },
+						{ "x": 12, "y": 22, "w": 1, "h": 1 },
+						{ "x": 9, "y": 22, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 22, "w": 1, "h": 1, "flipped": true },
+						{ "x": 11, "y": 22, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 22, "w": 1, "h": 1, "flipped": true },
+						{ "x": 9, "y": 23, "w": 1, "h": 1 },
+						{ "x": 10, "y": 23, "w": 1, "h": 1 },
+						{ "x": 11, "y": 23, "w": 1, "h": 1 },
+						{ "x": 12, "y": 23, "w": 1, "h": 1 },
+						{ "x": 9, "y": 23, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 23, "w": 1, "h": 1, "flipped": true },
+						{ "x": 11, "y": 23, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 23, "w": 1, "h": 1, "flipped": true }
+					],
+				},
+				"x": 0,
+				"y": 0
+			},
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 7, "y": 27, "w": 1, "h": 1 },
+						{ "x": 8, "y": 27, "w": 1, "h": 1 },
+						{ "x": 9, "y": 27, "w": 1, "h": 1 },
+						{ "x": 10, "y": 27, "w": 1, "h": 1 },
+						{ "x": 7, "y": 27, "w": 1, "h": 1, "flipped": true },
+						{ "x": 8, "y": 27, "w": 1, "h": 1, "flipped": true },
+						{ "x": 9, "y": 27, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 27, "w": 1, "h": 1, "flipped": true },
+						{ "x": 11, "y": 27, "w": 1, "h": 1 },
+						{ "x": 12, "y": 27, "w": 1, "h": 1 },
+						{ "x": 13, "y": 27, "w": 1, "h": 1 },
+						{ "x": 14, "y": 27, "w": 1, "h": 1 },
+						{ "x": 11, "y": 27, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 27, "w": 1, "h": 1, "flipped": true },
+						{ "x": 13, "y": 27, "w": 1, "h": 1, "flipped": true },
+						{ "x": 14, "y": 27, "w": 1, "h": 1, "flipped": true }
+					],
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 0.5,
+				"type": "falling_leaf",
+				"emitProbability": 0.0005,
+			}
+		],
+		"hp": 250,
+		"fireHP": 50,
+		"moveDelay": 10000,
+		"weight": 21,
+		"cost": 17,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 1.0,
+		"hardness": 1.4,
+		"structuralStressAmount": 0,
+		"hitParticle": "leaf",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 10,
+        "drawExternalsBelowDecals": true,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 1.2,
+						"max": 1.5,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 0.9,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "branchcrack0", "branchcrack1", "branchcrack2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "leaves0", "leaves1", "leaves2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.1,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+			]
+		},
+	},
+	{
+		"name": "BRANCHTREE_SNOW",
+		"categories": ["DECORATIVE_TERRAIN"],
+		"armourType": "HV_WOOD_HIDDEN_Y",
+		"sort": 55,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 0,
+			"y": 45
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 9, "y": 22, "w": 1, "h": 1 },
+						{ "x": 10, "y": 22, "w": 1, "h": 1 },
+						{ "x": 11, "y": 22, "w": 1, "h": 1 },
+						{ "x": 12, "y": 22, "w": 1, "h": 1 },
+						{ "x": 9, "y": 22, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 22, "w": 1, "h": 1, "flipped": true },
+						{ "x": 11, "y": 22, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 22, "w": 1, "h": 1, "flipped": true },
+						{ "x": 9, "y": 23, "w": 1, "h": 1 },
+						{ "x": 10, "y": 23, "w": 1, "h": 1 },
+						{ "x": 11, "y": 23, "w": 1, "h": 1 },
+						{ "x": 12, "y": 23, "w": 1, "h": 1 },
+						{ "x": 9, "y": 23, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 23, "w": 1, "h": 1, "flipped": true },
+						{ "x": 11, "y": 23, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 23, "w": 1, "h": 1, "flipped": true }
+					],
+				},
+				"x": 0,
+				"y": 0
+			},
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 7, "y": 28, "w": 1, "h": 1 },
+						{ "x": 8, "y": 28, "w": 1, "h": 1 },
+						{ "x": 9, "y": 28, "w": 1, "h": 1 },
+						{ "x": 10, "y": 28, "w": 1, "h": 1 },
+						{ "x": 7, "y": 28, "w": 1, "h": 1, "flipped": true },
+						{ "x": 8, "y": 28, "w": 1, "h": 1, "flipped": true },
+						{ "x": 9, "y": 28, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 28, "w": 1, "h": 1, "flipped": true },
+						{ "x": 11, "y": 28, "w": 1, "h": 1 },
+						{ "x": 12, "y": 28, "w": 1, "h": 1 },
+						{ "x": 13, "y": 28, "w": 1, "h": 1 },
+						{ "x": 14, "y": 28, "w": 1, "h": 1 },
+						{ "x": 11, "y": 28, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 28, "w": 1, "h": 1, "flipped": true },
+						{ "x": 13, "y": 28, "w": 1, "h": 1, "flipped": true },
+						{ "x": 14, "y": 28, "w": 1, "h": 1, "flipped": true }
+					],
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 0.5,
+				"type": "falling_snow",
+				"emitProbability": 0.0005,
+			}
+		],
+		"hp": 250,
+		"fireHP": 50,
+		"moveDelay": 10000,
+		"weight": 21,
+		"cost": 17,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 1.0,
+		"hardness": 1.4,
+		"structuralStressAmount": 0,
+		"hitParticle": "ground_snow",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 10,
+        "drawExternalsBelowDecals": true,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 1.2,
+						"max": 1.5,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 0.9,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "branchcrack0", "branchcrack1", "branchcrack2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+			]
+		},
+	},
+	{
+		"name": "BRANCHD",
+		"categories": ["DECORATIVE_TERRAIN"],
+		"external": true,
+		"armourType": "MED_LEAFWOOD_HIDDEN_Y",
+		"sort": 52,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 7, "y": 27, "w": 1, "h": 1 },
+						{ "x": 8, "y": 27, "w": 1, "h": 1 },
+						{ "x": 9, "y": 27, "w": 1, "h": 1 },
+						{ "x": 10, "y": 27, "w": 1, "h": 1 },
+						{ "x": 7, "y": 27, "w": 1, "h": 1, "flipped": true },
+						{ "x": 8, "y": 27, "w": 1, "h": 1, "flipped": true },
+						{ "x": 9, "y": 27, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 27, "w": 1, "h": 1, "flipped": true },
+					],
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 0.5,
+				"type": "falling_leaf",
+				"emitProbability": 0.0005,
+			}
+		],
+		"hp": 30,
+		"fireHP": 10,
+		"moveDelay": 10000,
+		"weight": 1,
+		"cost": 3,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.5,
+		"hardness": 0.7,
+		"structuralStressAmount": 0,
+		"hitParticle": "leaf",
+		"destructionParticle": "leaf",
+		"destructionParticleDensity": 10,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 0.5,
+						"max": 0.8,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 1.3,
+						"max": 1.5,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "branchcrack0", "branchcrack1", "branchcrack2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "leaves0", "leaves1", "leaves2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.1,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+			]
+		},
+	},
+	{
+		"name": "BRANCHD_SNOW",
+		"categories": ["DECORATIVE_TERRAIN"],
+		"external": true,
+		"armourType": "MED_WOOD_HIDDEN_Y",
+		"sort": 56,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 7, "y": 28, "w": 1, "h": 1 },
+						{ "x": 8, "y": 28, "w": 1, "h": 1 },
+						{ "x": 9, "y": 28, "w": 1, "h": 1 },
+						{ "x": 10, "y": 28, "w": 1, "h": 1 },
+						{ "x": 7, "y": 28, "w": 1, "h": 1, "flipped": true },
+						{ "x": 8, "y": 28, "w": 1, "h": 1, "flipped": true },
+						{ "x": 9, "y": 28, "w": 1, "h": 1, "flipped": true },
+						{ "x": 10, "y": 28, "w": 1, "h": 1, "flipped": true },
+					],
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 0.5,
+				"type": "falling_snow",
+				"emitProbability": 0.0005,
+			}
+		],
+		"hp": 30,
+		"fireHP": 10,
+		"moveDelay": 10000,
+		"weight": 1,
+		"cost": 3,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.5,
+		"hardness": 0.7,
+		"structuralStressAmount": 0,
+		"hitParticle": "ground_snow",
+		"destructionParticle": "ground_snow",
+		"destructionParticleDensity": 10,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 0.5,
+						"max": 0.8,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 1.3,
+						"max": 1.5,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "branchcrack0", "branchcrack1", "branchcrack2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+			]
+		},
+	},
+	{
+		"name": "BRANCHM",
+		"categories": ["DECORATIVE_TERRAIN"],
+		"external": true,
+		"armourType": "LT_LEAFWOOD_HIDDEN_Y",
+		"sort": 53,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 11, "y": 27, "w": 1, "h": 1 },
+						{ "x": 12, "y": 27, "w": 1, "h": 1 },
+						{ "x": 13, "y": 27, "w": 1, "h": 1 },
+						{ "x": 14, "y": 27, "w": 1, "h": 1 },
+						{ "x": 11, "y": 27, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 27, "w": 1, "h": 1, "flipped": true },
+						{ "x": 13, "y": 27, "w": 1, "h": 1, "flipped": true },
+						{ "x": 14, "y": 27, "w": 1, "h": 1, "flipped": true },
+					],
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 0.5,
+				"type": "falling_leaf",
+				"emitProbability": 0.0005,
+			}
+		],
+		"hp": 10,
+		"fireHP": 3,
+		"moveDelay": 10000,
+		"weight": 1,
+		"cost": 1,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.2,
+		"hardness": 0.2,
+		"structuralStressAmount": 0,
+		"hitParticle": "leaf",
+		"destructionParticle": "leaf",
+		"destructionParticleDensity": 10,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "branchcrack0", "branchcrack1", "branchcrack2" ],
+					"volume": {
+						"min": 0.5,
+						"max": 0.8,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 1.1,
+						"max": 1.5,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "leaves0", "leaves1", "leaves2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.1,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+			]
+		},
+	},
+	{
+		"name": "BRANCHM_SNOW",
+		"categories": ["DECORATIVE_TERRAIN"],
+		"external": true,
+		"armourType": "LT_WOOD_HIDDEN_Y",
+		"sort": 57,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "shaping_unified",
+					"frames": [
+						{ "x": 11, "y": 28, "w": 1, "h": 1 },
+						{ "x": 12, "y": 28, "w": 1, "h": 1 },
+						{ "x": 13, "y": 28, "w": 1, "h": 1 },
+						{ "x": 14, "y": 28, "w": 1, "h": 1 },
+						{ "x": 11, "y": 28, "w": 1, "h": 1, "flipped": true },
+						{ "x": 12, "y": 28, "w": 1, "h": 1, "flipped": true },
+						{ "x": 13, "y": 28, "w": 1, "h": 1, "flipped": true },
+						{ "x": 14, "y": 28, "w": 1, "h": 1, "flipped": true },
+					],
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 0.5,
+				"type": "falling_snow",
+				"emitProbability": 0.0005,
+			}
+		],
+		"hp": 10,
+		"fireHP": 3,
+		"moveDelay": 10000,
+		"weight": 1,
+		"cost": 1,
+		"canOccupy": [],
+		"adjacencyBonusStrength": 0.2,
+		"hardness": 0.2,
+		"structuralStressAmount": 0,
+		"hitParticle": "ground_snow",
+		"destructionParticle": "ground_snow",
+		"destructionParticleDensity": 10,
+        "producesHorizontalDrag": false,
+        "drawExternalsBelowDecals": true,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "branchcrack0", "branchcrack1", "branchcrack2" ],
+					"volume": {
+						"min": 0.5,
+						"max": 0.8,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 1.1,
+						"max": 1.5,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+			]
+		},
+	},
+]

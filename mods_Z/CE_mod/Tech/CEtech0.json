@@ -5,5 +5,23 @@
         "tier": 0,
         "bonuses": [ "COMMERCE_HAGGELING",  "COMMERCE_HAGGELING_INCOME" ],
         "img": { "src": "ce_tech_art", "x": 128, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "IMPERIAL_NODE1",
+        "sort": 1000,
+        "tier": 0,
+        "choices": [
+            {
+                "name": "IMPN1_WEIGHT",
+                "bonuses": [ "IMPN1_WEIGHT" ],
+                "img": { "src": "ce_tech_art", "x": 256, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "IMPN1_DESNSE",
+                "bonuses": [ "IMPN1_DESNSE" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            }
+        ],
+        "requiresBonus": "CE_ARMOR_INOVATION"
     }
 ]

@@ -39,5 +39,24 @@
         "bonuses": [ "COMMERCE_FACTORING", "COMMERCE_FACTORING_INCOME" ],
         "dependencies": [ "ORGENIZED_GATHERING" ],
         "img": { "src": "ce_tech_art", "x": 256, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "IMPERIAL_NODE3",
+        "sort": 3000,
+        "tier": 2,
+        "choices": [
+            {
+                "name": "IMP3_BLAST",
+                "bonuses": [ "IMP3_BLAST" ],
+                "img": { "src": "ce_tech_art", "x": 256, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "IMP3_PENEN",
+                "bonuses": [ "IMP3_PENEN" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            }
+        ],
+        "requiresBonus": "CE_ARMOR_INOVATION",
+        "dependencies": [ "IMPERIAL_NODE2" ]
     }
 ]

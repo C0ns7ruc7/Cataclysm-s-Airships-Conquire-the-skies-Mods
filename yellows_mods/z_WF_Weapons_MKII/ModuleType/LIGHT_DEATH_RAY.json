@@ -1,0 +1,521 @@
+[
+	{
+		"name": "FLIPPED_LIGHT_DEATH_RAY",
+		"flippedFrom": "LIGHT_DEATH_RAY",
+		"sort": 90,
+	},
+	{
+		"name": "LIGHT_DEATH_RAY",
+		"sort": 90,
+		"categories": ["WEAPONS_WF"],
+		"required": "Y_LIGHT_DEATH_RAY",
+		"isWeapon": true,
+		"w": 4,
+		"h": 3,
+		"appearance": {
+			"src": "wfw_spritesheet_2",
+			"interval": 70,
+			"frames": [
+				{ "x": 0, "y": 57, "w": 4, "h": 3 },
+				{ "x": 4, "y": 57, "w": 4, "h": 3 },
+				{ "x": 8, "y": 57, "w": 4, "h": 3 },
+				{ "x": 12, "y": 57, "w": 4, "h": 3 },
+				{ "x": 16, "y": 57, "w": 4, "h": 3 },
+				{ "x": 20, "y": 57, "w": 4, "h": 3 }
+			]
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 18,
+					"y": 23,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 18,
+					"y": 25,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 18,
+					"y": 27,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+        "externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
+		"hp": 280,
+		"fireHP": 100,
+		"moveDelay": 800,
+		"weight": 200,
+		"cost": 1500,
+		"crew": 3,
+		"coalReload": 8000,
+		"recommendedCrew": 4,
+		"recommendedGuards": 1,
+		"frontOnly": true,
+		"reload": 900,
+		"jitterMerge": 0.95,
+		"clip": 50,
+		"inaccuracy": 0.0005,
+		"blastDmg": 40,
+		"blastSplashRadius": 5,
+		"fireArc": { "direction": "forwards", "degrees": 40 },
+		"muzzleCenterX": 3.69,
+		"muzzleCenterY": 1.97,
+		"muzzleLength": 1,
+		"muzzleFlash": false,
+		"optimumRange": 1300,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "deathray0" ],
+					"volume": {
+						"min": 1.5,
+						"max": 1.6,
+						"distance": [
+							0, 1,
+							1000, 0.7,
+							2000, 0.3,
+							3000, 0.1,
+							4000, 0
+						],
+					},
+					"pitch": {
+						"min": 1.1,
+						"max": 1.3,
+						"distance": [
+							0, 1.0,
+							2000, 0.9,
+							3000, 0.7
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"shot": { "src": "spritesheet", "x": 176, "y": 304, "w": 1, "h": 1 },
+			"barrel": { "src": "wfw_spritesheet", "x": 290, "y": 354, "w": 27, "h": 9 },
+			"barrelX": 46,
+			"barrelY": 27,
+			"recoil": 0,
+			"exhaust": {
+				"type": "light_death_ray_spark",
+				"p": 0.5,
+				"backOffset": 0,
+				"angleRange": 0,
+				"randomOffset": 0,
+				"speedMin": 0,
+				"speedMax": 0
+			}
+		},
+		"emitters": [
+			{
+				"x": 0.31,
+				"y": 0.5,
+				"type": "smoke",
+				"emitProbability": 0.002
+			},
+			{
+				"x": 1.69,
+				"y": 0.5,
+				"type": "smoke",
+				"emitProbability": 0.002
+			},
+			{
+				"x": 0.31,
+				"y": 2.69,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 1.69,
+				"y": 2.69,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 3.75,
+				"y": 2,
+				"type": "light_death_ray_spark",
+				"emitProbability": 0.002,
+				"inside": true
+			}
+		],
+		"lights": [
+			{
+				"r": 255, "g": 90, "b": 10,
+				"radius": 60,
+				"x": 1,
+				"y": 2.69
+			},
+			{
+				"r": 187, "g": 66, "b": 255,
+				"radius": 80,
+				"x": 3.69,
+				"y": 2
+			}
+		]
+	},
+	{
+		"name": "FLIPPED_LIGHT_DEATH_RAY_H",
+		"flippedFrom": "LIGHT_DEATH_RAY_H",
+		"sort": 91,
+	},
+	{
+		"name": "LIGHT_DEATH_RAY_H",
+		"sort": 91,
+		"categories": ["WEAPONS_WF"],
+		"required": "Y_LIGHT_DEATH_RAY",
+		"isWeapon": true,
+		"w": 4,
+		"h": 3,
+		"appearance": {
+			"src": "wfw_spritesheet_2",
+			"interval": 70,
+			"frames": [
+				{ "x": 0, "y": 61, "w": 4, "h": 3 },
+				{ "x": 4, "y": 61, "w": 4, "h": 3 },
+				{ "x": 8, "y": 61, "w": 4, "h": 3 },
+				{ "x": 12, "y": 61, "w": 4, "h": 3 },
+				{ "x": 16, "y": 61, "w": 4, "h": 3 },
+				{ "x": 20, "y": 61, "w": 4, "h": 3 }
+			]
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": -2,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 0,
+					"y": 55,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": -2,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 2,
+					"y": 55,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": -2,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 4,
+					"y": 55,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+        "externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
+		"hp": 280,
+		"fireHP": 100,
+		"moveDelay": 800,
+		"weight": 275,
+		"cost": 1650,
+		"crew": 3,
+		"coalReload": 8000,
+		"recommendedCrew": 4,
+		"recommendedGuards": 1,
+		"frontOnly": true,
+		"topOnly": true,
+		"reload": 450,
+		"jitterMerge": 0.95,
+		"clip": 50,
+		"inaccuracy": 0.0005,
+		"blastDmg": 40,
+		"blastSplashRadius": 5,
+		"fireArc": { "direction": "forwards", "degrees": 40 },
+		"muzzleCenterX": 3.69,
+		"muzzleCenterY": 1.97,
+		"muzzleLength": 1,
+		"muzzleFlash": false,
+		"optimumRange": 1300,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "deathray0" ],
+					"volume": {
+						"min": 1.5,
+						"max": 1.6,
+						"distance": [
+							0, 1,
+							1000, 0.7,
+							2000, 0.3,
+							3000, 0.1,
+							4000, 0
+						],
+					},
+					"pitch": {
+						"min": 1.1,
+						"max": 1.3,
+						"distance": [
+							0, 1.0,
+							2000, 0.9,
+							3000, 0.7
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"shot": { "src": "spritesheet", "x": 176, "y": 304, "w": 1, "h": 1 },
+			"barrel": { "src": "wfw_spritesheet", "x": 290, "y": 354, "w": 27, "h": 9 },
+			"barrelX": 46,
+			"barrelY": 27,
+			"recoil": 0,
+			"exhaust": {
+				"type": "light_death_ray_spark",
+				"p": 0.5,
+				"backOffset": 0,
+				"angleRange": 0,
+				"randomOffset": 0,
+				"speedMin": 0,
+				"speedMax": 0
+			}
+		},
+		"emitters": [
+			{
+				"x": 1.08,
+				"y": -1.9,
+				"type": "smoke",
+				"emitProbability": 0.005
+			},
+			{
+				"x": 0.69,
+				"y": 2.5,
+				"type": "ember",
+				"emitProbability": 0.004,
+				"inside": true
+			},
+			{
+				"x": 3.75,
+				"y": 2,
+				"type": "light_death_ray_spark",
+				"emitProbability": 0.004,
+				"inside": true
+			}
+		],
+		"lights": [
+			{
+				"r": 255, "g": 90, "b": 10,
+				"radius": 60,
+				"x": 1,
+				"y": 2.5
+			},
+			{
+				"r": 187, "g": 66, "b": 255,
+				"radius": 80,
+				"x": 3.69,
+				"y": 2
+			}
+		]
+	},
+	{
+		"name": "FLIPPED_LIGHT_DEATH_RAY_HC",
+		"flippedFrom": "LIGHT_DEATH_RAY_HC",
+		"sort": 91,
+	},
+	{
+		"name": "LIGHT_DEATH_RAY_HC",
+		"sort": 91,
+		"categories": ["WEAPONS_WF"],
+		"required": "Y_LIGHT_DEATH_RAY",
+		"isWeapon": true,
+		"w": 4,
+		"h": 4,
+		"appearance": {
+			"src": "wfw_spritesheet_2",
+			"interval": 70,
+			"frames": [
+				{ "x": 0, "y": 60, "w": 4, "h": 4 },
+				{ "x": 4, "y": 60, "w": 4, "h": 4 },
+				{ "x": 8, "y": 60, "w": 4, "h": 4 },
+				{ "x": 12, "y": 60, "w": 4, "h": 4 },
+				{ "x": 16, "y": 60, "w": 4, "h": 4 },
+				{ "x": 20, "y": 60, "w": 4, "h": 4 }
+			]
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": -1,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 6,
+					"y": 19,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": -1,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 13,
+					"y": 18,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": -1,
+				"appearance": {
+					"src": "wfw_spritesheet",
+					"x": 15,
+					"y": 18,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+        "externalSubColor": { "r": 187, "g": 66, "b": 29 },
+        "externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
+		"hp": 280,
+		"fireHP": 100,
+		"moveDelay": 800,
+		"weight": 325,
+		"cost": 1700,
+		"crew": 3,
+		"coalReload": 8000,
+		"recommendedCrew": 4,
+		"recommendedGuards": 1,
+		"frontOnly": true,
+		"reload": 450,
+		"jitterMerge": 0.95,
+		"clip": 50,
+		"inaccuracy": 0.0005,
+		"blastDmg": 40,
+		"blastSplashRadius": 5,
+		"fireArc": { "direction": "forwards", "degrees": 40 },
+		"muzzleCenterX": 3.69,
+		"muzzleCenterY": 2.97,
+		"muzzleLength": 1,
+		"muzzleFlash": false,
+		"optimumRange": 1300,
+		"fireSound": {
+			"layers": [
+				{
+					"variations": [ "deathray0" ],
+					"volume": {
+						"min": 1.5,
+						"max": 1.6,
+						"distance": [
+							0, 1,
+							1000, 0.7,
+							2000, 0.3,
+							3000, 0.1,
+							4000, 0
+						],
+					},
+					"pitch": {
+						"min": 1.1,
+						"max": 1.3,
+						"distance": [
+							0, 1.0,
+							2000, 0.9,
+							3000, 0.7
+						]
+					}
+				}
+			]
+		},
+		"weaponAppearance": {
+			"shot": { "src": "spritesheet", "x": 176, "y": 304, "w": 1, "h": 1 },
+			"barrel": { "src": "wfw_spritesheet", "x": 290, "y": 354, "w": 27, "h": 9 },
+			"barrelX": 46,
+			"barrelY": 43,
+			"recoil": 0,
+			"exhaust": {
+				"type": "light_death_ray_spark",
+				"p": 0.5,
+				"backOffset": 0,
+				"angleRange": 0,
+				"randomOffset": 0,
+				"speedMin": 0,
+				"speedMax": 0
+			}
+		},
+		"emitters": [
+			{
+				"x": 1.1875,
+				"y": -0.9375,
+				"type": "smoke",
+				"emitProbability": 0.005
+			},
+			{
+				"x": 0.69,
+				"y": 3.5,
+				"type": "ember",
+				"emitProbability": 0.004,
+				"inside": true
+			},
+			{
+				"x": 3.75,
+				"y": 3,
+				"type": "light_death_ray_spark",
+				"emitProbability": 0.004,
+				"inside": true
+			}
+		],
+		"lights": [
+			{
+				"r": 255, "g": 90, "b": 10,
+				"radius": 60,
+				"x": 1,
+				"y": 3.5
+			},
+			{
+				"r": 187, "g": 66, "b": 255,
+				"radius": 80,
+				"x": 3.69,
+				"y": 3
+			}
+		]
+	}
+]

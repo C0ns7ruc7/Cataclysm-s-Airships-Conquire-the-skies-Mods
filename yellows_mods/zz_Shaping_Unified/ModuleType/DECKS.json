@@ -1,0 +1,530 @@
+[
+	{
+		"name": "DECK",
+		"categories": ["DECORATIVE_SHAPING_WOOD_GIRDER"],
+		"sort": -5,
+		"required": "Y_W_STRUTS",
+		"external": true,
+		"drawDoors": false,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"externalAppearances": [
+			{
+				"appearance": {
+					"src": "spritesheet",
+					"frames": [
+						{ "x": 26, "y": 5 },
+						{ "x": 27, "y": 5 },
+						{ "x": 28, "y": 5 },
+						{ "x": 29, "y": 5 },
+						{ "x": 30, "y": 5 },
+						{ "x": 31, "y": 5 },
+						{ "x": 32, "y": 5 },
+						{ "x": 33, "y": 5 },
+						{ "x": 26, "y": 4 },
+						{ "x": 27, "y": 4 },
+						{ "x": 28, "y": 4 },
+						{ "x": 29, "y": 4 },
+						{ "x": 30, "y": 4 },
+						{ "x": 31, "y": 4 },
+						{ "x": 32, "y": 4 },
+						{ "x": 33, "y": 4 }
+					]
+				},
+				"x": 0,
+				"y": 0
+			}
+		],
+		"hp": 40,
+		"fireHP": 10,
+		"moveDelay": 200,
+		"weight": 2,
+		"cost": 3,
+		"adjacencyBonusStrength": 1.0,
+		"hardness": 0.6,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 123, "g": 66, "b": 27 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "FLIPPED_DECK_RAMP",
+		"flippedFrom": "DECK_RAMP",
+		"sort": -5,
+	},
+	{
+		"name": "DECK_RAMP",
+		"categories": ["DECORATIVE_SHAPING_WOOD_GIRDER"],
+		"sort": -5,
+		"required": "Y_W_STRUTS",
+		"external": true,
+		"drawDoors": false,
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 17,
+			"y": 11
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"w": 1,
+					"h": 1,
+					"x": 17,
+					"y": 11
+				},
+			}
+		],
+		"hp": 20,
+		"fireHP": 5,
+		"moveDelay": 200,
+		"weight": 1,
+		"cost": 2,
+		"adjacencyBonusStrength": 1.0,
+		"hardness": 0.6,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 123, "g": 66, "b": 27 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "FLIPPED_DECK_SLOPE",
+		"flippedFrom": "DECK_SLOPE",
+		"sort": -5,
+	},
+	{
+		"name": "DECK_SLOPE",
+		"categories": ["DECORATIVE_SHAPING_WOOD_GIRDER"],
+		"sort": -5,
+		"required": "Y_W_STRUTS",
+		"external": true,
+		"drawDoors": false,
+		"w": 2,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"w": 2,
+			"h": 1,
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 18,
+			"y": 11
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"w": 2,
+					"h": 1,
+					"x": 18,
+					"y": 11
+				},
+			}
+		],
+		"hp": 40,
+		"fireHP": 10,
+		"moveDelay": 200,
+		"weight": 2,
+		"cost": 3,
+		"adjacencyBonusStrength": 1.0,
+		"hardness": 0.6,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 123, "g": 66, "b": 27 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "FLIPPED_DECK_HILL",
+		"flippedFrom": "DECK_HILL",
+		"sort": -5,
+	},
+	{
+		"name": "DECK_HILL",
+		"categories": ["DECORATIVE_SHAPING_WOOD_GIRDER"],
+		"sort": -5,
+		"required": "Y_W_STRUTS",
+		"external": true,
+		"drawDoors": false,
+		"w": 3,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"w": 3,
+			"h": 1,
+			"x": 2,
+			"y": 28
+		},
+		"mask": {
+			"x": 20,
+			"y": 11
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"w": 3,
+					"h": 1,
+					"x": 20,
+					"y": 11
+				},
+			}
+		],
+		"hp": 60,
+		"fireHP": 15,
+		"moveDelay": 200,
+		"weight": 3,
+		"cost": 4,
+		"adjacencyBonusStrength": 1.0,
+		"hardness": 0.6,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 123, "g": 66, "b": 27 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "DECK_MINI",
+		"categories": ["DECORATIVE_SHAPING_WOOD_GIRDER"],
+		"sort": -5,
+		"required": "Y_W_STRUTS",
+		"external": true,
+		"drawDoors": false,
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 23,
+			"y": 11
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"w": 1,
+					"h": 1,
+					"x": 23,
+					"y": 11
+				},
+			}
+		],
+		"hp": 20,
+		"fireHP": 5,
+		"moveDelay": 200,
+		"weight": 1,
+		"cost": 2,
+		"adjacencyBonusStrength": 1.0,
+		"hardness": 0.6,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 123, "g": 66, "b": 27 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "DECK_LADDER",
+		"categories": [],
+		"required": "Y_W_STRUTS",
+		"external": true,
+		"drawDoors": false,
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 16,
+			"y": 11
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"w": 1,
+					"h": 1,
+					"x": 16,
+					"y": 11
+				},
+			}
+		],
+		"hp": 50,
+		"fireHP": 12,
+		"moveDelay": 250,
+		"weight": 3,
+		"cost": 4,
+		"upDoors": [ 0 ],
+		"adjacencyBonusStrength": 1.0,
+		"hardness": 0.6,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 123, "g": 66, "b": 27 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "RS_DECK_LADDER",
+		"categories": ["DECORATIVE_SHAPING_WOOD_GIRDER"],
+		"sort": -5,
+		"required": "Y_W_STRUTS",
+		"external": true,
+		"drawDoors": false,
+		"w": 1,
+		"h": 1,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 37,
+			"y": 3
+		},
+		"mask": {
+			"x": 16,
+			"y": 11
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"w": 1,
+					"h": 1,
+					"x": 16,
+					"y": 11
+				},
+			}
+		],
+		"hp": 50,
+		"fireHP": 12,
+		"moveDelay": 250,
+		"weight": 3,
+		"cost": 4,
+		"upDoors": [ 0 ],
+		"adjacencyBonusStrength": 1.0,
+		"hardness": 0.6,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 123, "g": 66, "b": 27 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 1.1,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+]

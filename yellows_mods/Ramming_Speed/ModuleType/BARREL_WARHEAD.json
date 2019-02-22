@@ -1,0 +1,176 @@
+[
+	{
+		"name": "FLIPPED_RS_BARREL_WARHEAD",
+		"flippedFrom": "RS_BARREL_WARHEAD"
+	},
+	{
+		"name": "RS_BARREL_WARHEAD",
+		"categories": ["RS_EXPLOSIVES"],
+		"required": "Y_BARREL_WARHEADS",
+		"armourType": "LT_WOOD_HIDDEN_Y",
+		"isRam": true,
+		"frontOnly": true,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "ramming_speed",
+			"x": 25,
+			"y": 32,
+			"w": 1,
+			"h": 1
+		},
+		"mask": {
+			"x": 40,
+			"y": 4
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed",
+					"frames": [
+						{
+							"x": 40,
+							"y": 4,
+							"w": 1,
+							"h": 1
+						},
+						{
+							"x": 40,
+							"y": 6,
+							"w": 1,
+							"h": 1
+						}
+					]
+				}
+			}
+		],
+        "drawExternalsBelowDecals": true,
+		"hp": 300,
+		"fireHP": 0,
+		"explodeHP": 300,
+		"explodeDmg": 350,
+		"destroyedHP": 0,
+		"moveDelay": 1000,
+		"weight": 30,
+		"cost": 25,
+		"canOccupy": [],
+		"hardness": 2,
+	},
+	{
+		"name": "RS_BARREL_WARHEAD_DOWN",
+		"categories": ["RS_EXPLOSIVES"],
+		"required": "Y_BARREL_WARHEADS",
+		"armourType": "LT_WOOD_HIDDEN_Y",
+		"isRam": true,
+		"bottomOnly": true,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "ramming_speed",
+			"x": 25,
+			"y": 32,
+			"w": 1,
+			"h": 1
+		},
+		"mask": {
+			"x": 42,
+			"y": 4
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "ramming_speed",
+					"frames": [
+						{
+							"x": 42,
+							"y": 4,
+							"w": 1,
+							"h": 2
+						},
+						{
+							"x": 42,
+							"y": 6,
+							"w": 1,
+							"h": 2
+						}
+					]
+				}
+			}
+		],
+        "drawExternalsBelowDecals": true,
+        "producesHorizontalDrag": false,
+		"hp": 300,
+		"fireHP": 0,
+		"explodeHP": 300,
+		"explodeDmg": 350,
+		"destroyedHP": 0,
+		"moveDelay": 1000,
+		"weight": 30,
+		"cost": 25,
+		"canOccupy": [],
+		"hardness": 2,
+	},
+	{
+		"name": "RS_BARREL_WARHEAD_UP",
+		"categories": ["RS_EXPLOSIVES"],
+		"required": "Y_BARREL_WARHEADS",
+		"armourType": "LT_WOOD_HIDDEN_Y",
+		"isRam": true,
+		"topOnly": true,
+		"w": 1,
+		"h": 1,
+		"framesAreVariants": true,
+		"appearance": {
+			"src": "ramming_speed",
+			"x": 25,
+			"y": 32,
+			"w": 1,
+			"h": 1
+		},
+		"mask": {
+			"x": 41,
+			"y": 4
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": -1,
+				"appearance": {
+					"src": "ramming_speed",
+					"frames": [
+						{
+							"x": 41,
+							"y": 3,
+							"w": 1,
+							"h": 2
+						},
+						{
+							"x": 41,
+							"y": 5,
+							"w": 1,
+							"h": 2
+						}
+					]
+				}
+			}
+		],
+        "drawExternalsBelowDecals": true,
+        "producesHorizontalDrag": false,
+		"hp": 300,
+		"fireHP": 0,
+		"explodeHP": 300,
+		"explodeDmg": 350,
+		"destroyedHP": 0,
+		"moveDelay": 1000,
+		"weight": 30,
+		"cost": 25,
+		"canOccupy": [],
+		"hardness": 2,
+	}
+]

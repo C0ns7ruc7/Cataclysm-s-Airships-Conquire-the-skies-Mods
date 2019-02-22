@@ -1,0 +1,102 @@
+[
+	{
+		"name": "RS_PLANKED",
+		"sort": 115,
+		"required": "Y_PLANKED_ARMOUR",
+		"placeSound": "place_wood",
+		"placePitch": 0.9,
+		"cost": {
+			"base": 5,
+			"CHEAP_WOOD": 2
+		},
+		"hp": {
+			"base": 45,
+		},
+		"weight": {
+			"base": 6
+		},
+		"blastDmgAbsorb": {
+			"base": 5
+		},
+		"penDmgAbsorb": {
+			"base": 6
+		},
+		"windowApp": {
+			"src": "ramming_speed",
+			"x": 17,
+			"y": 27
+		},
+		"damagedApps": [
+			{
+				"src": "ramming_speed",
+				"x": 18,
+				"y": 27
+			},
+			{
+				"src": "ramming_speed",
+				"x": 19,
+				"y": 27
+			},
+			{
+				"src": "ramming_speed",
+				"x": 20,
+				"y": 27
+			},
+			{
+				"src": "ramming_speed",
+				"x": 21,
+				"y": 27
+			},
+			{
+				"src": "ramming_speed",
+				"x": 22,
+				"y": 27
+			}
+		],
+		"smallHitSound": {
+			"layers": [
+				{
+					"variations": [ "hit_wood_1", "hit_wood_2", "hit_wood_3", "hit_wood_4" ],
+					"volume": {
+						"min": 0.3,
+						"max": 0.4
+					},
+					"pitch": {
+						"min": 1.05,
+						"max": 1.15
+					}
+				}
+			]
+		},
+		"largeHitSound": {
+			"layers": [
+				{
+					"variations": [ "hit_wood_1", "hit_wood_2", "hit_wood_3", "hit_wood_4" ],
+					"volume": {
+						"min": 0.7,
+						"max": 1.0
+					},
+					"pitch": {
+						"min": 0.95,
+						"max": 1.05
+					}
+				}
+			]
+		},
+		"brokenSound": {
+			"layers": [
+				{
+					"variations": [ "hit_wood_1", "hit_wood_2", "hit_wood_3", "hit_wood_4" ],
+					"volume": {
+						"min": 1.5,
+						"max": 2.4
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 0.95
+					}
+				}
+			]
+		}
+	}
+]

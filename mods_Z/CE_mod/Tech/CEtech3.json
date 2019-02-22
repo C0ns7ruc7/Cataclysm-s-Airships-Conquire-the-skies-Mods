@@ -40,5 +40,24 @@
         "bonuses": [ "COMMERCE_REFINING", "CE_ARMOR_REFINEING", "COMMERCE_REFINING_INCOME" ],
         "dependencies": [ "FACTORING" ],
         "img": { "src": "ce_tech_art", "x": 320, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "IMPERIAL_NODE4",
+        "sort": 4000,
+        "tier": 3,
+        "choices": [
+            {
+                "name": "IMPN4_COST",
+                "bonuses": [ "IMPN4_COST" ],
+                "img": { "src": "ce_tech_art", "x": 256, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "IMPN4_FLIGHT",
+                "bonuses": [ "IMPN4_FLIGHT" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            }
+        ],
+        "requiresBonus": "CE_ARMOR_INOVATION",
+        "dependencies": [ "IMPERIAL_NODE3" ]
     }
 ]

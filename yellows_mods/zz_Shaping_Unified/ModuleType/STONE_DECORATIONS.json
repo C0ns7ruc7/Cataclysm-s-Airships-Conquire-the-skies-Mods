@@ -1,0 +1,739 @@
+[
+    {
+        "name": "GRENEDIER_STATUE",
+        "categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 20,
+		"armourType": "ROCK_HIDDEN_Y",
+		"required": "Y_ROCK",
+        "external": true,
+        "w": 1,
+        "h": 2,
+        "appearance": {
+            "src": "shaping_unified",
+            "x": 0,
+            "y": 45,
+			"w": 1,
+            "h": 2
+        },
+		"mask": {
+			"x": 26,
+			"y": 6
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 26,
+					"y": 6,
+					"w": 1,
+					"h": 2
+				}
+			}
+		],
+        "hp": 40,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 2,
+        "cost": 2,
+        "adjacencyBonusStrength": 0.25,
+        "hardness": 0.8,
+		"hitParticle": "rock_bit",
+		"fragmentsFireMult": 0,
+		"destructionParticle": "rock_bit",
+		"destructionParticleDensity": 5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 106, "g": 105, "b": 104 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "stones" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+    {
+        "name": "FLIPPED_GRENEDIER_STATUE",
+        "flippedFrom": "GRENEDIER_STATUE",
+		"sort": 20,
+    },
+	{
+        "name": "ONLOOKERS_STATUE",
+        "categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 20,
+		"armourType": "ROCK_HIDDEN_Y",
+		"required": "Y_ROCK",
+        "external": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "shaping_unified",
+            "x": 0,
+            "y": 45,
+        },
+		"mask": {
+			"x": 27,
+			"y": 6
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 27,
+					"y": 6,
+				}
+			}
+		],
+        "hp": 20,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 1,
+        "cost": 1,
+        "adjacencyBonusStrength": 0.25,
+        "hardness": 0.8,
+		"hitParticle": "rock_bit",
+		"fragmentsFireMult": 0,
+		"destructionParticle": "rock_bit",
+		"destructionParticleDensity": 5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 106, "g": 105, "b": 104 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "stones" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+        "name": "BASIN_STATUE",
+        "categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 20,
+		"armourType": "ROCK_HIDDEN_Y",
+		"required": "Y_ROCK",
+        "external": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "shaping_unified",
+            "x": 0,
+            "y": 45,
+        },
+		"mask": {
+			"x": 28,
+			"y": 6
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 28,
+					"y": 6,
+				}
+			}
+		],
+        "hp": 20,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 1,
+        "cost": 1,
+        "adjacencyBonusStrength": 0.25,
+        "hardness": 0.8,
+		"hitParticle": "rock_bit",
+		"fragmentsFireMult": 0,
+		"destructionParticle": "rock_bit",
+		"destructionParticleDensity": 5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 106, "g": 105, "b": 104 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "stones" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+        "name": "DRAGON_STATUE",
+        "categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 20,
+		"armourType": "ROCK_HIDDEN_Y",
+		"required": "Y_ROCK",
+        "external": true,
+        "w": 2,
+        "h": 1,
+        "appearance": {
+            "src": "shaping_unified",
+            "x": 0,
+            "y": 45,
+			"w": 2,
+            "h": 1
+        },
+		"mask": {
+			"x": 27,
+			"y": 7
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 27,
+					"y": 7,
+					"w": 2,
+					"h": 1
+				}
+			}
+		],
+        "hp": 40,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 2,
+        "cost": 2,
+        "adjacencyBonusStrength": 0.25,
+        "hardness": 0.8,
+		"hitParticle": "rock_bit",
+		"fragmentsFireMult": 0,
+		"destructionParticle": "rock_bit",
+		"destructionParticleDensity": 5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 106, "g": 105, "b": 104 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "stones" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+    {
+        "name": "FLIPPED_DRAGON_STATUE",
+        "flippedFrom": "DRAGON_STATUE",
+		"sort": 20,
+    },
+	{
+        "name": "SPIDER_STATUE",
+        "categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 20,
+		"armourType": "ROCK_HIDDEN_Y",
+		"required": "Y_ROCK",
+        "external": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "shaping_unified",
+            "x": 0,
+            "y": 45,
+        },
+		"mask": {
+			"x": 29,
+			"y": 6
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 29,
+					"y": 6,
+				}
+			}
+		],
+        "hp": 20,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 1,
+        "cost": 1,
+        "adjacencyBonusStrength": 0.25,
+        "hardness": 0.8,
+		"hitParticle": "rock_bit",
+		"fragmentsFireMult": 0,
+		"destructionParticle": "rock_bit",
+		"destructionParticleDensity": 5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 106, "g": 105, "b": 104 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "stones" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+    {
+        "name": "FLIPPED_SPIDER_STATUE",
+        "flippedFrom": "SPIDER_STATUE",
+		"sort": 20,
+    },
+	{
+        "name": "WASP_STATUE",
+        "categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 20,
+		"armourType": "ROCK_HIDDEN_Y",
+		"required": "Y_ROCK",
+        "external": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "shaping_unified",
+            "x": 0,
+            "y": 45,
+        },
+		"mask": {
+			"x": 29,
+			"y": 7
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 29,
+					"y": 7,
+				}
+			}
+		],
+        "hp": 20,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 1,
+        "cost": 1,
+        "adjacencyBonusStrength": 0.25,
+        "hardness": 0.8,
+		"hitParticle": "rock_bit",
+		"fragmentsFireMult": 0,
+		"destructionParticle": "rock_bit",
+		"destructionParticleDensity": 5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 106, "g": 105, "b": 104 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "stones" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+    {
+        "name": "FLIPPED_WASP_STATUE",
+        "flippedFrom": "WASP_STATUE",
+		"sort": 20,
+    },
+	{
+        "name": "SUSPENDIUM_STATUE",
+        "categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 20,
+		"armourType": "ROCK_HIDDEN_Y",
+		"required": "Y_SUSP_ORE",
+        "external": true,
+        "w": 1,
+        "h": 2,
+        "appearance": {
+            "src": "shaping_unified",
+            "x": 0,
+            "y": 45,
+			"w": 1,
+            "h": 2
+        },
+		"mask": {
+			"x": 30,
+			"y": 6
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 30,
+					"y": 6,
+					"w": 1,
+					"h": 2
+				}
+			}
+		],
+        "hp": 40,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 1,
+        "cost": 5,
+        "adjacencyBonusStrength": 0.25,
+        "hardness": 0.8,
+		"hitParticle": "large_susp_chamber_spark",
+		"destructionParticle": "susp_block_spark",
+		"destructionParticleDensity": 7,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 106, "g": 105, "b": 104 },
+        "producesHorizontalDrag": false,
+		"emitters": [
+			{
+				"x": 0.5,
+				"y": 1,
+				"type": "large_susp_chamber_spark",
+				"emitProbability": 0.001,
+			}
+		],
+    },
+    {
+        "name": "FLIPPED_SUSPENDIUM_STATUE",
+        "flippedFrom": "SUSPENDIUM_STATUE",
+		"sort": 20,
+    },
+	{
+        "name": "FOUNTAIN_STATUE",
+        "categories": ["DECORATIVE_BITS_AND_PIECES"],
+		"sort": 20,
+		"armourType": "ROCK_HIDDEN_Y",
+		"required": "Y_ROCK",
+        "external": true,
+        "w": 2,
+        "h": 2,
+        "appearance": {
+            "src": "shaping_unified",
+            "x": 0,
+            "y": 45,
+			"w": 2,
+            "h": 2
+        },
+		"mask": {
+			"x": 31,
+			"y": 6
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "shaping_unified",
+					"x": 31,
+					"y": 6,
+					"w": 2,
+					"h": 2
+				}
+			}
+		],
+        "hp": 80,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 10,
+        "cost": 4,
+        "water": 5,
+        "adjacencyBonusStrength": 0.25,
+        "hardness": 0.8,
+		"hitParticle": "rock_bit",
+		"fragmentsFireMult": 0,
+		"destructionParticle": "rock_bit",
+		"destructionParticleDensity": 5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 106, "g": 105, "b": 104 },
+        "producesHorizontalDrag": false,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "rock0", "rock1", "rock2" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				},
+				{
+					"variations": [ "stones" ],
+					"volume": {
+						"min": 0.8,
+						"max": 1.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 1.2,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+]

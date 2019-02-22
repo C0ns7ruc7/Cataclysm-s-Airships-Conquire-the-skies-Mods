@@ -1,0 +1,202 @@
+[
+	{
+		"name": "RS_BARK",
+		"sort": 115,
+		"required": "Y_W_KEELS",
+		"placeSound": "place_wood",
+		"placePitch": 1.1,
+		"cost": {
+			"base": -1,
+			"CHEAP_WOOD": -2
+		},
+		"hp": {
+			"base": 27,
+		},
+		"weight": {
+			"base": 5
+		},
+		"blastDmgAbsorb": {
+			"base": 1
+		},
+		"penDmgAbsorb": {
+			"base": 3
+		},
+		"windowApp": {
+			"src": "ramming_speed",
+			"x": 9,
+			"y": 12
+		},
+		"damagedApps": [
+			{
+				"src": "ramming_speed",
+				"x": 8,
+				"y": 12
+			},
+			{
+				"src": "ramming_speed",
+				"x": 8,
+				"y": 13
+			},
+			{
+				"src": "ramming_speed",
+				"x": 9,
+				"y": 13
+			},
+			{
+				"src": "ramming_speed",
+				"x": 8,
+				"y": 14
+			},
+			{
+				"src": "ramming_speed",
+				"x": 9,
+				"y": 14
+			}
+		],
+		"smallHitSound": {
+			"layers": [
+				{
+					"variations": [ "hit_wood_1", "hit_wood_2", "hit_wood_3", "hit_wood_4" ],
+					"volume": {
+						"min": 0.3,
+						"max": 0.4
+					},
+					"pitch": {
+						"min": 1.05,
+						"max": 1.15
+					}
+				}
+			]
+		},
+		"largeHitSound": {
+			"layers": [
+				{
+					"variations": [ "hit_wood_1", "hit_wood_2", "hit_wood_3", "hit_wood_4" ],
+					"volume": {
+						"min": 0.7,
+						"max": 1.0
+					},
+					"pitch": {
+						"min": 0.95,
+						"max": 1.05
+					}
+				}
+			]
+		},
+		"brokenSound": {
+			"layers": [
+				{
+					"variations": [ "hit_wood_1", "hit_wood_2", "hit_wood_3", "hit_wood_4" ],
+					"volume": {
+						"min": 1.5,
+						"max": 2.4
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 0.95
+					}
+				}
+			]
+		}
+	},
+	{
+		"name": "RS_BARK_HV",
+		"sort": 115,
+		"required": "Y_W_KEELS",
+		"placeSound": "place_wood",
+		"placePitch": 0.8,
+		"cost": {
+			"base": 1,
+			"CHEAP_WOOD": 0
+		},
+		"hp": {
+			"base": 50,
+		},
+		"weight": {
+			"base": 15
+		},
+		"blastDmgAbsorb": {
+			"base": 3
+		},
+		"penDmgAbsorb": {
+			"base": 6
+		},
+		"windowApp": {
+			"src": "ramming_speed",
+			"x": 9,
+			"y": 16
+		},
+		"damagedApps": [
+			{
+				"src": "ramming_speed",
+				"x": 8,
+				"y": 16
+			},
+			{
+				"src": "ramming_speed",
+				"x": 8,
+				"y": 17
+			},
+			{
+				"src": "ramming_speed",
+				"x": 9,
+				"y": 17
+			},
+			{
+				"src": "ramming_speed",
+				"x": 8,
+				"y": 18
+			},
+			{
+				"src": "ramming_speed",
+				"x": 9,
+				"y": 18
+			}
+		],
+		"smallHitSound": {
+			"layers": [
+				{
+					"variations": [ "hit_wood_1", "hit_wood_2", "hit_wood_3", "hit_wood_4" ],
+					"volume": {
+						"min": 0.3,
+						"max": 0.4
+					},
+					"pitch": {
+						"min": 1.05,
+						"max": 1.15
+					}
+				}
+			]
+		},
+		"largeHitSound": {
+			"layers": [
+				{
+					"variations": [ "hit_wood_1", "hit_wood_2", "hit_wood_3", "hit_wood_4" ],
+					"volume": {
+						"min": 0.7,
+						"max": 1.0
+					},
+					"pitch": {
+						"min": 0.95,
+						"max": 1.05
+					}
+				}
+			]
+		},
+		"brokenSound": {
+			"layers": [
+				{
+					"variations": [ "hit_wood_1", "hit_wood_2", "hit_wood_3", "hit_wood_4" ],
+					"volume": {
+						"min": 1.5,
+						"max": 2.4
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 0.95
+					}
+				}
+			]
+		}
+	}
+]

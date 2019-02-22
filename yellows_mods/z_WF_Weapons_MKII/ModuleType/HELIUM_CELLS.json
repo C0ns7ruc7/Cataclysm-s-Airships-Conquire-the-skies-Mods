@@ -1,0 +1,138 @@
+[
+	{
+		"name": "SMALL_HELIUM_CELL",
+		"categories": ["LIFT"],
+		"availableFor": ["AIRSHIP"],
+		"required": "Y_HELIUM",
+		"sort": 555,
+		"w": 2,
+		"h": 3,
+		"appearance": {
+			"src": "wfw_spritesheet",
+			"x": 20,
+			"y": 24,
+			"w": 2,
+			"h": 3
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 0,
+					"y": 19,
+					"w": 2,
+					"h": 3
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 0,
+					"y": 22,
+					"w": 2,
+					"h": 3
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 0,
+					"y": 25,
+					"w": 2,
+					"h": 3
+				}
+			}
+		],
+		"hp": 45,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"canOccupy": [],
+		"external": true,
+		"weight": 10,
+		"cost": 2,
+		"lift": 45,
+		"structuralStressAmount": 1,
+		"adjacencyBonusStrength": 0.5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 112, "g": 155, "b": 204 },
+        "externalSubBaseColor": { "r": 217, "g": 213, "b": 203 },
+	},
+	{
+		"name": "HELIUM_CELL",
+		"categories": ["LIFT"],
+		"availableFor": ["AIRSHIP"],
+		"required": "Y_HELIUM",
+		"sort": 555,
+		"w": 9,
+		"h": 5,
+		"appearance": {
+			"src": "wfw_spritesheet",
+			"x": 20,
+			"y": 24,
+			"w": 9,
+			"h": 5
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 2,
+					"y": 19,
+					"w": 9,
+					"h": 5
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 2,
+					"y": 24,
+					"w": 9,
+					"h": 5
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 2,
+					"y": 29,
+					"w": 9,
+					"h": 5
+				}
+			}
+		],
+		"hp": 140,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"canOccupy": [],
+		"external": true,
+		"weight": 50,
+		"cost": 10,
+		"lift": 250,
+		"structuralStressAmount": 2,
+		"adjacencyBonusStrength": 0.5,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 112, "g": 155, "b": 204 },
+        "externalSubBaseColor": { "r": 217, "g": 213, "b": 203 },
+	}
+]

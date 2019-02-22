@@ -1,0 +1,700 @@
+[
+	{
+		"name": "SUSPENDIUM_DUST_TANK_OLD",
+		"categories": ["LIFT"],
+		"availableFor": ["AIRSHIP"],
+		"required": "Y_REINFORCED_SUSP_DUST_TANK",
+		"sort": 551,
+		"armourType": "STRONG_DUST_TANK_HIDDEN_Y",
+		"w": 2,
+		"h": 3,
+		"appearance": {
+			"src": "wfw_spritesheet",
+			"x": 20,
+			"y": 24,
+			"w": 2,
+			"h": 3
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 0,
+					"y": 4,
+					"w": 2,
+					"h": 3
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 0,
+					"y": 7,
+					"w": 2,
+					"h": 3
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 0,
+					"y": 10,
+					"w": 2,
+					"h": 3
+				}
+			}
+		],
+		"damagedEmitters": [
+			{
+				"x": 1.0625,
+				"y": 0.75,
+				"type": "susp_block_spark",
+				"emitProbability": 0.002,
+			},
+			{
+				"x": 1.625,
+				"y": 1.375,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			},
+			{
+				"x": 0.375,
+				"y": 2.25,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			}
+		],
+		"destroyedEmitters": [
+			{
+				"x": 1.0625,
+				"y": 0.75,
+				"type": "susp_block_spark",
+				"emitProbability": 0.005,
+			},
+			{
+				"x": 1.625,
+				"y": 1.375,
+				"type": "susp_block_spark",
+				"emitProbability": 0.008,
+			},
+			{
+				"x": 0.375,
+				"y": 2.25,
+				"type": "susp_block_spark",
+				"emitProbability": 0.005,
+			},
+			{
+				"x": 0.4375,
+				"y": 1.4375,
+				"type": "susp_block_spark",
+				"emitProbability": 0.003,
+			},
+			{
+				"x": 0.8125,
+				"y": 2.5625,
+				"type": "susp_block_spark",
+				"emitProbability": 0.003,
+			},
+			{
+				"x": 1.5625,
+				"y": 2.6875,
+				"type": "susp_block_spark",
+				"emitProbability": 0.002,
+			}
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 135, "g": 160, "b": 96 },
+        "externalSubBaseColor": { "r": 217, "g": 213, "b": 203 },
+		"hp": 200,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"canOccupy": [],
+		"external": true,
+		"weight": 75,
+		"cost": 22,
+		"lift": { "base": 350, "SUSPENDIUM_SPECIALISTS": 455 },
+		"explodeHP": 15,
+		"explodeDmg": 30,
+		"structuralStressAmount": 2.5,
+		"adjacencyBonusStrength": 0.7
+	},
+	{
+		"name": "LARGE_SUSPENDIUM_DUST_TANK_OLD",
+		"categories": ["LIFT"],
+		"availableFor": ["AIRSHIP"],
+		"required": "Y_REINFORCED_SUSP_DUST_TANK",
+		"sort": 551,
+		"armourType": "STRONG_DUST_TANK_HIDDEN_Y",
+		"w": 9,
+		"h": 5,
+		"appearance": {
+			"src": "wfw_spritesheet",
+			"x": 20,
+			"y": 24,
+			"w": 9,
+			"h": 5
+		},
+		"externalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 2,
+					"y": 4,
+					"w": 9,
+					"h": 5
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 2,
+					"y": 9,
+					"w": 9,
+					"h": 5
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0,
+				"y": 0,
+				"appearance": {
+					"src": "wfw_spritesheet_2",
+					"x": 2,
+					"y": 14,
+					"w": 9,
+					"h": 5
+				}
+			}
+		],
+		"damagedEmitters": [
+			{
+				"x": 0.875,
+				"y": 1.5,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			},
+			{
+				"x": 2.1875,
+				"y": 1.9375,
+				"type": "susp_block_spark",
+				"emitProbability": 0.0005,
+			},
+			{
+				"x": 3.375,
+				"y": 1.5,
+				"type": "susp_block_spark",
+				"emitProbability": 0.003,
+			},
+			{
+				"x": 4.625,
+				"y": 1.875,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			},
+			{
+				"x": 5.75,
+				"y": 0.875,
+				"type": "susp_block_spark",
+				"emitProbability": 0.0005,
+			},
+			{
+				"x": 6.3125,
+				"y": 1.625,
+				"type": "susp_block_spark",
+				"emitProbability": 0.002,
+			},
+			{
+				"x": 8.1875,
+				"y": 0.875,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			},
+			{
+				"x": 8.8125,
+				"y": 1.8125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.002,
+			},
+			{
+				"x": 1.375,
+				"y": 3.375,
+				"type": "susp_block_spark",
+				"emitProbability": 0.003,
+			},
+			{
+				"x": 1.125,
+				"y": 4.3125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.002,
+			},
+			{
+				"x": 3.5625,
+				"y": 3.125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			},
+			{
+				"x": 4.3125,
+				"y": 4.125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			},
+			{
+				"x": 6.5,
+				"y": 3.5625,
+				"type": "susp_block_spark",
+				"emitProbability": 0.002,
+			},
+			{
+				"x": 7.8125,
+				"y": 4.75,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			},
+		],
+		"destroyedEmitters": [
+			{
+				"x": 0.875,
+				"y": 1.5,
+				"type": "susp_block_spark",
+				"emitProbability": 0.01,
+			},
+			{
+				"x": 2.1875,
+				"y": 1.9375,
+				"type": "susp_block_spark",
+				"emitProbability": 0.02,
+			},
+			{
+				"x": 3.375,
+				"y": 1.5,
+				"type": "susp_block_spark",
+				"emitProbability": 0.02,
+			},
+			{
+				"x": 4.625,
+				"y": 1.875,
+				"type": "susp_block_spark",
+				"emitProbability": 0.004,
+			},
+			{
+				"x": 5.75,
+				"y": 0.875,
+				"type": "susp_block_spark",
+				"emitProbability": 0.005,
+			},
+			{
+				"x": 6.3125,
+				"y": 1.625,
+				"type": "susp_block_spark",
+				"emitProbability": 0.006,
+			},
+			{
+				"x": 8.1875,
+				"y": 0.875,
+				"type": "susp_block_spark",
+				"emitProbability": 0.01,
+			},
+			{
+				"x": 8.8125,
+				"y": 1.8125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.01,
+			},
+			{
+				"x": 1.375,
+				"y": 3.375,
+				"type": "susp_block_spark",
+				"emitProbability": 0.008,
+			},
+			{
+				"x": 1.125,
+				"y": 4.3125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.015,
+			},
+			{
+				"x": 3.5625,
+				"y": 3.125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.01,
+			},
+			{
+				"x": 4.3125,
+				"y": 4.125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.005,
+			},
+			{
+				"x": 6.5,
+				"y": 3.5625,
+				"type": "susp_block_spark",
+				"emitProbability": 0.03,
+			},
+			{
+				"x": 7.8125,
+				"y": 4.75,
+				"type": "susp_block_spark",
+				"emitProbability": 0.007,
+			},
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 135, "g": 160, "b": 96 },
+        "externalSubBaseColor": { "r": 217, "g": 213, "b": 203 },
+		"hp": 600,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"canOccupy": [],
+		"external": true,
+		"weight": 375,
+		"cost": 120,
+		"lift": { "base": 2750, "SUSPENDIUM_SPECIALISTS": 3585 },
+		"explodeHP": 50,
+		"explodeDmg": 150,
+		"structuralStressAmount": 5,
+		"adjacencyBonusStrength": 0.7
+	},
+	{
+		"name": "A_SUSPENDIUM_DUST_TANK",
+		"categories": ["LIFT"],
+		"availableFor": ["AIRSHIP"],
+		"required": "Y_REINFORCED_SUSP_DUST_TANK",
+		"sort": 550,
+		"w": 2,
+		"h": 3,
+		"appearance": {
+			"src": "wfw_spritesheet_2",
+			"x": 0,
+			"y": 4,
+			"w": 2,
+			"h": 3
+		},
+		"mask": {
+			"x": 0,
+			"y": 13
+		},
+		"damagedAppearance": {
+			"src": "wfw_spritesheet_2",
+			"x": 0,
+			"y": 7,
+			"w": 2,
+			"h": 3
+		},
+		"destroyedAppearance": {
+			"src": "wfw_spritesheet_2",
+			"x": 0,
+			"y": 10,
+			"w": 2,
+			"h": 3
+		},
+		"damagedEmitters": [
+			{
+				"x": 1.0625,
+				"y": 0.75,
+				"type": "susp_block_spark",
+				"emitProbability": 0.002,
+			},
+			{
+				"x": 1.625,
+				"y": 1.375,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			},
+			{
+				"x": 0.375,
+				"y": 2.25,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			}
+		],
+		"destroyedEmitters": [
+			{
+				"x": 1.0625,
+				"y": 0.75,
+				"type": "susp_block_spark",
+				"emitProbability": 0.005,
+			},
+			{
+				"x": 1.625,
+				"y": 1.375,
+				"type": "susp_block_spark",
+				"emitProbability": 0.008,
+			},
+			{
+				"x": 0.375,
+				"y": 2.25,
+				"type": "susp_block_spark",
+				"emitProbability": 0.005,
+			},
+			{
+				"x": 0.4375,
+				"y": 1.4375,
+				"type": "susp_block_spark",
+				"emitProbability": 0.003,
+			},
+			{
+				"x": 0.8125,
+				"y": 2.5625,
+				"type": "susp_block_spark",
+				"emitProbability": 0.003,
+			},
+			{
+				"x": 1.5625,
+				"y": 2.6875,
+				"type": "susp_block_spark",
+				"emitProbability": 0.002,
+			}
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 135, "g": 160, "b": 96 },
+        "externalSubBaseColor": { "r": 217, "g": 213, "b": 203 },
+		"hp": 200,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"canOccupy": [],
+		"weight": 75,
+		"cost": 22,
+		"lift": { "base": 350, "SUSPENDIUM_SPECIALISTS": 455 },
+		"explodeHP": 15,
+		"explodeDmg": 30,
+		"structuralStressAmount": 2.5,
+		"adjacencyBonusStrength": 0.7
+	},
+	{
+		"name": "A_LARGE_SUSPENDIUM_DUST_TANK",
+		"categories": ["LIFT"],
+		"availableFor": ["AIRSHIP"],
+		"required": "Y_REINFORCED_SUSP_DUST_TANK",
+		"sort": 550,
+		"w": 9,
+		"h": 5,
+		"appearance": {
+			"src": "wfw_spritesheet_2",
+			"x": 2,
+			"y": 4,
+			"w": 9,
+			"h": 5
+		},
+		"mask": {
+			"x": 29,
+			"y": 59
+		},
+		"damagedAppearance": {
+			"src": "wfw_spritesheet_2",
+			"x": 2,
+			"y": 9,
+			"w": 9,
+			"h": 5
+		},
+		"destroyedAppearance": {
+			"src": "wfw_spritesheet_2",
+			"x": 2,
+			"y": 14,
+			"w": 9,
+			"h": 5
+		},
+		"damagedEmitters": [
+			{
+				"x": 0.875,
+				"y": 1.5,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			},
+			{
+				"x": 2.1875,
+				"y": 1.9375,
+				"type": "susp_block_spark",
+				"emitProbability": 0.0005,
+			},
+			{
+				"x": 3.375,
+				"y": 1.5,
+				"type": "susp_block_spark",
+				"emitProbability": 0.003,
+			},
+			{
+				"x": 4.625,
+				"y": 1.875,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			},
+			{
+				"x": 5.75,
+				"y": 0.875,
+				"type": "susp_block_spark",
+				"emitProbability": 0.0005,
+			},
+			{
+				"x": 6.3125,
+				"y": 1.625,
+				"type": "susp_block_spark",
+				"emitProbability": 0.002,
+			},
+			{
+				"x": 8.1875,
+				"y": 0.875,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			},
+			{
+				"x": 8.8125,
+				"y": 1.8125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.002,
+			},
+			{
+				"x": 1.375,
+				"y": 3.375,
+				"type": "susp_block_spark",
+				"emitProbability": 0.003,
+			},
+			{
+				"x": 1.125,
+				"y": 4.3125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.002,
+			},
+			{
+				"x": 3.5625,
+				"y": 3.125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			},
+			{
+				"x": 4.3125,
+				"y": 4.125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			},
+			{
+				"x": 6.5,
+				"y": 3.5625,
+				"type": "susp_block_spark",
+				"emitProbability": 0.002,
+			},
+			{
+				"x": 7.8125,
+				"y": 4.75,
+				"type": "susp_block_spark",
+				"emitProbability": 0.001,
+			},
+		],
+		"destroyedEmitters": [
+			{
+				"x": 0.875,
+				"y": 1.5,
+				"type": "susp_block_spark",
+				"emitProbability": 0.01,
+			},
+			{
+				"x": 2.1875,
+				"y": 1.9375,
+				"type": "susp_block_spark",
+				"emitProbability": 0.02,
+			},
+			{
+				"x": 3.375,
+				"y": 1.5,
+				"type": "susp_block_spark",
+				"emitProbability": 0.02,
+			},
+			{
+				"x": 4.625,
+				"y": 1.875,
+				"type": "susp_block_spark",
+				"emitProbability": 0.004,
+			},
+			{
+				"x": 5.75,
+				"y": 0.875,
+				"type": "susp_block_spark",
+				"emitProbability": 0.005,
+			},
+			{
+				"x": 6.3125,
+				"y": 1.625,
+				"type": "susp_block_spark",
+				"emitProbability": 0.006,
+			},
+			{
+				"x": 8.1875,
+				"y": 0.875,
+				"type": "susp_block_spark",
+				"emitProbability": 0.01,
+			},
+			{
+				"x": 8.8125,
+				"y": 1.8125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.01,
+			},
+			{
+				"x": 1.375,
+				"y": 3.375,
+				"type": "susp_block_spark",
+				"emitProbability": 0.008,
+			},
+			{
+				"x": 1.125,
+				"y": 4.3125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.015,
+			},
+			{
+				"x": 3.5625,
+				"y": 3.125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.01,
+			},
+			{
+				"x": 4.3125,
+				"y": 4.125,
+				"type": "susp_block_spark",
+				"emitProbability": 0.005,
+			},
+			{
+				"x": 6.5,
+				"y": 3.5625,
+				"type": "susp_block_spark",
+				"emitProbability": 0.03,
+			},
+			{
+				"x": 7.8125,
+				"y": 4.75,
+				"type": "susp_block_spark",
+				"emitProbability": 0.007,
+			},
+		],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 135, "g": 160, "b": 96 },
+        "externalSubBaseColor": { "r": 217, "g": 213, "b": 203 },
+		"hp": 600,
+		"fireHP": 0,
+		"moveDelay": 10000,
+		"canOccupy": [],
+		"weight": 375,
+		"cost": 120,
+		"lift": { "base": 2750, "SUSPENDIUM_SPECIALISTS": 3585 },
+		"explodeHP": 50,
+		"explodeDmg": 150,
+		"structuralStressAmount": 5,
+		"adjacencyBonusStrength": 0.7
+	}
+]

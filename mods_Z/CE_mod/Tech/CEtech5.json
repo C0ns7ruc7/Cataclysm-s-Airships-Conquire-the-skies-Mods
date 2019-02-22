@@ -84,5 +84,29 @@
 	"dependencies": [],
         "bonuses": [ "LONG_RANGE" ],
         "img": { "src": "ce_tech_art", "x": 640, "y": 192, "w": 64, "h": 64 }
+    },
+    {
+        "name": "IMPERIAL_NODE6",
+        "sort": 6000,
+        "tier": 5,
+        "choices": [
+            {
+                "name": "IMPN6_BLAST",
+                "bonuses": [ "IMPN6_BLAST" ],
+                "img": { "src": "ce_tech_art", "x": 256, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "IMPN6_BALLANCE",
+                "bonuses": [ "IMPN6_BALLANCE" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "IMPN6_PENEN",
+                "bonuses": [ "IMPN6_PENEN" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            }
+        ],
+        "requiresBonus": "CE_ARMOR_INOVATION",
+        "dependencies": [ "IMPERIAL_NODE5" ]
     }
 ]

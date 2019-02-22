@@ -1,0 +1,44 @@
+[
+		   {
+        "name": "ORCHARD",
+        "categories": ["RESOURCES"],
+		"availableFor": ["BUILDING"],
+        "external": true,
+        "armourType": "LT_WOOD_HIDDEN",
+        "w": 3,
+        "h": 2,
+        "appearance": {
+            "src": "orchard",
+            "x": 1,
+            "y": 0,
+            "w": 3,
+            "h": 2
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "orchard",
+                    "x": 1,
+                    "y": 2,
+                    "w": 3,
+                    "h": 2
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 30,
+        "fireHP": 80,
+		"topOnly": true,
+        "moveDelay": 350,
+        "weight": 100,
+        "cost": 75,
+		"maintenanceCost": -1,
+		"supplyProvided": -2,
+        "canOccupy": [
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 },
+            { "x": 2, "y": 1 }
+        ]
+    }
+]

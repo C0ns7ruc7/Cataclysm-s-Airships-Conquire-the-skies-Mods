@@ -1,0 +1,102 @@
+[
+	{
+		"name": "Y_SANDBAGS",
+		"required": "Y_SANDBAGS",
+		"sort": 31,
+		"placeSound": "soft_impact1",
+		"placePitch": 1.2,
+		"cost": {
+			"base": 2,
+			"CHEAP_STONE": 1
+		},
+		"hp": {
+			"base": 50
+		},
+		"weight": {
+			"base": 50
+		},
+		"blastDmgAbsorb": {
+			"base": 0
+		},
+		"penDmgAbsorb": {
+			"base": 5
+		},
+		"windowApp": {
+			"src": "wfw_spritesheet",
+			"x": 32,
+			"y": 22
+		},
+		"damagedApps": [
+			{
+				"src": "wfw_spritesheet",
+				"x": 31,
+				"y": 22
+			},
+			{
+				"src": "wfw_spritesheet",
+				"x": 33,
+				"y": 22
+			},
+			{
+				"src": "wfw_spritesheet",
+				"x": 34,
+				"y": 22
+			},
+			{
+				"src": "wfw_spritesheet",
+				"x": 35,
+				"y": 22
+			},
+			{
+				"src": "wfw_spritesheet",
+				"x": 36,
+				"y": 22
+			}
+		],
+		"smallHitSound": {
+			"layers": [
+				{
+					"variations": [ "soft_impact0", "soft_impact1", "soft_impact2" ],
+					"volume": {
+						"min": 0.3,
+						"max": 0.4
+					},
+					"pitch": {
+						"min": 1.05,
+						"max": 1.15
+					}
+				}
+			]
+		},
+		"largeHitSound": {
+			"layers": [
+				{
+					"variations": [ "soft_impact0", "soft_impact1", "soft_impact2" ],
+					"volume": {
+						"min": 0.7,
+						"max": 1.0
+					},
+					"pitch": {
+						"min": 0.95,
+						"max": 1.05
+					}
+				}
+			]
+		},
+		"brokenSound": {
+			"layers": [
+				{
+					"variations": [ "soft_impact0", "soft_impact1", "soft_impact2" ],
+					"volume": {
+						"min": 1.5,
+						"max": 2.4
+					},
+					"pitch": {
+						"min": 0.9,
+						"max": 0.95
+					}
+				}
+			]
+		}
+	}
+]

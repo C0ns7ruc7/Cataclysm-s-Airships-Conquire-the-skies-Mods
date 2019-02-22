@@ -1,0 +1,158 @@
+[
+	{
+		"name": "VERTIKEEL_SMALL",
+		"categories": ["STRUCTURAL"],
+		"required": "Y_W_KEELS",
+		"w": 1,
+		"h": 5,
+		"sort": 31,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 2,
+			"y": 50,
+			"w": 1,
+			"h": 5
+		},
+        "hp": 200,
+        "fireHP": 30,
+        "moveDelay": 10000,
+        "weight": 400,
+        "cost": 50,
+        "shipHPBonus": 750,
+		"canOccupy": [],
+		"structuralStressAmount": -100,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 10,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 1.5,
+						"max": 1.8,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.7,
+						"max": 0.9,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "VERTIKEEL_LARGE",
+		"categories": ["STRUCTURAL"],
+		"required": "Y_W_KEELS",
+		"w": 1,
+		"h": 9,
+		"sort": 32,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 2,
+			"y": 55,
+			"w": 1,
+			"h": 9
+		},
+        "hp": 900,
+        "fireHP": 100,
+        "moveDelay": 10000,
+        "weight": 900,
+        "cost": 110,
+        "shipHPBonus": 1750,
+		"canOccupy": [],
+		"structuralStressAmount": -600,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 10,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 1.8,
+						"max": 2.2,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.6,
+						"max": 0.8,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	},
+	{
+		"name": "VERTIKEEL_GRAND",
+		"categories": ["STRUCTURAL"],
+		"required": "Y_W_KEELS",
+		"w": 2,
+		"h": 14,
+		"sort": 33,
+		"appearance": {
+			"src": "shaping_unified",
+			"x": 0,
+			"y": 50,
+			"w": 2,
+			"h": 14
+		},
+        "hp": 4000,
+        "fireHP": 300,
+        "moveDelay": 10000,
+        "weight": 3000,
+        "cost": 360,
+        "shipHPBonus": 6400,
+        "canOccupy": [],
+        "structuralStressAmount": -2250,
+		"hitParticle": "splinter",
+		"destructionParticle": "splinter",
+		"destructionParticleDensity": 10,
+		"destructionSound": {
+			"layers": [
+				{
+					"variations": [ "trunkcrack0" ],
+					"volume": {
+						"min": 2.2,
+						"max": 2.5,
+						"distance": [
+							0, 1,
+							500, 0.7,
+							1000, 0.5,
+							2000, 0.1
+						]
+					},
+					"pitch": {
+						"min": 0.5,
+						"max": 0.7,
+						"distance": [
+							0, 1.0,
+							750, 0.9,
+							3000, 0.5
+						]
+					}
+				}
+			]
+		},
+	}
+]
