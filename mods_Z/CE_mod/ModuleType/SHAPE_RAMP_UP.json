@@ -7,6 +7,7 @@
         "name": "RAMP_UP",
         "categories": ["SHAPING"],
 	"required": "CONSTRUCTION_SIMPLE",
+	"verticallyFlippedVersion": "RAMP_DOWN",
         "w": 1,
         "h": 1,
         "appearance": 
@@ -40,8 +41,14 @@
         "fireHP": 15,
         "moveDelay": 10000,
         "weight": 1,
-        "cost": 
-4,
+        "cost": 4,
+        "adjacencyBonusStrength": 0.9,
+        "hardness": 0.5,
+        "structuralStressAmount": 1,
+        "drawExternalsBelowDecals": true,
+        "drawAppearanceInside": false,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+        "externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
         "canOccupy": []
     }
 ]

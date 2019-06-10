@@ -7,6 +7,7 @@
         "name": "INCLINE_UP",
         "categories": ["SHAPING"],
 	"required": "CONSTRUCTION_SIMPLE",
+	"verticallyFlippedVersion": "INCLINE_DOWN",
         "w": 1,
         "h": 3,
         "appearance": 
@@ -41,6 +42,13 @@
         "moveDelay": 10000,
         "weight": 3,
         "cost": 7,
+        "adjacencyBonusStrength": 0.9,
+        "hardness": 0.5,
+        "structuralStressAmount": 1,
+        "drawExternalsBelowDecals": true,
+        "drawAppearanceInside": false,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+        "externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
         "canOccupy": []
     }
 ]

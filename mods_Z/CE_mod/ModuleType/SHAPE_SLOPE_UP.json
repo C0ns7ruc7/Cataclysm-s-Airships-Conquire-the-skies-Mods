@@ -7,6 +7,7 @@
         "name": "SLOPE_UP",
         "categories": ["SHAPING"],
         "required": "CONSTRUCTION_SIMPLE",
+        "verticallyFlippedVersion": "SLOPE_DOWN",
         "w": 2,
         "h": 1,
         "appearance": 
@@ -41,6 +42,13 @@
         "moveDelay": 10000,
         "weight": 2,
         "cost": 5,
+        "adjacencyBonusStrength": 0.9,
+        "hardness": 0.5,
+        "structuralStressAmount": 1,
+        "drawExternalsBelowDecals": true,
+        "drawAppearanceInside": false,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+        "externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
         "canOccupy": []
     }
 ]

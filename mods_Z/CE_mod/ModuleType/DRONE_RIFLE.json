@@ -48,7 +48,7 @@
                 }
             }
 		],
-        "hp": 200,
+        "hp": 100,
 	"destroyedHP": -200,
         "fireHP": 36,
         "moveDelay": 1600,
@@ -64,8 +64,14 @@
         "clip": 0,
 	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
 	"command": { "base": -1, "MECHANIS_COMPLETION": 0 },
-        "inaccuracy": { "base": 0.001, "MECHANIS_COMPLETION": 0.00075 },
-        "fixedInaccuracyVsTroops": 7,
+        "inaccuracy": { 
+        	"base": 0.001, 
+        	"deltas":{
+        		"MECHANIS_COMPLETION": -0.00025,
+        		"LIGHTWEIGHT_ROUNDS": -0.000333333
+        	} 
+	},
+        "fixedInaccuracyVsTroops": { "base": 14, "LIGHTWEIGHT_ROUNDS": 9 },
         "blastDmg": { "base": 0, "MECHANIS_COMPLETION": 5 },
         "blastSplashRadius": 5,
         "penDmg": 5,
