@@ -2,6 +2,7 @@
     {
         "name": "BOMBER_DROPHANGAR",
         "categories": ["AIRCRAFT"],
+        "verticallyFlippedVersion": "BOMBER_HANGAR",
         "availableFor": [ "AIRSHIP", "LANDSHIP", "BUILDING" ],
         "required": "BIPLANES",
         "w": 10,
@@ -43,13 +44,13 @@
         "fireHP": 100,
         "moveDelay": 400,
         "weight": 140,
-        "cost": 300,
+        "cost": { "base": 300, "MONOCOQUE_CONSTRUCTION": 210 },
         "maintenanceCost": 2,
         "bottomOnly": true,
         "recommendedCrew": 1,
         "crew": 1,
         "quarters": 1,
-        "quartersType": "bomber",
+        "quartersType": { "base": "bomber", "MONOCOQUE_CONSTRUCTION": "monocoque_bomber", "SELECTIVE_UPARMOURING": "armoured_bomber" },
         "leftDoors": [ 1 ],
         "rightDoors": [ 1 ],
         "canOccupy": [

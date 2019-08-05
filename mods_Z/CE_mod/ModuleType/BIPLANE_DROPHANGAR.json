@@ -2,6 +2,7 @@
     {
         "name": "BIPLANE_DROPHANGAR",
         "categories": ["AIRCRAFT"],
+        "verticallyFlippedVersion": "BIPLANE_HANGAR",
         "availableFor": [ "AIRSHIP", "LANDSHIP", "BUILDING" ],
         "required": "BIPLANES",
         "w": 6,
@@ -42,13 +43,13 @@
         "fireHP": 50,
         "moveDelay": 400,
         "weight": 80,
-        "cost": 250,
+        "cost": { "base": 300, "MONOCOQUE_CONSTRUCTION": 175 },
         "maintenanceCost": 2,
         "bottomOnly": true,
         "recommendedCrew": 1,
         "crew": 1,
         "quarters": 1,
-        "quartersType": "biplane",
+        "quartersType": { "base": "biplane", "MONOCOQUE_CONSTRUCTION": "monocoque_biplane", "SELECTIVE_UPARMOURING": "armoured_biplane" },
         "leftDoors": [ 0 ],
         "rightDoors": [ 0 ],
         "canOccupy": [

@@ -2,6 +2,7 @@
     {
         "name": "TRIPLANE_DROPHANGAR",
         "categories": ["AIRCRAFT"],
+        "verticallyFlippedVersion": "TRIPLANE_HANGAR",
         "required": "TRIPLANES",
         "w": 6,
         "h": 2,
@@ -41,13 +42,13 @@
         "fireHP": 50,
         "moveDelay": 400,
         "weight": 100,
-        "cost": 200,
+        "cost": { "base": 300, "MONOCOQUE_CONSTRUCTION": 140 },
         "maintenanceCost": 2,
         "bottomOnly": true,
         "recommendedCrew": 2,
         "crew": 2,
         "quarters": 1,
-        "quartersType": "triplane",
+        "quartersType": { "base": "triplane", "MONOCOQUE_CONSTRUCTION": "monocoque_triplane", "SELECTIVE_UPARMOURING": "armoured_triplane" },
         "leftDoors": [ 0 ],
         "rightDoors": [ 0 ],
         "canOccupy": [
