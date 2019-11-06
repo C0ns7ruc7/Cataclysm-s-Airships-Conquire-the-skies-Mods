@@ -1,0 +1,132 @@
+[
+    {
+        "name": "TRENCH_FLAK_CANNON",
+        "categories": ["ZDECKS"],
+	"required": "FLAK_CANNONS",
+        "armourType": "CE_MED_STONE_HIDDEN",
+        "external": true,
+        "isWeapon": true,
+        "w": 2,
+        "h": 1,
+		"framesAreVariants": true,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 24,
+            "y": 9,
+            "w": 2,
+            "h": 1
+        },
+		"externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "frames": [
+                        { "x": 22, "y": 14 },
+                        { "x": 21, "y": 15 },
+						{ "x": 29, "y": 15 },
+                        { "x": 22, "y": 15 },
+                        { "x": 23, "y": 15 },
+                        { "x": 24, "y": 15 },
+                        { "x": 25, "y": 15 },
+                        { "x": 26, "y": 15 },
+                        { "x": 27, "y": 15 },
+						{ "x": 28, "y": 15 },
+						{ "x": 29, "y": 15 },
+						{ "x": 30, "y": 15 }
+                    ]
+                },
+                "x": 0,
+                "y": 0
+            },
+			           {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "frames": [
+                        { "x": 22, "y": 14 },
+                        { "x": 22, "y": 15 },
+                        { "x": 23, "y": 15 },
+                        { "x": 24, "y": 15 },
+						{ "x": 21, "y": 15 },
+						{ "x": 29, "y": 15 },
+                        { "x": 25, "y": 15 },
+                        { "x": 26, "y": 15 },
+						{ "x": 21, "y": 15 },
+                        { "x": 27, "y": 15 },
+						{ "x": 28, "y": 15 },
+						{ "x": 30, "y": 15 }
+                    ]
+                },
+                "x": 1,
+                "y": 0
+            }
+        ],
+        "hp": 320,
+        "fireHP": 18,
+        "moveDelay": 800,
+        "weight": 300,
+        "cost": 120,
+        "crew": 1,
+        "recommendedCrew": 2,
+        "recommendedGuards": 1,
+        "topOnly": true,
+        "isGun": true,
+        "isCannon": true,
+        "reload": 1500,
+        "clip": 6,
+        "inaccuracy": { "base": 0.001, "PRECISE_GUNNERY": 0.0005 },
+        "blastDmg": { "base": 8, "POWERFUL_EXPLOSIVES": 10 },
+        "blastSplashRadius": 45,
+        "penDmg": 0,
+        "recoilForce": 0.2,
+        "fireArc": { "direction": "up", "degrees": 120 },
+        "muzzleCenterX": 1,
+        "muzzleCenterY": 0.375,
+        "muzzleLength": 0.9375,
+        "optimumRange": 400,
+	"shootTroopsRange": 750,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "flak0", "flak1", "flak2", "flak3" ],
+                    "volume": 1.8,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1,
+                        "distance": [
+                            0, 1.1,
+                            3000, 0.7
+                        ]
+                    }
+                }
+            ]
+        },
+        "hitSound": {
+            "layers": [
+                {
+                    "variations": ["smexplosion"],
+                    "volume": 1.3,
+                    "pitch": {
+                        "min": 0.7,
+                        "max": 0.9
+                    }
+                }
+            ]
+        },
+        "explodeHP": 10,
+	"adjacencyBonusStrength": 1.2536,
+        "hardness": 1.2536,
+	"structuralStressAmount": -10,
+        "explodeDmg": 30,
+        "windows": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 }
+        ],
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 64, "y": 304, "w": 2, "h": 2 },
+            "barrel": { "src": "spritesheet", "x": 385, "y": 161, "w": 30, "h": 4 },
+            "barrelX": 1,
+            "barrelY": 5,
+            "recoil": 1
+        }
+    }
+]

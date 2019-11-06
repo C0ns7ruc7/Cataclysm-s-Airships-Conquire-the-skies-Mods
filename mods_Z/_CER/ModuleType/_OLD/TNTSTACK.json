@@ -1,0 +1,77 @@
+[
+    {
+        "name": "EXPLOSIVE",
+        "categories": ["WCE_WEAPONS"],
+        "isWeapon": true,
+        "external": false,
+        "required": "CE_EXPLOSIVES",
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 21,
+            "y": 14
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 19,
+                    "y": 27
+                }
+            }
+        ],
+        "hp": 100,
+        "fireHP": 95,
+        "explodeHP": 90,
+        "explodeDmg": 4000,
+        "moveDelay": 10000,
+        "weight": 50,
+        "cost": 600,
+        "isExplosive": true,
+        "reload": 1,
+        "clip": 1,
+        "ammoPerClip": 0,
+	"ammo": -1,
+        "inaccuracy": 0.0,
+        "blastDmg": 125,
+	"blastSplashRadius": 400,
+        "penDmg": 1,
+	"shotSpeed": 999,
+        "recoilForce": -1000.0,
+        "maxXRange": 25,
+	"shootTroopsRange": -1,
+        "fireArc": { "direction": "forwards", "degrees": 360 },
+        "muzzleCenterX": 0.5,
+        "muzzleCenterY": 0.5,
+        "muzzleLength": 0,
+        "optimumRange": 100,
+        "fireSoundCount": 6,
+        "muzzleFlash": false,
+        "hitSound": {
+            "layers": [
+                {
+                    "variations": ["smexplosion"],
+                    "volume": 1.4,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1
+                    }
+                }
+            ]
+        },
+
+        "canOccupy": [],
+		"weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 1, "y": 1, "w": 1, "h": 1 },
+            "barrel": { "src": "spritesheet", "x": 1, "y": 1, "w": 1, "h": 1 },
+            "hitExplosionSize": 20.0,
+            "missExplosionSize": 20.0,
+            "barrelX": 9.5,
+            "barrelY": 3.5,
+            "recoil": 0
+        }
+    }
+]

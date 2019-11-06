@@ -1,0 +1,84 @@
+[
+    {
+        "name": "TRENCH_BERTH",
+        "categories": ["ZDECKS"],
+        "armourType": "CE_MED_STONE_HIDDEN",
+        "external": true,
+	"topOnly": true,
+        "drawDoors": false,
+        "w": 2,
+        "h": 1,
+        "framesAreVariants": true,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 38,
+            "y": 22,
+            "w": 2,
+            "h": 1
+        },
+        "externalAppearances": [
+            {
+		"appearance": {
+		    "src": "sprite-vabese",
+		    "x": 38,
+		    "y": 20,
+		    "w": 2,
+		    "h": 2
+                },
+	        "x": 0,
+                "y": -1
+	    },
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "frames": [
+                        { "x": 22, "y": 14 },
+                        { "x": 25, "y": 15 },
+                        { "x": 26, "y": 15 },
+                        { "x": 21, "y": 15 },
+                        { "x": 22, "y": 15 },
+                        { "x": 27, "y": 15 },
+			{ "x": 28, "y": 15 },
+                        { "x": 23, "y": 15 },
+                        { "x": 24, "y": 15 },
+			{ "x": 29, "y": 15 },
+			{ "x": 30, "y": 15 }
+                    ]
+                },
+                "x": 0,
+                "y": 0
+            },
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "frames": [
+                        { "x": 22, "y": 14 },
+                        { "x": 21, "y": 15 },
+                        { "x": 27, "y": 15 },
+			{ "x": 28, "y": 15 },
+			{ "x": 29, "y": 15 },
+                        { "x": 22, "y": 15 },
+                        { "x": 23, "y": 15 },
+                        { "x": 24, "y": 15 },
+                        { "x": 25, "y": 15 },
+                        { "x": 26, "y": 15 },
+			{ "x": 30, "y": 15 }
+                    ]
+                },
+                "x": 1,
+                "y": 0
+            }
+        ],
+        "hp": 320,
+        "fireHP": 10,
+        "moveDelay": 200,
+        "weight": 20,
+	"adjacencyBonusStrength": 1.2536,
+        "hardness": 1.2536,
+	"structuralStressAmount": -10,
+        "cost": 30,
+        "maintenanceCost": 2,
+        "quarters": 6,
+        "quartersType": "soldier",
+    }
+]

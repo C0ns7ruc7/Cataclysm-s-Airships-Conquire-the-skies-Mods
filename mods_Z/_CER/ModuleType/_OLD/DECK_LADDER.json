@@ -1,0 +1,42 @@
+[
+    {
+        "name": "DECK_LADDER",
+        "categories": ["ZDECKS"],
+	"required": "CONSTRUCTION_SIMPLE",
+        "external": true,
+        "drawDoors": false,
+        "w": 1,
+        "h": 1,
+        "framesAreVariants": true,
+        "appearance": {
+            "src": "sprite-vabese",
+			"w": 1,
+			"h": 1,
+            "x": 16,
+            "y": 11
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+					"w": 1,
+					"h": 1,
+					"x": 16,
+					"y": 11
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 50,
+        "fireHP": 12,
+        "moveDelay": 250,
+        "weight": 3,
+        "cost": 4,
+        "upDoors": [ 0 ],
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 123, "g": 66, "b": 27 },
+        "externalSubBaseColor": { "r": 123, "g": 66, "b": 27 },
+        "drawAppearanceInside": false
+	}
+]

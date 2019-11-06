@@ -1,0 +1,67 @@
+[
+    {
+        "name": "BIPLANE_DROPHANGAR",
+        "categories": ["AIRCRAFT"],
+        "verticallyFlippedVersion": "BIPLANE_HANGAR",
+        "availableFor": [ "AIRSHIP", "LANDSHIP", "BUILDING" ],
+        "required": "BIPLANES",
+        "w": 6,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 34,
+            "y": 27,
+            "w": 6,
+            "h": 2
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 53,
+                    "y": 16,
+                    "w": 6,
+                    "h": 1
+                }
+            },
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 34,
+                    "y": 27,
+                    "w": 6,
+                    "h": 2
+                }
+            }
+        ],
+        "external": true,
+        "hp": 200,
+        "fireHP": 50,
+        "moveDelay": 400,
+        "weight": 80,
+        "cost": { "base": 300, "MONOCOQUE_CONSTRUCTION": 175 },
+        "maintenanceCost": 2,
+        "bottomOnly": true,
+        "recommendedCrew": 1,
+        "crew": 1,
+        "quarters": 1,
+        "quartersType": { "base": "biplane", "MONOCOQUE_CONSTRUCTION": "monocoque_biplane", "SELECTIVE_UPARMOURING": "armoured_biplane" },
+        "leftDoors": [ 0 ],
+        "rightDoors": [ 0 ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 3, "y": 0 },
+            { "x": 4, "y": 0 },
+            { "x": 5, "y": 0 }
+        ],
+        "hangarPositions": [
+            { "x": 2, "y": 1 }
+        ]
+    }
+]

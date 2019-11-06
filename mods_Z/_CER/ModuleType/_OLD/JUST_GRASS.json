@@ -1,0 +1,53 @@
+[
+    {
+        "name": "CE_GRASS",
+        "categories": ["DEV"],
+        "external": true,
+       	"countsAsActiveCrew": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 5,
+            "y": 10
+        },
+        "framesAreVariants": true,
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "spritesheet",
+                    "frames": [
+                        { "x": 0, "y": 17 },
+                        { "x": 4, "y": 17 },
+                        { "x": 8, "y": 17 },
+                        { "x": 12, "y": 17 },
+			{ "x": 31, "y": 48 },
+			{ "x": 32, "y": 50 }, { "x": 33, "y": 50 }, { "x": 34, "y": 50 },
+			{ "x": 35, "y": 53 }, { "x": 36, "y": 53 },
+			{ "x": 35, "y": 54 }, { "x": 36, "y": 54 },
+			{ "x": 35, "y": 55 }, { "x": 36, "y": 55 },
+			{ "x": 35, "y": 56 },
+			
+			{ "x": 34, "y": 59 },
+			{ "x": 32, "y": 60 },
+                    ]
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 1000,
+        "shipHPBonus": 100,
+        "destroyedHP": -1000,
+        "fireHP": 0,
+        "moveDelay": 300,
+        "weight": 1000,
+        "cost": 1,
+	"adjacencyBonusStrength": 10,
+        "hardness": 10,
+	"structuralStressAmount": -1000,
+        "collisionDamageReceivedMult": 0.05
+    }
+]
+
+

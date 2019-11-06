@@ -1,0 +1,55 @@
+[
+    {
+        "name": "CLOCKWORK_MIND",
+        "categories": ["DRONE"],
+	"required": "MECHANIS_REVOLUTION",
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 200,
+            "frames": [
+                { "x": 13, "y": 16 },
+                { "x": 14, "y": 16 }
+            ]
+        },
+	"externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+			"interval": 100,
+			"frames":[
+				{"x": 13, "y": 17, "w": 1, "h": 1},
+				{"x": 14, "y": 17, "w": 1, "h": 1}
+			]
+                }
+            }],
+        "hp": 300,
+	"destroyedHP": -400,
+        "fireHP": { "base": 40, "MECHANIS_COMPLETION": 20 },
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+	"explodeHP": { "base": 10, "MECHANIS_MODULAIRIZATION": 0 },
+        "explodeDmg": { "base": 10, "MECHANIS_MODULAIRIZATION": 0 },
+        "weight": 60,
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 30 },
+        "cost": 15,
+	"countsAsActiveCrew": true,
+	"recommendedCrew": 1,
+        "recommendedGuards": 1,
+        "emitters": [
+            {
+                "x": 0.5,
+                "y": 0.5,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.02,
+                "inside": true
+            }
+        ],
+        "command": { "base": 2, "MECHANIS_COMPLETION": 4 },
+        "maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+        "moveDelay": 1600,
+	"upDoors": [ 0 ]
+    }
+]

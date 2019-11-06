@@ -1,0 +1,113 @@
+[
+    {
+        "name": "FIGHTER",
+        "categories": ["UNIT"],
+	"required": "COMP_BUZZER",
+        "external": true,
+		"isRam": true,
+		"isGun": true,
+		"isWeapon": true,
+		"preventsBoarding": true,
+		"hardness": 4,
+        "availableFor": ["AIRSHIP"],
+        "w": 1,
+        "h": 1,
+        "appearance": {
+                    "src": "sprite-vabese",
+					"interval": 100,
+					"frames":[
+						{"x": 32, "y": 14, "w": 1, "h": 1},
+						{"x": 32, "y": 15, "w": 1, "h": 1},
+						{"x": 32, "y": 16, "w": 1, "h": 1}
+						]
+            },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+					"interval": 100,
+					"frames":[
+						{"x": 32, "y": 14, "w": 1, "h": 1},
+						{"x": 32, "y": 15, "w": 1, "h": 1},
+						{"x": 32, "y": 16, "w": 1, "h": 1}
+						]
+            },
+			    "x": 0,
+                "y": 0
+			}
+        ],
+        "hp": 230,
+	"destroyedHP": 0,
+        "shipHPBonus": 50,
+        "fireHP": 200,
+        "explodeHP": 100,
+        "explodeDmg": 1250,
+        "moveDelay": 800,
+        "weight": 20,
+        "lift": 100,
+        "propulsion": 0.02,
+        "cost": 50,
+        "crew": 0,
+	"command": 3,
+        "maintenanceCost": 8,
+	"countsAsActiveCrew": true,
+        "frontOnly": true,
+        "topOnly": true,
+	"backOnly": true,
+        "bottomOnly": false,
+        "emitters": [
+            {
+                "x": -1.30,
+                "y": 0.1,
+                "type": "smoke",
+                "emitProbability": 0.005
+            },
+            {
+                "x": -1.75,
+                "y": 0.3,
+                "type": "ember",
+                "emitProbability": 0.005
+            },
+            {
+                "x": 0.3,
+                "y": 0.5,
+                "type": "ember",
+                "emitProbability": 0.005
+            },
+            {
+                "x": 0.85,
+                "y": 0.50,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.005
+            }
+        ],
+	"reload": 125,
+        "inaccuracy": 0.05,
+	"shootTroopsRange": 350,
+	"fixedInaccuracyVsTroops": 0.005,
+        "blastSplashRadius": 10,
+        "blastDmg": 1,
+        "penDmg": 0,
+	"directDmg": 1,
+        "fireArc": { "direction": "forwards", "degrees": 165 },
+	"minXRange": 80,
+        "muzzleCenterX": 0.5,
+        "muzzleCenterY": -0.3125,
+        "muzzleLength": 1,
+        "fireSound": "rifle",
+	"canOccupy": [],
+        "clip": 1250,
+        "ammoPerClip": 0,
+	"ammo": -1,
+        "fireSoundCount": 1,
+        "optimumRange": 800,
+        "jitterMerge": 0.4,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 48, "y": 304, "w": 1, "h": 1 },
+            "barrel": { "src": "sprite-vabese", "x": 560, "y": 192, "w": 44, "h": 12 },
+            "barrelX": -15,
+            "barrelY": -10,
+            "recoil": 2
+        }
+    }
+]

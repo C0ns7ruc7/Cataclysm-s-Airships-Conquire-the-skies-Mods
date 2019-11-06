@@ -1,0 +1,74 @@
+[
+    {
+        "name": "PLANE_STORAGE_TRI",
+        "categories": ["AIRCRAFT"],
+        "availableFor": [ "AIRSHIP", "LANDSHIP", "BUILDING" ],
+        "required": "PLANESTORAGE",
+        "w": 6,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 46,
+            "y": 36,
+            "w": 6,
+            "h": 2
+        },
+	"mask": {
+            "x": 46,
+            "y": 38
+        },
+        "hp": 360,
+        "fireHP": 50,
+        "moveDelay": 400,
+        "weight": 200,
+        "cost": 225,
+        "maintenanceCost": 3,
+        "recommendedCrew": 2,
+        "crew": 2,
+        "quarters": 1,
+        "quartersType": "triplane_ce",
+	"upDoors": [ 0, 1, 2, 3, 4, 5 ],
+	"leftDoors": [ ],
+        "rightDoors": [ ],
+        "canOccupy": [
+            { "x": 0, "y": 0 }, { "x": 1, "y": 0 }, { "x": 2, "y": 0 }, { "x": 3, "y": 0 }, { "x": 4, "y": 0 }, { "x": 5, "y": 0 },
+            { "x": 0, "y": 1 }, { "x": 1, "y": 1 }, { "x": 2, "y": 1 }, { "x": 3, "y": 1 }, { "x": 4, "y": 1 }, { "x": 5, "y": 1 }
+        ]
+    },
+    {
+        "name": "PLANE_STORAGE_BI",
+        "categories": ["AIRCRAFT"],
+        "availableFor": [ "AIRSHIP", "LANDSHIP", "BUILDING" ],
+        "required": "PLANESTORAGE",
+        "w": 6,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 46,
+            "y": 36,
+            "w": 6,
+            "h": 2
+        },
+	"mask": {
+            "x": 46,
+            "y": 38
+        },
+        "hp": 360,
+        "fireHP": 50,
+        "moveDelay": 400,
+        "weight": 200,
+        "cost": 275,
+        "maintenanceCost": 3,
+        "recommendedCrew": 2,
+        "crew": 2,
+        "quarters": 1,
+        "quartersType": "biplane_ce",
+	"upDoors": [ 0, 1, 2, 3, 4, 5 ],
+	"leftDoors": [ ],
+        "rightDoors": [ ],
+        "canOccupy": [
+            { "x": 0, "y": 0 }, { "x": 1, "y": 0 }, { "x": 2, "y": 0 }, { "x": 3, "y": 0 }, { "x": 4, "y": 0 }, { "x": 5, "y": 0 },
+            { "x": 0, "y": 1 }, { "x": 1, "y": 1 }, { "x": 2, "y": 1 }, { "x": 3, "y": 1 }, { "x": 4, "y": 1 }, { "x": 5, "y": 1 }
+        ]
+    }
+]

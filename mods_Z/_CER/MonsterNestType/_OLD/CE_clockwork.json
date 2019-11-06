@@ -1,0 +1,829 @@
+[
+	{
+		"name": "CLOCKWORK_BUD1_0",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_BUD1_1",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 100000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 4,
+		"needsRoad": false,
+		"income": 5,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1"],
+		"baseConstructions": ["INFECTION_1_0", "RUIN_1"],
+        "additionalConstructions": ["LEACH_1"],
+		"incomeModifierPercentage": 0,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 500,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 99,
+		        "money": 5000,
+		        "rep": 10
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_BUD1_1",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_BUD1_2",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 100000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 2,
+		"needsRoad": false,
+		"income": 50,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1", "LEACH_1"],
+		"baseConstructions": ["INFECTION_1_1", "RUIN_1"],
+        "additionalConstructions": ["LEACH_1", "LEACH_2"],
+		"incomeModifierPercentage": -25,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 700,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 50,
+		        "money": 7000,
+		        "rep": 20
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_BUD1_2",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_BUD1_3",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 100000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 1,
+		"needsRoad": false,
+		"income": 100,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1", "LEACH_1", "LEACH_2"],
+		"baseConstructions": ["INFECTION_1_2", "RUIN_1"],
+        "additionalConstructions": ["LEACH_1", "LEACH_2", "LEACH_8"],
+		"incomeModifierPercentage": -50,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 900,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 40,
+		        "money": 9000,
+		        "rep": 30
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_BUD1_3",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_BUD1_4",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 100000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 0,
+		"needsRoad": false,
+		"income": 150,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1", "LEACH_1", "LEACH_2", "LEACH_8"],
+		"baseConstructions": ["INFECTION_1_3", "RUIN_1"],
+        "additionalConstructions": ["LEACH_1", "LEACH_2", "LEACH_5", "LEACH_8"],
+		"incomeModifierPercentage": -75,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 1200,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 35,
+		        "money": 12000,
+		        "rep": 40
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_BUD1_4",
+		"img": "CLOCKWORK",
+		"upgradeTo": "NONE",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 150000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 0,
+		"needsRoad": false,
+		"income": 200,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1", "LEACH_1", "LEACH_2", "LEACH_5", "LEACH_6", "LEACH_8"],
+		"baseConstructions": ["INFECTION_1_4", "RUIN_1"],
+        "additionalConstructions": ["LEACH_1", "LEACH_2", "LEACH_4", "LEACH_5", "LEACH_6", "LEACH_8"],
+		"incomeModifierPercentage": -100,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 2500,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 25,
+		        "money": 25000,
+		        "rep": 80
+		    }
+		]
+	},
+	
+	{
+		"name": "CLOCKWORK_BUD2_0",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_BUD2_1",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 150000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 4,
+		"needsRoad": false,
+		"income": 5,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1"],
+		"baseConstructions": ["INFECTION_2_0", "RUIN_2"],
+        "additionalConstructions": ["LEACH_1", "LEACH_2"],
+		"incomeModifierPercentage": 0,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 500,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 99,
+		        "money": 5000,
+		        "rep": 10
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_BUD2_1",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_BUD2_2",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 150000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 2,
+		"needsRoad": false,
+		"income": 50,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1", "LEACH_2" ],
+		"baseConstructions": ["INFECTION_2_1", "RUIN_2"],
+        "additionalConstructions": ["LEACH_1", "LEACH_2", "LEACH_3"],
+		"incomeModifierPercentage": -25,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 700,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 50,
+		        "money": 7000,
+		        "rep": 20
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_BUD2_2",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_BUD2_3",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 150000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 1,
+		"needsRoad": false,
+		"income": 100,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1", "LEACH_2", "LEACH_3" ],
+		"baseConstructions": ["INFECTION_2_2", "RUIN_2"],
+        "additionalConstructions": ["LEACH_1", "LEACH_2", "LEACH_3", "LEACH_4"],
+		"incomeModifierPercentage": -50,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 900,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 40,
+		        "money": 9000,
+		        "rep": 30
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_BUD2_3",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_BUD2_4",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 150000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 0,
+		"needsRoad": false,
+		"income": 150,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1", "LEACH_2", "LEACH_3", "LEACH_4" ],
+		"baseConstructions": ["INFECTION_2_3", "RUIN_2"],
+        "additionalConstructions": ["LEACH_1", "LEACH_2", "LEACH_3", "LEACH_4", "LEACH_5"],
+		"incomeModifierPercentage": -75,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 1200,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 35,
+		        "money": 12000,
+		        "rep": 40
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_BUD2_4",
+		"img": "CLOCKWORK",
+		"upgradeTo": "NONE",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 150000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 0,
+		"needsRoad": false,
+		"income": 200,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1", "LEACH_2", "LEACH_3", "LEACH_4", "LEACH_5" ],
+		"baseConstructions": ["INFECTION_2_4", "RUIN_2"],
+        "additionalConstructions": ["LEACH_1", "LEACH_2", "LEACH_3", "LEACH_4", "LEACH_5", "LEACH_6"],
+		"incomeModifierPercentage": -100,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 2500,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 25,
+		        "money": 25000,
+		        "rep": 80
+		    }
+		]
+	},
+	
+	{
+		"name": "CLOCKWORK_BUD3_0",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_BUD3_1",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 150000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 4,
+		"needsRoad": false,
+		"income": 5,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1"],
+		"baseConstructions": ["INFECTION_3_0", "RUIN_4"],
+        "additionalConstructions": ["LEACH_1", "LEACH_5"],
+		"incomeModifierPercentage": 0,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 500,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 99,
+		        "money": 5000,
+		        "rep": 10
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_BUD3_1",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_BUD3_2",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 150000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 2,
+		"needsRoad": false,
+		"income": 50,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_5"],
+		"baseConstructions": ["INFECTION_3_1", "RUIN_4"],
+        "additionalConstructions": ["LEACH_1", "LEACH_5", "LEACH_6"],
+		"incomeModifierPercentage": -25,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 700,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 50,
+		        "money": 7000,
+		        "rep": 20
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_BUD3_2",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_BUD3_3",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 150000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 1,
+		"needsRoad": false,
+		"income": 100,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_5", "LEACH_6"],
+		"baseConstructions": ["INFECTION_3_2", "RUIN_4"],
+        "additionalConstructions": ["LEACH_1", "LEACH_5", "LEACH_6", "LEACH_7"],
+		"incomeModifierPercentage": -50,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 900,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 40,
+		        "money": 9000,
+		        "rep": 30
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_BUD3_3",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_BUD3_4",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 150000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 0,
+		"needsRoad": false,
+		"income": 150,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_5", "LEACH_6", "LEACH_7"],
+		"baseConstructions": ["INFECTION_3_3", "RUIN_4"],
+        	"additionalConstructions": ["LEACH_1", "LEACH_5", "LEACH_6", "LEACH_7", "LEACH_8"],
+		"incomeModifierPercentage": -75,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 1200,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 35,
+		        "money": 12000,
+		        "rep": 40
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_BUD3_4",
+		"img": "CLOCKWORK",
+		"upgradeTo": "NONE",
+		"msUntilUpgrade": 1000000,
+		"msForUpgrade": 150000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 0,
+		"needsRoad": false,
+		"income": 200,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_5", "LEACH_6", "LEACH_7", "LEACH_8"],
+		"baseConstructions": ["INFECTION_3_3", "RUIN_4"],
+        "additionalConstructions": ["LEACH_1", "LEACH_5", "LEACH_6", "LEACH_7", "LEACH_8", "LEACH_3"],
+		"incomeModifierPercentage": -100,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 2500,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 25,
+		        "money": 25000,
+		        "rep": 80
+		    }
+		]
+	},
+	
+	{
+		"name": "CLOCKWORK_SHIP_0",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_SHIP_1",
+		"msUntilUpgrade": 700000,
+		"msForUpgrade": 70000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 4,
+		"needsRoad": false,
+		"income": 5,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1"],
+		"baseConstructions": ["INFECTED_SHIP_0"],
+        "additionalConstructions": ["LEACH_1"],
+		"incomeModifierPercentage": -10,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 500,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 99,
+		        "money": 5000,
+		        "rep": 10
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_SHIP_1",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_SHIP_2",
+		"msUntilUpgrade": 700000,
+		"msForUpgrade": 70000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 3,
+		"needsRoad": false,
+		"income": 25,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1", "LEACH_1"],
+		"baseConstructions": ["INFECTED_SHIP_1"],
+        "additionalConstructions": ["LEACH_1", "LEACH_2"],
+		"incomeModifierPercentage": -10,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 700,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 50,
+		        "money": 7000,
+		        "rep": 20
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_SHIP_2",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_SHIP_3",
+		"msUntilUpgrade": 700000,
+		"msForUpgrade": 70000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 2,
+		"needsRoad": false,
+		"income": 50,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1", "LEACH_1", "LEACH_2"],
+		"baseConstructions": ["INFECTED_SHIP_2"],
+        "additionalConstructions": ["LEACH_1", "LEACH_2", "LEACH_3"],
+		"incomeModifierPercentage": -10,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 900,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 40,
+		        "money": 9000,
+		        "rep": 30
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_SHIP_3",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_SHIP_4",
+		"msUntilUpgrade": 700000,
+		"msForUpgrade": 70000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 1,
+		"needsRoad": false,
+		"income": 75,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1", "LEACH_1", "LEACH_2", "LEACH_3"],
+		"baseConstructions": ["INFECTED_SHIP_3"],
+        "additionalConstructions": ["LEACH_1", "LEACH_2", "LEACH_3", "LEACH_4"],
+		"incomeModifierPercentage": -10,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 1200,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 35,
+		        "money": 12000,
+		        "rep": 40
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_SHIP_4",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_SHIP_5",
+		"msUntilUpgrade": 700000,
+		"msForUpgrade": 70000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 0,
+		"needsRoad": false,
+		"income": 100,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1", "LEACH_1", "LEACH_2", "LEACH_3", "LEACH_4"],
+		"baseConstructions": ["INFECTED_SHIP_4"],
+        "additionalConstructions": ["LEACH_1", "LEACH_2", "LEACH_3", "LEACH_4", "LEACH_5"],
+		"incomeModifierPercentage": -10,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 1750,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 30,
+		        "money": 17500,
+		        "rep": 60
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_SHIP_5",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_SHIP_6",
+		"msUntilUpgrade": 700000,
+		"msForUpgrade": 70000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 0,
+		"needsRoad": false,
+		"income": 125,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1", "LEACH_1", "LEACH_2", "LEACH_3", "LEACH_4", "LEACH_5"],
+		"baseConstructions": ["INFECTED_SHIP_5"],
+        	"additionalConstructions": ["LEACH_1", "LEACH_2", "LEACH_3", "LEACH_4", "LEACH_5", "LEACH_6"],
+		"incomeModifierPercentage": -10,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 2000,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 25,
+		        "money": 20000,
+		        "rep": 80
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_SHIP_6",
+		"img": "CLOCKWORK",
+		"upgradeTo": "CLOCKWORK_SHIP_7",
+		"msUntilUpgrade": 700000,
+		"msForUpgrade": 70000,
+		"upgradeMsPerRaidSuccess": 75000,
+		"spawnWeight": 0,
+		"needsRoad": false,
+		"income": 150,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1", "LEACH_1", "LEACH_2", "LEACH_3", "LEACH_4", "LEACH_5", "LEACH_6"],
+		"baseConstructions": ["INFECTED_SHIP_6"],
+        	"additionalConstructions": ["LEACH_1", "LEACH_2", "LEACH_3", "LEACH_4", "LEACH_5", "LEACH_6", "LEACH_7"],
+		"incomeModifierPercentage": -10,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 2700,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 20,
+		        "money": 27000,
+		        "rep": 100
+		    }
+		]
+	},
+	{
+		"name": "CLOCKWORK_SHIP_7",
+		"img": "CLOCKWORK",
+		"spawnWeight": 0,
+		"needsRoad": false,
+		"income": 200,
+		"mapImage":{ "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 368, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["LEACH_1", "LEACH_1", "LEACH_1", "LEACH_2", "LEACH_3", "LEACH_4", "LEACH_5", "LEACH_6", "LEACH_7"],
+		"baseConstructions": ["INFECTED_SHIP_6"],
+        	"additionalConstructions": ["LEACH_1", "LEACH_2", "LEACH_3", "LEACH_4", "LEACH_5", "LEACH_6", "LEACH_7", "LEACH_8"],
+		"incomeModifierPercentage": -10,
+		"attackRadius": 1000,
+		"minAttackFleetStrength": 1000,
+        	"rewards": [
+		    {
+		        "name": "CLOCKWORKCleared",
+		        "spawnWeight": 1,
+		        "money": 4000,
+			"bonus": "CEDRONE",
+		        "rep": 1000
+		    },
+		    {
+		        "name": "CLOCKWORKCleared2",
+		        "spawnWeight": 15,
+		        "money": 40000,
+		        "rep": 120
+		    }
+		]
+	},
+]

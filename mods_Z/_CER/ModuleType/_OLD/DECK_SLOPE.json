@@ -1,0 +1,45 @@
+[
+    {
+        "name": "FLIPPED_DECK_SLOPE",
+        "flippedFrom": "DECK_SLOPE"
+    },
+    {
+        "name": "DECK_SLOPE",
+        "categories": ["ZDECKS"],
+	"required": "CONSTRUCTION_SIMPLE",
+        "external": true,
+        "drawDoors": false,
+        "w": 2,
+        "h": 1,
+        "framesAreVariants": true,
+        "appearance": {
+            "src": "sprite-vabese",
+			"w": 2,
+			"h": 1,
+            "x": 18,
+            "y": 11
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+					"w": 2,
+					"h": 1,
+					"x": 18,
+					"y": 11
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 40,
+        "fireHP": 10,
+        "moveDelay": 200,
+        "weight": 2,
+        "cost": 3,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 123, "g": 66, "b": 27 },
+        "externalSubBaseColor": { "r": 123, "g": 66, "b": 27 },
+        "drawAppearanceInside": false
+    }
+]

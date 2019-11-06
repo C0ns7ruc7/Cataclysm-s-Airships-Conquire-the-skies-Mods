@@ -1,0 +1,50 @@
+[
+    {
+        "name": "DRONE_SMALL_COAL_STORE",
+        "categories": ["DRONE"],
+	"required": "MECHANIS_THEORY",
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 120,
+            "frames": [
+                {"x": 60, "y": 9, "w": 1, "h": 1},
+                {"x": 61, "y": 9, "w": 1, "h": 1},
+		{"x": 62, "y": 9, "w": 1, "h": 1}
+            ]
+        },
+	"externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 63,
+                    "y": 9,
+                    "w": 1,
+                    "h": 1
+                }
+            }
+        ],
+        "hp": 300,
+	"destroyedHP": -400,
+	"maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+        "fireHP": { "base": 160, "MECHANIS_COMPLETION": 80 },
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 50 },
+        "moveDelay": 600,
+        "weight": 100,
+        "cost": 80,
+        "coal": 12,
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+	"command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+        "explodeHP": { "base": 10, "MECHANIS_MODULAIRIZATION": 0 },
+        "explodeDmg": { "base": 10, "MECHANIS_MODULAIRIZATION": 0 },
+	"upDoors": [ 0 ],
+	"accuracyBonus": 0.10,
+        "shipHPBonus": 100,
+        "structuralStressAmount": -10
+    }
+]

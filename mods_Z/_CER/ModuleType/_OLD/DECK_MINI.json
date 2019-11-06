@@ -1,0 +1,40 @@
+[
+    {
+        "name": "DECK_MINI",
+        "categories": ["ZDECKS"],
+	"required": "CONSTRUCTION_SIMPLE",
+        "external": true,
+        "drawDoors": false,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+			"w": 1,
+			"h": 1,
+            "x": 16,
+            "y": 12
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+					"w": 1,
+					"h": 1,
+					"x": 16,
+					"y": 12
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 20,
+        "fireHP": 5,
+        "moveDelay": 200,
+        "weight": 1,
+        "cost": 2,
+        "drawExternalsBelowDecals": true,
+        "externalSubColor": { "r": 123, "g": 66, "b": 27 },
+        "externalSubBaseColor": { "r": 123, "g": 66, "b": 27 },
+        "drawAppearanceInside": false
+    }
+]

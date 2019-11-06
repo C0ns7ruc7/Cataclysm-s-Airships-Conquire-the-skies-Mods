@@ -1,0 +1,122 @@
+[
+    {
+        "name": "WORLD_SHAKER",
+        "categories": ["WCE_WEAPONS"],
+	"required": "CE_SUSPENDIUM_MAD_SCIENCE",
+        "isWeapon": true,
+        "topOnly": true,
+	"isExplosive": true,
+        "w": 1,
+        "h": 4,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 18,
+            "y": 27,
+            "w": 1,
+            "h": 4
+        },
+	"externalAppearances": [
+		{
+		        "x": 0,
+		        "y": -1,
+		        "appearance": {
+		            	"src": "sprite-vabese",
+			    	"interval": 60,
+			    	"frames": [
+					{ "x": 18, "y": 26 },
+					{ "x": 19, "y": 26 },
+					{ "x": 20, "y": 26 },
+					{ "x": 21, "y": 26 },
+					{ "x": 19, "y": 28 },
+					{ "x": 19, "y": 29 },
+					{ "x": 19, "y": 30 },
+				]
+		        }
+            	}
+        ],
+	"fireSound": {
+            "layers": [
+                {
+                    "variations": [ "sus_act1", "sus_act2", "sus_act3", "sus_act4" ],
+                    "volume": 0.3,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.2,
+                        "distance": [
+                            0, 1.1,
+                            3000, 0.7
+                        ]
+                    }
+                }
+			]
+		},
+        "hitSound": {
+            "layers": [
+                {
+                    "variations": ["sus_shake"],
+                    "volume": 2.5,
+                    "pitch": {
+                        "min": 0.5,
+                        "max": 1.0
+                    }
+                }
+            ]
+        },
+        "hp": 300,
+        "explodeHP": 50,
+        "explodeDmg": 100,
+        "fireHP": 60,
+        "moveDelay": 600,
+        "weight": 250,
+        "cost": 500,
+        "shipHPBonus": -300,
+	"crew": 1,
+        "optionalCrew": 1,
+        "recommendedCrew": 2,
+        "recommendedGuards": 1,
+	"reload": 1999,
+	"coalReload": 2000,
+        "clip": 1,
+        "inaccuracy": 0.01,
+        "blastDmg": 3,
+        "penDmg": 1,
+        "shotSpeed": 999,
+        "blastSplashRadius": 4000,
+        "maxRange": 2000,
+        "shootTroopsRange": 2000,
+        "optimumRange": 2000,
+        "maintenanceCost": 10,
+        "recoilForce": 10.0,
+        "canOccupy": [
+        	{ "x": 0, "y": 0 },
+		{ "x": 0, "y": 2 }
+	],
+        "windows": [
+		{ "x": 0, "y": 2 }
+        ],
+        "fireArc": { "direction": "downwards", "degrees": 360 },
+        "muzzleCenterX": 0.50,
+        "muzzleCenterY": -0.4375,
+        "muzzleLength": 0,
+	"structuralStressAmount": 10,
+	"weaponAppearance": {
+            "shot": { "src": "sprite-vabese", "x": -1, "y": -1, "w": 1, "h": 1 },
+            "barrel": { "src": "sprite-vabese", "x": -1, "y": -1, "w": 1, "h": 1 },
+            "barrelX": 0,
+            "barrelY": 0,
+            "recoil": 0,
+            "shotEmitter": { "type": "shockwave_giant_ce", "emitProbability": 1 }
+        },
+        "leftDoors": [ 0, 2 ],
+        "rightDoors": [ 0, 2 ],
+        "lights": [
+            {
+                "r": 0, "g": 231, "b": 185,
+                "radius": 200,
+                "x": 0.5,
+                "y": -0.4375,
+                "outside": true
+            }
+        ]
+    }
+]

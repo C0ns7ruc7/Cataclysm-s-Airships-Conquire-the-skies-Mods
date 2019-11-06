@@ -1,0 +1,40 @@
+[
+    {
+        "name": "FIRE_TANKARD",
+        "categories": ["RESOURCES"],
+	"required": "CONSTRUCTION",
+        "w": 2,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 15,
+            "y": 24,
+            "w": 2,
+            "h": 2
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 17,
+                    "y": 24,
+		    "w": 4,
+		    "h": 2
+                },
+                "x": -1,
+                "y": 0
+            }
+	],
+        "hp": 240,
+        "fireHP": 10,
+        "moveDelay": 600,
+        "weight": 700,
+        "cost": 35,
+        "water": 300,
+        "optionalCrew": 4,
+        "recommendedCrew": 4,
+	"structuralStressAmount": 24,
+	"adjacencyBonusStrength": 0.9,
+	"hardness": 0.7
+    }
+]

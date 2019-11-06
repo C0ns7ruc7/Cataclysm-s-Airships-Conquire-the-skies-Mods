@@ -1,0 +1,48 @@
+[
+    {
+        "name": "REINFORCED_CORRIDOR",
+        "categories": ["STRUCTURAL"],
+	"required": "CONSTRUCTION",
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 37,
+            "y": 7
+        },
+        "hp": 500,
+        "destroyedHP": -500,
+        "fireHP": -1,
+        "moveDelay": 550,
+        "weight": 50,
+        "cost": 40,
+        "upDoors": [ 0 ],
+        "windows": [
+            { "x": 0, "y": 0 }
+        ],
+        "externalAppearances": [
+			{
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 34,
+                    "y": 15
+                },
+                "x": 0,
+                "y": 0
+            },
+			{
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 34,
+                    "y": 14
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "adjacencyBonusStrength": 1.666,
+        "hardness": 1.666,
+	"structuralStressAmount": -10,
+	"shipHPBonus": 300,
+    }
+]

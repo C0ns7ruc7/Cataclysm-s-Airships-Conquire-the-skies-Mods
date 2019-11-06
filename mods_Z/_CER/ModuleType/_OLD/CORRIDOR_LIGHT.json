@@ -1,0 +1,89 @@
+[
+    {
+        "name": "CORRIDOR_LIGHT",
+        "categories": ["STRUCTURAL"],
+	"required": "CONSTRUCTION_SIMPLE",
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 37,
+            "y": 6
+        },
+        "hp": 33,
+        "fireHP": 16,
+        "moveDelay": 350,
+        "weight": 5,
+        "cost": 5,
+        "windows": [
+            { "x": 0, "y": 0 }
+        ],
+        "upDoors": [ 0 ],
+        "lights": [
+            {
+                "r": 128, "g": 87, "b": 35,
+                "radius": 32,
+                "x": 0.25,
+                "y": 0.3125,
+                "inside": true
+            }
+        ]
+    },
+	{
+        "name": "CORRIDOR_SPECIAL_LIGHT",
+        "categories": ["STRUCTURAL"],
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 37,
+            "y": 6
+        },
+        "hp": 33,
+        "fireHP": 16,
+        "moveDelay": 350,
+        "weight": 5,
+        "cost": 5,
+        "coalReload": 100000,
+        "upDoors": [ 0 ],
+        "lights": [
+            {
+                "r": 128, "g": 87, "b": 35,
+                "radius": 1024,
+                "x": 0.5,
+                "y": -0.5,
+                "outside": true
+            }
+        ]
+    },
+	{
+        "name": "CORRIDOR_SUPPER_LIGHT",
+        "categories": ["DEV"],
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 6,
+            "y": 0
+        },
+		"externalAppearances": [
+            {
+                "x": -31,
+                "y": -31,
+                "appearance": {
+                    "src": "halo",
+                    "x": 0, "y": 0, "w": 64, "h": 64
+                }
+            }
+        ],
+        "hp": 33,
+        "fireHP": 16,
+        "moveDelay": 350,
+        "weight": 5,
+        "cost": 5,
+        "windows": [
+            { "x": 0, "y": 0 }
+        ],
+        "upDoors": [ 0 ]
+    }
+]

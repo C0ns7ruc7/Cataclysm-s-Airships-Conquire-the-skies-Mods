@@ -1,0 +1,101 @@
+[
+    {
+        "name": "FLIPPED_SOLAR_RAY",
+        "flippedFrom": "SOLAR_RAY"
+    },
+    {
+        "name": "SOLAR_RAY",
+        "categories": ["WCE_WEAPONS"],
+        "required": "SOLAR_LAZOR",
+        "isWeapon": true,
+        "w": 5,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 180,
+            "frames": 
+			[
+                { "x": 11, "y": 11, "w": 5, "h": 1 },
+                { "x": 11, "y": 12, "w": 5, "h": 1 },
+                { "x": 10, "y": 13, "w": 5, "h": 1 },
+                { "x": 11, "y": 12, "w": 5, "h": 1 }
+			]
+        },
+        "hp": 280,
+        "fireHP": 100,
+        "moveDelay": 800,
+        "weight": 200,
+        "cost": 200,
+        "crew": 1,
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
+        "frontOnly": true,
+        "backOnly": true,
+        "topOnly": true,
+        "reload": 100,
+        "clip": 0,
+	"jitterMerge": 0.85,
+        "inaccuracy": 0.0005,
+        "blastDmg": 2,
+        "blastSplashRadius": 4,
+        "shotSpeed": 12,
+        "penDmg": 2,
+	"directDmg": 1,
+        "recoilForce": 0,
+        "fireArc": {  "arcCenter": "325", "degrees": 180 },
+        "muzzleCenterX": 4.875,
+        "muzzleCenterY": 0.4375,
+        "muzzleLength": 6,
+        "minXRange": 48,
+	"muzzleFlash": false,
+        "optimumRange": 800,
+	"shootTroopsRange": 800,
+	"soundEvery": 10,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "mirrortowerfire", "mirrortowerfire2" ],
+                    "volume": {
+                        "min": 1.0,
+                        "max": 2.0
+                    },
+                    "pitch": {
+                        "min": 0.5,
+                        "max": 1.5,
+                        "distance": [
+                            0, 1.0,
+                            1000, 0.9,
+                            2000, 0.7,
+                            3000, 0.4,
+                            4000, 0.1
+                        ]
+                    }
+                }
+            ]
+        },
+        "weaponAppearance": {
+            "barrel": { "src": "sprite-vabese", "x": 256, "y": 165, "w": 11, "h": 5 },
+            "shot": { "src": "sprite-vabese", "x": 262, "y": 171, "w": 5, "h": 5 },
+            "barrelX": 68,
+            "barrelY": 1,
+            "recoil": 0,
+            "shotEmitter": { "type": "ember", "emitProbability": 0.07 },
+            "exhaust": { 
+            	"type": "ce_solar_ray_shot", 
+            	"p": 1.314, 
+            	"backOffset": 0, 
+            	"angleRange": 0, 
+            	"randomOffset": 0, 
+            	"speedMin": -10, 
+            	"speedMax": 10 
+            }
+        },
+        "windows": [
+            	{ "x": 0, "y": 0 },
+		{ "x": 1, "y": 0 },
+		{ "x": 2, "y": 0 },
+		{ "x": 3, "y": 0 },
+		{ "x": 4, "y": 0 }
+        ]
+    }
+]

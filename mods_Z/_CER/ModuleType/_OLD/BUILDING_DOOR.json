@@ -1,0 +1,41 @@
+[
+    {
+        "name": "BUILDING_DOOR",
+        "categories": ["RESOURCES"],
+        "availableFor": ["BUILDING"],
+        "w": 1,
+        "h": 1,
+	"framesAreVariants": true,
+	"drawDoors": false,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 11,
+            "y": 8
+        },
+	"mask": {
+            "x": 0,
+            "y": 31
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+					"frames": [
+						{ "x": 5, "y": 22 },
+						{ "x": 6, "y": 22 },
+						{ "x": 7, "y": 22 }
+					]
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 120,
+        "fireHP": 30,
+        "moveDelay": 350,
+		"bottomOnly": true,
+        "weight": 4,
+        "cost": 2,
+        "supplyProvided": 6,
+    }
+]

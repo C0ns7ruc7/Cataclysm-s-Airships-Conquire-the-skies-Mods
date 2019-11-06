@@ -1,0 +1,112 @@
+[
+    {
+        "name": "THEORY_MECHANIS",
+        "sort": 5001,
+        "tier": 5,
+        "requiresBonus": "CEDRONE",
+	"dependencies": [],
+        "bonuses": [ "MECHANIS_THEORY" ],
+        "img": { "src": "ce_tech_art", "x": 896, "y": 0, "w": 64, "h": 64 }
+    },
+	{
+        "name": "SPYCRAFT0",
+        "sort": 5005,
+        "tier": 5,
+        "bonuses": [ "SPYCRAFT0" ],
+        "dependencies": [],
+        "img": { "src": "ce_tech_art", "x": 192, "y": 192, "w": 64, "h": 64 }
+    },
+    {
+        "name": "ATOM_THEORY",
+        "sort": 5100,
+        "tier": 5,
+	"requiresBonus": "ROCKET_CREATION",
+        "bonuses": [ "MASS_ENERGY_REACTION", "CEDRONE" ],
+        "dependencies": [ "ADVANCED_FUZES", "MILITARY_ORGANISATION", "TADPOLE_TECH" ],
+        "img": { "src": "ce_tech_art", "x": 576, "y": 64, "w": 64, "h": 64 }
+    },
+	{
+        "name": "FIREDRILLS",
+        "sort": 5110,
+        "tier": 5,
+	"requiresBonus": "FIRE_EXTINGUISHERS",
+        "bonuses": [ "FIREDRILLS" ],
+        "dependencies": [ "COMPLEX_CONSTRUCTION"],
+        "img": { "src": "ce_tech_art", "x": 128, "y": 192, "w": 64, "h": 64 }
+    },
+    {
+        "name": "LONG_DISTANCE_COMBAT",
+        "sort": 5200,
+        "tier": 5,
+        "bonuses": [ "EXTREME_DISTANCE_COMBAT" ],
+        "dependencies": [ "ADVANCED_FUZES", "ROBOTICS", "CONTAINED_ECONOMIES" ],
+        "img": { "src": "ce_tech_art", "x": 640, "y": 64, "w": 64, "h": 64 }
+    },
+    {
+        "name": "OIL_FUEL_REFINING",
+        "sort": 5360,
+        "tier": 5,
+        "bonuses": [ "FUEL_CREATION", "ROCKET_CREATION_PROTO" ],
+        "dependencies": [],
+	"requiresBonus": "FLAMETHROWERS",
+        "img": { "src": "ce_tech_art", "x": 576, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "CE_SUSPEND_KICKBACK",
+        "sort": 5530,
+        "tier": 5,
+        "bonuses": [ "CE_SUSPEND_KICKBACK", "CE_SUSPEND_TORP", "CE_KICKBACK_PROTECTION" ],
+        "dependencies": [ "CE_SUSPENDED_ASSEMBLY" ],
+        "img": { "src": "ce_tech_art", "x": 960, "y": 64, "w": 64, "h": 64 }
+    },
+    {
+        "name": "TENT_CRAFT",
+        "sort": 5900,
+        "tier": 5,
+        "bonuses": [ "CE_TENTS" ],
+        "dependencies": [],
+        "img": { "src": "ce_tech_art", "x": 704, "y": 64, "w": 64, "h": 64 }
+    },
+    {
+        "name": "CE_ARMOR_EMERGANCY",
+        "sort": 5925,
+        "tier": 5,
+        "bonuses": [ "CE_ARMOR_EMERGANCY" ],
+        "requiresBonus": "MASSIVE_STONE_WALLS",
+        "dependencies": [],
+        "img": { "src": "ce_tech_art", "x": 128, "y": 128, "w": 64, "h": 64 }
+    },
+	{
+        "name": "CE_LONG_RANGE",
+        "sort": 5990,
+        "tier": 5,
+        "requiresBonus": "BOMBS",
+	"dependencies": [],
+        "bonuses": [ "LONG_RANGE" ],
+        "img": { "src": "ce_tech_art", "x": 640, "y": 192, "w": 64, "h": 64 }
+    },
+    {
+        "name": "IMPERIAL_NODE6",
+        "sort": 6000,
+        "tier": 5,
+        "choices": [
+            {
+                "name": "IMPN6_BLAST",
+                "bonuses": [ "IMPN6_BLAST" ],
+                "img": { "src": "ce_tech_art", "x": 256, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "IMPN6_BALLANCE",
+                "bonuses": [ "IMPN6_BALLANCE" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "IMPN6_PENEN",
+                "bonuses": [ "IMPN6_PENEN" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            }
+        ],
+        "requiresBonus": "CE_ARMOR_INOVATION",
+        "dependencies": [ "IMPERIAL_NODE5" ]
+    }
+]

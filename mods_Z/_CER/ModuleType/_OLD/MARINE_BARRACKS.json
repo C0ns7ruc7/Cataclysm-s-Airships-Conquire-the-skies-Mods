@@ -1,0 +1,58 @@
+[
+    {
+        "name": "MARINE_BARRACKS",
+	"availableFor": ["BUILDING"],
+        "categories": ["TROOPS"],
+	"required": "LAND_TROOPS",
+        "w": 5,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 44,
+            "y": 6,
+            "w": 5,
+            "h": 2
+        },
+		"externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 49,
+                    "y": 6,
+					"w": 7,
+					"h": 2
+                },
+                "x": -1,
+                "y": 0
+            }
+        ],
+        "hp": 200,
+        "fireHP": 90,
+        "moveDelay": 450,
+        "weight": 80,
+        "cost": 120,
+        "maintenanceCost": { "base": 6, "MARTIAL_CASTE": 3 },
+        "sickbay": 2,
+        "quarters": 20,
+        "quartersType": "soldierCE",
+        "canOccupy": 
+		[
+            { "x": 0, "y": 0 },
+			{ "x": 1, "y": 0 },
+			{ "x": 2, "y": 0 },
+			{ "x": 3, "y": 0 },
+			{ "x": 4, "y": 0 },
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 },
+			{ "x": 2, "y": 1 },
+			{ "x": 3, "y": 1 },
+			{ "x": 4, "y": 1 }
+		],
+        "windows": [
+            { "x": 0, "y": 1 },
+			{ "x": 2, "y": 1 },
+			{ "x": 4, "y": 1 }
+        ],
+        "upDoors": [ 2 ]
+    }
+]

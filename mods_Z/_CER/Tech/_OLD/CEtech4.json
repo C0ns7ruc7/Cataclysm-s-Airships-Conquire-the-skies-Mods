@@ -1,0 +1,79 @@
+[
+    {
+        "name": "COMPLEX_CONSTRUCTION",
+        "sort": 4110,
+        "tier": 4,
+        "bonuses": [ "CONSTRUCTION_ADVANCED", "CONSTRUCTION_ADVANCED_PRODUCTION" ],
+        "dependencies": [ "ADVANCED_CONSTRUCTION"],
+        "img": { "src": "ce_tech_art", "x": 768, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "TADPOLE_TECH",
+        "sort": 4190,
+        "tier": 4,
+        "choices": [
+            {
+                "name": "CARRIER_TADPOLE",
+                "bonuses": [ "TADPOLE_CARRIER" ],
+                "img": { "src": "ce_tech_art", "x": 448, "y": 64, "w": 64, "h": 64 }
+            },
+            {
+                "name": "MODULAIR_TADPOLE",
+                "bonuses": [ "TADPOLE_MODULAIR" ],
+                "img": { "src": "ce_tech_art", "x": 512, "y": 64, "w": 64, "h": 64 }
+            }
+        ],
+        "dependencies": [ "ADVANCED_FLIGHT", "COMPUTERS" ]
+    },
+    {
+        "name": "BUZZER_COMP",
+        "sort": 4290,
+        "tier": 4,
+        "bonuses": [ "COMP_BUZZER" ],
+        "dependencies": [ "MECH_TECH" ],
+        "img": { "src": "ce_tech_art", "x": 256, "y": 64, "w": 64, "h": 64 }
+    },
+    {
+        "name": "CE_SUSPENDED_ASSEMBLY",
+        "sort": 4530,
+        "tier": 4,
+        "bonuses": [ "CE_SUSPENDED_ASSEMBLY" ],
+        "dependencies": [ "AUTOMATED_LOADING_SYSTEMS" ],
+        "img": { "src": "ce_tech_art", "x": 896, "y": 64, "w": 64, "h": 64 }
+    },
+    {
+        "name": "CRYSTAL_CREATION",
+        "sort": 4890,
+        "tier": 4,
+        "bonuses": [ "SUSPEDIUM_CRYSTAL_CREATION", "CE_SUSPENDIUM_MAD_SCIENCE" ],
+        "dependencies": [ "REFINING", "SUSPEDIUM_COLLECTION", "SUSPENDIUM_CANNON" ],
+        "img": { "src": "ce_tech_art", "x": 512, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "CONTAINED_ECONOMIES",
+        "sort": 4998,
+        "tier": 4,
+        "bonuses": [ "COMMERCE_CONTAINED_ECONOMIES", "COMMERCE_CONTAINED_ECONOMIES_INCOME" ],
+        "dependencies": [ "REFINING" ],
+        "img": { "src": "ce_tech_art", "x": 384, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "IMPERIAL_NODE5",
+        "sort": 5000,
+        "tier": 4,
+        "choices": [
+            {
+                "name": "IMPN5_GEN",
+                "bonuses": [ "IMPN5_GEN" ],
+                "img": { "src": "ce_tech_art", "x": 256, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "IMPN5_SPEED",
+                "bonuses": [ "IMPN5_SPEED" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            }
+        ],
+        "requiresBonus": "CE_ARMOR_INOVATION",
+        "dependencies": [ "IMPERIAL_NODE4" ]
+    }
+]

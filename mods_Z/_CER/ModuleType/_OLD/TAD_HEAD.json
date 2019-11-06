@@ -1,0 +1,90 @@
+[{
+        "name": "TAD_HEAD",
+        "categories": ["UNIT"],
+        "external": true,
+		"doesCreak": false,
+        "availableFor": ["AIRSHIP"],
+	"required": "TADPOLE_MODULAIR",
+	"w": 1,
+        "h": 1,
+        "isRam": true,
+	"isWeapon": true,
+        "appearance": {
+            "src": "sprite-vabese",
+					"interval": 75,
+					"frames":[
+						{"x": 20, "y": 14, "w": 1, "h": 1},
+						{"x": 20, "y": 15, "w": 1, "h": 1},
+						{"x": 20, "y": 16, "w": 1, "h": 1}
+					]
+           
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+					"interval": 75,
+					"frames":[
+						{"x": 20, "y": 14, "w": 1, "h": 1},
+						{"x": 20, "y": 15, "w": 1, "h": 1},
+						{"x": 20, "y": 16, "w": 1, "h": 1}
+						]
+            },
+			    "x": 0,
+                "y": 0
+			}
+        ],
+        "hp": 250,
+        "fireHP": 25,
+        "explodeHP": 1,
+        "explodeDmg": 1250,
+        "weight": 333,
+        "cost": 33,
+        "crew": 0,
+	"command": 1,
+
+        "frontOnly": true,
+        "maintenanceCost": { "base": 2, "MARTIAL_CASTE": 0 },
+
+        "canOccupy": [],
+	"hardness": 5.0,
+	"destroyedHP": 0,
+        "maxRange": 72,
+	"shootTroopsRange": 72,
+        "reload": 100,
+        "inaccuracy": 0,
+        "blastDmg": 27,
+        "penDmg": 0,
+	"directDmg": 1,
+        "clip": 0,
+        "fireArc": { "direction": "forwards", "degrees": 720 },
+        "muzzleCenterX": 0.5,
+        "muzzleCenterY": 0.5,
+        "muzzleLength": 0,
+        "muzzleFlash": false,
+        "optimumRange": 10,
+	"fireSound": {
+            "layers": [
+                {
+                    "variations": [ "saw0" ],
+                    "volume": 0.35,
+                    "pitch": {
+                        "min": 0.35,
+                        "max": 0.7,
+                        "distance": [
+                            0, 0.9,
+                            3000, 0.1
+                        ]
+                    }
+                }
+            ]
+        },
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 1, "y": 1, "w": 1, "h": 1 },
+            "barrel": { "src": "spritesheet", "x": 1, "y": 1, "w": 1, "h": 1 },
+            "barrelX": 8,
+            "barrelY": 8,
+            "recoil": 1
+        }
+	
+}]

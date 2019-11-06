@@ -1,0 +1,37 @@
+[
+    {
+        "name": "MECH_STATION",
+        "categories": ["TROOPS"],
+	"required": "MECHANIS_THEORY",
+        "w": 2,
+        "h": 2,
+        "framesAreVariants": true,
+        "appearance": {
+            "src": "sprite-vabese",
+			"frames":[
+				{"x": 6, "y": 23, "w": 2, "h": 2},
+				{"x": 32, "y": 10, "w": 2, "h": 2},
+				{"x": 34, "y": 8, "w": 2, "h": 2}
+				]
+        },
+        "hp": 120,
+        "fireHP": 80,
+        "moveDelay": 600,
+        "weight": 40,
+        "cost": 40,
+        "maintenanceCost": { "base": 2, "MARTIAL_CASTE": 1 },
+        "quarters": 1,
+        "quartersType": "mechsuit",
+        "windows": [
+            { "x": 0, "y": 1 }
+        ],
+        "upDoors": [ 1 ],
+	    "leftDoors": [ 1 ],
+        "rightDoors": [ 0, 1 ],
+		"canOccupy": [			
+			{ "x": 1, "y": 0 },
+			{ "x": 0, "y": 1 },
+			{ "x": 1, "y": 1 }
+			]
+    }
+]

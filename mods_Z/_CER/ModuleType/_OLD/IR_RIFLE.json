@@ -1,0 +1,70 @@
+[
+    {
+        "name": "FLIPPED_IR_RIFLE",
+        "flippedFrom": "IR_RIFLE"
+    },
+    {
+        "name": "IR_RIFLE",
+        "categories": ["WCE_WEAPONS"],
+	"required": "FLAMETHROWERS",
+        "isWeapon": true,
+        "isGun": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 19,
+            "y": 0
+        },
+        "hp": 40,
+        "fireHP": 28,
+        "moveDelay": 800,
+        "weight": 8,
+        "cost": 18,
+        "crew": 1,
+        "recommendedCrew": 1,
+        "frontOnly": true,
+	"muzzleFlash": true,
+	"accuracyBonus": 0.1,
+        "reload": 1300,
+        "clip": { "base": 40, "LIGHTWEIGHT_ROUNDS": 60 },
+        "inaccuracy": { "base": 0.0012, "LIGHTWEIGHT_ROUNDS": 0.0008 },
+        "blastDmg": 1,
+        "blastSplashRadius": 60,
+        "penDmg": { "base": 4, "ARMOUR_PIERCING_ROUNDS": 6 },
+	"fixedInaccuracyVsTroops": { "base": 20, "LIGHTWEIGHT_ROUNDS": 10 },
+	"shootTroopsRange": 400,
+        "fireArc": { "direction": "forwards", "degrees": 200 },
+        "muzzleCenterX": 0.68,
+        "muzzleCenterY": 0.56,
+        "muzzleLength": 1,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "rifle0" ],
+                    "volume": 0.9,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1,
+                        "distance": [
+                            0, 1.2,
+                            3000, 0.5
+                        ]
+                    }
+                }
+            ]
+        },
+        "optimumRange": 800,
+        "jitterMerge": 0.4,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 48, "y": 304, "w": 1, "h": 1 },
+            "barrel": { "src": "spritesheet", "x": 321, "y": 112, "w": 23, "h": 6 },
+            "barrelX": 0,
+            "barrelY": 6,
+            "recoil": 2,
+			"hitExplosionSize": 0.5,
+			"missExplosionSize": 0.5,
+			"shotEmitter": { "type": "muzzle_small", "emitProbability": 0.007 }
+        }
+    }
+]

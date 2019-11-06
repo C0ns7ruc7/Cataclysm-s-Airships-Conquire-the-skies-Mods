@@ -1,0 +1,102 @@
+[
+    {
+        "name": "7_MECHANIS",
+        "sort": 7000,
+        "tier": 7,
+        "bonuses": [],
+        "requiresBonus": "MONSTERS",
+        "dependencies": [ "MODULAIRIZATION_MECHANIS" ],
+        "img": { "src": "ce_tech_art", "x": 0, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "REVOLUTION_MECHANIS",
+        "sort": 7001,
+        "tier": 7,
+        "bonuses": [ "MECHANIS_REVOLUTION" ],
+        "requiresBonus": "CEDRONE",
+        "dependencies": [ "IMPLIMENTATION_MECHANIS" ],
+        "img": { "src": "ce_tech_art", "x": 0, "y": 64, "w": 64, "h": 64 }
+    },
+	{
+        "name": "SPYCRAFT2A",
+        "sort": 7002,
+        "tier": 7,
+        "requiresBonus": "FUEL_CREATION",
+        "bonuses": [ "SPYCRAFT2A" ],
+        "dependencies": [ "SPYCRAFT1A" ],
+        "img": { "src": "ce_tech_art", "x": 0, "y": 256, "w": 64, "h": 64 }
+    },
+	{
+        "name": "SPYCRAFT2B",
+        "sort": 7003,
+        "tier": 7,
+        "requiresBonus": "HUSSARS",
+        "bonuses": [ "SPYCRAFT2B" ],
+        "dependencies": [ "SPYCRAFT1A", "SPYCRAFT1B" ],
+        "img": { "src": "ce_tech_art", "x": 64, "y": 256, "w": 64, "h": 64 }
+    },
+	{
+        "name": "SPYCRAFT2C",
+        "sort": 7004,
+        "tier": 7,
+        "requiresBonus": "GRAPPLING_HOOKS",
+        "bonuses": [ "SPYCRAFT2C" ],
+        "dependencies": [ "SPYCRAFT1B" ],
+        "img": { "src": "ce_tech_art", "x": 128, "y": 256, "w": 64, "h": 64 }
+    },
+    {
+        "name": "REPAIR1",
+        "sort": 7006,
+        "tier": 7,
+        "bonuses": [ "REPAIR1" ],
+        "dependencies": [],
+        "img": { "src": "ce_tech_art", "x": 256, "y": 192, "w": 64, "h": 64 }
+    },
+    {
+        "name": "HOUSING",
+        "sort": 7010,
+        "tier": 7,
+        "requiresBonus": "CE_HOUSE_SMALL",
+        "bonuses": [ "CE_HOUSE" ],
+        "dependencies": [ "SIMPLE_HOUSING" ],
+        "img": { "src": "ce_tech_art", "x": 832, "y": 64, "w": 64, "h": 64 }
+    },
+	{
+        "name": "FOCUSSING_ARRAY",
+        "sort": 7100,
+        "tier": 7,
+        "bonuses": [ "SOLAR_LAZOR" ],
+        "requiresBonus": "TELESCOPES",
+        "dependencies": [],
+        "img": { "src": "ce_tech_art", "x": 832, "y": 192, "w": 64, "h": 64 }
+    },
+    {
+        "name": "IMPERIAL_NODE8",
+        "sort": 8000,
+        "tier": 7,
+        "choices": [
+            {
+                "name": "IMPN8_PENEN",
+                "bonuses": [ "IMPN8_PENEN" ],
+                "img": { "src": "ce_tech_art", "x": 256, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "IMPN8_BLAST",
+                "bonuses": [ "IMPN8_BLAST" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "IMPN8_HP",
+                "bonuses": [ "IMPN8_HP" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "IMPN8_WIEGHT",
+                "bonuses": [ "IMPN8_WIEGHT" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            }
+        ],
+        "requiresBonus": "CE_ARMOR_INOVATION",
+        "dependencies": [ "IMPERIAL_NODE7" ]
+    }
+]

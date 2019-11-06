@@ -1,0 +1,45 @@
+[
+    {
+        "name": "EARTHBOUND_CORPS",
+        "sort": 1250,
+        "tier": 1,
+        "bonuses": [ "LAND_TROOPS" ],
+        "dependencies": [ "MILITARY_TRAINING" ],
+        "img": { "src": "ce_tech_art", "x": 832, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "HELLICOPTERS",
+        "sort": 1625,
+        "tier": 1,
+        "bonuses": [ "COMBINED_PROPULSION" ],
+        "dependencies": [ "MACHINERY", "ENERGISED_SUSPENDIUM" ],
+        "img": { "src": "ce_tech_art", "x": 0, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "ORGENIZED_GATHERING",
+        "sort": 1998,
+        "tier": 1,
+        "bonuses": [ "COMMERCE_ORGENIZED_GATHERING", "COMMERCE_ORGENIZED_GATHERING_INCOME" ],
+        "dependencies": [ "HAGELING" ],
+        "img": { "src": "ce_tech_art", "x": 192, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "IMPERIAL_NODE2",
+        "sort": 2000,
+        "tier": 1,
+        "choices": [
+            {
+                "name": "IMPN2_HP",
+                "bonuses": [ "IMPN2_HP" ],
+                "img": { "src": "ce_tech_art", "x": 256, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "IMPN2_AD",
+                "bonuses": [ "IMPN2_AD" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            }
+        ],
+        "requiresBonus": "CE_ARMOR_INOVATION",
+        "dependencies": [ "IMPERIAL_NODE1" ]
+    }
+]

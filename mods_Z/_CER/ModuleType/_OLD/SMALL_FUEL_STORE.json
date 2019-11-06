@@ -1,0 +1,30 @@
+[ 
+    {
+        "name": "SMALL_FUEL_STORE",
+        "categories": ["RESOURCES"],
+	"required": "FUEL_CREATION",
+        "w": 1,
+        "h": 2,
+	"framesAreVariants": true,
+        "appearance": {
+            	"src": "sprite-vabese",
+		"frames": [
+                { "x": 2, "y": 9, "w": 1, "h": 2 },
+                { "x": 3, "y": 9, "w": 1, "h": 2 },
+                { "x": 4, "y": 9, "w": 1, "h": 2 }
+            ]
+        },
+        "hp": 132,
+        "fireHP": 272,
+        "moveDelay": 600,
+        "weight": 66,
+        "cost": 16,
+        "coal": 42,
+        "explodeHP": 2,
+        "explodeDmg": 32,
+        "optionalCrew": 2,
+        "canOccupy": [
+            { "x": 0, "y": 1 }
+        ]
+    }
+]

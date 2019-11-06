@@ -1,0 +1,218 @@
+[
+	{
+		"name": "merchants_Hamlet",
+		"heraldicStyle": "merchant",
+        "upgradeTo": "merchants_village",
+		"img": "merchants_base",
+		"spawnWeight": 15,
+		"needsRoad": true,
+		"income": 10,
+		"mapImage":{ "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["MERCHANT_SMALL"],
+		"baseConstructions": ["MERCHANT_1"],
+		"additionalConstructions": ["MERCHANT_SMALL"],
+		"minAttackFleetStrength": 10000,
+		"attackRadius": 9999,
+		"msUntilUpgrade": 900000,
+		"msForUpgrade": 120000,
+		"upgradeMsPerRaidSuccess": 60000,
+		"incomeModifierPercentage": 10,
+		"rewards": [
+			{
+				"name": "MerchantsCleared",
+				"spawnWeight": 198,
+				"money": 500,
+				"rep": -10
+			},
+			{
+				"name": "MerchantsCleared2",
+				"spawnWeight": 1,
+				"money": 500,
+				"bonus": "EXTRA_INCOME",
+				"rep": -10
+			},
+			{
+				"name": "MerchantsCleared3",
+				"spawnWeight": 1,
+				"money": 500,
+				"bonus": "INDUSTRIOUS",
+				"rep": -10
+			}
+		]
+	},
+	{
+		"name": "merchants_village",
+		"heraldicStyle": "merchant",
+		"upgradeTo": "merchants_town",
+		"img": "merchants_base",
+		"spawnWeight": 0,
+		"needsRoad": true,
+		"income": 30,
+		"mapImage":{ "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["MERCHANT_MEDIUM"],
+		"baseConstructions": ["MERCHANT_2", "MERCHANT_MEDIUM"],
+		"additionalConstructions": ["MERCHANT_1", "MERCHANT_SMALL", "MERCHANT_MEDIUM"],
+		"minAttackFleetStrength": 10000,
+		"attackRadius": 9999,
+		"msUntilUpgrade": 900000,
+		"msForUpgrade": 120000,
+		"upgradeMsPerRaidSuccess": 60000,
+		"incomeModifierPercentage": 20,
+		"rewards": [
+			{
+				"name": "MerchantsCleared",
+				"spawnWeight": 118,
+				"money": 1000,
+				"rep": -20
+			},
+			{
+				"name": "MerchantsCleared2",
+				"spawnWeight": 1,
+				"money": 1000,
+				"bonus": "EXTRA_INCOME",
+				"rep": -20
+			},
+			{
+				"name": "MerchantsCleared3",
+				"spawnWeight": 1,
+				"money": 1000,
+				"bonus": "INDUSTRIOUS",
+				"rep": -20
+			}
+		]
+	},
+	{
+		"name": "merchants_town",
+		"heraldicStyle": "merchant",
+		"upgradeTo": "merchants_large_town",
+		"img": "merchants_base",
+		"spawnWeight": 0,
+		"needsRoad": true,
+		"income": 50,
+		"mapImage":{ "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["MERCHANT_SMALL", "MERCHANT_MEDIUM"],
+		"baseConstructions": ["MERCHANT_2", "MERCHANT_SMALL", "MERCHANT_MEDIUM"],
+		"additionalConstructions": ["MERCHANT_2", "MERCHANT_1", "MERCHANT_SMALL", "MERCHANT_MEDIUM"],
+		"minAttackFleetStrength": 10000,
+		"attackRadius": 9999,
+		"msUntilUpgrade": 900000,
+		"msForUpgrade": 120000,
+		"upgradeMsPerRaidSuccess": 60000,
+		"incomeModifierPercentage": 30,
+		"rewards": [
+			{
+				"name": "MerchantsCleared",
+				"spawnWeight": 79,
+				"money": 1500,
+				"rep": -40
+			},
+			{
+				"name": "MerchantsCleared2",
+				"spawnWeight": 1,
+				"money": 1500,
+				"bonus": "EXTRA_INCOME",
+				"rep": -40
+			},
+			{
+				"name": "MerchantsCleared3",
+				"spawnWeight": 1,
+				"money": 1500,
+				"bonus": "INDUSTRIOUS",
+				"rep": -40
+			}
+		]
+	},
+	{
+		"name": "merchants_large_town",
+		"heraldicStyle": "merchant",
+		"upgradeTo": "merchants_city",
+		"img": "merchants_base",
+		"spawnWeight": 0,
+		"needsRoad": true,
+		"income": 70,
+		"mapImage":{ "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["MERCHANT_LARGE"],
+		"baseConstructions": ["MERCHANT_3", "MERCHANT_LARGE"],
+		"additionalConstructions": ["MERCHANT_2", "MERCHANT_1", "MERCHANT_SMALL", "MERCHANT_MEDIUM", "MERCHANT_LARGE"],
+		"minAttackFleetStrength": 10000,
+		"attackRadius": 9999,
+		"msUntilUpgrade": 900000,
+		"msForUpgrade": 120000,
+		"upgradeMsPerRaidSuccess": 60000,
+		"incomeModifierPercentage": 40,
+		"rewards": [
+			{
+				"name": "MerchantsCleared",
+				"spawnWeight": 58,
+				"money": 2000,
+				"rep": -80
+			},
+			{
+				"name": "MerchantsCleared2",
+				"spawnWeight": 1,
+				"money": 2000,
+				"bonus": "EXTRA_INCOME",
+				"rep": -80
+			},
+			{
+				"name": "MerchantsCleared3",
+				"spawnWeight": 1,
+				"money": 2000,
+				"bonus": "INDUSTRIOUS",
+				"rep": -80
+			}
+		]
+	},
+	{
+		"name": "merchants_city",
+		"heraldicStyle": "merchant",
+		"img": "merchants_base",
+		"spawnWeight": 0,
+		"needsRoad": true,
+		"income": 90,
+		"mapImage":{ "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"mapBackground": { "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"mapFleetImage": { "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"mapFleetBackground": { "src": "ui", "x": 48, "y": 384, "w": 16, "h": 16 },
+		"homeFleet": ["MERCHANT_MEDIUM", "MERCHANT_LARGE", "MERCHANT_LARGE"],
+		"baseConstructions": ["MERCHANT_3", "MERCHANT_BOSS", "MERCHANT_MEDIUM", "MERCHANT_LARGE", "MERCHANT_LARGE"],
+		"additionalConstructions": ["MERCHANT_3", "MERCHANT_2", "MERCHANT_SMALL", "MERCHANT_MEDIUM", "MERCHANT_LARGE"],
+		"minAttackFleetStrength": 10000,
+		"attackRadius": 9999,
+		"incomeModifierPercentage": 50,
+		"rewards": [
+			{
+				"name": "MerchantsCleared",
+				"spawnWeight": 39,
+				"money": 2500,
+				"rep": -160
+			},
+			{
+				"name": "MerchantsCleared2",
+				"spawnWeight": 1,
+				"money": 2500,
+				"bonus": "EXTRA_INCOME",
+				"rep": -160
+			},
+			{
+				"name": "MerchantsCleared3",
+				"spawnWeight": 1,
+				"money": 2500,
+				"bonus": "INDUSTRIOUS",
+				"rep": -160
+			}
+		]
+	}
+]

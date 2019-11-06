@@ -1,0 +1,32 @@
+[
+    {
+        "name": "TURRET_STATION",
+        "categories": ["TROOPS"],
+	"availableFor": [],
+        "w": 2,
+        "h": 2,
+        "appearance": {
+            	"src": "sprite-vabese",
+		"x": 36, "y": 13, "w": 2, "h": 2
+        },
+        "hp": 140,
+        "fireHP": 80,
+        "moveDelay": 600,
+        "weight": 45,
+        "cost": 60,
+        "maintenanceCost": 5,
+        "quarters": 12,
+        "quartersType": "ce_turret",
+        "windows": [
+        	{ "x": 0, "y": 1 }
+        ],
+	"leftDoors": [ 0 ],
+        "rightDoors": [ 0 ],
+	"canOccupy": [			
+		{ "x": 1, "y": 0 },
+        	{ "x": 0, "y": 0 },
+		{ "x": 0, "y": 1 },
+		{ "x": 1, "y": 1 }
+	]
+    }
+]

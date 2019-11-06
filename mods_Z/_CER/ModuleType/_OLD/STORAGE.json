@@ -1,0 +1,55 @@
+[
+    {
+        "name": "STORAGE",
+        "categories": ["RESOURCES", "ECONOMIC"],
+	"required": "COMMERCE_HAGGELING",
+        "w": 5,
+        "h": 3,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 0,
+            "y": 0,
+            "w": 5,
+            "h": 3
+        },
+        "hp": 750,
+        "fireHP": { "base": 375, "SAFER_AMMO_STORAGE": 94 },
+        "moveDelay": 600,
+        "weight": 325,
+        "cost": 360,
+	"repair": 42,
+	"coal": 4,
+        "water": 14,
+	"ammo": { "base": 7, "EFFICIENT_AMMO_STORAGE": 9 },
+	"optionalCrew": 3,
+        "recommendedCrew": 1,
+        "maintenanceCost": -8,
+	"recommendedGuards": 1,
+        "windows": [
+            	{ "x": 0, "y": 0 },
+            	{ "x": 4, "y": 0 },
+            	{ "x": 0, "y": 2 },
+		{ "x": 4, "y": 2 }
+        ],
+        "upDoors": [ 0, 4],
+        "leftDoors": [ 0, 1, 2 ],
+        "rightDoors": [ 0, 1, 2 ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 3, "y": 0 },
+            { "x": 4, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 },
+            { "x": 2, "y": 1 },
+            { "x": 3, "y": 1 },
+            { "x": 4, "y": 1 },
+            { "x": 0, "y": 2 },
+            { "x": 1, "y": 2 },
+            { "x": 2, "y": 2 },
+            { "x": 3, "y": 2 },
+            { "x": 4, "y": 2 }
+        ]
+    }
+]

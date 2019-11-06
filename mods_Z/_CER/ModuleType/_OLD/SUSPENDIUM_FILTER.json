@@ -1,0 +1,114 @@
+[
+    {
+        "name": "SUSPENDIUM_FILTER",
+        "categories": ["ECONOMIC"],
+	"required": "COMMERCE_SUSPEDIUM_COLLECTION",
+        "w": 5,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 10,
+            "y": 10,
+            "w": 5,
+            "h": 1
+        },
+		"externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 11,
+                    "y": 5,
+					"w": 2,
+					"h": 1
+                },
+                "x": 5,
+                "y": 0
+            },
+						{
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 10,
+                    "y": 5,
+					"w": 2,
+					"h": 1
+                },
+                "x": -2,
+                "y": 0
+            },
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 15,
+                    "y": 10,
+					"w": 1,
+					"h": 1
+                },
+                "x": 3,
+                "y": 0
+            },
+						{
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 15,
+                    "y": 10,
+					"w": 1,
+					"h": 1
+                },
+                "x": 1,
+                "y": 0
+            }
+		],
+        "hp": 250,
+        "emitters": [
+            {
+                "x": 1.0,
+                "y": 0.0,
+                "type": "smoke",
+                "emitProbability": 0.003
+            },
+            {
+                "x": 3.0,
+                "y": 0.0,
+                "type": "smoke",
+                "emitProbability": 0.003
+            },
+            {
+                "x": 3.25,
+                "y": 0.7,
+                "type": "ember",
+                "emitProbability": 0.001,
+                "inside": true
+            },
+            {
+                "x": 1.75,
+                "y": 0.7,
+                "type": "ember",
+                "emitProbability": 0.001,
+                "inside": true
+            },
+            {
+                "x": 0.75,
+                "y": 0.55,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.007,
+                "inside": true
+            },
+            {
+                "x": 4.25,
+                "y": 0.55,
+                "type": "small_susp_chamber_spark",
+                "emitProbability": 0.007,
+                "inside": true
+            }],
+        "fireHP": 50,
+        "explodeHP": 25,
+        "explodeDmg": 50,
+        "frontOnly": true,
+        "upDoors": [ 2 ],
+        "backOnly": true,
+        "moveDelay": 1000,
+        "maintenanceCost": -15,
+        "weight": 250,
+        "cost": 450
+    }
+]

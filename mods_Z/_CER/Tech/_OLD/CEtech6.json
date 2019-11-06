@@ -1,0 +1,137 @@
+[
+    {
+        "name": "MODULAIRIZATION_MECHANIS",
+        "sort": 6000,
+        "tier": 6,
+        "bonuses": [ "MECHANIS_MODULAIRIZATION" ],
+        "requiresBonus": "CEDRONE",
+        "dependencies": [ "THEORY_MECHANIS" ],
+        "img": { "src": "ce_tech_art", "x": 320, "y": 128, "w": 64, "h": 64 }
+    },
+    {
+        "name": "IMPLIMENTATION_MECHANIS",
+        "sort": 6001,
+        "tier": 6,
+        "bonuses": [ "MECHANIS_IMPLIMENTATION" ],
+        "requiresBonus": "CEDRONE",
+        "dependencies": [ "THEORY_MECHANIS" ],
+        "img": { "src": "ce_tech_art", "x": 960, "y": 0, "w": 64, "h": 64 }
+    },
+    {
+        "name": "6_MECHANIS",
+        "sort": 6002,
+        "tier": 6,
+        "bonuses": [],
+        "requiresBonus": "MONSTERS",
+        "dependencies": [ "THEORY_MECHANIS" ],
+        "img": { "src": "ce_tech_art", "x": 0, "y": 0, "w": 64, "h": 64 }
+    },
+	{
+        "name": "SPYCRAFT1A",
+        "sort": 6003,
+        "tier": 6,
+        "requiresBonus": "BOMBS",
+        "bonuses": [ "SPYCRAFT1A" ],
+        "dependencies": [ "SPYCRAFT0" ],
+        "img": { "src": "ce_tech_art", "x": 896, "y": 192, "w": 64, "h": 64 }
+    },
+	{
+        "name": "SPYCRAFT1B",
+        "sort": 6004,
+        "tier": 6,
+        "requiresBonus": "TELESCOPES",
+        "bonuses": [ "SPYCRAFT1B" ],
+        "dependencies": [ "SPYCRAFT0" ],
+        "img": { "src": "ce_tech_art", "x": 960, "y": 192, "w": 64, "h": 64 }
+    },
+    {
+        "name": "SIMPLE_HOUSING",
+        "sort": 6010,
+        "tier": 6,
+        "requiresBonus": "CE_TENTS",
+        "bonuses": [ "CE_HOUSE_SMALL" ],
+        "dependencies": [ "TENT_CRAFT" ],
+        "img": { "src": "ce_tech_art", "x": 768, "y": 64, "w": 64, "h": 64 }
+    },
+    {
+        "name": "CE_SUSPEND_HEAVY",
+        "sort": 6530,
+        "tier": 6,
+        "bonuses": [ "CE_SUSPEND_HEAVY" ],
+        "dependencies": [ "CE_SUSPEND_KICKBACK" ],
+        "img": { "src": "ce_tech_art", "x": 0, "y": 128, "w": 64, "h": 64 }
+    },
+    {
+        "name": "CE_SUSPEND_HARPOON",
+        "sort": 6590,
+        "tier": 6,
+        "bonuses": [ "CE_SUSPEND_HARPOON" ],
+        "dependencies": [ "CE_SUSPEND_KICKBACK" ],
+        "img": { "src": "ce_tech_art", "x": 64, "y": 128, "w": 64, "h": 64 }
+    },
+    {
+        "name": "CE_ARMOR_STACKING",
+        "sort": 6975,
+        "tier": 6,
+        "bonuses": [ "CE_ARMOR_STACKING" ],
+        "requiresBonus": "MASSIVE_STONE_WALLS",
+        "dependencies": ["CE_ARMOR_EMERGANCY"],
+        "img": { "src": "ce_tech_art", "x": 192, "y": 128, "w": 64, "h": 64 }
+    },
+    {
+        "name": "CE_ARMOR_INOVATION",
+        "sort": 6925,
+        "tier": 6,
+        "bonuses": [ "CE_ARMOR_INOVATION" ],
+        "requiresBonus": "MASSIVE_STONE_WALLS",
+        "dependencies": ["CE_ARMOR_EMERGANCY"],
+        "img": { "src": "ce_tech_art", "x": 256, "y": 128, "w": 64, "h": 64 }
+    },
+	{
+        "name": "CE_LONG_RANGE_BOMBS",
+        "sort": 6990,
+        "tier": 6,
+        "requiresBonus": "TELESCOPES",
+	"dependencies": ["CE_LONG_RANGE"],
+        "bonuses": [ "LONG_RANGE_BOMBS" ],
+        "img": { "src": "ce_tech_art", "x": 704, "y": 196, "w": 64, "h": 64 }
+    },
+    {
+        "name": "ROCKET_CREATION",
+        "sort": 6991,
+        "tier": 6,
+        "bonuses": [ "ROCKET_CREATION" ],
+        "dependencies": ["OIL_FUEL_REFINING"],
+	"requiresBonus": "FLAMETHROWERS",
+        "img": { "src": "ce_tech_art", "x": 768, "y": 196, "w": 64, "h": 64 }
+    },
+    {
+        "name": "IMPERIAL_NODE7",
+        "sort": 7000,
+        "tier": 6,
+        "choices": [
+            {
+                "name": "IMPN7_STEEL",
+                "bonuses": [ "IMPN7_STEEL" ],
+                "img": { "src": "ce_tech_art", "x": 256, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "IMPN7_WOOD",
+                "bonuses": [ "IMPN7_WOOD" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "IMPN7_STONE",
+                "bonuses": [ "IMPN7_STONE" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "IMPN7_SHELL",
+                "bonuses": [ "IMPN7_SHELL" ],
+                "img": { "src": "ce_tech_art", "x": 320, "y": 192, "w": 64, "h": 64 }
+            }
+        ],
+        "requiresBonus": "CE_ARMOR_INOVATION",
+        "dependencies": [ "IMPERIAL_NODE6" ]
+    }
+]

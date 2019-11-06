@@ -1,0 +1,200 @@
+[
+    {
+        "name": "LARGE_COPTER",
+        "categories": ["LIFT", "PROPULSION"],
+	"required": "COMBINED_PROPULSION_ADVANCED",
+        "availableFor": ["AIRSHIP"],
+        "w": 4,
+        "h": 3,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 70,
+            "frames": [
+                {
+                    "x": 60,
+                    "y": 12,
+                    "w": 4,
+                    "h": 3
+                },
+                {
+                    "x": 60,
+                    "y": 15,
+                    "w": 4,
+                    "h": 3
+                },
+                {
+                    "x": 60,
+                    "y": 18,
+                    "w": 4,
+                    "h": 3
+                },
+                {
+                    "x": 60,
+                    "y": 21,
+                    "w": 4,
+                    "h": 3
+                },
+                {
+                    "x": 60,
+                    "y": 24,
+                    "w": 4,
+                    "h": 3
+                }
+            ]
+        },
+        "externalAppearances": [
+            {
+                "x": 1,
+                "y": -2,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 37,
+                    "y": 6,
+                    "w": 2,
+                    "h": 2
+				}
+			},
+			{
+                "x": -1,
+                "y": 0,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "interval": 90,
+                    "frames": [
+                        {
+                            "x": 54,
+                            "y": 9,
+                            "w": 6,
+                            "h": 3
+                        },
+                        {
+                            "x": 54,
+                            "y": 12,
+                            "w": 6,
+                            "h": 3
+                        },
+                        {
+                            "x": 54,
+                            "y": 15,
+                            "w": 6,
+                            "h": 3
+                        },
+                        {
+                            "x": 54,
+                            "y": 18,
+                            "w": 6,
+                            "h": 3
+                        },
+                       {
+                            "x": 54,
+                            "y": 21,
+                            "w": 6,
+                            "h": 3
+                        },
+                       {
+                            "x": 54,
+                            "y": 24,
+                            "w": 6,
+                            "h": 3
+                        }
+					]
+				}
+			}
+        ],
+        "damagedExternalAppearances": [
+            {
+                "x": 1,
+                "y": -2,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 41,
+                    "y": 6,
+                    "w": 2,
+                    "h": 2
+                }
+            }
+        ],
+        "destroyedExternalAppearances": [
+            {
+                "x": 1,
+                "y": -2,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 45,
+                    "y": 6,
+                    "w": 2,
+                    "h": 2
+                }
+            }
+        ],
+        "hp": 200,
+        "fireHP": 120,
+        "moveDelay": 800,
+        "weight": 350,
+        "cost": 250,
+        "propulsion": 0.1350,
+        "lift": { "base": 4000, "SUSPENDIUM_SPECIALISTS": 5200 },	
+        "coalReload": 7000,
+        "crew": 2,
+        "recommendedCrew": 3,
+	"recommendedGuards": 3,
+        "topOnly": true,
+        "runningLoop": {
+            "layers": [
+                {
+                    "variations": [ "engine_1600" ],
+                    "volume": {
+                        "value": 1.2,
+                        "onViewingSide": [
+                            0, 0.5,
+                            1, 1
+                        ],
+                        "xSpeed": [
+                            -0.3, 1.2,
+                            0, 0.4,
+                            0.3, 1.2
+                        ]
+                    },
+                    "pitch": {
+                        "min": 0.85,
+                        "max": 0.85,
+                        "xSpeed": [
+                            -0.3, 1.2,
+                            0, 0.8,
+                            0.3, 1.2
+                        ]
+                    }
+                }
+            ]
+        },
+        "emitters": [
+            {
+                "x": 1.08,
+                "y": -1.9,
+                "type": "smoke",
+                "emitProbability": 0.005
+            },
+            {
+                "x": 0.69,
+                "y": 2.56,
+                "type": "ember",
+                "emitProbability": 0.004,
+                "inside": true
+            }
+        ],
+        "lights": [
+            {
+                "r": 255, "g": 90, "b": 10,
+                "radius": 60,
+                "x": 0.69,
+                "y": 2.56
+            },
+            {
+                "r": 232, "g": 232, "b": 156,
+                "radius": 80,
+                "x": 2.5,
+                "y": 1.5
+            }
+        ]
+    }
+]

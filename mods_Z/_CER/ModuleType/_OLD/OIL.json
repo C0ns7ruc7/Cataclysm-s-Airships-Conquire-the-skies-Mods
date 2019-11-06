@@ -1,0 +1,168 @@
+[
+    {
+        "name": "OIL",
+        "categories": ["ECONOMIC"],
+        "availableFor": ["BUILDING"],
+	"required": "COMMERCE_ORGENIZED_GATHERING",
+		"external": true,
+        "w": 9,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-vabese",
+            "x": 2,
+            "y": 11,
+            "w": 9,
+            "h": 2
+        },
+		"externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 10,
+                    "y": 0,
+					"w": 3,
+					"h": 5
+                },
+                "x": 1,
+                "y": -3
+            },
+						{
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 3,
+                    "y": 6,
+					"w": 1,
+					"h": 1
+                },
+                "x": 0,
+                "y": 2
+            },
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 4,
+                    "y": 6,
+					"w": 1,
+					"h": 1
+                },
+                "x": 1,
+                "y": 2
+            },
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 4,
+                    "y": 7,
+					"w": 1,
+					"h": 1
+                },
+                "x": 2,
+                "y": 2
+            },
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 4,
+                    "y": 8,
+					"w": 1,
+					"h": 1
+                },
+                "x": 3,
+                "y": 2
+            },
+			{
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 3,
+                    "y": 6,
+					"w": 1,
+					"h": 1
+                },
+                "x": 4,
+                "y": 2
+            },
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 4,
+                    "y": 6,
+					"w": 1,
+					"h": 1
+                },
+                "x": 5,
+                "y": 2
+            },
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 4,
+                    "y": 7,
+					"w": 1,
+					"h": 1
+                },
+                "x": 6,
+                "y": 2
+            },
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 4,
+                    "y": 8,
+					"w": 1,
+					"h": 1
+                },
+                "x": 7,
+                "y": 2
+            },
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 3,
+                    "y": 6,
+					"w": 1,
+					"h": 1
+                },
+                "x": 8,
+                "y": 2
+            },
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 10,
+                    "y": 0,
+					"w": 3,
+					"h": 5
+                },
+                "x": 5,
+                "y": -3
+            } 
+		],
+        "emitters": [
+            {
+                "x": 2.5,
+                "y": -3.1,
+                "type": "smoke",
+                "emitProbability": 0.003
+            },
+            {
+                "x": 6.5,
+                "y": -3.1,
+                "type": "smoke",
+                "emitProbability": 0.003
+            }
+        ],
+        "hp": 600,
+        "fireHP": 350,
+        "isExplosive": true,
+        "explodeHP": 150,
+	"explodeDmg": 250,
+	"countsAsActiveCrew": true,
+        "topOnly": true,
+        "bottomOnly": true,
+        "moveDelay": 550,
+        "maintenanceCost": -108,
+        "weight": 5000,
+      	"structuralStressAmount": -4000,
+        "cost": 2880
+    }
+]

@@ -1,0 +1,48 @@
+[{
+        "name": "MOTOR_END",
+        "categories": ["UNIT"],
+        "external": true,
+        "availableFor": ["AIRSHIP"],
+	"required": "MECH_MODULAIR",
+	"w": 1,
+        "h": 1,
+        "appearance": {
+			"src": "sprite-vabese",
+			"interval": 100,
+			"frames":[
+			{"x": 23, "y": 11, "w": 1, "h": 1},
+			{"x": 23, "y": 13, "w": 1, "h": 1},
+			{"x": 23, "y": 11, "w": 1, "h": 1},
+			{"x": 23, "y": 14, "w": 1, "h": 1}
+			]
+        },
+        "externalAppearances": [
+            {
+                "appearance": {
+                    "src": "sprite-vabese",
+					"interval": 100,
+					"frames":[
+						{"x": 23, "y": 11, "w": 1, "h": 1},
+						{"x": 23, "y": 13, "w": 1, "h": 1},
+						{"x": 23, "y": 11, "w": 1, "h": 1},
+						{"x": 23, "y": 14, "w": 1, "h": 1}
+						]
+            },
+			    "x": 0,
+                "y": 0
+			}
+        ],
+        "hp": 150,
+        "shipHPBonus": 50,
+        "fireHP": 200,
+        "explodeHP": 100,
+        "explodeDmg": 1250,
+        "weight": 20,
+        "cost": 40,
+        "propulsion": 0.02,
+        "crew": 0,
+        "maintenanceCost": { "base": 5, "UNIVERSAL_CONSCRIPTION": 0 },
+        "backOnly": true,
+
+        "canOccupy": []
+}]

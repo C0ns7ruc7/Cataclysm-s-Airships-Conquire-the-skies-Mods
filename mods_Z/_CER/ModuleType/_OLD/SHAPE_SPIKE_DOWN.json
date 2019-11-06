@@ -1,0 +1,53 @@
+[
+    {
+        "name": "FLIPPED_SPIKE_DOWN_A",
+        "flippedFrom": "SPIKE_DOWN"
+    },
+    {
+        "name": "SPIKE_DOWN",
+        "categories": ["SHAPING"],
+        "required": "CONSTRUCTION_SIMPLE",
+        "w": 1,
+        "h": 2,
+        "appearance": 
+		{
+            "src": "sprite-vabese",
+			"w": 1,
+			"h": 2,
+            "x": 0,
+            "y": 11
+        },
+        "mask": {
+            "x": 23,
+            "y": 37
+        },
+        "externalAppearances": 
+		[
+            {
+                "appearance": 
+				{
+                    "src": "sprite-vabese",
+					"w": 1,
+					"h": 2,
+                    "x": 0,
+                    "y": 11
+                },
+                "x": 0,
+                "y": 0
+            }
+        ],
+        "hp": 150,
+        "fireHP": 30,
+        "moveDelay": 10000,
+        "weight": 2,
+        "cost": 5,
+        "adjacencyBonusStrength": 0.9,
+        "hardness": 0.5,
+        "structuralStressAmount": 1,
+        "drawExternalsBelowDecals": true,
+        "drawAppearanceInside": false,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+        "externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
+        "canOccupy": []
+    }
+]

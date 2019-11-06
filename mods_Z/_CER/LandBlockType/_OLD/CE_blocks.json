@@ -1,0 +1,39 @@
+[
+    {
+        "name": "CE_REINFORCED_GROUND",
+        "removeCost": 20,
+        "addCost": 10,
+        "canPlace": true,
+        "canPlaceInMissionEditor": true,   
+        "canOverhang": true, 
+        "damageMultiplier": 1.0,
+        "hp": 300,
+        "armour": 300,
+        "weight": 500,
+        "destroyParticle": "rock_bit",
+        "landFormationRemoveStopper": true,
+        "appearance": {
+            "src": "sprite-vabese",
+            "frames": [
+                { "x": 14, "y": 19 },
+                { "x": 14, "y": 20 },
+                { "x": 14, "y": 21 }
+            ]
+        },
+        "destroySound": {
+            "layers": [
+                {
+                    "variations": ["rock0", "rock1", "rock2"],
+                    "volume": {
+                        "min": 0.9,
+                        "max": 1.1
+                    },
+                    "pitch": {
+                        "min": 0.8,
+                        "max": 1.2
+                    }
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "name": "DRONE_SMALL_AMMO",
+        "categories": ["DRONE"],
+	"required": "MECHANIS_THEORY",
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 120,
+            "frames": [
+                {"x": 60, "y": 8, "w": 1, "h": 1},
+                {"x": 61, "y": 8, "w": 1, "h": 1},
+				{"x": 62, "y": 8, "w": 1, "h": 1}
+            ]
+        },
+		"externalAppearances": [
+            {
+                "x": 0,
+                "y": -1,
+                "appearance": {
+                    "src": "sprite-vabese",
+                    "x": 63,
+                    "y": 0,
+                    "w": 1,
+                    "h": 2
+                }
+            }
+        ],
+        "hp": 300,
+	"destroyedHP": -400,
+        "fireHP": { "base": 80, "MECHANIS_COMPLETION": 40 },
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
+        "ammo": { "base": 24, "MECHANIS_COMPLETION": 48 },
+	"maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+        "explodeHP": { "base": 40, "MECHANIS_COMPLETION": 20 },
+        "explodeDmg": { "base": 120, "MECHANIS_COMPLETION": 60 },
+        "moveDelay": 600,
+        "weight": 105,
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 52 },
+        "cost": 95,
+	"command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+	"accuracyBonus": 0.10,
+        "shipHPBonus": 100,
+        "structuralStressAmount": -10,
+ 	"upDoors": [ 0 ]
+    }
+]

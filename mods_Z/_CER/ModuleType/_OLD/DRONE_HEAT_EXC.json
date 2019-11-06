@@ -1,0 +1,62 @@
+[
+    {
+        "name": "DRONE_HEAT_EXC",
+        "categories": ["DRONE"],
+	"required": "MECHANIS_IMPLIMENTATION",
+        "w": 2,
+        "h": 2,
+        "appearance": {
+            "src": "sprite-vabese",
+            "interval": 150,
+            "x": 60,
+            "y": 30,
+            "w": 2,
+            "h": 2
+        },
+	"externalAppearances": [
+	  	{
+                	"x": 0,
+                	"y": 0,
+                	"appearance":{
+		        	"src": "sprite-vabese",
+				"interval": 200,
+				"frames": [
+					{ "x": 62, "y": 30, "w": 2, "h": 2 },
+					{ "x": 62, "y": 32, "w": 2, "h": 2 },
+					{ "x": 62, "y": 34, "w": 2, "h": 2 },
+					{ "x": 62, "y": 36, "w": 2, "h": 2 },
+					{ "x": 60, "y": 36, "w": 2, "h": 2 },
+					{ "x": 60, "y": 34, "w": 2, "h": 2 },
+					{ "x": 60, "y": 32, "w": 2, "h": 2 },
+					{ "x": 58, "y": 35, "w": 2, "h": 2 }
+				]
+                	}
+            	}
+        ],
+        "hp": 300,
+	"destroyedHP": -400,
+        "fireHP": { "base": 50, "MECHANIS_COMPLETION": 25 },
+        "moveDelay": 800,
+        "weight": 180,
+        "cost": 195,
+        "recommendedCrew": 1,
+        "recommendedGuards": 1,
+        "isExplosive": true,
+	"ammo": { "base": 0, "MECHANIS_COMPLETION": 10 },
+        "explodeHP": { "base": 10, "MECHANIS_MODULAIRIZATION": 0 },
+        "lift": { "base": 0, "MECHANIS_COMPLETION": 60 },
+        "explodeDmg": { "base": 10, "MECHANIS_MODULAIRIZATION": 0 },
+        "maintenanceCost": { "base": 15, "MECHANIS_COMPLETION": 10 },
+        "command": { "base": -1, "MECHANIS_COMPLETION": 0 },
+	"accuracyBonus": 0.10,
+        "shipHPBonus": 300,
+        "structuralStressAmount": -300,
+	"leftDoors": [ 0, 1],
+	"upDoors": [ 0, 1 ],
+        "rightDoors": [ 0, 1 ],
+        "canOccupy": [          
+            { "x": 0, "y": 0 }, { "x": 1, "y": 0 },
+            { "x": 0, "y": 1 }, { "x": 1, "y": 1 }
+        ]
+    }
+]
